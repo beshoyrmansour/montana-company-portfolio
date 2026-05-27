@@ -1,0 +1,63 @@
+{
+  "slug": "carrots",
+  "name": {
+    "en": "Carrots",
+    "ar": "جزر",
+    "fr": "Carottes"
+  },
+  "shortDescription": {
+    "en": "Home grown of highest quality seeds — produced in 3 shapes per customer request.",
+    "ar": "مزروعة منزلياً من أجود البذور - منتجة في ٣ أشكال حسب طلب العميل.",
+    "fr": "Cultivées à partir des meilleures graines — produites en 3 formes selon les demandes."
+  },
+  "description": {
+    "en": "Home grown of the highest quality seeds and produced in 3 different shapes upon customers' requests: Dices (1cm × 1cm), Crinkled dices, Slices.",
+    "ar": "مزروعة منزلياً من أجود البذور وتنتج في ٣ أشكال مختلفة بناءً على طلب العملاء: مكعبات (١سم × ١سم)، مكعبات مموجة، شرائح.",
+    "fr": "Cultivées à nos exploitations agricoles à partir de graines de meilleure qualité et produites sous 3 formes différentes selon la demande des clients."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["popular"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Diced 1cm",
+        "ar": "مكعبات ١سم",
+        "fr": "Dés 1cm"
+      }
+    },
+    {
+      "name": {
+        "en": "Crinkled dices",
+        "ar": "مكعبات مموجة",
+        "fr": "Dés gaufrés"
+      }
+    },
+    {
+      "name": {
+        "en": "Slices",
+        "ar": "شرائح",
+        "fr": "Tranches"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "250 g",
+      "perCarton": "32 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["jan", "feb", "mar", "jun", "jul"],
+  "images": {
+    "primary": "/images/products/lifestyle/carrots.jpg",
+    "gallery": ["/images/products/carrots-cubes.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["peas-and-carrots", "mixed-vegetables", "sweet-corn"]
+}

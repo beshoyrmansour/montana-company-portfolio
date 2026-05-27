@@ -1,0 +1,24 @@
+{
+  "slug": "haccp-certification",
+  "publishedAt": "2026-01-15",
+  "category": "corporate",
+  "featured": true,
+  "title": {
+    "en": "About our HACCP certification",
+    "ar": "حول شهادة HACCP الخاصة بنا",
+    "fr": "À propos de notre certification HACCP"
+  },
+  "excerpt": {
+    "en": "Why food safety is not a marketing claim at Montana — it's a daily operating discipline.",
+    "ar": "لماذا سلامة الغذاء ليست ادعاءً تسويقياً في مونتانا، بل هي ممارسة يومية.",
+    "fr": "Pourquoi la sécurité alimentaire n'est pas un argument marketing chez Montana, mais une discipline quotidienne."
+  },
+  "body": {
+    "en": "Montana has held HACCP (Hazard Analysis and Critical Control Points) certification since the early 2000s. HACCP is an internationally recognized food-safety management system that requires a manufacturer to identify, evaluate, and control hazards at every step of production — from seed to packaging.\n\nFor Montana, certification is the floor, not the ceiling. Strict adherence to good manufacturing practices (GMP) and careful application of food sanitation are evident in all stages of our manufacturing process. The commitment to service begins right in the field with cautious utilization of fertilizers and pesticides. This ensures a consistent high-quality harvest of the best nutritional properties.\n\nMicrobiological analysis, monitoring, and random inspections are of paramount importance prior to, during, and after providing the end product. Our quality assurance lab rechecks all frozen vegetables regularly, using the most advanced technology to guarantee the safest and finest products.\n\nAlongside HACCP, Montana is ISO 9002 certified. Both certifications are renewed on schedule, audited annually by accredited third-party bodies.",
+    "ar": "تحمل مونتانا شهادة HACCP منذ بداية الألفية. تتطلب HACCP من المصنع تحديد وتقييم والتحكم في المخاطر في كل خطوة من خطوات الإنتاج، من البذرة إلى التغليف. بالنسبة لمونتانا، الشهادة هي الأرضية، وليست السقف. يتضح الالتزام الصارم بممارسات التصنيع الجيدة (GMP) والتطبيق الدقيق لمعايير سلامة الغذاء في جميع مراحل عملية التصنيع.",
+    "fr": "Montana détient la certification HACCP depuis le début des années 2000. HACCP exige d'un fabricant qu'il identifie, évalue et contrôle les risques à chaque étape de la production — de la semence à l'emballage. Pour Montana, la certification est le plancher, pas le plafond."
+  },
+  "author": "Montana",
+  "coverImage": "/images/facility/qa-microscope.jpg",
+  "tags": ["quality", "certification", "haccp", "iso"]
+}

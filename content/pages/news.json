@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "The newsroom",
+      "ar": "غرفة الأخبار",
+      "fr": "La rédaction"
+    },
+    "headline": {
+      "lead": {
+        "en": "News from",
+        "ar": "أخبار من",
+        "fr": "Nouvelles du"
+      },
+      "em": {
+        "en": "the delta.",
+        "ar": "الدلتا.",
+        "fr": "delta."
+      }
+    },
+    "subtitle": {
+      "en": "Quarterly updates from Kalioub — press, heritage stories, quality reports, and the people behind every shipment.",
+      "ar": "تحديثات ربع سنوية من القليوب — صحافة، قصص تراث، تقارير جودة، والأشخاص خلف كل شحنة.",
+      "fr": "Mises à jour trimestrielles depuis Kalioub — presse, récits de l'héritage, rapports qualité, et les personnes derrière chaque expédition."
+    }
+  },
+  "list": {
+    "enabled": true,
+    "emptyMessage": {
+      "en": "No articles in this category yet.",
+      "ar": "لا توجد مقالات في هذه الفئة بعد.",
+      "fr": "Aucun article dans cette catégorie pour le moment."
+    },
+    "allLabel": {
+      "en": "All",
+      "ar": "الكل",
+      "fr": "Tout"
+    },
+    "featuredLabel": {
+      "en": "Featured",
+      "ar": "مميز",
+      "fr": "À la une"
+    },
+    "readMinSuffix": {
+      "en": "min read",
+      "ar": "دقيقة قراءة",
+      "fr": "min de lecture"
+    },
+    "readMoreLabel": {
+      "en": "Read the full story",
+      "ar": "اقرأ القصة الكاملة",
+      "fr": "Lire la suite"
+    },
+    "categories": [
+      {
+        "id": "corporate",
+        "label": { "en": "Corporate", "ar": "الشركة", "fr": "Entreprise" }
+      },
+      {
+        "id": "product",
+        "label": { "en": "Product", "ar": "منتج", "fr": "Produit" }
+      },
+      {
+        "id": "market",
+        "label": { "en": "Markets", "ar": "الأسواق", "fr": "Marchés" }
+      },
+      {
+        "id": "sustainability",
+        "label": { "en": "Sustainability", "ar": "الاستدامة", "fr": "Durabilité" }
+      },
+      {
+        "id": "press",
+        "label": { "en": "Press", "ar": "صحافة", "fr": "Presse" }
+      }
+    ]
+  },
+  "newsletter": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Quarterly newsletter",
+      "ar": "النشرة الفصلية",
+      "fr": "Lettre trimestrielle"
+    },
+    "title": {
+      "lead": {
+        "en": "News,",
+        "ar": "الأخبار،",
+        "fr": "L'actualité,"
+      },
+      "em": {
+        "en": "before it's public.",
+        "ar": "قبل أن تصبح علنية.",
+        "fr": "avant qu'elle ne sorte."
+      }
+    },
+    "body": {
+      "en": "A short letter every quarter from our export desk — new markets, capacity changes, season previews. Twelve hundred trade buyers subscribe; you can join them.",
+      "ar": "رسالة قصيرة كل ربع سنة من مكتب التصدير لدينا — أسواق جديدة، تغييرات في الطاقة الإنتاجية، معاينات الموسم. ألف ومائتا مشترٍ تجاري مشترك؛ يمكنك الانضمام إليهم.",
+      "fr": "Une courte lettre chaque trimestre depuis notre service export — nouveaux marchés, évolutions de capacité, aperçus de saison. Mille deux cents acheteurs commerciaux y sont abonnés ; vous pouvez les rejoindre."
+    },
+    "placeholder": "trade@yourcompany.com",
+    "submitLabel": {
+      "en": "Subscribe",
+      "ar": "اشترك",
+      "fr": "S'inscrire"
+    },
+    "successMessage": {
+      "en": "Thanks, you're on the list. We'll send the next quarterly letter.",
+      "ar": "شكراً، تم تسجيل بريدك. سنرسل لك خطاب الربع القادم.",
+      "fr": "Merci, vous êtes inscrit. Vous recevrez notre prochain trimestriel."
+    }
+  }
+}

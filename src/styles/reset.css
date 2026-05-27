@@ -1,0 +1,183 @@
+/* ─────────────────────────────────────────────────────────────────
+ * Montana — Modern CSS Reset
+ * Inspired by Josh Comeau, Andy Bell. Tuned for RTL + theme switching.
+ *
+ * IMPORTANT: All rules are inside @layer base so Tailwind utility
+ * classes (which sit in the utilities layer) always win when applied.
+ * Without this layer wrapper, `img { height: auto }` here would beat
+ * `class="h-10"` from Tailwind — causing logos to render at intrinsic size.
+ * ───────────────────────────────────────────────────────────────── */
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    /* Per-locale dir is set on <html> in Next.js layout */
+  }
+
+  body {
+    font-family: var(--font-sans-latin);
+    font-size: var(--text-body);
+    font-weight: var(--weight-regular);
+    line-height: var(--leading-body);
+    color: var(--color-text);
+    background: var(--color-surface);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  /* Heading defaults */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: var(--weight-semibold);
+    line-height: var(--leading-heading);
+    letter-spacing: var(--tracking-tight);
+    text-wrap: balance;
+    color: inherit;
+  }
+
+  p,
+  li {
+    text-wrap: pretty;
+  }
+
+  /* Lists: keep semantics, drop default styles where appropriate */
+  ul[role='list'],
+  ol[role='list'] {
+    list-style: none;
+  }
+
+  /* Links — no underline by default (chrome/nav/footer/cards stay clean).
+     In-content prose links re-apply underline via `.prose a` in globals.css. */
+  a {
+    color: var(--color-brand-primary);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  a:hover {
+    color: var(--color-brand-primary-hover);
+  }
+
+  /* Images — `max-width: 100%` only (no `height: auto`).
+     Height-auto here would override Tailwind's h-* utilities (e.g. h-10 on the logo). */
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* Default forms */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+    color: inherit;
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  /* Focus ring — visible only on keyboard navigation */
+  :where(button, a, input, select, textarea, [tabindex]):focus-visible {
+    outline: var(--focus-ring-width) solid var(--color-focus-ring);
+    outline-offset: var(--focus-ring-offset);
+    border-radius: var(--radius-sm);
+  }
+
+  /* Selection */
+  ::selection {
+    background: var(--color-brand-primary);
+    color: var(--color-text-on-brand);
+  }
+
+  /* Scrollbar (Webkit) */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-surface-muted);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border-strong);
+    border-radius: var(--radius-full);
+    border: 3px solid var(--color-surface-muted);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-subtle);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────
+ * Arabic typography — UNLAYERED.
+ * Why unlayered: the body carries Tailwind's `font-sans` utility,
+ * which lives in `@layer utilities` and beats anything in `@layer base`,
+ * regardless of selector specificity. Unlayered styles always beat
+ * layered ones, so this rule actually applies on AR pages.
+ * Matched on lang AND dir because the SSR'd <html> ships with lang=en/dir=ltr
+ * and an inline script flips both on hydration — either trigger is enough.
+ * ───────────────────────────────────────────────────────────────── */
+html[lang='ar'] body,
+html[dir='rtl'] body {
+  font-family: var(--font-sans-arabic);
+  line-height: var(--leading-arabic);
+}
+
+/* Mixed content — Latin script inside Arabic body */
+html[lang='ar'] :where(bdi[dir='ltr'], [dir='ltr']),
+html[dir='rtl'] :where(bdi[dir='ltr'], [dir='ltr']) {
+  font-family: var(--font-sans-latin);
+  line-height: var(--leading-body);
+}
+
+/* Skip link — visible on focus. Outside @layer base because it's a utility. */
+.skip-link {
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0;
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-brand-primary);
+  color: var(--color-text-on-brand);
+  border-radius: 0 0 var(--radius-md) 0;
+  transform: translateY(-100%);
+  transition: transform var(--duration-base) var(--ease-out);
+  z-index: var(--z-tooltip);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}

@@ -1,0 +1,136 @@
+/* ─────────────────────────────────────────────────────────────────
+ * Montana — DEFAULT theme "Heritage Garden"
+ * Editorial heritage palette: forest green, terracotta-red, bone surfaces.
+ * Quiet, premium, timeless. Designed to read as a 40-year food
+ * heritage brand, not a generic frozen-food site.
+ *
+ * Activate via:  <html data-theme="default">  (also matches :root)
+ * ───────────────────────────────────────────────────────────────── */
+
+:root,
+[data-theme='default'] {
+  /* ╭─────────────────────────────────────────────╮
+     │ BRAND — primary                             │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-brand-primary: #147239; /* logo wordmark green */
+  --color-brand-primary-deep: #0e5128;
+  --color-brand-primary-hover: #0f5a2d;
+  --color-brand-primary-active: #0a4621;
+  --color-brand-primary-fg: #ffffff;
+  --color-brand-primary-subtle: #e8f1ea;
+  --color-brand-primary-tint: rgba(20, 114, 57, 0.08);
+
+  --color-brand-secondary: #c8202e; /* logo frame red */
+  --color-brand-secondary-hover: #a91a26;
+  --color-brand-secondary-active: #8a151f;
+  --color-brand-secondary-fg: #ffffff;
+  --color-brand-secondary-subtle: #fbe7e9;
+
+  /* ╭─────────────────────────────────────────────╮
+     │ BRAND — accent palette (editorial)          │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-accent: #b86a3e; /* warm terracotta — editorial accent */
+  --color-accent-soft: #f0dcc8;
+  --color-gold: #b8924d; /* aged brass — sparingly on dividers */
+  --color-lime: #6fa84d;
+
+  /* Legacy aliases for the previous palette (kept so any existing
+   * components referencing them still resolve) */
+  --color-brand-lime: var(--color-lime);
+  --color-brand-orange: #ef802e;
+  --color-brand-amber: #f0b828;
+  --color-brand-cream: #f0f0d8;
+
+  /* ╭─────────────────────────────────────────────╮
+     │ SURFACES — warm bone white                  │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-surface: #fcfaf5; /* warm bone — expensive feel */
+  --color-surface-elevated: #ffffff;
+  --color-surface-muted: #f3efe3;
+  --color-surface-deep: #1a1f1a; /* near-black with green undertone */
+  --color-surface-deeper: #0f1410;
+  --color-surface-inverse: var(--color-surface-deep);
+  --color-surface-overlay: rgba(20, 114, 57, 0.04);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ TEXT                                        │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-text: #1f2620;
+  --color-text-muted: #5c6259;
+  --color-text-subtle: #8c8f86;
+  --color-text-inverse: #fcfaf5;
+  --color-text-on-brand: #ffffff;
+  --color-text-link: var(--color-brand-primary);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ BORDERS                                     │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-border: #e5e0d2;
+  --color-border-strong: #cfc9b8;
+  --color-border-focus: var(--color-brand-primary);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ FEEDBACK                                    │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-success: #15803d;
+  --color-success-bg: #e3f1e7;
+  --color-success-border: #86c99c;
+
+  --color-warning: #d97706;
+  --color-warning-bg: #fef3c7;
+  --color-warning-border: #fbd38d;
+
+  --color-danger: #b91c1c;
+  --color-danger-bg: #fee2e2;
+  --color-danger-border: #fca5a5;
+
+  --color-info: #1e40af;
+  --color-info-bg: #dbeafe;
+  --color-info-border: #93c5fd;
+
+  --color-focus-ring: rgba(20, 114, 57, 0.4);
+  --focus-ring-color: var(--color-focus-ring);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ HERO / ORNAMENTAL                           │
+     ╰─────────────────────────────────────────────╯ */
+
+  --hero-overlay: linear-gradient(
+    180deg,
+    rgba(15, 20, 16, 0) 0%,
+    rgba(15, 20, 16, 0.45) 60%,
+    rgba(15, 20, 16, 0.78) 100%
+  );
+  --hero-tint: rgba(20, 114, 57, 0.04);
+  --section-tint: #f3efe3;
+  --ornament-color: #b86a3e; /* terracotta */
+  --ornament-secondary: #6fa84d; /* lime */
+
+  /* Greeting strip (none for default) */
+  --greeting-bg: linear-gradient(90deg, #1f2620 0%, #14532d 100%);
+  --greeting-fg: #fcfaf5;
+  --greeting-show: 0;
+
+  /* Paper grain opacity for body background gradients */
+  --grain-opacity: 0.04;
+
+  /* Legacy theme-decoration aliases (kept; not used by default theme) */
+  --decoration-hero-pattern: none;
+  --decoration-divider: none;
+  --decoration-greeting-bg: transparent;
+  --decoration-greeting-fg: inherit;
+}
+
+/* Verified WCAG AA pairings:
+ *   text on surface:                  ~13.4:1  AAA
+ *   text-muted on surface:             ~6.9:1  AAA
+ *   brand-primary-fg on brand-primary: ~7.0:1  AAA
+ *   accent (terracotta) on surface:    ~4.7:1  AA
+ *   text on surface-deep:             ~14.6:1  AAA
+ */

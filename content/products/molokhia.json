@@ -1,0 +1,56 @@
+{
+  "slug": "molokhia",
+  "name": {
+    "en": "Molokhia",
+    "ar": "ملوخية",
+    "fr": "Molokheya"
+  },
+  "shortDescription": {
+    "en": "Egypt's signature green leaf — harvested and frozen within half an hour to preserve nutrition.",
+    "ar": "ورقة مصر المميزة - تُحصد وتُجمد خلال نصف ساعة للحفاظ على القيمة الغذائية.",
+    "fr": "Le légume-feuille emblématique d'Égypte — récolté et surgelé en moins d'une demi-heure."
+  },
+  "description": {
+    "en": "Since molokhia is an Egyptian specialty, Montana is highly recognized for its popular signature variety. Harvested and delivered to the factory in less than half an hour, fresh leaves are washed, refinery-pulled and cut by the most advanced machinery, guaranteeing a defect-free product devoid of any additives or chemicals.",
+    "ar": "مونتانا هي أول من صنع الملوخية المجمدة في العالم. باعتبارها الملوخية خاصة بالمصريين، فهي واحدة من المنتجات الأكثر شهرة بالنسبة لمونتانا. يجري حصادها وتسليمها إلى المصنع في أقل من نصف ساعة، وتحتفظ بأوراقها الطازجة تقطف بحرص، وتُقطع الياً باستخدام أكثر الآلات تقدماً لضمان منتج خالٍ من أي عيب أو أي إضافات أو مواد كيميائية.",
+    "fr": "La molokheya étant une spécialité égyptienne, Montana est reconnue pour sa molokheya signature populaire. Récoltées et livrées à l'usine en moins d'une demi-heure, les feuilles fraîches sont lavées, raffinées, tirées et coupées par les machines les plus avancées garantissant un produit parfait dépourvu de tout additif ou de produits chimiques."
+  },
+  "category": "leaf",
+  "featured": true,
+  "badges": ["signature", "popular"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Whole leaves",
+        "ar": "أوراق كاملة",
+        "fr": "Feuilles entières"
+      }
+    },
+    {
+      "name": {
+        "en": "Chopped",
+        "ar": "مفروم",
+        "fr": "Hachée"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["jun", "jul", "aug", "sep", "oct"],
+  "images": {
+    "primary": "/images/products/molokhia-pack.png",
+    "gallery": ["/images/products/molokhia-bowl.jpg"],
+    "packaging": ["/images/products/molokhia-pack.png"]
+  },
+  "relatedSlugs": ["spinach", "okra", "vine-leaves"]
+}

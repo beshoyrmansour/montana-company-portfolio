@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Catalogue · 70 countries",
+      "ar": "الكتالوج · ٧٠ دولة",
+      "fr": "Catalogue · 70 pays"
+    },
+    "title": {
+      "en": "Our products",
+      "ar": "منتجاتنا",
+      "fr": "Nos produits"
+    },
+    "titleEm": {
+      "en": "at peak season.",
+      "ar": "في الموسم.",
+      "fr": "à pleine saison."
+    },
+    "subtitle": {
+      "en": "From leafy greens to berries, we freeze them all at peak nutrition — and ship them to 70 countries.",
+      "ar": "من الأوراق الخضراء إلى التوت، نُجمدها جميعاً في ذروة قيمتها الغذائية — ونشحنها إلى ٧٠ دولة.",
+      "fr": "Des légumes-feuilles aux baies, nous surgelons tout au pic nutritionnel — et nous expédions vers 70 pays."
+    },
+    "ctaDownloadLabel": {
+      "en": "Download full catalogue",
+      "ar": "تحميل الكتالوج الكامل",
+      "fr": "Télécharger le catalogue complet"
+    },
+    "ctaContactLabel": {
+      "en": "Talk to our export desk",
+      "ar": "تواصل مع مكتب التصدير",
+      "fr": "Contactez notre service export"
+    },
+    "ctaContactHref": "/contact?subject=catalog",
+    "catalogueHref": "/docs/Montana-Catalogue.pdf"
+  },
+  "signatures": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Signature picks",
+      "ar": "مختاراتنا",
+      "fr": "Nos signatures"
+    },
+    "title": {
+      "lead": {
+        "en": "The hero of every",
+        "ar": "البطل في كل",
+        "fr": "Le héros de chaque"
+      },
+      "em": {
+        "en": "plate.",
+        "ar": "وجبة.",
+        "fr": "repas."
+      }
+    },
+    "slugs": ["molokhia", "strawberry", "mixed-vegetables"]
+  },
+  "catalog": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Full catalogue",
+      "ar": "الكتالوج الكامل",
+      "fr": "Catalogue complet"
+    },
+    "titleTemplate": {
+      "en": "${count} products,",
+      "ar": "${count} منتجاً،",
+      "fr": "${count} produits,"
+    },
+    "titleEm": {
+      "en": "five categories.",
+      "ar": "عبر خمس فئات.",
+      "fr": "cinq catégories."
+    },
+    "filters": {
+      "all": { "en": "All", "ar": "الكل", "fr": "Tout" },
+      "vegetable": { "en": "Vegetables", "ar": "خضروات", "fr": "Légumes" },
+      "fruit": { "en": "Fruits", "ar": "فواكه", "fr": "Fruits" },
+      "leaf": { "en": "Leafy greens", "ar": "أوراق خضراء", "fr": "Légumes-feuilles" },
+      "specialty": { "en": "Specialty", "ar": "متخصص", "fr": "Spécialité" }
+    }
+  },
+  "harvestCalendar": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "A year on the farm",
+      "ar": "سنة في المزرعة",
+      "fr": "Une année à la ferme"
+    },
+    "title": {
+      "lead": {
+        "en": "When everything",
+        "ar": "حين يكون كل شيء في",
+        "fr": "Quand tout est à son"
+      },
+      "em": {
+        "en": "peaks.",
+        "ar": "ذروته.",
+        "fr": "apogée."
+      }
+    },
+    "intro": {
+      "en": "Frozen at peak nutrition — we ship year-round, but each crop has its perfect window. Hover a row to see the peak months.",
+      "ar": "نُجمّد عند ذروة القيمة الغذائية — نشحن طوال العام، لكن لكل محصول نافذته المثالية. مرّر فوق أي صف لرؤية أشهر الذروة.",
+      "fr": "Surgelé au pic nutritionnel — nous livrons toute l'année, mais chaque culture a sa fenêtre idéale. Survolez une ligne pour voir les mois forts."
+    }
+  },
+  "ctaBand": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Need more detail?",
+      "ar": "هل تحتاج إلى تفاصيل أكثر؟",
+      "fr": "Besoin de plus d'infos ?"
+    },
+    "title": {
+      "lead": {
+        "en": "Spec it, order it,",
+        "ar": "حدّد، اطلب،",
+        "fr": "Spécifier, commander,"
+      },
+      "em": {
+        "en": "ship it.",
+        "ar": "اشحن.",
+        "fr": "expédier."
+      }
+    },
+    "body": {
+      "en": "Every product comes in multiple weights, packaging formats and grades for wholesale and retail. Tell us your volume and destination — full quote within one business day.",
+      "ar": "كل منتج متاح بأوزان متعددة وتعبئات وفئات لتجار الجملة والتجزئة. أخبرنا بالحجم والوجهة، وسنرد على عرض كامل في يوم عمل واحد.",
+      "fr": "Chaque produit existe en plusieurs poids, conditionnements et grades pour la distribution et le retail. Indiquez-nous votre volume et votre destination — devis complet sous un jour ouvré."
+    },
+    "ctas": [
+      {
+        "label": {
+          "en": "Request a quote",
+          "ar": "احصل على عرض سعر",
+          "fr": "Demander un devis"
+        },
+        "href": "/contact?subject=quote",
+        "variant": "primary"
+      },
+      {
+        "label": { "en": "PDF", "ar": "PDF", "fr": "PDF" },
+        "href": "/docs/Montana-Catalogue.pdf",
+        "variant": "on-dark-ghost",
+        "external": true,
+        "icon": "Download"
+      }
+    ]
+  }
+}

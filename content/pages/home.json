@@ -1,0 +1,332 @@
+{
+  "hero": {
+    "eyebrow": {
+      "en": "Nutritious and fresh for",
+      "ar": "غذاء وطازج لـ",
+      "fr": "Nutritif et frais pour"
+    },
+    "headline": {
+      "en": "A Quality Lifestyle, one harvest.",
+      "ar": "حياة عالية الجودة، حصاد واحد.",
+      "fr": "Un style de vie de qualité, une seule récolte."
+    },
+    "subheadline": {
+      "en": "Family-owned. Egyptian. 70 countries served. Forty years of getting frozen food right.",
+      "ar": "شركة عائلية مصرية. نخدم ٧٠ دولة. أربعون عاماً من الخبرة في الأغذية المجمدة.",
+      "fr": "Entreprise familiale égyptienne. 70 pays servis. Quarante ans à perfectionner les aliments surgelés."
+    },
+    "pre": {
+      "en": "Family-owned · Since 1985",
+      "ar": "شركة عائلية · منذ ١٩٨٥",
+      "fr": "Entreprise familiale · depuis 1985"
+    },
+    "ctaPrimary": {
+      "label": { "en": "View catalog", "ar": "تصفح المنتجات", "fr": "Voir le catalogue" },
+      "href": "/catalog",
+      "variant": "primary"
+    },
+    "ctaSecondary": {
+      "label": {
+        "en": "Download catalogue",
+        "ar": "تحميل الكتالوج",
+        "fr": "Télécharger le catalogue"
+      },
+      "href": "/docs/Montana-Catalogue.pdf",
+      "variant": "ghost",
+      "external": true
+    },
+    "image": "/images/heroes/hero-grid.jpg",
+    "meta": {
+      "enabled": true,
+      "items": [
+        {
+          "num": "1985",
+          "label": { "en": "Family-founded", "ar": "عائلي · مؤسس", "fr": "Fondé en famille" }
+        },
+        {
+          "num": "70",
+          "label": { "en": "Countries served", "ar": "دولة نخدمها", "fr": "Pays servis" }
+        },
+        {
+          "num": "ISO",
+          "label": { "en": "22000 certified", "ar": "معتمد ٢٢٠٠٠", "fr": "22000 certifié" }
+        },
+        {
+          "num": "100%",
+          "label": { "en": "Naturally frozen", "ar": "تجميد طبيعي", "fr": "Surgelé naturellement" }
+        }
+      ]
+    }
+  },
+  "heritage": {
+    "enabled": true,
+    "lede": {
+      "before": {
+        "en": "We have spent forty years",
+        "ar": "أمضينا أربعين عاماً في",
+        "fr": "Nous avons passé quarante ans à"
+      },
+      "strong": {
+        "en": "growing, freezing and shipping the freshest of Egypt",
+        "ar": "زراعة وتجميد وشحن أطيب ما في مصر",
+        "fr": "cultiver, surgeler et expédier le meilleur de l'Égypte"
+      },
+      "after": {
+        "en": "— to families, restaurants and traders across seven continents.",
+        "ar": "— إلى العائلات والمطاعم والتجار في سبع قارات.",
+        "fr": "— vers les familles, les restaurants et les négociants sur sept continents."
+      }
+    }
+  },
+  "featuredProducts": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Featured catalogue",
+      "ar": "كتالوج مختار",
+      "fr": "Catalogue en vedette"
+    },
+    "title": {
+      "lead": {
+        "en": "Our favorite products,",
+        "ar": "منتجاتنا المفضلة،",
+        "fr": "Nos produits favoris,"
+      },
+      "em": {
+        "en": "a quiet harvest.",
+        "ar": "حصاد هادئ.",
+        "fr": "une récolte tranquille."
+      }
+    },
+    "viewAllLabel": {
+      "en": "View all",
+      "ar": "عرض الكل",
+      "fr": "Voir tout"
+    },
+    "count": 8
+  },
+  "chairmanQuote": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "From the chairman",
+      "ar": "من رئيس مجلس الإدارة",
+      "fr": "Du président"
+    },
+    "quote": {
+      "before": {
+        "en": "We do not sell vegetables. We sell the",
+        "ar": "نحن لا نبيع خضروات. نبيع",
+        "fr": "Nous ne vendons pas de légumes. Nous vendons la"
+      },
+      "strong": {
+        "en": "trust of four generations",
+        "ar": "ثقة أربعة أجيال",
+        "fr": "confiance de quatre générations"
+      },
+      "after": {
+        "en": "of an Egyptian family that has never shipped a single tonne we would not serve at our own table.",
+        "ar": "من عائلة مصرية لم تشحن قط طناً واحداً لا نقدمه على مائدتنا.",
+        "fr": "d'une famille égyptienne qui n'a jamais expédié une seule tonne qu'elle ne servirait pas à sa propre table."
+      }
+    },
+    "attribution": {
+      "name": {
+        "en": "Maamoun Family",
+        "ar": "عائلة مأمون",
+        "fr": "Famille Maamoun"
+      },
+      "role": {
+        "en": "Chairman's office · United Co. for Food Industries",
+        "ar": "مكتب رئيس مجلس الإدارة · الشركة المتحدة للصناعات الغذائية",
+        "fr": "Bureau du président · United Co. for Food Industries"
+      }
+    },
+    "image": "/images/about/chairman.jpg",
+    "cornerMark": { "en": "— Cairo", "ar": "— القاهرة", "fr": "— Le Caire" }
+  },
+  "process": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Field to freezer",
+      "ar": "من الحقل إلى المجمد",
+      "fr": "Du champ au congélateur"
+    },
+    "title": {
+      "lead": {
+        "en": "How we work,",
+        "ar": "كيف نعمل،",
+        "fr": "Notre processus,"
+      },
+      "em": {
+        "en": "every batch, for forty years.",
+        "ar": "كل دفعة، طوال أربعين عاماً.",
+        "fr": "chaque lot, depuis quarante ans."
+      }
+    },
+    "steps": [
+      {
+        "label": { "en": "Prepare", "ar": "الإعداد", "fr": "Préparation" },
+        "description": {
+          "en": "All received vegetables are washed and prepared for processing.",
+          "ar": "تُغسل جميع الخضروات المستلمة وتُجهز للمعالجة.",
+          "fr": "Tous les légumes reçus sont lavés et préparés."
+        },
+        "icon": "Sparkles"
+      },
+      {
+        "label": { "en": "Process", "ar": "الإنتاج", "fr": "Production" },
+        "description": {
+          "en": "Latest technology applied throughout processing and packing.",
+          "ar": "أحدث التقنيات في جميع مراحل الإنتاج والتعبئة.",
+          "fr": "Technologie de pointe à toutes les étapes."
+        },
+        "icon": "Factory"
+      },
+      {
+        "label": { "en": "Inspect", "ar": "الفحص", "fr": "Inspection" },
+        "description": {
+          "en": "QA lab rechecks every batch regularly.",
+          "ar": "يفحص مختبر الجودة كل دفعة بانتظام.",
+          "fr": "Le laboratoire QA contrôle chaque lot."
+        },
+        "icon": "Microscope"
+      },
+      {
+        "label": { "en": "Package", "ar": "التغليف", "fr": "Emballage" },
+        "description": {
+          "en": "Custom retail, foodservice, and bulk options.",
+          "ar": "خيارات تغليف بالتجزئة والمطاعم والجملة.",
+          "fr": "Options de détail, restauration et vrac."
+        },
+        "icon": "Package"
+      },
+      {
+        "label": { "en": "Surveillance", "ar": "المراقبة", "fr": "Surveillance" },
+        "description": {
+          "en": "Continuous monitoring through HACCP-certified systems.",
+          "ar": "مراقبة مستمرة من خلال أنظمة معتمدة من HACCP.",
+          "fr": "Surveillance continue via les systèmes HACCP."
+        },
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  "marketsTeaser": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Global reach · Local roots",
+      "ar": "وصول عالمي · جذور محلية",
+      "fr": "Portée mondiale · racines locales"
+    },
+    "bigNum": "70",
+    "title": {
+      "en": "countries, one harvest.",
+      "ar": "دولة، حصاد واحد.",
+      "fr": "pays, une seule récolte."
+    },
+    "body": {
+      "en": "Montana products are sold from Cairo to Sydney, Riyadh to Toronto.",
+      "ar": "تُباع منتجات مونتانا من القاهرة إلى سيدني، ومن الرياض إلى تورنتو.",
+      "fr": "Les produits Montana sont vendus du Caire à Sydney, de Riyad à Toronto."
+    },
+    "chips": [
+      "Egypt",
+      "KSA",
+      "UAE",
+      "Kuwait",
+      "France",
+      "Germany",
+      "Italy",
+      "UK",
+      "USA",
+      "Canada",
+      "Japan",
+      "Australia",
+      "India",
+      "Brazil",
+      "S. Africa",
+      "Türkiye"
+    ],
+    "chipsMoreLabel": {
+      "en": "+ 54 more",
+      "ar": "+ ٥٤ أخرى",
+      "fr": "+ 54 autres"
+    },
+    "ctaLabel": {
+      "en": "Explore all markets",
+      "ar": "استكشف كل الأسواق",
+      "fr": "Explorer tous les marchés"
+    }
+  },
+  "latestNews": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "From the newsroom",
+      "ar": "من غرفة الأخبار",
+      "fr": "De la rédaction"
+    },
+    "title": {
+      "lead": {
+        "en": "From the newsroom,",
+        "ar": "من غرفة الأخبار،",
+        "fr": "De la rédaction,"
+      },
+      "em": {
+        "en": "recent chapters.",
+        "ar": "فصول حديثة.",
+        "fr": "chapitres récents."
+      }
+    },
+    "viewAllLabel": {
+      "en": "All stories",
+      "ar": "كل القصص",
+      "fr": "Toutes les histoires"
+    },
+    "count": 3
+  },
+  "ctaBand": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Let's ship together",
+      "ar": "لنشحن معاً",
+      "fr": "Expédions ensemble"
+    },
+    "title": {
+      "lead": {
+        "en": "A conversation,",
+        "ar": "حوار،",
+        "fr": "Une conversation,"
+      },
+      "em": {
+        "en": "over a cup of tea.",
+        "ar": "على كوب من الشاي.",
+        "fr": "autour d'une tasse de thé."
+      }
+    },
+    "body": {
+      "en": "Looking to source from Egypt? Talk to our export team — we will reply within one business day, in your language.",
+      "ar": "هل تبحث عن التوريد من مصر؟ تحدث مع فريق التصدير لدينا — سنرد خلال يوم عمل واحد، بلغتك.",
+      "fr": "Vous souhaitez vous approvisionner en Égypte ? Parlez à notre équipe export — nous répondons sous un jour ouvré, dans votre langue."
+    },
+    "ctas": [
+      {
+        "label": {
+          "en": "Talk to our export desk",
+          "ar": "تحدث مع مكتب التصدير",
+          "fr": "Contactez notre service export"
+        },
+        "href": "/contact?subject=export",
+        "variant": "primary"
+      },
+      {
+        "label": {
+          "en": "Download catalogue",
+          "ar": "تحميل الكتالوج",
+          "fr": "Télécharger le catalogue"
+        },
+        "href": "/docs/Montana-Catalogue.pdf",
+        "variant": "on-dark-ghost",
+        "external": true
+      }
+    ]
+  }
+}

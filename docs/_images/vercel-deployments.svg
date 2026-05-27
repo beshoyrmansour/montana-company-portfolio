@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Vercel Deployments tab. The most recent Ready build is tagged Production. A three-dot menu allows promoting any earlier successful deployment to production (rollback).">
+  <style>
+    .bg { fill: #fafafa; }
+    .card { fill: #ffffff; stroke: #eaeaea; stroke-width: 1; }
+    .sidebar { fill: #ffffff; }
+    .text { font: 14px -apple-system, "Inter", system-ui, sans-serif; fill: #000000; }
+    .muted { fill: #666666; }
+    .small { font: 12px -apple-system, "Inter", system-ui, sans-serif; fill: #666666; }
+    .heading { font: 600 18px -apple-system, "Inter", system-ui, sans-serif; fill: #000000; }
+    .mono { font: 12px "JetBrains Mono", ui-monospace, monospace; fill: #000000; }
+    .header-bar { fill: #000000; }
+    .header-text { font: 600 15px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; }
+    .nav-active { fill: #000000; }
+    .nav-active-text { font: 13px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; font-weight: 500; }
+    .nav-inactive { font: 13px -apple-system, "Inter", system-ui, sans-serif; fill: #666666; }
+    .badge-ok { fill: #ffffff; stroke: #10b981; stroke-width: 1; }
+    .badge-ok-text { font: 600 11px -apple-system, "Inter", system-ui, sans-serif; fill: #065f46; }
+    .badge-fail { fill: #ffffff; stroke: #ef4444; stroke-width: 1; }
+    .badge-fail-text { font: 600 11px -apple-system, "Inter", system-ui, sans-serif; fill: #991b1b; }
+    .badge-prod { fill: #000000; }
+    .badge-prod-text { font: 600 11px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; }
+    .dot { fill: #666666; }
+    .dot-ok { fill: #10b981; }
+    .dot-fail { fill: #ef4444; }
+    .callout { fill: #fef9c3; stroke: #ca8a04; stroke-width: 1.5; stroke-dasharray: 4 2; }
+    .callout-text { font: 600 12px -apple-system, "Inter", system-ui, sans-serif; fill: #713f12; }
+    .arrow { stroke: #ca8a04; stroke-width: 2; fill: none; }
+  </style>
+
+  <rect class="bg" width="800" height="500"/>
+
+  <rect class="header-bar" x="0" y="0" width="800" height="48"/>
+  <polygon points="20,32 32,12 44,32" fill="#ffffff"/>
+  <text class="header-text" x="60" y="30">Vercel</text>
+  <text class="header-text" x="125" y="30" font-weight="400" opacity="0.6">/  montana-web</text>
+
+  <!-- Project nav (horizontal under top bar) -->
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#eaeaea"/>
+  <text class="nav-inactive" x="20" y="71">Overview</text>
+  <text class="text" x="100" y="71" font-weight="600">Deployments</text>
+  <line x1="95" y1="78" x2="180" y2="78" stroke="#000000" stroke-width="2"/>
+  <text class="nav-inactive" x="195" y="71">Analytics</text>
+  <text class="nav-inactive" x="265" y="71">Logs</text>
+  <text class="nav-inactive" x="305" y="71">Settings</text>
+
+  <!-- Main heading -->
+  <text class="heading" x="20" y="115">Deployments</text>
+  <text class="small" x="20" y="133">Production: main · Last deployed 4 minutes ago</text>
+
+  <!-- Deployments card -->
+  <rect class="card" x="20" y="150" width="760" height="320" rx="8"/>
+
+  <!-- Row 1: latest Ready, production -->
+  <line x1="20" y1="192" x2="780" y2="192" stroke="#eaeaea"/>
+  <rect class="badge-ok" x="35" y="167" width="68" height="20" rx="10"/>
+  <circle class="dot-ok" cx="46" cy="177" r="3"/>
+  <text class="badge-ok-text" x="55" y="181">Ready</text>
+  <rect class="badge-prod" x="115" y="167" width="86" height="20" rx="10"/>
+  <text class="badge-prod-text" x="129" y="181">Production</text>
+  <text class="mono" x="215" y="181">main · 7a8d48b</text>
+  <text class="small" x="380" y="181">"ci: add lychee link checker"</text>
+  <text class="small" x="660" y="181">4m ago · 47s</text>
+  <circle class="dot" cx="745" cy="177" r="2"/>
+  <circle class="dot" cx="753" cy="177" r="2"/>
+  <circle class="dot" cx="761" cy="177" r="2"/>
+
+  <!-- Row 2: Ready -->
+  <line x1="20" y1="234" x2="780" y2="234" stroke="#eaeaea"/>
+  <rect class="badge-ok" x="35" y="209" width="68" height="20" rx="10"/>
+  <circle class="dot-ok" cx="46" cy="219" r="3"/>
+  <text class="badge-ok-text" x="55" y="223">Ready</text>
+  <text class="mono" x="115" y="223">main · f28c33d</text>
+  <text class="small" x="280" y="223">"docs: add IT-ops documentation"</text>
+  <text class="small" x="660" y="223">22m ago · 51s</text>
+  <circle class="dot" cx="745" cy="219" r="2"/>
+  <circle class="dot" cx="753" cy="219" r="2"/>
+  <circle class="dot" cx="761" cy="219" r="2"/>
+
+  <!-- Row 3: Failed -->
+  <line x1="20" y1="276" x2="780" y2="276" stroke="#eaeaea"/>
+  <rect class="badge-fail" x="35" y="251" width="68" height="20" rx="10"/>
+  <circle class="dot-fail" cx="46" cy="261" r="3"/>
+  <text class="badge-fail-text" x="55" y="265">Error</text>
+  <text class="mono" x="115" y="265">main · df4c629</text>
+  <text class="small" x="280" y="265">"chore: trigger validation fail"</text>
+  <text class="small" x="660" y="265">38m ago · 22s</text>
+  <circle class="dot" cx="745" cy="261" r="2"/>
+  <circle class="dot" cx="753" cy="261" r="2"/>
+  <circle class="dot" cx="761" cy="261" r="2"/>
+
+  <!-- Row 4: Ready -->
+  <line x1="20" y1="318" x2="780" y2="318" stroke="#eaeaea"/>
+  <rect class="badge-ok" x="35" y="293" width="68" height="20" rx="10"/>
+  <circle class="dot-ok" cx="46" cy="303" r="3"/>
+  <text class="badge-ok-text" x="55" y="307">Ready</text>
+  <text class="mono" x="115" y="307">main · 35cc572</text>
+  <text class="small" x="280" y="307">"chore: testing setup"</text>
+  <text class="small" x="660" y="307">1h ago · 49s</text>
+  <circle class="dot" cx="745" cy="303" r="2"/>
+  <circle class="dot" cx="753" cy="303" r="2"/>
+  <circle class="dot" cx="761" cy="303" r="2"/>
+
+  <!-- Row 5: Ready (Preview, from a PR) -->
+  <line x1="20" y1="360" x2="780" y2="360" stroke="#eaeaea"/>
+  <rect class="badge-ok" x="35" y="335" width="68" height="20" rx="10"/>
+  <circle class="dot-ok" cx="46" cy="345" r="3"/>
+  <text class="badge-ok-text" x="55" y="349">Ready</text>
+  <text class="mono" x="115" y="349">feat/new-product · 899cc1d</text>
+  <text class="small" x="280" y="349">"feat: add taro product"  [Preview]</text>
+  <text class="small" x="660" y="349">2h ago · 52s</text>
+  <circle class="dot" cx="745" cy="345" r="2"/>
+  <circle class="dot" cx="753" cy="345" r="2"/>
+  <circle class="dot" cx="761" cy="345" r="2"/>
+
+  <!-- Row 6: Ready -->
+  <line x1="20" y1="402" x2="780" y2="402" stroke="#eaeaea"/>
+  <rect class="badge-ok" x="35" y="377" width="68" height="20" rx="10"/>
+  <circle class="dot-ok" cx="46" cy="387" r="3"/>
+  <text class="badge-ok-text" x="55" y="391">Ready</text>
+  <text class="mono" x="115" y="391">main · 9e4fa0e</text>
+  <text class="small" x="280" y="391">"feat: content + i18n"</text>
+  <text class="small" x="660" y="391">3h ago · 53s</text>
+  <circle class="dot" cx="745" cy="387" r="2"/>
+  <circle class="dot" cx="753" cy="387" r="2"/>
+  <circle class="dot" cx="761" cy="387" r="2"/>
+
+  <!-- Callout -->
+  <rect class="callout" x="30" y="485" width="750" height="20" rx="4"/>
+  <text class="callout-text" x="46" y="500">Click ⋯ on any Ready row → "Promote to Production" — instant rollback (no rebuild needed).</text>
+
+  <!-- Arrow from callout to three-dot menu -->
+  <path class="arrow" d="M 740 485 Q 770 350 757 184" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ca8a04"/>
+    </marker>
+  </defs>
+</svg>

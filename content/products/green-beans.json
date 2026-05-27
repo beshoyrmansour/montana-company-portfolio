@@ -1,0 +1,59 @@
+{
+  "slug": "green-beans",
+  "name": {
+    "en": "Green Beans",
+    "ar": "فاصوليا خضراء",
+    "fr": "Haricots Verts"
+  },
+  "shortDescription": {
+    "en": "Tender, vein-free Egyptian 'Bronko' green beans — broadly exported to Western Europe.",
+    "ar": "فاصوليا خضراء مصرية 'برونكو' طرية بدون عروق - تُصدّر على نطاق واسع.",
+    "fr": "Haricots verts 'Bronko' tendres, sans veines — exportés vers l'Europe occidentale."
+  },
+  "description": {
+    "en": "Several kinds of Green Beans grown in Egypt: 'Bronko' is broadly exported to Western Europe and is not produced for local consumption. Montana's Green Beans are known for being fresh, tender, free of veins and tasty. Available whole or cut.",
+    "ar": "هناك عدة أنواع من الفاصوليا الخضراء في مصر: 'برونكو' تُصدّر على نطاق واسع إلى أوروبا الغربية ولا تُنتج للاستهلاك المحلي. تتميز فاصوليا مونتانا الخضراء بأنها طازجة وطرية وخالية من العروق ولذيذة الطعم.",
+    "fr": "Plusieurs sortes de haricots verts en Égypte: 'Bronko' est largement exporté vers l'Europe occidentale. Les haricots verts de Montana sont connus pour être frais, tendres, sans veines et savoureux."
+  },
+  "category": "vegetable",
+  "featured": true,
+  "badges": ["export-only"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Whole beans",
+        "ar": "كاملة",
+        "fr": "Entiers"
+      }
+    },
+    {
+      "name": {
+        "en": "Cut beans",
+        "ar": "مقطعة",
+        "fr": "Coupés"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["oct", "nov", "dec"],
+  "images": {
+    "primary": "/images/products/green-beans-pack.png",
+    "gallery": [
+      "/images/products/lifestyle/green-beans.jpg",
+      "/images/products/green-beans-bowl.jpg"
+    ],
+    "packaging": ["/images/products/green-beans-pack.png"]
+  },
+  "relatedSlugs": ["broad-beans", "peas", "mixed-vegetables"]
+}

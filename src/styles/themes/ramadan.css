@@ -1,0 +1,138 @@
+/* ─────────────────────────────────────────────────────────────────
+ * Montana — RAMADAN theme "Golden Hour"
+ * Brand green stays + a regal gold leads. Deep midnight blue surfaces
+ * for hero/quote/markets sections. Crescent, star, lantern motifs.
+ * Respectful, never garish.
+ *
+ * Headline font swaps to Amiri for a calligraphic Arabic-paired feel.
+ *
+ * Activate via:  <html data-theme="ramadan">
+ * ───────────────────────────────────────────────────────────────── */
+
+[data-theme='ramadan'] {
+  /* ╭─────────────────────────────────────────────╮
+     │ BRAND                                       │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-brand-primary: #14532d;
+  --color-brand-primary-deep: #0b3a1f;
+  --color-brand-primary-hover: #0f4424;
+  --color-brand-primary-active: #082e18;
+  --color-brand-primary-fg: #fff7e8;
+  --color-brand-primary-subtle: #f4e6c2;
+  --color-brand-primary-tint: rgba(184, 134, 11, 0.1);
+
+  --color-brand-secondary: #b8860b;
+  --color-brand-secondary-hover: #9a7009;
+  --color-brand-secondary-active: #6b5310;
+  --color-brand-secondary-fg: #ffffff;
+  --color-brand-secondary-subtle: #faefd0;
+
+  /* ╭─────────────────────────────────────────────╮
+     │ ACCENT PALETTE                              │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-accent: #c49a4e;
+  --color-accent-soft: #f4e6c2;
+  --color-gold: #d4a84a;
+  --color-lime: #7a8f4e;
+
+  --color-brand-lime: var(--color-lime);
+  --color-brand-orange: #b8860b;
+  --color-brand-amber: #daa520;
+  --color-brand-cream: #faebd7;
+
+  /* ╭─────────────────────────────────────────────╮
+     │ SURFACES — warm ivory + deep midnight       │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-surface: #fbf4df;
+  --color-surface-elevated: #fffcf2;
+  --color-surface-muted: #f2e0b2;
+  --color-surface-deep: #0f1a3d;
+  --color-surface-deeper: #06102a;
+  --color-surface-inverse: var(--color-surface-deep);
+  --color-surface-overlay: rgba(212, 168, 74, 0.06);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ TEXT                                        │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-text: #2a1f10;
+  --color-text-muted: #5c4524;
+  --color-text-subtle: #8a7140;
+  --color-text-inverse: #fff7e8;
+  --color-text-on-brand: #fff7e8;
+  --color-text-link: var(--color-brand-primary);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ BORDERS                                     │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-border: #edd9a4;
+  --color-border-strong: #d4b466;
+  --color-border-focus: var(--color-gold);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ FEEDBACK                                    │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-success: #15803d;
+  --color-success-bg: #e3f1e7;
+  --color-success-border: #86c99c;
+
+  --color-warning: #b8860b;
+  --color-warning-bg: #fae9c6;
+  --color-warning-border: #daa520;
+
+  --color-danger: #9b1c1c;
+  --color-danger-bg: #fce4e6;
+  --color-danger-border: #e08b92;
+
+  --color-info: #1e40af;
+  --color-info-bg: #dbeafe;
+  --color-info-border: #93c5fd;
+
+  --color-focus-ring: rgba(212, 168, 74, 0.5);
+  --focus-ring-color: var(--color-focus-ring);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ HERO / ORNAMENTAL                           │
+     ╰─────────────────────────────────────────────╯ */
+
+  --hero-overlay: linear-gradient(
+    180deg,
+    rgba(14, 21, 48, 0.2) 0%,
+    rgba(14, 21, 48, 0.6) 60%,
+    rgba(14, 21, 48, 0.92) 100%
+  );
+  --hero-tint: rgba(212, 168, 74, 0.1);
+  --section-tint: #f2e0b2;
+  --ornament-color: #d4a84a;
+  --ornament-secondary: #14532d;
+
+  --greeting-bg: linear-gradient(90deg, #0f1a3d 0%, #14532d 50%, #b8860b 100%);
+  --greeting-fg: #fff7e8;
+  --greeting-show: 1;
+
+  --grain-opacity: 0.08;
+
+  /* Headline font swap — Amiri for calligraphic Arabic-paired feel */
+  --font-display: 'Amiri', 'Cormorant Garamond', Georgia, serif;
+
+  /* Background pattern — single hexagram per tile.
+   * Tile (26 × 30) = exact bounding box of the star at R=15, so each
+   * tile draws one full star whose outer tips sit on the tile edges.
+   * When repeated, neighbour stars touch tip-to-tip vertically and
+   * horizontally. Small diamond voids remain where 4 tiles meet —
+   * an acceptable trade-off for a clean visual rhythm. */
+  /* --theme-bg-pattern: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='26' height='30' viewBox='0 0 26 30'><path d='M13 0 L17.32 7.5 L26 7.5 L21.65 15 L26 22.5 L17.32 22.5 L13 30 L8.66 22.5 L0 22.5 L4.32 15 L0 7.5 L8.66 7.5 Z' fill='none' stroke='%23B8860B' stroke-width='0.6' opacity='0.4'/></svg>"); */
+  --theme-bg-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88' viewBox='0 0 110 110'%3E%3Cpath d='M55 12 L67 27 L86 27 L86 46 L101 55 L86 64 L86 83 L67 83 L55 98 L43 83 L24 83 L24 64 L9 55 L24 46 L24 27 L43 27 Z' fill='none' stroke='%23CBBE96' stroke-width='2.5' stroke-linejoin='miter' opacity='0.45'/%3E%3C/svg%3E");
+  --theme-bg-size: 60px;
+
+  /* Legacy aliases */
+  --decoration-hero-pattern: var(--theme-bg-pattern);
+  --decoration-divider: url('/images/themes/ramadan/lantern-divider.svg');
+  --decoration-greeting-bg: var(--greeting-bg);
+  --decoration-greeting-fg: var(--greeting-fg);
+}

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-label="Wireframe of the homepage with each section annotated by the JSON key in content/pages/home.json that controls it (hero, heritage, featuredProducts, chairmanQuote, process, marketsTeaser, latestNews, ctaBand).">
+  <style>
+    .bg { fill: #fafafa; }
+    .heading { font: 600 18px -apple-system, "Inter", system-ui, sans-serif; fill: #0f172a; }
+    .sub { font: 12px -apple-system, "Inter", system-ui, sans-serif; fill: #64748b; }
+    .browser { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
+    .chrome { fill: #f1f5f9; }
+    .chrome-dot { fill: #cbd5e1; }
+    .addr-bar { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
+    .addr-text { font: 11px ui-monospace, monospace; fill: #475569; }
+    .section { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; }
+    .section-hero { fill: #ecfdf5; stroke: #6ee7b7; stroke-width: 1; }
+    .section-quote { fill: #fef3c7; stroke: #fbbf24; stroke-width: 1; }
+    .section-cta { fill: #fce7f3; stroke: #f9a8d4; stroke-width: 1; }
+    .placeholder { font: 600 13px -apple-system, "Inter", system-ui, sans-serif; fill: #0f172a; }
+    .placeholder-sub { font: 11px -apple-system, "Inter", system-ui, sans-serif; fill: #64748b; }
+    .key-pill { fill: #1e293b; }
+    .key-pill-text { font: 600 11px "JetBrains Mono", ui-monospace, monospace; fill: #fcd34d; }
+    .arrow { stroke: #f97316; stroke-width: 1.5; fill: none; }
+    .nav-link { font: 11px -apple-system, system-ui, sans-serif; fill: #475569; }
+    .small { font: 11px -apple-system, system-ui, sans-serif; fill: #475569; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="900" height="760"/>
+
+  <text class="heading" x="450" y="32" text-anchor="middle">Homepage anatomy — content/pages/home.json</text>
+  <text class="sub" x="450" y="52" text-anchor="middle">Each section's content lives under the matching top-level key. Set <tspan font-family="ui-monospace, monospace" fill="#0f172a">enabled: false</tspan> on most sections to hide them.</text>
+
+  <!-- Browser chrome -->
+  <rect class="browser" x="180" y="80" width="540" height="660" rx="8"/>
+  <rect class="chrome" x="180" y="80" width="540" height="34" rx="8"/>
+  <rect class="chrome" x="180" y="100" width="540" height="14"/>
+  <circle class="chrome-dot" cx="200" cy="97" r="5"/>
+  <circle class="chrome-dot" cx="218" cy="97" r="5"/>
+  <circle class="chrome-dot" cx="236" cy="97" r="5"/>
+  <rect class="addr-bar" x="260" y="87" width="440" height="20" rx="3"/>
+  <text class="addr-text" x="270" y="101">montanaeg.com</text>
+
+  <!-- Header (nav) -->
+  <rect class="section" x="180" y="115" width="540" height="34"/>
+  <text class="placeholder" x="198" y="137">Montana</text>
+  <text class="nav-link" x="500" y="137">Catalog</text>
+  <text class="nav-link" x="555" y="137">About</text>
+  <text class="nav-link" x="600" y="137">Markets</text>
+  <text class="nav-link" x="655" y="137">Contact</text>
+
+  <!-- Hero -->
+  <rect class="section-hero" x="180" y="150" width="540" height="115"/>
+  <text class="placeholder" x="200" y="180">"From Egyptian fields to global tables"</text>
+  <text class="placeholder-sub" x="200" y="200">Frozen vegetables, fruits, and signature leaves…</text>
+  <text class="placeholder-sub" x="200" y="216">29 markets · 40+ years · HACCP / IFS / BRC</text>
+  <rect fill="#10b981" x="200" y="232" width="120" height="22" rx="11"/>
+  <text font="600 11px -apple-system, system-ui, sans-serif" fill="#ffffff" x="225" y="246">Explore catalog →</text>
+
+  <!-- Heritage -->
+  <rect class="section" x="180" y="265" width="540" height="46"/>
+  <text class="placeholder-sub" x="200" y="285">"Founded 1980 — a family, a delta, four decades of frozen veg."</text>
+  <text class="placeholder-sub" x="200" y="301" font-style="italic">heritage / lede prose</text>
+
+  <!-- Featured products -->
+  <rect class="section" x="180" y="311" width="540" height="100"/>
+  <text class="placeholder" x="200" y="332">Featured products</text>
+  <rect fill="#d1fae5" stroke="#6ee7b7" x="200" y="345" width="78" height="56" rx="4"/>
+  <text class="small" x="239" y="408" text-anchor="middle">Molokhia</text>
+  <rect fill="#d1fae5" stroke="#6ee7b7" x="288" y="345" width="78" height="56" rx="4"/>
+  <text class="small" x="327" y="408" text-anchor="middle">Spinach</text>
+  <rect fill="#d1fae5" stroke="#6ee7b7" x="376" y="345" width="78" height="56" rx="4"/>
+  <text class="small" x="415" y="408" text-anchor="middle">Okra</text>
+  <rect fill="#d1fae5" stroke="#6ee7b7" x="464" y="345" width="78" height="56" rx="4"/>
+  <text class="small" x="503" y="408" text-anchor="middle">Strawberry</text>
+  <rect fill="#d1fae5" stroke="#6ee7b7" x="552" y="345" width="78" height="56" rx="4"/>
+  <text class="small" x="591" y="408" text-anchor="middle">Sweet corn</text>
+
+  <!-- Chairman quote -->
+  <rect class="section-quote" x="180" y="411" width="540" height="76"/>
+  <text class="placeholder" x="200" y="436" font-style="italic">"We don't just freeze produce —</text>
+  <text class="placeholder" x="200" y="456" font-style="italic">we preserve trust."</text>
+  <text class="placeholder-sub" x="200" y="477">— Chairman, United Co. for Food Industries</text>
+
+  <!-- Process -->
+  <rect class="section" x="180" y="487" width="540" height="68"/>
+  <text class="placeholder" x="200" y="508">Our process — 5 steps</text>
+  <text class="placeholder-sub" x="200" y="524">①  Harvest    ②  Wash    ③  IQF freeze    ④  Pack    ⑤  Ship</text>
+  <text class="placeholder-sub" x="200" y="544" font-style="italic">5 step blocks with icons and descriptions</text>
+
+  <!-- Markets teaser -->
+  <rect class="section" x="180" y="555" width="540" height="68"/>
+  <text class="placeholder" x="200" y="576">29 markets across 4 regions</text>
+  <text class="placeholder-sub" x="200" y="594">EU · GCC · MENA · Asia</text>
+  <text class="placeholder-sub" x="200" y="612" font-style="italic">View atlas → /en/markets</text>
+
+  <!-- Latest news -->
+  <rect class="section" x="180" y="623" width="540" height="62"/>
+  <text class="placeholder" x="200" y="643">Latest news</text>
+  <text class="placeholder-sub" x="200" y="661">HACCP recertification · Molokhia export milestone · Kalioub facility</text>
+  <text class="placeholder-sub" x="200" y="677" font-style="italic">latestNews / count = 3</text>
+
+  <!-- CTA Band -->
+  <rect class="section-cta" x="180" y="685" width="540" height="55"/>
+  <text class="placeholder" x="200" y="708">Request a quote</text>
+  <text class="placeholder-sub" x="200" y="726">Talk to our export team about your specs and lead times.</text>
+
+  <!-- ─── Annotation pills (LEFT side) ─── -->
+  <g>
+    <rect class="key-pill" x="20" y="195" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="30" y="210">hero</text>
+    <path class="arrow" d="M 140 207 L 180 207" marker-end="url(#arr)"/>
+
+    <rect class="key-pill" x="20" y="280" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="30" y="295">heritage</text>
+    <path class="arrow" d="M 140 291 L 180 291" marker-end="url(#arr)"/>
+
+    <rect class="key-pill" x="20" y="355" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="30" y="370">featuredProducts</text>
+    <path class="arrow" d="M 140 367 L 180 367" marker-end="url(#arr)"/>
+
+    <rect class="key-pill" x="20" y="440" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="30" y="455">chairmanQuote</text>
+    <path class="arrow" d="M 140 451 L 180 451" marker-end="url(#arr)"/>
+
+    <rect class="key-pill" x="20" y="515" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="30" y="530">process</text>
+    <path class="arrow" d="M 140 526 L 180 526" marker-end="url(#arr)"/>
+  </g>
+
+  <!-- ─── Annotation pills (RIGHT side) ─── -->
+  <g>
+    <rect class="key-pill" x="760" y="125" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="770" y="140">site.json → nav</text>
+    <path class="arrow" d="M 760 136 L 720 136" marker-end="url(#arr)"/>
+
+    <rect class="key-pill" x="760" y="580" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="770" y="595">marketsTeaser</text>
+    <path class="arrow" d="M 760 591 L 720 591" marker-end="url(#arr)"/>
+
+    <rect class="key-pill" x="760" y="650" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="770" y="665">latestNews</text>
+    <path class="arrow" d="M 760 661 L 720 661" marker-end="url(#arr)"/>
+
+    <rect class="key-pill" x="760" y="710" width="118" height="22" rx="4"/>
+    <text class="key-pill-text" x="770" y="725">ctaBand</text>
+    <path class="arrow" d="M 760 720 L 720 720" marker-end="url(#arr)"/>
+  </g>
+</svg>

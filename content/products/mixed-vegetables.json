@@ -1,0 +1,73 @@
+{
+  "slug": "mixed-vegetables",
+  "name": {
+    "en": "Mixed Vegetables",
+    "ar": "خضار مشكل",
+    "fr": "Légumes Mélangés"
+  },
+  "shortDescription": {
+    "en": "Custom blends to your specification — peas, carrots, beans, corn, broccoli, cauliflower.",
+    "ar": "خلطات مخصصة حسب طلبك - بازلاء وجزر وفاصوليا وذرة وبروكلي وقرنبيط.",
+    "fr": "Mélanges personnalisés — pois, carottes, haricots, maïs, brocoli, chou-fleur."
+  },
+  "description": {
+    "en": "Items and rations can be set upon client's selection. Customized vegetable mixture types: Regular (Peas, Green Beans & Carrot), Special (Sweet Corn, Broccoli, Cauliflower), or any combination from Montana's range of products.",
+    "ar": "يمكن تحديد العناصر والمكونات بناءً على اختيار العميل. أنواع الخليط المخصص: عادي (بازلاء، فاصوليا خضراء، جزر)، خاص (ذرة حلوة، بروكلي، قرنبيط)، أو أي مزيج من منتجات مونتانا.",
+    "fr": "Les articles et rations peuvent être définis selon la sélection du client."
+  },
+  "category": "vegetable",
+  "featured": true,
+  "badges": ["popular"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Regular (peas + green beans + carrot)",
+        "ar": "عادي (بسلة + فاصوليا + جزر)",
+        "fr": "Régulier"
+      }
+    },
+    {
+      "name": {
+        "en": "3-mix + broccoli",
+        "ar": "ثلاثي + بروكلي",
+        "fr": "3-mix + brocoli"
+      }
+    },
+    {
+      "name": {
+        "en": "3-mix + sweet corn",
+        "ar": "ثلاثي + ذرة",
+        "fr": "3-mix + maïs"
+      }
+    },
+    {
+      "name": {
+        "en": "4-mix + cauliflower",
+        "ar": "رباعي + قرنبيط",
+        "fr": "4-mix + chou-fleur"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": [],
+  "images": {
+    "primary": "/images/products/mixed-vegetables-pack.png",
+    "gallery": [
+      "/images/products/lifestyle/mixed-vegetables.jpg",
+      "/images/products/mixed-vegetables-bowl.jpg"
+    ],
+    "packaging": ["/images/products/mixed-vegetables-pack.png"]
+  },
+  "relatedSlugs": ["peas-and-carrots", "broccoli", "cauliflower"]
+}

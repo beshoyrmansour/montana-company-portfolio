@@ -1,0 +1,75 @@
+{
+  "slug": "broccoli",
+  "name": {
+    "en": "Broccoli",
+    "ar": "بروكلي",
+    "fr": "Brocoli"
+  },
+  "shortDescription": {
+    "en": "Pre-selected broccoli seeds from the best quality worldwide, frozen immediately to preserve nutrition.",
+    "ar": "بذور بروكلي مختارة من أفضل الجودات العالمية، مجمدة فوراً للحفاظ على القيمة الغذائية.",
+    "fr": "Graines de brocoli pré-sélectionnées parmi les meilleures au monde, surgelées immédiatement."
+  },
+  "description": {
+    "en": "Montana plants pre-selected broccoli seeds from the best quality worldwide. It is directly transported to the production lines to guarantee maintaining all nutritional benefits. Recently introduced to the local market, broccoli has been met with great demand due to its nutritional benefits.",
+    "ar": "تزرع مونتانا بذور البروكلي المختارة من أفضل الجودات في العالم. ينقل مباشرة إلى خطوط الإنتاج لضمان الحفاظ على جميع القيم الغذائية. أدخل البروكلي مؤخراً إلى السوق المحلي وحقق طلباً كبيراً.",
+    "fr": "Montana cultive des graines de brocoli pré-sélectionnées parmi les meilleures du monde. Il est directement transporté sur les lignes de production pour garantir le maintien de toutes les propriétés nutritionnelles."
+  },
+  "category": "vegetable",
+  "featured": true,
+  "badges": ["popular", "new"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Stem lengths",
+        "ar": "أطوال السيقان",
+        "fr": "Longueurs de tige"
+      },
+      "sizes": [
+        {
+          "label": {
+            "en": "Short",
+            "ar": "قصير",
+            "fr": "Court"
+          },
+          "spec": {
+            "en": "2 – 4 cm",
+            "ar": "٢ – ٤ سم",
+            "fr": "2 – 4 cm"
+          }
+        },
+        {
+          "label": {
+            "en": "Long",
+            "ar": "طويل",
+            "fr": "Long"
+          },
+          "spec": {
+            "en": "4 – 6 cm",
+            "ar": "٤ – ٦ سم",
+            "fr": "4 – 6 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["feb"],
+  "images": {
+    "primary": "/images/products/lifestyle/broccoli.jpg",
+    "gallery": ["/images/products/broccoli-bowl.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["cauliflower", "mixed-vegetables"]
+}

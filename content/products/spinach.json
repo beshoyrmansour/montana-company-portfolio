@@ -1,0 +1,51 @@
+{
+  "slug": "spinach",
+  "name": {
+    "en": "Spinach",
+    "ar": "سبانخ",
+    "fr": "Épinards"
+  },
+  "shortDescription": {
+    "en": "Distinctive home-grown spinach from highest quality seeds — full nutritional benefits preserved.",
+    "ar": "سبانخ مميز مزروع منزلياً من أعلى جودات البذور - مع الحفاظ على القيمة الغذائية الكاملة.",
+    "fr": "Épinards distinctifs cultivés à partir de graines de meilleure qualité."
+  },
+  "description": {
+    "en": "A distinctive product from Montana which is home grown from the highest quality seeds and instantly transported to the production lines. Being harvested and delivered to the factory in less than half an hour, fresh leaves are refinery pulled and cut by the most advanced machinery, guaranteeing a defect-free product with its full nutritional benefits.",
+    "ar": "منتج مميز من مونتانا يُزرع داخلياً من بذور عالية الجودة وينتقل فوراً إلى خطوط الإنتاج. يتم حصاده وتسليمه إلى المصنع في أقل من نصف ساعة، حيث تُسحب الأوراق الطازجة وتُقطع بأكثر الآلات تقدماً، مما يضمن منتجاً خالياً من العيوب مع الحفاظ على القيمة الغذائية الكاملة.",
+    "fr": "Un produit distinctif de Montana cultivé sur ses propres terrains à partir de graines de meilleure qualité et directement transporté sur les lignes de production."
+  },
+  "category": "leaf",
+  "featured": false,
+  "badges": ["organic"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Whole leaves",
+        "ar": "أوراق كاملة",
+        "fr": "Feuilles entières"
+      }
+    },
+    {
+      "name": {
+        "en": "Chopped",
+        "ar": "مفروم",
+        "fr": "Hachée"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    }
+  ],
+  "seasonality": ["jan", "feb", "nov", "dec"],
+  "images": {
+    "primary": "/images/products/lifestyle/spinach.jpg",
+    "gallery": ["/images/products/spinach-bowl.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["molokhia", "vine-leaves", "mixed-vegetables"]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "vine-leaves",
+  "name": {
+    "en": "Vine Leaves",
+    "ar": "ورق عنب",
+    "fr": "Feuilles de Vigne"
+  },
+  "shortDescription": {
+    "en": "Finest seedless grape leaves — picked prematurely to preserve nutrition, color and taste.",
+    "ar": "أجود أوراق العنب بدون بذور - تُقطف مبكراً للحفاظ على القيمة الغذائية واللون والطعم.",
+    "fr": "Meilleures feuilles de vigne sans pépins — cueillies prématurément."
+  },
+  "description": {
+    "en": "Being the yield of the finest seedless grape leaves, picked prematurely to maintain their nutritional benefits, natural green color and taste.",
+    "ar": "غلة من أجود أوراق العنب بدون بذور، يتم اقتطافها في وقت مبكر للحفاظ على قيمتها الغذائية، ولونها الأخضر الطبيعي والمذاق المعروف.",
+    "fr": "Étant le rendement des meilleurs raisins sans pépins. Les feuilles de vigne sont cueillies prématurément pour maintenir sa valeur nutritive, sa couleur verte naturelle et son goût."
+  },
+  "category": "leaf",
+  "featured": false,
+  "badges": ["seasonal"],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "250 g",
+      "perCarton": "32 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["may"],
+  "images": {
+    "primary": "/images/products/lifestyle/vine-leaves.jpg",
+    "gallery": ["/images/products/vine-leaves-plate.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["molokhia", "spinach", "okra"],
+  "varieties": []
+}

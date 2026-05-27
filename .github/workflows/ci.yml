@@ -1,0 +1,131 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main, staging]
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  quality:
+    name: Lint · Typecheck · Validate · Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      - run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Validate content
+        run: npm run content:validate
+      - name: Unit tests
+        run: npm test
+      - name: Build (Next.js)
+        run: npm run build
+      - name: Verify build output
+        run: |
+          test -d .next || (echo ".next/ missing — Next.js build did not complete" && exit 1)
+          echo "✓ Next.js build produced .next/"
+
+  security:
+    name: Audit · Secrets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      - run: npm ci
+      - name: npm audit (production deps)
+        run: npm audit --omit=dev --audit-level=high
+      - name: Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  e2e:
+    name: Playwright (Chromium)
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npx playwright install chromium --with-deps
+      - run: npm run build
+      - name: Start Next.js production server
+        run: |
+          npm start &
+          SERVER_PID=$!
+          echo "SERVER_PID=$SERVER_PID" >> $GITHUB_ENV
+          for i in {1..30}; do
+            if curl -sf -o /dev/null http://localhost:3000/; then echo "up"; break; fi
+            sleep 1
+          done
+      - name: Run e2e
+        run: npm run test:e2e -- --project=chromium
+      - name: Stop server
+        if: always()
+        run: kill ${{ env.SERVER_PID }} || true
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: web/playwright-report/
+          retention-days: 7
+
+  docs-link-check:
+    name: Docs link check (lychee)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+      - name: Run lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --config ./lychee.toml
+            --cache --max-cache-age 1d
+            --no-progress
+            './README.md'
+            './docs/**/*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  lighthouse:
+    name: Lighthouse (3G Slow)
+    needs: quality
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
+      - name: Serve + Lighthouse
+        run: |
+          npm start &
+          for i in {1..30}; do curl -sf -o /dev/null http://localhost:3000/ && break; sleep 1; done
+          npx --yes @lhci/cli@0.13.x autorun --upload.target=temporary-public-storage || true
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

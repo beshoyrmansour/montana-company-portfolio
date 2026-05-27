@@ -1,0 +1,44 @@
+{
+  "slug": "peas-and-carrots",
+  "name": {
+    "en": "Peas & Carrots",
+    "ar": "بسلة بالجزر",
+    "fr": "Pois & Carottes"
+  },
+  "shortDescription": {
+    "en": "Premium peas and diced carrots in a perfect 1:1 ratio.",
+    "ar": "بازلاء وجزر مكعب بنسبة مثالية ١:١.",
+    "fr": "Petits pois et carottes en dés dans un ratio parfait 1:1."
+  },
+  "description": {
+    "en": "Like all products, Peas & Carrots are of finest quality mixed with a ratio of 1:1. Carrots cubed shape is used. Montana supplies other ratios according to customer's needs and requests.",
+    "ar": "مثل جميع المنتجات، البازلاء والجزر هي أفضل نوعية مشكلة بنسبة ١:١. يستخدم الجزر مكعب الشكل.",
+    "fr": "Comme tous les produits, pois et carottes sont de la plus haute qualité mélangés avec un ratio de 1:1."
+  },
+  "category": "vegetable",
+  "featured": true,
+  "badges": ["popular"],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": [],
+  "images": {
+    "primary": "/images/products/peas-and-carrots-pack.png",
+    "gallery": [
+      "/images/products/lifestyle/peas-and-carrots.jpg",
+      "/images/products/peas-carrots-bowl.jpg"
+    ],
+    "packaging": ["/images/products/peas-and-carrots-pack.png"]
+  },
+  "relatedSlugs": ["peas", "carrots", "mixed-vegetables"],
+  "varieties": []
+}

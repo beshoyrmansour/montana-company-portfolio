@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Anatomy of a product JSON file. The left column shows fields in the JSON; the right column shows where each one appears on the rendered product page (name, image, badges, description, varieties, packaging table, seasonality calendar).">
+  <style>
+    .bg { fill: #fafafa; }
+    .card { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; }
+    .json-bg { fill: #1e293b; }
+    .json-text { font: 13px "JetBrains Mono", ui-monospace, monospace; fill: #e2e8f0; }
+    .json-key { fill: #93c5fd; }
+    .json-string { fill: #fcd34d; }
+    .json-num { fill: #fca5a5; }
+    .json-bool { fill: #c4b5fd; }
+    .json-mute { fill: #94a3b8; }
+    .heading { font: 600 18px -apple-system, "Inter", system-ui, sans-serif; fill: #0f172a; }
+    .label { font: 600 12px -apple-system, "Inter", system-ui, sans-serif; fill: #0f172a; }
+    .small { font: 12px -apple-system, "Inter", system-ui, sans-serif; fill: #475569; }
+    .tiny { font: 11px -apple-system, "Inter", system-ui, sans-serif; fill: #64748b; }
+    .arrow { stroke: #f97316; stroke-width: 1.5; fill: none; }
+    .arrow-dim { stroke: #cbd5e1; stroke-width: 1; fill: none; stroke-dasharray: 3 2; }
+    .badge-pop { fill: #fef3c7; stroke: #d97706; stroke-width: 1; }
+    .badge-pop-text { font: 600 10px -apple-system, "Inter", system-ui, sans-serif; fill: #92400e; }
+    .badge-sig { fill: #ecfccb; stroke: #65a30d; stroke-width: 1; }
+    .badge-sig-text { font: 600 10px -apple-system, "Inter", system-ui, sans-serif; fill: #3f6212; }
+    .product-img { fill: #d1fae5; stroke: #6ee7b7; stroke-width: 1; }
+    .month { fill: #f1f5f9; stroke: #e2e8f0; stroke-width: 1; }
+    .month-active { fill: #10b981; }
+    .month-text { font: 9px -apple-system, system-ui, sans-serif; fill: #475569; }
+    .month-active-text { fill: #ffffff; font-weight: 600; }
+    .row-divider { stroke: #e2e8f0; stroke-width: 1; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="900" height="620"/>
+
+  <!-- Section heads -->
+  <text class="heading" x="30" y="35">JSON in content/products/molokhia.json</text>
+  <text class="heading" x="500" y="35">Renders as</text>
+
+  <!-- ─── LEFT: JSON ─── -->
+  <rect class="json-bg" x="20" y="55" width="430" height="540" rx="6"/>
+
+  <text class="json-text" x="35" y="80">{</text>
+  <text class="json-text" x="50" y="100"><tspan class="json-key">"slug"</tspan>: <tspan class="json-string">"molokhia"</tspan>,</text>
+  <text class="json-text" x="50" y="120"><tspan class="json-key">"name"</tspan>: { <tspan class="json-key">"en"</tspan>: <tspan class="json-string">"Molokhia"</tspan>, ... },</text>
+  <text class="json-text" x="50" y="140"><tspan class="json-key">"shortDescription"</tspan>: { <tspan class="json-key">"en"</tspan>: <tspan class="json-string">"Egypt's</tspan></text>
+  <text class="json-text" x="60" y="158"><tspan class="json-string">    signature green leaf — …"</tspan>, ... },</text>
+  <text class="json-text" x="50" y="178"><tspan class="json-key">"description"</tspan>: { <tspan class="json-key">"en"</tspan>: <tspan class="json-string">"Since molokhia</tspan></text>
+  <text class="json-text" x="60" y="196"><tspan class="json-string">    is an Egyptian specialty …"</tspan>, ... },</text>
+  <text class="json-text" x="50" y="216"><tspan class="json-key">"category"</tspan>: <tspan class="json-string">"leaf"</tspan>,</text>
+  <text class="json-text" x="50" y="236"><tspan class="json-key">"featured"</tspan>: <tspan class="json-bool">true</tspan>,</text>
+  <text class="json-text" x="50" y="256"><tspan class="json-key">"badges"</tspan>: [<tspan class="json-string">"signature"</tspan>, <tspan class="json-string">"popular"</tspan>],</text>
+  <text class="json-text" x="50" y="276"><tspan class="json-key">"varieties"</tspan>: [</text>
+  <text class="json-text" x="65" y="294">{ <tspan class="json-key">"name"</tspan>: { <tspan class="json-key">"en"</tspan>: <tspan class="json-string">"Whole leaves"</tspan> } },</text>
+  <text class="json-text" x="65" y="312">{ <tspan class="json-key">"name"</tspan>: { <tspan class="json-key">"en"</tspan>: <tspan class="json-string">"Chopped"</tspan> } }</text>
+  <text class="json-text" x="50" y="330">],</text>
+  <text class="json-text" x="50" y="350"><tspan class="json-key">"packaging"</tspan>: [</text>
+  <text class="json-text" x="65" y="368">{ <tspan class="json-key">"type"</tspan>: <tspan class="json-string">"retail"</tspan>, <tspan class="json-key">"weight"</tspan>: <tspan class="json-string">"400 g"</tspan> },</text>
+  <text class="json-text" x="65" y="386">{ <tspan class="json-key">"type"</tspan>: <tspan class="json-string">"foodservice"</tspan>, <tspan class="json-key">"weight"</tspan>: <tspan class="json-string">"2.5 kg"</tspan> }</text>
+  <text class="json-text" x="50" y="404">],</text>
+  <text class="json-text" x="50" y="424"><tspan class="json-key">"seasonality"</tspan>: [<tspan class="json-string">"jun"</tspan>, <tspan class="json-string">"jul"</tspan>, <tspan class="json-string">"aug"</tspan>,</text>
+  <text class="json-text" x="60" y="442"><tspan class="json-string">"sep"</tspan>, <tspan class="json-string">"oct"</tspan>],</text>
+  <text class="json-text" x="50" y="462"><tspan class="json-key">"images"</tspan>: {</text>
+  <text class="json-text" x="65" y="480"><tspan class="json-key">"primary"</tspan>: <tspan class="json-string">"/images/products/...pack.png"</tspan>,</text>
+  <text class="json-text" x="65" y="498"><tspan class="json-key">"gallery"</tspan>: [<tspan class="json-string">"/images/products/...bowl.jpg"</tspan>],</text>
+  <text class="json-text" x="65" y="516"><tspan class="json-key">"packaging"</tspan>: [<tspan class="json-mute">…</tspan>]</text>
+  <text class="json-text" x="50" y="534">},</text>
+  <text class="json-text" x="50" y="554"><tspan class="json-key">"relatedSlugs"</tspan>: [<tspan class="json-string">"spinach"</tspan>, <tspan class="json-string">"okra"</tspan>]</text>
+  <text class="json-text" x="35" y="574">}</text>
+
+  <!-- ─── RIGHT: Rendered product card ─── -->
+  <rect class="card" x="490" y="55" width="390" height="540" rx="8"/>
+
+  <!-- Image box -->
+  <rect class="product-img" x="510" y="75" width="350" height="160" rx="6"/>
+  <text class="small" x="650" y="160" text-anchor="middle" style="font-style: italic">[primary image]</text>
+  <text class="tiny" x="650" y="178" text-anchor="middle">molokhia-pack.png</text>
+
+  <!-- Badges -->
+  <rect class="badge-sig" x="510" y="250" width="68" height="20" rx="10"/>
+  <text class="badge-sig-text" x="520" y="263">SIGNATURE</text>
+  <rect class="badge-pop" x="586" y="250" width="58" height="20" rx="10"/>
+  <text class="badge-pop-text" x="596" y="263">POPULAR</text>
+
+  <!-- Product name -->
+  <text x="510" y="298" font="700 24px -apple-system, system-ui, sans-serif" fill="#0f172a">Molokhia</text>
+
+  <!-- Short description -->
+  <text class="small" x="510" y="322">Egypt's signature green leaf — harvested</text>
+  <text class="small" x="510" y="338">and frozen within half an hour.</text>
+
+  <!-- Varieties -->
+  <line class="row-divider" x1="510" y1="358" x2="860" y2="358"/>
+  <text class="label" x="510" y="376">Varieties</text>
+  <text class="small" x="510" y="394">• Whole leaves</text>
+  <text class="small" x="510" y="410">• Chopped</text>
+
+  <!-- Packaging table -->
+  <line class="row-divider" x1="510" y1="426" x2="860" y2="426"/>
+  <text class="label" x="510" y="444">Packaging</text>
+  <text class="tiny" x="510" y="460">TYPE</text>
+  <text class="tiny" x="630" y="460">WEIGHT</text>
+  <text class="tiny" x="750" y="460">PER CARTON</text>
+  <text class="small" x="510" y="478">Retail</text>
+  <text class="small" x="630" y="478">400 g</text>
+  <text class="small" x="750" y="478">20 bags</text>
+  <text class="small" x="510" y="494">Foodservice</text>
+  <text class="small" x="630" y="494">2.5 kg</text>
+  <text class="small" x="750" y="494">4 bags</text>
+
+  <!-- Seasonality -->
+  <line class="row-divider" x1="510" y1="510" x2="860" y2="510"/>
+  <text class="label" x="510" y="528">Harvest calendar</text>
+  <g font-size="9">
+    <rect class="month" x="510" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text" x="523" y="555" text-anchor="middle">JAN</text>
+    <rect class="month" x="538" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text" x="551" y="555" text-anchor="middle">FEB</text>
+    <rect class="month" x="566" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text" x="579" y="555" text-anchor="middle">MAR</text>
+    <rect class="month" x="594" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text" x="607" y="555" text-anchor="middle">APR</text>
+    <rect class="month" x="622" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text" x="635" y="555" text-anchor="middle">MAY</text>
+    <rect class="month-active" x="650" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text month-active-text" x="663" y="555" text-anchor="middle">JUN</text>
+    <rect class="month-active" x="678" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text month-active-text" x="691" y="555" text-anchor="middle">JUL</text>
+    <rect class="month-active" x="706" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text month-active-text" x="719" y="555" text-anchor="middle">AUG</text>
+    <rect class="month-active" x="734" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text month-active-text" x="747" y="555" text-anchor="middle">SEP</text>
+    <rect class="month-active" x="762" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text month-active-text" x="775" y="555" text-anchor="middle">OCT</text>
+    <rect class="month" x="790" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text" x="803" y="555" text-anchor="middle">NOV</text>
+    <rect class="month" x="818" y="540" width="26" height="22" rx="3"/>
+    <text class="month-text" x="831" y="555" text-anchor="middle">DEC</text>
+  </g>
+
+  <!-- Connecting arrows -->
+  <path class="arrow" d="M 285 120 Q 380 120 510 285" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 140 Q 380 200 510 325" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 260 Q 380 250 510 260" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 295 Q 380 360 510 385" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 360 Q 380 430 510 450" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 430 Q 380 530 510 540" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 475 Q 360 140 530 110" marker-end="url(#arr)"/>
+
+  <!-- Footer -->
+  <text class="tiny" x="450" y="615" text-anchor="middle">Filename — <tspan font-family="ui-monospace, monospace" fill="#0f172a">molokhia.json</tspan> — becomes the URL slug at <tspan font-family="ui-monospace, monospace" fill="#0f172a">/en/catalog/molokhia</tspan></text>
+</svg>

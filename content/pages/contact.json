@@ -1,0 +1,362 @@
+{
+  "hero": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Get in touch",
+      "ar": "تواصل معنا",
+      "fr": "Nous contacter"
+    },
+    "headline": {
+      "lead": {
+        "en": "Let's",
+        "ar": "دعنا",
+        "fr": "Parlons"
+      },
+      "em": {
+        "en": "talk shipments.",
+        "ar": "نتحدث عن الشحنات.",
+        "fr": "expéditions."
+      }
+    },
+    "subtitle": {
+      "en": "Our export desk replies within one business day, in your language. Send a product and a quantity — we'll come back with specs, MOQ, lead time and price.",
+      "ar": "مكتب التصدير لدينا يرد خلال يوم عمل واحد، بلغتك. أرسل المنتج والكمية — سنعود إليك بالمواصفات والحد الأدنى للطلب ومدة التسليم والسعر.",
+      "fr": "Notre service export répond sous un jour ouvré, dans votre langue. Indiquez un produit et une quantité — nous reviendrons avec les spécifications, la quantité minimale, le délai et le prix."
+    }
+  },
+  "form": {
+    "enabled": true,
+    "reasonLabel": {
+      "en": "What can we help with?",
+      "ar": "كيف يمكننا المساعدة؟",
+      "fr": "Comment pouvons-nous vous aider ?"
+    },
+    "reasons": [
+      {
+        "id": "sourcing",
+        "label": {
+          "en": "New sourcing inquiry",
+          "ar": "استفسار توريد جديد",
+          "fr": "Nouvelle demande de sourcing"
+        }
+      },
+      {
+        "id": "existing",
+        "label": {
+          "en": "Existing customer · order",
+          "ar": "عميل حالي · طلب",
+          "fr": "Client existant · commande"
+        }
+      },
+      {
+        "id": "sample",
+        "label": {
+          "en": "Sample request",
+          "ar": "طلب عينة",
+          "fr": "Demande d'échantillon"
+        }
+      },
+      {
+        "id": "press",
+        "label": {
+          "en": "Press · media",
+          "ar": "صحافة · إعلام",
+          "fr": "Presse · média"
+        }
+      },
+      {
+        "id": "careers",
+        "label": {
+          "en": "Careers · partnerships",
+          "ar": "وظائف · شراكات",
+          "fr": "Carrières · partenariats"
+        }
+      },
+      {
+        "id": "other",
+        "label": {
+          "en": "Something else",
+          "ar": "شيء آخر",
+          "fr": "Autre"
+        }
+      }
+    ],
+    "fields": {
+      "name": {
+        "label": { "en": "Full name", "ar": "الاسم الكامل", "fr": "Nom complet" },
+        "placeholder": { "en": "Maya Hassan", "ar": "مايا حسن", "fr": "Maya Hassan" }
+      },
+      "company": {
+        "label": { "en": "Company", "ar": "الشركة", "fr": "Société" },
+        "placeholder": {
+          "en": "Hassan Importers Ltd.",
+          "ar": "شركة حسن للاستيراد",
+          "fr": "Hassan Importers Ltd."
+        }
+      },
+      "email": {
+        "label": { "en": "Email", "ar": "البريد الإلكتروني", "fr": "E-mail" },
+        "placeholder": "trade@yourcompany.com"
+      },
+      "country": {
+        "label": {
+          "en": "Destination country",
+          "ar": "دولة الوجهة",
+          "fr": "Pays de destination"
+        },
+        "placeholder": {
+          "en": "United Arab Emirates",
+          "ar": "الإمارات العربية المتحدة",
+          "fr": "Émirats arabes unis"
+        }
+      },
+      "message": {
+        "label": {
+          "en": "Tell us a bit more",
+          "ar": "أخبرنا المزيد",
+          "fr": "Parlez-nous plus en détail"
+        },
+        "placeholder": {
+          "en": "Product · quantity · target arrival date · any specs we should know about.",
+          "ar": "المنتج · الكمية · تاريخ الوصول المستهدف · أي مواصفات يجب أن نعرفها.",
+          "fr": "Produit · quantité · date d'arrivée souhaitée · toute spécification utile."
+        }
+      }
+    },
+    "note": {
+      "en": "We reply within one business day. Your details stay between us — no third-party tracking.",
+      "ar": "نرد في غضون يوم عمل واحد. تفاصيلك تبقى بيننا — لا تتبع من طرف ثالث.",
+      "fr": "Nous répondons sous un jour ouvré. Vos coordonnées restent entre nous — pas de suivi tiers."
+    },
+    "submit": {
+      "en": "Send to the export desk",
+      "ar": "إرسال إلى مكتب التصدير",
+      "fr": "Envoyer au service export"
+    },
+    "successTitle": {
+      "en": "Message received.",
+      "ar": "تم استلام الرسالة.",
+      "fr": "Message reçu."
+    },
+    "successBody": {
+      "en": "Thank you. Our export desk will reply within one business day. Check your spam folder if you don't hear from us by tomorrow.",
+      "ar": "شكراً لك. سيرد مكتب التصدير لدينا في غضون يوم عمل واحد. تحقق من مجلد الرسائل غير المرغوب فيها إذا لم تسمع منا بحلول الغد.",
+      "fr": "Merci. Notre service export vous répondra sous un jour ouvré. Vérifiez votre dossier spam si vous n'avez pas de nouvelles d'ici demain."
+    },
+    "sendAnother": {
+      "en": "Send another",
+      "ar": "إرسال رسالة أخرى",
+      "fr": "Envoyer un autre message"
+    },
+    "telLabel": { "en": "Tel", "ar": "هاتف", "fr": "Tél" },
+    "emailLabel": { "en": "Email", "ar": "بريد", "fr": "E-mail" },
+    "hoursLabel": { "en": "Hours", "ar": "دوام", "fr": "Horaires" }
+  },
+  "offices": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Three desks, one company",
+      "ar": "ثلاثة مكاتب، شركة واحدة",
+      "fr": "Trois bureaux, une seule entreprise"
+    },
+    "title": {
+      "lead": {
+        "en": "Where to",
+        "ar": "أين",
+        "fr": "Où nous"
+      },
+      "em": {
+        "en": "find us.",
+        "ar": "تجدنا.",
+        "fr": "trouver."
+      }
+    },
+    "items": [
+      {
+        "city": { "en": "Kalioub HQ", "ar": "القليوب · المقر الرئيسي", "fr": "Kalioub · siège" },
+        "country": { "en": "Egypt", "ar": "مصر", "fr": "Égypte" },
+        "address": {
+          "en": "Industrial Zone Block 4, Kalioub Governorate",
+          "ar": "المنطقة الصناعية بلوك 4، محافظة القليوبية",
+          "fr": "Zone industrielle bloc 4, gouvernorat de Kalioub"
+        },
+        "tel": "+202 421 65 139",
+        "email": "export@montanaeg.com",
+        "role": {
+          "en": "Production · export desk · quality lab",
+          "ar": "إنتاج · مكتب التصدير · مختبر الجودة",
+          "fr": "Production · service export · laboratoire qualité"
+        },
+        "hours": {
+          "en": "Sun–Thu · 08:00–17:00 EET",
+          "ar": "الأحد–الخميس · 08:00–17:00 توقيت القاهرة",
+          "fr": "Dim–Jeu · 08h00–17h00 EET"
+        }
+      },
+      {
+        "city": { "en": "Cairo", "ar": "القاهرة", "fr": "Le Caire" },
+        "country": { "en": "Egypt", "ar": "مصر", "fr": "Égypte" },
+        "address": {
+          "en": "6 Salah Salem St., Heliopolis, Cairo 11321",
+          "ar": "6 شارع صلاح سالم، مصر الجديدة، القاهرة 11321",
+          "fr": "6 rue Salah Salem, Héliopolis, Le Caire 11321"
+        },
+        "tel": "+202 268 49 070",
+        "email": "cairo@montanaeg.com",
+        "role": {
+          "en": "Commercial office · MENA accounts",
+          "ar": "مكتب تجاري · حسابات الشرق الأوسط وشمال أفريقيا",
+          "fr": "Bureau commercial · comptes MENA"
+        },
+        "hours": {
+          "en": "Sun–Thu · 09:00–18:00 EET",
+          "ar": "الأحد–الخميس · 09:00–18:00 توقيت القاهرة",
+          "fr": "Dim–Jeu · 09h00–18h00 EET"
+        }
+      },
+      {
+        "city": { "en": "Dubai", "ar": "دبي", "fr": "Dubaï" },
+        "country": { "en": "UAE", "ar": "الإمارات", "fr": "EAU" },
+        "address": {
+          "en": "Jumeirah Lake Towers, Cluster D — Floor 12",
+          "ar": "أبراج بحيرات جميرا، عنقود D — الطابق 12",
+          "fr": "Jumeirah Lake Towers, Cluster D — 12e étage"
+        },
+        "tel": "+971 4 245 9070",
+        "email": "gulf@montanaeg.com",
+        "role": {
+          "en": "Gulf cooperation accounts",
+          "ar": "حسابات دول الخليج",
+          "fr": "Comptes du Conseil de coopération du Golfe"
+        },
+        "hours": {
+          "en": "Sun–Thu · 09:00–17:00 GST",
+          "ar": "الأحد–الخميس · 09:00–17:00 توقيت الخليج",
+          "fr": "Dim–Jeu · 09h00–17h00 GST"
+        }
+      }
+    ]
+  },
+  "map": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Our home",
+      "ar": "موطننا",
+      "fr": "Notre maison"
+    },
+    "title": {
+      "lead": {
+        "en": "Kalioub,",
+        "ar": "القليوب،",
+        "fr": "Kalioub,"
+      },
+      "em": {
+        "en": "Egypt.",
+        "ar": "مصر.",
+        "fr": "Égypte."
+      }
+    },
+    "body": {
+      "en": "The 50,000 m² facility is twenty minutes north of Cairo on the Delta highway. Our production, quality lab and export desk all live here.",
+      "ar": "منشأة 50,000 متر مربع تبعد عشرين دقيقة شمال القاهرة على طريق الدلتا السريع. الإنتاج ومختبر الجودة ومكتب التصدير لدينا جميعاً موجودون هنا.",
+      "fr": "L'installation de 50 000 m² se trouve à vingt minutes au nord du Caire sur l'autoroute du delta. Notre production, notre laboratoire qualité et notre service export y sont tous installés."
+    },
+    "actions": [
+      {
+        "label": {
+          "en": "View on Google Maps",
+          "ar": "افتح في خرائط Google",
+          "fr": "Voir sur Google Maps"
+        },
+        "href": "https://maps.app.goo.gl/DJhBdc8WZ1mrRyXV7",
+        "variant": "ghost",
+        "external": true
+      },
+      {
+        "label": {
+          "en": "Plan a facility visit",
+          "ar": "خطّط لزيارة المنشأة",
+          "fr": "Planifier une visite"
+        },
+        "href": "mailto:montana@maamoungrp.com?subject=Facility%20visit",
+        "variant": "ghost"
+      }
+    ],
+    "svgLabels": {
+      "hq": { "en": "Kalioub", "ar": "القليوب", "fr": "Kalioub" },
+      "hqSub": { "en": "Montana HQ", "ar": "مونتانا · المقر", "fr": "Siège Montana" },
+      "cairo": { "en": "Cairo", "ar": "القاهرة", "fr": "Le Caire" },
+      "alexandria": { "en": "Alexandria", "ar": "الإسكندرية", "fr": "Alexandrie" }
+    }
+  },
+  "faq": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Common questions",
+      "ar": "أسئلة شائعة",
+      "fr": "Questions fréquentes"
+    },
+    "title": {
+      "lead": {
+        "en": "Before you",
+        "ar": "قبل أن",
+        "fr": "Avant d'"
+      },
+      "em": {
+        "en": "send a message.",
+        "ar": "ترسل رسالة.",
+        "fr": "envoyer un message."
+      }
+    },
+    "items": [
+      {
+        "q": {
+          "en": "What is your MOQ?",
+          "ar": "ما هو الحد الأدنى للطلب؟",
+          "fr": "Quelle est votre quantité minimale de commande ?"
+        },
+        "a": {
+          "en": "Typically 1 full container (20' reefer, ~10 t) per product. For mixed orders, we accept blended containers starting from 12 t total.",
+          "ar": "عادة حاوية كاملة واحدة (20 قدم مبردة، حوالي 10 طن) لكل منتج. للطلبات المختلطة، نقبل حاويات مدمجة ابتداءً من 12 طناً إجمالياً.",
+          "fr": "Généralement 1 conteneur complet (20' réfrigéré, ~10 t) par produit. Pour les commandes mixtes, nous acceptons les conteneurs combinés à partir de 12 t au total."
+        }
+      },
+      {
+        "q": {
+          "en": "How fast can you ship?",
+          "ar": "ما مدى سرعة الشحن لديكم؟",
+          "fr": "Quelle est votre rapidité d'expédition ?"
+        },
+        "a": {
+          "en": "Same-week for MENA destinations; 10–18 days for Europe; 18–28 days for APAC & Americas. We confirm vessel before issuing PI.",
+          "ar": "نفس الأسبوع لوجهات الشرق الأوسط وشمال أفريقيا؛ 10–18 يوماً لأوروبا؛ 18–28 يوماً لآسيا والمحيط الهادئ والأمريكتين. نؤكد السفينة قبل إصدار الفاتورة المبدئية.",
+          "fr": "Même semaine pour les destinations MENA ; 10–18 jours pour l'Europe ; 18–28 jours pour APAC et Amériques. Nous confirmons le navire avant d'émettre la facture pro forma."
+        }
+      },
+      {
+        "q": {
+          "en": "Do you handle customs documentation?",
+          "ar": "هل تتعاملون مع وثائق الجمارك؟",
+          "fr": "Gérez-vous la documentation douanière ?"
+        },
+        "a": {
+          "en": "Yes. COO, phytosanitary, health certificate, halal, kosher — included. Pre-clearance available for EU, GCC and US destinations.",
+          "ar": "نعم. شهادة المنشأ، الصحة النباتية، الشهادة الصحية، الحلال، الكوشر — كلها مشمولة. التخليص المسبق متاح لوجهات الاتحاد الأوروبي ودول الخليج والولايات المتحدة.",
+          "fr": "Oui. COO, phytosanitaire, certificat sanitaire, halal, casher — inclus. Pré-dédouanement disponible pour les destinations UE, GCC et USA."
+        }
+      },
+      {
+        "q": {
+          "en": "Private label / custom blends?",
+          "ar": "العلامات الخاصة / الخلطات المخصصة؟",
+          "fr": "Marques privées / mélanges sur mesure ?"
+        },
+        "a": {
+          "en": "Yes, from 8 t per SKU. Lead time +2 weeks for label proofing and first production.",
+          "ar": "نعم، من 8 طن لكل وحدة SKU. مدة التنفيذ +أسبوعين لمراجعة الملصقات والإنتاج الأول.",
+          "fr": "Oui, à partir de 8 t par SKU. Délai +2 semaines pour la validation des étiquettes et la première production."
+        }
+      }
+    ]
+  }
+}

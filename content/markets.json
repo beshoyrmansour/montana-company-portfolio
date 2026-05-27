@@ -1,0 +1,117 @@
+{
+  "regions": [
+    {
+      "id": "mena",
+      "name": {
+        "en": "Middle East & North Africa",
+        "ar": "الشرق الأوسط وشمال أفريقيا",
+        "fr": "Moyen-Orient & Afrique du Nord"
+      },
+      "color": "#147239",
+      "leadTime": "4–10 days",
+      "lede": {
+        "en": "Our home region. Same-week container despatch by road and Red Sea ferry; the molokhia from Kalioub on a Riyadh table by Friday.",
+        "ar": "منطقتنا الأم. شحن أسبوعي عبر البر وعبارات البحر الأحمر؛ ملوخية القليوب على مائدة الرياض بحلول يوم الجمعة.",
+        "fr": "Notre région d'origine. Expédition hebdomadaire par route et ferry de la mer Rouge ; la molokhia de Kalioub sur une table à Riyad avant vendredi."
+      },
+      "photo": "/images/markets/mena.jpg",
+      "countries": [
+        { "iso": "EG", "name": { "en": "Egypt", "ar": "مصر", "fr": "Égypte" } },
+        {
+          "iso": "SA",
+          "name": {
+            "en": "Kingdom of Saudi Arabia",
+            "ar": "المملكة العربية السعودية",
+            "fr": "Royaume d'Arabie Saoudite"
+          }
+        },
+        {
+          "iso": "AE",
+          "name": {
+            "en": "United Arab Emirates",
+            "ar": "الإمارات العربية المتحدة",
+            "fr": "Émirats Arabes Unis"
+          }
+        },
+        { "iso": "KW", "name": { "en": "Kuwait", "ar": "الكويت", "fr": "Koweït" } },
+        { "iso": "BH", "name": { "en": "Bahrain", "ar": "البحرين", "fr": "Bahreïn" } },
+        { "iso": "QA", "name": { "en": "Qatar", "ar": "قطر", "fr": "Qatar" } },
+        { "iso": "OM", "name": { "en": "Oman", "ar": "عُمان", "fr": "Oman" } },
+        { "iso": "JO", "name": { "en": "Jordan", "ar": "الأردن", "fr": "Jordanie" } },
+        { "iso": "LB", "name": { "en": "Lebanon", "ar": "لبنان", "fr": "Liban" } },
+        { "iso": "SY", "name": { "en": "Syria", "ar": "سوريا", "fr": "Syrie" } },
+        { "iso": "IQ", "name": { "en": "Iraq", "ar": "العراق", "fr": "Irak" } },
+        { "iso": "PS", "name": { "en": "Palestine", "ar": "فلسطين", "fr": "Palestine" } },
+        { "iso": "LY", "name": { "en": "Libya", "ar": "ليبيا", "fr": "Libye" } },
+        { "iso": "TN", "name": { "en": "Tunisia", "ar": "تونس", "fr": "Tunisie" } },
+        { "iso": "SD", "name": { "en": "Sudan", "ar": "السودان", "fr": "Soudan" } }
+      ]
+    },
+    {
+      "id": "europe",
+      "name": { "en": "Europe", "ar": "أوروبا", "fr": "Europe" },
+      "color": "#B86A3E",
+      "leadTime": "10–18 days",
+      "lede": {
+        "en": "Mediterranean shipping out of Alexandria, refrigerated container to Rotterdam or Genoa, last mile by road. EU customs cleared pre-arrival.",
+        "ar": "شحن متوسطي من الإسكندرية، حاوية مبردة إلى روتردام أو جنوة، والمرحلة الأخيرة برًا. تخليص جمركي أوروبي قبل الوصول.",
+        "fr": "Expédition méditerranéenne d'Alexandrie, conteneur réfrigéré vers Rotterdam ou Gênes, dernier kilomètre par route. Douane UE pré-dédouanée."
+      },
+      "photo": "/images/markets/europe.jpg",
+      "countries": [
+        {
+          "iso": "GB",
+          "name": { "en": "United Kingdom", "ar": "المملكة المتحدة", "fr": "Royaume-Uni" }
+        },
+        { "iso": "FR", "name": { "en": "France", "ar": "فرنسا", "fr": "France" } },
+        { "iso": "DE", "name": { "en": "Germany", "ar": "ألمانيا", "fr": "Allemagne" } },
+        { "iso": "BE", "name": { "en": "Belgium", "ar": "بلجيكا", "fr": "Belgique" } },
+        { "iso": "CH", "name": { "en": "Switzerland", "ar": "سويسرا", "fr": "Suisse" } },
+        { "iso": "SE", "name": { "en": "Sweden", "ar": "السويد", "fr": "Suède" } },
+        { "iso": "PL", "name": { "en": "Poland", "ar": "بولندا", "fr": "Pologne" } },
+        { "iso": "CY", "name": { "en": "Cyprus", "ar": "قبرص", "fr": "Chypre" } },
+        { "iso": "TR", "name": { "en": "Turkey", "ar": "تركيا", "fr": "Turquie" } }
+      ]
+    },
+    {
+      "id": "americas",
+      "name": { "en": "Americas", "ar": "الأمريكتين", "fr": "Amériques" },
+      "color": "#C8202E",
+      "leadTime": "20–28 days",
+      "lede": {
+        "en": "Trans-Atlantic via Algeciras to East Coast US, Caribbean, and South America. Cold chain unbroken from Kalioub to your dock.",
+        "ar": "عبور المحيط الأطلسي عبر الجزيرة الخضراء إلى الساحل الشرقي الأمريكي والكاريبي وأمريكا الجنوبية. سلسلة تبريد دون انقطاع.",
+        "fr": "Transatlantique via Algésiras vers la côte Est des États-Unis, les Caraïbes et l'Amérique du Sud. Chaîne du froid ininterrompue."
+      },
+      "photo": "/images/markets/americas.jpg",
+      "countries": [
+        {
+          "iso": "US",
+          "name": { "en": "United States", "ar": "الولايات المتحدة", "fr": "États-Unis" }
+        },
+        { "iso": "CA", "name": { "en": "Canada", "ar": "كندا", "fr": "Canada" } }
+      ]
+    },
+    {
+      "id": "asia-pacific",
+      "name": { "en": "Asia & Pacific", "ar": "آسيا والمحيط الهادئ", "fr": "Asie & Pacifique" },
+      "color": "#D4A84A",
+      "leadTime": "18–28 days",
+      "lede": {
+        "en": "Suez transit east-bound to Singapore, Tokyo, Sydney. Strawberries land before season opens in your local market.",
+        "ar": "عبور قناة السويس شرقًا إلى سنغافورة وطوكيو وسيدني. الفراولة تصل قبل افتتاح الموسم في سوقكم المحلي.",
+        "fr": "Transit du Suez vers Singapour, Tokyo, Sydney. Les fraises arrivent avant l'ouverture de la saison sur votre marché local."
+      },
+      "photo": "/images/markets/asia-pacific.jpg",
+      "countries": [
+        { "iso": "AU", "name": { "en": "Australia", "ar": "أستراليا", "fr": "Australie" } },
+        {
+          "iso": "NZ",
+          "name": { "en": "New Zealand", "ar": "نيوزيلندا", "fr": "Nouvelle-Zélande" }
+        },
+        { "iso": "AF", "name": { "en": "Afghanistan", "ar": "أفغانستان", "fr": "Afghanistan" } },
+        { "iso": "MU", "name": { "en": "Mauritius", "ar": "موريشيوس", "fr": "Maurice" } }
+      ]
+    }
+  ]
+}

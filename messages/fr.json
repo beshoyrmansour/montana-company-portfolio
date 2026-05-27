@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "catalog": "Catalogue",
+    "news": "Actualités",
+    "markets": "Nos marchés",
+    "contact": "Contact",
+    "skipToContent": "Aller au contenu",
+    "homeAriaLabel": "Montana — accueil",
+    "openMenu": "Ouvrir le menu",
+    "language": "Langue",
+    "callUs": "Appelez-nous",
+    "emailUs": "Écrivez-nous"
+  },
+  "common": {
+    "readMore": "Lire la suite",
+    "viewAll": "Voir tout",
+    "viewAllArrow": "Voir tout →",
+    "viewProduct": "Voir le produit",
+    "loading": "Chargement…",
+    "language": "Langue",
+    "downloadCatalogue": "Télécharger le catalogue (PDF)",
+    "downloadCatalogueFull": "Télécharger le catalogue complet (PDF · 11 Mo)",
+    "replyAssurance": "Nous répondons sous un jour ouvré · Français · English · العربية"
+  },
+  "footer": {
+    "company": "Entreprise",
+    "products": "Produits",
+    "legal": "Légal",
+    "connect": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique des cookies",
+    "rights": "Tous droits réservés.",
+    "designedBy": "Conçu et développé par"
+  },
+  "home": {
+    "allNewsLink": "Toutes les actualités →",
+    "viewMarketsLink": "Voir tous les marchés →"
+  },
+  "about": {
+    "ourHistory": "Notre histoire",
+    "ourFacilities": "Nos installations"
+  },
+  "catalog": {
+    "title": "Nos produits",
+    "subtitle": "16 familles de produits, exportés vers 70 pays depuis notre installation de 50 000 m² à Kalioub, en Égypte. Ceci est un catalogue B2B — prix et quantités minimales de commande sur demande.",
+    "filter": {
+      "all": "Tous",
+      "vegetable": "Légumes",
+      "fruit": "Fruits",
+      "leaf": "Feuilles",
+      "specialty": "Spécialités"
+    }
+  },
+  "news": {
+    "title": "Salle de presse",
+    "subtitle": "Actualités de Montana — marchés, certifications, installation, et notre savoir-faire.",
+    "empty": "Aucun article pour le moment. Revenez bientôt."
+  },
+  "markets": {
+    "title": "Nos marchés",
+    "subtitle": "{count} pays sur 4 continents."
+  },
+  "product": {
+    "varieties": "Variétés disponibles",
+    "packaging": "Emballage",
+    "packagingType": "Type",
+    "packagingWeight": "Poids",
+    "packagingPerCarton": "Par carton",
+    "seasonality": "Disponibilité saisonnière",
+    "related": "Vous aimerez aussi",
+    "inquire": "Demander des informations produit",
+    "emailDirectly": "Nous écrire directement",
+    "breadcrumb": {
+      "home": "Accueil",
+      "catalog": "Catalogue"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "company": "Entreprise",
+      "optional": "(facultatif)",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "consent": "J'accepte que mes informations soient traitées par Resend (USA) et Cloudflare (USA) pour la livraison de cette demande.",
+      "privacyLink": "Voir notre politique de confidentialité"
+    },
+    "prefill": {
+      "intro": "Je souhaiterais en savoir plus sur : {productName}",
+      "askFor": "Merci de partager :",
+      "varieties": "Variétés / tailles disponibles",
+      "packaging": "Options d'emballage",
+      "moq": "Quantité minimale de commande",
+      "leadTime": "Délai de livraison vers mon marché",
+      "marketLabel": "Mon marché / pays :",
+      "signoff": "— Cordialement,"
+    }
+  },
+  "cookie": {
+    "title": "Cookies & confidentialité",
+    "body": "Nous utilisons des analyses sans cookies pour améliorer votre expérience. Aucune donnée personnelle n'est partagée.",
+    "accept": "D'accord",
+    "reject": "Refuser",
+    "learnMore": "Politique de confidentialité"
+  },
+  "themeGreeting": {
+    "ramadan": {
+      "title": "Ramadan Moubarak",
+      "message": "Nous souhaitons à nos clients et partenaires un Saint Mois béni."
+    },
+    "christmas": {
+      "title": "Joyeuses Fêtes",
+      "message": "Meilleurs vœux de la famille Montana à la vôtre."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "cauliflower",
+  "name": {
+    "en": "Cauliflower",
+    "ar": "قرنبيط",
+    "fr": "Chou-fleur"
+  },
+  "shortDescription": {
+    "en": "Fresh cauliflower all year round — pure white color from carefully pre-selected seeds.",
+    "ar": "قرنبيط طازج على مدار العام — بلونه الأبيض النقي نتيجة الاختيار الدقيق للبذور.",
+    "fr": "Chou-fleur frais toute l'année — couleur blanc pur grâce à une pré-sélection des semences."
+  },
+  "description": {
+    "en": "Montana provides fresh cauliflower all year long. Its pure white color assures its quality and nutritional benefits.",
+    "ar": "تقدم مونتانا قرنبيط طازج على مدار السنة. يضمن لونه الأبيض النقي جودته وقيمته الغذائية.",
+    "fr": "Montana offre du chou-fleur frais toute l'année, identifié par sa couleur d'un blanc pur."
+  },
+  "category": "vegetable",
+  "featured": true,
+  "badges": ["popular"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Stem lengths",
+        "ar": "أطوال السيقان",
+        "fr": "Longueurs de tige"
+      },
+      "sizes": [
+        {
+          "label": {
+            "en": "Short",
+            "ar": "قصير",
+            "fr": "Court"
+          },
+          "spec": {
+            "en": "2 – 4 cm",
+            "ar": "٢ – ٤ سم",
+            "fr": "2 – 4 cm"
+          }
+        },
+        {
+          "label": {
+            "en": "Long",
+            "ar": "طويل",
+            "fr": "Long"
+          },
+          "spec": {
+            "en": "4 – 6 cm",
+            "ar": "٤ – ٦ سم",
+            "fr": "4 – 6 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["mar"],
+  "images": {
+    "primary": "/images/products/cauliflower-pack.png",
+    "gallery": [
+      "/images/products/lifestyle/cauliflower.jpg",
+      "/images/products/cauliflower-bowl.jpg"
+    ],
+    "packaging": ["/images/products/cauliflower-pack.png"]
+  },
+  "relatedSlugs": ["broccoli", "mixed-vegetables"]
+}

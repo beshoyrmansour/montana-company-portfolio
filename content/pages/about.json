@@ -1,0 +1,369 @@
+{
+  "hero": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Since 1985",
+      "ar": "منذ 1985",
+      "fr": "Depuis 1985"
+    },
+    "headline": {
+      "lead": {
+        "en": "A family,",
+        "ar": "عائلة،",
+        "fr": "Une famille,"
+      },
+      "em": {
+        "en": "a delta,",
+        "ar": "دلتا،",
+        "fr": "un delta,"
+      },
+      "tail": {
+        "en": " four decades.",
+        "ar": " أربعة عقود.",
+        "fr": " quatre décennies."
+      }
+    },
+    "subtitle": {
+      "en": "Montana is a family-owned Egyptian frozen-food exporter, founded by Bishoy Mansour in 1985 and run today by the second generation from the same Kalioub site that started it all.",
+      "ar": "مونتانا شركة عائلية مصرية لتصدير الأغذية المجمدة، أسسها بشوي منصور عام 1985 ويديرها اليوم الجيل الثاني من نفس موقع القليوب الذي بدأ منه كل شيء.",
+      "fr": "Montana est un exportateur égyptien familial de produits surgelés, fondé par Bishoy Mansour en 1985 et dirigé aujourd'hui par la deuxième génération depuis le même site de Kalioub où tout a commencé."
+    },
+    "stats": [
+      {
+        "num": "40",
+        "sup": "+",
+        "label": {
+          "en": "Years of family ownership",
+          "ar": "سنة من الملكية العائلية",
+          "fr": "Années de propriété familiale"
+        }
+      },
+      {
+        "num": "320",
+        "label": {
+          "en": "People on the team",
+          "ar": "عضو في الفريق",
+          "fr": "Membres de l'équipe"
+        }
+      },
+      {
+        "num": "50k",
+        "label": {
+          "en": "m² Kalioub facility",
+          "ar": "م² منشأة القليوب",
+          "fr": "m² site de Kalioub"
+        }
+      },
+      {
+        "num": "19",
+        "label": {
+          "en": "Consecutive ISO audits",
+          "ar": "تدقيقات ISO متتالية",
+          "fr": "Audits ISO consécutifs"
+        }
+      }
+    ]
+  },
+  "timeline": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "From a cooperative to the world",
+      "ar": "من تعاونية إلى العالم",
+      "fr": "D'une coopérative au monde"
+    },
+    "title": {
+      "lead": {
+        "en": "The story,",
+        "ar": "القصة،",
+        "fr": "L'histoire,"
+      },
+      "em": {
+        "en": "in chapters.",
+        "ar": "في فصول.",
+        "fr": "en chapitres."
+      }
+    },
+    "items": [
+      {
+        "year": "1985",
+        "title": {
+          "en": "A cooperative begins",
+          "ar": "بداية تعاونية صغيرة",
+          "fr": "Une coopérative naît"
+        },
+        "description": {
+          "en": "Bishoy Mansour Sr. founds United Co. for Food Industries in a small Kalioub workshop, freezing the Nile delta's molokhia for nearby restaurants.",
+          "ar": "يؤسس بشوي منصور الأب الشركة المتحدة للصناعات الغذائية في ورشة صغيرة بالقليوب، يجمد ملوخية دلتا النيل للمطاعم المجاورة.",
+          "fr": "Bishoy Mansour Sr. fonde United Co. for Food Industries dans un petit atelier de Kalioub, surgelant la molokhia du delta du Nil pour les restaurants voisins."
+        },
+        "image": "/images/products/lifestyle/kitchen.jpg"
+      },
+      {
+        "year": "1992",
+        "title": {
+          "en": "First export container",
+          "ar": "أول حاوية تصدير",
+          "fr": "Premier conteneur à l'export"
+        },
+        "description": {
+          "en": "A single 20-foot container of frozen molokhia bound for Riyadh — the start of seventy-country reach.",
+          "ar": "حاوية واحدة من الملوخية المجمدة سعة عشرين قدماً إلى الرياض — بداية الوصول إلى سبعين دولة.",
+          "fr": "Un seul conteneur de 20 pieds de molokhia surgelée à destination de Riyad — le début d'une présence dans soixante-dix pays."
+        }
+      },
+      {
+        "year": "2001",
+        "title": {
+          "en": "IQF tunnel · year one",
+          "ar": "نفق التجميد الفوري · السنة الأولى",
+          "fr": "Tunnel IQF · première année"
+        },
+        "description": {
+          "en": "First Individual Quick Freeze tunnel commissioned; capacity jumps to 8 t/h. ISO 9002 audit passed first time.",
+          "ar": "تشغيل أول نفق تجميد فوري؛ ترتفع الطاقة الإنتاجية إلى 8 طن/ساعة. اجتاز تدقيق ISO 9002 من أول مرة.",
+          "fr": "Mise en service du premier tunnel IQF ; la capacité passe à 8 t/h. Audit ISO 9002 réussi du premier coup."
+        }
+      },
+      {
+        "year": "2009",
+        "title": {
+          "en": "New facility · 50,000 m²",
+          "ar": "منشأة جديدة · ٥٠٬٠٠٠ م²",
+          "fr": "Nouvelle usine · 50 000 m²"
+        },
+        "description": {
+          "en": "The current Kalioub site opens. Twenty production lines, four cold stores, a quality lab on the ground floor.",
+          "ar": "يُفتتح الموقع الحالي في القليوب. عشرون خط إنتاج، أربعة مخازن تبريد، ومختبر جودة في الطابق الأرضي.",
+          "fr": "Le site actuel de Kalioub ouvre ses portes. Vingt lignes de production, quatre chambres froides, un laboratoire qualité au rez-de-chaussée."
+        }
+      },
+      {
+        "year": "2014",
+        "title": {
+          "en": "Second generation",
+          "ar": "الجيل الثاني",
+          "fr": "Deuxième génération"
+        },
+        "description": {
+          "en": "Bishoy Jr. joins after a decade in cold-chain logistics. The family business stays a family business.",
+          "ar": "ينضم بشوي الابن بعد عقد من العمل في لوجستيات سلسلة التبريد. الشركة العائلية تبقى عائلية.",
+          "fr": "Bishoy Jr. rejoint l'entreprise après une décennie dans la logistique du froid. L'entreprise familiale reste familiale."
+        }
+      },
+      {
+        "year": "2019",
+        "title": {
+          "en": "Seventy countries",
+          "ar": "سبعون دولة",
+          "fr": "Soixante-dix pays"
+        },
+        "description": {
+          "en": "Côte d'Ivoire becomes the 70th active export market. The molokhia we shipped in 1992 now travels on six continents.",
+          "ar": "تصبح ساحل العاج السوق رقم ٧٠ للتصدير النشط. الملوخية التي شحناها عام ١٩٩٢ تسافر اليوم على ست قارات.",
+          "fr": "La Côte d'Ivoire devient le 70e marché d'exportation actif. La molokhia que nous expédiions en 1992 voyage désormais sur six continents."
+        }
+      },
+      {
+        "year": "2025",
+        "title": {
+          "en": "Tunnel two · 40 t/h",
+          "ar": "النفق الثاني · ٤٠ طن/ساعة",
+          "fr": "Tunnel deux · 40 t/h"
+        },
+        "description": {
+          "en": "Second IQF tunnel commissioned. Doubled strawberry-season capacity. Solar-roof project breaks ground.",
+          "ar": "تشغيل النفق الثاني للتجميد الفوري. مضاعفة طاقة موسم الفراولة. بدء مشروع السقف الشمسي.",
+          "fr": "Mise en service du deuxième tunnel IQF. Capacité doublée pour la saison des fraises. Lancement du projet de toit solaire."
+        },
+        "image": "/images/products/lifestyle/strawberry.jpg"
+      }
+    ]
+  },
+  "chairmanQuote": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "From the chairman",
+      "ar": "من رئيس مجلس الإدارة",
+      "fr": "Du président"
+    },
+    "quote": {
+      "before": {
+        "en": "Forty years in, we still",
+        "ar": "بعد أربعين عاماً، لا نزال",
+        "fr": "Quarante ans plus tard, nous"
+      },
+      "strong": {
+        "en": "cook what we ship",
+        "ar": "نطهو ما نشحنه",
+        "fr": "cuisinons toujours ce que nous expédions"
+      },
+      "after": {
+        "en": ". That is the test. If we wouldn't serve it at our own iftar or Christmas table, we don't put it in a container.",
+        "ar": ". هذا هو الاختبار. إن لم نقدمه على مائدتنا في الإفطار أو في عيد الميلاد، فلن نضعه في حاوية.",
+        "fr": ". C'est le test. Si nous ne le servons pas à notre propre table d'iftar ou de Noël, il ne part pas dans un conteneur."
+      }
+    },
+    "attribution": {
+      "name": {
+        "en": "Bishoy Mansour",
+        "ar": "بشوي منصور",
+        "fr": "Bishoy Mansour"
+      },
+      "role": {
+        "en": "Chairman · United Co. for Food Industries",
+        "ar": "رئيس مجلس الإدارة · الشركة المتحدة للصناعات الغذائية",
+        "fr": "Président · United Co. for Food Industries"
+      }
+    },
+    "image": "/images/about/chairman.jpg",
+    "cornerMark": {
+      "en": "— Cairo, 2026",
+      "ar": "— القاهرة، 2026",
+      "fr": "— Le Caire, 2026"
+    }
+  },
+  "values": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "What we won't compromise on",
+      "ar": "ما لا نساوم عليه",
+      "fr": "Ce sur quoi nous ne transigeons pas"
+    },
+    "title": {
+      "lead": {
+        "en": "Four",
+        "ar": "أربعة",
+        "fr": "Quatre"
+      },
+      "em": {
+        "en": "principles.",
+        "ar": "مبادئ.",
+        "fr": "principes."
+      }
+    },
+    "items": [
+      {
+        "num": "i",
+        "title": {
+          "en": "Heritage over hype",
+          "ar": "العراقة قبل الضجيج",
+          "fr": "Héritage plutôt que tapage"
+        },
+        "description": {
+          "en": "Forty years of unbroken operation. We carry the weight of every shipment that came before.",
+          "ar": "أربعون عاماً من العمل المستمر. نحمل ثقل كل شحنة سبقت.",
+          "fr": "Quarante ans d'activité ininterrompue. Nous portons le poids de chaque expédition qui a précédé."
+        }
+      },
+      {
+        "num": "ii",
+        "title": {
+          "en": "Family, not factory",
+          "ar": "عائلة، لا مصنع",
+          "fr": "Famille, pas usine"
+        },
+        "description": {
+          "en": "Owned by the Mansour family across two generations. Every package leaves with a name attached.",
+          "ar": "تملكها عائلة منصور عبر جيلين. كل عبوة تخرج باسم مرفق.",
+          "fr": "Propriété de la famille Mansour sur deux générations. Chaque emballage part avec un nom."
+        }
+      },
+      {
+        "num": "iii",
+        "title": {
+          "en": "Quality is the floor",
+          "ar": "الجودة هي الحد الأدنى",
+          "fr": "La qualité est le plancher"
+        },
+        "description": {
+          "en": "Nineteen consecutive ISO audits, zero majors. Quality isn't a department — it's the building.",
+          "ar": "تسعة عشر تدقيقاً متتالياً لـ ISO بصفر ملاحظات كبرى. الجودة ليست قسماً — بل هي المبنى كله.",
+          "fr": "Dix-neuf audits ISO consécutifs, zéro non-conformité majeure. La qualité n'est pas un département — c'est tout l'immeuble."
+        }
+      },
+      {
+        "num": "iv",
+        "title": {
+          "en": "Egypt, generously",
+          "ar": "مصر، بسخاء",
+          "fr": "L'Égypte, généreusement"
+        },
+        "description": {
+          "en": "We grow what Egypt grows best. We export the version of Egypt we serve at our own table.",
+          "ar": "نزرع ما تبدع مصر في زراعته. نصدّر مصر التي نقدمها على مائدتنا.",
+          "fr": "Nous cultivons ce que l'Égypte cultive le mieux. Nous exportons la version de l'Égypte que nous servons à notre propre table."
+        }
+      }
+    ]
+  },
+  "certifications": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Audited, every year",
+      "ar": "تدقيق سنوي",
+      "fr": "Audité chaque année"
+    },
+    "title": {
+      "lead": {
+        "en": "Certifications &",
+        "ar": "الشهادات و",
+        "fr": "Certifications &"
+      },
+      "em": {
+        "en": "standards.",
+        "ar": "المعايير.",
+        "fr": "standards."
+      }
+    },
+    "items": [
+      {
+        "name": "ISO 22000",
+        "description": {
+          "en": "Food safety management · audited yearly since 2007",
+          "ar": "إدارة سلامة الغذاء · تدقيق سنوي منذ 2007",
+          "fr": "Gestion de la sécurité alimentaire · audité chaque année depuis 2007"
+        }
+      },
+      {
+        "name": "HACCP",
+        "description": {
+          "en": "Hazard analysis & critical control points · validated each batch",
+          "ar": "تحليل المخاطر ونقاط التحكم الحرجة · يتم التحقق من كل دفعة",
+          "fr": "Analyse des dangers et points critiques · validé à chaque lot"
+        }
+      },
+      {
+        "name": "BRCGS",
+        "description": {
+          "en": "British Retail Consortium · grade A facility",
+          "ar": "اتحاد البيع بالتجزئة البريطاني · منشأة من الدرجة A",
+          "fr": "British Retail Consortium · installation classée A"
+        }
+      },
+      {
+        "name": "Halal",
+        "description": {
+          "en": "ESMA certified · accepted across all MENA destinations",
+          "ar": "معتمد من هيئة الإمارات للمواصفات · مقبول في جميع وجهات الشرق الأوسط وشمال أفريقيا",
+          "fr": "Certifié ESMA · accepté dans toutes les destinations MENA"
+        }
+      },
+      {
+        "name": "Kosher",
+        "description": {
+          "en": "OU certified · since 2018",
+          "ar": "معتمد من OU · منذ 2018",
+          "fr": "Certifié OU · depuis 2018"
+        }
+      },
+      {
+        "name": "Egypt ECS",
+        "description": {
+          "en": "Egyptian Customs · trusted exporter status",
+          "ar": "الجمارك المصرية · حالة المصدّر الموثوق",
+          "fr": "Douanes égyptiennes · statut d'exportateur de confiance"
+        }
+      }
+    ]
+  }
+}

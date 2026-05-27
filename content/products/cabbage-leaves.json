@@ -1,0 +1,36 @@
+{
+  "slug": "cabbage-leaves",
+  "name": {
+    "en": "Cabbage Leaves",
+    "ar": "ورق كرنب",
+    "fr": "Feuilles de Chou"
+  },
+  "shortDescription": {
+    "en": "Fresh cabbage leaves — frozen to preserve their texture for stuffing and rolling.",
+    "ar": "ورق كرنب طازج - مجمد للحفاظ على الملمس للحشو واللف.",
+    "fr": "Feuilles de chou fraîches — surgelées pour préserver la texture."
+  },
+  "description": {
+    "en": "Fresh cabbage leaves carefully selected and frozen to preserve their texture and flavor — ideal for traditional Egyptian stuffed-leaf dishes (mahshi).",
+    "ar": "أوراق الكرنب الطازجة المختارة بعناية والمجمدة للحفاظ على ملمسها ونكهتها - مثالية لأطباق المحشي المصرية التقليدية.",
+    "fr": "Feuilles de chou fraîches soigneusement sélectionnées et surgelées."
+  },
+  "category": "leaf",
+  "featured": false,
+  "badges": ["seasonal"],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    }
+  ],
+  "seasonality": ["jan", "feb", "mar", "oct", "nov", "dec"],
+  "images": {
+    "primary": "/images/products/lifestyle/cabbage-leaves.jpg",
+    "gallery": ["/images/products/cabbage-leaves.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["vine-leaves", "molokhia", "spinach"],
+  "varieties": []
+}

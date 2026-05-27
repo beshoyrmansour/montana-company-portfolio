@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <title>Khatim — Islamic 8-point star tessellation</title>
+  <defs>
+    <!-- Tileable 80×80 cell with khatim (8-point star) + interlocking shapes -->
+    <pattern id="khatimTile" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#DAA520" stroke-width="0.9" stroke-opacity="0.45" stroke-linejoin="miter">
+        <!-- Central khatim: two overlaid squares rotated 45° = 8-point star -->
+        <g transform="translate(40 40)">
+          <rect x="-18" y="-18" width="36" height="36"/>
+          <rect x="-18" y="-18" width="36" height="36" transform="rotate(45)"/>
+          <!-- Inner small khatim for depth -->
+          <rect x="-8" y="-8" width="16" height="16" stroke-opacity="0.55"/>
+          <rect x="-8" y="-8" width="16" height="16" transform="rotate(45)" stroke-opacity="0.55"/>
+          <!-- Center dot -->
+          <circle cx="0" cy="0" r="1.4" fill="#DAA520" fill-opacity="0.55" stroke="none"/>
+        </g>
+        <!-- Corner partial khatims (complete the tessellation across tiles) -->
+        <g transform="translate(0 0)">
+          <rect x="-10" y="-10" width="20" height="20"/>
+          <rect x="-10" y="-10" width="20" height="20" transform="rotate(45)"/>
+        </g>
+        <g transform="translate(80 0)">
+          <rect x="-10" y="-10" width="20" height="20"/>
+          <rect x="-10" y="-10" width="20" height="20" transform="rotate(45)"/>
+        </g>
+        <g transform="translate(0 80)">
+          <rect x="-10" y="-10" width="20" height="20"/>
+          <rect x="-10" y="-10" width="20" height="20" transform="rotate(45)"/>
+        </g>
+        <g transform="translate(80 80)">
+          <rect x="-10" y="-10" width="20" height="20"/>
+          <rect x="-10" y="-10" width="20" height="20" transform="rotate(45)"/>
+        </g>
+        <!-- Connecting strokes between stars (creates the woven look) -->
+        <line x1="22" y1="40" x2="10" y2="40"/>
+        <line x1="58" y1="40" x2="70" y2="40"/>
+        <line x1="40" y1="22" x2="40" y2="10"/>
+        <line x1="40" y1="58" x2="40" y2="70"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="160" height="160" fill="url(#khatimTile)"/>
+</svg>

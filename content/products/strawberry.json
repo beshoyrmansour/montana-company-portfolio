@@ -1,0 +1,41 @@
+{
+  "slug": "strawberry",
+  "name": {
+    "en": "Strawberry",
+    "ar": "فراولة",
+    "fr": "Fraise"
+  },
+  "shortDescription": {
+    "en": "Wide spectrum of strawberry cultivars — processed and stored in less than 5 hours.",
+    "ar": "مجموعة واسعة من أصناف الفراولة - تعالج وتخزن في أقل من ٥ ساعات.",
+    "fr": "Large spectre de cultivars de fraises — traitées en moins de 5 heures."
+  },
+  "description": {
+    "en": "A very special product of Montana. A wide spectrum of Strawberry is grown in Egypt such as Schindler, Silvia, Douglas, Parker, Stefal, Camarosa, Soskieb, Doret and Sigasingana. At the factory, Strawberry is processed and stored in freezing caves in less than 5 hours to maintain its nutritional benefits.",
+    "ar": "منتج مميز جداً من مونتانا. تُزرع مجموعة واسعة من الفراولة في مصر مثل شيندلر، سيلفيا، دوغلاس، باركر، ستيفال، كاماروسا، سوسكيب، دوريت وسيجاسينجانا. في المصنع، تتم معالجة الفراولة وتخزينها في كهوف التجميد في أقل من ٥ ساعات.",
+    "fr": "Un produit très spécial de Montana. Un large spectre de fraises est cultivé en Égypte. À l'usine, les fraises sont traitées et stockées dans des grottes de gel en moins de 5 heures."
+  },
+  "category": "fruit",
+  "featured": true,
+  "badges": ["signature", "seasonal"],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["mar", "apr", "may"],
+  "images": {
+    "primary": "/images/products/lifestyle/strawberry.jpg",
+    "gallery": ["/images/products/strawberry-bowl.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": [],
+  "varieties": []
+}

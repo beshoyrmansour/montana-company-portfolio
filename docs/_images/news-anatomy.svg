@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Anatomy of a news article JSON file. Left column shows the JSON fields; right shows how they render on the article page (cover image, category pill, title, excerpt, body, author, tags, publication date).">
+  <style>
+    .bg { fill: #fafafa; }
+    .card { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; }
+    .json-bg { fill: #1e293b; }
+    .json-text { font: 13px "JetBrains Mono", ui-monospace, monospace; fill: #e2e8f0; }
+    .json-key { fill: #93c5fd; }
+    .json-string { fill: #fcd34d; }
+    .json-bool { fill: #c4b5fd; }
+    .json-mute { fill: #94a3b8; }
+    .heading { font: 600 18px -apple-system, "Inter", system-ui, sans-serif; fill: #0f172a; }
+    .small { font: 12px -apple-system, "Inter", system-ui, sans-serif; fill: #475569; }
+    .tiny { font: 11px -apple-system, "Inter", system-ui, sans-serif; fill: #64748b; }
+    .arrow { stroke: #f97316; stroke-width: 1.5; fill: none; }
+    .cover-bg { fill: #fde68a; stroke: #f59e0b; stroke-width: 1; }
+    .pill-cat { fill: #1e293b; }
+    .pill-cat-text { font: 600 10px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; letter-spacing: 0.05em; }
+    .tag { fill: #f1f5f9; stroke: #cbd5e1; stroke-width: 1; }
+    .tag-text { font: 11px -apple-system, "Inter", system-ui, sans-serif; fill: #475569; }
+    .row-divider { stroke: #e2e8f0; stroke-width: 1; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="900" height="560"/>
+
+  <text class="heading" x="30" y="35">JSON in content/news/2026-06-haccp-certification.json</text>
+  <text class="heading" x="500" y="35">Renders as</text>
+
+  <!-- ─── LEFT: JSON ─── -->
+  <rect class="json-bg" x="20" y="55" width="430" height="475" rx="6"/>
+
+  <text class="json-text" x="35" y="80">{</text>
+  <text class="json-text" x="50" y="100"><tspan class="json-key">"slug"</tspan>: <tspan class="json-string">"haccp-certification"</tspan>,</text>
+  <text class="json-text" x="50" y="120"><tspan class="json-key">"publishedAt"</tspan>: <tspan class="json-string">"2026-06-15"</tspan>,</text>
+  <text class="json-text" x="50" y="140"><tspan class="json-key">"category"</tspan>: <tspan class="json-string">"corporate"</tspan>,</text>
+  <text class="json-text" x="50" y="160"><tspan class="json-key">"featured"</tspan>: <tspan class="json-bool">true</tspan>,</text>
+  <text class="json-text" x="50" y="180"><tspan class="json-key">"title"</tspan>: {</text>
+  <text class="json-text" x="65" y="198"><tspan class="json-key">"en"</tspan>: <tspan class="json-string">"HACCP recertification achieved"</tspan>,</text>
+  <text class="json-text" x="65" y="216"><tspan class="json-key">"ar"</tspan>: <tspan class="json-string">"..."</tspan>, <tspan class="json-key">"fr"</tspan>: <tspan class="json-string">"..."</tspan></text>
+  <text class="json-text" x="50" y="234">},</text>
+  <text class="json-text" x="50" y="254"><tspan class="json-key">"excerpt"</tspan>: {</text>
+  <text class="json-text" x="65" y="272"><tspan class="json-key">"en"</tspan>: <tspan class="json-string">"Our Kalioub facility passed</tspan></text>
+  <text class="json-text" x="75" y="290"><tspan class="json-string">    the 2026 audit with zero major</tspan></text>
+  <text class="json-text" x="75" y="308"><tspan class="json-string">    findings."</tspan>, ...</text>
+  <text class="json-text" x="50" y="326">},</text>
+  <text class="json-text" x="50" y="346"><tspan class="json-key">"body"</tspan>: {</text>
+  <text class="json-text" x="65" y="364"><tspan class="json-key">"en"</tspan>: <tspan class="json-string">"## What this means\n\n</tspan></text>
+  <text class="json-text" x="75" y="382"><tspan class="json-string">    HACCP is the international gold</tspan></text>
+  <text class="json-text" x="75" y="400"><tspan class="json-string">    standard for food safety…"</tspan>, ...</text>
+  <text class="json-text" x="50" y="418">},</text>
+  <text class="json-text" x="50" y="438"><tspan class="json-key">"author"</tspan>: <tspan class="json-string">"Communications"</tspan>,</text>
+  <text class="json-text" x="50" y="458"><tspan class="json-key">"coverImage"</tspan>: <tspan class="json-string">"/images/news/...jpg"</tspan>,</text>
+  <text class="json-text" x="50" y="478"><tspan class="json-key">"tags"</tspan>: [<tspan class="json-string">"certification"</tspan>, <tspan class="json-string">"compliance"</tspan>,</text>
+  <text class="json-text" x="60" y="496"><tspan class="json-string">"safety"</tspan>]</text>
+  <text class="json-text" x="35" y="516">}</text>
+
+  <!-- ─── RIGHT: Rendered article ─── -->
+  <rect class="card" x="490" y="55" width="390" height="475" rx="8"/>
+
+  <!-- Cover -->
+  <rect class="cover-bg" x="510" y="75" width="350" height="130" rx="6"/>
+  <text class="small" x="685" y="145" text-anchor="middle" style="font-style: italic">[cover image — coverImage]</text>
+
+  <!-- Category pill + date -->
+  <rect class="pill-cat" x="510" y="220" width="80" height="20" rx="10"/>
+  <text class="pill-cat-text" x="520" y="233">CORPORATE</text>
+  <text class="tiny" x="600" y="233">·  June 15, 2026  ·  by Communications</text>
+
+  <!-- Title -->
+  <text x="510" y="270" font="700 22px -apple-system, system-ui, sans-serif" fill="#0f172a">HACCP recertification</text>
+  <text x="510" y="294" font="700 22px -apple-system, system-ui, sans-serif" fill="#0f172a">achieved</text>
+
+  <!-- Excerpt -->
+  <text class="small" x="510" y="320" font-style="italic">Our Kalioub facility passed the 2026 audit</text>
+  <text class="small" x="510" y="336" font-style="italic">with zero major findings.</text>
+
+  <!-- Divider -->
+  <line class="row-divider" x1="510" y1="358" x2="860" y2="358"/>
+
+  <!-- Body (Markdown rendered) -->
+  <text x="510" y="382" font="600 16px -apple-system, system-ui, sans-serif" fill="#0f172a">What this means</text>
+  <text class="small" x="510" y="406">HACCP is the international gold standard for</text>
+  <text class="small" x="510" y="422">food safety. Renewal every 3 years requires</text>
+  <text class="small" x="510" y="438">a full third-party audit…</text>
+
+  <!-- Tags -->
+  <line class="row-divider" x1="510" y1="458" x2="860" y2="458"/>
+  <g>
+    <rect class="tag" x="510" y="472" width="86" height="22" rx="11"/>
+    <text class="tag-text" x="520" y="488">certification</text>
+    <rect class="tag" x="604" y="472" width="80" height="22" rx="11"/>
+    <text class="tag-text" x="614" y="488">compliance</text>
+    <rect class="tag" x="692" y="472" width="56" height="22" rx="11"/>
+    <text class="tag-text" x="702" y="488">safety</text>
+  </g>
+
+  <!-- Connecting arrows -->
+  <path class="arrow" d="M 285 120 Q 380 230 510 230" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 140 Q 380 222 510 233" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 200 Q 380 280 510 285" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 280 Q 380 322 510 328" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 370 Q 380 380 510 388" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 438 Q 380 230 600 230" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 460 Q 380 140 510 140" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 285 485 Q 380 480 510 483" marker-end="url(#arr)"/>
+
+  <!-- Footer -->
+  <text class="tiny" x="450" y="552" text-anchor="middle">Filename pattern <tspan font-family="ui-monospace, monospace" fill="#0f172a">YYYY-MM-slug.json</tspan> · article appears at <tspan font-family="ui-monospace, monospace" fill="#0f172a">/news/haccp-certification</tspan></text>
+</svg>

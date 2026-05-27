@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Vercel Project Settings → Environment Variables view. The Production environment is selected. Variables are listed with sensitive ones hidden behind Reveal buttons. The Add New button is in the top right.">
+  <style>
+    .bg { fill: #fafafa; }
+    .card { fill: #ffffff; stroke: #eaeaea; stroke-width: 1; }
+    .sidebar { fill: #ffffff; }
+    .text { font: 14px -apple-system, "Inter", system-ui, sans-serif; fill: #000000; }
+    .muted { fill: #666666; }
+    .small { font: 12px -apple-system, "Inter", system-ui, sans-serif; fill: #666666; }
+    .heading { font: 600 18px -apple-system, "Inter", system-ui, sans-serif; fill: #000000; }
+    .mono { font: 13px "JetBrains Mono", ui-monospace, monospace; fill: #000000; }
+    .header-bar { fill: #000000; }
+    .header-text { font: 600 15px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; }
+    .nav-active { fill: #000000; }
+    .nav-active-text { font: 13px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; font-weight: 500; }
+    .nav-inactive { font: 13px -apple-system, "Inter", system-ui, sans-serif; fill: #666666; }
+    .btn-primary { fill: #000000; }
+    .btn-primary-text { font: 600 13px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; }
+    .btn-sec { fill: #ffffff; stroke: #eaeaea; stroke-width: 1; }
+    .btn-sec-text { font: 12px -apple-system, "Inter", system-ui, sans-serif; fill: #000000; }
+    .pill { fill: #f5f5f5; stroke: #eaeaea; stroke-width: 1; }
+    .pill-text { font: 11px -apple-system, "Inter", system-ui, sans-serif; fill: #666666; font-weight: 500; }
+    .pill-prod { fill: #000000; }
+    .pill-prod-text { font: 11px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; font-weight: 500; }
+    .callout { fill: #fef9c3; stroke: #ca8a04; stroke-width: 1.5; stroke-dasharray: 4 2; }
+    .callout-text { font: 600 12px -apple-system, "Inter", system-ui, sans-serif; fill: #713f12; }
+    .arrow { stroke: #ca8a04; stroke-width: 2; fill: none; }
+  </style>
+
+  <rect class="bg" width="800" height="500"/>
+
+  <!-- Top bar with ▲ Vercel logo -->
+  <rect class="header-bar" x="0" y="0" width="800" height="48"/>
+  <polygon points="20,32 32,12 44,32" fill="#ffffff"/>
+  <text class="header-text" x="60" y="30">Vercel</text>
+  <text class="header-text" x="125" y="30" font-weight="400" opacity="0.6">/  montana-web  /  Settings</text>
+
+  <!-- Sidebar (Settings sub-nav) -->
+  <rect class="sidebar" x="0" y="48" width="180" height="452"/>
+  <line x1="180" y1="48" x2="180" y2="500" stroke="#eaeaea"/>
+  <text class="small" x="20" y="85" font-weight="600" fill="#000000">Project Settings</text>
+  <text class="nav-inactive" x="20" y="115">General</text>
+  <text class="nav-inactive" x="20" y="145">Domains</text>
+  <text class="nav-inactive" x="20" y="175">Integrations</text>
+  <text class="nav-inactive" x="20" y="205">Git</text>
+  <text class="nav-inactive" x="20" y="235">Functions</text>
+  <rect class="nav-active" x="14" y="247" width="160" height="28" rx="6"/>
+  <text class="nav-active-text" x="26" y="266">Environment Variables</text>
+  <text class="nav-inactive" x="20" y="298">Deployment Protection</text>
+  <text class="nav-inactive" x="20" y="328">Security</text>
+  <text class="nav-inactive" x="20" y="358">Logs</text>
+
+  <!-- Main heading -->
+  <text class="heading" x="210" y="88">Environment Variables</text>
+  <text class="small" x="210" y="108">Variables are exposed to your project's deployments. Sensitive values are encrypted at rest.</text>
+
+  <!-- Environment selector pills -->
+  <rect class="pill-prod" x="210" y="125" width="86" height="26" rx="13"/>
+  <text class="pill-prod-text" x="225" y="142">Production</text>
+  <rect class="pill" x="305" y="125" width="76" height="26" rx="13"/>
+  <text class="pill-text" x="319" y="142">Preview</text>
+  <rect class="pill" x="390" y="125" width="86" height="26" rx="13"/>
+  <text class="pill-text" x="406" y="142">Development</text>
+
+  <!-- Add New button -->
+  <rect class="btn-primary" x="675" y="125" width="105" height="32" rx="6"/>
+  <text class="btn-primary-text" x="697" y="146">+ Add New</text>
+
+  <!-- Variables card -->
+  <rect class="card" x="210" y="170" width="570" height="290" rx="8"/>
+
+  <text class="small" x="225" y="195" font-weight="600" fill="#000000">KEY</text>
+  <text class="small" x="430" y="195" font-weight="600" fill="#000000">VALUE</text>
+  <text class="small" x="660" y="195" font-weight="600" fill="#000000">ENVIRONMENT</text>
+  <line x1="220" y1="205" x2="770" y2="205" stroke="#eaeaea"/>
+
+  <!-- Row 1: NEXT_PUBLIC_SITE_URL -->
+  <text class="mono" x="225" y="228">NEXT_PUBLIC_SITE_URL</text>
+  <text class="mono" x="430" y="228">https://montanaeg.com</text>
+  <text class="small" x="660" y="228">Production</text>
+
+  <!-- Row 2: NEXT_PUBLIC_THEME -->
+  <text class="mono" x="225" y="258">NEXT_PUBLIC_THEME</text>
+  <text class="mono" x="430" y="258">ramadan</text>
+  <text class="small" x="660" y="258">All</text>
+
+  <!-- Row 3: RESEND_API_KEY (sensitive) -->
+  <text class="mono" x="225" y="288">RESEND_API_KEY</text>
+  <text class="mono" x="430" y="288">••••••••••••••••</text>
+  <rect class="btn-sec" x="558" y="276" width="60" height="22" rx="4"/>
+  <text class="btn-sec-text" x="576" y="291">Reveal</text>
+  <text class="small" x="660" y="288">Production</text>
+
+  <!-- Row 4: CONTACT_TO_EMAIL -->
+  <text class="mono" x="225" y="318">CONTACT_TO_EMAIL</text>
+  <text class="mono" x="430" y="318">sales@montanaeg.com</text>
+  <text class="small" x="660" y="318">Production</text>
+
+  <!-- Row 5: TURNSTILE_SECRET (sensitive) -->
+  <text class="mono" x="225" y="348">TURNSTILE_SECRET</text>
+  <text class="mono" x="430" y="348">••••••••••••••••</text>
+  <rect class="btn-sec" x="558" y="336" width="60" height="22" rx="4"/>
+  <text class="btn-sec-text" x="576" y="351">Reveal</text>
+  <text class="small" x="660" y="348">Production</text>
+
+  <!-- Row 6: NEXT_PUBLIC_HIDDEN_PAGES (empty) -->
+  <text class="mono" x="225" y="378">NEXT_PUBLIC_HIDDEN_PAGES</text>
+  <text class="small" x="430" y="378" font-style="italic">(empty)</text>
+  <text class="small" x="660" y="378">All</text>
+
+  <!-- Callout -->
+  <rect class="callout" x="220" y="470" width="560" height="22" rx="4"/>
+  <text class="callout-text" x="235" y="486">Editing a value triggers a NEW deployment when you click Save and Redeploy.</text>
+
+  <!-- Arrow to + Add New -->
+  <path class="arrow" d="M 660 470 Q 700 350 720 160" marker-end="url(#a)"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ca8a04"/>
+    </marker>
+  </defs>
+</svg>

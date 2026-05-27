@@ -1,0 +1,41 @@
+{
+  "slug": "colcasia",
+  "name": {
+    "en": "Colcasia (Taro)",
+    "ar": "قلقاس",
+    "fr": "Colocasia"
+  },
+  "shortDescription": {
+    "en": "Upper-Egyptian taro — known for its large size and excellent taste. Green leaves included for cooking.",
+    "ar": "قلقاس صعيدي - معروف بحجمه الكبير ومذاقه المميز. تتوفر الأوراق الخضراء اللازمة للطهي.",
+    "fr": "Taro de Haute-Égypte — connu pour sa grande taille et son excellent goût."
+  },
+  "description": {
+    "en": "Montana produces the highest quality of Colcasia, well known for its large size and good taste. Each pack is provided with the green leaves needed for cooking.",
+    "ar": "تنتج مونتانا أعلى جودة من القلقاس، المعروف بحجمه الكبير ومذاقه الجيد. كل عبوة مزودة بالأوراق الخضراء اللازمة للطهي.",
+    "fr": "Montana utilise la meilleure qualité de Colcasia bien connue pour sa grande taille et son bon goût."
+  },
+  "category": "specialty",
+  "featured": false,
+  "badges": ["seasonal"],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["dec"],
+  "images": {
+    "primary": "/images/products/lifestyle/colcasia.jpg",
+    "gallery": ["/images/products/colcasia-raw.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["molokhia", "okra"],
+  "varieties": []
+}

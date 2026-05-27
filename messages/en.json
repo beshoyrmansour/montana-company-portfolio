@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "catalog": "Catalog",
+    "news": "News",
+    "markets": "Markets",
+    "contact": "Contact",
+    "skipToContent": "Skip to content",
+    "homeAriaLabel": "Montana — home",
+    "openMenu": "Open menu",
+    "language": "Language",
+    "callUs": "Call us",
+    "emailUs": "Email us"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "viewAllArrow": "View all →",
+    "viewProduct": "View product",
+    "loading": "Loading…",
+    "language": "Language",
+    "downloadCatalogue": "Download catalogue (PDF)",
+    "downloadCatalogueFull": "Download full catalogue (PDF · 11 MB)",
+    "replyAssurance": "We reply within one business day · English · العربية · Français"
+  },
+  "footer": {
+    "company": "Company",
+    "products": "Products",
+    "legal": "Legal",
+    "connect": "Connect",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "rights": "All rights reserved.",
+    "designedBy": "Designed & built by"
+  },
+  "home": {
+    "allNewsLink": "All news →",
+    "viewMarketsLink": "View all markets →"
+  },
+  "about": {
+    "ourHistory": "Our history",
+    "ourFacilities": "Our facilities"
+  },
+  "catalog": {
+    "title": "Our products",
+    "subtitle": "16 product families, exported to 70 countries from our 50,000 m² facility in Kalioub, Egypt. This is a B2B catalogue — prices and minimum order quantities on request.",
+    "filter": {
+      "all": "All",
+      "vegetable": "Vegetables",
+      "fruit": "Fruits",
+      "leaf": "Leaves",
+      "specialty": "Specialty"
+    }
+  },
+  "news": {
+    "title": "Newsroom",
+    "subtitle": "Updates from Montana — markets, certifications, facility, and our craft.",
+    "empty": "No articles yet. Check back soon."
+  },
+  "markets": {
+    "title": "Our markets",
+    "subtitle": "{count} countries on 4 continents."
+  },
+  "product": {
+    "varieties": "Available varieties",
+    "packaging": "Packaging",
+    "packagingType": "Type",
+    "packagingWeight": "Weight",
+    "packagingPerCarton": "Per carton",
+    "seasonality": "Seasonal availability",
+    "related": "You may also like",
+    "inquire": "Request product information",
+    "emailDirectly": "Email us directly",
+    "breadcrumb": {
+      "home": "Home",
+      "catalog": "Catalog"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "optional": "(optional)",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "consent": "I agree my information will be processed by Resend (USA) and Cloudflare (USA) to deliver this inquiry.",
+      "privacyLink": "See our Privacy Policy"
+    },
+    "prefill": {
+      "intro": "I'd like to know more about: {productName}",
+      "askFor": "Please share:",
+      "varieties": "Available varieties / sizes",
+      "packaging": "Packaging options",
+      "moq": "Minimum order quantity",
+      "leadTime": "Lead time to my market",
+      "marketLabel": "My market / country:",
+      "signoff": "— Best,"
+    }
+  },
+  "cookie": {
+    "title": "Cookies & privacy",
+    "body": "We use cookieless analytics to improve your experience. No personal data is shared.",
+    "accept": "Got it",
+    "reject": "Decline",
+    "learnMore": "Privacy policy"
+  },
+  "themeGreeting": {
+    "ramadan": {
+      "title": "Ramadan Mubarak",
+      "message": "Wishing our customers and partners a blessed Holy Month."
+    },
+    "christmas": {
+      "title": "Season's Greetings",
+      "message": "Warm wishes from the Montana family to yours."
+    }
+  }
+}

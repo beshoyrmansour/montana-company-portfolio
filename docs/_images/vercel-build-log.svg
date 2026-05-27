@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Vercel deployment build log for a failed build. The terminal-style log shows npm install and next build output, ending in a red Error line from content:validate identifying the failing field and JSON path.">
+  <style>
+    .bg { fill: #fafafa; }
+    .header-bar { fill: #000000; }
+    .header-text { font: 600 15px -apple-system, "Inter", system-ui, sans-serif; fill: #ffffff; }
+    .heading { font: 600 18px -apple-system, "Inter", system-ui, sans-serif; fill: #000000; }
+    .small { font: 12px -apple-system, "Inter", system-ui, sans-serif; fill: #666666; }
+    .badge-fail { fill: #ffffff; stroke: #ef4444; stroke-width: 1; }
+    .badge-fail-text { font: 600 11px -apple-system, "Inter", system-ui, sans-serif; fill: #991b1b; }
+    .dot-fail { fill: #ef4444; }
+    .terminal { fill: #0a0a0a; }
+    .term-text { font: 13px "JetBrains Mono", ui-monospace, monospace; fill: #e5e5e5; }
+    .term-muted { fill: #737373; }
+    .term-ok { fill: #4ade80; }
+    .term-cyan { fill: #67e8f9; }
+    .term-err { fill: #f87171; }
+    .term-warn { fill: #fbbf24; }
+    .step { fill: #1a1a1a; stroke: #404040; stroke-width: 1; }
+    .step-text { font: 11px -apple-system, "Inter", system-ui, sans-serif; fill: #d4d4d4; font-weight: 600; }
+    .callout { fill: #fef9c3; stroke: #ca8a04; stroke-width: 1.5; stroke-dasharray: 4 2; }
+    .callout-text { font: 600 12px -apple-system, "Inter", system-ui, sans-serif; fill: #713f12; }
+    .arrow { stroke: #ca8a04; stroke-width: 2; fill: none; }
+  </style>
+
+  <rect class="bg" width="800" height="500"/>
+
+  <rect class="header-bar" x="0" y="0" width="800" height="48"/>
+  <polygon points="20,32 32,12 44,32" fill="#ffffff"/>
+  <text class="header-text" x="60" y="30">Vercel</text>
+  <text class="header-text" x="125" y="30" font-weight="400" opacity="0.6">/  montana-web  /  Deployments  /  df4c629</text>
+
+  <text class="heading" x="20" y="85">Build Logs</text>
+  <rect class="badge-fail" x="148" y="70" width="68" height="20" rx="10"/>
+  <circle class="dot-fail" cx="159" cy="80" r="3"/>
+  <text class="badge-fail-text" x="168" y="84">Error</text>
+  <text class="small" x="20" y="105">main · df4c629 · "trigger validation fail" · Build duration 22s</text>
+
+  <!-- Stage chips -->
+  <rect class="step" x="20" y="120" width="80" height="22" rx="11"/>
+  <text class="step-text" x="32" y="135">✓ Cloning</text>
+  <rect class="step" x="108" y="120" width="100" height="22" rx="11"/>
+  <text class="step-text" x="118" y="135">✓ Installing</text>
+  <rect class="step" x="216" y="120" width="92" height="22" rx="11"/>
+  <text class="step-text" x="232" y="135" fill="#ef4444">✗ Building</text>
+  <rect class="step" x="316" y="120" width="92" height="22" rx="11"/>
+  <text class="step-text" x="335" y="135" opacity="0.5">— Deploying</text>
+
+  <!-- Terminal -->
+  <rect class="terminal" x="20" y="155" width="760" height="300" rx="8"/>
+
+  <text class="term-muted" x="35" y="178">[15:02:14]</text>
+  <text class="term-text" x="120" y="178">Running &quot;npm run build&quot;</text>
+
+  <text class="term-muted" x="35" y="198">[15:02:14]</text>
+  <text class="term-text" x="120" y="198">&gt; montana-web@0.1.0 build</text>
+  <text class="term-text" x="135" y="216">&gt; npm run content:validate &amp;&amp; next build</text>
+
+  <text class="term-muted" x="35" y="238">[15:02:15]</text>
+  <text class="term-text" x="120" y="238">&gt; tsx scripts/validate-content.ts</text>
+
+  <text class="term-muted" x="35" y="258">[15:02:17]</text>
+  <text class="term-text" x="120" y="258"><tspan class="term-ok">✓</tspan> content/site.json</text>
+  <text class="term-text" x="135" y="276"><tspan class="term-ok">✓</tspan> content/markets.json</text>
+  <text class="term-text" x="135" y="294"><tspan class="term-ok">✓</tspan> content/pages/home.json · about.json · catalog.json · contact.json</text>
+  <text class="term-text" x="135" y="312"><tspan class="term-err">✗</tspan> content/products/molokhia.json</text>
+
+  <text class="term-muted" x="35" y="338">[15:02:17]</text>
+  <text class="term-err" x="120" y="338">Error: Validation failed:</text>
+  <text class="term-err" x="135" y="356">  content/products/molokhia.json</text>
+  <text class="term-err" x="135" y="374">    name.fr: Required</text>
+  <text class="term-err" x="135" y="392">    shortDescription: Required</text>
+
+  <text class="term-muted" x="35" y="418">[15:02:17]</text>
+  <text class="term-err" x="120" y="418">Error: Command "npm run build" exited with 1</text>
+
+  <!-- Callout -->
+  <rect class="callout" x="20" y="468" width="760" height="22" rx="4"/>
+  <text class="callout-text" x="35" y="484">The last red lines name the file, field path, and rule that failed. Fix that field; re-validate locally; push again.</text>
+
+  <!-- Arrow from callout to error line -->
+  <path class="arrow" d="M 100 468 Q 80 430 80 378" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ca8a04"/>
+    </marker>
+  </defs>
+</svg>

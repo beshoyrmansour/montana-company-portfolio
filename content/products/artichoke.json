@@ -1,0 +1,87 @@
+{
+  "slug": "artichoke",
+  "name": {
+    "en": "Artichoke",
+    "ar": "خرشوف",
+    "fr": "Artichaut"
+  },
+  "shortDescription": {
+    "en": "Home-grown artichoke from best quality seeds — categorized into 3 sizes, French + Egyptian methods.",
+    "ar": "خرشوف مزروع محلياً من أجود البذور - مصنف في ٣ أحجام، بالطريقتين الفرنسية والمصرية.",
+    "fr": "Artichaut cultivé localement — classé en 3 tailles, méthodes française et égyptienne."
+  },
+  "description": {
+    "en": "Montana grows its own artichoke from the best quality seeds and instantly transports it to the production lines, which maintains its full nutritional benefits. Categorized into 3 sizes: Small (40-50mm), Medium (50-60mm), Large (>60mm). Available in French method (dark color, natural smell, fresh flavor) and Egyptian method (white color, natural smell, fresh flavor).",
+    "ar": "تزرع مونتانا الخرشوف من أجود البذور وتنقله فوراً إلى خطوط الإنتاج، مما يحافظ على القيمة الغذائية الكاملة. مصنف في ٣ أحجام: صغير (٤٠-٥٠ ملم)، متوسط (٥٠-٦٠ ملم)، كبير (أكثر من ٦٠ ملم).",
+    "fr": "Montana cultive ses propres artichauts à partir de graines de meilleure qualité. Classé en 3 tailles."
+  },
+  "category": "specialty",
+  "featured": false,
+  "badges": ["signature"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Sizes",
+        "ar": "الأحجام",
+        "fr": "Tailles"
+      },
+      "sizes": [
+        {
+          "label": {
+            "en": "Small (A)",
+            "ar": "صغير (أ)",
+            "fr": "Petit (A)"
+          },
+          "spec": {
+            "en": "40 – 50 mm",
+            "ar": "٤٠ – ٥٠ ملم",
+            "fr": "40 – 50 mm"
+          }
+        },
+        {
+          "label": {
+            "en": "Medium (B)",
+            "ar": "متوسط (ب)",
+            "fr": "Moyen (B)"
+          },
+          "spec": {
+            "en": "50 – 60 mm",
+            "ar": "٥٠ – ٦٠ ملم",
+            "fr": "50 – 60 mm"
+          }
+        },
+        {
+          "label": {
+            "en": "Large (C)",
+            "ar": "كبير (ج)",
+            "fr": "Grand (C)"
+          },
+          "spec": {
+            "en": "> 60 mm",
+            "ar": "أكثر من ٦٠ ملم",
+            "fr": "> 60 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["mar", "apr", "may"],
+  "images": {
+    "primary": "/images/products/lifestyle/artichoke.jpg",
+    "gallery": ["/images/products/artichoke-bowl.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["okra", "molokhia", "colcasia"]
+}

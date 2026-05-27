@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Cloudflare Turnstile site configuration page. The Site Key is shown in cleartext and the Secret Key is masked. Arrows show which environment variable each key maps to.">
+  <style>
+    .bg { fill: #f8fafc; }
+    .card { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; }
+    .sidebar { fill: #f1f5f9; }
+    .text { font: 14px -apple-system, system-ui, sans-serif; fill: #0f172a; }
+    .muted { fill: #64748b; }
+    .small { font: 12px -apple-system, system-ui, sans-serif; fill: #64748b; }
+    .heading { font: 600 16px -apple-system, system-ui, sans-serif; fill: #0f172a; }
+    .mono { font: 13px ui-monospace, monospace; fill: #0f172a; }
+    .header-bar { fill: #f6821f; }
+    .header-text { font: 600 15px -apple-system, system-ui, sans-serif; fill: #ffffff; }
+    .nav-active { fill: #fff7ed; }
+    .nav-active-bar { fill: #f6821f; }
+    .input { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1; }
+    .pill-pub { fill: #dbeafe; }
+    .pill-pub-text { font: 11px ui-monospace, monospace; fill: #1e40af; }
+    .pill-sec { fill: #fee2e2; }
+    .pill-sec-text { font: 11px ui-monospace, monospace; fill: #991b1b; }
+    .btn-sec { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
+    .btn-sec-text { font: 12px -apple-system, system-ui, sans-serif; fill: #0f172a; }
+    .callout-l { fill: #fff7ed; stroke: #f97316; stroke-width: 1.5; stroke-dasharray: 4 2; }
+    .callout-l-text { font: 600 12px ui-monospace, monospace; fill: #9a3412; }
+    .arrow { stroke: #f97316; stroke-width: 2; fill: none; }
+  </style>
+
+  <rect class="bg" width="800" height="500"/>
+
+  <rect class="header-bar" x="0" y="0" width="800" height="40"/>
+  <text class="header-text" x="20" y="25">Cloudflare</text>
+  <text class="header-text" x="100" y="25" font-weight="400" opacity="0.85">Turnstile</text>
+
+  <rect class="sidebar" x="0" y="40" width="180" height="460"/>
+  <rect class="nav-active" x="0" y="58" width="180" height="32"/>
+  <rect class="nav-active-bar" x="0" y="58" width="3" height="32"/>
+  <text class="text" x="20" y="79" font-weight="600">Sites</text>
+  <text class="text muted" x="20" y="109">Analytics</text>
+  <text class="text muted" x="20" y="139">Settings</text>
+
+  <!-- Header -->
+  <text class="heading" x="210" y="75">montanaeg.com</text>
+  <text class="small" x="210" y="93">Widget mode: Managed · Created 2 days ago</text>
+
+  <!-- Site Key panel -->
+  <rect class="card" x="210" y="115" width="570" height="120" rx="4"/>
+  <text class="text" x="225" y="140" font-weight="600">Site Key</text>
+  <rect class="pill-pub" x="305" y="125" width="58" height="20" rx="3"/>
+  <text class="pill-pub-text" x="312" y="139">PUBLIC</text>
+  <text class="small" x="225" y="160">Embed in client code. Safe to publish.</text>
+
+  <rect class="input" x="225" y="175" width="430" height="36" rx="4"/>
+  <text class="mono" x="240" y="198">0x4AAAAAAAjQ7p8x_Y2VxL3K</text>
+  <rect class="btn-sec" x="665" y="175" width="100" height="36" rx="4"/>
+  <text class="btn-sec-text" x="700" y="198">Copy</text>
+
+  <!-- Secret Key panel -->
+  <rect class="card" x="210" y="250" width="570" height="120" rx="4"/>
+  <text class="text" x="225" y="275" font-weight="600">Secret Key</text>
+  <rect class="pill-sec" x="320" y="260" width="68" height="20" rx="3"/>
+  <text class="pill-sec-text" x="327" y="274">SERVER-ONLY</text>
+  <text class="small" x="225" y="295">Never embed in client code. Encrypt in env vars.</text>
+
+  <rect class="input" x="225" y="310" width="430" height="36" rx="4"/>
+  <text class="mono" x="240" y="333">••••••••••••••••••••••••</text>
+  <rect class="btn-sec" x="665" y="310" width="100" height="36" rx="4"/>
+  <text class="btn-sec-text" x="695" y="333">Reveal</text>
+
+  <!-- Mapping callouts -->
+  <rect class="callout-l" x="220" y="395" width="280" height="90" rx="4"/>
+  <text class="callout-l-text" x="232" y="415">Site Key →</text>
+  <text class="callout-l-text" x="232" y="438" font-size="11" font-weight="400">NEXT_PUBLIC_TURNSTILE_SITE_KEY</text>
+  <text class="callout-l-text" x="232" y="458" font-size="11" font-weight="400">(unencrypted — it's public)</text>
+  <text class="callout-l-text" x="232" y="476" font-size="11" font-weight="400">Production tab in CF Pages env vars.</text>
+
+  <rect class="callout-l" x="500" y="395" width="280" height="90" rx="4"/>
+  <text class="callout-l-text" x="512" y="415">Secret Key →</text>
+  <text class="callout-l-text" x="512" y="438" font-size="11" font-weight="400">TURNSTILE_SECRET</text>
+  <text class="callout-l-text" x="512" y="458" font-size="11" font-weight="400">(encrypt — server-only)</text>
+  <text class="callout-l-text" x="512" y="476" font-size="11" font-weight="400">Used by functions/api/contact.ts.</text>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M 360 395 Q 360 365 360 215" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 640 395 Q 640 370 640 350" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+</svg>

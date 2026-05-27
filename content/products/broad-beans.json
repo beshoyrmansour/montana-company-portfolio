@@ -1,0 +1,41 @@
+{
+  "slug": "broad-beans",
+  "name": {
+    "en": "Broad Beans (Foul)",
+    "ar": "فول أخضر",
+    "fr": "Fèves (Foul)"
+  },
+  "shortDescription": {
+    "en": "Harvested from our farms direct to the production lines — vibrant green color and smooth texture.",
+    "ar": "تُحصد من مزارعنا مباشرة إلى خطوط الإنتاج - لون أخضر مشرق وملمس ناعم.",
+    "fr": "Récoltés dans nos fermes et envoyés directement aux lignes de production."
+  },
+  "description": {
+    "en": "Harvested from our farms and directed to production lines, guarantees maintaining its bright green color and smooth texture.",
+    "ar": "تُحصد من مزارعنا ومباشرة إلى خطوط الإنتاج؛ يضمن الحفاظ على لونه الأخضر المشرق وملمسه الناعم.",
+    "fr": "Récolté dans nos fermes et envoyé directement aux lignes de production; ça garantit le maintien de sa couleur vert vif et une texture lisse."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["seasonal"],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "250 g",
+      "perCarton": "32 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["mar", "apr", "may", "jun"],
+  "images": {
+    "primary": "/images/products/lifestyle/broad-beans.jpg",
+    "gallery": ["/images/products/broad-beans-bowl.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["green-beans", "peas", "molokhia"],
+  "varieties": []
+}

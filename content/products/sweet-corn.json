@@ -1,0 +1,56 @@
+{
+  "slug": "sweet-corn",
+  "name": {
+    "en": "Sweet Corn",
+    "ar": "ذرة حلوة",
+    "fr": "Maïs Sucré"
+  },
+  "shortDescription": {
+    "en": "Home grown of highest quality seeds — supervised by experts due to the sensitivity of the process.",
+    "ar": "مزروعة منزلياً من أجود البذور - يشرف عليها خبراء نظراً لحساسية العملية.",
+    "fr": "Cultivé à partir des meilleures semences — supervisé par des experts."
+  },
+  "description": {
+    "en": "Home grown of the highest seeds, the harvest & production process are supervised by experts as they are very sensitive. Appealing to all ages, sweet corn is considered one of the special products of the company. Produced in two forms: Kernel and on Cob.",
+    "ar": "مزروعة منزلياً من أعلى البذور، تتم عملية الحصاد والإنتاج تحت إشراف خبراء نظراً لحساسيتها. ذرة حلوة جذابة لجميع الأعمار، وتعتبر من المنتجات الخاصة للشركة.",
+    "fr": "Montana cultive son propre maïs doux avec les meilleures semences récoltées. Le processus du maïs sucré est supervisé par des experts comme ils sont très sensibles."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["popular"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Sweet corn (kernel)",
+        "ar": "ذرة حلوة (بذور)",
+        "fr": "Maïs doux (grains)"
+      }
+    },
+    {
+      "name": {
+        "en": "Sweet corn on cob",
+        "ar": "ذرة حلوة (كوز)",
+        "fr": "Maïs doux sur épi"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["jul"],
+  "images": {
+    "primary": "/images/products/lifestyle/sweet-corn.jpg",
+    "gallery": ["/images/products/sweet-corn-bowl.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["peas-and-carrots", "mixed-vegetables", "carrots"]
+}

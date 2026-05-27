@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-label="Side-by-side comparison of the three site themes (default, ramadan, christmas). Each panel shows the theme name, color palette swatches, a mini hero with theme-specific ornament, and example button styling.">
+  <style>
+    .bg { fill: #fafafa; }
+    .heading { font: 600 18px -apple-system, "Inter", system-ui, sans-serif; fill: #0f172a; }
+    .sub { font: 12px -apple-system, "Inter", system-ui, sans-serif; fill: #64748b; }
+    .panel { stroke: #e2e8f0; stroke-width: 1; }
+    .label { font: 600 14px -apple-system, "Inter", system-ui, sans-serif; }
+    .small { font: 11px -apple-system, "Inter", system-ui, sans-serif; fill: #475569; }
+    .mono { font: 11px ui-monospace, monospace; }
+    .swatch-label { font: 9px ui-monospace, monospace; fill: #0f172a; }
+    .swatch-label-white { fill: #ffffff; }
+    .greet { font: 600 16px -apple-system, "Inter", system-ui, sans-serif; }
+    .btn-text { font: 600 12px -apple-system, "Inter", system-ui, sans-serif; }
+    .activation-key { fill: #1e293b; }
+    .activation-key-text { font: 11px ui-monospace, monospace; fill: #fcd34d; }
+  </style>
+
+  <rect class="bg" width="900" height="540"/>
+
+  <!-- Header -->
+  <text class="heading" x="450" y="32" text-anchor="middle">Theme palettes — selected via NEXT_PUBLIC_THEME</text>
+  <text class="sub" x="450" y="52" text-anchor="middle">Three values: <tspan font-family="ui-monospace, monospace" fill="#0f172a">default</tspan> · <tspan font-family="ui-monospace, monospace" fill="#0f172a">ramadan</tspan> · <tspan font-family="ui-monospace, monospace" fill="#0f172a">christmas</tspan>. Change requires a rebuild. Any other value silently falls back to default.</text>
+
+  <!-- ═══════════════════ DEFAULT ═══════════════════ -->
+  <rect class="panel" x="30" y="80" width="270" height="430" fill="#ffffff" rx="8"/>
+
+  <text class="label" x="50" y="110" fill="#15803d">default</text>
+  <rect fill="#dcfce7" x="125" y="93" width="92" height="20" rx="10"/>
+  <text font="600 10px -apple-system, sans-serif" fill="#166534" x="135" y="107">YEAR-ROUND</text>
+
+  <!-- Palette swatches -->
+  <text class="small" x="50" y="138">Palette</text>
+  <rect fill="#15803d" x="50" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label swatch-label-white" x="55" y="172">#15803d</text>
+  <text class="swatch-label swatch-label-white" x="55" y="184">primary</text>
+  <rect fill="#84cc16" x="112" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label swatch-label-white" x="117" y="172">#84cc16</text>
+  <text class="swatch-label swatch-label-white" x="117" y="184">accent</text>
+  <rect fill="#fafaf9" stroke="#e7e5e4" x="174" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label" x="179" y="172">#fafaf9</text>
+  <text class="swatch-label" x="179" y="184">bg</text>
+
+  <!-- Mini hero (default) -->
+  <text class="small" x="50" y="220">Hero strip</text>
+  <rect fill="#ecfdf5" x="50" y="230" width="220" height="76" rx="4"/>
+  <text class="greet" fill="#0f172a" x="68" y="258">From Egyptian fields</text>
+  <text class="greet" fill="#0f172a" x="68" y="278">to global tables</text>
+  <text class="small" fill="#15803d" x="68" y="294">— no seasonal greeting —</text>
+
+  <!-- Buttons -->
+  <text class="small" x="50" y="332">Buttons</text>
+  <rect fill="#15803d" x="50" y="342" width="100" height="30" rx="6"/>
+  <text class="btn-text" fill="#ffffff" x="73" y="361">Get a quote</text>
+  <rect fill="#ffffff" stroke="#15803d" x="158" y="342" width="100" height="30" rx="6"/>
+  <text class="btn-text" fill="#15803d" x="184" y="361">Learn more</text>
+
+  <!-- Ornament -->
+  <text class="small" x="50" y="400">Ornaments</text>
+  <text fill="#475569" x="50" y="430" font-style="italic">(none)</text>
+
+  <!-- Activation -->
+  <rect class="activation-key" x="50" y="465" width="220" height="28" rx="4"/>
+  <text class="activation-key-text" x="62" y="483">NEXT_PUBLIC_THEME=default</text>
+
+  <!-- ═══════════════════ RAMADAN ═══════════════════ -->
+  <rect class="panel" x="315" y="80" width="270" height="430" fill="#ffffff" rx="8"/>
+
+  <text class="label" x="335" y="110" fill="#9a3412">ramadan</text>
+  <rect fill="#fef3c7" x="425" y="93" width="115" height="20" rx="10"/>
+  <text font="600 10px -apple-system, sans-serif" fill="#92400e" x="435" y="107">~10 DAYS PRE → EID</text>
+
+  <!-- Palette swatches -->
+  <text class="small" x="335" y="138">Palette</text>
+  <rect fill="#9a3412" x="335" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label swatch-label-white" x="340" y="172">#9a3412</text>
+  <text class="swatch-label swatch-label-white" x="340" y="184">deep green</text>
+  <rect fill="#d97706" x="397" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label swatch-label-white" x="402" y="172">#d97706</text>
+  <text class="swatch-label swatch-label-white" x="402" y="184">warm gold</text>
+  <rect fill="#fef3c7" x="459" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label" x="464" y="172">#fef3c7</text>
+  <text class="swatch-label" x="464" y="184">cream</text>
+
+  <!-- Mini hero (ramadan) -->
+  <text class="small" x="335" y="220">Hero strip</text>
+  <rect fill="#fef3c7" x="335" y="230" width="220" height="76" rx="4"/>
+  <text class="greet" fill="#9a3412" x="353" y="258">رمضان كريم</text>
+  <text class="small" fill="#9a3412" x="353" y="274" font-style="italic">Ramadan greeting banner</text>
+  <text class="greet" fill="#0f172a" x="353" y="296">From Egyptian fields…</text>
+  <!-- Crescent ornament in corner -->
+  <path d="M 510 250 Q 525 250 525 265 Q 510 260 510 250 Z" fill="#d97706" opacity="0.6"/>
+
+  <!-- Buttons -->
+  <text class="small" x="335" y="332">Buttons</text>
+  <rect fill="#9a3412" x="335" y="342" width="100" height="30" rx="6"/>
+  <text class="btn-text" fill="#ffffff" x="358" y="361">Get a quote</text>
+  <rect fill="#ffffff" stroke="#9a3412" x="443" y="342" width="100" height="30" rx="6"/>
+  <text class="btn-text" fill="#9a3412" x="469" y="361">Learn more</text>
+
+  <!-- Ornament -->
+  <text class="small" x="335" y="400">Ornaments</text>
+  <g transform="translate(335, 408)">
+    <!-- Crescent -->
+    <path d="M 16 16 A 14 14 0 1 1 22 4 A 11 11 0 1 0 16 22 Z" fill="#d97706"/>
+    <!-- Lantern -->
+    <g transform="translate(48, 4)">
+      <rect fill="#9a3412" x="6" y="0" width="14" height="2"/>
+      <path d="M 4 2 L 22 2 L 18 8 L 8 8 Z" fill="#d97706"/>
+      <rect fill="#fef3c7" x="8" y="8" width="10" height="14"/>
+      <rect fill="#9a3412" x="11" y="11" width="2" height="2"/>
+      <rect fill="#9a3412" x="13" y="11" width="2" height="2"/>
+      <path d="M 4 22 L 22 22 L 18 26 L 8 26 Z" fill="#d97706"/>
+    </g>
+    <text class="small" x="84" y="18">crescent · lantern · star motifs</text>
+  </g>
+
+  <!-- Activation -->
+  <rect class="activation-key" x="335" y="465" width="220" height="28" rx="4"/>
+  <text class="activation-key-text" x="347" y="483">NEXT_PUBLIC_THEME=ramadan</text>
+
+  <!-- ═══════════════════ CHRISTMAS ═══════════════════ -->
+  <rect class="panel" x="600" y="80" width="270" height="430" fill="#ffffff" rx="8"/>
+
+  <text class="label" x="620" y="110" fill="#991b1b">christmas</text>
+  <rect fill="#fee2e2" x="720" y="93" width="120" height="20" rx="10"/>
+  <text font="600 10px -apple-system, sans-serif" fill="#991b1b" x="730" y="107">DEC 15 → JAN 6</text>
+
+  <!-- Palette swatches -->
+  <text class="small" x="620" y="138">Palette</text>
+  <rect fill="#991b1b" x="620" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label swatch-label-white" x="625" y="172">#991b1b</text>
+  <text class="swatch-label swatch-label-white" x="625" y="184">festive red</text>
+  <rect fill="#15803d" x="682" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label swatch-label-white" x="687" y="172">#15803d</text>
+  <text class="swatch-label swatch-label-white" x="687" y="184">pine green</text>
+  <rect fill="#fff7ed" x="744" y="148" width="56" height="40" rx="4"/>
+  <text class="swatch-label" x="749" y="172">#fff7ed</text>
+  <text class="swatch-label" x="749" y="184">snow</text>
+
+  <!-- Mini hero (christmas) -->
+  <text class="small" x="620" y="220">Hero strip</text>
+  <rect fill="#fff7ed" x="620" y="230" width="220" height="76" rx="4"/>
+  <text class="greet" fill="#991b1b" x="638" y="258">Season's greetings</text>
+  <text class="small" fill="#991b1b" x="638" y="274" font-style="italic">Holiday banner</text>
+  <text class="greet" fill="#0f172a" x="638" y="296">From Egyptian fields…</text>
+  <!-- Star ornament -->
+  <polygon points="800,243 803,250 810,250 805,255 807,262 800,258 793,262 795,255 790,250 797,250" fill="#991b1b"/>
+
+  <!-- Buttons -->
+  <text class="small" x="620" y="332">Buttons</text>
+  <rect fill="#991b1b" x="620" y="342" width="100" height="30" rx="6"/>
+  <text class="btn-text" fill="#ffffff" x="643" y="361">Get a quote</text>
+  <rect fill="#ffffff" stroke="#991b1b" x="728" y="342" width="100" height="30" rx="6"/>
+  <text class="btn-text" fill="#991b1b" x="754" y="361">Learn more</text>
+
+  <!-- Ornament -->
+  <text class="small" x="620" y="400">Ornaments</text>
+  <g transform="translate(620, 408)">
+    <!-- Pine -->
+    <polygon points="14,2 4,14 24,14" fill="#15803d"/>
+    <polygon points="14,10 6,22 22,22" fill="#15803d"/>
+    <rect fill="#7f1d1d" x="11" y="22" width="6" height="4"/>
+    <!-- Wreath -->
+    <circle cx="60" cy="14" r="11" fill="none" stroke="#15803d" stroke-width="4"/>
+    <rect fill="#991b1b" x="56" y="22" width="8" height="3"/>
+    <text class="small" x="84" y="18">pine · wreath · holly motifs</text>
+  </g>
+
+  <!-- Activation -->
+  <rect class="activation-key" x="620" y="465" width="220" height="28" rx="4"/>
+  <text class="activation-key-text" x="632" y="483">NEXT_PUBLIC_THEME=christmas</text>
+</svg>

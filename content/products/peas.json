@@ -1,0 +1,56 @@
+{
+  "slug": "peas",
+  "name": {
+    "en": "Peas",
+    "ar": "بازلاء",
+    "fr": "Petits Pois"
+  },
+  "shortDescription": {
+    "en": "Best quality fresh peas of local and Greek types — harvested at peak sweetness.",
+    "ar": "بازلاء طازجة عالية الجودة من أنواع محلية ويونانية - تُحصد في ذروة الحلاوة.",
+    "fr": "Petits pois frais de meilleure qualité, types local et grec — récoltés à pic de douceur."
+  },
+  "description": {
+    "en": "Selecting the best Quality fresh peas of local and Greek Types. Montana schedules its peas production process with the beginning of the season to ensure freshness, tenderness and sugar high concentration. Peas are divided into 3 sizes: small, medium, and large.",
+    "ar": "نحن نختار البازلاء الطازجة الأفضل جودة من الأنواع المحلية واليونانية، وتنفذ مونتانا عملية إنتاج البازلاء بالتزامن مع بداية الموسم لضمان طازجة، طرية، مع الاحتفاظ بتركيز عالٍ من السكر. تنقسم البازلاء إلى ثلاثة أحجام: صغيرة، ومتوسطة، وكبيرة الحجم.",
+    "fr": "Avec une sélection de la meilleure qualité de pois frais de type local et grec, Montana met à l'œuvre le processus de production de pois qui coïncide avec le début de saison."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["popular"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Green peas",
+        "ar": "بسلة خضراء",
+        "fr": "Petits pois verts"
+      }
+    },
+    {
+      "name": {
+        "en": "Dry peas (less sugar)",
+        "ar": "بسلة جافة",
+        "fr": "Pois secs (moins de sucre)"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["jan", "feb", "dec"],
+  "images": {
+    "primary": "/images/products/lifestyle/peas.jpg",
+    "gallery": ["/images/products/peas-bowl.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["peas-and-carrots", "green-beans", "mixed-vegetables"]
+}

@@ -1,0 +1,127 @@
+/* ─────────────────────────────────────────────────────────────────
+ * Montana — CHRISTMAS theme "Frosted Pine"
+ * Deep pine green + cranberry red + ribbon gold. Cool snow surfaces.
+ * Pine branch, snowflake, ribbon motifs. Festive but composed —
+ * relevant to Montana's Christian-majority export markets.
+ *
+ * Activate via:  <html data-theme="christmas">
+ * ───────────────────────────────────────────────────────────────── */
+
+[data-theme='christmas'] {
+  /* ╭─────────────────────────────────────────────╮
+     │ BRAND                                       │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-brand-primary: #0f4d2c;
+  --color-brand-primary-deep: #083820;
+  --color-brand-primary-hover: #0b3d24;
+  --color-brand-primary-active: #082b1a;
+  --color-brand-primary-fg: #fbfcfa;
+  --color-brand-primary-subtle: #d9e8df;
+  --color-brand-primary-tint: rgba(15, 77, 44, 0.1);
+
+  --color-brand-secondary: #9b1c1c;
+  --color-brand-secondary-hover: #7f1717;
+  --color-brand-secondary-active: #631212;
+  --color-brand-secondary-fg: #ffffff;
+  --color-brand-secondary-subtle: #f8dcdc;
+
+  /* ╭─────────────────────────────────────────────╮
+     │ ACCENT PALETTE                              │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-accent: #c49b47;
+  --color-accent-soft: #efe0c2;
+  --color-gold: #c49b47;
+  --color-lime: #3f7a52;
+
+  --color-brand-lime: var(--color-lime);
+  --color-brand-orange: #b45309;
+  --color-brand-amber: #fbbf24;
+  --color-brand-cream: #f4e4e4;
+
+  /* ╭─────────────────────────────────────────────╮
+     │ SURFACES — cool snow + deep pine            │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-surface: #f2f6f3;
+  --color-surface-elevated: #ffffff;
+  --color-surface-muted: #dce7df;
+  --color-surface-deep: #0a2418;
+  --color-surface-deeper: #051a0f;
+  --color-surface-inverse: var(--color-surface-deep);
+  --color-surface-overlay: rgba(15, 77, 44, 0.05);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ TEXT                                        │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-text: #142016;
+  --color-text-muted: #3d4f40;
+  --color-text-subtle: #6f7d70;
+  --color-text-inverse: #fbfcfa;
+  --color-text-on-brand: #fbfcfa;
+  --color-text-link: var(--color-brand-primary);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ BORDERS                                     │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-border: #cfdcd2;
+  --color-border-strong: #a8bbae;
+  --color-border-focus: var(--color-brand-primary);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ FEEDBACK                                    │
+     ╰─────────────────────────────────────────────╯ */
+
+  --color-success: #15803d;
+  --color-success-bg: #e3f1e7;
+  --color-success-border: #86c99c;
+
+  --color-warning: #d97706;
+  --color-warning-bg: #fef3c7;
+  --color-warning-border: #fbd38d;
+
+  --color-danger: #9b1c1c;
+  --color-danger-bg: #fee2e2;
+  --color-danger-border: #fca5a5;
+
+  --color-info: #1e40af;
+  --color-info-bg: #dbeafe;
+  --color-info-border: #93c5fd;
+
+  --color-focus-ring: rgba(15, 77, 44, 0.45);
+  --focus-ring-color: var(--color-focus-ring);
+
+  /* ╭─────────────────────────────────────────────╮
+     │ HERO / ORNAMENTAL                           │
+     ╰─────────────────────────────────────────────╯ */
+
+  --hero-overlay: linear-gradient(
+    180deg,
+    rgba(8, 26, 15, 0.15) 0%,
+    rgba(8, 26, 15, 0.55) 60%,
+    rgba(8, 26, 15, 0.88) 100%
+  );
+  --hero-tint: rgba(196, 155, 71, 0.06);
+  --section-tint: #dce7df;
+  --ornament-color: #c49b47;
+  --ornament-secondary: #9b1c1c;
+
+  --greeting-bg: linear-gradient(90deg, #9b1c1c 0%, #0f4d2c 100%);
+  --greeting-fg: #fbfcfa;
+  --greeting-show: 1;
+
+  --grain-opacity: 0.06;
+
+  /* Background pattern — frost snowflake lattice */
+  --theme-bg-pattern: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><g fill='none' stroke='%230F4D2C' stroke-width='0.7' stroke-linecap='round' opacity='0.14'><g transform='translate(50 50)'><line x1='-20' y1='0' x2='20' y2='0'/><line x1='-20' y1='0' x2='20' y2='0' transform='rotate(60)'/><line x1='-20' y1='0' x2='20' y2='0' transform='rotate(120)'/><line x1='15' y1='0' x2='18' y2='-5'/><line x1='15' y1='0' x2='18' y2='5'/><line x1='15' y1='0' x2='18' y2='-5' transform='rotate(60)'/><line x1='15' y1='0' x2='18' y2='5' transform='rotate(60)'/><line x1='15' y1='0' x2='18' y2='-5' transform='rotate(120)'/><line x1='15' y1='0' x2='18' y2='5' transform='rotate(120)'/><line x1='-15' y1='0' x2='-18' y2='-5'/><line x1='-15' y1='0' x2='-18' y2='5'/><line x1='-15' y1='0' x2='-18' y2='-5' transform='rotate(60)'/><line x1='-15' y1='0' x2='-18' y2='5' transform='rotate(60)'/><line x1='-15' y1='0' x2='-18' y2='-5' transform='rotate(120)'/><line x1='-15' y1='0' x2='-18' y2='5' transform='rotate(120)'/></g></g></svg>");
+  --theme-bg-size: 220px;
+
+  /* Legacy aliases */
+  --decoration-hero-pattern: var(--theme-bg-pattern);
+  --decoration-divider: none;
+  --decoration-greeting-bg: var(--greeting-bg);
+  --decoration-greeting-fg: var(--greeting-fg);
+}

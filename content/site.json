@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "name": { "en": "Montana", "ar": "مونتانا", "fr": "Montana" },
+    "tagline": {
+      "en": "Nutritious and fresh for a quality lifestyle",
+      "ar": "غذاء وطازج لحياة عالية الجودة",
+      "fr": "Nutritif et frais pour un style de vie de qualité"
+    },
+    "logoUrl": "/images/logo/montana-logo.png",
+    "logoMarkUrl": "/images/logo/montana-mark.svg"
+  },
+  "founded": 1985,
+  "parentCompany": {
+    "en": "Maamoun Brothers Group",
+    "ar": "مجموعة إخوان مأمون",
+    "fr": "Groupe Maamoun Brothers"
+  },
+  "parentSince": 1909,
+  "stats": [
+    {
+      "label": { "en": "Years operating", "ar": "سنوات من العمل", "fr": "Années d'activité" },
+      "value": "40+",
+      "icon": "CalendarDays"
+    },
+    {
+      "label": { "en": "Production lines", "ar": "خطوط الإنتاج", "fr": "Lignes de production" },
+      "value": "20",
+      "icon": "Factory"
+    },
+    {
+      "label": { "en": "Loyal customers", "ar": "عميل وفي", "fr": "Clients fidèles" },
+      "value": "10M+",
+      "icon": "Users"
+    },
+    {
+      "label": { "en": "Countries", "ar": "دولة", "fr": "Pays" },
+      "value": "70",
+      "icon": "Globe"
+    }
+  ],
+  "contact": {
+    "office": {
+      "label": { "en": "Cairo Office", "ar": "مكتب القاهرة", "fr": "Bureau du Caire" },
+      "address": {
+        "en": "52 Gameat El-Dowal El-Arabia St., Mohandeseen, Giza, Egypt",
+        "ar": "٥٢ شارع جامعة الدول العربية، المهندسين، الجيزة، مصر",
+        "fr": "52 rue Gameat El-Dowal El-Arabia, Mohandeseen, Giza, Égypte"
+      },
+      "phones": ["+202 333 75 408", "+202 374 82 859"],
+      "fax": "+202 374 80 381",
+      "email": "info@montanaeg.com"
+    },
+    "factory": {
+      "label": { "en": "Kalioub Factory", "ar": "مصنع القليوب", "fr": "Usine de Kalioub" },
+      "address": {
+        "en": "20 km Cairo/Alex Agriculture Road, Kalioub, Egypt",
+        "ar": "كم ٢٠ طريق مصر/الإسكندرية الزراعي، القليوب، مصر",
+        "fr": "20 km route agricole Le Caire/Alexandrie, Kalioub, Égypte"
+      },
+      "phones": ["+202 42165 139", "+202 4165 245", "+202 4166 912/3"],
+      "fax": "+202 421 65 154",
+      "email": "montana@maamoungrp.com",
+      "coordinates": { "lat": 30.2156, "lng": 31.2089 }
+    }
+  },
+  "social": {
+    "facebook": "https://facebook.com/montanaEGY",
+    "instagram": "https://instagram.com/montanafrozenfoods",
+    "linkedin": "https://linkedin.com/company/MontanaPage"
+  },
+  "certifications": [
+    { "id": "iso9002", "name": "ISO 9002" },
+    { "id": "haccp", "name": "HACCP" },
+    { "id": "gmp", "name": "GMP" }
+  ]
+}
