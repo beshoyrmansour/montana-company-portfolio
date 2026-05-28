@@ -15,6 +15,7 @@
     "ar": "مجموعة إخوان مأمون",
     "fr": "Groupe Maamoun Brothers"
   },
+  "parentUrl": "https://www.maamoungrp.com",
   "parentSince": 1909,
   "stats": [
     {
@@ -34,7 +35,7 @@
     },
     {
       "label": { "en": "Countries", "ar": "دولة", "fr": "Pays" },
-      "value": "70",
+      "value": "30",
       "icon": "Globe"
     }
   ],
@@ -57,7 +58,7 @@
         "ar": "كم ٢٠ طريق مصر/الإسكندرية الزراعي، القليوب، مصر",
         "fr": "20 km route agricole Le Caire/Alexandrie, Kalioub, Égypte"
       },
-      "phones": ["+202 42165 139", "+202 4165 245", "+202 4166 912/3"],
+      "phones": ["+202 421 65 139", "+202 421 65 245", "+202 421 66 912/3"],
       "fax": "+202 421 65 154",
       "email": "montana@maamoungrp.com",
       "coordinates": { "lat": 30.2156, "lng": 31.2089 }
@@ -69,8 +70,11 @@
     "linkedin": "https://linkedin.com/company/MontanaPage"
   },
   "certifications": [
-    { "id": "iso9002", "name": "ISO 9002" },
+    { "id": "iso22000", "name": "ISO 22000" },
     { "id": "haccp", "name": "HACCP" },
-    { "id": "gmp", "name": "GMP" }
+    { "id": "brcgs", "name": "BRCGS" },
+    { "id": "halal", "name": "Halal" },
+    { "id": "kosher", "name": "Kosher" },
+    { "id": "egypt-ecs", "name": "Egypt ECS" }
   ]
 }

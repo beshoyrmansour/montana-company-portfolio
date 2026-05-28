@@ -13,9 +13,9 @@
         "fr": "De Kalioub à"
       },
       "em": {
-        "en": "seventy tables",
-        "ar": "سبعين مائدة",
-        "fr": "soixante-dix tables"
+        "en": "thirty tables",
+        "ar": "ثلاثين مائدة",
+        "fr": "trente tables"
       },
       "tail": {
         "en": ", one harvest.",
@@ -24,9 +24,9 @@
       }
     },
     "body": {
-      "en": "Forty years of frozen food exports from a single delta facility in Egypt to ${count}+ countries across six continents — documents pre-cleared, cold chain unbroken, lead times we honour.",
-      "ar": "أربعون عامًا من تصدير الأغذية المجمدة من مصنع واحد في دلتا مصر إلى ${count}+ دولة عبر ست قارات — مستندات معدّة سلفًا، سلسلة تبريد دون انقطاع، ومواعيد نلتزم بها.",
-      "fr": "Quarante ans d'exportations de produits surgelés depuis une seule usine du delta égyptien vers plus de ${count} pays sur six continents — documents pré-dédouanés, chaîne du froid ininterrompue."
+      "en": "Forty years of frozen food exports from a single delta facility in Egypt to ${count}+ countries across five continents — documents pre-cleared, cold chain unbroken, lead times we honour.",
+      "ar": "أربعون عامًا من تصدير الأغذية المجمدة من مصنع واحد في دلتا مصر إلى ${count}+ دولة عبر خمس قارات — مستندات معدّة سلفًا، سلسلة تبريد دون انقطاع، ومواعيد نلتزم بها.",
+      "fr": "Quarante ans d'exportations de produits surgelés depuis une seule usine du delta égyptien vers plus de ${count} pays sur cinq continents — documents pré-dédouanés, chaîne du froid ininterrompue."
     },
     "stats": [
       {
@@ -35,12 +35,13 @@
         "label": { "en": "Active markets", "ar": "سوق نشط", "fr": "Marchés actifs" }
       },
       {
-        "num": "6",
+        "num": "5",
         "label": { "en": "Continents", "ar": "قارات", "fr": "Continents" }
       },
       {
-        "num": "120k",
-        "label": { "en": "Tonnes shipped / yr", "ar": "طن سنويًا", "fr": "Tonnes / an" }
+        "num": "70k",
+        "sup": "+",
+        "label": { "en": "Tonnes processed / yr", "ar": "طن يُعالَج سنويًا", "fr": "Tonnes traitées / an" }
       },
       {
         "num": "98.4",
@@ -67,9 +68,9 @@
         "fr": "Une récolte,"
       },
       "em": {
-        "en": "seventy destinations.",
-        "ar": "سبعون وجهة.",
-        "fr": "soixante-dix destinations."
+        "en": "thirty destinations.",
+        "ar": "ثلاثون وجهة.",
+        "fr": "trente destinations."
       }
     },
     "hint": {

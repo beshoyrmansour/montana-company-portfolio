@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: '%s | Montana',
   },
   description:
-    'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 70 countries. HACCP, ISO, and GMP certified.',
+    'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 30 countries. HACCP, ISO, and GMP certified.',
   applicationName: 'Montana Frozen Foods',
   authors: [{ name: 'Montana Frozen Foods', url: SITE_URL }],
   generator: 'Next.js',
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: 'Montana — Frozen Foods Since 1985',
     description:
-      'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 70 countries.',
+      'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 30 countries.',
     images: [
       {
         url: '/en/opengraph-image',
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Montana — Frozen Foods Since 1985',
     description:
-      'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 70 countries.',
+      'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 30 countries.',
     images: ['/en/opengraph-image'],
   },
   robots: {

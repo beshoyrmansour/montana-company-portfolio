@@ -277,7 +277,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <SectionDivider theme={theme} />
 
       {/* ════════════════════════════════════════════════════════
-       * MARKETS — 70 countries, dark with animated map
+       * MARKETS — global reach, dark with animated map
        * ════════════════════════════════════════════════════════ */}
       {home.marketsTeaser.enabled && (
         <section className="section-editorial markets on-dark">

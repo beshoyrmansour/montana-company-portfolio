@@ -43,7 +43,7 @@ export default async function Image() {
         }}
       >
         <div style={{ display: 'flex', fontSize: 32, fontWeight: 600, opacity: 0.85, marginBottom: 16, letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-          Since 1985 · 70 countries
+          Since 1985 · 30 countries
         </div>
         <div style={{ display: 'flex', fontSize: 128, fontWeight: 800, lineHeight: 1, marginBottom: 24 }}>
           {brandName}

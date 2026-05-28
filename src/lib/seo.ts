@@ -72,6 +72,7 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
       '@type': 'Organization',
       name: pick(site.parentCompany, locale),
       foundingDate: String(site.parentSince),
+      ...(site.parentUrl ? { url: site.parentUrl } : {}),
     },
     address: [
       {

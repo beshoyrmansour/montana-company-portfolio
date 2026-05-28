@@ -38,10 +38,10 @@ export async function Footer({ locale }: FooterProps) {
   const founded = site.founded;
   const brandTagline =
     locale === 'ar'
-      ? 'تأسست في 1985. تصدّر إلى 70 دولة على ستة قارات.'
+      ? 'تأسست في 1985. تصدّر إلى 30 دولة على خمس قارات.'
       : locale === 'fr'
-        ? `Fondée en ${founded}. Exporte vers 70 pays sur six continents.`
-        : `Family-founded in ${founded}. Kalioub, Egypt. Exporting to 70 countries on six continents.`;
+        ? `Fondée en ${founded}. Exporte vers 30 pays sur cinq continents.`
+        : `Family-founded in ${founded}. Kalioub, Egypt. Exporting to 30 countries on five continents.`;
 
   return (
     <footer
@@ -85,6 +85,26 @@ export async function Footer({ locale }: FooterProps) {
             >
               {brandTagline}
             </p>
+            {site.parentUrl && (
+              <p
+                style={{
+                  marginTop: 'var(--space-4)',
+                  fontSize: 'var(--text-body-sm)',
+                  color: 'rgba(255,255,255,0.6)',
+                }}
+              >
+                {t('partOf')}{' '}
+                <a
+                  href={site.parentUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors hover:!text-white"
+                  style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'underline' }}
+                >
+                  {pick(site.parentCompany, locale)}
+                </a>
+              </p>
+            )}
             {(site.social.facebook ||
               site.social.instagram ||
               site.social.linkedin ||

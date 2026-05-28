@@ -33,7 +33,8 @@
     "terms": "Terms of Service",
     "cookies": "Cookie Policy",
     "rights": "All rights reserved.",
-    "designedBy": "Designed & built by"
+    "designedBy": "Designed & built by",
+    "partOf": "Part of"
   },
   "home": {
     "allNewsLink": "All news →",
@@ -45,7 +46,7 @@
   },
   "catalog": {
     "title": "Our products",
-    "subtitle": "16 product families, exported to 70 countries from our 50,000 m² facility in Kalioub, Egypt. This is a B2B catalogue — prices and minimum order quantities on request.",
+    "subtitle": "16 product families, exported to 30 countries from our 50,000 m² facility in Kalioub, Egypt. This is a B2B catalogue — prices and minimum order quantities on request.",
     "filter": {
       "all": "All",
       "vegetable": "Vegetables",
@@ -61,7 +62,7 @@
   },
   "markets": {
     "title": "Our markets",
-    "subtitle": "{count} countries on 4 continents."
+    "subtitle": "{count} countries on 5 continents."
   },
   "product": {
     "varieties": "Available varieties",

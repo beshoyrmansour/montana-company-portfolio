@@ -33,7 +33,8 @@
     "terms": "Conditions d'utilisation",
     "cookies": "Politique des cookies",
     "rights": "Tous droits réservés.",
-    "designedBy": "Conçu et développé par"
+    "designedBy": "Conçu et développé par",
+    "partOf": "Membre du"
   },
   "home": {
     "allNewsLink": "Toutes les actualités →",
@@ -45,7 +46,7 @@
   },
   "catalog": {
     "title": "Nos produits",
-    "subtitle": "16 familles de produits, exportés vers 70 pays depuis notre installation de 50 000 m² à Kalioub, en Égypte. Ceci est un catalogue B2B — prix et quantités minimales de commande sur demande.",
+    "subtitle": "16 familles de produits, exportés vers 30 pays depuis notre installation de 50 000 m² à Kalioub, en Égypte. Ceci est un catalogue B2B — prix et quantités minimales de commande sur demande.",
     "filter": {
       "all": "Tous",
       "vegetable": "Légumes",
@@ -61,7 +62,7 @@
   },
   "markets": {
     "title": "Nos marchés",
-    "subtitle": "{count} pays sur 4 continents."
+    "subtitle": "{count} pays sur 5 continents."
   },
   "product": {
     "varieties": "Variétés disponibles",

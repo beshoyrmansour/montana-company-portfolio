@@ -10,6 +10,7 @@ export const siteSchema = z.object({
   }),
   founded: z.number().int(),
   parentCompany: i18nString,
+  parentUrl: z.string().url().optional(),
   parentSince: z.number().int(),
   stats: z.array(
     z.object({

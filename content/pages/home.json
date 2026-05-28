@@ -11,9 +11,9 @@
       "fr": "Un style de vie de qualité, une seule récolte."
     },
     "subheadline": {
-      "en": "Family-owned. Egyptian. 70 countries served. Forty years of getting frozen food right.",
-      "ar": "شركة عائلية مصرية. نخدم ٧٠ دولة. أربعون عاماً من الخبرة في الأغذية المجمدة.",
-      "fr": "Entreprise familiale égyptienne. 70 pays servis. Quarante ans à perfectionner les aliments surgelés."
+      "en": "Family-owned. Egyptian. 30 countries served. Forty years of getting frozen food right.",
+      "ar": "شركة عائلية مصرية. نخدم ٣٠ دولة. أربعون عاماً من الخبرة في الأغذية المجمدة.",
+      "fr": "Entreprise familiale égyptienne. 30 pays servis. Quarante ans à perfectionner les aliments surgelés."
     },
     "pre": {
       "en": "Family-owned · Since 1985",
@@ -44,7 +44,7 @@
           "label": { "en": "Family-founded", "ar": "عائلي · مؤسس", "fr": "Fondé en famille" }
         },
         {
-          "num": "70",
+          "num": "30",
           "label": { "en": "Countries served", "ar": "دولة نخدمها", "fr": "Pays servis" }
         },
         {
@@ -72,9 +72,9 @@
         "fr": "cultiver, surgeler et expédier le meilleur de l'Égypte"
       },
       "after": {
-        "en": "— to families, restaurants and traders across seven continents.",
-        "ar": "— إلى العائلات والمطاعم والتجار في سبع قارات.",
-        "fr": "— vers les familles, les restaurants et les négociants sur sept continents."
+        "en": "— to families, restaurants and traders across five continents.",
+        "ar": "— إلى العائلات والمطاعم والتجار في خمس قارات.",
+        "fr": "— vers les familles, les restaurants et les négociants sur cinq continents."
       }
     }
   },
@@ -217,7 +217,7 @@
       "ar": "وصول عالمي · جذور محلية",
       "fr": "Portée mondiale · racines locales"
     },
-    "bigNum": "70",
+    "bigNum": "30",
     "title": {
       "en": "countries, one harvest.",
       "ar": "دولة، حصاد واحد.",
@@ -235,21 +235,21 @@
       "Kuwait",
       "France",
       "Germany",
-      "Italy",
+      "Bahrain",
       "UK",
       "USA",
       "Canada",
-      "Japan",
+      "Qatar",
       "Australia",
-      "India",
-      "Brazil",
-      "S. Africa",
+      "Oman",
+      "Lebanon",
+      "Sweden",
       "Türkiye"
     ],
     "chipsMoreLabel": {
-      "en": "+ 54 more",
-      "ar": "+ ٥٤ أخرى",
-      "fr": "+ 54 autres"
+      "en": "+ 14 more",
+      "ar": "+ ١٤ أخرى",
+      "fr": "+ 14 autres"
     },
     "ctaLabel": {
       "en": "Explore all markets",

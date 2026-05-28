@@ -2,9 +2,9 @@
   "hero": {
     "enabled": true,
     "eyebrow": {
-      "en": "Catalogue · 70 countries",
-      "ar": "الكتالوج · ٧٠ دولة",
-      "fr": "Catalogue · 70 pays"
+      "en": "Catalogue · 30 countries",
+      "ar": "الكتالوج · ٣٠ دولة",
+      "fr": "Catalogue · 30 pays"
     },
     "title": {
       "en": "Our products",
@@ -17,9 +17,9 @@
       "fr": "à pleine saison."
     },
     "subtitle": {
-      "en": "From leafy greens to berries, we freeze them all at peak nutrition — and ship them to 70 countries.",
-      "ar": "من الأوراق الخضراء إلى التوت، نُجمدها جميعاً في ذروة قيمتها الغذائية — ونشحنها إلى ٧٠ دولة.",
-      "fr": "Des légumes-feuilles aux baies, nous surgelons tout au pic nutritionnel — et nous expédions vers 70 pays."
+      "en": "From leafy greens to berries, we freeze them all at peak nutrition — and ship them to 30 countries.",
+      "ar": "من الأوراق الخضراء إلى التوت، نُجمدها جميعاً في ذروة قيمتها الغذائية — ونشحنها إلى ٣٠ دولة.",
+      "fr": "Des légumes-feuilles aux baies, nous surgelons tout au pic nutritionnel — et nous expédions vers 30 pays."
     },
     "ctaDownloadLabel": {
       "en": "Download full catalogue",
