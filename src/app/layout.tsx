@@ -19,7 +19,7 @@ export const dynamic = 'error';
  *   - For SEO, hreflang annotations on every page carry the locale signal.
  *
  * The landing page at `/` reads as English by default — it's redirected to a
- * locale by `src/middleware.ts` based on Accept-Language, so the html lang here
+ * locale by `src/proxy.ts` based on Accept-Language, so the html lang here
  * only ever applies to the brief fallback page or non-redirecting clients.
  */
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';

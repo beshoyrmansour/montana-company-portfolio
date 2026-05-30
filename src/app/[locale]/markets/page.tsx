@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { Container } from '@/components/layout/Container';
 import { SectionDivider } from '@/components/decoration/Ornaments';
-import { TradeAtlas } from '@/components/markets/TradeAtlas';
+import { TradeAtlasLazy } from '@/components/markets/TradeAtlasLazy';
 import { getMarkets, getMarketsPage } from '@/lib/content';
 import { pick, getDir, type Locale } from '@/lib/i18n';
 import { getActiveTheme } from '@/lib/theme';
@@ -144,7 +144,7 @@ export default async function MarketsPage({ params }: { params: Promise<{ locale
                 {pick(page.atlas.hint, locale)}
               </p>
             </div>
-            <TradeAtlas regions={markets.regions} locale={locale} labels={atlasLabels} dir={dir} />
+            <TradeAtlasLazy regions={markets.regions} locale={locale} labels={atlasLabels} dir={dir} />
           </Container>
         </section>
       )}

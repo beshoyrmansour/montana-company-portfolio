@@ -33,7 +33,7 @@ How to set or change a value: [change-environment-variable.md](../how-to/change-
 | Variable | Default | Purpose |
 | --- | --- | --- |
 | `NEXT_PUBLIC_DEFAULT_LOCALE` | `en` | Fallback locale used when the visitor's `Accept-Language` header has no supported match. The root URL `/` redirects to this locale for visitors with no recognized language preference. |
-| `NEXT_PUBLIC_AVAILABLE_LOCALES` | `en,ar,fr` | Comma-separated list of locales to expose. Remove `ar` here to disable Arabic site-wide. Also restricts which locales the root-URL redirect (`src/middleware.ts`) will pick from. |
+| `NEXT_PUBLIC_AVAILABLE_LOCALES` | `en,ar,fr` | Comma-separated list of locales to expose. Remove `ar` here to disable Arabic site-wide. Also restricts which locales the root-URL redirect (`src/proxy.ts`) will pick from. |
 
 ## Feature flags
 

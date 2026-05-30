@@ -31,7 +31,7 @@ interface Region {
   countries: Array<{ iso: string; name: { en: string; ar?: string; fr?: string } }>;
 }
 
-interface TradeAtlasProps {
+export interface TradeAtlasProps {
   regions: Region[];
   locale: Locale;
   labels: {
