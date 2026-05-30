@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { Globe, Phone, Mail } from 'lucide-react';
 import { LocaleSwitcher } from './LocaleSwitcher';
+import { CloseMenusOnNavigate } from './CloseMenusOnNavigate';
 import { Container } from './Container';
 import { Logo } from './Logo';
 import { cn } from '@/lib/cn';
@@ -55,6 +56,9 @@ export async function Header({ locale, pathname = '' }: HeaderProps) {
         backdropFilter: 'blur(20px) saturate(1.1)',
       }}
     >
+      {/* Closes the <details> menus after a client-side route change */}
+      <CloseMenusOnNavigate />
+
       {/* Skip link */}
       <a
         href="#main"
