@@ -70,10 +70,10 @@ web/
 │   └── gen-world-paths.mjs         Generate SVG world-map paths (one-shot)
 │
 ├── src/                            Application code (engineering territory)
-│   ├── middleware.ts               Redirects `/` to the visitor's locale (Accept-Language → /en, /ar, /fr)
+│   ├── proxy.ts                    Redirects `/` to the visitor's locale (Accept-Language → /en, /ar, /fr)
 │   ├── app/                        Next.js App Router (pages + layouts + API)
 │   │   ├── layout.tsx              Root layout
-│   │   ├── page.tsx                Root `/` fallback (real visitors are redirected by middleware)
+│   │   ├── page.tsx                Root `/` fallback (real visitors are redirected by the proxy)
 │   │   ├── [locale]/               Trilingual routes
 │   │   │   ├── page.tsx            Home
 │   │   │   ├── about/page.tsx

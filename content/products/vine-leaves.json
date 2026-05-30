@@ -33,7 +33,10 @@
   "seasonality": ["may"],
   "images": {
     "primary": "/images/products/lifestyle/vine-leaves.jpg",
-    "gallery": ["/images/products/vine-leaves-plate.jpg"],
+    "gallery": [
+      "/images/products/stock/vine-leaves-1.jpg",
+      "/images/products/stock/vine-leaves-2.jpg"
+    ],
     "packaging": []
   },
   "relatedSlugs": ["molokhia", "spinach", "okra"],

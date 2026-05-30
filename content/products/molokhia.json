@@ -49,7 +49,7 @@
   "seasonality": ["jun", "jul", "aug", "sep", "oct"],
   "images": {
     "primary": "/images/products/molokhia-pack.png",
-    "gallery": ["/images/products/molokhia-bowl.jpg"],
+    "gallery": ["/images/products/stock/molokhia-1.jpg", "/images/products/stock/molokhia-2.jpg"],
     "packaging": ["/images/products/molokhia-pack.png"]
   },
   "relatedSlugs": ["spinach", "okra", "vine-leaves"]

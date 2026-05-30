@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next';
+import path from 'node:path';
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
@@ -130,6 +131,14 @@ function legacyRedirects(): Redirect[] {
 const config: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+
+  // Pin the workspace root so Next.js doesn't infer it from a stray lockfile
+  // higher up the tree (e.g. ~/package-lock.json) and mis-trace file output.
+  // outputFileTracingRoot covers `next build`; turbopack.root covers `next dev --turbopack`.
+  outputFileTracingRoot: path.join(__dirname),
+  turbopack: {
+    root: path.join(__dirname),
+  },
 
   images: {
     formats: ['image/avif', 'image/webp'],

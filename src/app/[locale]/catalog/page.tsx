@@ -1,5 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Download } from 'lucide-react';
 import { Container } from '@/components/layout/Container';
 import { CategoryFilter } from '@/components/sections/CategoryFilter';
@@ -133,6 +134,18 @@ export default async function CatalogIndexPage({
                   <ArrowRight size={16} className="rtl:rotate-180" />
                 </Link>
               </div>
+            </div>
+            {/* Product-family showcase — Montana's actual retail range */}
+            <div className="mt-12 lg:mt-16">
+              <Image
+                src="/images/products/7-Packs-link.png"
+                alt="The Montana frozen range — Green Beans, Vegetable Soup, Molokheya, Artichoke Bottoms, Peas &amp; Carrots, Okra and Vine Leaves in a basket"
+                width={2105}
+                height={1897}
+                priority
+                sizes="(max-width: 768px) 100vw, 860px"
+                className="mx-auto h-auto w-full max-w-4xl"
+              />
             </div>
           </Container>
         </section>

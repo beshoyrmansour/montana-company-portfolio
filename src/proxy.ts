@@ -32,7 +32,7 @@ function resolvePreferredLocale(req: NextRequest): Locale {
   return defaultLocale;
 }
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const locale = resolvePreferredLocale(req);
   const url = req.nextUrl.clone();
   url.pathname = `/${locale}`;

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
+import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ChevronRight, Calendar, User } from 'lucide-react';
@@ -108,13 +109,13 @@ export default async function ArticlePage({
       <section className="relative overflow-hidden">
         {article.coverImage && (
           <div className="absolute inset-0 -z-10">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={article.coverImage}
               alt=""
+              fill
+              sizes="100vw"
               className="h-full w-full object-cover"
-              fetchPriority="high"
-              decoding="async"
+              priority
               aria-hidden
             />
             <div
@@ -207,13 +208,15 @@ export default async function ArticlePage({
                   href={`/${locale}/news/${rel.slug}`}
                   className="group border-border bg-surface block overflow-hidden rounded-lg border transition-all hover:-translate-y-0.5 hover:shadow-md"
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={rel.coverImage}
-                    alt={pick(rel.title, locale as Locale) ?? ''}
-                    className="aspect-video w-full object-cover"
-                    loading="lazy"
-                  />
+                  <div className="relative aspect-video w-full overflow-hidden">
+                    <Image
+                      src={rel.coverImage}
+                      alt={pick(rel.title, locale as Locale) ?? ''}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div className="space-y-2 p-5">
                     <p className="text-caption text-brand-primary font-semibold tracking-wider uppercase">
                       {rel.category}

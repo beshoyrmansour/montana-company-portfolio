@@ -1,10 +1,10 @@
 /**
  * Root landing page at /
  *
- * Real visitors never see this — `src/middleware.ts` redirects `/` to the
+ * Real visitors never see this — `src/proxy.ts` redirects `/` to the
  * locale matching the Accept-Language header (or `defaultLocale` as fallback).
  * This page exists only as a graceful fallback for clients that bypass
- * middleware (some crawlers, misconfigured runtimes). It carries hreflang
+ * the proxy (some crawlers, misconfigured runtimes). It carries hreflang
  * metadata so search engines can still discover each localized variant.
  */
 import Link from 'next/link';

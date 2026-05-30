@@ -33,7 +33,7 @@
   "seasonality": ["dec"],
   "images": {
     "primary": "/images/products/lifestyle/colcasia.jpg",
-    "gallery": ["/images/products/colcasia-raw.jpg"],
+    "gallery": ["/images/products/stock/colcasia-1.jpg", "/images/products/stock/colcasia-2.jpg"],
     "packaging": []
   },
   "relatedSlugs": ["molokhia", "okra"],

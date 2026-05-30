@@ -1,5 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { Container } from '@/components/layout/Container';
 import { ProductCard } from '@/components/product/ProductCard';
@@ -123,8 +124,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           )}
         </div>
         <div className="hero-editorial-visual">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={home.hero.image} alt="" fetchPriority="high" decoding="async" aria-hidden />
+          <Image
+            src={home.hero.image}
+            alt=""
+            fill
+            priority
+            sizes="(max-width: 980px) 100vw, 50vw"
+            aria-hidden
+          />
           <HeroOrnaments theme={theme} />
         </div>
       </section>
@@ -201,19 +208,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 }}
               >
                 {home.chairmanQuote.image && (
-                  /* eslint-disable-next-line @next/next/no-img-element */
-                  <img
+                  <Image
                     src={home.chairmanQuote.image}
                     alt=""
                     aria-hidden
-                    style={{
-                      position: 'absolute',
-                      inset: 0,
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                    }}
-                    loading="lazy"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 360px"
+                    style={{ objectFit: 'cover' }}
                   />
                 )}
                 {home.chairmanQuote.cornerMark && (
@@ -358,14 +359,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                   className="news-card-editorial"
                 >
                   <div className="news-image-editorial">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <Image
                       src={article.coverImage}
                       alt={pick(article.title, locale) ?? ''}
-                      width={800}
-                      height={500}
-                      loading="lazy"
-                      decoding="async"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
                     />
                   </div>
                   <div className="news-meta-editorial">

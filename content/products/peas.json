@@ -49,7 +49,7 @@
   "seasonality": ["jan", "feb", "dec"],
   "images": {
     "primary": "/images/products/lifestyle/peas.jpg",
-    "gallery": ["/images/products/peas-bowl.jpg"],
+    "gallery": ["/images/products/stock/peas-1.jpg", "/images/products/stock/peas-2.jpg"],
     "packaging": []
   },
   "relatedSlugs": ["peas-and-carrots", "green-beans", "mixed-vegetables"]

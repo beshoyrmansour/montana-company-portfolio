@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 import { Container } from '@/components/layout/Container';
 import { SectionDivider } from '@/components/decoration/Ornaments';
 import { getActiveTheme } from '@/lib/theme';
@@ -109,14 +110,11 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                     <div className="tl-card">
                       {t.image && (
                         <div className="tl-img">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
+                          <Image
                             src={t.image}
                             alt={`${t.year} — ${pick(t.title, locale) ?? ''}`}
-                            width={1200}
-                            height={800}
-                            loading="lazy"
-                            decoding="async"
+                            fill
+                            sizes="(max-width: 768px) 100vw, 33vw"
                           />
                         </div>
                       )}
@@ -139,19 +137,13 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <div className="quote-inner">
               <div className="quote-portrait">
                 {page.chairmanQuote.image && (
-                  /* eslint-disable-next-line @next/next/no-img-element */
-                  <img
+                  <Image
                     src={page.chairmanQuote.image}
                     alt=""
                     aria-hidden
-                    style={{
-                      position: 'absolute',
-                      inset: 0,
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                    }}
-                    loading="lazy"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 360px"
+                    style={{ objectFit: 'cover' }}
                   />
                 )}
                 {page.chairmanQuote.cornerMark && (
