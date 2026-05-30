@@ -1,0 +1,54 @@
+{
+  "slug": "coriander",
+  "name": {
+    "en": "Coriander",
+    "ar": "كزبرة",
+    "fr": "Coriandre"
+  },
+  "shortDescription": {
+    "en": "Freshly chopped Egyptian coriander, frozen to lock in aroma.",
+    "ar": "كزبرة مصرية طازجة مفرومة، مجمّدة للحفاظ على نكهتها.",
+    "fr": "Coriandre égyptienne fraîchement hachée, surgelée pour préserver l'arôme."
+  },
+  "description": {
+    "en": "Montana's coriander is harvested fresh, washed and chopped, then flash-frozen within hours to preserve its vivid colour and strong aroma. Free-flowing and ready to use, it adds authentic flavour to sauces, stews and marinades straight from frozen.",
+    "ar": "تُحصد كزبرة مونتانا طازجة، تُغسل وتُفرم، ثم تُجمَّد سريعًا خلال ساعات للحفاظ على لونها الزاهي ونكهتها القوية. سهلة الفرز وجاهزة للاستخدام، تضيف نكهة أصيلة للصلصات والطواجن والتتبيلات مباشرة من الفريزر.",
+    "fr": "La coriandre de Montana est récoltée fraîche, lavée et hachée, puis surgelée en quelques heures pour préserver sa couleur vive et son arôme puissant. Non agglomérée et prête à l'emploi."
+  },
+  "category": "leaf",
+  "featured": false,
+  "badges": ["new"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    }
+  ],
+  "seasonality": ["nov", "dec", "jan", "feb"],
+  "images": {
+    "primary": "/images/products/real/coriander-1.jpg",
+    "gallery": ["/images/products/real/coriander-2.jpg", "/images/products/real/coriander-3.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["molokhia", "spinach"],
+  "seo": {
+    "title": {
+      "en": "Frozen Chopped Coriander — IQF | Montana",
+      "ar": "كزبرة مجمدة مفرومة - IQF | مونتانا",
+      "fr": "Coriandre surgelée hachée — IQF | Montana"
+    },
+    "description": {
+      "en": "Premium Egyptian frozen chopped coriander, flash-frozen within hours of harvest. Free-flowing IQF, export packaging available.",
+      "ar": "كزبرة مصرية مجمدة مفرومة فاخرة، مجمدة خلال ساعات من الحصاد. سهلة الفرز.",
+      "fr": "Coriandre égyptienne surgelée hachée premium, surgelée quelques heures après la récolte."
+    },
+    "keywords": ["frozen coriander", "IQF coriander", "chopped coriander", "كزبرة مجمدة"]
+  }
+}

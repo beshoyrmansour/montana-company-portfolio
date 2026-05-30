@@ -15,7 +15,21 @@ function isPackshot(src: string): boolean {
   return src.endsWith('.png') || src.includes('-pack.');
 }
 
-export function ProductGallery({ images, alt }: { images: string[]; alt: string }) {
+/** Authentic quality-team sample photos live under this path prefix. */
+function isRealSample(src: string): boolean {
+  return src.includes('/images/products/real/');
+}
+
+export function ProductGallery({
+  images,
+  alt,
+  sampleLabel,
+}: {
+  images: string[];
+  alt: string;
+  /** Label shown on photos that are authentic product samples (vs. stock imagery). */
+  sampleLabel?: string;
+}) {
   const [active, setActive] = useState(0);
   const main = images[active] ?? images[0];
   if (!main) return null;
@@ -33,6 +47,11 @@ export function ProductGallery({ images, alt }: { images: string[]; alt: string 
           sizes="(max-width: 1024px) 100vw, 60vw"
           className={mainIsPack ? 'object-contain p-8' : 'object-cover'}
         />
+        {sampleLabel && isRealSample(main) && (
+          <span className="bg-brand-primary/90 absolute start-3 top-3 rounded-full px-3 py-1 text-xs font-semibold text-white shadow-sm backdrop-blur-sm">
+            {sampleLabel}
+          </span>
+        )}
       </div>
 
       {images.length > 1 && (
@@ -45,7 +64,7 @@ export function ProductGallery({ images, alt }: { images: string[]; alt: string 
               aria-label={`View image ${i + 1} of ${images.length}`}
               aria-current={i === active}
               className={`bg-surface-muted relative aspect-square overflow-hidden rounded-lg border-2 transition-colors ${
-                i === active ? 'border-brand-primary' : 'border-transparent hover:border-border'
+                i === active ? 'border-brand-primary' : 'hover:border-border border-transparent'
               }`}
             >
               <Image
@@ -55,6 +74,13 @@ export function ProductGallery({ images, alt }: { images: string[]; alt: string 
                 sizes="120px"
                 className={isPackshot(src) ? 'object-contain p-2' : 'object-cover'}
               />
+              {sampleLabel && isRealSample(src) && (
+                <span
+                  className="bg-brand-primary absolute end-1 top-1 h-2 w-2 rounded-full ring-1 ring-white"
+                  title={sampleLabel}
+                  aria-hidden
+                />
+              )}
             </button>
           ))}
         </div>

@@ -51,7 +51,10 @@
     "primary": "/images/products/lifestyle/sweet-corn.jpg",
     "gallery": [
       "/images/products/stock/sweet-corn-1.jpg",
-      "/images/products/stock/sweet-corn-2.jpg"
+      "/images/products/stock/sweet-corn-2.jpg",
+      "/images/products/real/sweet-corn-1.jpg",
+      "/images/products/real/sweet-corn-2.jpg",
+      "/images/products/real/sweet-corn-3.jpg"
     ],
     "packaging": []
   },

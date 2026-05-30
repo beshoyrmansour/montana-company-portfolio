@@ -1,0 +1,54 @@
+{
+  "slug": "mushroom",
+  "name": {
+    "en": "Mushroom",
+    "ar": "مشروم",
+    "fr": "Champignon"
+  },
+  "shortDescription": {
+    "en": "Whole and sliced mushrooms, cleaned and IQF frozen.",
+    "ar": "مشروم كامل ومقطّع، منظّف ومجمّد بطريقة IQF.",
+    "fr": "Champignons entiers et émincés, nettoyés et surgelés IQF."
+  },
+  "description": {
+    "en": "Montana's mushrooms are cleaned, blanched and IQF-frozen to keep each piece firm and free-flowing. Available whole or sliced, they go straight from frozen into sautés, sauces, pizzas and ready meals without thawing.",
+    "ar": "يُنظَّف مشروم مونتانا ويُسلق سلقًا خفيفًا ويُجمَّد بطريقة الـ IQF للحفاظ على تماسك كل قطعة وعدم تكتلها. متوفر كاملًا أو مقطّعًا، ويُستخدم مباشرة من الفريزر في القلي السريع والصلصات والبيتزا والوجبات الجاهزة دون إذابة.",
+    "fr": "Les champignons de Montana sont nettoyés, blanchis et surgelés IQF pour garder chaque pièce ferme et non agglomérée. Disponibles entiers ou émincés, ils s'utilisent directement surgelés."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["new"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": [],
+  "images": {
+    "primary": "/images/products/real/mushroom-1.jpg",
+    "gallery": ["/images/products/real/mushroom-2.jpg", "/images/products/real/mushroom-3.jpg"],
+    "packaging": []
+  },
+  "relatedSlugs": ["mixed-vegetables"],
+  "seo": {
+    "title": {
+      "en": "Frozen Mushroom — Whole & Sliced, IQF | Montana",
+      "ar": "مشروم مجمد - كامل ومقطّع IQF | مونتانا",
+      "fr": "Champignon surgelé — entier et émincé, IQF | Montana"
+    },
+    "description": {
+      "en": "Premium frozen mushrooms, whole or sliced, cleaned and IQF frozen. Ready to cook from frozen, export packaging available.",
+      "ar": "مشروم مجمد فاخر، كامل أو مقطّع، منظّف ومجمّد بطريقة IQF. جاهز للطهي من الفريزر.",
+      "fr": "Champignons surgelés premium, entiers ou émincés, nettoyés et surgelés IQF."
+    },
+    "keywords": ["frozen mushroom", "IQF mushroom", "sliced mushroom", "مشروم مجمد"]
+  }
+}

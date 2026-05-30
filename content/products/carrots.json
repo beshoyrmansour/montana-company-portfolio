@@ -56,7 +56,13 @@
   "seasonality": ["jan", "feb", "mar", "jun", "jul"],
   "images": {
     "primary": "/images/products/lifestyle/carrots.jpg",
-    "gallery": ["/images/products/stock/carrots-1.jpg", "/images/products/stock/carrots-2.jpg"],
+    "gallery": [
+      "/images/products/stock/carrots-1.jpg",
+      "/images/products/stock/carrots-2.jpg",
+      "/images/products/real/carrots-1.jpg",
+      "/images/products/real/carrots-2.jpg",
+      "/images/products/real/carrots-3.jpg"
+    ],
     "packaging": []
   },
   "relatedSlugs": ["peas-and-carrots", "mixed-vegetables", "sweet-corn"]

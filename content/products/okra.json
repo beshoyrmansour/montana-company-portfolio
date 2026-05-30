@@ -104,7 +104,12 @@
   "seasonality": ["jun", "jul", "aug", "sep"],
   "images": {
     "primary": "/images/products/stock/okra-1.jpg",
-    "gallery": ["/images/products/stock/okra-2.jpg"],
+    "gallery": [
+      "/images/products/stock/okra-2.jpg",
+      "/images/products/real/okra-1.jpg",
+      "/images/products/real/okra-2.jpg",
+      "/images/products/real/okra-3.jpg"
+    ],
     "packaging": []
   },
   "relatedSlugs": ["molokhia", "artichoke", "vine-leaves"]

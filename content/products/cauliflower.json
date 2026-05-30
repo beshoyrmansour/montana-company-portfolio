@@ -71,7 +71,9 @@
     "gallery": [
       "/images/products/lifestyle/cauliflower.jpg",
       "/images/products/stock/cauliflower-1.jpg",
-      "/images/products/stock/cauliflower-2.jpg"
+      "/images/products/stock/cauliflower-2.jpg",
+      "/images/products/real/cauliflower-1.jpg",
+      "/images/products/real/cauliflower-2.jpg"
     ],
     "packaging": ["/images/products/cauliflower-pack.png"]
   },

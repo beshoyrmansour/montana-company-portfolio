@@ -1,0 +1,58 @@
+{
+  "slug": "mango",
+  "name": {
+    "en": "Mango",
+    "ar": "مانجو",
+    "fr": "Mangue"
+  },
+  "shortDescription": {
+    "en": "Sun-ripened Egyptian mango, frozen as chunks and slices.",
+    "ar": "مانجو مصرية ناضجة، مجمدة كقطع وشرائح.",
+    "fr": "Mangue égyptienne mûrie au soleil, surgelée en morceaux et tranches."
+  },
+  "description": {
+    "en": "Montana's mango is grown in Egypt and harvested at full ripeness for its deep colour and natural sweetness. The fruit is peeled, cut and IQF-frozen to preserve its aroma and texture, ready for smoothies, desserts and food-service preparations all year round.",
+    "ar": "تُزرع مانجو مونتانا في مصر وتُحصد عند اكتمال نضجها للحصول على لونها الغني وحلاوتها الطبيعية. تُقشَّر الثمار وتُقطَّع وتُجمَّد بطريقة الـ IQF للحفاظ على نكهتها وقوامها، جاهزة للعصائر والحلويات وتطبيقات المطاعم طوال العام.",
+    "fr": "La mangue de Montana est cultivée en Égypte et récoltée à pleine maturité pour sa couleur intense et sa douceur naturelle. Le fruit est pelé, coupé et surgelé IQF pour préserver son arôme et sa texture."
+  },
+  "category": "fruit",
+  "featured": false,
+  "badges": ["new", "seasonal"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["jul", "aug", "sep"],
+  "images": {
+    "primary": "/images/products/real/mango-1.jpg",
+    "gallery": [
+      "/images/products/real/mango-2.jpg",
+      "/images/products/real/mango-3.jpg",
+      "/images/products/real/mango-4.jpg"
+    ],
+    "packaging": []
+  },
+  "relatedSlugs": ["strawberry"],
+  "seo": {
+    "title": {
+      "en": "Frozen Mango — IQF Chunks & Slices | Montana",
+      "ar": "مانجو مجمدة - قطع وشرائح IQF | مونتانا",
+      "fr": "Mangue surgelée — morceaux et tranches IQF | Montana"
+    },
+    "description": {
+      "en": "Premium Egyptian frozen mango, IQF chunks and slices, harvested at full ripeness. Ideal for smoothies and desserts, export packaging available.",
+      "ar": "مانجو مصرية مجمدة فاخرة، قطع وشرائح IQF، محصودة عند اكتمال النضج. مثالية للعصائر والحلويات.",
+      "fr": "Mangue égyptienne surgelée premium, morceaux et tranches IQF, récoltée à pleine maturité."
+    },
+    "keywords": ["frozen mango", "IQF mango", "Egyptian mango", "مانجو مجمدة"]
+  }
+}

@@ -44,7 +44,13 @@
   "seasonality": ["jan", "feb", "nov", "dec"],
   "images": {
     "primary": "/images/products/lifestyle/spinach.jpg",
-    "gallery": ["/images/products/stock/spinach-1.jpg", "/images/products/stock/spinach-2.jpg"],
+    "gallery": [
+      "/images/products/stock/spinach-1.jpg",
+      "/images/products/stock/spinach-2.jpg",
+      "/images/products/real/spinach-1.jpg",
+      "/images/products/real/spinach-2.jpg",
+      "/images/products/real/spinach-3.jpg"
+    ],
     "packaging": []
   },
   "relatedSlugs": ["molokhia", "vine-leaves", "mixed-vegetables"]

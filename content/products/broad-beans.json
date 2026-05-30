@@ -35,7 +35,10 @@
     "primary": "/images/products/lifestyle/broad-beans.jpg",
     "gallery": [
       "/images/products/stock/broad-beans-1.jpg",
-      "/images/products/stock/broad-beans-2.jpg"
+      "/images/products/stock/broad-beans-2.jpg",
+      "/images/products/real/broad-beans-1.jpg",
+      "/images/products/real/broad-beans-2.jpg",
+      "/images/products/real/broad-beans-3.jpg"
     ],
     "packaging": []
   },

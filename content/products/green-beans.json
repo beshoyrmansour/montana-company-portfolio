@@ -52,7 +52,10 @@
     "gallery": [
       "/images/products/lifestyle/green-beans.jpg",
       "/images/products/stock/green-beans-1.jpg",
-      "/images/products/stock/green-beans-2.jpg"
+      "/images/products/stock/green-beans-2.jpg",
+      "/images/products/real/green-beans-1.jpg",
+      "/images/products/real/green-beans-2.jpg",
+      "/images/products/real/green-beans-3.jpg"
     ],
     "packaging": ["/images/products/green-beans-pack.png"]
   },

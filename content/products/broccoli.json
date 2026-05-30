@@ -68,7 +68,13 @@
   "seasonality": ["feb"],
   "images": {
     "primary": "/images/products/lifestyle/broccoli.jpg",
-    "gallery": ["/images/products/stock/broccoli-1.jpg", "/images/products/stock/broccoli-2.jpg"],
+    "gallery": [
+      "/images/products/stock/broccoli-1.jpg",
+      "/images/products/stock/broccoli-2.jpg",
+      "/images/products/real/broccoli-1.jpg",
+      "/images/products/real/broccoli-2.jpg",
+      "/images/products/real/broccoli-3.jpg"
+    ],
     "packaging": []
   },
   "relatedSlugs": ["cauliflower", "mixed-vegetables"]

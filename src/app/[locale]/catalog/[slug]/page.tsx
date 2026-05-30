@@ -133,6 +133,7 @@ export default async function ProductDetailPage({
                   (src, i, arr) => arr.indexOf(src) === i,
                 )}
                 alt={`${productName} — Montana frozen`}
+                sampleLabel={tProduct('realSample')}
               />
             </div>
 

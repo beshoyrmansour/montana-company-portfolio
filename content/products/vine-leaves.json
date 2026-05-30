@@ -35,7 +35,10 @@
     "primary": "/images/products/lifestyle/vine-leaves.jpg",
     "gallery": [
       "/images/products/stock/vine-leaves-1.jpg",
-      "/images/products/stock/vine-leaves-2.jpg"
+      "/images/products/stock/vine-leaves-2.jpg",
+      "/images/products/real/vine-leaves-1.jpg",
+      "/images/products/real/vine-leaves-2.jpg",
+      "/images/products/real/vine-leaves-3.jpg"
     ],
     "packaging": []
   },

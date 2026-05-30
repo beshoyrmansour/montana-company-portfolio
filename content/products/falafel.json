@@ -1,0 +1,73 @@
+{
+  "slug": "falafel",
+  "name": {
+    "en": "Falafel",
+    "ar": "فلافل",
+    "fr": "Falafel"
+  },
+  "shortDescription": {
+    "en": "Half-fried Egyptian falafel discs, ready to finish from frozen.",
+    "ar": "أقراص الفلافل المصرية نصف المقلية، جاهزة للتحضير من الفريزر.",
+    "fr": "Disques de falafel égyptien à demi-frits, prêts à finir de cuire surgelés."
+  },
+  "description": {
+    "en": "Montana's falafel is prepared from a traditional Egyptian recipe of crushed broad beans, fresh herbs and spices, shaped into discs and half-fried before being flash-frozen. Customers simply finish them in oil or oven straight from frozen for a crisp shell and a tender, green centre. Available half-fried or as a raw frozen paste.",
+    "ar": "تُحضَّر فلافل مونتانا وفق وصفة مصرية تقليدية من الفول المجروش والأعشاب الطازجة والتوابل، تُشكَّل أقراصًا وتُقلى نصف قلية قبل تجميدها سريعًا. يكفي تحضيرها في الزيت أو الفرن مباشرة من الفريزر للحصول على قشرة مقرمشة وقلب أخضر طري. متوفرة نصف مقلية أو كعجينة مجمدة.",
+    "fr": "La falafel de Montana est préparée selon une recette égyptienne traditionnelle de fèves concassées, d'herbes fraîches et d'épices, façonnée en disques et à demi-frite avant d'être surgelée. Elle se termine au four ou à la friture directement surgelée."
+  },
+  "category": "specialty",
+  "featured": false,
+  "badges": ["new"],
+  "varieties": [
+    {
+      "name": {
+        "en": "Half-Fried Falafel",
+        "ar": "فلافل نصف مقلية",
+        "fr": "Falafel à demi-frite"
+      }
+    },
+    {
+      "name": {
+        "en": "Frozen Falafel Paste",
+        "ar": "عجينة فلافل مجمدة",
+        "fr": "Pâte de falafel surgelée"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    }
+  ],
+  "seasonality": [],
+  "images": {
+    "primary": "/images/products/real/falafel-1.jpg",
+    "gallery": [
+      "/images/products/real/falafel-2.jpg",
+      "/images/products/real/falafel-3.jpg",
+      "/images/products/real/falafel-4.jpg"
+    ],
+    "packaging": []
+  },
+  "relatedSlugs": ["broad-beans", "molokhia"],
+  "seo": {
+    "title": {
+      "en": "Frozen Falafel — Half-Fried, Egyptian Recipe | Montana",
+      "ar": "فلافل مجمدة - نصف مقلية بالوصفة المصرية | مونتانا",
+      "fr": "Falafel surgelée — à demi-frite, recette égyptienne | Montana"
+    },
+    "description": {
+      "en": "Half-fried Egyptian frozen falafel made from broad beans and fresh herbs. Ready to finish from frozen, export packaging available.",
+      "ar": "فلافل مصرية مجمدة نصف مقلية من الفول والأعشاب الطازجة. جاهزة للتحضير من الفريزر.",
+      "fr": "Falafel égyptienne surgelée à demi-frite à base de fèves et d'herbes fraîches."
+    },
+    "keywords": ["frozen falafel", "Egyptian falafel", "half fried falafel", "falafel مجمدة"]
+  }
+}
