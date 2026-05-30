@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { getAvailableLocales, getDir, isLocaleAvailable, type Locale } from '@/lib/i18n';
+import { HtmlLangDir } from '@/components/layout/HtmlLangDir';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { CookieBanner } from '@/components/layout/CookieBanner';
@@ -48,6 +49,7 @@ export default async function LocaleLayout({
       {/* Organization JSON-LD — emitted on every page */}
       <JsonLd data={organizationJsonLd(site, locale as Locale)} />
       <NextIntlClientProvider messages={messages} locale={locale}>
+        <HtmlLangDir locale={locale as Locale} />
         <ThemeAtmosphere theme={theme} />
         <CornerOrnament theme={theme} />
         <ThemeGreeting locale={locale as Locale} />

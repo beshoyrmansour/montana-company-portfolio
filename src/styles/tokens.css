@@ -24,7 +24,7 @@
   --font-display: 'Cormorant Garamond', 'Newsreader', 'Iowan Old Style', Georgia, serif;
   --font-display-ar: 'Amiri', 'Reem Kufi', 'Cairo', serif;
   --font-sans: 'Signika', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-sans-ar: 'Tajawal', 'Cairo', 'IBM Plex Sans Arabic', 'Tahoma', sans-serif;
+  --font-sans-ar: 'IBM Plex Sans Arabic', 'Cairo', 'Tajawal', 'Tahoma', sans-serif;
   --font-mono: ui-monospace, 'SF Mono', Menlo, Monaco, 'Cascadia Mono', monospace;
 
   /* Legacy aliases — kept so any existing code referencing them still works */

@@ -235,11 +235,12 @@ body {
   color: var(--ornament-color);
 }
 
-/* Arabic font swap when the document is RTL */
-:root[dir='rtl'] .display,
-:root[dir='rtl'] .display-italic,
-:root[dir='rtl'] .heading {
-  font-family: var(--font-display-ar);
+/* Arabic font swap when the document is RTL.
+ * Body / UI text uses the Arabic sans stack (IBM Plex Sans Arabic), while
+ * display headings (hero title, section heads) use the Amiri serif. */
+:root[dir='rtl'] {
+  --font-sans: var(--font-arabic);
+  --font-display: var(--font-display-ar);
 }
 
 [data-theme='ramadan'] .display em,

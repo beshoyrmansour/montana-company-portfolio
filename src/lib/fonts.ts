@@ -1,4 +1,4 @@
-import { Signika, Cormorant_Garamond, Amiri, Tajawal } from 'next/font/google';
+import { Signika, Cormorant_Garamond, Amiri, IBM_Plex_Sans_Arabic } from 'next/font/google';
 
 /**
  * Editorial type system (v2 — Claude Design handoff).
@@ -8,9 +8,9 @@ import { Signika, Cormorant_Garamond, Amiri, Tajawal } from 'next/font/google';
  *   - Signika             → body sans (UI, paragraphs, captions)
  *
  * Arabic pair:
- *   - Amiri    → display serif for AR (Ramadan also uses for display)
- *   - Tajawal  → body sans for AR (preferred — broad glyph coverage,
- *                excellent in Gulf/Egypt markets, supports 400/500/700)
+ *   - Amiri              → display serif for AR (Ramadan also uses for display)
+ *   - IBM Plex Sans Arabic → body sans for AR (preferred — broad glyph coverage,
+ *                            highly legible at UI sizes, supports 400/500/600/700)
  *
  * All self-hosted at build time via next/font, with size-adjust to prevent CLS.
  * Variables are wired into Tailwind tokens via @theme inline in globals.css.
@@ -42,10 +42,10 @@ export const displayArabic = Amiri({
   preload: false,
 });
 
-export const sansArabic = Tajawal({
+export const sansArabic = IBM_Plex_Sans_Arabic({
   subsets: ['arabic'],
-  // Tajawal supports 200/300/400/500/700/800/900 — no 600 (use 500 as nearest semibold).
-  weight: ['400', '500', '700'],
+  // IBM Plex Sans Arabic supports 100/200/300/400/500/600/700.
+  weight: ['400', '500', '600', '700'],
   variable: '--font-sans-arabic',
   display: 'swap',
   preload: false,
