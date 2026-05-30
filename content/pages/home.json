@@ -210,6 +210,76 @@
       }
     ]
   },
+  "certifications": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Audited, every year",
+      "ar": "تدقيق سنوي",
+      "fr": "Audité chaque année"
+    },
+    "title": {
+      "lead": {
+        "en": "Certifications &",
+        "ar": "الشهادات و",
+        "fr": "Certifications &"
+      },
+      "em": {
+        "en": "standards.",
+        "ar": "المعايير.",
+        "fr": "standards."
+      }
+    },
+    "items": [
+      {
+        "name": "ISO 22000",
+        "description": {
+          "en": "Food safety management · audited yearly since 2007",
+          "ar": "إدارة سلامة الغذاء · تدقيق سنوي منذ 2007",
+          "fr": "Gestion de la sécurité alimentaire · audité chaque année depuis 2007"
+        }
+      },
+      {
+        "name": "HACCP",
+        "description": {
+          "en": "Hazard analysis & critical control points · validated each batch",
+          "ar": "تحليل المخاطر ونقاط التحكم الحرجة · يتم التحقق من كل دفعة",
+          "fr": "Analyse des dangers et points critiques · validé à chaque lot"
+        }
+      },
+      {
+        "name": "BRCGS",
+        "description": {
+          "en": "British Retail Consortium · grade A facility",
+          "ar": "اتحاد البيع بالتجزئة البريطاني · منشأة من الدرجة A",
+          "fr": "British Retail Consortium · installation classée A"
+        }
+      },
+      {
+        "name": "Halal",
+        "description": {
+          "en": "ESMA certified · accepted across all MENA destinations",
+          "ar": "معتمد من هيئة الإمارات للمواصفات · مقبول في جميع وجهات الشرق الأوسط وشمال أفريقيا",
+          "fr": "Certifié ESMA · accepté dans toutes les destinations MENA"
+        }
+      },
+      {
+        "name": "Kosher",
+        "description": {
+          "en": "OU certified · since 2018",
+          "ar": "معتمد من OU · منذ 2018",
+          "fr": "Certifié OU · depuis 2018"
+        }
+      },
+      {
+        "name": "Egypt ECS",
+        "description": {
+          "en": "Egyptian Customs · trusted exporter status",
+          "ar": "الجمارك المصرية · حالة المصدّر الموثوق",
+          "fr": "Douanes égyptiennes · statut d'exportateur de confiance"
+        }
+      }
+    ]
+  },
   "marketsTeaser": {
     "enabled": true,
     "eyebrow": {

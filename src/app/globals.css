@@ -2591,6 +2591,93 @@ body {
   line-height: 1.5;
 }
 
+/* ─────────────────────────────────────────────────────────────────
+ * Home — Certifications "trust ledger"
+ * Light, list-based editorial treatment, deliberately distinct from
+ * the About page's dark shield-card grid: a left header column beside
+ * a column of hairline-ruled rows (index · name · description · seal).
+ * ───────────────────────────────────────────────────────────────── */
+.home-certs-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-10);
+  align-items: start;
+}
+@media (min-width: 900px) {
+  .home-certs-inner {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: var(--space-16);
+  }
+}
+@media (min-width: 1100px) {
+  .home-certs-head {
+    position: sticky;
+    top: var(--space-24);
+  }
+}
+.home-certs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--color-border);
+}
+.home-cert-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  padding-block: var(--space-5);
+  border-bottom: 1px solid var(--color-border);
+  transition:
+    background-color 0.35s var(--ease-smooth),
+    padding-inline 0.35s var(--ease-smooth);
+}
+.home-cert-row:hover {
+  background: var(--color-brand-primary-tint);
+  padding-inline: var(--space-4);
+}
+.home-cert-index {
+  flex-shrink: 0;
+  min-width: 2ch;
+  font-family: var(--font-mono);
+  font-size: var(--text-caption);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-subtle);
+}
+.home-cert-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.home-cert-name {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-heading-3);
+  letter-spacing: var(--tracking-tight);
+  line-height: 1.2;
+  color: var(--color-text);
+}
+.home-cert-desc {
+  font-size: var(--text-body-sm);
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+.home-cert-check {
+  margin-inline-start: auto;
+  flex-shrink: 0;
+  color: var(--color-brand-primary);
+  opacity: 0.5;
+  transition:
+    opacity 0.35s var(--ease-smooth),
+    transform 0.35s var(--ease-smooth);
+}
+.home-cert-row:hover .home-cert-check {
+  opacity: 1;
+  transform: scale(1.12);
+}
+
 /* ─── News: Featured article ─── */
 .news-featured {
   display: grid;

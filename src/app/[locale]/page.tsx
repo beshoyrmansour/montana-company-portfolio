@@ -1,7 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, BadgeCheck } from 'lucide-react';
 import { Container } from '@/components/layout/Container';
 import { ProductCard } from '@/components/product/ProductCard';
 import { getHomePage, getSite, getFeaturedProducts, getAllNewsArticles } from '@/lib/content';
@@ -270,6 +270,40 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                   </div>
                 );
               })}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {/* ════════════════════════════════════════════════════════
+       * CERTIFICATIONS — editorial trust ledger (light, list-based;
+       * a deliberately different treatment from the About page's
+       * dark shield-card grid)
+       * ════════════════════════════════════════════════════════ */}
+      {home.certifications?.enabled && home.certifications.items.length > 0 && (
+        <section className="section-editorial home-certs">
+          <Container>
+            <div className="home-certs-inner">
+              <div className="home-certs-head">
+                {home.certifications.eyebrow && (
+                  <span className="eyebrow">{pick(home.certifications.eyebrow, locale)}</span>
+                )}
+                <h2>
+                  <SplitTitle title={home.certifications.title} locale={locale} />
+                </h2>
+              </div>
+              <ol className="home-certs-list">
+                {home.certifications.items.map((c, idx) => (
+                  <li key={c.name} className="home-cert-row">
+                    <span className="home-cert-index">{String(idx + 1).padStart(2, '0')}</span>
+                    <span className="home-cert-text">
+                      <span className="home-cert-name">{c.name}</span>
+                      <span className="home-cert-desc">{pick(c.description, locale)}</span>
+                    </span>
+                    <BadgeCheck className="home-cert-check" size={18} aria-hidden />
+                  </li>
+                ))}
+              </ol>
             </div>
           </Container>
         </section>

@@ -123,6 +123,19 @@ export const homePageSchema = z.object({
       )
       .length(5),
   }),
+  certifications: z
+    .object({
+      enabled: z.boolean(),
+      eyebrow: i18nString,
+      title: splitTitle,
+      items: z.array(
+        z.object({
+          name: z.string(),
+          description: i18nString,
+        }),
+      ),
+    })
+    .optional(),
   marketsTeaser: z.object({
     enabled: z.boolean(),
     eyebrow: i18nString.optional(),
