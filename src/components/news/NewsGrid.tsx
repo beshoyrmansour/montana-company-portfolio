@@ -2,6 +2,7 @@
 
 import { useState, useMemo, type FormEvent } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import type { NewsArticle } from '@/schemas/news';
 import { pick, type Locale } from '@/lib/i18n';
@@ -100,14 +101,11 @@ export function NewsGrid({ articles, locale, labels }: NewsGridProps) {
           {filtered.map((a) => (
             <Link key={a.slug} href={`/${locale}/news/${a.slug}`} className="news-card-lg">
               <div className="news-image-editorial">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={a.coverImage}
                   alt={pick(a.title, locale) ?? ''}
-                  width={800}
-                  height={500}
-                  loading="lazy"
-                  decoding="async"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="news-card-body">
@@ -149,15 +147,12 @@ function FeaturedArticle({
   return (
     <article className="news-featured">
       <div className="news-featured-media">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src={article.coverImage}
           alt={pick(article.title, locale) ?? ''}
-          width={1200}
-          height={750}
-          loading="eager"
-          fetchPriority="high"
-          decoding="async"
+          fill
+          sizes="(max-width: 1024px) 100vw, 66vw"
+          priority
         />
       </div>
       <div className="news-featured-body">

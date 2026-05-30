@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { Badge } from '@/components/primitives/Badge';
 import { pick, type Locale } from '@/lib/i18n';
@@ -60,15 +61,12 @@ export function ProductCard({ product, locale, priority, className }: ProductCar
             ))}
           </div>
         )}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src={primary}
           alt={`${name} — Montana frozen`}
-          width={600}
-          height={750}
-          loading={priority ? 'eager' : 'lazy'}
-          decoding="async"
-          fetchPriority={priority ? 'high' : 'auto'}
+          fill
+          sizes="(max-width: 1024px) 50vw, 25vw"
+          priority={priority}
         />
       </div>
       <div className="product-body-editorial">

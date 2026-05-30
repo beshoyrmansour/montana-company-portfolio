@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { Container } from '@/components/layout/Container';
 import { SectionDivider } from '@/components/decoration/Ornaments';
@@ -182,14 +183,11 @@ export default async function MarketsPage({ params }: { params: Promise<{ locale
                     style={{ ['--region-color' as string]: meta.color } as React.CSSProperties}
                   >
                     <div className="region-image">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                      <Image
                         src={meta.photo}
                         alt={`Montana frozen-food exports to ${pick(region.name, locale) ?? region.id}`}
-                        width={1200}
-                        height={800}
-                        loading="lazy"
-                        decoding="async"
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
                       />
                       <div className="region-image-overlay" />
                       <div className="region-image-meta">
