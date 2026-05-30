@@ -35,7 +35,8 @@
     "primary": "/images/products/peas-and-carrots-pack.png",
     "gallery": [
       "/images/products/lifestyle/peas-and-carrots.jpg",
-      "/images/products/peas-carrots-bowl.jpg"
+      "/images/products/stock/peas-and-carrots-1.jpg",
+      "/images/products/stock/peas-and-carrots-2.jpg"
     ],
     "packaging": ["/images/products/peas-and-carrots-pack.png"]
   },

@@ -33,7 +33,10 @@
   "seasonality": ["mar", "apr", "may"],
   "images": {
     "primary": "/images/products/lifestyle/strawberry.jpg",
-    "gallery": ["/images/products/strawberry-bowl.jpg"],
+    "gallery": [
+      "/images/products/stock/strawberry-1.jpg",
+      "/images/products/stock/strawberry-2.jpg"
+    ],
     "packaging": []
   },
   "relatedSlugs": [],

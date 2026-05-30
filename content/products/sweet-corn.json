@@ -49,7 +49,10 @@
   "seasonality": ["jul"],
   "images": {
     "primary": "/images/products/lifestyle/sweet-corn.jpg",
-    "gallery": ["/images/products/sweet-corn-bowl.jpg"],
+    "gallery": [
+      "/images/products/stock/sweet-corn-1.jpg",
+      "/images/products/stock/sweet-corn-2.jpg"
+    ],
     "packaging": []
   },
   "relatedSlugs": ["peas-and-carrots", "mixed-vegetables", "carrots"]

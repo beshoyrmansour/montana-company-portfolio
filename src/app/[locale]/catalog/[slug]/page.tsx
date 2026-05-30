@@ -7,6 +7,7 @@ import { Container } from '@/components/layout/Container';
 import { Badge } from '@/components/primitives/Badge';
 import { Button } from '@/components/primitives/Button';
 import { ProductCard } from '@/components/product/ProductCard';
+import { ProductGallery } from '@/components/product/ProductGallery';
 import { SeasonalCalendar } from '@/components/product/SeasonalCalendar';
 import { VarietyCards } from '@/components/product/VarietyCards';
 import { PackagingTable } from '@/components/product/PackagingTable';
@@ -127,18 +128,12 @@ export default async function ProductDetailPage({
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-5 lg:gap-16">
             {/* IMAGE — 3/5 cols */}
             <div className="lg:col-span-3">
-              <div className="bg-surface-muted aspect-square overflow-hidden rounded-2xl p-8 shadow-sm">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={product.images.primary}
-                  alt={`${productName} — Montana frozen`}
-                  width={1000}
-                  height={1000}
-                  className="h-full w-full object-contain"
-                  fetchPriority="high"
-                  decoding="async"
-                />
-              </div>
+              <ProductGallery
+                images={[product.images.primary, ...product.images.gallery].filter(
+                  (src, i, arr) => arr.indexOf(src) === i,
+                )}
+                alt={`${productName} — Montana frozen`}
+              />
             </div>
 
             {/* META — 2/5 cols */}

@@ -68,7 +68,7 @@
   "seasonality": ["feb"],
   "images": {
     "primary": "/images/products/lifestyle/broccoli.jpg",
-    "gallery": ["/images/products/broccoli-bowl.jpg"],
+    "gallery": ["/images/products/stock/broccoli-1.jpg", "/images/products/stock/broccoli-2.jpg"],
     "packaging": []
   },
   "relatedSlugs": ["cauliflower", "mixed-vegetables"]

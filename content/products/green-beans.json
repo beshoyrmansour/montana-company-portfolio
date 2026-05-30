@@ -51,7 +51,8 @@
     "primary": "/images/products/green-beans-pack.png",
     "gallery": [
       "/images/products/lifestyle/green-beans.jpg",
-      "/images/products/green-beans-bowl.jpg"
+      "/images/products/stock/green-beans-1.jpg",
+      "/images/products/stock/green-beans-2.jpg"
     ],
     "packaging": ["/images/products/green-beans-pack.png"]
   },

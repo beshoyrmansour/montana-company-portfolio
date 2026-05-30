@@ -70,7 +70,8 @@
     "primary": "/images/products/cauliflower-pack.png",
     "gallery": [
       "/images/products/lifestyle/cauliflower.jpg",
-      "/images/products/cauliflower-bowl.jpg"
+      "/images/products/stock/cauliflower-1.jpg",
+      "/images/products/stock/cauliflower-2.jpg"
     ],
     "packaging": ["/images/products/cauliflower-pack.png"]
   },

@@ -65,7 +65,8 @@
     "primary": "/images/products/mixed-vegetables-pack.png",
     "gallery": [
       "/images/products/lifestyle/mixed-vegetables.jpg",
-      "/images/products/mixed-vegetables-bowl.jpg"
+      "/images/products/stock/mixed-vegetables-1.jpg",
+      "/images/products/stock/mixed-vegetables-2.jpg"
     ],
     "packaging": ["/images/products/mixed-vegetables-pack.png"]
   },

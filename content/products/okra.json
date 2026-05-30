@@ -1,6 +1,10 @@
 {
   "slug": "okra",
-  "name": { "en": "Okra", "ar": "بامية", "fr": "Cornes Grecques (Okra)" },
+  "name": {
+    "en": "Okra",
+    "ar": "بامية",
+    "fr": "Cornes Grecques (Okra)"
+  },
   "shortDescription": {
     "en": "Distinguished okra grown from the best quality seeds — 5 size grades available.",
     "ar": "بامية متميزة من أفضل البذور — متوفرة في ٥ مراتب حجمية.",
@@ -16,36 +20,92 @@
   "badges": ["popular", "signature"],
   "varieties": [
     {
-      "name": { "en": "Standard grades", "ar": "المراتب القياسية", "fr": "Calibres standard" },
+      "name": {
+        "en": "Standard grades",
+        "ar": "المراتب القياسية",
+        "fr": "Calibres standard"
+      },
       "sizes": [
         {
-          "label": { "en": "Extra", "ar": "اكسترا", "fr": "Extra" },
-          "spec": { "en": "0.5 – 1.5 cm", "ar": "٠٫٥ – ١٫٥ سم", "fr": "0,5 – 1,5 cm" }
+          "label": {
+            "en": "Extra",
+            "ar": "اكسترا",
+            "fr": "Extra"
+          },
+          "spec": {
+            "en": "0.5 – 1.5 cm",
+            "ar": "٠٫٥ – ١٫٥ سم",
+            "fr": "0,5 – 1,5 cm"
+          }
         },
         {
-          "label": { "en": "Zero", "ar": "صفر", "fr": "Zéro" },
-          "spec": { "en": "1.6 – 2.5 cm", "ar": "١٫٦ – ٢٫٥ سم", "fr": "1,6 – 2,5 cm" }
+          "label": {
+            "en": "Zero",
+            "ar": "صفر",
+            "fr": "Zéro"
+          },
+          "spec": {
+            "en": "1.6 – 2.5 cm",
+            "ar": "١٫٦ – ٢٫٥ سم",
+            "fr": "1,6 – 2,5 cm"
+          }
         },
         {
-          "label": { "en": "Fine", "ar": "ممتازة", "fr": "Fine" },
-          "spec": { "en": "2.6 – 3.5 cm", "ar": "٢٫٦ – ٣٫٥ سم", "fr": "2,6 – 3,5 cm" }
+          "label": {
+            "en": "Fine",
+            "ar": "ممتازة",
+            "fr": "Fine"
+          },
+          "spec": {
+            "en": "2.6 – 3.5 cm",
+            "ar": "٢٫٦ – ٣٫٥ سم",
+            "fr": "2,6 – 3,5 cm"
+          }
         },
         {
-          "label": { "en": "No. 1", "ar": "رقم ١", "fr": "No. 1" },
-          "spec": { "en": "3.6 – 4.5 cm", "ar": "٣٫٦ – ٤٫٥ سم", "fr": "3,6 – 4,5 cm" }
+          "label": {
+            "en": "No. 1",
+            "ar": "رقم ١",
+            "fr": "No. 1"
+          },
+          "spec": {
+            "en": "3.6 – 4.5 cm",
+            "ar": "٣٫٦ – ٤٫٥ سم",
+            "fr": "3,6 – 4,5 cm"
+          }
         },
         {
-          "label": { "en": "No. 2", "ar": "رقم ٢", "fr": "No. 2" },
-          "spec": { "en": "4.6 – 5.5 cm", "ar": "٤٫٦ – ٥٫٥ سم", "fr": "4,6 – 5,5 cm" }
+          "label": {
+            "en": "No. 2",
+            "ar": "رقم ٢",
+            "fr": "No. 2"
+          },
+          "spec": {
+            "en": "4.6 – 5.5 cm",
+            "ar": "٤٫٦ – ٥٫٥ سم",
+            "fr": "4,6 – 5,5 cm"
+          }
         }
       ]
     }
   ],
   "packaging": [
-    { "type": "retail", "weight": "400 g", "perCarton": "20 bags" },
-    { "type": "foodservice", "weight": "2.5 kg", "perCarton": "4 bags" }
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
   ],
   "seasonality": ["jun", "jul", "aug", "sep"],
-  "images": { "primary": "/images/products/okra-bowl.jpg", "gallery": [], "packaging": [] },
+  "images": {
+    "primary": "/images/products/stock/okra-1.jpg",
+    "gallery": ["/images/products/stock/okra-2.jpg"],
+    "packaging": []
+  },
   "relatedSlugs": ["molokhia", "artichoke", "vine-leaves"]
 }
