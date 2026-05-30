@@ -34,7 +34,8 @@
     "cookies": "Cookie Policy",
     "rights": "All rights reserved.",
     "designedBy": "Designed & built by",
-    "partOf": "Part of"
+    "partOf": "Part of",
+    "cookieSettings": "Cookie settings"
   },
   "home": {
     "allNewsLink": "All news →",
@@ -104,10 +105,11 @@
   },
   "cookie": {
     "title": "Cookies & privacy",
-    "body": "We use cookieless analytics to improve your experience. No personal data is shared.",
-    "accept": "Got it",
+    "body": "We use privacy-friendly, cookieless analytics to understand site traffic. It only runs if you accept — essential cookies that remember your choice are always on.",
+    "accept": "Accept",
     "reject": "Decline",
-    "learnMore": "Privacy policy"
+    "learnMore": "Privacy policy",
+    "cookiePolicy": "Cookie policy"
   },
   "themeGreeting": {
     "ramadan": {

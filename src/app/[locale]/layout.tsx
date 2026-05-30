@@ -6,7 +6,6 @@ import { getAvailableLocales, getDir, isLocaleAvailable, type Locale } from '@/l
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { CookieBanner } from '@/components/layout/CookieBanner';
-import { Analytics } from '@/components/layout/Analytics';
 import { ThemeGreeting } from '@/components/layout/ThemeGreeting';
 import { HeaderGarland, CornerOrnament, ThemeAtmosphere } from '@/components/decoration/Ornaments';
 import { JsonLd } from '@/components/seo/JsonLd';
@@ -60,7 +59,6 @@ export default async function LocaleLayout({
         <Footer locale={locale as Locale} />
         <CookieBanner locale={locale as Locale} />
       </NextIntlClientProvider>
-      <Analytics />
     </>
   );
 }

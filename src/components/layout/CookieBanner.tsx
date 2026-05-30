@@ -8,13 +8,22 @@ interface CookieBannerProps {
 
 /**
  * Renders an EMPTY placeholder div with data-* attrs for translation strings.
- * The actual banner is created by /cookie-banner.js (vanilla JS, 1.5kB minified).
+ * The actual banner is created by /cookie-banner.js (vanilla JS, ~2kB minified).
  *
  * This keeps Tier-1 pages free of React-component JS — see spec 20 § Page rendering tiers.
+ *
+ * GDPR/PDPL note: analytics is *consent-gated*. The Plausible config below is
+ * handed to the banner script, which only injects the analytics tag after the
+ * visitor clicks "Accept". Declining (or never choosing) loads no analytics at
+ * all — see /cookie-banner.js.
  */
 export async function CookieBanner({ locale }: CookieBannerProps) {
   if (!COOKIE_BANNER_ENABLED) return null;
   const t = await getTranslations({ locale, namespace: 'cookie' });
+
+  const plausibleDomain = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ?? '';
+  const plausibleSrc =
+    process.env.NEXT_PUBLIC_PLAUSIBLE_SCRIPT_URL ?? 'https://plausible.io/js/script.js';
 
   return (
     <>
@@ -25,7 +34,11 @@ export async function CookieBanner({ locale }: CookieBannerProps) {
         data-accept={t('accept')}
         data-reject={t('reject')}
         data-learn-more={t('learnMore')}
+        data-cookie-policy={t('cookiePolicy')}
         data-privacy-href={`/${locale}/privacy`}
+        data-cookies-href={`/${locale}/cookies`}
+        data-plausible-domain={plausibleDomain}
+        data-plausible-src={plausibleSrc}
         hidden
       />
       <script src="/cookie-banner.js" defer />

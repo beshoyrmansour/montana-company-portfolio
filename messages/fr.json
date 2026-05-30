@@ -34,7 +34,8 @@
     "cookies": "Politique des cookies",
     "rights": "Tous droits réservés.",
     "designedBy": "Conçu et développé par",
-    "partOf": "Membre du"
+    "partOf": "Membre du",
+    "cookieSettings": "Paramètres des cookies"
   },
   "home": {
     "allNewsLink": "Toutes les actualités →",
@@ -104,10 +105,11 @@
   },
   "cookie": {
     "title": "Cookies & confidentialité",
-    "body": "Nous utilisons des analyses sans cookies pour améliorer votre expérience. Aucune donnée personnelle n'est partagée.",
-    "accept": "D'accord",
+    "body": "Nous utilisons des analyses respectueuses de la vie privée, sans cookies, pour comprendre le trafic. Elles ne se chargent qu'avec votre accord — les cookies essentiels qui mémorisent votre choix restent toujours actifs.",
+    "accept": "Accepter",
     "reject": "Refuser",
-    "learnMore": "Politique de confidentialité"
+    "learnMore": "Politique de confidentialité",
+    "cookiePolicy": "Politique des cookies"
   },
   "themeGreeting": {
     "ramadan": {

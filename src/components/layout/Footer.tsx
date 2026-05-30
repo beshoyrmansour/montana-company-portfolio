@@ -299,7 +299,19 @@ export async function Footer({ locale }: FooterProps) {
               style={{ color: 'inherit' }}
             >
               {t('terms')}
-            </Link>
+            </Link>{' '}
+            ·{' '}
+            {/* Withdraw/change cookie consent — re-opens the banner via /cookie-banner.js.
+                Rendered as a real link (href to the cookie policy) so it still works
+                with JS disabled; cookie-banner.js intercepts the click to open the UI. */}
+            <a
+              href={`/${locale}/cookies`}
+              data-cookie-settings
+              className="hover:!text-white"
+              style={{ color: 'inherit' }}
+            >
+              {t('cookieSettings')}
+            </a>
           </span>
         </div>
       </Container>
