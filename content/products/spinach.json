@@ -43,8 +43,9 @@
   ],
   "seasonality": ["jan", "feb", "nov", "dec"],
   "images": {
-    "primary": "/images/products/lifestyle/spinach.jpg",
+    "primary": "/images/products/official/spinach.png",
     "gallery": [
+      "/images/products/lifestyle/spinach.jpg",
       "/images/products/stock/spinach-1.jpg",
       "/images/products/stock/spinach-2.jpg",
       "/images/products/real/spinach-1.jpg",

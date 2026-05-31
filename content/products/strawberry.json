@@ -32,8 +32,9 @@
   ],
   "seasonality": ["mar", "apr", "may"],
   "images": {
-    "primary": "/images/products/lifestyle/strawberry.jpg",
+    "primary": "/images/products/official/strawberry.png",
     "gallery": [
+      "/images/products/lifestyle/strawberry.jpg",
       "/images/products/stock/strawberry-1.jpg",
       "/images/products/stock/strawberry-2.jpg",
       "/images/products/real/strawberry-1.jpg",

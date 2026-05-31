@@ -48,8 +48,9 @@
   ],
   "seasonality": ["jul"],
   "images": {
-    "primary": "/images/products/lifestyle/sweet-corn.jpg",
+    "primary": "/images/products/official/sweet-corn.png",
     "gallery": [
+      "/images/products/lifestyle/sweet-corn.jpg",
       "/images/products/stock/sweet-corn-1.jpg",
       "/images/products/stock/sweet-corn-2.jpg",
       "/images/products/real/sweet-corn-1.jpg",

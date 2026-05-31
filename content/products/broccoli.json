@@ -67,8 +67,9 @@
   ],
   "seasonality": ["feb"],
   "images": {
-    "primary": "/images/products/lifestyle/broccoli.jpg",
+    "primary": "/images/products/official/broccoli.png",
     "gallery": [
+      "/images/products/lifestyle/broccoli.jpg",
       "/images/products/stock/broccoli-1.jpg",
       "/images/products/stock/broccoli-2.jpg",
       "/images/products/real/broccoli-1.jpg",

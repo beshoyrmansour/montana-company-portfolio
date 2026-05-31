@@ -103,8 +103,9 @@
   ],
   "seasonality": ["jun", "jul", "aug", "sep"],
   "images": {
-    "primary": "/images/products/stock/okra-1.jpg",
+    "primary": "/images/products/official/okra-extra.png",
     "gallery": [
+      "/images/products/stock/okra-1.jpg",
       "/images/products/stock/okra-2.jpg",
       "/images/products/real/okra-1.jpg",
       "/images/products/real/okra-2.jpg",

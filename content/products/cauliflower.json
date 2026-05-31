@@ -67,8 +67,9 @@
   ],
   "seasonality": ["mar"],
   "images": {
-    "primary": "/images/products/cauliflower-pack.png",
+    "primary": "/images/products/official/cauliflower.png",
     "gallery": [
+      "/images/products/cauliflower-pack.png",
       "/images/products/lifestyle/cauliflower.jpg",
       "/images/products/stock/cauliflower-1.jpg",
       "/images/products/stock/cauliflower-2.jpg",

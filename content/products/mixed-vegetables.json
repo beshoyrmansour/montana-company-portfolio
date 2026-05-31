@@ -62,8 +62,9 @@
   ],
   "seasonality": [],
   "images": {
-    "primary": "/images/products/mixed-vegetables-pack.png",
+    "primary": "/images/products/official/mixed-vegetables.png",
     "gallery": [
+      "/images/products/mixed-vegetables-pack.png",
       "/images/products/lifestyle/mixed-vegetables.jpg",
       "/images/products/stock/mixed-vegetables-1.jpg",
       "/images/products/stock/mixed-vegetables-2.jpg",

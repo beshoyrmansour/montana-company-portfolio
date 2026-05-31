@@ -79,8 +79,9 @@
   ],
   "seasonality": ["mar", "apr", "may"],
   "images": {
-    "primary": "/images/products/lifestyle/artichoke.jpg",
+    "primary": "/images/products/official/artichoke.png",
     "gallery": [
+      "/images/products/lifestyle/artichoke.jpg",
       "/images/products/stock/artichoke-1.jpg",
       "/images/products/stock/artichoke-2.jpg",
       "/images/products/real/artichoke-1.jpg",

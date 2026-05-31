@@ -48,8 +48,9 @@
   ],
   "seasonality": ["jan", "feb", "dec"],
   "images": {
-    "primary": "/images/products/lifestyle/peas.jpg",
+    "primary": "/images/products/official/green-peas.png",
     "gallery": [
+      "/images/products/lifestyle/peas.jpg",
       "/images/products/stock/peas-1.jpg",
       "/images/products/stock/peas-2.jpg",
       "/images/products/real/peas-1.jpg",

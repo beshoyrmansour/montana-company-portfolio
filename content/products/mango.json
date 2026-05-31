@@ -33,8 +33,9 @@
   ],
   "seasonality": ["jul", "aug", "sep"],
   "images": {
-    "primary": "/images/products/real/mango-1.jpg",
+    "primary": "/images/products/official/mango.png",
     "gallery": [
+      "/images/products/real/mango-1.jpg",
       "/images/products/real/mango-2.jpg",
       "/images/products/real/mango-3.jpg",
       "/images/products/real/mango-4.jpg"

@@ -48,8 +48,9 @@
   ],
   "seasonality": ["jun", "jul", "aug", "sep", "oct"],
   "images": {
-    "primary": "/images/products/molokhia-pack.png",
+    "primary": "/images/products/official/molokhia.png",
     "gallery": [
+      "/images/products/molokhia-pack.png",
       "/images/products/stock/molokhia-1.jpg",
       "/images/products/stock/molokhia-2.jpg",
       "/images/products/real/molokhia-1.jpg",

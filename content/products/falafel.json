@@ -48,8 +48,9 @@
   ],
   "seasonality": [],
   "images": {
-    "primary": "/images/products/real/falafel-1.jpg",
+    "primary": "/images/products/official/falafel.png",
     "gallery": [
+      "/images/products/real/falafel-1.jpg",
       "/images/products/real/falafel-2.jpg",
       "/images/products/real/falafel-3.jpg",
       "/images/products/real/falafel-4.jpg"

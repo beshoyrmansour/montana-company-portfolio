@@ -48,8 +48,9 @@
   ],
   "seasonality": ["oct", "nov", "dec"],
   "images": {
-    "primary": "/images/products/green-beans-pack.png",
+    "primary": "/images/products/official/green-beans.png",
     "gallery": [
+      "/images/products/green-beans-pack.png",
       "/images/products/lifestyle/green-beans.jpg",
       "/images/products/stock/green-beans-1.jpg",
       "/images/products/stock/green-beans-2.jpg",

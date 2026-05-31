@@ -33,8 +33,12 @@
   ],
   "seasonality": ["nov", "dec", "jan", "feb"],
   "images": {
-    "primary": "/images/products/real/coriander-1.jpg",
-    "gallery": ["/images/products/real/coriander-2.jpg", "/images/products/real/coriander-3.jpg"],
+    "primary": "/images/products/official/coriander.png",
+    "gallery": [
+      "/images/products/real/coriander-1.jpg",
+      "/images/products/real/coriander-2.jpg",
+      "/images/products/real/coriander-3.jpg"
+    ],
     "packaging": []
   },
   "relatedSlugs": ["molokhia", "spinach"],

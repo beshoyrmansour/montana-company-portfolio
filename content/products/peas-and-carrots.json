@@ -32,8 +32,9 @@
   ],
   "seasonality": [],
   "images": {
-    "primary": "/images/products/peas-and-carrots-pack.png",
+    "primary": "/images/products/official/peas-and-carrots.png",
     "gallery": [
+      "/images/products/peas-and-carrots-pack.png",
       "/images/products/lifestyle/peas-and-carrots.jpg",
       "/images/products/stock/peas-and-carrots-1.jpg",
       "/images/products/stock/peas-and-carrots-2.jpg",
