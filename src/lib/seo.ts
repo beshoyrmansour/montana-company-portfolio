@@ -360,11 +360,15 @@ export function buildPageMetadata({
 }: BuildPageMetadataInput): Metadata {
   const normalized = path.startsWith('/') ? path : path ? `/${path}` : '';
   const canonical = `${BASE_URL}/${locale}${normalized}`;
+  // Default share image = this page's OWN segment opengraph-image route, so each
+  // page ships a tailored thumbnail. Segments that pass an explicit `ogImage`
+  // (products, news articles) override this. Every segment used as a default
+  // here must have an opengraph-image.tsx (home + about/markets/news/contact/catalog).
   const og = ogImage
     ? ogImage.startsWith('http')
       ? ogImage
       : `${BASE_URL}${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`
-    : `${BASE_URL}/${locale}/opengraph-image`;
+    : `${BASE_URL}/${locale}${normalized}/opengraph-image`;
 
   const meta: Metadata = {
     title,

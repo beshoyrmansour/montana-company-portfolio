@@ -1,6 +1,14 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Youtube,
+  MessageCircle,
+  Music2,
+} from 'lucide-react';
 import { Container } from './Container';
 import { Logo } from './Logo';
 import { getSite, getAllProducts } from '@/lib/content';
@@ -13,6 +21,8 @@ const SOCIAL_ICONS = {
   linkedin: { Icon: Linkedin, label: 'LinkedIn' },
   twitter: { Icon: Twitter, label: 'Twitter / X' },
   youtube: { Icon: Youtube, label: 'YouTube' },
+  whatsapp: { Icon: MessageCircle, label: 'WhatsApp' },
+  tiktok: { Icon: Music2, label: 'TikTok' },
 } as const;
 
 interface FooterProps {
@@ -105,11 +115,7 @@ export async function Footer({ locale }: FooterProps) {
                 </a>
               </p>
             )}
-            {(site.social.facebook ||
-              site.social.instagram ||
-              site.social.linkedin ||
-              site.social.twitter ||
-              site.social.youtube) && (
+            {Object.keys(SOCIAL_ICONS).some((k) => site.social[k as keyof typeof SOCIAL_ICONS]) && (
               <div className="mt-6 flex gap-2">
                 {(
                   Object.entries(SOCIAL_ICONS) as [

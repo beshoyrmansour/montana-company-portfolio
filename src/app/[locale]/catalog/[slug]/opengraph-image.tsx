@@ -1,12 +1,12 @@
-import { ImageResponse } from 'next/og';
 import { getAllProductSlugs, getProduct } from '@/lib/content';
 import { getAvailableLocales } from '@/lib/i18n';
+import { renderOgCard, OG_SIZE, OG_CONTENT_TYPE, OG_GREEN } from '@/lib/og';
 
 export const dynamic = 'error';
 export const dynamicParams = false;
 export const alt = 'Montana product';
-export const size = { width: 1200, height: 630 };
-export const contentType = 'image/png';
+export const size = OG_SIZE;
+export const contentType = OG_CONTENT_TYPE;
 
 export async function generateStaticParams() {
   const locales = getAvailableLocales();
@@ -15,8 +15,9 @@ export async function generateStaticParams() {
 }
 
 /**
- * Product OG image — Latin/English text only (next/og has no Arabic font shaping).
- * Per-locale variants exist so og:image URLs match the page locale.
+ * Product share thumbnail — same branded card as the rest of the site, with the
+ * product name as the headline. Latin/English text only (next/og has no Arabic
+ * shaping); per-locale variants keep og:image URLs aligned with hreflang.
  */
 export default async function Image({
   params,
@@ -27,38 +28,10 @@ export default async function Image({
   const product = await getProduct(slug);
   if (!product) return new Response('Not found', { status: 404 });
 
-  const name = product.name.en;
-  const short = product.shortDescription.en;
-
-  return new ImageResponse(
-    (
-      <div
-        style={{
-          width: '100%',
-          height: '100%',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-end',
-          padding: '80px',
-          background: 'linear-gradient(135deg, #C8202E 0%, #EF802E 100%)',
-          color: '#FFFFFF',
-          fontFamily: 'system-ui, sans-serif',
-        }}
-      >
-        <div style={{ display: 'flex', fontSize: 32, fontWeight: 600, opacity: 0.85, marginBottom: 16, letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-          Montana · {product.category}
-        </div>
-        <div style={{ display: 'flex', fontSize: 96, fontWeight: 800, lineHeight: 1, marginBottom: 24 }}>
-          {name}
-        </div>
-        <div style={{ display: 'flex', fontSize: 30, opacity: 0.9, maxWidth: 1000, lineHeight: 1.3 }}>
-          {short}
-        </div>
-        <div style={{ display: 'flex', position: 'absolute', top: 60, right: 80, fontSize: 22, opacity: 0.7 }}>
-          montanaeg.com
-        </div>
-      </div>
-    ),
-    { ...size },
-  );
+  return renderOgCard({
+    eyebrow: `Montana · ${product.category}`,
+    title: product.name.en,
+    subtitle: product.shortDescription.en,
+    accent: OG_GREEN,
+  });
 }

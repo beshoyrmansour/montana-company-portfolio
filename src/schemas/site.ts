@@ -43,6 +43,8 @@ export const siteSchema = z.object({
     linkedin: z.string().url().optional(),
     twitter: z.string().url().optional(),
     youtube: z.string().url().optional(),
+    whatsapp: z.string().url().optional(),
+    tiktok: z.string().url().optional(),
   }),
   certifications: z.array(
     z.object({
