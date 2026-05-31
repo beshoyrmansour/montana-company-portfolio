@@ -21,7 +21,11 @@
       "fr": "Entreprise familiale · depuis 1985"
     },
     "ctaPrimary": {
-      "label": { "en": "View catalog", "ar": "تصفح المنتجات", "fr": "Voir le catalogue" },
+      "label": {
+        "en": "View catalog",
+        "ar": "تصفح المنتجات",
+        "fr": "Voir le catalogue"
+      },
       "href": "/catalog",
       "variant": "primary"
     },
@@ -35,25 +39,41 @@
       "variant": "ghost",
       "external": true
     },
-    "image": "/images/heroes/hero-grid.jpg",
+    "image": "/images/heroes/hero-grid.png",
     "meta": {
       "enabled": true,
       "items": [
         {
           "num": "1985",
-          "label": { "en": "Family-founded", "ar": "عائلي · مؤسس", "fr": "Fondé en famille" }
+          "label": {
+            "en": "Family-founded",
+            "ar": "عائلي · مؤسس",
+            "fr": "Fondé en famille"
+          }
         },
         {
           "num": "30",
-          "label": { "en": "Countries served", "ar": "دولة نخدمها", "fr": "Pays servis" }
+          "label": {
+            "en": "Countries served",
+            "ar": "دولة نخدمها",
+            "fr": "Pays servis"
+          }
         },
         {
           "num": "ISO",
-          "label": { "en": "22000 certified", "ar": "معتمد ٢٢٠٠٠", "fr": "22000 certifié" }
+          "label": {
+            "en": "22000 certified",
+            "ar": "معتمد ٢٢٠٠٠",
+            "fr": "22000 certifié"
+          }
         },
         {
           "num": "100%",
-          "label": { "en": "Naturally frozen", "ar": "تجميد طبيعي", "fr": "Surgelé naturellement" }
+          "label": {
+            "en": "Naturally frozen",
+            "ar": "تجميد طبيعي",
+            "fr": "Surgelé naturellement"
+          }
         }
       ]
     }
@@ -141,7 +161,11 @@
       }
     },
     "image": "/images/about/chairman.jpg",
-    "cornerMark": { "en": "— Cairo", "ar": "— القاهرة", "fr": "— Le Caire" }
+    "cornerMark": {
+      "en": "— Cairo",
+      "ar": "— القاهرة",
+      "fr": "— Le Caire"
+    }
   },
   "process": {
     "enabled": true,
@@ -164,7 +188,11 @@
     },
     "steps": [
       {
-        "label": { "en": "Prepare", "ar": "الإعداد", "fr": "Préparation" },
+        "label": {
+          "en": "Prepare",
+          "ar": "الإعداد",
+          "fr": "Préparation"
+        },
         "description": {
           "en": "All received vegetables are washed and prepared for processing.",
           "ar": "تُغسل جميع الخضروات المستلمة وتُجهز للمعالجة.",
@@ -173,7 +201,11 @@
         "icon": "Sparkles"
       },
       {
-        "label": { "en": "Process", "ar": "الإنتاج", "fr": "Production" },
+        "label": {
+          "en": "Process",
+          "ar": "الإنتاج",
+          "fr": "Production"
+        },
         "description": {
           "en": "Latest technology applied throughout processing and packing.",
           "ar": "أحدث التقنيات في جميع مراحل الإنتاج والتعبئة.",
@@ -182,7 +214,11 @@
         "icon": "Factory"
       },
       {
-        "label": { "en": "Inspect", "ar": "الفحص", "fr": "Inspection" },
+        "label": {
+          "en": "Inspect",
+          "ar": "الفحص",
+          "fr": "Inspection"
+        },
         "description": {
           "en": "QA lab rechecks every batch regularly.",
           "ar": "يفحص مختبر الجودة كل دفعة بانتظام.",
@@ -191,7 +227,11 @@
         "icon": "Microscope"
       },
       {
-        "label": { "en": "Package", "ar": "التغليف", "fr": "Emballage" },
+        "label": {
+          "en": "Package",
+          "ar": "التغليف",
+          "fr": "Emballage"
+        },
         "description": {
           "en": "Custom retail, foodservice, and bulk options.",
           "ar": "خيارات تغليف بالتجزئة والمطاعم والجملة.",
@@ -200,7 +240,11 @@
         "icon": "Package"
       },
       {
-        "label": { "en": "Surveillance", "ar": "المراقبة", "fr": "Surveillance" },
+        "label": {
+          "en": "Surveillance",
+          "ar": "المراقبة",
+          "fr": "Surveillance"
+        },
         "description": {
           "en": "Continuous monitoring through HACCP-certified systems.",
           "ar": "مراقبة مستمرة من خلال أنظمة معتمدة من HACCP.",
