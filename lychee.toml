@@ -27,6 +27,10 @@ exclude = [
   "^https?://127\\.0\\.0\\.1",
   # Wildcard placeholders in docs.
   "example\\.com",
+  # Bot-hostile hosts that 403 automated checkers but are valid for humans:
+  # Pexels (image credits) and the Cloudflare dashboard (Turnstile setup links).
+  "^https?://(www\\.)?pexels\\.com",
+  "^https?://dash\\.cloudflare\\.com",
 ]
 
 # Be polite to remote hosts.
