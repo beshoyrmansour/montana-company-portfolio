@@ -4,14 +4,14 @@ The big pages (Home, About, Catalog, Contact, Markets, News) each have a JSON fi
 
 ## Page → file map
 
-| Page | URL | Content file |
-| --- | --- | --- |
-| Home | `/` | `content/pages/home.json` |
-| About | `/about` | `content/pages/about.json` |
+| Page    | URL        | Content file                 |
+| ------- | ---------- | ---------------------------- |
+| Home    | `/`        | `content/pages/home.json`    |
+| About   | `/about`   | `content/pages/about.json`   |
 | Catalog | `/catalog` | `content/pages/catalog.json` |
 | Markets | `/markets` | `content/pages/markets.json` |
 | Contact | `/contact` | `content/pages/contact.json` |
-| News | `/news` | `content/pages/news.json` |
+| News    | `/news`    | `content/pages/news.json`    |
 
 Site-wide values (brand name, address, social links, certifications, footer copy) live in [`content/site.json`](../../content/site.json). Edit that file for anything that appears in the header or footer.
 
@@ -104,7 +104,7 @@ Example: changing the company phone number:
   "contact": {
     "phone": "+20 2 1234 5678",
     "email": "info@montanaeg.com",
-    "address": { "en": "Kalioub, Egypt", "ar": "…", "fr": "…" }
+    "address": { "en": "Qalyub, Egypt", "ar": "…", "fr": "…" }
   }
 }
 ```

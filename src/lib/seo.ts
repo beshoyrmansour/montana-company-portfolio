@@ -84,7 +84,7 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
       {
         '@type': 'PostalAddress',
         streetAddress: pick(site.contact.factory.address, locale),
-        addressLocality: 'Kalioub',
+        addressLocality: 'Qalyub',
         addressCountry: 'EG',
       },
     ],
@@ -148,7 +148,7 @@ export function localBusinessJsonLd(site: Site, locale: Locale): JsonLd {
     address: {
       '@type': 'PostalAddress',
       streetAddress: pick(site.contact.factory.address, locale),
-      addressLocality: 'Kalioub',
+      addressLocality: 'Qalyub',
       addressCountry: 'EG',
     },
     geo: site.contact.factory.coordinates

@@ -173,12 +173,12 @@
     },
     "items": [
       {
-        "city": { "en": "Kalioub HQ", "ar": "القليوب · المقر الرئيسي", "fr": "Kalioub · siège" },
+        "city": { "en": "Qalyub HQ", "ar": "القليوب · المقر الرئيسي", "fr": "Qalyub · siège" },
         "country": { "en": "Egypt", "ar": "مصر", "fr": "Égypte" },
         "address": {
-          "en": "Industrial Zone Block 4, Kalioub Governorate",
+          "en": "Industrial Zone Block 4, Qalyub Governorate",
           "ar": "المنطقة الصناعية بلوك 4، محافظة القليوبية",
-          "fr": "Zone industrielle bloc 4, gouvernorat de Kalioub"
+          "fr": "Zone industrielle bloc 4, gouvernorat de Qalyub"
         },
         "tel": "+202 421 65 139",
         "email": "export@montanaeg.com",
@@ -246,9 +246,9 @@
     },
     "title": {
       "lead": {
-        "en": "Kalioub,",
+        "en": "Qalyub,",
         "ar": "القليوب،",
-        "fr": "Kalioub,"
+        "fr": "Qalyub,"
       },
       "em": {
         "en": "Egypt.",
@@ -283,7 +283,7 @@
       }
     ],
     "svgLabels": {
-      "hq": { "en": "Kalioub", "ar": "القليوب", "fr": "Kalioub" },
+      "hq": { "en": "Qalyub", "ar": "القليوب", "fr": "Qalyub" },
       "hqSub": { "en": "Montana HQ", "ar": "مونتانا · المقر", "fr": "Siège Montana" },
       "cairo": { "en": "Cairo", "ar": "القاهرة", "fr": "Le Caire" },
       "alexandria": { "en": "Alexandria", "ar": "الإسكندرية", "fr": "Alexandrie" }

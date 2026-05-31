@@ -9,7 +9,9 @@ test.describe('smoke tests (static build)', () => {
     await expect(page.getByRole('heading', { level: 1 })).toContainText('A Quality Lifestyle');
   });
 
-  test('root path falls back to default when Accept-Language is unsupported', async ({ browser }) => {
+  test('root path falls back to default when Accept-Language is unsupported', async ({
+    browser,
+  }) => {
     const ctx = await browser.newContext({ locale: 'de-DE' });
     const page = await ctx.newPage();
     await page.goto('/');
@@ -70,31 +72,31 @@ test.describe('smoke tests (static build)', () => {
 
   test('News index page renders', async ({ page }) => {
     await page.goto('/en/news');
-    await expect(page.getByRole('heading', { name: /newsroom/i, level: 1 })).toBeVisible();
-    // Three articles seeded
-    const articles = page.locator('article, a').filter({ hasText: /haccp|kalioub|molokhia/i });
-    expect(await articles.count()).toBeGreaterThanOrEqual(3);
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/the delta/i);
+    // Three articles seeded — links to each story (SSR, so present once first is visible)
+    const articleLinks = page.locator('a[href^="/en/news/"]');
+    await expect(articleLinks.first()).toBeVisible();
+    expect(await articleLinks.count()).toBeGreaterThanOrEqual(3);
   });
 
-  test('Contact page has form with required fields', async ({ page }) => {
+  test('Contact page has inquiry form with required fields', async ({ page }) => {
     await page.goto('/en/contact');
-    // Labels include a required "*" — match by name attribute instead
+    // Editorial inquiry form — name/company/email/country inputs + message box
     await expect(page.locator('input[name="name"]')).toBeVisible();
     await expect(page.locator('input[name="email"]')).toBeVisible();
-    await expect(page.locator('select[name="subject"]')).toBeVisible();
+    await expect(page.locator('input[name="country"]')).toBeVisible();
     await expect(page.locator('textarea[name="message"]')).toBeVisible();
-    await expect(page.getByRole('button', { name: /send message/i })).toBeVisible();
-    // Honeypot must be present + visually offscreen + aria-hidden
-    const honeypot = page.locator('input[name="website"]');
-    await expect(honeypot).toHaveAttribute('tabindex', '-1');
-    await expect(honeypot.locator('xpath=..')).toHaveAttribute('aria-hidden', 'true');
+    // Reason is chosen via radio-style buttons, not a <select>
+    await expect(page.getByRole('button', { name: /new sourcing inquiry/i })).toBeVisible();
+    await expect(page.getByRole('button', { name: /send to the export desk/i })).toBeVisible();
   });
 
   test('Markets page lists regions', async ({ page }) => {
     await page.goto('/en/markets');
-    await expect(page.getByRole('heading', { name: /our markets/i, level: 1 })).toBeVisible();
-    // 4 regions seeded
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/thirty tables/i);
+    // Multiple region/section headings (wait for first before counting)
     const regions = page.getByRole('heading', { level: 2 });
+    await expect(regions.first()).toBeVisible();
     expect(await regions.count()).toBeGreaterThanOrEqual(4);
   });
 

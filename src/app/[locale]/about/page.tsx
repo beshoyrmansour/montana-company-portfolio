@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       'Montana history',
       'Egyptian frozen-food family business',
       'Maamoun Brothers Group',
-      'Kalioub factory',
+      'Qalyub factory',
       'HACCP ISO GMP certifications',
     ],
     ogImage: page.seo?.ogImage,

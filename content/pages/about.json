@@ -24,9 +24,9 @@
       }
     },
     "subtitle": {
-      "en": "Montana is a family-owned Egyptian frozen-food exporter, founded by Bishoy Mansour in 1985 and run today by the second generation from the same Kalioub site that started it all.",
+      "en": "Montana is a family-owned Egyptian frozen-food exporter, founded by Bishoy Mansour in 1985 and run today by the second generation from the same Qalyub site that started it all.",
       "ar": "مونتانا شركة عائلية مصرية لتصدير الأغذية المجمدة، أسسها بشوي منصور عام 1985 ويديرها اليوم الجيل الثاني من نفس موقع القليوب الذي بدأ منه كل شيء.",
-      "fr": "Montana est un exportateur égyptien familial de produits surgelés, fondé par Bishoy Mansour en 1985 et dirigé aujourd'hui par la deuxième génération depuis le même site de Kalioub où tout a commencé."
+      "fr": "Montana est un exportateur égyptien familial de produits surgelés, fondé par Bishoy Mansour en 1985 et dirigé aujourd'hui par la deuxième génération depuis le même site de Qalyub où tout a commencé."
     },
     "stats": [
       {
@@ -49,9 +49,9 @@
       {
         "num": "50k",
         "label": {
-          "en": "m² Kalioub facility",
+          "en": "m² Qalyub facility",
           "ar": "م² منشأة القليوب",
-          "fr": "m² site de Kalioub"
+          "fr": "m² site de Qalyub"
         }
       },
       {
@@ -92,9 +92,9 @@
           "fr": "Une coopérative naît"
         },
         "description": {
-          "en": "Bishoy Mansour Sr. founds United Co. for Food Industries in a small Kalioub workshop, freezing the Nile delta's molokhia for nearby restaurants.",
+          "en": "Bishoy Mansour Sr. founds United Co. for Food Industries in a small Qalyub workshop, freezing the Nile delta's molokhia for nearby restaurants.",
           "ar": "يؤسس بشوي منصور الأب الشركة المتحدة للصناعات الغذائية في ورشة صغيرة بالقليوب، يجمد ملوخية دلتا النيل للمطاعم المجاورة.",
-          "fr": "Bishoy Mansour Sr. fonde United Co. for Food Industries dans un petit atelier de Kalioub, surgelant la molokhia du delta du Nil pour les restaurants voisins."
+          "fr": "Bishoy Mansour Sr. fonde United Co. for Food Industries dans un petit atelier de Qalyub, surgelant la molokhia du delta du Nil pour les restaurants voisins."
         },
         "image": "/images/products/lifestyle/kitchen.jpg"
       },
@@ -132,9 +132,9 @@
           "fr": "Nouvelle usine · 50 000 m²"
         },
         "description": {
-          "en": "The current Kalioub site opens. Twenty production lines, four cold stores, a quality lab on the ground floor.",
+          "en": "The current Qalyub site opens. Twenty production lines, four cold stores, a quality lab on the ground floor.",
           "ar": "يُفتتح الموقع الحالي في القليوب. عشرون خط إنتاج، أربعة مخازن تبريد، ومختبر جودة في الطابق الأرضي.",
-          "fr": "Le site actuel de Kalioub ouvre ses portes. Vingt lignes de production, quatre chambres froides, un laboratoire qualité au rez-de-chaussée."
+          "fr": "Le site actuel de Qalyub ouvre ses portes. Vingt lignes de production, quatre chambres froides, un laboratoire qualité au rez-de-chaussée."
         }
       },
       {

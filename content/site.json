@@ -52,11 +52,11 @@
       "email": "info@montanaeg.com"
     },
     "factory": {
-      "label": { "en": "Kalioub Factory", "ar": "مصنع القليوب", "fr": "Usine de Kalioub" },
+      "label": { "en": "Qalyub Factory", "ar": "مصنع القليوب", "fr": "Usine de Qalyub" },
       "address": {
-        "en": "20 km Cairo/Alex Agriculture Road, Kalioub, Egypt",
+        "en": "20 km Cairo/Alex Agriculture Road, Qalyub, Egypt",
         "ar": "كم ٢٠ طريق مصر/الإسكندرية الزراعي، القليوب، مصر",
-        "fr": "20 km route agricole Le Caire/Alexandrie, Kalioub, Égypte"
+        "fr": "20 km route agricole Le Caire/Alexandrie, Qalyub, Égypte"
       },
       "phones": ["+202 421 65 139", "+202 421 65 245", "+202 421 66 912/3"],
       "fax": "+202 421 65 154",

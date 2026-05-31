@@ -9,7 +9,7 @@ import { pick, type Locale } from '@/lib/i18n';
  * TradeAtlas — interactive world map of Montana's 30-country export network.
  *
  * Renders the inline world.svg paths (250 countries) and overlays:
- *   - animated dashed trade routes from Kalioub (Egypt) to each destination
+ *   - animated dashed trade routes from Qalyub (Egypt) to each destination
  *   - pulsing Egypt hub marker with brand-green halo
  *   - clickable destination markers with hover tooltip (flag · name · port)
  *   - region filter pills below the map

@@ -32,9 +32,9 @@ export const REGION_META: Record<string, RegionMeta> = {
     color: '#147239',
     leadTime: '4–10 days',
     lede: {
-      en: 'Our home region. Same-week container despatch by road and Red Sea ferry; the molokhia from Kalioub on a Riyadh table by Friday.',
+      en: 'Our home region. Same-week container despatch by road and Red Sea ferry; the molokhia from Qalyub on a Riyadh table by Friday.',
       ar: 'منطقتنا الأم. شحن أسبوعي عبر البر وعبارات البحر الأحمر؛ ملوخية القليوب على مائدة الرياض بحلول يوم الجمعة.',
-      fr: "Notre région d'origine. Expédition hebdomadaire par route et ferry de la mer Rouge ; la molokhia de Kalioub sur une table à Riyad avant vendredi.",
+      fr: "Notre région d'origine. Expédition hebdomadaire par route et ferry de la mer Rouge ; la molokhia de Qalyub sur une table à Riyad avant vendredi.",
     },
     photo: '/images/markets/mena.jpg',
   },
@@ -62,7 +62,7 @@ export const REGION_META: Record<string, RegionMeta> = {
     color: '#C8202E',
     leadTime: '20–28 days',
     lede: {
-      en: 'Trans-Atlantic via Algeciras to East Coast US, Caribbean, and South America. Cold chain unbroken from Kalioub to your dock.',
+      en: 'Trans-Atlantic via Algeciras to East Coast US, Caribbean, and South America. Cold chain unbroken from Qalyub to your dock.',
       ar: 'عبور المحيط الأطلسي عبر الجزيرة الخضراء إلى الساحل الشرقي الأمريكي والكاريبي وأمريكا الجنوبية. سلسلة تبريد دون انقطاع.',
       fr: "Transatlantique via Algésiras vers la côte Est des États-Unis, les Caraïbes et l'Amérique du Sud. Chaîne du froid ininterrompue.",
     },
@@ -86,7 +86,7 @@ export const COUNTRY_META: Record<string, CountryMeta> = {
   // MENA — hub. Coordinates are centroids computed directly from world.svg
   // path geometry (parsed at /scripts via path tokenization), so markers
   // sit exactly on the rendered country shape.
-  EG: { flag: '🇪🇬', port: 'Kalioub HQ', hub: true, coords: [561.3, 382.4] },
+  EG: { flag: '🇪🇬', port: 'Qalyub HQ', hub: true, coords: [561.3, 382.4] },
   SA: { flag: '🇸🇦', port: 'Jeddah', coords: [600.8, 396.2] },
   AE: { flag: '🇦🇪', port: 'Jebel Ali', coords: [627.5, 393.1] },
   KW: { flag: '🇰🇼', port: 'Shuwaikh', coords: [609.1, 376.8] },
@@ -124,9 +124,9 @@ export const COUNTRY_META: Record<string, CountryMeta> = {
   MU: { flag: '🇲🇺', port: 'Port Louis', coords: [636.4, 520.7] },
 };
 
-/** Egypt's coordinate on the world.svg viewBox (Kalioub origin).
+/** Egypt's coordinate on the world.svg viewBox (Qalyub origin).
  *  Lifted slightly north of the country centroid so the label and the
- *  pulsing halo sit over the Nile Delta where Kalioub actually is. */
+ *  pulsing halo sit over the Nile Delta where Qalyub actually is. */
 export const EGYPT_COORDS: [number, number] = COUNTRY_META.EG?.coords ?? [561, 382];
 
 /** Get region color falling back to brand primary. */

@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prepare": "husky",
     "build": "npm run content:validate && next build",
     "start": "next start",
     "lint": "eslint .",

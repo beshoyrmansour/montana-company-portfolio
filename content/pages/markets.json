@@ -8,9 +8,9 @@
     },
     "headline": {
       "lead": {
-        "en": "From Kalioub to",
+        "en": "From Qalyub to",
         "ar": "من القليوب إلى",
-        "fr": "De Kalioub à"
+        "fr": "De Qalyub à"
       },
       "em": {
         "en": "thirty tables",
@@ -41,7 +41,11 @@
       {
         "num": "70k",
         "sup": "+",
-        "label": { "en": "Tonnes processed / yr", "ar": "طن يُعالَج سنويًا", "fr": "Tonnes traitées / an" }
+        "label": {
+          "en": "Tonnes processed / yr",
+          "ar": "طن يُعالَج سنويًا",
+          "fr": "Tonnes traitées / an"
+        }
       },
       {
         "num": "98.4",
@@ -90,9 +94,9 @@
         "fr": "Survolez un port pour voir le trajet"
       },
       "egyptLabel": {
-        "en": "Kalioub, Egypt",
+        "en": "Qalyub, Egypt",
         "ar": "القليوب، مصر",
-        "fr": "Kalioub, Égypte"
+        "fr": "Qalyub, Égypte"
       },
       "portLabel": {
         "en": "Port",
@@ -175,9 +179,9 @@
         "fr": "De"
       },
       "em": {
-        "en": "Kalioub",
+        "en": "Qalyub",
         "ar": "القليوب",
-        "fr": "Kalioub"
+        "fr": "Qalyub"
       }
     },
     "body": {
@@ -188,7 +192,7 @@
     "steps": [
       {
         "num": "01",
-        "label": { "en": "Kalioub", "ar": "القليوب", "fr": "Kalioub" },
+        "label": { "en": "Qalyub", "ar": "القليوب", "fr": "Qalyub" },
         "description": {
           "en": "IQF tunnel · −40 °C",
           "ar": "نفق التجميد الفوري · −40 °م",

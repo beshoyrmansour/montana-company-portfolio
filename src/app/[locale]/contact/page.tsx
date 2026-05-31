@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       'contact Montana frozen foods',
       'export sales Egypt',
       'frozen food B2B inquiry',
-      'Kalioub factory',
+      'Qalyub factory',
       'Cairo office',
     ],
     ogImage: page.seo?.ogImage,
@@ -255,7 +255,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                     opacity="0.5"
                     strokeLinecap="round"
                   />
-                  {/* Kalioub marker — lon 31.21391, lat 30.22929 → x≈293, y≈72 */}
+                  {/* Qalyub marker — lon 31.21391, lat 30.22929 → x≈293, y≈72 */}
                   <g>
                     <circle
                       cx="293"

@@ -51,7 +51,7 @@ export async function Footer({ locale }: FooterProps) {
       ? 'تأسست في 1985. تصدّر إلى 30 دولة على خمس قارات.'
       : locale === 'fr'
         ? `Fondée en ${founded}. Exporte vers 30 pays sur cinq continents.`
-        : `Family-founded in ${founded}. Kalioub, Egypt. Exporting to 30 countries on five continents.`;
+        : `Family-founded in ${founded}. Qalyub, Egypt. Exporting to 30 countries on five continents.`;
 
   return (
     <footer

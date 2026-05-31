@@ -15,6 +15,6 @@ export default async function Image() {
   return renderOgCard({
     eyebrow: 'Markets · 5 continents',
     title: 'Exporting to 30 countries',
-    subtitle: 'Cold-chain frozen food from Kalioub, Egypt to your market.',
+    subtitle: 'Cold-chain frozen food from Qalyub, Egypt to your market.',
   });
 }
