@@ -222,6 +222,17 @@ export const aboutPageSchema = z.object({
       }),
     ),
   }),
+  parentGroup: z
+    .object({
+      enabled: z.boolean(),
+      eyebrow: i18nString,
+      title: splitTitle,
+      body: i18nString,
+      logo: z.string(),
+      since: z.string().optional(),
+      cta: ctaLink.optional(),
+    })
+    .optional(),
   certifications: z.object({
     enabled: z.boolean(),
     eyebrow: i18nString,

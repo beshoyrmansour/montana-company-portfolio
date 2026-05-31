@@ -296,6 +296,44 @@
       }
     ]
   },
+  "parentGroup": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Part of a larger family",
+      "ar": "جزء من عائلة أكبر",
+      "fr": "Au sein d'un groupe familial"
+    },
+    "title": {
+      "lead": {
+        "en": "Backed by",
+        "ar": "مدعومة من",
+        "fr": "Soutenue par"
+      },
+      "em": {
+        "en": "Maamoun Brothers Group.",
+        "ar": "مجموعة إخوان مأمون.",
+        "fr": "le Groupe Maamoun Brothers."
+      }
+    },
+    "body": {
+      "en": "Montana is the frozen-food house of Maamoun Brothers Group, a family enterprise whose roots in Egyptian food trade reach back to 1909. More than a century of sourcing relationships, scale and standards sits behind every pallet we ship.",
+      "ar": "مونتانا هي ذراع الأغذية المجمدة لمجموعة إخوان مأمون، وهي مؤسسة عائلية تمتد جذورها في تجارة الأغذية المصرية إلى عام 1909. أكثر من قرن من علاقات التوريد والحجم والمعايير يقف خلف كل شحنة نصدّرها.",
+      "fr": "Montana est la maison des produits surgelés du Groupe Maamoun Brothers, une entreprise familiale dont les racines dans le commerce alimentaire égyptien remontent à 1909. Plus d'un siècle de relations d'approvisionnement, d'échelle et d'exigence se tient derrière chaque palette que nous expédions."
+    },
+    "logo": "/images/logo/MaamounGroupLogo.png",
+    "since": "1909",
+    "cta": {
+      "label": {
+        "en": "Visit Maamoun Brothers Group",
+        "ar": "زيارة مجموعة إخوان مأمون",
+        "fr": "Visiter le Groupe Maamoun Brothers"
+      },
+      "href": "https://www.maamoungrp.com",
+      "variant": "ghost",
+      "external": true,
+      "icon": "ArrowUpRight"
+    }
+  },
   "certifications": {
     "enabled": true,
     "eyebrow": {

@@ -202,6 +202,90 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         </section>
       )}
 
+      {/* ════════════════════════════════════════════════════════ PARENT GROUP */}
+      {page.parentGroup?.enabled && (
+        <section className="section-editorial">
+          <Container>
+            <div
+              style={{
+                display: 'grid',
+                gap: 'var(--space-12)',
+                alignItems: 'center',
+                gridTemplateColumns: '1fr',
+              }}
+              className="md:!grid-cols-[0.9fr_1.1fr]"
+            >
+              {/* Group logo on a warm card */}
+              <div
+                style={{
+                  background: 'var(--color-surface-elevated)',
+                  border: '1px solid var(--color-border)',
+                  borderRadius: 'var(--radius-lg)',
+                  boxShadow: 'var(--shadow-md, 0 8px 24px rgba(0,0,0,0.08))',
+                  padding: 'var(--space-12)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  gap: 'var(--space-4)',
+                }}
+              >
+                <Image
+                  src={page.parentGroup.logo}
+                  alt={pick(page.parentGroup.title.em, locale) ?? 'Maamoun Brothers Group'}
+                  width={650}
+                  height={460}
+                  style={{ width: '100%', maxWidth: '280px', height: 'auto' }}
+                />
+                {page.parentGroup.since && (
+                  <span
+                    style={{
+                      fontSize: 'var(--text-eyebrow)',
+                      textTransform: 'uppercase',
+                      letterSpacing: 'var(--tracking-caps)',
+                      color: 'var(--color-text-subtle)',
+                    }}
+                  >
+                    {locale === 'ar'
+                      ? `منذ ${page.parentGroup.since}`
+                      : locale === 'fr'
+                        ? `Depuis ${page.parentGroup.since}`
+                        : `Since ${page.parentGroup.since}`}
+                  </span>
+                )}
+              </div>
+
+              {/* Copy */}
+              <div>
+                <span className="eyebrow no-rule">{pick(page.parentGroup.eyebrow, locale)}</span>
+                <h2 style={{ marginBottom: 'var(--space-5)' }}>
+                  <SplitTitle title={page.parentGroup.title} locale={locale} />
+                </h2>
+                <p
+                  style={{
+                    color: 'var(--color-text-muted)',
+                    maxWidth: '52ch',
+                    lineHeight: 'var(--leading-relaxed)',
+                  }}
+                >
+                  {pick(page.parentGroup.body, locale)}
+                </p>
+                {page.parentGroup.cta && (
+                  <a
+                    href={page.parentGroup.cta.href}
+                    target={page.parentGroup.cta.external ? '_blank' : undefined}
+                    rel={page.parentGroup.cta.external ? 'noopener noreferrer' : undefined}
+                    className="btn-editorial ghost"
+                    style={{ marginTop: 'var(--space-6)' }}
+                  >
+                    {pick(page.parentGroup.cta.label, locale)}
+                  </a>
+                )}
+              </div>
+            </div>
+          </Container>
+        </section>
+      )}
+
       {/* ════════════════════════════════════════════════════════ CERTIFICATIONS */}
       {page.certifications.enabled && (
         <section className="section-editorial logistics-band on-dark">

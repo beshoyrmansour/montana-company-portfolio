@@ -57,66 +57,102 @@ export async function Footer({ locale }: FooterProps) {
     <footer
       role="contentinfo"
       style={{
-        background: 'var(--color-surface-deeper)',
-        color: 'rgba(255, 255, 255, 0.7)',
-        paddingBlock: 'var(--space-24) var(--space-8)',
+        background: 'var(--color-surface)',
+        color: 'var(--color-text-muted)',
+        paddingBottom: 'var(--space-8)',
       }}
     >
-      <Container>
-        <div
-          style={{
-            display: 'grid',
-            gap: 'var(--space-12)',
-            gridTemplateColumns: '1fr',
-          }}
-          className="md:!grid-cols-[1.4fr_1fr_1fr_1fr]"
-        >
-          {/* Brand block — logo pill + tagline + socials */}
-          <div>
-            <div
-              style={{
-                background: 'rgba(255, 255, 255, 0.96)',
-                padding: 'var(--space-2) var(--space-4)',
-                borderRadius: 'var(--radius-lg)',
-                width: 'max-content',
-                maxWidth: '100%',
-                marginBottom: 'var(--space-5)',
-              }}
-            >
-              <Logo className="h-12 w-auto" decorative />
-            </div>
-            <p
-              style={{
-                fontSize: 'var(--text-body-sm)',
-                color: 'rgba(255,255,255,0.6)',
-                maxWidth: '32ch',
-                lineHeight: 'var(--leading-relaxed)',
-              }}
-            >
-              {brandTagline}
-            </p>
-            {site.parentUrl && (
+      {/* ── Brand band — sits across the top, divided from the nav by a hairline ── */}
+      <div
+        style={{
+          color: 'var(--color-text-muted)',
+          paddingBlock: 'var(--space-12)',
+          borderBottom: '1px solid var(--color-border)',
+        }}
+      >
+        <Container>
+          <div
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: 'var(--space-10)',
+            }}
+          >
+            {/* Montana + tagline */}
+            <div style={{ maxWidth: '40ch' }}>
+              <div style={{ marginBottom: 'var(--space-4)' }}>
+                <Logo className="h-14 w-auto" decorative />
+              </div>
               <p
                 style={{
-                  marginTop: 'var(--space-4)',
                   fontSize: 'var(--text-body-sm)',
-                  color: 'rgba(255,255,255,0.6)',
+                  color: 'var(--color-text-muted)',
+                  lineHeight: 'var(--leading-relaxed)',
+                  margin: 0,
                 }}
               >
-                {t('partOf')}{' '}
+                {brandTagline}
+              </p>
+            </div>
+
+            {/* Part of — parent group logo */}
+            {site.parentUrl && (
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: 'var(--space-2)',
+                  alignItems: 'flex-start',
+                }}
+              >
+                <span
+                  style={{
+                    fontSize: 'var(--text-eyebrow)',
+                    textTransform: 'uppercase',
+                    letterSpacing: 'var(--tracking-caps)',
+                    color: 'var(--color-text-subtle)',
+                  }}
+                >
+                  {t('partOf')}
+                </span>
                 <a
                   href={site.parentUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-colors hover:!text-white"
-                  style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'underline' }}
+                  aria-label={pick(site.parentCompany, locale)}
+                  className="transition-opacity hover:!opacity-80"
+                  style={{ display: 'inline-flex', alignItems: 'center', gap: 'var(--space-4)' }}
                 >
-                  {pick(site.parentCompany, locale)}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/images/logo/MaamounGroupLogo.png"
+                    alt={pick(site.parentCompany, locale)}
+                    width={650}
+                    height={460}
+                    className="h-20 w-auto"
+                    decoding="async"
+                    loading="lazy"
+                  />
+                  <span
+                    style={{
+                      fontSize: 'var(--text-body)',
+                      fontWeight: 600,
+                      lineHeight: 'var(--leading-tight)',
+                      color: 'var(--color-text)',
+                      maxWidth: '16ch',
+                    }}
+                  >
+                    {pick(site.parentCompany, locale)}
+                  </span>
                 </a>
-              </p>
+              </div>
             )}
+
+            {/* Socials */}
             {Object.keys(SOCIAL_ICONS).some((k) => site.social[k as keyof typeof SOCIAL_ICONS]) && (
-              <div className="mt-6 flex gap-2">
+              <div className="flex gap-2">
                 {(
                   Object.entries(SOCIAL_ICONS) as [
                     keyof typeof SOCIAL_ICONS,
@@ -132,8 +168,11 @@ export async function Footer({ locale }: FooterProps) {
                       aria-label={label}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-text-inverse hover:text-brand-primary-fg flex h-9 w-9 items-center justify-center rounded-full border border-white/20 transition-all"
-                      style={{ backdropFilter: 'blur(4px)' }}
+                      className="hover:text-brand-primary-fg flex h-9 w-9 items-center justify-center rounded-full transition-all hover:!border-current"
+                      style={{
+                        color: 'var(--color-text-muted)',
+                        border: '1px solid var(--color-border)',
+                      }}
                     >
                       <Icon className="h-4 w-4" aria-hidden />
                     </a>
@@ -142,15 +181,27 @@ export async function Footer({ locale }: FooterProps) {
               </div>
             )}
           </div>
+        </Container>
+      </div>
 
+      <Container>
+        <div
+          style={{
+            display: 'grid',
+            gap: 'var(--space-12)',
+            gridTemplateColumns: '1fr',
+            paddingTop: 'var(--space-16)',
+          }}
+          className="md:!grid-cols-3"
+        >
           {/* Catalogue column — small selection of products */}
           <FooterCol heading={t('products')}>
             {products.slice(0, 6).map((product) => (
               <li key={product.slug}>
                 <Link
                   href={`/${locale}/catalog/${product.slug}`}
-                  className="transition-colors hover:!text-white"
-                  style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                  className="hover:!text-brand-primary transition-colors"
+                  style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
                 >
                   {pick(product.name, locale)}
                 </Link>
@@ -164,8 +215,8 @@ export async function Footer({ locale }: FooterProps) {
               <li>
                 <Link
                   href={`/${locale}/about`}
-                  className="transition-colors hover:!text-white"
-                  style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                  className="hover:!text-brand-primary transition-colors"
+                  style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
                 >
                   {tnav('about')}
                 </Link>
@@ -175,8 +226,8 @@ export async function Footer({ locale }: FooterProps) {
               <li>
                 <Link
                   href={`/${locale}/markets`}
-                  className="transition-colors hover:!text-white"
-                  style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                  className="hover:!text-brand-primary transition-colors"
+                  style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
                 >
                   {tnav('markets')}
                 </Link>
@@ -186,8 +237,8 @@ export async function Footer({ locale }: FooterProps) {
               <li>
                 <Link
                   href={`/${locale}/news`}
-                  className="transition-colors hover:!text-white"
-                  style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                  className="hover:!text-brand-primary transition-colors"
+                  style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
                 >
                   {tnav('news')}
                 </Link>
@@ -198,8 +249,8 @@ export async function Footer({ locale }: FooterProps) {
                 href="/docs/Montana-Catalogue.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition-colors hover:!text-white"
-                style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                className="hover:!text-brand-primary transition-colors"
+                style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
               >
                 {locale === 'ar'
                   ? 'تحميل الكتالوج'
@@ -216,8 +267,8 @@ export async function Footer({ locale }: FooterProps) {
               <li>
                 <Link
                   href={`/${locale}/contact`}
-                  className="transition-colors hover:!text-white"
-                  style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                  className="hover:!text-brand-primary transition-colors"
+                  style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
                 >
                   {tnav('contact')}
                 </Link>
@@ -226,8 +277,8 @@ export async function Footer({ locale }: FooterProps) {
             <li>
               <a
                 href={`mailto:${site.contact.factory.email}`}
-                className="transition-colors hover:!text-white"
-                style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                className="hover:!text-brand-primary transition-colors"
+                style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
               >
                 {site.contact.factory.email}
               </a>
@@ -237,8 +288,8 @@ export async function Footer({ locale }: FooterProps) {
                 <a
                   href={`tel:${site.contact.factory.phones[0]}`}
                   dir="ltr"
-                  className="transition-colors hover:!text-white"
-                  style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                  className="hover:!text-brand-primary transition-colors"
+                  style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
                 >
                   {site.contact.factory.phones[0]}
                 </a>
@@ -247,8 +298,8 @@ export async function Footer({ locale }: FooterProps) {
             <li>
               <Link
                 href={`/${locale}/privacy`}
-                className="transition-colors hover:!text-white"
-                style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                className="hover:!text-brand-primary transition-colors"
+                style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
               >
                 {t('privacy')}
               </Link>
@@ -256,8 +307,8 @@ export async function Footer({ locale }: FooterProps) {
             <li>
               <Link
                 href={`/${locale}/terms`}
-                className="transition-colors hover:!text-white"
-                style={{ fontSize: 'var(--text-body-sm)', color: 'rgba(255,255,255,0.78)' }}
+                className="hover:!text-brand-primary transition-colors"
+                style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-muted)' }}
               >
                 {t('terms')}
               </Link>
@@ -270,12 +321,12 @@ export async function Footer({ locale }: FooterProps) {
           style={{
             marginTop: 'var(--space-16)',
             paddingTop: 'var(--space-6)',
-            borderTop: '1px solid rgba(255,255,255,0.10)',
+            borderTop: '1px solid var(--color-border)',
             display: 'flex',
             justifyContent: 'space-between',
             gap: 'var(--space-4)',
             fontSize: 'var(--text-body-sm)',
-            color: 'rgba(255,255,255,0.5)',
+            color: 'var(--color-text-subtle)',
             flexWrap: 'wrap',
           }}
         >
@@ -285,7 +336,7 @@ export async function Footer({ locale }: FooterProps) {
           <span>
             <Link
               href={`/${locale}/privacy`}
-              className="hover:!text-white"
+              className="hover:!text-brand-primary"
               style={{ color: 'inherit' }}
             >
               {t('privacy')}
@@ -293,7 +344,7 @@ export async function Footer({ locale }: FooterProps) {
             ·{' '}
             <Link
               href={`/${locale}/cookies`}
-              className="hover:!text-white"
+              className="hover:!text-brand-primary"
               style={{ color: 'inherit' }}
             >
               {t('cookies')}
@@ -301,7 +352,7 @@ export async function Footer({ locale }: FooterProps) {
             ·{' '}
             <Link
               href={`/${locale}/terms`}
-              className="hover:!text-white"
+              className="hover:!text-brand-primary"
               style={{ color: 'inherit' }}
             >
               {t('terms')}
@@ -313,7 +364,7 @@ export async function Footer({ locale }: FooterProps) {
             <a
               href={`/${locale}/cookies`}
               data-cookie-settings
-              className="hover:!text-white"
+              className="hover:!text-brand-primary"
               style={{ color: 'inherit' }}
             >
               {t('cookieSettings')}
