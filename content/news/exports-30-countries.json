@@ -2,7 +2,8 @@
   "slug": "exports-30-countries",
   "publishedAt": "2026-01-28",
   "category": "market",
-  "featured": true,
+  "featured": false,
+  "homepage": true,
   "title": {
     "en": "Montana on five continents: 30 countries and counting",
     "ar": "مونتانا في خمس قارات: ٣٠ دولة والعدد في ازدياد",

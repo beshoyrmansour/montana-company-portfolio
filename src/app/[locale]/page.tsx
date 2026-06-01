@@ -80,6 +80,15 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     getAllNewsArticles(),
   ]);
 
+  // Home "From the newsroom" section: show articles explicitly opted in via
+  // `homepage: true` (newest first). If none are flagged, fall back to the
+  // most recent so the section is never empty.
+  const homepageNews = news.filter((a) => a.homepage);
+  const latestNews = (homepageNews.length > 0 ? homepageNews : news).slice(
+    0,
+    home.latestNews.count,
+  );
+
   return (
     <>
       <JsonLd data={webSiteJsonLd(site, locale)} />
@@ -386,7 +395,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               )}
             </div>
             <div className="news-grid">
-              {news.slice(0, home.latestNews.count).map((article) => (
+              {latestNews.map((article) => (
                 <Link
                   key={article.slug}
                   href={`/${locale}/news/${article.slug}`}

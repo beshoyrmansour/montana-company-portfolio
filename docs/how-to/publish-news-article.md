@@ -44,18 +44,18 @@ Each field in the article JSON drives a specific element on the rendered article
       "slug": "your-slug",
       "publishedAt": "2026-06-15",
       "category": "company",
-      "title":   { "en": "…", "ar": "…", "fr": "…" },
+      "title": { "en": "…", "ar": "…", "fr": "…" },
       "excerpt": { "en": "…", "ar": "…", "fr": "…" },
-      "body":    { "en": "Markdown allowed.",
-                   "ar": "…",
-                   "fr": "…" },
+      "body": { "en": "Markdown allowed.", "ar": "…", "fr": "…" },
       "author": "Communications",
       "coverImage": "/images/news/your-cover.jpg",
       "tags": ["export", "milestone"]
     }
     ```
 
-    - `slug` **must** match the filename (without the date prefix and `.json`).
+    - `slug` **must** match the filename (without `.json`).
+    - `featured: true` pins the article as the **large hero at the top of the `/news` page**. Set it on exactly the one article you want there. If several are flagged, the newest one wins; if none are flagged, no hero is shown and all articles appear in the grid.
+    - `homepage: true` (optional) opts the article into the **"From the newsroom" section on the home page**. Flag as many as you like — the home section shows the newest opted-in articles up to its configured `count` (set in `content/pages/home.json` → `latestNews.count`, currently 6, max 12). If _no_ article is flagged, the section falls back to the most recent articles automatically. This is independent of `featured`.
     - `publishedAt` controls sort order; **future dates do not hide the article** — the page will publish immediately. If you want to schedule, push later.
     - `body` accepts Markdown (headings, lists, links, **bold**, _italic_).
 

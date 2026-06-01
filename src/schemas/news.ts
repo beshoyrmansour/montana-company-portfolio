@@ -1,20 +1,20 @@
 import { z } from 'zod';
 import { i18nString, slug } from './shared';
 
-export const newsCategory = z.enum([
-  'corporate',
-  'product',
-  'market',
-  'sustainability',
-  'press',
-]);
+export const newsCategory = z.enum(['corporate', 'product', 'market', 'sustainability', 'press']);
 
 export const newsArticleSchema = z.object({
   slug: slug,
   publishedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'must be YYYY-MM-DD'),
-  updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+  updatedAt: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/)
+    .optional(),
   category: newsCategory,
   featured: z.boolean(),
+  // Opt this article into the home page "From the newsroom" section.
+  // When no article sets this, the home section falls back to the most recent.
+  homepage: z.boolean().optional(),
   title: i18nString,
   excerpt: i18nString,
   body: z.object({

@@ -151,7 +151,9 @@ export const homePageSchema = z.object({
     eyebrow: i18nString.optional(),
     title: splitTitle,
     viewAllLabel: i18nString.optional(),
-    count: z.number().int().min(1).max(6),
+    // Number of articles shown in the home "From the newsroom" section.
+    // The grid is 3-up, so multiples of 3 fill rows cleanly.
+    count: z.number().int().min(1).max(12),
   }),
   ctaBand: z
     .object({
