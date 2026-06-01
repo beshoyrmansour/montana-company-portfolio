@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useMemo, type FormEvent } from 'react';
+import { useState, useMemo, useEffect, type FormEvent } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import type { NewsArticle } from '@/schemas/news';
 import { pick, type Locale } from '@/lib/i18n';
 
@@ -28,13 +28,16 @@ interface NewsGridProps {
 export function NewsGrid({ articles, locale, labels }: NewsGridProps) {
   const [activeCat, setActiveCat] = useState<string>('all');
 
-  const featured = useMemo(() => articles.find((a) => a.featured), [articles]);
+  // All featured articles (newest-first, since `articles` is pre-sorted).
+  // Any number is fine — they rotate as a slideshow at the top.
+  const featuredList = useMemo(() => articles.filter((a) => a.featured), [articles]);
+  const featuredSet = useMemo(() => new Set(featuredList), [featuredList]);
 
   const filtered = useMemo(() => {
-    const pool = articles.filter((a) => a !== featured || activeCat !== 'all');
+    const pool = articles.filter((a) => !featuredSet.has(a) || activeCat !== 'all');
     if (activeCat === 'all') return pool;
     return pool.filter((a) => a.category === activeCat);
-  }, [articles, featured, activeCat]);
+  }, [articles, featuredSet, activeCat]);
 
   // Estimate read time from EN body word count (fallback shared across locales).
   const readMins = (a: NewsArticle) => {
@@ -52,14 +55,14 @@ export function NewsGrid({ articles, locale, labels }: NewsGridProps) {
 
   return (
     <>
-      {/* Featured article — only when no filter applied */}
-      {activeCat === 'all' && featured && (
-        <FeaturedArticle
-          article={featured}
+      {/* Featured slideshow — only when no category filter is applied */}
+      {activeCat === 'all' && featuredList.length > 0 && (
+        <FeaturedCarousel
+          items={featuredList}
           locale={locale}
           labels={labels}
-          readMins={readMins(featured)}
-          dateLabel={fmtDate(featured.publishedAt)}
+          readMins={readMins}
+          fmtDate={fmtDate}
         />
       )}
 
@@ -131,21 +134,173 @@ export function NewsGrid({ articles, locale, labels }: NewsGridProps) {
   );
 }
 
+/**
+ * Featured slideshow. Renders every `featured: true` article as an
+ * auto-rotating hero (with prev/next + dots), and an "expand" toggle that
+ * stacks all featured articles at once. Degrades to a plain single hero when
+ * only one article is featured.
+ */
+function FeaturedCarousel({
+  items,
+  locale,
+  labels,
+  readMins,
+  fmtDate,
+}: {
+  items: NewsArticle[];
+  locale: Locale;
+  labels: NewsGridProps['labels'];
+  readMins: (a: NewsArticle) => number;
+  fmtDate: (iso: string) => string;
+}) {
+  const [current, setCurrent] = useState(0);
+  const [expanded, setExpanded] = useState(false);
+  const [direction, setDirection] = useState(1);
+  const [paused, setPaused] = useState(false);
+  const count = items.length;
+
+  const AUTOPLAY_MS = 6000;
+
+  // Auto-advance while collapsed, with >1 slide, and not paused (hover/focus).
+  // Re-runs on `current` change so manual navigation restarts the timer.
+  useEffect(() => {
+    if (expanded || paused || count < 2) return;
+    const id = setInterval(() => {
+      setDirection(1);
+      setCurrent((c) => (c + 1) % count);
+    }, AUTOPLAY_MS);
+    return () => clearInterval(id);
+  }, [expanded, paused, count, current]);
+
+  // Navigate to an index, recording direction so the slide animates in from
+  // the correct side.
+  const go = (i: number, dir?: number) => {
+    const next = ((i % count) + count) % count;
+    setDirection(dir ?? (next >= current ? 1 : -1));
+    setCurrent(next);
+  };
+
+  const expandLabel =
+    locale === 'ar'
+      ? `عرض كل الأخبار المميزة (${count})`
+      : locale === 'fr'
+        ? `Voir toutes les actualités à la une (${count})`
+        : `View all featured (${count})`;
+  const collapseLabel = locale === 'ar' ? 'عرض أقل' : locale === 'fr' ? 'Réduire' : 'Show less';
+  const prevLabel = locale === 'ar' ? 'السابق' : locale === 'fr' ? 'Précédent' : 'Previous';
+  const nextLabel = locale === 'ar' ? 'التالي' : locale === 'fr' ? 'Suivant' : 'Next';
+
+  if (expanded) {
+    return (
+      <div className="news-featured-carousel is-expanded">
+        <div className="news-featured-stack">
+          {items.map((a) => (
+            <FeaturedArticle
+              key={a.slug}
+              article={a}
+              locale={locale}
+              labels={labels}
+              readMins={readMins(a)}
+              dateLabel={fmtDate(a.publishedAt)}
+            />
+          ))}
+        </div>
+        <div className="news-featured-controls">
+          <button type="button" className="news-featured-expand" onClick={() => setExpanded(false)}>
+            {collapseLabel}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const active = items[current] ?? items[0];
+  if (!active) return null;
+  return (
+    <div
+      className="news-featured-carousel"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+      onFocusCapture={() => setPaused(true)}
+      onBlurCapture={() => setPaused(false)}
+    >
+      <FeaturedArticle
+        key={active.slug}
+        article={active}
+        locale={locale}
+        labels={labels}
+        readMins={readMins(active)}
+        dateLabel={fmtDate(active.publishedAt)}
+        animClass={`news-featured-anim ${direction >= 0 ? 'is-next' : 'is-prev'}`}
+      />
+      {count > 1 && (
+        <div className="news-featured-controls">
+          <button
+            type="button"
+            className="news-featured-nav"
+            aria-label={prevLabel}
+            onClick={() => go(current - 1, -1)}
+          >
+            <ChevronLeft size={18} className="rtl:rotate-180" />
+          </button>
+          <div className="news-featured-dots" role="tablist" aria-label={labels.featured}>
+            {items.map((a, i) => (
+              <button
+                key={a.slug}
+                type="button"
+                role="tab"
+                aria-selected={i === current}
+                aria-label={pick(a.title, locale) ?? a.slug}
+                className={`news-featured-dot ${i === current ? 'active' : ''}`}
+                onClick={() => go(i)}
+              >
+                {i === current && (
+                  <span
+                    key={current}
+                    className="news-featured-dot-fill"
+                    style={{
+                      animationDuration: `${AUTOPLAY_MS}ms`,
+                      animationPlayState: paused ? 'paused' : 'running',
+                    }}
+                  />
+                )}
+              </button>
+            ))}
+          </div>
+          <button
+            type="button"
+            className="news-featured-nav"
+            aria-label={nextLabel}
+            onClick={() => go(current + 1, 1)}
+          >
+            <ChevronRight size={18} className="rtl:rotate-180" />
+          </button>
+          <button type="button" className="news-featured-expand" onClick={() => setExpanded(true)}>
+            {expandLabel}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function FeaturedArticle({
   article,
   locale,
   labels,
   readMins,
   dateLabel,
+  animClass = '',
 }: {
   article: NewsArticle;
   locale: Locale;
   labels: NewsGridProps['labels'];
   readMins: number;
   dateLabel: string;
+  animClass?: string;
 }) {
   return (
-    <article className="news-featured">
+    <article className={`news-featured${animClass ? ` ${animClass}` : ''}`}>
       <div className="news-featured-media">
         <Image
           src={article.coverImage}

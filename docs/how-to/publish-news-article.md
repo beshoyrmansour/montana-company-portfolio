@@ -54,7 +54,7 @@ Each field in the article JSON drives a specific element on the rendered article
     ```
 
     - `slug` **must** match the filename (without `.json`).
-    - `featured: true` pins the article as the **large hero at the top of the `/news` page**. Set it on exactly the one article you want there. If several are flagged, the newest one wins; if none are flagged, no hero is shown and all articles appear in the grid.
+    - `featured: true` promotes the article into the **featured slideshow at the top of the `/news` page**. Flag as many as you like — they rotate automatically (newest first), with prev/next + dots and a "View all featured" button that stacks them all at once. Flag exactly one for a single static hero; flag none and no hero shows (all articles appear in the grid).
     - `homepage: true` (optional) opts the article into the **"From the newsroom" section on the home page**. Flag as many as you like — the home section shows the newest opted-in articles up to its configured `count` (set in `content/pages/home.json` → `latestNews.count`, currently 6, max 12). If _no_ article is flagged, the section falls back to the most recent articles automatically. This is independent of `featured`.
     - `publishedAt` controls sort order; **future dates do not hide the article** — the page will publish immediately. If you want to schedule, push later.
     - `body` accepts Markdown (headings, lists, links, **bold**, _italic_).

@@ -2749,6 +2749,144 @@ body {
   line-height: var(--leading-relaxed);
 }
 
+/* ─── News: Featured slideshow ─── */
+.news-featured-carousel {
+  display: block;
+}
+.news-featured-stack {
+  display: grid;
+  gap: var(--space-8);
+}
+.news-featured-anim.is-next {
+  animation: featuredSlideNext 0.55s var(--ease-smooth) both;
+}
+.news-featured-anim.is-prev {
+  animation: featuredSlidePrev 0.55s var(--ease-smooth) both;
+}
+/* In RTL the visual "next" direction is reversed. */
+[dir='rtl'] .news-featured-anim.is-next {
+  animation-name: featuredSlidePrev;
+}
+[dir='rtl'] .news-featured-anim.is-prev {
+  animation-name: featuredSlideNext;
+}
+@keyframes featuredSlideNext {
+  from {
+    opacity: 0;
+    transform: translateX(28px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes featuredSlidePrev {
+  from {
+    opacity: 0;
+    transform: translateX(-28px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.news-featured-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+.news-featured-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-elevated);
+  color: var(--color-text);
+  cursor: pointer;
+  transition:
+    background-color var(--duration-base) var(--ease-smooth),
+    border-color var(--duration-base) var(--ease-smooth);
+}
+.news-featured-nav:hover {
+  background: var(--color-surface-muted);
+  border-color: var(--color-brand-primary);
+}
+.news-featured-dots {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.news-featured-dot {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: var(--color-border);
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    width var(--duration-base) var(--ease-smooth),
+    background-color var(--duration-base) var(--ease-smooth);
+}
+.news-featured-dot.active {
+  width: 28px;
+  background: color-mix(in srgb, var(--color-brand-primary) 24%, transparent);
+}
+/* Animated progress fill inside the active dot, synced to autoplay timing. */
+.news-featured-dot-fill {
+  position: absolute;
+  inset: 0;
+  display: block;
+  border-radius: inherit;
+  background: var(--color-brand-primary);
+  transform-origin: left center;
+  animation: featuredDotFill linear forwards;
+}
+[dir='rtl'] .news-featured-dot-fill {
+  transform-origin: right center;
+}
+@keyframes featuredDotFill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.news-featured-expand {
+  margin-inline-start: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: none;
+  font-size: var(--text-body-sm);
+  font-weight: 600;
+  color: var(--color-brand-primary);
+  cursor: pointer;
+  transition: background-color var(--duration-base) var(--ease-smooth);
+}
+.news-featured-expand:hover {
+  background: var(--color-surface-muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .news-featured-anim.is-next,
+  .news-featured-anim.is-prev {
+    animation: none;
+  }
+  .news-featured-dot-fill {
+    animation: none;
+    transform: scaleX(1);
+  }
+}
+
 /* ─── News: Large grid ─── */
 .news-grid-lg {
   display: grid;
