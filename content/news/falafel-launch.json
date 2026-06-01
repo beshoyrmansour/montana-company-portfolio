@@ -1,0 +1,24 @@
+{
+  "slug": "falafel-launch",
+  "publishedAt": "2026-05-28",
+  "category": "product",
+  "featured": true,
+  "title": {
+    "en": "Montana falafel: the Egyptian breakfast, frozen at its best",
+    "ar": "فلافل مونتانا: الفطار المصري مجمد في أفضل حالاته",
+    "fr": "Falafel Montana : le petit-déjeuner égyptien, surgelé à son meilleur"
+  },
+  "excerpt": {
+    "en": "Our new ready-to-fry falafel is shaped from soaked broad beans, fresh herbs and spices — straight from the Egyptian table to your freezer.",
+    "ar": "الفلافل الجديدة الجاهزة للقلي مصنوعة من الفول المنقوع والأعشاب الطازجة والبهارات — من المائدة المصرية إلى الفريزر مباشرة.",
+    "fr": "Nos nouveaux falafels prêts à frire sont façonnés à partir de fèves trempées, d'herbes fraîches et d'épices — de la table égyptienne à votre congélateur."
+  },
+  "body": {
+    "en": "Falafel — known in Egypt as *ta'ameya* — is the country's most beloved breakfast, and now it joins the Montana range as a ready-to-fry frozen product.\n\nWe build it the traditional way: peeled broad beans soaked overnight, then ground with coriander, parsley, garlic, leek and a measured blend of spices. The mixture is shaped into uniform patties and flash-frozen so the texture holds — crisp and golden on the outside, soft and green inside once fried. No pre-cooking, no preservatives: you drop the patties straight from the freezer into hot oil.\n\nThe product ships in retail bags for the home kitchen and in food-service packs for restaurants and hotels that want a consistent, authentic falafel without the overnight prep. For our diaspora customers, it is a taste of an Egyptian morning anywhere in the world.",
+    "ar": "الفلافل — أو الطعمية كما تُعرف في مصر — هي أحب فطار للمصريين، والآن تنضم إلى تشكيلة مونتانا كمنتج مجمد جاهز للقلي. نصنعها بالطريقة التقليدية: فول مقشور منقوع، يُطحن مع الكزبرة والبقدونس والثوم والكرات وخلطة بهارات. بدون طهي مسبق وبدون مواد حافظة — من الفريزر إلى الزيت الساخن مباشرة.",
+    "fr": "Le falafel — appelé *ta'ameya* en Égypte — est le petit-déjeuner le plus apprécié du pays, et il rejoint désormais la gamme Montana sous forme de produit surgelé prêt à frire. Nous le préparons à la manière traditionnelle : fèves pelées trempées une nuit, puis broyées avec coriandre, persil, ail et épices. Sans précuisson ni conservateurs."
+  },
+  "author": "Montana",
+  "coverImage": "/images/products/real/falafel-1.jpg",
+  "tags": ["falafel", "new-product", "product-launch", "egyptian"]
+}

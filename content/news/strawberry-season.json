@@ -1,0 +1,24 @@
+{
+  "slug": "strawberry-season",
+  "publishedAt": "2026-02-08",
+  "category": "product",
+  "featured": false,
+  "title": {
+    "en": "Strawberry season: from Egyptian fields to IQF in hours",
+    "ar": "موسم الفراولة: من الحقول المصرية إلى التجميد السريع في ساعات",
+    "fr": "Saison des fraises : des champs égyptiens à l'IQF en quelques heures"
+  },
+  "excerpt": {
+    "en": "Egypt's strawberry harvest is in full swing — hand-picked ripe, hulled and individually quick-frozen so every berry pours loose from the bag.",
+    "ar": "حصاد الفراولة المصري في أوجه — تُقطف ناضجة باليد وتُزال أعناقها وتُجمد فردياً لتنساب حبة حبة من الكيس.",
+    "fr": "La récolte de fraises égyptiennes bat son plein — cueillies mûres à la main, équeutées et surgelées individuellement pour s'écouler librement du sachet."
+  },
+  "body": {
+    "en": "Egypt grows some of the most fragrant strawberries in the world, and the winter harvest is the moment Montana's IQF lines run hardest for fruit.\n\nBerries are hand-picked at full ripeness from local farms, washed, hulled and individually quick-frozen. IQF is what keeps them loose and whole — each berry frozen on its own rather than fused into a block, so the bag pours freely and you take only what you need. The fruit goes in whole or sliced, with nothing added: no sugar, no syrup, no preservatives.\n\nFrozen strawberry is one of our most flexible exports — it moves into juice plants, jam and dairy manufacturers, pastry kitchens and retail freezer aisles. And because we freeze at the peak of a short season, that mid-winter colour and sweetness travel to markets where Egyptian strawberries would otherwise never arrive fresh.",
+    "ar": "تزرع مصر بعضاً من أعطر أنواع الفراولة في العالم، وموسم الشتاء هو الوقت الذي تعمل فيه خطوط التجميد السريع في مونتانا بأقصى طاقتها للفاكهة. تُقطف الحبات ناضجة باليد وتُغسل وتُزال أعناقها وتُجمد فردياً. بدون أي إضافات: لا سكر ولا مواد حافظة.",
+    "fr": "L'Égypte produit parmi les fraises les plus parfumées au monde, et la récolte hivernale est le moment où les lignes IQF de Montana tournent à plein pour les fruits. Cueillies mûres à la main, lavées, équeutées et surgelées individuellement. Sans aucun ajout : ni sucre, ni sirop, ni conservateurs."
+  },
+  "author": "Montana",
+  "coverImage": "/images/products/stock/strawberry-1.jpg",
+  "tags": ["strawberry", "fruit", "iqf", "season", "export"]
+}

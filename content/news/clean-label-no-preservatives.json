@@ -1,0 +1,24 @@
+{
+  "slug": "clean-label-no-preservatives",
+  "publishedAt": "2025-10-22",
+  "category": "corporate",
+  "featured": false,
+  "title": {
+    "en": "Nothing added: why freezing is the only preservative we use",
+    "ar": "بلا أي إضافات: لماذا التجميد هو المادة الحافظة الوحيدة لدينا",
+    "fr": "Rien d'ajouté : pourquoi le froid est notre seul conservateur"
+  },
+  "excerpt": {
+    "en": "No preservatives, no added sugar, no chemicals. Cold is the only thing keeping a Montana product fresh — and that's the whole idea.",
+    "ar": "بلا مواد حافظة، بلا سكر مضاف، بلا كيماويات. البرودة وحدها تحفظ منتج مونتانا — وهذه هي الفكرة كلها.",
+    "fr": "Pas de conservateurs, pas de sucre ajouté, pas de produits chimiques. Le froid est la seule chose qui garde un produit Montana frais — et c'est tout le principe."
+  },
+  "body": {
+    "en": "Read the back of a Montana bag and the ingredient list is short — usually one line: the vegetable or fruit itself. No preservatives, no added sugar, no colourings, no chemical additives. The only thing keeping the product fresh is the cold.\n\nThat's not a marketing choice so much as a consequence of how freezing works. When produce is frozen at -18 °C within hours of harvest, the cold itself arrests the spoilage, oxidation and microbial growth that other foods need additives to hold off. There is simply nothing for a preservative to do. What's locked in instead is the vegetable's own colour, texture and full nutritional value.\n\nThis is what \"clean label\" means in practice, and it's a standard we back with hard process: HACCP and ISO certification, microbiological testing, and quality checks before, during and after production. Honest food is mostly a matter of leaving things out — and then proving, batch after batch, that you did.",
+    "ar": "اقرأ ظهر أي كيس من مونتانا وستجد قائمة مكونات قصيرة — غالباً سطر واحد: الخضار أو الفاكهة نفسها. بلا مواد حافظة أو سكر مضاف أو ألوان أو إضافات كيماوية. البرودة وحدها تحفظ المنتج. فعند التجميد عند -١٨ درجة خلال ساعات من الحصاد، يوقف البرد التلف والأكسدة، فلا يبقى عمل لأي مادة حافظة. وندعم هذا بشهادات HACCP وISO والفحص الميكروبيولوجي.",
+    "fr": "Lisez le dos d'un sachet Montana : la liste des ingrédients est courte — souvent une ligne, le légume ou le fruit lui-même. Pas de conservateurs, de sucre ajouté, de colorants ni d'additifs. Seul le froid conserve le produit. Surgelé à -18 °C quelques heures après la récolte, le froid arrête l'altération et l'oxydation : un conservateur n'aurait rien à faire. Nous l'attestons par les certifications HACCP et ISO."
+  },
+  "author": "Montana",
+  "coverImage": "/images/facility/qa-microscope.jpg",
+  "tags": ["clean-label", "quality", "no-preservatives", "corporate"]
+}

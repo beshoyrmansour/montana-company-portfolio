@@ -1,0 +1,24 @@
+{
+  "slug": "frozen-coriander",
+  "publishedAt": "2026-04-22",
+  "category": "product",
+  "featured": false,
+  "title": {
+    "en": "Chopped coriander, frozen green — the herb that never wilts on you",
+    "ar": "كزبرة مفرومة ومجمدة خضراء — العشب الذي لا يذبل أبداً",
+    "fr": "Coriandre hachée, surgelée verte — l'herbe qui ne flétrit jamais"
+  },
+  "excerpt": {
+    "en": "Fresh coriander chopped and frozen within hours, holding its colour and aroma for the *ta'leya* that finishes an Egyptian dish.",
+    "ar": "كزبرة طازجة تُفرم وتُجمد خلال ساعات، تحتفظ بلونها ورائحتها لتعمل التقلية التي تكمل الطبق المصري.",
+    "fr": "Coriandre fraîche hachée et surgelée en quelques heures, conservant sa couleur et son arôme pour la *ta'leya* qui parfait un plat égyptien."
+  },
+  "body": {
+    "en": "No Egyptian kitchen finishes molokhia, koshari or a tagine without a *ta'leya* — garlic and coriander fried until fragrant. The problem with fresh coriander is that it wilts and yellows almost as soon as you buy it.\n\nMontana's frozen chopped coriander fixes that. The herb is harvested, washed and chopped, then frozen within hours so it keeps the bright green colour and the sharp, citrusy aroma intact. You spoon out exactly what you need and the rest stays fresh in the freezer indefinitely — no slimy bunch forgotten at the back of the fridge.\n\nIt's a small product with an outsized role: the difference between a flat dish and one that smells like home. For our diaspora customers in particular, it brings the *ta'leya* to kitchens where fresh Egyptian coriander is hard to find.",
+    "ar": "لا يكتمل طبق ملوخية أو كشري أو طاجن في أي مطبخ مصري دون تقلية — ثوم وكزبرة. ومشكلة الكزبرة الطازجة أنها تذبل وتصفر بسرعة. كزبرة مونتانا المفرومة المجمدة تحل ذلك: تُفرم وتُجمد خلال ساعات لتحتفظ بلونها الأخضر ورائحتها. تأخذ ما تحتاجه ويبقى الباقي طازجاً.",
+    "fr": "Aucune cuisine égyptienne ne termine une molokheya, un koshari ou un tajine sans *ta'leya* — ail et coriandre frits. Le problème de la coriandre fraîche, c'est qu'elle flétrit presque aussitôt achetée. La coriandre hachée surgelée Montana règle cela : hachée et surgelée en quelques heures, elle garde sa couleur verte et son arôme."
+  },
+  "author": "Montana",
+  "coverImage": "/images/products/real/coriander-1.jpg",
+  "tags": ["coriander", "herbs", "new-product", "egyptian"]
+}

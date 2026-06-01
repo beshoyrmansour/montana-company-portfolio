@@ -1,0 +1,24 @@
+{
+  "slug": "field-to-freeze",
+  "publishedAt": "2026-01-10",
+  "category": "sustainability",
+  "featured": false,
+  "title": {
+    "en": "Field to freeze in hours: why our factory shares a postcode with our fields",
+    "ar": "من الحقل إلى الفريزر في ساعات: لماذا يجاور مصنعنا حقولنا",
+    "fr": "Du champ au surgélateur en quelques heures : pourquoi notre usine jouxte nos champs"
+  },
+  "excerpt": {
+    "en": "Most of a vegetable's nutrition is lost in the days between picking and cooking. Our answer is geography: harvest to IQF in a matter of hours.",
+    "ar": "يُفقد معظم القيمة الغذائية للخضار في الأيام بين القطف والطهي. وحلنا هو الجغرافيا: من الحصاد إلى التجميد السريع في ساعات.",
+    "fr": "L'essentiel de la valeur nutritive d'un légume se perd dans les jours entre la cueillette et la cuisson. Notre réponse, c'est la géographie : de la récolte à l'IQF en quelques heures."
+  },
+  "body": {
+    "en": "A common myth is that fresh always beats frozen. In reality, a \"fresh\" vegetable can spend a week in trucks, warehouses and shelves before it's cooked — losing vitamins and texture the whole way. A vegetable frozen within hours of harvest can be more nutritious than the fresh one in your trolley.\n\nMontana's whole model is built to win that race against time. Our fields and our factory share a postcode in Qalyub, so harvested produce reaches the line in hours, not days. It is washed, sorted, cut and dropped to -18 °C through our IQF tunnels before it has any chance to degrade. That speed is what locks in colour, flavour and nutritional value — and it's why we describe field-to-freeze not as a slogan but as the core of how the business is laid out.\n\nThere's a sustainability dividend too. Freezing at source means almost nothing is lost to spoilage between farm and customer, and households use only what they need, leaving the rest in the freezer — cutting the food waste that fresh produce generates at home.",
+    "ar": "من الخرافات الشائعة أن الطازج دائماً أفضل من المجمد. في الواقع قد تقضي الخضار \"الطازجة\" أسبوعاً في الشحن والمخازن والرفوف قبل طهيها، فتفقد الفيتامينات والقوام. أما المجمدة خلال ساعات من الحصاد فقد تكون أكثر قيمة غذائية. نموذج مونتانا مبني على كسب هذا السباق: حقولنا ومصنعنا في القليوب متجاوران، فتصل المحاصيل للخط في ساعات وتُجمد قبل أن تتلف.",
+    "fr": "Un mythe courant veut que le frais l'emporte toujours sur le surgelé. En réalité, un légume « frais » peut passer une semaine en camions, entrepôts et rayons avant d'être cuisiné. Un légume surgelé quelques heures après la récolte peut être plus nutritif. Tout le modèle de Montana vise à gagner cette course : nos champs et notre usine partagent le même code postal à Qalyub."
+  },
+  "author": "Montana",
+  "coverImage": "/images/facility/greenhouse.jpg",
+  "tags": ["quality", "iqf", "sustainability", "nutrition"]
+}

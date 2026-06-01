@@ -1,0 +1,24 @@
+{
+  "slug": "frozen-mango",
+  "publishedAt": "2026-05-12",
+  "category": "product",
+  "featured": false,
+  "title": {
+    "en": "Egyptian mango, picked ripe and frozen in chunks",
+    "ar": "المانجو المصري، يُقطف ناضجاً ويُجمد مكعبات",
+    "fr": "Mangue égyptienne, cueillie mûre et surgelée en morceaux"
+  },
+  "excerpt": {
+    "en": "Sun-ripened Egyptian mango, peeled and diced at peak sweetness — ready for smoothies, desserts and juice all year round.",
+    "ar": "مانجو مصري ناضج تحت الشمس، يُقشر ويُقطع في ذروة حلاوته — جاهز للعصائر والحلويات على مدار العام.",
+    "fr": "Mangue égyptienne mûrie au soleil, pelée et coupée à son apogée de douceur — prête pour smoothies, desserts et jus toute l'année."
+  },
+  "body": {
+    "en": "Egyptian mango has a short, glorious season — and frozen is how you keep it past summer. Montana's frozen mango is harvested at full ripeness, washed, peeled and cut into chunks, then IQF-frozen so the pieces stay separate and pour freely from the bag.\n\nBecause we freeze at the moment of peak ripeness, the sugar, aroma and deep colour are locked in. There is nothing added — no syrup, no sugar, no preservatives. For juice bars, pastry kitchens and home blenders, it means consistent mango flavour in January as good as the one you'd buy off a Cairo fruit cart in July.\n\nIt's the second fruit in our range alongside strawberry, and part of a deliberate expansion beyond vegetables into the frozen-fruit category our export partners have been asking for.",
+    "ar": "للمانجو المصري موسم قصير ورائع — والتجميد هو ما يحفظه بعد الصيف. تُقطف مانجو مونتانا في ذروة نضجها، وتُغسل وتُقشر وتُقطع مكعبات، ثم تُجمد بطريقة IQF لتبقى القطع منفصلة. بدون إضافات: لا سكر ولا مواد حافظة.",
+    "fr": "La mangue égyptienne a une saison courte et magnifique — la surgélation permet de la conserver au-delà de l'été. La mangue Montana est récoltée à pleine maturité, lavée, pelée et coupée en morceaux, puis surgelée IQF. Sans aucun ajout : ni sirop, ni sucre, ni conservateurs."
+  },
+  "author": "Montana",
+  "coverImage": "/images/products/real/mango-1.jpg",
+  "tags": ["mango", "fruit", "new-product", "iqf"]
+}

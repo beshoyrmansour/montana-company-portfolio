@@ -106,7 +106,7 @@ export default async function ArticlePage({
       />
 
       {/* ─── HERO with cover image + scrim ─── */}
-      <section className="relative overflow-hidden">
+      <section className="relative isolate overflow-hidden">
         {article.coverImage && (
           <div className="absolute inset-0 -z-10">
             <Image

@@ -1,0 +1,24 @@
+{
+  "slug": "vine-leaves",
+  "publishedAt": "2025-12-15",
+  "category": "product",
+  "featured": false,
+  "title": {
+    "en": "Vine leaves: tender, pre-blanched and ready to roll",
+    "ar": "ورق العنب: طري ومسلوق مسبقاً وجاهز للف",
+    "fr": "Feuilles de vigne : tendres, pré-blanchies et prêtes à rouler"
+  },
+  "excerpt": {
+    "en": "Young grape leaves picked at the right tenderness and blanched, so the only work left is the part you enjoy — the rolling.",
+    "ar": "ورق عنب صغير يُقطف في طراوته المناسبة ويُسلق، فلا يتبقى سوى الجزء الممتع — اللف.",
+    "fr": "Jeunes feuilles de vigne cueillies à la bonne tendreté et blanchies — il ne reste que la partie agréable : rouler."
+  },
+  "body": {
+    "en": "Stuffed vine leaves — *mahshi warak enab* — are a centrepiece of Egyptian and Levantine tables, and the hardest part has always been the leaf itself: sourcing it young enough, then cleaning and blanching dozens of them before you can even start cooking.\n\nMontana takes that work off your hands. We pick the leaves young, when they're tender and pliable, then wash and blanch them so they arrive soft, intact and ready to fill. They keep their natural slight tartness and roll without tearing. Open the pack, separate the leaves, and go straight to stuffing.\n\nFor the diaspora especially, this is a product that makes a labour-intensive tradition possible on a weeknight — and brings a dish that says \"celebration\" within reach all year, not just when fresh leaves are briefly in season.",
+    "ar": "محشي ورق العنب من أطباق المائدة المصرية والشامية الأساسية، وأصعب جزء فيه هو الورق نفسه: إيجاده صغيراً ثم تنظيفه وسلقه. تتولى مونتانا هذا العمل: نقطف الورق صغيراً طرياً ثم نغسله ونسلقه ليصل جاهزاً للحشو، محتفظاً بحموضته الطبيعية الخفيفة ويُلف دون أن يتمزق.",
+    "fr": "Les feuilles de vigne farcies — *mahshi warak enab* — sont une pièce maîtresse des tables égyptiennes et levantines, et le plus difficile a toujours été la feuille : la trouver assez jeune, puis la nettoyer et la blanchir. Montana s'en charge : cueillies jeunes et tendres, lavées et blanchies, prêtes à farcir."
+  },
+  "author": "Montana",
+  "coverImage": "/images/products/stock/vine-leaves-1.jpg",
+  "tags": ["vine-leaves", "mahshi", "egyptian", "product-story"]
+}

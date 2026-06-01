@@ -1,0 +1,24 @@
+{
+  "slug": "sweet-corn",
+  "publishedAt": "2025-12-02",
+  "category": "product",
+  "featured": false,
+  "title": {
+    "en": "Sweet corn: golden kernels, frozen at their sweetest",
+    "ar": "الذرة الحلوة: حبات ذهبية تُجمد في أحلى أوقاتها",
+    "fr": "Maïs doux : grains dorés, surgelés à leur apogée de douceur"
+  },
+  "excerpt": {
+    "en": "Corn starts turning its sugar to starch the moment it's picked. We freeze it fast, so what you taste is the field, not the warehouse.",
+    "ar": "تبدأ الذرة في تحويل سكرها إلى نشا لحظة قطفها. نحن نجمدها بسرعة لتتذوق طعم الحقل لا المخزن.",
+    "fr": "Le maïs commence à transformer son sucre en amidon dès la cueillette. Nous le surgelons vite, pour que vous goûtiez le champ, pas l'entrepôt."
+  },
+  "body": {
+    "en": "Sweet corn is a race against its own chemistry. From the moment a cob is picked, its sugars begin converting to starch — which is why corn that sat for days tastes flat and floury. Freezing within hours stops that clock.\n\nMontana's sweet corn kernels are cut from cobs at peak ripeness and individually quick-frozen, capturing the sugar, the snap and the bright golden colour at their best. Because they're IQF, the kernels stay separate and free-flowing — you measure out a handful for a salad or a full bag for a stew and reseal the rest.\n\nIt's one of our most versatile everyday lines, equally at home in retail freezer aisles and in food-service kitchens building soups, salads, rice dishes and the mixed-vegetable blends it anchors.",
+    "ar": "الذرة الحلوة سباق ضد كيميائها: من لحظة القطف يبدأ سكرها في التحول إلى نشا، ولذلك تكون الذرة القديمة باهتة الطعم. التجميد خلال ساعات يوقف هذه الساعة. تُقطع حبات ذرة مونتانا في ذروة نضجها وتُجمد فردياً، فتحافظ على حلاوتها ولونها الذهبي، وتبقى منفصلة تأخذ منها ما تشاء.",
+    "fr": "Le maïs doux est une course contre sa propre chimie : dès la cueillette, ses sucres se transforment en amidon, d'où le goût fade du maïs trop vieux. La surgélation en quelques heures arrête cette horloge. Les grains Montana sont coupés à pleine maturité et surgelés individuellement, gardant leur douceur et leur couleur dorée."
+  },
+  "author": "Montana",
+  "coverImage": "/images/products/stock/sweet-corn-1.jpg",
+  "tags": ["sweet-corn", "iqf", "product-story", "retail"]
+}

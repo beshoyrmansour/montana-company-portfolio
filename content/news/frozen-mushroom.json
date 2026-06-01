@@ -1,0 +1,24 @@
+{
+  "slug": "frozen-mushroom",
+  "publishedAt": "2026-05-02",
+  "category": "product",
+  "featured": false,
+  "title": {
+    "en": "Frozen mushrooms: kitchen-ready, no trimming, no waste",
+    "ar": "المشروم المجمد: جاهز للطهي، بدون تقطيع وبدون هدر",
+    "fr": "Champignons surgelés : prêts à cuisiner, sans parage, sans gaspillage"
+  },
+  "excerpt": {
+    "en": "Cleaned and sliced white mushrooms, frozen at harvest — every piece usable, with none of the browning and waste of fresh.",
+    "ar": "مشروم أبيض منظف ومقطع، يُجمد عند الحصاد — كل قطعة صالحة للاستخدام، دون اسمرار أو هدر.",
+    "fr": "Champignons de Paris nettoyés et tranchés, surgelés à la récolte — chaque morceau utilisable, sans le brunissement et le gaspillage du frais."
+  },
+  "body": {
+    "en": "Fresh mushrooms are one of the most perishable items in any kitchen — they brown, sweat and spoil within days. Montana's frozen mushrooms solve that: cultivated white mushrooms, cleaned and sliced, then quick-frozen so they keep their shape and pale colour.\n\nThere is no preparation on your side — no wiping, no trimming, no slicing — and crucially, no waste. You use exactly the quantity a recipe needs and return the rest to the freezer. For pizzerias, pasta houses and institutional kitchens, that predictability is the whole point: every bag delivers the same yield, every time.\n\nThey go straight from frozen into a hot pan or a sauce, releasing their water quickly and taking on flavour fast.",
+    "ar": "المشروم الطازج من أسرع المكونات تلفاً في أي مطبخ. يحل مشروم مونتانا المجمد هذه المشكلة: مشروم أبيض منظف ومقطع ثم مجمد بسرعة ليحافظ على شكله ولونه. بدون أي تحضير من جانبك وبدون هدر — تستخدم الكمية التي تحتاجها فقط.",
+    "fr": "Les champignons frais comptent parmi les produits les plus périssables d'une cuisine. Les champignons surgelés Montana résolvent ce problème : champignons de Paris nettoyés et tranchés, puis surgelés rapidement. Aucune préparation de votre côté et aucun gaspillage — vous utilisez exactement la quantité nécessaire."
+  },
+  "author": "Montana",
+  "coverImage": "/images/products/real/mushroom-1.jpg",
+  "tags": ["mushroom", "new-product", "food-service", "convenience"]
+}

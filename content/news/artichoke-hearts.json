@@ -1,0 +1,24 @@
+{
+  "slug": "artichoke-hearts",
+  "publishedAt": "2025-11-05",
+  "category": "product",
+  "featured": false,
+  "title": {
+    "en": "Artichoke hearts: the luxury vegetable, all the work done",
+    "ar": "قلوب الخرشوف: الخضار الفاخر وكل العمل الشاق منجز",
+    "fr": "Cœurs d'artichaut : le légume de luxe, tout le travail déjà fait"
+  },
+  "excerpt": {
+    "en": "Trimming a fresh artichoke down to its heart is slow, prickly work. We deliver the heart alone — cleaned, frozen and ready to cook.",
+    "ar": "تقشير الخرشوف الطازج حتى قلبه عمل بطيء وشائك. نقدم لك القلب وحده — منظفاً ومجمداً وجاهزاً للطهي.",
+    "fr": "Parer un artichaut frais jusqu'à son cœur est un travail lent et piquant. Nous livrons le cœur seul — nettoyé, surgelé et prêt à cuire."
+  },
+  "body": {
+    "en": "Few vegetables reward you like an artichoke heart, and few demand as much labour to get there. Stripping the leaves, scooping the choke and trimming down to the tender heart is slow, fiddly work — and most of the vegetable ends up in the bin.\n\nMontana does that work at scale and freezes only the prize. Our artichoke hearts are cleaned, trimmed and IQF-frozen, arriving as ready-to-cook pieces with no waste and no preparation. They go straight into a tagine, a braise, a pasta or a grill, holding their shape and their delicate, nutty flavour.\n\nIt's a product that turns a special-occasion ingredient into an everyday option — a chef-grade result without the chef-grade prep — and a strong performer in both retail and food-service channels.",
+    "ar": "قليل من الخضار يكافئك مثل قلب الخرشوف، وقليل منها يتطلب هذا الجهد للوصول إليه: نزع الأوراق وتنظيف الزغب والتقليم حتى القلب الطري، وينتهي معظم الخضار في سلة المهملات. تقوم مونتانا بهذا العمل وتُجمد الجائزة فقط: قلوب خرشوف منظفة ومقلمة ومجمدة، جاهزة للطهي بلا هدر.",
+    "fr": "Peu de légumes récompensent autant qu'un cœur d'artichaut, et peu exigent autant de travail pour y parvenir : retirer les feuilles, ôter le foin, parer jusqu'au cœur tendre — et l'essentiel du légume finit à la poubelle. Montana fait ce travail et ne surgèle que le trésor : des cœurs nettoyés, parés et surgelés IQF, prêts à cuire, sans gaspillage."
+  },
+  "author": "Montana",
+  "coverImage": "/images/products/real/artichoke-1.jpg",
+  "tags": ["artichoke", "premium", "product-story", "food-service"]
+}
