@@ -12,10 +12,12 @@ interface CookieBannerProps {
  *
  * This keeps Tier-1 pages free of React-component JS — see spec 20 § Page rendering tiers.
  *
- * GDPR/PDPL note: analytics is *consent-gated*. The Plausible config below is
- * handed to the banner script, which only injects the analytics tag after the
- * visitor clicks "Accept". Declining (or never choosing) loads no analytics at
- * all — see /cookie-banner.js.
+ * GDPR/PDPL note: the always-on traffic analytics is Vercel Web Analytics
+ * (cookieless, no stored IP — rendered via <Analytics/> in the root layout) and
+ * is not governed by this banner. The OPTIONAL Plausible config below is handed
+ * to the banner script, which injects the Plausible tag only after the visitor
+ * clicks "Accept"; declining (or never choosing) loads no Plausible at all —
+ * see /cookie-banner.js.
  */
 export async function CookieBanner({ locale }: CookieBannerProps) {
   if (!COOKIE_BANNER_ENABLED) return null;

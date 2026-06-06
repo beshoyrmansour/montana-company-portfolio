@@ -2,9 +2,12 @@
  * Loaded as a deferred <script> from the locale layout.
  * No framework, no React — keeps Tier-1 pages within their JS budget.
  *
- * Compliance model (prior, explicit, freely-given consent):
- *   - NO non-essential script (analytics) runs until the visitor clicks "Accept".
- *   - "Decline" is honoured: nothing is loaded, and the choice is remembered.
+ * Analytics model:
+ *   - Cookieless Vercel Web Analytics runs on all pages (no cookies, no stored
+ *     IP, no personal data) via the <Analytics/> tag in the root layout — it
+ *     needs no consent and is NOT governed by this banner.
+ *   - The OPTIONAL Plausible tag below is consent-gated: it is injected only
+ *     after the visitor clicks "Accept". "Decline" (or no choice) loads nothing.
  *   - Accept and Decline are presented with equal prominence (no dark pattern).
  *   - Consent is withdrawable at any time: window.MontanaCookies.open()
  *     (wired to the "Cookie settings" link in the footer) re-opens the banner.
@@ -32,7 +35,7 @@
       title: el.dataset.title || 'Cookies & privacy',
       body:
         el.dataset.body ||
-        'We use privacy-friendly, cookieless analytics. It only runs with your consent.',
+        'We use privacy-friendly, cookieless analytics to understand site traffic — it stores no cookies and no personal data.',
       accept: el.dataset.accept || 'Accept',
       reject: el.dataset.reject || 'Decline',
       learnMore: el.dataset.learnMore || 'Privacy policy',

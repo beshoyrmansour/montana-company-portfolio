@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-lastUpdated: 2026-05-25
+lastUpdated: 2026-06-06
 ---
 
 # Privacy Policy
@@ -13,13 +13,15 @@ United Co. for Food Industries (Montana), Egypt.
 
 ## What data we collect
 
-Only what you submit via our contact form: name, email, optional company, subject, message.
+**From the contact form:** what you submit — name, email, optional company, subject, message.
 
-We do not use tracking cookies. We do not collect your IP address for analytics.
+**For traffic measurement:** we use Vercel Web Analytics on every page. It is cookieless, sets no persistent identifiers, and does **not** store your IP address or any other personal data — it produces only aggregate statistics (page views, referrers, country, device type). We do not use advertising or cross-site tracking cookies. See our [Cookie Policy](/en/cookies) for details.
 
 ## Sub-processors
 
-This site uses Resend (USA, EU region) to deliver contact-form email and Cloudflare (USA, global edge) to serve pages.
+- **Vercel** (USA) — hosts the site and provides cookieless traffic analytics.
+- **Resend** (USA, EU region) — delivers contact-form email.
+- **Cloudflare** (USA, global edge) — DNS and bot protection (Turnstile) on the contact form.
 
 ## Your rights under Egypt's PDPL (Law 151/2020)
 
@@ -27,4 +29,4 @@ Access, correction, deletion, objection, consent withdrawal. Email privacy@monta
 
 ## Updates
 
-Last updated 25 May 2026.
+Last updated 6 June 2026.

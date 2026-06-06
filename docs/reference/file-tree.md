@@ -72,7 +72,7 @@ web/
 ├── src/                            Application code (engineering territory)
 │   ├── proxy.ts                    Redirects `/` to the visitor's locale (Accept-Language → /en, /ar, /fr)
 │   ├── app/                        Next.js App Router (pages + layouts + API)
-│   │   ├── layout.tsx              Root layout
+│   │   ├── layout.tsx              Root layout (also mounts Vercel Web Analytics)
 │   │   ├── page.tsx                Root `/` fallback (real visitors are redirected by the proxy)
 │   │   ├── [locale]/               Trilingual routes
 │   │   │   ├── page.tsx            Home

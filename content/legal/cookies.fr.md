@@ -1,6 +1,6 @@
 ---
 title: Politique des cookies
-lastUpdated: 2026-05-30
+lastUpdated: 2026-06-06
 ---
 
 # Politique des cookies
@@ -13,21 +13,23 @@ Montana n'utilise aucun cookie publicitaire, de profilage ou de suivi inter-site
 
 ## Cookies que nous utilisons
 
-| Nom | Type | Finalité | Durée |
-| --- | --- | --- | --- |
+| Nom              | Type                   | Finalité                                                                                                                                                                                                        | Durée     |
+| ---------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
 | `cookie-consent` | Strictement nécessaire | Mémorise votre choix (accepter ou refuser) afin de ne plus vous le redemander. Il n'est déposé qu'après votre interaction avec la bannière et enregistre votre décision, la date et la version de la politique. | 180 jours |
 
 C'est le seul cookie que nous déposons. Il est exempté de consentement car il est strictement nécessaire pour respecter votre propre choix de confidentialité.
 
-## Mesure d'audience — uniquement avec votre accord
+## Mesure d'audience
 
-Si vous cliquez sur **Accepter**, nous chargeons [Plausible Analytics](https://plausible.io/data-policy) — un outil de mesure d'audience respectueux de la vie privée, hébergé dans l'UE et sans cookies. Plausible :
+Pour comprendre comment le site est utilisé, nous exécutons **Vercel Web Analytics** sur chaque page. C'est un outil respectueux de la vie privée et sans cookies :
 
-- ne dépose **aucun cookie** et n'utilise aucun identifiant persistant ;
-- ne collecte ni ne stocke **aucune** donnée personnelle ni adresse IP complète ;
-- ne produit que des statistiques agrégées (pages vues, sites référents, pays, type d'appareil).
+- il ne dépose **aucun cookie** et n'utilise aucun identifiant persistant ;
+- il ne stocke ni votre adresse IP ni aucune autre donnée personnelle ;
+- il ne produit que des statistiques agrégées (pages vues, sites référents, pays, type d'appareil).
 
-Si vous cliquez sur **Refuser**, aucune mesure d'audience n'est chargée. Tant que vous n'avez pas fait de choix, rien de non essentiel ne s'exécute.
+Comme il ne stocke rien sur votre appareil ni aucune donnée personnelle, il fonctionne sans demande de consentement. Nous n'utilisons jamais de publicité, de profilage ou de suivi inter-sites, et nous ne vendons ni ne partageons jamais vos données.
+
+Si nous activons un outil de mesure d'audience supplémentaire soumis au consentement (tel que [Plausible](https://plausible.io/data-policy)), il ne se charge **qu'après un clic sur Accepter** — un refus ne charge rien de plus.
 
 ## Gérer ou retirer votre choix
 

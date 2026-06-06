@@ -106,7 +106,7 @@
   },
   "cookie": {
     "title": "Cookies & privacy",
-    "body": "We use privacy-friendly, cookieless analytics to understand site traffic. It only runs if you accept — essential cookies that remember your choice are always on.",
+    "body": "We use privacy-friendly, cookieless analytics to understand site traffic — it stores no cookies and no personal data. Essential cookies that remember your choice are always on.",
     "accept": "Accept",
     "reject": "Decline",
     "learnMore": "Privacy policy",
