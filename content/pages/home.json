@@ -127,9 +127,9 @@
   "chairmanQuote": {
     "enabled": true,
     "eyebrow": {
-      "en": "From the chairman",
-      "ar": "من رئيس مجلس الإدارة",
-      "fr": "Du président"
+      "en": "From our founder",
+      "ar": "من مؤسسنا",
+      "fr": "De notre fondateur"
     },
     "quote": {
       "before": {
@@ -150,21 +150,21 @@
     },
     "attribution": {
       "name": {
-        "en": "Maamoun Family",
-        "ar": "عائلة مأمون",
-        "fr": "Famille Maamoun"
+        "en": "Al-Omda Mamdouh Maamoun",
+        "ar": "العمدة ممدوح مأمون",
+        "fr": "Al-Omda Mamdouh Maamoun"
       },
       "role": {
-        "en": "Chairman's office · United Co. for Food Industries",
-        "ar": "مكتب رئيس مجلس الإدارة · الشركة المتحدة للصناعات الغذائية",
-        "fr": "Bureau du président · United Co. for Food Industries"
+        "en": "Founder · United Co. for Food Industries",
+        "ar": "المؤسس · الشركة المتحدة للصناعات الغذائية",
+        "fr": "Fondateur · United Co. for Food Industries"
       }
     },
-    "image": "/images/about/chairman.jpg",
+    "image": "/images/about/founder.jpg",
     "cornerMark": {
-      "en": "— Cairo",
-      "ar": "— القاهرة",
-      "fr": "— Le Caire"
+      "en": "In loving memory",
+      "ar": "في ذكراه",
+      "fr": "En sa mémoire"
     }
   },
   "process": {

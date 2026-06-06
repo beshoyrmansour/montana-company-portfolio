@@ -24,9 +24,9 @@
       }
     },
     "subtitle": {
-      "en": "Montana is a family-owned Egyptian frozen-food exporter, founded by Bishoy Mansour in 1985 and run today by the second generation from the same Qalyub site that started it all.",
-      "ar": "مونتانا شركة عائلية مصرية لتصدير الأغذية المجمدة، أسسها بشوي منصور عام 1985 ويديرها اليوم الجيل الثاني من نفس موقع القليوب الذي بدأ منه كل شيء.",
-      "fr": "Montana est un exportateur égyptien familial de produits surgelés, fondé par Bishoy Mansour en 1985 et dirigé aujourd'hui par la deuxième génération depuis le même site de Qalyub où tout a commencé."
+      "en": "Montana is a family-owned Egyptian frozen-food exporter, founded by Al-Omda Mamdouh Maamoun in 1985 and run today by the next generation from the same Qalyub site that started it all.",
+      "ar": "مونتانا شركة عائلية مصرية لتصدير الأغذية المجمدة، أسسها العمدة ممدوح مأمون عام 1985 ويديرها اليوم الجيل التالي من نفس موقع القليوب الذي بدأ منه كل شيء.",
+      "fr": "Montana est un exportateur égyptien familial de produits surgelés, fondé par Al-Omda Mamdouh Maamoun en 1985 et dirigé aujourd'hui par la génération suivante depuis le même site de Qalyub où tout a commencé."
     },
     "stats": [
       {
@@ -92,11 +92,11 @@
           "fr": "Une coopérative naît"
         },
         "description": {
-          "en": "Bishoy Mansour Sr. founds United Co. for Food Industries in a small Qalyub workshop, freezing the Nile delta's molokhia for nearby restaurants.",
-          "ar": "يؤسس بشوي منصور الأب الشركة المتحدة للصناعات الغذائية في ورشة صغيرة بالقليوب، يجمد ملوخية دلتا النيل للمطاعم المجاورة.",
-          "fr": "Bishoy Mansour Sr. fonde United Co. for Food Industries dans un petit atelier de Qalyub, surgelant la molokhia du delta du Nil pour les restaurants voisins."
+          "en": "Al-Omda Mamdouh Maamoun founds United Co. for Food Industries in a small Qalyub workshop, freezing the Nile delta's molokhia for nearby restaurants.",
+          "ar": "يؤسس العمدة ممدوح مأمون الشركة المتحدة للصناعات الغذائية في ورشة صغيرة بالقليوب، يجمد ملوخية دلتا النيل للمطاعم المجاورة.",
+          "fr": "Al-Omda Mamdouh Maamoun fonde United Co. for Food Industries dans un petit atelier de Qalyub, surgelant la molokhia du delta du Nil pour les restaurants voisins."
         },
-        "image": "/images/products/lifestyle/kitchen.jpg"
+        "image": "/images/products/real/molokhia-1.jpg"
       },
       {
         "year": "1992",
@@ -145,9 +145,9 @@
           "fr": "Deuxième génération"
         },
         "description": {
-          "en": "Bishoy Jr. joins after a decade in cold-chain logistics. The family business stays a family business.",
-          "ar": "ينضم بشوي الابن بعد عقد من العمل في لوجستيات سلسلة التبريد. الشركة العائلية تبقى عائلية.",
-          "fr": "Bishoy Jr. rejoint l'entreprise après une décennie dans la logistique du froid. L'entreprise familiale reste familiale."
+          "en": "The next generation joins after a decade in cold-chain logistics. The family business stays a family business.",
+          "ar": "ينضم الجيل التالي بعد عقد من العمل في لوجستيات سلسلة التبريد. الشركة العائلية تبقى عائلية.",
+          "fr": "La génération suivante rejoint l'entreprise après une décennie dans la logistique du froid. L'entreprise familiale reste familiale."
         }
       },
       {
@@ -175,16 +175,16 @@
           "ar": "تشغيل النفق الثاني للتجميد الفوري. مضاعفة طاقة موسم الفراولة. بدء مشروع السقف الشمسي.",
           "fr": "Mise en service du deuxième tunnel IQF. Capacité doublée pour la saison des fraises. Lancement du projet de toit solaire."
         },
-        "image": "/images/products/lifestyle/strawberry.jpg"
+        "image": "/images/facility/cold-store-exterior.jpg"
       }
     ]
   },
   "chairmanQuote": {
     "enabled": true,
     "eyebrow": {
-      "en": "From the chairman",
-      "ar": "من رئيس مجلس الإدارة",
-      "fr": "Du président"
+      "en": "From our founder",
+      "ar": "من مؤسسنا",
+      "fr": "De notre fondateur"
     },
     "quote": {
       "before": {
@@ -205,21 +205,21 @@
     },
     "attribution": {
       "name": {
-        "en": "Bishoy Mansour",
-        "ar": "بشوي منصور",
-        "fr": "Bishoy Mansour"
+        "en": "Al-Omda Mamdouh Maamoun",
+        "ar": "العمدة ممدوح مأمون",
+        "fr": "Al-Omda Mamdouh Maamoun"
       },
       "role": {
-        "en": "Chairman · United Co. for Food Industries",
-        "ar": "رئيس مجلس الإدارة · الشركة المتحدة للصناعات الغذائية",
-        "fr": "Président · United Co. for Food Industries"
+        "en": "Founder · United Co. for Food Industries",
+        "ar": "المؤسس · الشركة المتحدة للصناعات الغذائية",
+        "fr": "Fondateur · United Co. for Food Industries"
       }
     },
-    "image": "/images/about/chairman.jpg",
+    "image": "/images/about/founder.jpg",
     "cornerMark": {
-      "en": "— Cairo, 2026",
-      "ar": "— القاهرة، 2026",
-      "fr": "— Le Caire, 2026"
+      "en": "In loving memory",
+      "ar": "في ذكراه",
+      "fr": "En sa mémoire"
     }
   },
   "values": {
