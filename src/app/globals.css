@@ -693,6 +693,132 @@ body {
 }
 
 /* ─────────────────────────────────────────────────────────────────
+ * Immersive mobile hero — full-bleed image with editorial text
+ * overlaid at the foot on a graduated scrim. Desktop split untouched.
+ * ───────────────────────────────────────────────────────────────── */
+@media (max-width: 1023px) {
+  .hero-editorial {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    min-height: 90svh;
+    background: var(--color-surface-deeper);
+  }
+
+  /* Stack both children into the same cell so text overlays the image */
+  .hero-editorial-content,
+  .hero-editorial-visual {
+    grid-area: 1 / 1;
+  }
+
+  .hero-editorial-visual {
+    order: 0;
+    min-height: 0;
+    z-index: 1;
+  }
+
+  /* Taller, richer scrim — dark at the foot for legible overlaid type,
+   * a sustained mid-wash behind the headline, a whisper at the top. */
+  .hero-editorial-visual::after {
+    background: linear-gradient(180deg, rgba(15, 20, 16, 0.34) 0%, transparent 24%),
+      linear-gradient(
+        0deg,
+        rgba(15, 20, 16, 0.96) 2%,
+        rgba(15, 20, 16, 0.82) 30%,
+        rgba(15, 20, 16, 0.45) 55%,
+        transparent 78%
+      );
+  }
+
+  .hero-editorial-content {
+    order: 0;
+    z-index: 2;
+    justify-content: flex-end;
+    background: transparent;
+    box-shadow: none;
+    padding: var(--space-24) var(--space-10) var(--space-16);
+  }
+
+  /* Light-on-dark editorial treatment. The eyebrow + pre sit high over the
+   * bright sky, so they carry their own contrast (dark glass + shadow). */
+  .hero-editorial-content .hero-eyebrow {
+    background: rgba(15, 20, 16, 0.42);
+    border-color: rgba(252, 250, 245, 0.35);
+    color: var(--color-text-inverse);
+    text-shadow: 0 1px 8px rgba(15, 20, 16, 0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
+  .hero-editorial-content .hero-eyebrow .dot {
+    background: var(--color-accent-soft);
+  }
+
+  .hero-editorial-content .hero-pre {
+    color: var(--color-accent-soft);
+    text-shadow:
+      0 1px 10px rgba(15, 20, 16, 0.85),
+      0 0 2px rgba(15, 20, 16, 0.6);
+  }
+
+  .hero-editorial-content .hero-title {
+    color: var(--color-text-inverse);
+    text-shadow: 0 2px 24px rgba(15, 20, 16, 0.55);
+  }
+
+  .hero-editorial-content .hero-title em {
+    color: var(--color-gold);
+  }
+
+  .hero-editorial-content .hero-subtitle {
+    color: rgba(252, 250, 245, 0.92);
+    max-width: 36ch;
+    text-shadow: 0 1px 16px rgba(15, 20, 16, 0.6);
+  }
+
+  /* Full-width, stacked CTAs for an easy mobile tap target */
+  .hero-editorial-content .hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-3);
+    width: 100%;
+  }
+
+  .hero-editorial-content .hero-ctas .btn-editorial {
+    width: 100%;
+  }
+
+  /* Ghost CTA needs the on-dark glass treatment over the image */
+  .hero-editorial-content .btn-editorial.ghost {
+    color: var(--color-text-inverse);
+    border-color: rgba(255, 255, 255, 0.45);
+    background: rgba(15, 20, 16, 0.18);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+  }
+
+  .hero-editorial-content .btn-editorial.ghost:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.8);
+    color: var(--color-text-inverse);
+  }
+
+  /* Meta stats: hairline divider + light numerals on the scrim */
+  .hero-editorial-content .hero-meta {
+    margin-top: var(--space-10);
+    padding-top: var(--space-6);
+    border-top-color: rgba(252, 250, 245, 0.2);
+  }
+
+  .hero-editorial-content .hero-meta-row {
+    color: rgba(252, 250, 245, 0.72);
+  }
+
+  .hero-editorial-content .hero-meta-item .num {
+    color: var(--color-accent-soft);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────
  * Heritage strip — quote-anchored stats
  * ───────────────────────────────────────────────────────────────── */
 
