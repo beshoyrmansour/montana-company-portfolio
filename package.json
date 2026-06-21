@@ -6,6 +6,9 @@
   "engines": {
     "node": "22.x"
   },
+  "overrides": {
+    "@swc/helpers": "0.5.23"
+  },
   "scripts": {
     "dev": "next dev",
     "prepare": "husky",
