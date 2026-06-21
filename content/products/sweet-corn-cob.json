@@ -1,0 +1,63 @@
+{
+  "slug": "sweet-corn-cob",
+  "name": {
+    "en": "Sweet Corn on the Cob",
+    "ar": "ذرة حلوة على القولح",
+    "fr": "Maïs doux en épi",
+    "de": "Zuckermais am Kolben"
+  },
+  "shortDescription": {
+    "en": "Whole and half sweet-corn cobs, blanched and IQF frozen.",
+    "ar": "كيزان ذرة حلوة كاملة ونصفية، مسلوقة سلقًا خفيفًا ومجمّدة بطريقة IQF.",
+    "fr": "Épis de maïs doux entiers et demi, blanchis et surgelés IQF.",
+    "de": "Ganze und halbe Zuckermaiskolben, blanchiert und IQF-gefroren."
+  },
+  "description": {
+    "en": "Montana's sweet-corn cobs are husked, trimmed and lightly blanched at peak sweetness, then IQF-frozen whole or in halves. They boil, grill or roast straight from frozen into golden, juicy cobs — no shucking, no waste.",
+    "ar": "تُقشَّر كيزان ذرة مونتانا الحلوة وتُشذَّب وتُسلق سلقًا خفيفًا في ذروة حلاوتها، ثم تُجمَّد بطريقة الـ IQF كاملة أو نصفية. تُسلق أو تُشوى مباشرة من الفريزر لتصبح كيزانًا ذهبية غضّة — دون تقشير أو هدر.",
+    "fr": "Les épis de maïs doux de Montana sont épluchés, parés et légèrement blanchis à pleine maturité, puis surgelés IQF entiers ou en demi. Ils se cuisinent directement surgelés, bouillis, grillés ou rôtis.",
+    "de": "Montanas Zuckermaiskolben werden entblättert, geputzt und auf dem Süßehöhepunkt kurz blanchiert, dann ganz oder halbiert IQF-gefroren. Sie lassen sich direkt aus dem Gefrierfach kochen, grillen oder rösten — ohne Entblättern, ohne Abfall."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["new"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "2 cobs",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["jul", "aug", "sep", "oct"],
+  "images": {
+    "primary": "/images/products/sweet-corn-cob/montana-frozen-sweet-corn-cob.jpg",
+    "gallery": [
+      "/images/products/sweet-corn-cob/montana-frozen-sweet-corn-cob-1.jpg",
+      "/images/products/sweet-corn-cob/montana-frozen-sweet-corn-cob-2.jpg",
+      "/images/products/sweet-corn-cob/montana-frozen-sweet-corn-cob-3.jpg"
+    ],
+    "packaging": []
+  },
+  "relatedSlugs": ["sweet-corn", "peas-and-carrots"],
+  "seo": {
+    "title": {
+      "en": "Frozen Sweet Corn on the Cob — IQF | Montana",
+      "ar": "ذرة حلوة على القولح مجمدة - IQF | مونتانا",
+      "fr": "Maïs doux en épi surgelé — IQF | Montana",
+      "de": "Tiefgekühlter Zuckermais am Kolben — IQF | Montana"
+    },
+    "description": {
+      "en": "Premium Egyptian frozen sweet-corn cobs, husked, blanched and IQF frozen. Cook from frozen, export packaging available.",
+      "ar": "كيزان ذرة حلوة مصرية مجمدة فاخرة، مقشّرة ومسلوقة ومجمّدة بطريقة IQF. تُطهى من الفريزر.",
+      "fr": "Épis de maïs doux égyptiens surgelés premium, épluchés, blanchis et surgelés IQF.",
+      "de": "Premium-ägyptische tiefgekühlte Zuckermaiskolben, entblättert, blanchiert und IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+    },
+    "keywords": ["frozen corn on the cob", "IQF sweet corn cob", "corn cob", "ذرة على القولح مجمدة"]
+  }
+}

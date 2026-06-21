@@ -3,17 +3,20 @@
   "name": {
     "en": "Carrots",
     "ar": "جزر",
-    "fr": "Carottes"
+    "fr": "Carottes",
+    "de": "Karotten"
   },
   "shortDescription": {
     "en": "Home grown of highest quality seeds — produced in 3 shapes per customer request.",
     "ar": "مزروعة منزلياً من أجود البذور - منتجة في ٣ أشكال حسب طلب العميل.",
-    "fr": "Cultivées à partir des meilleures graines — produites en 3 formes selon les demandes."
+    "fr": "Cultivées à partir des meilleures graines — produites en 3 formes selon les demandes.",
+    "de": "Eigenangebaut aus hochwertigstem Saatgut — in 3 Formen je nach Kundenwunsch."
   },
   "description": {
     "en": "Home grown of the highest quality seeds and produced in 3 different shapes upon customers' requests: Dices (1cm × 1cm), Crinkled dices, Slices.",
     "ar": "مزروعة منزلياً من أجود البذور وتنتج في ٣ أشكال مختلفة بناءً على طلب العملاء: مكعبات (١سم × ١سم)، مكعبات مموجة، شرائح.",
-    "fr": "Cultivées à nos exploitations agricoles à partir de graines de meilleure qualité et produites sous 3 formes différentes selon la demande des clients."
+    "fr": "Cultivées à nos exploitations agricoles à partir de graines de meilleure qualité et produites sous 3 formes différentes selon la demande des clients.",
+    "de": "Eigenangebaut aus hochwertigstem Saatgut und in 3 verschiedenen Formen je nach Kundenwunsch: Würfel (1 cm × 1 cm), gewellte Würfel, Scheiben."
   },
   "category": "vegetable",
   "featured": false,
@@ -23,21 +26,24 @@
       "name": {
         "en": "Diced 1cm",
         "ar": "مكعبات ١سم",
-        "fr": "Dés 1cm"
+        "fr": "Dés 1cm",
+        "de": "Würfel 1 cm"
       }
     },
     {
       "name": {
         "en": "Crinkled dices",
         "ar": "مكعبات مموجة",
-        "fr": "Dés gaufrés"
+        "fr": "Dés gaufrés",
+        "de": "Gewellte Würfel"
       }
     },
     {
       "name": {
         "en": "Slices",
         "ar": "شرائح",
-        "fr": "Tranches"
+        "fr": "Tranches",
+        "de": "Scheiben"
       }
     }
   ],
@@ -55,13 +61,11 @@
   ],
   "seasonality": ["jan", "feb", "mar", "jun", "jul"],
   "images": {
-    "primary": "/images/products/lifestyle/carrots.jpg",
+    "primary": "/images/products/carrots/montana-frozen-carrots.jpg",
     "gallery": [
-      "/images/products/stock/carrots-1.jpg",
-      "/images/products/stock/carrots-2.jpg",
-      "/images/products/real/carrots-1.jpg",
-      "/images/products/real/carrots-2.jpg",
-      "/images/products/real/carrots-3.jpg"
+      "/images/products/carrots/montana-frozen-carrots-1.jpg",
+      "/images/products/carrots/montana-frozen-carrots-2.jpg",
+      "/images/products/carrots/montana-frozen-carrots-3.jpg"
     ],
     "packaging": []
   },

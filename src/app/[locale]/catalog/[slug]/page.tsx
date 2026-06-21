@@ -9,8 +9,7 @@ import { Button } from '@/components/primitives/Button';
 import { ProductCard } from '@/components/product/ProductCard';
 import { ProductGallery } from '@/components/product/ProductGallery';
 import { SeasonalCalendar } from '@/components/product/SeasonalCalendar';
-import { VarietyCards } from '@/components/product/VarietyCards';
-import { PackagingTable } from '@/components/product/PackagingTable';
+import { PackingOptions } from '@/components/product/PackingOptions';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { productJsonLd, breadcrumbJsonLd, buildPageMetadata } from '@/lib/seo';
 import { getAvailableLocales, pick, type Locale } from '@/lib/i18n';
@@ -206,27 +205,18 @@ export default async function ProductDetailPage({
         </Section>
       )}
 
-      {/* ─── VARIETIES ─── */}
-      {product.varieties.length > 0 && (
+      {/* ─── PACKING OPTIONS & SIZES ─── */}
+      {(product.varieties.length > 0 || product.packaging.length > 0) && (
         <Section spacing="md" background="cream">
           <Container>
-            <VarietyCards
+            <PackingOptions
+              packaging={product.packaging}
               varieties={product.varieties}
               locale={locale as Locale}
-              title={tProduct('varieties')}
-            />
-          </Container>
-        </Section>
-      )}
-
-      {/* ─── PACKAGING ─── */}
-      {product.packaging.length > 0 && (
-        <Section spacing="md">
-          <Container width="narrow">
-            <PackagingTable
-              packaging={product.packaging}
-              title={tProduct('packaging')}
               labels={{
+                title: tProduct('packingOptions'),
+                sizes: tProduct('sizesAndCuts'),
+                formats: tProduct('packFormats'),
                 type: tProduct('packagingType'),
                 weight: tProduct('packagingWeight'),
                 perCarton: tProduct('packagingPerCarton'),

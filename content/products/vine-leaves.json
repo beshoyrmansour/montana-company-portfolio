@@ -3,17 +3,20 @@
   "name": {
     "en": "Vine Leaves",
     "ar": "ورق عنب",
-    "fr": "Feuilles de Vigne"
+    "fr": "Feuilles de Vigne",
+    "de": "Weinblätter"
   },
   "shortDescription": {
     "en": "Finest seedless grape leaves — picked prematurely to preserve nutrition, color and taste.",
     "ar": "أجود أوراق العنب بدون بذور - تُقطف مبكراً للحفاظ على القيمة الغذائية واللون والطعم.",
-    "fr": "Meilleures feuilles de vigne sans pépins — cueillies prématurément."
+    "fr": "Meilleures feuilles de vigne sans pépins — cueillies prématurément.",
+    "de": "Feinste kernlose Weinblätter — früh gepflückt, um Nährstoffe, Farbe und Geschmack zu bewahren."
   },
   "description": {
     "en": "Being the yield of the finest seedless grape leaves, picked prematurely to maintain their nutritional benefits, natural green color and taste.",
     "ar": "غلة من أجود أوراق العنب بدون بذور، يتم اقتطافها في وقت مبكر للحفاظ على قيمتها الغذائية، ولونها الأخضر الطبيعي والمذاق المعروف.",
-    "fr": "Étant le rendement des meilleurs raisins sans pépins. Les feuilles de vigne sont cueillies prématurément pour maintenir sa valeur nutritive, sa couleur verte naturelle et son goût."
+    "fr": "Étant le rendement des meilleurs raisins sans pépins. Les feuilles de vigne sont cueillies prématurément pour maintenir sa valeur nutritive, sa couleur verte naturelle et son goût.",
+    "de": "Der Ertrag feinster kernloser Weinblätter, früh gepflückt, um ihren Nährwert, ihre natürliche grüne Farbe und ihren Geschmack zu bewahren."
   },
   "category": "leaf",
   "featured": false,
@@ -32,13 +35,11 @@
   ],
   "seasonality": ["may"],
   "images": {
-    "primary": "/images/products/lifestyle/vine-leaves.jpg",
+    "primary": "/images/products/vine-leaves/montana-frozen-vine-leaves.jpg",
     "gallery": [
-      "/images/products/stock/vine-leaves-1.jpg",
-      "/images/products/stock/vine-leaves-2.jpg",
-      "/images/products/real/vine-leaves-1.jpg",
-      "/images/products/real/vine-leaves-2.jpg",
-      "/images/products/real/vine-leaves-3.jpg"
+      "/images/products/vine-leaves/montana-frozen-vine-leaves-1.jpg",
+      "/images/products/vine-leaves/montana-frozen-vine-leaves-2.jpg",
+      "/images/products/vine-leaves/montana-frozen-vine-leaves-3.jpg"
     ],
     "packaging": []
   },

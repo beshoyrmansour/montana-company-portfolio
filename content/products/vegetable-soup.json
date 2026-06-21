@@ -1,0 +1,68 @@
+{
+  "slug": "vegetable-soup",
+  "name": {
+    "en": "Vegetable Soup Mix",
+    "ar": "خضار الشوربة",
+    "fr": "Mélange à soupe de légumes",
+    "de": "Suppengemüse"
+  },
+  "shortDescription": {
+    "en": "A diced mix of garden vegetables, ready for the pot and IQF frozen.",
+    "ar": "خليط من الخضروات المقطّعة، جاهز للطهي ومجمّد بطريقة IQF.",
+    "fr": "Un mélange de légumes coupés, prêt pour la marmite et surgelé IQF.",
+    "de": "Eine gewürfelte Mischung aus Gartengemüse, topffertig und IQF-gefroren."
+  },
+  "description": {
+    "en": "Montana's vegetable soup mix blends diced carrots, green beans, peas, broccoli and cauliflower, all prepared and IQF-frozen at their peak. Tip it straight from frozen into stock for a hearty soup, or into stews and stir-fries — no washing, peeling or chopping.",
+    "ar": "يجمع خليط شوربة الخضار من مونتانا بين الجزر والفاصوليا الخضراء والبسلة والبروكلي والقرنبيط المقطّعة، وكلها مُجهّزة ومجمّدة بطريقة الـ IQF في ذروتها. أضِفه مباشرة من الفريزر إلى المرق لشوربة دسمة، أو إلى اليخنات والمقالي — دون غسل أو تقشير أو تقطيع.",
+    "fr": "Le mélange à soupe de Montana réunit carottes, haricots verts, petits pois, brocoli et chou-fleur coupés, tous préparés et surgelés IQF à maturité. Versez-le directement surgelé dans un bouillon, un ragoût ou un sauté — sans laver, éplucher ni couper.",
+    "de": "Montanas Suppengemüse vereint gewürfelte Karotten, grüne Bohnen, Erbsen, Brokkoli und Blumenkohl, allesamt auf dem Höhepunkt zubereitet und IQF-gefroren. Direkt aus dem Gefrierfach in Brühe für eine herzhafte Suppe oder in Eintöpfe geben — ohne Waschen, Schälen oder Schneiden."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["new"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": [],
+  "images": {
+    "primary": "/images/products/vegetable-soup/montana-frozen-vegetable-soup.jpg",
+    "gallery": [
+      "/images/products/vegetable-soup/montana-frozen-vegetable-soup-1.jpg",
+      "/images/products/vegetable-soup/montana-frozen-vegetable-soup-2.jpg",
+      "/images/products/vegetable-soup/montana-frozen-vegetable-soup-3.jpg"
+    ],
+    "packaging": []
+  },
+  "relatedSlugs": ["mixed-vegetables", "peas-and-carrots"],
+  "seo": {
+    "title": {
+      "en": "Frozen Vegetable Soup Mix — IQF | Montana",
+      "ar": "خضار الشوربة المجمد - IQF | مونتانا",
+      "fr": "Mélange à soupe de légumes surgelé — IQF | Montana",
+      "de": "Tiefgekühltes Suppengemüse — IQF | Montana"
+    },
+    "description": {
+      "en": "Premium Egyptian frozen vegetable soup mix — carrots, beans, peas, broccoli and cauliflower, IQF frozen. Cook from frozen, export packaging available.",
+      "ar": "خليط شوربة خضار مصري مجمد فاخر — جزر وفاصوليا وبسلة وبروكلي وقرنبيط، مجمّد بطريقة IQF. يُطهى من الفريزر.",
+      "fr": "Mélange à soupe de légumes égyptien surgelé premium — carottes, haricots, petits pois, brocoli et chou-fleur, surgelés IQF.",
+      "de": "Premium-ägyptisches tiefgekühltes Suppengemüse — Karotten, Bohnen, Erbsen, Brokkoli und Blumenkohl, IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+    },
+    "keywords": [
+      "frozen vegetable soup mix",
+      "IQF soup vegetables",
+      "frozen mixed vegetables",
+      "خضار شوربة مجمد"
+    ]
+  }
+}

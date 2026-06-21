@@ -1,0 +1,187 @@
+{
+  "okra": {
+    "new": false,
+    "images": [
+      "/images/products/real/okra-4.jpg",
+      "/images/products/real/okra-5.jpg",
+      "/images/products/real/okra-6.jpg"
+    ]
+  },
+  "artichoke": {
+    "new": false,
+    "images": [
+      "/images/products/real/artichoke-4.jpg",
+      "/images/products/real/artichoke-5.jpg",
+      "/images/products/real/artichoke-6.jpg"
+    ]
+  },
+  "broad-beans": {
+    "new": false,
+    "images": [
+      "/images/products/real/broad-beans-4.jpg",
+      "/images/products/real/broad-beans-5.jpg",
+      "/images/products/real/broad-beans-6.jpg"
+    ]
+  },
+  "peeled-broad-beans": {
+    "new": true,
+    "images": [
+      "/images/products/real/peeled-broad-beans-1.jpg",
+      "/images/products/real/peeled-broad-beans-2.jpg",
+      "/images/products/real/peeled-broad-beans-3.jpg"
+    ]
+  },
+  "broccoli": {
+    "new": false,
+    "images": [
+      "/images/products/real/broccoli-4.jpg",
+      "/images/products/real/broccoli-5.jpg",
+      "/images/products/real/broccoli-6.jpg"
+    ]
+  },
+  "carrots": {
+    "new": false,
+    "images": [
+      "/images/products/real/carrots-4.jpg",
+      "/images/products/real/carrots-5.jpg",
+      "/images/products/real/carrots-6.jpg"
+    ]
+  },
+  "cauliflower": {
+    "new": false,
+    "images": ["/images/products/real/cauliflower-3.jpg", "/images/products/real/cauliflower-4.jpg"]
+  },
+  "colcasia": {
+    "new": false,
+    "images": [
+      "/images/products/real/colcasia-3.jpg",
+      "/images/products/real/colcasia-4.jpg",
+      "/images/products/real/colcasia-5.jpg"
+    ]
+  },
+  "coriander": {
+    "new": false,
+    "images": ["/images/products/real/coriander-4.jpg", "/images/products/real/coriander-5.jpg"]
+  },
+  "green-beans": {
+    "new": false,
+    "images": [
+      "/images/products/real/green-beans-4.jpg",
+      "/images/products/real/green-beans-5.jpg",
+      "/images/products/real/green-beans-6.jpg"
+    ]
+  },
+  "whole-green-beans": {
+    "new": true,
+    "images": [
+      "/images/products/real/whole-green-beans-1.jpg",
+      "/images/products/real/whole-green-beans-2.jpg",
+      "/images/products/real/whole-green-beans-3.jpg"
+    ]
+  },
+  "falafel": {
+    "new": false,
+    "images": [
+      "/images/products/real/falafel-5.jpg",
+      "/images/products/real/falafel-6.jpg",
+      "/images/products/real/falafel-7.jpg"
+    ]
+  },
+  "mango": {
+    "new": false,
+    "images": [
+      "/images/products/real/mango-5.jpg",
+      "/images/products/real/mango-6.jpg",
+      "/images/products/real/mango-7.jpg"
+    ]
+  },
+  "mixed-vegetables": {
+    "new": false,
+    "images": [
+      "/images/products/real/mixed-vegetables-4.jpg",
+      "/images/products/real/mixed-vegetables-5.jpg",
+      "/images/products/real/mixed-vegetables-6.jpg",
+      "/images/products/real/mixed-vegetables-7.jpg"
+    ]
+  },
+  "molokhia": {
+    "new": false,
+    "images": [
+      "/images/products/real/molokhia-4.jpg",
+      "/images/products/real/molokhia-5.jpg",
+      "/images/products/real/molokhia-6.jpg"
+    ]
+  },
+  "peas-and-carrots": {
+    "new": false,
+    "images": [
+      "/images/products/real/peas-and-carrots-3.jpg",
+      "/images/products/real/peas-and-carrots-4.jpg",
+      "/images/products/real/peas-and-carrots-5.jpg"
+    ]
+  },
+  "pomegranate": {
+    "new": true,
+    "images": ["/images/products/real/pomegranate-1.jpg", "/images/products/real/pomegranate-2.jpg"]
+  },
+  "spinach": {
+    "new": false,
+    "images": [
+      "/images/products/real/spinach-4.jpg",
+      "/images/products/real/spinach-5.jpg",
+      "/images/products/real/spinach-6.jpg"
+    ]
+  },
+  "strawberry": {
+    "new": false,
+    "images": [
+      "/images/products/real/strawberry-4.jpg",
+      "/images/products/real/strawberry-5.jpg",
+      "/images/products/real/strawberry-6.jpg"
+    ]
+  },
+  "sweet-corn": {
+    "new": false,
+    "images": [
+      "/images/products/real/sweet-corn-4.jpg",
+      "/images/products/real/sweet-corn-5.jpg",
+      "/images/products/real/sweet-corn-6.jpg"
+    ]
+  },
+  "sweet-corn-cob": {
+    "new": true,
+    "images": [
+      "/images/products/real/sweet-corn-cob-1.jpg",
+      "/images/products/real/sweet-corn-cob-2.jpg",
+      "/images/products/real/sweet-corn-cob-3.jpg"
+    ]
+  },
+  "vegetable-soup": {
+    "new": true,
+    "images": [
+      "/images/products/real/vegetable-soup-1.jpg",
+      "/images/products/real/vegetable-soup-2.jpg",
+      "/images/products/real/vegetable-soup-3.jpg"
+    ]
+  },
+  "vine-leaves": {
+    "new": false,
+    "images": [
+      "/images/products/real/vine-leaves-4.jpg",
+      "/images/products/real/vine-leaves-5.jpg",
+      "/images/products/real/vine-leaves-6.jpg"
+    ]
+  },
+  "potato": {
+    "new": true,
+    "images": [
+      "/images/products/real/potato-1.jpg",
+      "/images/products/real/potato-2.jpg",
+      "/images/products/real/potato-3.jpg"
+    ]
+  },
+  "peas": {
+    "new": false,
+    "images": ["/images/products/real/peas-4.jpg"]
+  }
+}

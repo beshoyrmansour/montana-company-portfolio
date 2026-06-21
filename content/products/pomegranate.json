@@ -1,0 +1,62 @@
+{
+  "slug": "pomegranate",
+  "name": {
+    "en": "Pomegranate",
+    "ar": "رمان",
+    "fr": "Grenade",
+    "de": "Granatapfel"
+  },
+  "shortDescription": {
+    "en": "Ruby-red pomegranate arils, hand-cleaned and IQF frozen.",
+    "ar": "حبوب رمان حمراء، منظّفة يدويًا ومجمّدة بطريقة IQF.",
+    "fr": "Grains de grenade rouge rubis, nettoyés à la main et surgelés IQF.",
+    "de": "Rubinrote Granatapfelkerne, von Hand gereinigt und IQF-gefroren."
+  },
+  "description": {
+    "en": "Montana's pomegranate arils are separated from the freshest Egyptian fruit, cleaned by hand and IQF-frozen so every seed stays whole, jewel-bright and free-flowing. Ready to scatter over salads, desserts, drinks and grain bowls straight from frozen.",
+    "ar": "تُفصل حبوب رمان مونتانا من أجود الثمار المصرية، وتُنظَّف يدويًا وتُجمَّد بطريقة الـ IQF لتبقى كل حبة كاملة وزاهية اللون وسهلة الفرز. جاهزة للإضافة إلى السلطات والحلويات والمشروبات مباشرة من الفريزر.",
+    "fr": "Les grains de grenade de Montana sont extraits des fruits égyptiens les plus frais, nettoyés à la main et surgelés IQF pour que chaque graine reste entière, éclatante et non agglomérée. Prêts à parsemer salades, desserts et boissons directement surgelés.",
+    "de": "Montanas Granatapfelkerne werden aus den frischesten ägyptischen Früchten gelöst, von Hand gereinigt und IQF-gefroren, damit jeder Kern ganz, leuchtend und rieselfähig bleibt. Direkt aus dem Gefrierfach über Salate, Desserts und Getränke streubar."
+  },
+  "category": "fruit",
+  "featured": false,
+  "badges": ["new", "seasonal"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    }
+  ],
+  "seasonality": ["sep", "oct", "nov"],
+  "images": {
+    "primary": "/images/products/pomegranate/montana-frozen-pomegranate.jpg",
+    "gallery": [
+      "/images/products/pomegranate/montana-frozen-pomegranate-1.jpg",
+      "/images/products/pomegranate/montana-frozen-pomegranate-2.jpg"
+    ],
+    "packaging": []
+  },
+  "relatedSlugs": ["strawberry", "mango"],
+  "seo": {
+    "title": {
+      "en": "Frozen Pomegranate Arils — IQF | Montana",
+      "ar": "حبوب رمان مجمدة - IQF | مونتانا",
+      "fr": "Grains de grenade surgelés — IQF | Montana",
+      "de": "Tiefgekühlte Granatapfelkerne — IQF | Montana"
+    },
+    "description": {
+      "en": "Premium Egyptian frozen pomegranate arils, hand-cleaned and IQF frozen. Free-flowing, ready to use, export packaging available.",
+      "ar": "حبوب رمان مصرية مجمدة فاخرة، منظّفة يدويًا ومجمّدة بطريقة IQF. سهلة الفرز وجاهزة للاستخدام.",
+      "fr": "Grains de grenade égyptiens surgelés premium, nettoyés à la main et surgelés IQF.",
+      "de": "Premium-ägyptische tiefgekühlte Granatapfelkerne, von Hand gereinigt und IQF-gefroren. Rieselfähig, gebrauchsfertig, Exportverpackung verfügbar."
+    },
+    "keywords": ["frozen pomegranate", "IQF pomegranate arils", "pomegranate seeds", "رمان مجمد"]
+  }
+}

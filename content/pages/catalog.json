@@ -4,32 +4,38 @@
     "eyebrow": {
       "en": "Catalogue · 30 countries",
       "ar": "الكتالوج · ٣٠ دولة",
-      "fr": "Catalogue · 30 pays"
+      "fr": "Catalogue · 30 pays",
+      "de": "Katalog · 30 Länder"
     },
     "title": {
       "en": "Our products",
       "ar": "منتجاتنا",
-      "fr": "Nos produits"
+      "fr": "Nos produits",
+      "de": "Unsere Produkte"
     },
     "titleEm": {
       "en": "at peak season.",
       "ar": "في الموسم.",
-      "fr": "à pleine saison."
+      "fr": "à pleine saison.",
+      "de": "auf dem Saisonhöhepunkt."
     },
     "subtitle": {
       "en": "From leafy greens to berries, we freeze them all at peak nutrition — and ship them to 30 countries.",
       "ar": "من الأوراق الخضراء إلى التوت، نُجمدها جميعاً في ذروة قيمتها الغذائية — ونشحنها إلى ٣٠ دولة.",
-      "fr": "Des légumes-feuilles aux baies, nous surgelons tout au pic nutritionnel — et nous expédions vers 30 pays."
+      "fr": "Des légumes-feuilles aux baies, nous surgelons tout au pic nutritionnel — et nous expédions vers 30 pays.",
+      "de": "Von Blattgemüse bis Beeren — wir gefrieren alles auf dem Nährstoffhöhepunkt und liefern in 30 Länder."
     },
     "ctaDownloadLabel": {
       "en": "Download full catalogue",
       "ar": "تحميل الكتالوج الكامل",
-      "fr": "Télécharger le catalogue complet"
+      "fr": "Télécharger le catalogue complet",
+      "de": "Vollständigen Katalog herunterladen"
     },
     "ctaContactLabel": {
       "en": "Talk to our export desk",
       "ar": "تواصل مع مكتب التصدير",
-      "fr": "Contactez notre service export"
+      "fr": "Contactez notre service export",
+      "de": "Sprechen Sie mit unserem Export-Team"
     },
     "ctaContactHref": "/contact?subject=catalog",
     "catalogueHref": "/docs/Montana-Catalogue.pdf"
@@ -39,18 +45,21 @@
     "eyebrow": {
       "en": "Signature picks",
       "ar": "مختاراتنا",
-      "fr": "Nos signatures"
+      "fr": "Nos signatures",
+      "de": "Unsere Klassiker"
     },
     "title": {
       "lead": {
         "en": "The hero of every",
         "ar": "البطل في كل",
-        "fr": "Le héros de chaque"
+        "fr": "Le héros de chaque",
+        "de": "Der Star auf jedem"
       },
       "em": {
         "en": "plate.",
         "ar": "وجبة.",
-        "fr": "repas."
+        "fr": "repas.",
+        "de": "Teller."
       }
     },
     "slugs": ["molokhia", "strawberry", "mixed-vegetables"]
@@ -60,24 +69,52 @@
     "eyebrow": {
       "en": "Full catalogue",
       "ar": "الكتالوج الكامل",
-      "fr": "Catalogue complet"
+      "fr": "Catalogue complet",
+      "de": "Vollständiger Katalog"
     },
     "titleTemplate": {
       "en": "${count} products,",
       "ar": "${count} منتجاً،",
-      "fr": "${count} produits,"
+      "fr": "${count} produits,",
+      "de": "${count} Produkte,"
     },
     "titleEm": {
       "en": "five categories.",
       "ar": "عبر خمس فئات.",
-      "fr": "cinq catégories."
+      "fr": "cinq catégories.",
+      "de": "fünf Kategorien."
     },
     "filters": {
-      "all": { "en": "All", "ar": "الكل", "fr": "Tout" },
-      "vegetable": { "en": "Vegetables", "ar": "خضروات", "fr": "Légumes" },
-      "fruit": { "en": "Fruits", "ar": "فواكه", "fr": "Fruits" },
-      "leaf": { "en": "Leafy greens", "ar": "أوراق خضراء", "fr": "Légumes-feuilles" },
-      "specialty": { "en": "Specialty", "ar": "متخصص", "fr": "Spécialité" }
+      "all": {
+        "en": "All",
+        "ar": "الكل",
+        "fr": "Tout",
+        "de": "Alle"
+      },
+      "vegetable": {
+        "en": "Vegetables",
+        "ar": "خضروات",
+        "fr": "Légumes",
+        "de": "Gemüse"
+      },
+      "fruit": {
+        "en": "Fruits",
+        "ar": "فواكه",
+        "fr": "Fruits",
+        "de": "Obst"
+      },
+      "leaf": {
+        "en": "Leafy greens",
+        "ar": "أوراق خضراء",
+        "fr": "Légumes-feuilles",
+        "de": "Blattgemüse"
+      },
+      "specialty": {
+        "en": "Specialty",
+        "ar": "متخصص",
+        "fr": "Spécialité",
+        "de": "Spezialitäten"
+      }
     }
   },
   "harvestCalendar": {
@@ -85,24 +122,28 @@
     "eyebrow": {
       "en": "A year on the farm",
       "ar": "سنة في المزرعة",
-      "fr": "Une année à la ferme"
+      "fr": "Une année à la ferme",
+      "de": "Ein Jahr auf dem Feld"
     },
     "title": {
       "lead": {
         "en": "When everything",
         "ar": "حين يكون كل شيء في",
-        "fr": "Quand tout est à son"
+        "fr": "Quand tout est à son",
+        "de": "Wenn alles"
       },
       "em": {
         "en": "peaks.",
         "ar": "ذروته.",
-        "fr": "apogée."
+        "fr": "apogée.",
+        "de": "reif ist."
       }
     },
     "intro": {
       "en": "Frozen at peak nutrition — we ship year-round, but each crop has its perfect window. Hover a row to see the peak months.",
       "ar": "نُجمّد عند ذروة القيمة الغذائية — نشحن طوال العام، لكن لكل محصول نافذته المثالية. مرّر فوق أي صف لرؤية أشهر الذروة.",
-      "fr": "Surgelé au pic nutritionnel — nous livrons toute l'année, mais chaque culture a sa fenêtre idéale. Survolez une ligne pour voir les mois forts."
+      "fr": "Surgelé au pic nutritionnel — nous livrons toute l'année, mais chaque culture a sa fenêtre idéale. Survolez une ligne pour voir les mois forts.",
+      "de": "Gefroren auf dem Nährstoffhöhepunkt — wir liefern ganzjährig, doch jede Kultur hat ihr ideales Zeitfenster. Fahren Sie über eine Zeile, um die Hauptmonate zu sehen."
     }
   },
   "ctaBand": {
@@ -110,37 +151,46 @@
     "eyebrow": {
       "en": "Need more detail?",
       "ar": "هل تحتاج إلى تفاصيل أكثر؟",
-      "fr": "Besoin de plus d'infos ?"
+      "fr": "Besoin de plus d'infos ?",
+      "de": "Mehr Details nötig?"
     },
     "title": {
       "lead": {
         "en": "Spec it, order it,",
         "ar": "حدّد، اطلب،",
-        "fr": "Spécifier, commander,"
+        "fr": "Spécifier, commander,",
+        "de": "Spezifizieren, bestellen,"
       },
       "em": {
         "en": "ship it.",
         "ar": "اشحن.",
-        "fr": "expédier."
+        "fr": "expédier.",
+        "de": "verschiffen."
       }
     },
     "body": {
       "en": "Every product comes in multiple weights, packaging formats and grades for wholesale and retail. Tell us your volume and destination — full quote within one business day.",
       "ar": "كل منتج متاح بأوزان متعددة وتعبئات وفئات لتجار الجملة والتجزئة. أخبرنا بالحجم والوجهة، وسنرد على عرض كامل في يوم عمل واحد.",
-      "fr": "Chaque produit existe en plusieurs poids, conditionnements et grades pour la distribution et le retail. Indiquez-nous votre volume et votre destination — devis complet sous un jour ouvré."
+      "fr": "Chaque produit existe en plusieurs poids, conditionnements et grades pour la distribution et le retail. Indiquez-nous votre volume et votre destination — devis complet sous un jour ouvré.",
+      "de": "Jedes Produkt ist in verschiedenen Gewichten, Verpackungsformaten und Güteklassen für Großhandel und Einzelhandel erhältlich. Nennen Sie uns Menge und Zielort — vollständiges Angebot innerhalb eines Werktags."
     },
     "ctas": [
       {
         "label": {
           "en": "Request a quote",
           "ar": "احصل على عرض سعر",
-          "fr": "Demander un devis"
+          "fr": "Demander un devis",
+          "de": "Angebot anfordern"
         },
         "href": "/contact?subject=quote",
         "variant": "primary"
       },
       {
-        "label": { "en": "PDF", "ar": "PDF", "fr": "PDF" },
+        "label": {
+          "en": "PDF",
+          "ar": "PDF",
+          "fr": "PDF"
+        },
         "href": "/docs/Montana-Catalogue.pdf",
         "variant": "on-dark-ghost",
         "external": true,

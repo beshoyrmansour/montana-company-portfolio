@@ -1,0 +1,68 @@
+{
+  "slug": "whole-green-beans",
+  "name": {
+    "en": "Whole Green Beans",
+    "ar": "فاصوليا خضراء كاملة",
+    "fr": "Haricots verts entiers",
+    "de": "Ganze grüne Bohnen"
+  },
+  "shortDescription": {
+    "en": "Tender whole green beans, topped, tailed and IQF frozen.",
+    "ar": "فاصوليا خضراء كاملة طرية، مُنظّفة الأطراف ومجمّدة بطريقة IQF.",
+    "fr": "Haricots verts entiers tendres, équeutés et surgelés IQF.",
+    "de": "Zarte ganze grüne Bohnen, geputzt und IQF-gefroren."
+  },
+  "description": {
+    "en": "Montana's whole green beans are picked young, topped and tailed, then IQF-frozen so they stay crisp, slender and a vivid green. Left uncut for a fresh-from-the-garden look, they steam, sauté or roast straight from frozen as an elegant side.",
+    "ar": "تُقطف فاصوليا مونتانا الخضراء صغيرة، وتُنظَّف أطرافها، ثم تُجمَّد بطريقة الـ IQF لتبقى مقرمشة ورفيعة وزاهية الخضرة. تُترك كاملة دون تقطيع لمظهر طازج، وتُطهى بالبخار أو القلي أو الشوي مباشرة من الفريزر كطبق جانبي أنيق.",
+    "fr": "Les haricots verts entiers de Montana sont cueillis jeunes, équeutés, puis surgelés IQF pour rester croquants, fins et d'un vert vif. Laissés entiers, ils se cuisinent directement surgelés à la vapeur, sautés ou rôtis.",
+    "de": "Montanas ganze grüne Bohnen werden jung geerntet, geputzt und dann IQF-gefroren, damit sie knackig, schlank und leuchtend grün bleiben. Ungeschnitten gelassen, lassen sie sich direkt aus dem Gefrierfach dämpfen, anbraten oder rösten."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["new"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["jun", "jul", "aug", "sep"],
+  "images": {
+    "primary": "/images/products/whole-green-beans/montana-frozen-whole-green-beans.jpg",
+    "gallery": [
+      "/images/products/whole-green-beans/montana-frozen-whole-green-beans-1.jpg",
+      "/images/products/whole-green-beans/montana-frozen-whole-green-beans-2.jpg",
+      "/images/products/whole-green-beans/montana-frozen-whole-green-beans-3.jpg"
+    ],
+    "packaging": []
+  },
+  "relatedSlugs": ["green-beans", "peas"],
+  "seo": {
+    "title": {
+      "en": "Frozen Whole Green Beans — IQF | Montana",
+      "ar": "فاصوليا خضراء كاملة مجمدة - IQF | مونتانا",
+      "fr": "Haricots verts entiers surgelés — IQF | Montana",
+      "de": "Tiefgekühlte ganze grüne Bohnen — IQF | Montana"
+    },
+    "description": {
+      "en": "Premium Egyptian frozen whole green beans, topped, tailed and IQF frozen. Cook from frozen, export packaging available.",
+      "ar": "فاصوليا خضراء كاملة مصرية مجمدة فاخرة، مُنظّفة ومجمّدة بطريقة IQF. تُطهى من الفريزر.",
+      "fr": "Haricots verts entiers égyptiens surgelés premium, équeutés et surgelés IQF.",
+      "de": "Premium-ägyptische tiefgekühlte ganze grüne Bohnen, geputzt und IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+    },
+    "keywords": [
+      "frozen whole green beans",
+      "IQF green beans",
+      "haricots verts",
+      "فاصوليا خضراء مجمدة"
+    ]
+  }
+}

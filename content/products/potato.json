@@ -1,0 +1,63 @@
+{
+  "slug": "potato",
+  "name": {
+    "en": "Potato",
+    "ar": "بطاطس",
+    "fr": "Pomme de terre",
+    "de": "Kartoffeln"
+  },
+  "shortDescription": {
+    "en": "Peeled, diced Egyptian potatoes, blanched and IQF frozen.",
+    "ar": "بطاطس مصرية مقشّرة ومقطّعة مكعبات، مسلوقة سلقًا خفيفًا ومجمّدة بطريقة IQF.",
+    "fr": "Pommes de terre égyptiennes pelées et coupées en dés, blanchies et surgelées IQF.",
+    "de": "Geschälte, gewürfelte ägyptische Kartoffeln, blanchiert und IQF-gefroren."
+  },
+  "description": {
+    "en": "Montana's potatoes are peeled, diced and lightly blanched, then IQF-frozen so each cube stays firm and separate. They cook straight from frozen into stews, soups, mixed-vegetable dishes and ready meals — no peeling, no waste.",
+    "ar": "تُقشَّر بطاطس مونتانا وتُقطَّع مكعبات وتُسلق سلقًا خفيفًا، ثم تُجمَّد بطريقة الـ IQF لتبقى كل مكعبة متماسكة ومنفصلة. تُطهى مباشرة من الفريزر في اليخنات والشوربات وأطباق الخضار المشكّلة — دون تقشير أو هدر.",
+    "fr": "Les pommes de terre de Montana sont pelées, coupées en dés et légèrement blanchies, puis surgelées IQF pour que chaque cube reste ferme et séparé. Elles se cuisinent directement surgelées dans les ragoûts, soupes et plats préparés.",
+    "de": "Montanas Kartoffeln werden geschält, gewürfelt und kurz blanchiert, dann IQF-gefroren, damit jeder Würfel fest und einzeln bleibt. Sie garen direkt aus dem Gefrierfach in Eintöpfen, Suppen, Gemüsegerichten und Fertigmenüs — ohne Schälen, ohne Abfall."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["new"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["feb", "mar", "apr", "may"],
+  "images": {
+    "primary": "/images/products/potato/montana-frozen-potato.jpg",
+    "gallery": [
+      "/images/products/potato/montana-frozen-potato-1.jpg",
+      "/images/products/potato/montana-frozen-potato-2.jpg",
+      "/images/products/potato/montana-frozen-potato-3.jpg"
+    ],
+    "packaging": []
+  },
+  "relatedSlugs": ["mixed-vegetables", "peas-and-carrots"],
+  "seo": {
+    "title": {
+      "en": "Frozen Diced Potato — IQF | Montana",
+      "ar": "بطاطس مجمدة مكعبات - IQF | مونتانا",
+      "fr": "Pommes de terre surgelées en dés — IQF | Montana",
+      "de": "Tiefgekühlte gewürfelte Kartoffeln — IQF | Montana"
+    },
+    "description": {
+      "en": "Premium Egyptian frozen diced potatoes, peeled, blanched and IQF frozen. Cook from frozen, export packaging available.",
+      "ar": "بطاطس مصرية مجمدة مكعبات فاخرة، مقشّرة ومسلوقة ومجمّدة بطريقة IQF. تُطهى من الفريزر.",
+      "fr": "Pommes de terre égyptiennes surgelées en dés premium, pelées, blanchies et surgelées IQF.",
+      "de": "Premium-ägyptische tiefgekühlte gewürfelte Kartoffeln, geschält, blanchiert und IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+    },
+    "keywords": ["frozen potato", "IQF diced potato", "frozen potato cubes", "بطاطس مجمدة"]
+  }
+}

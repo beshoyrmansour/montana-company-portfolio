@@ -3,17 +3,20 @@
   "name": {
     "en": "Broccoli",
     "ar": "بروكلي",
-    "fr": "Brocoli"
+    "fr": "Brocoli",
+    "de": "Brokkoli"
   },
   "shortDescription": {
     "en": "Pre-selected broccoli seeds from the best quality worldwide, frozen immediately to preserve nutrition.",
     "ar": "بذور بروكلي مختارة من أفضل الجودات العالمية، مجمدة فوراً للحفاظ على القيمة الغذائية.",
-    "fr": "Graines de brocoli pré-sélectionnées parmi les meilleures au monde, surgelées immédiatement."
+    "fr": "Graines de brocoli pré-sélectionnées parmi les meilleures au monde, surgelées immédiatement.",
+    "de": "Vorausgewähltes Brokkoli-Saatgut von weltweit bester Qualität, sofort gefroren, um Nährstoffe zu bewahren."
   },
   "description": {
     "en": "Montana plants pre-selected broccoli seeds from the best quality worldwide. It is directly transported to the production lines to guarantee maintaining all nutritional benefits. Recently introduced to the local market, broccoli has been met with great demand due to its nutritional benefits.",
     "ar": "تزرع مونتانا بذور البروكلي المختارة من أفضل الجودات في العالم. ينقل مباشرة إلى خطوط الإنتاج لضمان الحفاظ على جميع القيم الغذائية. أدخل البروكلي مؤخراً إلى السوق المحلي وحقق طلباً كبيراً.",
-    "fr": "Montana cultive des graines de brocoli pré-sélectionnées parmi les meilleures du monde. Il est directement transporté sur les lignes de production pour garantir le maintien de toutes les propriétés nutritionnelles."
+    "fr": "Montana cultive des graines de brocoli pré-sélectionnées parmi les meilleures du monde. Il est directement transporté sur les lignes de production pour garantir le maintien de toutes les propriétés nutritionnelles.",
+    "de": "Montana pflanzt vorausgewähltes Brokkoli-Saatgut von weltweit bester Qualität. Er wird direkt zu den Produktionslinien transportiert, um alle Nährstoffe zu erhalten. Erst kürzlich auf dem lokalen Markt eingeführt, stößt Brokkoli aufgrund seines Nährwerts auf große Nachfrage."
   },
   "category": "vegetable",
   "featured": true,
@@ -23,14 +26,16 @@
       "name": {
         "en": "Stem lengths",
         "ar": "أطوال السيقان",
-        "fr": "Longueurs de tige"
+        "fr": "Longueurs de tige",
+        "de": "Stiellängen"
       },
       "sizes": [
         {
           "label": {
             "en": "Short",
             "ar": "قصير",
-            "fr": "Court"
+            "fr": "Court",
+            "de": "Kurz"
           },
           "spec": {
             "en": "2 – 4 cm",
@@ -42,7 +47,8 @@
           "label": {
             "en": "Long",
             "ar": "طويل",
-            "fr": "Long"
+            "fr": "Long",
+            "de": "Lang"
           },
           "spec": {
             "en": "4 – 6 cm",
@@ -67,16 +73,14 @@
   ],
   "seasonality": ["feb"],
   "images": {
-    "primary": "/images/products/official/broccoli.png",
+    "primary": "/images/products/broccoli/montana-frozen-broccoli.jpg",
     "gallery": [
-      "/images/products/lifestyle/broccoli.jpg",
-      "/images/products/stock/broccoli-1.jpg",
-      "/images/products/stock/broccoli-2.jpg",
-      "/images/products/real/broccoli-1.jpg",
-      "/images/products/real/broccoli-2.jpg",
-      "/images/products/real/broccoli-3.jpg"
+      "/images/products/broccoli/montana-frozen-broccoli-1.jpg",
+      "/images/products/broccoli/montana-frozen-broccoli-2.jpg",
+      "/images/products/broccoli/montana-frozen-broccoli-3.jpg",
+      "/images/products/broccoli/montana-frozen-broccoli-pack.png"
     ],
-    "packaging": []
+    "packaging": ["/images/products/broccoli/montana-frozen-broccoli-pack.png"]
   },
   "relatedSlugs": ["cauliflower", "mixed-vegetables"]
 }

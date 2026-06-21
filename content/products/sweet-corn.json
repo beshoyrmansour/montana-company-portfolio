@@ -3,17 +3,20 @@
   "name": {
     "en": "Sweet Corn",
     "ar": "ذرة حلوة",
-    "fr": "Maïs Sucré"
+    "fr": "Maïs Sucré",
+    "de": "Zuckermais"
   },
   "shortDescription": {
     "en": "Home grown of highest quality seeds — supervised by experts due to the sensitivity of the process.",
     "ar": "مزروعة منزلياً من أجود البذور - يشرف عليها خبراء نظراً لحساسية العملية.",
-    "fr": "Cultivé à partir des meilleures semences — supervisé par des experts."
+    "fr": "Cultivé à partir des meilleures semences — supervisé par des experts.",
+    "de": "Eigenangebaut aus hochwertigstem Saatgut — von Experten betreut, da der Prozess sehr sensibel ist."
   },
   "description": {
     "en": "Home grown of the highest seeds, the harvest & production process are supervised by experts as they are very sensitive. Appealing to all ages, sweet corn is considered one of the special products of the company. Produced in two forms: Kernel and on Cob.",
     "ar": "مزروعة منزلياً من أعلى البذور، تتم عملية الحصاد والإنتاج تحت إشراف خبراء نظراً لحساسيتها. ذرة حلوة جذابة لجميع الأعمار، وتعتبر من المنتجات الخاصة للشركة.",
-    "fr": "Montana cultive son propre maïs doux avec les meilleures semences récoltées. Le processus du maïs sucré est supervisé par des experts comme ils sont très sensibles."
+    "fr": "Montana cultive son propre maïs doux avec les meilleures semences récoltées. Le processus du maïs sucré est supervisé par des experts comme ils sont très sensibles.",
+    "de": "Eigenangebaut aus bestem Saatgut; Ernte und Produktion werden von Experten betreut, da sie sehr sensibel sind. Zuckermais spricht alle Altersgruppen an und zählt zu den besonderen Produkten des Unternehmens. In zwei Formen erhältlich: Körner und am Kolben."
   },
   "category": "vegetable",
   "featured": false,
@@ -23,14 +26,16 @@
       "name": {
         "en": "Sweet corn (kernel)",
         "ar": "ذرة حلوة (بذور)",
-        "fr": "Maïs doux (grains)"
+        "fr": "Maïs doux (grains)",
+        "de": "Zuckermais (Körner)"
       }
     },
     {
       "name": {
         "en": "Sweet corn on cob",
         "ar": "ذرة حلوة (كوز)",
-        "fr": "Maïs doux sur épi"
+        "fr": "Maïs doux sur épi",
+        "de": "Zuckermais am Kolben"
       }
     }
   ],
@@ -48,16 +53,14 @@
   ],
   "seasonality": ["jul"],
   "images": {
-    "primary": "/images/products/official/sweet-corn.png",
+    "primary": "/images/products/sweet-corn/montana-frozen-sweet-corn.jpg",
     "gallery": [
-      "/images/products/lifestyle/sweet-corn.jpg",
-      "/images/products/stock/sweet-corn-1.jpg",
-      "/images/products/stock/sweet-corn-2.jpg",
-      "/images/products/real/sweet-corn-1.jpg",
-      "/images/products/real/sweet-corn-2.jpg",
-      "/images/products/real/sweet-corn-3.jpg"
+      "/images/products/sweet-corn/montana-frozen-sweet-corn-1.jpg",
+      "/images/products/sweet-corn/montana-frozen-sweet-corn-2.jpg",
+      "/images/products/sweet-corn/montana-frozen-sweet-corn-3.jpg",
+      "/images/products/sweet-corn/montana-frozen-sweet-corn-pack.png"
     ],
-    "packaging": []
+    "packaging": ["/images/products/sweet-corn/montana-frozen-sweet-corn-pack.png"]
   },
   "relatedSlugs": ["peas-and-carrots", "mixed-vegetables", "carrots"]
 }

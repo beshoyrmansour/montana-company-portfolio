@@ -21,19 +21,19 @@ const MONTHS = [
 
 type MonthKey = (typeof MONTHS)[number];
 
-const MONTH_LABELS: Record<MonthKey, { en: string; ar: string; fr: string }> = {
-  jan: { en: 'Jan', ar: 'يناير', fr: 'Jan' },
-  feb: { en: 'Feb', ar: 'فبراير', fr: 'Fév' },
-  mar: { en: 'Mar', ar: 'مارس', fr: 'Mar' },
-  apr: { en: 'Apr', ar: 'أبريل', fr: 'Avr' },
-  may: { en: 'May', ar: 'مايو', fr: 'Mai' },
-  jun: { en: 'Jun', ar: 'يونيو', fr: 'Juin' },
-  jul: { en: 'Jul', ar: 'يوليو', fr: 'Juil' },
-  aug: { en: 'Aug', ar: 'أغسطس', fr: 'Août' },
-  sep: { en: 'Sep', ar: 'سبتمبر', fr: 'Sep' },
-  oct: { en: 'Oct', ar: 'أكتوبر', fr: 'Oct' },
-  nov: { en: 'Nov', ar: 'نوفمبر', fr: 'Nov' },
-  dec: { en: 'Dec', ar: 'ديسمبر', fr: 'Déc' },
+const MONTH_LABELS: Record<MonthKey, { en: string; ar: string; fr: string; de: string }> = {
+  jan: { en: 'Jan', ar: 'يناير', fr: 'Jan', de: 'Jan' },
+  feb: { en: 'Feb', ar: 'فبراير', fr: 'Fév', de: 'Feb' },
+  mar: { en: 'Mar', ar: 'مارس', fr: 'Mar', de: 'Mär' },
+  apr: { en: 'Apr', ar: 'أبريل', fr: 'Avr', de: 'Apr' },
+  may: { en: 'May', ar: 'مايو', fr: 'Mai', de: 'Mai' },
+  jun: { en: 'Jun', ar: 'يونيو', fr: 'Juin', de: 'Jun' },
+  jul: { en: 'Jul', ar: 'يوليو', fr: 'Juil', de: 'Jul' },
+  aug: { en: 'Aug', ar: 'أغسطس', fr: 'Août', de: 'Aug' },
+  sep: { en: 'Sep', ar: 'سبتمبر', fr: 'Sep', de: 'Sep' },
+  oct: { en: 'Oct', ar: 'أكتوبر', fr: 'Oct', de: 'Okt' },
+  nov: { en: 'Nov', ar: 'نوفمبر', fr: 'Nov', de: 'Nov' },
+  dec: { en: 'Dec', ar: 'ديسمبر', fr: 'Déc', de: 'Dez' },
 };
 
 interface HarvestCalendarProps {

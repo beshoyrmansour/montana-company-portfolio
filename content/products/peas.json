@@ -3,17 +3,20 @@
   "name": {
     "en": "Peas",
     "ar": "بازلاء",
-    "fr": "Petits Pois"
+    "fr": "Petits Pois",
+    "de": "Erbsen"
   },
   "shortDescription": {
     "en": "Best quality fresh peas of local and Greek types — harvested at peak sweetness.",
     "ar": "بازلاء طازجة عالية الجودة من أنواع محلية ويونانية - تُحصد في ذروة الحلاوة.",
-    "fr": "Petits pois frais de meilleure qualité, types local et grec — récoltés à pic de douceur."
+    "fr": "Petits pois frais de meilleure qualité, types local et grec — récoltés à pic de douceur.",
+    "de": "Beste frische Erbsen lokaler und griechischer Sorten — auf dem Höhepunkt der Süße geerntet."
   },
   "description": {
     "en": "Selecting the best Quality fresh peas of local and Greek Types. Montana schedules its peas production process with the beginning of the season to ensure freshness, tenderness and sugar high concentration. Peas are divided into 3 sizes: small, medium, and large.",
     "ar": "نحن نختار البازلاء الطازجة الأفضل جودة من الأنواع المحلية واليونانية، وتنفذ مونتانا عملية إنتاج البازلاء بالتزامن مع بداية الموسم لضمان طازجة، طرية، مع الاحتفاظ بتركيز عالٍ من السكر. تنقسم البازلاء إلى ثلاثة أحجام: صغيرة، ومتوسطة، وكبيرة الحجم.",
-    "fr": "Avec une sélection de la meilleure qualité de pois frais de type local et grec, Montana met à l'œuvre le processus de production de pois qui coïncide avec le début de saison."
+    "fr": "Avec une sélection de la meilleure qualité de pois frais de type local et grec, Montana met à l'œuvre le processus de production de pois qui coïncide avec le début de saison.",
+    "de": "Wir wählen beste frische Erbsen lokaler und griechischer Sorten. Montana richtet die Erbsenproduktion nach dem Saisonbeginn aus, um Frische, Zartheit und einen hohen Zuckergehalt zu sichern. Erbsen werden in 3 Größen unterteilt: klein, mittel und groß."
   },
   "category": "vegetable",
   "featured": false,
@@ -23,14 +26,16 @@
       "name": {
         "en": "Green peas",
         "ar": "بسلة خضراء",
-        "fr": "Petits pois verts"
+        "fr": "Petits pois verts",
+        "de": "Grüne Erbsen"
       }
     },
     {
       "name": {
         "en": "Dry peas (less sugar)",
         "ar": "بسلة جافة",
-        "fr": "Pois secs (moins de sucre)"
+        "fr": "Pois secs (moins de sucre)",
+        "de": "Trockene Erbsen (weniger Zucker)"
       }
     }
   ],
@@ -48,16 +53,12 @@
   ],
   "seasonality": ["jan", "feb", "dec"],
   "images": {
-    "primary": "/images/products/official/green-peas.png",
+    "primary": "/images/products/peas/montana-frozen-peas.jpg",
     "gallery": [
-      "/images/products/lifestyle/peas.jpg",
-      "/images/products/stock/peas-1.jpg",
-      "/images/products/stock/peas-2.jpg",
-      "/images/products/real/peas-1.jpg",
-      "/images/products/real/peas-2.jpg",
-      "/images/products/real/peas-3.jpg"
+      "/images/products/peas/montana-frozen-peas-1.jpg",
+      "/images/products/peas/montana-frozen-peas-pack.png"
     ],
-    "packaging": []
+    "packaging": ["/images/products/peas/montana-frozen-peas-pack.png"]
   },
   "relatedSlugs": ["peas-and-carrots", "green-beans", "mixed-vegetables"]
 }

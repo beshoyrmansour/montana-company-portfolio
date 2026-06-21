@@ -4,24 +4,28 @@
     "eyebrow": {
       "en": "Get in touch",
       "ar": "تواصل معنا",
-      "fr": "Nous contacter"
+      "fr": "Nous contacter",
+      "de": "Kontakt aufnehmen"
     },
     "headline": {
       "lead": {
         "en": "Let's",
         "ar": "دعنا",
-        "fr": "Parlons"
+        "fr": "Parlons",
+        "de": "Sprechen wir"
       },
       "em": {
         "en": "talk shipments.",
         "ar": "نتحدث عن الشحنات.",
-        "fr": "expéditions."
+        "fr": "expéditions.",
+        "de": "über Lieferungen."
       }
     },
     "subtitle": {
       "en": "Our export desk replies within one business day, in your language. Send a product and a quantity — we'll come back with specs, MOQ, lead time and price.",
       "ar": "مكتب التصدير لدينا يرد خلال يوم عمل واحد، بلغتك. أرسل المنتج والكمية — سنعود إليك بالمواصفات والحد الأدنى للطلب ومدة التسليم والسعر.",
-      "fr": "Notre service export répond sous un jour ouvré, dans votre langue. Indiquez un produit et une quantité — nous reviendrons avec les spécifications, la quantité minimale, le délai et le prix."
+      "fr": "Notre service export répond sous un jour ouvré, dans votre langue. Indiquez un produit et une quantité — nous reviendrons avec les spécifications, la quantité minimale, le délai et le prix.",
+      "de": "Unser Export-Team antwortet innerhalb eines Werktags, in Ihrer Sprache. Senden Sie Produkt und Menge — wir liefern Spezifikationen, MOQ, Lieferzeit und Preis."
     }
   },
   "form": {
@@ -29,7 +33,8 @@
     "reasonLabel": {
       "en": "What can we help with?",
       "ar": "كيف يمكننا المساعدة؟",
-      "fr": "Comment pouvons-nous vous aider ?"
+      "fr": "Comment pouvons-nous vous aider ?",
+      "de": "Wie können wir helfen?"
     },
     "reasons": [
       {
@@ -37,7 +42,8 @@
         "label": {
           "en": "New sourcing inquiry",
           "ar": "استفسار توريد جديد",
-          "fr": "Nouvelle demande de sourcing"
+          "fr": "Nouvelle demande de sourcing",
+          "de": "Neue Beschaffungsanfrage"
         }
       },
       {
@@ -45,7 +51,8 @@
         "label": {
           "en": "Existing customer · order",
           "ar": "عميل حالي · طلب",
-          "fr": "Client existant · commande"
+          "fr": "Client existant · commande",
+          "de": "Bestandskunde · Bestellung"
         }
       },
       {
@@ -53,7 +60,8 @@
         "label": {
           "en": "Sample request",
           "ar": "طلب عينة",
-          "fr": "Demande d'échantillon"
+          "fr": "Demande d'échantillon",
+          "de": "Musteranfrage"
         }
       },
       {
@@ -61,7 +69,8 @@
         "label": {
           "en": "Press · media",
           "ar": "صحافة · إعلام",
-          "fr": "Presse · média"
+          "fr": "Presse · média",
+          "de": "Presse · Medien"
         }
       },
       {
@@ -69,7 +78,8 @@
         "label": {
           "en": "Careers · partnerships",
           "ar": "وظائف · شراكات",
-          "fr": "Carrières · partenariats"
+          "fr": "Carrières · partenariats",
+          "de": "Karriere · Partnerschaften"
         }
       },
       {
@@ -77,17 +87,32 @@
         "label": {
           "en": "Something else",
           "ar": "شيء آخر",
-          "fr": "Autre"
+          "fr": "Autre",
+          "de": "Etwas anderes"
         }
       }
     ],
     "fields": {
       "name": {
-        "label": { "en": "Full name", "ar": "الاسم الكامل", "fr": "Nom complet" },
-        "placeholder": { "en": "Maya Hassan", "ar": "مايا حسن", "fr": "Maya Hassan" }
+        "label": {
+          "en": "Full name",
+          "ar": "الاسم الكامل",
+          "fr": "Nom complet",
+          "de": "Vollständiger Name"
+        },
+        "placeholder": {
+          "en": "Maya Hassan",
+          "ar": "مايا حسن",
+          "fr": "Maya Hassan"
+        }
       },
       "company": {
-        "label": { "en": "Company", "ar": "الشركة", "fr": "Société" },
+        "label": {
+          "en": "Company",
+          "ar": "الشركة",
+          "fr": "Société",
+          "de": "Unternehmen"
+        },
         "placeholder": {
           "en": "Hassan Importers Ltd.",
           "ar": "شركة حسن للاستيراد",
@@ -95,14 +120,20 @@
         }
       },
       "email": {
-        "label": { "en": "Email", "ar": "البريد الإلكتروني", "fr": "E-mail" },
+        "label": {
+          "en": "Email",
+          "ar": "البريد الإلكتروني",
+          "fr": "E-mail",
+          "de": "E-Mail"
+        },
         "placeholder": "trade@yourcompany.com"
       },
       "country": {
         "label": {
           "en": "Destination country",
           "ar": "دولة الوجهة",
-          "fr": "Pays de destination"
+          "fr": "Pays de destination",
+          "de": "Zielland"
         },
         "placeholder": {
           "en": "United Arab Emirates",
@@ -114,67 +145,102 @@
         "label": {
           "en": "Tell us a bit more",
           "ar": "أخبرنا المزيد",
-          "fr": "Parlez-nous plus en détail"
+          "fr": "Parlez-nous plus en détail",
+          "de": "Erzählen Sie uns mehr"
         },
         "placeholder": {
           "en": "Product · quantity · target arrival date · any specs we should know about.",
           "ar": "المنتج · الكمية · تاريخ الوصول المستهدف · أي مواصفات يجب أن نعرفها.",
-          "fr": "Produit · quantité · date d'arrivée souhaitée · toute spécification utile."
+          "fr": "Produit · quantité · date d'arrivée souhaitée · toute spécification utile.",
+          "de": "Produkt · Menge · gewünschtes Ankunftsdatum · relevante Spezifikationen."
         }
       }
     },
     "note": {
       "en": "We reply within one business day. Your details stay between us — no third-party tracking.",
       "ar": "نرد في غضون يوم عمل واحد. تفاصيلك تبقى بيننا — لا تتبع من طرف ثالث.",
-      "fr": "Nous répondons sous un jour ouvré. Vos coordonnées restent entre nous — pas de suivi tiers."
+      "fr": "Nous répondons sous un jour ouvré. Vos coordonnées restent entre nous — pas de suivi tiers.",
+      "de": "Wir antworten innerhalb eines Werktags. Ihre Daten bleiben bei uns — kein Tracking durch Dritte."
     },
     "submit": {
       "en": "Send to the export desk",
       "ar": "إرسال إلى مكتب التصدير",
-      "fr": "Envoyer au service export"
+      "fr": "Envoyer au service export",
+      "de": "An das Export-Team senden"
     },
     "successTitle": {
       "en": "Message received.",
       "ar": "تم استلام الرسالة.",
-      "fr": "Message reçu."
+      "fr": "Message reçu.",
+      "de": "Nachricht erhalten."
     },
     "successBody": {
       "en": "Thank you. Our export desk will reply within one business day. Check your spam folder if you don't hear from us by tomorrow.",
       "ar": "شكراً لك. سيرد مكتب التصدير لدينا في غضون يوم عمل واحد. تحقق من مجلد الرسائل غير المرغوب فيها إذا لم تسمع منا بحلول الغد.",
-      "fr": "Merci. Notre service export vous répondra sous un jour ouvré. Vérifiez votre dossier spam si vous n'avez pas de nouvelles d'ici demain."
+      "fr": "Merci. Notre service export vous répondra sous un jour ouvré. Vérifiez votre dossier spam si vous n'avez pas de nouvelles d'ici demain.",
+      "de": "Vielen Dank. Unser Export-Team antwortet innerhalb eines Werktags. Prüfen Sie Ihren Spam-Ordner, falls Sie bis morgen nichts hören."
     },
     "sendAnother": {
       "en": "Send another",
       "ar": "إرسال رسالة أخرى",
-      "fr": "Envoyer un autre message"
+      "fr": "Envoyer un autre message",
+      "de": "Weitere senden"
     },
-    "telLabel": { "en": "Tel", "ar": "هاتف", "fr": "Tél" },
-    "emailLabel": { "en": "Email", "ar": "بريد", "fr": "E-mail" },
-    "hoursLabel": { "en": "Hours", "ar": "دوام", "fr": "Horaires" }
+    "telLabel": {
+      "en": "Tel",
+      "ar": "هاتف",
+      "fr": "Tél",
+      "de": "Tel"
+    },
+    "emailLabel": {
+      "en": "Email",
+      "ar": "بريد",
+      "fr": "E-mail",
+      "de": "E-Mail"
+    },
+    "hoursLabel": {
+      "en": "Hours",
+      "ar": "دوام",
+      "fr": "Horaires",
+      "de": "Öffnungszeiten"
+    }
   },
   "offices": {
     "enabled": true,
     "eyebrow": {
       "en": "Three desks, one company",
       "ar": "ثلاثة مكاتب، شركة واحدة",
-      "fr": "Trois bureaux, une seule entreprise"
+      "fr": "Trois bureaux, une seule entreprise",
+      "de": "Drei Standorte, ein Unternehmen"
     },
     "title": {
       "lead": {
         "en": "Where to",
         "ar": "أين",
-        "fr": "Où nous"
+        "fr": "Où nous",
+        "de": "Wo Sie uns"
       },
       "em": {
         "en": "find us.",
         "ar": "تجدنا.",
-        "fr": "trouver."
+        "fr": "trouver.",
+        "de": "finden."
       }
     },
     "items": [
       {
-        "city": { "en": "Qalyub HQ", "ar": "القليوب · المقر الرئيسي", "fr": "Qalyub · siège" },
-        "country": { "en": "Egypt", "ar": "مصر", "fr": "Égypte" },
+        "city": {
+          "en": "Qalyub HQ",
+          "ar": "القليوب · المقر الرئيسي",
+          "fr": "Qalyub · siège",
+          "de": "Qalyub Zentrale"
+        },
+        "country": {
+          "en": "Egypt",
+          "ar": "مصر",
+          "fr": "Égypte",
+          "de": "Ägypten"
+        },
         "address": {
           "en": "Industrial Zone Block 4, Qalyub Governorate",
           "ar": "المنطقة الصناعية بلوك 4، محافظة القليوبية",
@@ -185,17 +251,29 @@
         "role": {
           "en": "Production · export desk · quality lab",
           "ar": "إنتاج · مكتب التصدير · مختبر الجودة",
-          "fr": "Production · service export · laboratoire qualité"
+          "fr": "Production · service export · laboratoire qualité",
+          "de": "Produktion · Export-Team · Qualitätslabor"
         },
         "hours": {
           "en": "Sun–Thu · 08:00–17:00 EET",
           "ar": "الأحد–الخميس · 08:00–17:00 توقيت القاهرة",
-          "fr": "Dim–Jeu · 08h00–17h00 EET"
+          "fr": "Dim–Jeu · 08h00–17h00 EET",
+          "de": "So–Do · 08:00–17:00 EET"
         }
       },
       {
-        "city": { "en": "Cairo", "ar": "القاهرة", "fr": "Le Caire" },
-        "country": { "en": "Egypt", "ar": "مصر", "fr": "Égypte" },
+        "city": {
+          "en": "Cairo",
+          "ar": "القاهرة",
+          "fr": "Le Caire",
+          "de": "Kairo"
+        },
+        "country": {
+          "en": "Egypt",
+          "ar": "مصر",
+          "fr": "Égypte",
+          "de": "Ägypten"
+        },
         "address": {
           "en": "6 Salah Salem St., Heliopolis, Cairo 11321",
           "ar": "6 شارع صلاح سالم، مصر الجديدة، القاهرة 11321",
@@ -206,17 +284,27 @@
         "role": {
           "en": "Commercial office · MENA accounts",
           "ar": "مكتب تجاري · حسابات الشرق الأوسط وشمال أفريقيا",
-          "fr": "Bureau commercial · comptes MENA"
+          "fr": "Bureau commercial · comptes MENA",
+          "de": "Vertriebsbüro · MENA-Kunden"
         },
         "hours": {
           "en": "Sun–Thu · 09:00–18:00 EET",
           "ar": "الأحد–الخميس · 09:00–18:00 توقيت القاهرة",
-          "fr": "Dim–Jeu · 09h00–18h00 EET"
+          "fr": "Dim–Jeu · 09h00–18h00 EET",
+          "de": "So–Do · 09:00–18:00 EET"
         }
       },
       {
-        "city": { "en": "Dubai", "ar": "دبي", "fr": "Dubaï" },
-        "country": { "en": "UAE", "ar": "الإمارات", "fr": "EAU" },
+        "city": {
+          "en": "Dubai",
+          "ar": "دبي",
+          "fr": "Dubaï"
+        },
+        "country": {
+          "en": "UAE",
+          "ar": "الإمارات",
+          "fr": "EAU"
+        },
         "address": {
           "en": "Jumeirah Lake Towers, Cluster D — Floor 12",
           "ar": "أبراج بحيرات جميرا، عنقود D — الطابق 12",
@@ -227,12 +315,14 @@
         "role": {
           "en": "Gulf cooperation accounts",
           "ar": "حسابات دول الخليج",
-          "fr": "Comptes du Conseil de coopération du Golfe"
+          "fr": "Comptes du Conseil de coopération du Golfe",
+          "de": "Golfstaaten-Kunden"
         },
         "hours": {
           "en": "Sun–Thu · 09:00–17:00 GST",
           "ar": "الأحد–الخميس · 09:00–17:00 توقيت الخليج",
-          "fr": "Dim–Jeu · 09h00–17h00 GST"
+          "fr": "Dim–Jeu · 09h00–17h00 GST",
+          "de": "So–Do · 09:00–17:00 GST"
         }
       }
     ]
@@ -242,7 +332,8 @@
     "eyebrow": {
       "en": "Our home",
       "ar": "موطننا",
-      "fr": "Notre maison"
+      "fr": "Notre maison",
+      "de": "Unser Zuhause"
     },
     "title": {
       "lead": {
@@ -259,14 +350,16 @@
     "body": {
       "en": "The 50,000 m² facility is twenty minutes north of Cairo on the Delta highway. Our production, quality lab and export desk all live here.",
       "ar": "منشأة 50,000 متر مربع تبعد عشرين دقيقة شمال القاهرة على طريق الدلتا السريع. الإنتاج ومختبر الجودة ومكتب التصدير لدينا جميعاً موجودون هنا.",
-      "fr": "L'installation de 50 000 m² se trouve à vingt minutes au nord du Caire sur l'autoroute du delta. Notre production, notre laboratoire qualité et notre service export y sont tous installés."
+      "fr": "L'installation de 50 000 m² se trouve à vingt minutes au nord du Caire sur l'autoroute du delta. Notre production, notre laboratoire qualité et notre service export y sont tous installés.",
+      "de": "Die 50.000 m² große Anlage liegt zwanzig Minuten nördlich von Kairo an der Delta-Autobahn. Produktion, Qualitätslabor und Export-Team sind hier vereint."
     },
     "actions": [
       {
         "label": {
           "en": "View on Google Maps",
           "ar": "افتح في خرائط Google",
-          "fr": "Voir sur Google Maps"
+          "fr": "Voir sur Google Maps",
+          "de": "Auf Google Maps ansehen"
         },
         "href": "https://maps.app.goo.gl/DJhBdc8WZ1mrRyXV7",
         "variant": "ghost",
@@ -276,17 +369,35 @@
         "label": {
           "en": "Plan a facility visit",
           "ar": "خطّط لزيارة المنشأة",
-          "fr": "Planifier une visite"
+          "fr": "Planifier une visite",
+          "de": "Werksbesuch planen"
         },
         "href": "mailto:montana@maamoungrp.com?subject=Facility%20visit",
         "variant": "ghost"
       }
     ],
     "svgLabels": {
-      "hq": { "en": "Qalyub", "ar": "القليوب", "fr": "Qalyub" },
-      "hqSub": { "en": "Montana HQ", "ar": "مونتانا · المقر", "fr": "Siège Montana" },
-      "cairo": { "en": "Cairo", "ar": "القاهرة", "fr": "Le Caire" },
-      "alexandria": { "en": "Alexandria", "ar": "الإسكندرية", "fr": "Alexandrie" }
+      "hq": {
+        "en": "Qalyub",
+        "ar": "القليوب",
+        "fr": "Qalyub"
+      },
+      "hqSub": {
+        "en": "Montana HQ",
+        "ar": "مونتانا · المقر",
+        "fr": "Siège Montana"
+      },
+      "cairo": {
+        "en": "Cairo",
+        "ar": "القاهرة",
+        "fr": "Le Caire",
+        "de": "Kairo"
+      },
+      "alexandria": {
+        "en": "Alexandria",
+        "ar": "الإسكندرية",
+        "fr": "Alexandrie"
+      }
     }
   },
   "faq": {
@@ -294,18 +405,21 @@
     "eyebrow": {
       "en": "Common questions",
       "ar": "أسئلة شائعة",
-      "fr": "Questions fréquentes"
+      "fr": "Questions fréquentes",
+      "de": "Häufige Fragen"
     },
     "title": {
       "lead": {
         "en": "Before you",
         "ar": "قبل أن",
-        "fr": "Avant d'"
+        "fr": "Avant d'",
+        "de": "Bevor Sie"
       },
       "em": {
         "en": "send a message.",
         "ar": "ترسل رسالة.",
-        "fr": "envoyer un message."
+        "fr": "envoyer un message.",
+        "de": "schreiben."
       }
     },
     "items": [
@@ -313,48 +427,56 @@
         "q": {
           "en": "What is your MOQ?",
           "ar": "ما هو الحد الأدنى للطلب؟",
-          "fr": "Quelle est votre quantité minimale de commande ?"
+          "fr": "Quelle est votre quantité minimale de commande ?",
+          "de": "Wie hoch ist Ihre Mindestbestellmenge?"
         },
         "a": {
           "en": "Typically 1 full container (20' reefer, ~10 t) per product. For mixed orders, we accept blended containers starting from 12 t total.",
           "ar": "عادة حاوية كاملة واحدة (20 قدم مبردة، حوالي 10 طن) لكل منتج. للطلبات المختلطة، نقبل حاويات مدمجة ابتداءً من 12 طناً إجمالياً.",
-          "fr": "Généralement 1 conteneur complet (20' réfrigéré, ~10 t) par produit. Pour les commandes mixtes, nous acceptons les conteneurs combinés à partir de 12 t au total."
+          "fr": "Généralement 1 conteneur complet (20' réfrigéré, ~10 t) par produit. Pour les commandes mixtes, nous acceptons les conteneurs combinés à partir de 12 t au total.",
+          "de": "In der Regel 1 voller Container (20-Fuß-Kühlcontainer, ~10 t) pro Produkt. Für Mischbestellungen akzeptieren wir kombinierte Container ab insgesamt 12 t."
         }
       },
       {
         "q": {
           "en": "How fast can you ship?",
           "ar": "ما مدى سرعة الشحن لديكم؟",
-          "fr": "Quelle est votre rapidité d'expédition ?"
+          "fr": "Quelle est votre rapidité d'expédition ?",
+          "de": "Wie schnell können Sie liefern?"
         },
         "a": {
           "en": "Same-week for MENA destinations; 10–18 days for Europe; 18–28 days for APAC & Americas. We confirm vessel before issuing PI.",
           "ar": "نفس الأسبوع لوجهات الشرق الأوسط وشمال أفريقيا؛ 10–18 يوماً لأوروبا؛ 18–28 يوماً لآسيا والمحيط الهادئ والأمريكتين. نؤكد السفينة قبل إصدار الفاتورة المبدئية.",
-          "fr": "Même semaine pour les destinations MENA ; 10–18 jours pour l'Europe ; 18–28 jours pour APAC et Amériques. Nous confirmons le navire avant d'émettre la facture pro forma."
+          "fr": "Même semaine pour les destinations MENA ; 10–18 jours pour l'Europe ; 18–28 jours pour APAC et Amériques. Nous confirmons le navire avant d'émettre la facture pro forma.",
+          "de": "Noch in derselben Woche für MENA-Ziele; 10–18 Tage für Europa; 18–28 Tage für APAC & Amerika. Wir bestätigen das Schiff vor Ausstellung der Proformarechnung."
         }
       },
       {
         "q": {
           "en": "Do you handle customs documentation?",
           "ar": "هل تتعاملون مع وثائق الجمارك؟",
-          "fr": "Gérez-vous la documentation douanière ?"
+          "fr": "Gérez-vous la documentation douanière ?",
+          "de": "Übernehmen Sie die Zolldokumentation?"
         },
         "a": {
           "en": "Yes. COO, phytosanitary, health certificate, halal, kosher — included. Pre-clearance available for EU, GCC and US destinations.",
           "ar": "نعم. شهادة المنشأ، الصحة النباتية، الشهادة الصحية، الحلال، الكوشر — كلها مشمولة. التخليص المسبق متاح لوجهات الاتحاد الأوروبي ودول الخليج والولايات المتحدة.",
-          "fr": "Oui. COO, phytosanitaire, certificat sanitaire, halal, casher — inclus. Pré-dédouanement disponible pour les destinations UE, GCC et USA."
+          "fr": "Oui. COO, phytosanitaire, certificat sanitaire, halal, casher — inclus. Pré-dédouanement disponible pour les destinations UE, GCC et USA.",
+          "de": "Ja. Ursprungszeugnis, Pflanzengesundheits- und Gesundheitszeugnis, Halal, Koscher — inklusive. Vorabverzollung für EU-, GCC- und US-Ziele verfügbar."
         }
       },
       {
         "q": {
           "en": "Private label / custom blends?",
           "ar": "العلامات الخاصة / الخلطات المخصصة؟",
-          "fr": "Marques privées / mélanges sur mesure ?"
+          "fr": "Marques privées / mélanges sur mesure ?",
+          "de": "Eigenmarke / individuelle Mischungen?"
         },
         "a": {
           "en": "Yes, from 8 t per SKU. Lead time +2 weeks for label proofing and first production.",
           "ar": "نعم، من 8 طن لكل وحدة SKU. مدة التنفيذ +أسبوعين لمراجعة الملصقات والإنتاج الأول.",
-          "fr": "Oui, à partir de 8 t par SKU. Délai +2 semaines pour la validation des étiquettes et la première production."
+          "fr": "Oui, à partir de 8 t par SKU. Délai +2 semaines pour la validation des étiquettes et la première production.",
+          "de": "Ja, ab 8 t pro Artikel. Lieferzeit +2 Wochen für Etikettenfreigabe und Erstproduktion."
         }
       }
     ]

@@ -3,34 +3,39 @@
   "name": {
     "en": "Molokhia",
     "ar": "ملوخية",
-    "fr": "Molokheya"
+    "fr": "Molokheya",
+    "de": "Molokhia"
   },
   "shortDescription": {
     "en": "Egypt's signature green leaf — harvested and frozen within half an hour to preserve nutrition.",
     "ar": "ورقة مصر المميزة - تُحصد وتُجمد خلال نصف ساعة للحفاظ على القيمة الغذائية.",
-    "fr": "Le légume-feuille emblématique d'Égypte — récolté et surgelé en moins d'une demi-heure."
+    "fr": "Le légume-feuille emblématique d'Égypte — récolté et surgelé en moins d'une demi-heure.",
+    "de": "Ägyptens charakteristisches Blattgemüse — innerhalb einer halben Stunde geerntet und gefroren, um Nährstoffe zu bewahren."
   },
   "description": {
     "en": "Since molokhia is an Egyptian specialty, Montana is highly recognized for its popular signature variety. Harvested and delivered to the factory in less than half an hour, fresh leaves are washed, refinery-pulled and cut by the most advanced machinery, guaranteeing a defect-free product devoid of any additives or chemicals.",
     "ar": "مونتانا هي أول من صنع الملوخية المجمدة في العالم. باعتبارها الملوخية خاصة بالمصريين، فهي واحدة من المنتجات الأكثر شهرة بالنسبة لمونتانا. يجري حصادها وتسليمها إلى المصنع في أقل من نصف ساعة، وتحتفظ بأوراقها الطازجة تقطف بحرص، وتُقطع الياً باستخدام أكثر الآلات تقدماً لضمان منتج خالٍ من أي عيب أو أي إضافات أو مواد كيميائية.",
-    "fr": "La molokheya étant une spécialité égyptienne, Montana est reconnue pour sa molokheya signature populaire. Récoltées et livrées à l'usine en moins d'une demi-heure, les feuilles fraîches sont lavées, raffinées, tirées et coupées par les machines les plus avancées garantissant un produit parfait dépourvu de tout additif ou de produits chimiques."
+    "fr": "La molokheya étant une spécialité égyptienne, Montana est reconnue pour sa molokheya signature populaire. Récoltées et livrées à l'usine en moins d'une demi-heure, les feuilles fraîches sont lavées, raffinées, tirées et coupées par les machines les plus avancées garantissant un produit parfait dépourvu de tout additif ou de produits chimiques.",
+    "de": "Da Molokhia eine ägyptische Spezialität ist, ist Montana für seine beliebte Signatursorte bestens bekannt. In weniger als einer halben Stunde geerntet und ins Werk geliefert, werden die frischen Blätter gewaschen, gezupft und mit modernsten Maschinen geschnitten — für ein einwandfreies Produkt ohne jegliche Zusatzstoffe oder Chemikalien."
   },
   "category": "leaf",
-  "featured": true,
+  "featured": false,
   "badges": ["signature", "popular"],
   "varieties": [
     {
       "name": {
         "en": "Whole leaves",
         "ar": "أوراق كاملة",
-        "fr": "Feuilles entières"
+        "fr": "Feuilles entières",
+        "de": "Ganze Blätter"
       }
     },
     {
       "name": {
         "en": "Chopped",
         "ar": "مفروم",
-        "fr": "Hachée"
+        "fr": "Hachée",
+        "de": "Gehackt"
       }
     }
   ],
@@ -48,16 +53,14 @@
   ],
   "seasonality": ["jun", "jul", "aug", "sep", "oct"],
   "images": {
-    "primary": "/images/products/official/molokhia.png",
+    "primary": "/images/products/molokhia/montana-frozen-molokhia.jpg",
     "gallery": [
-      "/images/products/molokhia-pack.png",
-      "/images/products/stock/molokhia-1.jpg",
-      "/images/products/stock/molokhia-2.jpg",
-      "/images/products/real/molokhia-1.jpg",
-      "/images/products/real/molokhia-2.jpg",
-      "/images/products/real/molokhia-3.jpg"
+      "/images/products/molokhia/montana-frozen-molokhia-1.jpg",
+      "/images/products/molokhia/montana-frozen-molokhia-2.jpg",
+      "/images/products/molokhia/montana-frozen-molokhia-3.jpg",
+      "/images/products/molokhia/montana-frozen-molokhia-pack.png"
     ],
-    "packaging": ["/images/products/molokhia-pack.png"]
+    "packaging": ["/images/products/molokhia/montana-frozen-molokhia-pack.png"]
   },
   "relatedSlugs": ["spinach", "okra", "vine-leaves"]
 }

@@ -3,20 +3,23 @@
   "name": {
     "en": "Peas & Carrots",
     "ar": "بسلة بالجزر",
-    "fr": "Pois & Carottes"
+    "fr": "Pois & Carottes",
+    "de": "Erbsen & Karotten"
   },
   "shortDescription": {
     "en": "Premium peas and diced carrots in a perfect 1:1 ratio.",
     "ar": "بازلاء وجزر مكعب بنسبة مثالية ١:١.",
-    "fr": "Petits pois et carottes en dés dans un ratio parfait 1:1."
+    "fr": "Petits pois et carottes en dés dans un ratio parfait 1:1.",
+    "de": "Premium-Erbsen und Karottenwürfel im perfekten Verhältnis 1:1."
   },
   "description": {
     "en": "Like all products, Peas & Carrots are of finest quality mixed with a ratio of 1:1. Carrots cubed shape is used. Montana supplies other ratios according to customer's needs and requests.",
     "ar": "مثل جميع المنتجات، البازلاء والجزر هي أفضل نوعية مشكلة بنسبة ١:١. يستخدم الجزر مكعب الشكل.",
-    "fr": "Comme tous les produits, pois et carottes sont de la plus haute qualité mélangés avec un ratio de 1:1."
+    "fr": "Comme tous les produits, pois et carottes sont de la plus haute qualité mélangés avec un ratio de 1:1.",
+    "de": "Wie alle Produkte sind Erbsen & Karotten von feinster Qualität, gemischt im Verhältnis 1:1. Die Karotten werden gewürfelt. Montana liefert auf Wunsch auch andere Verhältnisse."
   },
   "category": "vegetable",
-  "featured": true,
+  "featured": false,
   "badges": ["popular"],
   "packaging": [
     {
@@ -32,16 +35,13 @@
   ],
   "seasonality": [],
   "images": {
-    "primary": "/images/products/official/peas-and-carrots.png",
+    "primary": "/images/products/peas-and-carrots/montana-frozen-peas-and-carrots.jpg",
     "gallery": [
-      "/images/products/peas-and-carrots-pack.png",
-      "/images/products/lifestyle/peas-and-carrots.jpg",
-      "/images/products/stock/peas-and-carrots-1.jpg",
-      "/images/products/stock/peas-and-carrots-2.jpg",
-      "/images/products/real/peas-and-carrots-1.jpg",
-      "/images/products/real/peas-and-carrots-2.jpg"
+      "/images/products/peas-and-carrots/montana-frozen-peas-and-carrots-1.jpg",
+      "/images/products/peas-and-carrots/montana-frozen-peas-and-carrots-2.jpg",
+      "/images/products/peas-and-carrots/montana-frozen-peas-and-carrots-3.jpg"
     ],
-    "packaging": ["/images/products/peas-and-carrots-pack.png"]
+    "packaging": []
   },
   "relatedSlugs": ["peas", "carrots", "mixed-vegetables"],
   "varieties": []

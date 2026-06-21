@@ -3,17 +3,20 @@
   "name": {
     "en": "Okra",
     "ar": "بامية",
-    "fr": "Cornes Grecques (Okra)"
+    "fr": "Cornes Grecques (Okra)",
+    "de": "Okra"
   },
   "shortDescription": {
     "en": "Distinguished okra grown from the best quality seeds — 5 size grades available.",
     "ar": "بامية متميزة من أفضل البذور — متوفرة في ٥ مراتب حجمية.",
-    "fr": "Okra distingué cultivé à partir des meilleures graines — 5 calibres disponibles."
+    "fr": "Okra distingué cultivé à partir des meilleures graines — 5 calibres disponibles.",
+    "de": "Hochwertige Okra aus bestem Saatgut — in 5 Größenklassen erhältlich."
   },
   "description": {
     "en": "Montana produces a distinguished Okra vegetable grown out of the best quality seeds, maintaining all nutritional benefits. Categorized into 5 grades by size for export and retail.",
     "ar": "تنتج مونتانا بامية متميزة من أجود البذور، محافظة على جميع القيم الغذائية. تصنف إلى ٥ مراتب وفقاً للحجم للتصدير والبيع بالتجزئة.",
-    "fr": "Montana produit un okra distingué cultivé à partir des graines de meilleure qualité, garantissant le maintien de toutes les propriétés nutritionnelles. Classé en 5 calibres par taille pour l'exportation et la vente au détail."
+    "fr": "Montana produit un okra distingué cultivé à partir des graines de meilleure qualité, garantissant le maintien de toutes les propriétés nutritionnelles. Classé en 5 calibres par taille pour l'exportation et la vente au détail.",
+    "de": "Montana produziert hochwertige Okra aus bestem Saatgut und bewahrt dabei alle Nährstoffe. In 5 Größenklassen für Export und Einzelhandel sortiert."
   },
   "category": "vegetable",
   "featured": true,
@@ -23,14 +26,16 @@
       "name": {
         "en": "Standard grades",
         "ar": "المراتب القياسية",
-        "fr": "Calibres standard"
+        "fr": "Calibres standard",
+        "de": "Standardgrößen"
       },
       "sizes": [
         {
           "label": {
             "en": "Extra",
             "ar": "اكسترا",
-            "fr": "Extra"
+            "fr": "Extra",
+            "de": "Extra"
           },
           "spec": {
             "en": "0.5 – 1.5 cm",
@@ -42,7 +47,8 @@
           "label": {
             "en": "Zero",
             "ar": "صفر",
-            "fr": "Zéro"
+            "fr": "Zéro",
+            "de": "Zero"
           },
           "spec": {
             "en": "1.6 – 2.5 cm",
@@ -54,7 +60,8 @@
           "label": {
             "en": "Fine",
             "ar": "ممتازة",
-            "fr": "Fine"
+            "fr": "Fine",
+            "de": "Fein"
           },
           "spec": {
             "en": "2.6 – 3.5 cm",
@@ -66,7 +73,8 @@
           "label": {
             "en": "No. 1",
             "ar": "رقم ١",
-            "fr": "No. 1"
+            "fr": "No. 1",
+            "de": "Nr. 1"
           },
           "spec": {
             "en": "3.6 – 4.5 cm",
@@ -78,7 +86,8 @@
           "label": {
             "en": "No. 2",
             "ar": "رقم ٢",
-            "fr": "No. 2"
+            "fr": "No. 2",
+            "de": "Nr. 2"
           },
           "spec": {
             "en": "4.6 – 5.5 cm",
@@ -103,15 +112,14 @@
   ],
   "seasonality": ["jun", "jul", "aug", "sep"],
   "images": {
-    "primary": "/images/products/official/okra-extra.png",
+    "primary": "/images/products/okra/montana-frozen-okra.jpg",
     "gallery": [
-      "/images/products/stock/okra-1.jpg",
-      "/images/products/stock/okra-2.jpg",
-      "/images/products/real/okra-1.jpg",
-      "/images/products/real/okra-2.jpg",
-      "/images/products/real/okra-3.jpg"
+      "/images/products/okra/montana-frozen-okra-1.jpg",
+      "/images/products/okra/montana-frozen-okra-2.jpg",
+      "/images/products/okra/montana-frozen-okra-3.jpg",
+      "/images/products/okra/montana-frozen-okra-pack.png"
     ],
-    "packaging": []
+    "packaging": ["/images/products/okra/montana-frozen-okra-pack.png"]
   },
   "relatedSlugs": ["molokhia", "artichoke", "vine-leaves"]
 }

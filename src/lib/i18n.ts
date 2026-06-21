@@ -6,11 +6,10 @@
  * exports generateStaticParams that enumerates locales.
  */
 
-export const locales = ['en', 'ar', 'fr'] as const;
+export const locales = ['en', 'ar', 'fr', 'de'] as const;
 export type Locale = (typeof locales)[number];
 
-export const defaultLocale: Locale =
-  (process.env.NEXT_PUBLIC_DEFAULT_LOCALE as Locale) ?? 'en';
+export const defaultLocale: Locale = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE as Locale) ?? 'en';
 
 export const rtlLocales: ReadonlyArray<Locale> = ['ar'];
 
@@ -30,6 +29,7 @@ export const localeLabels: Record<Locale, { native: string; iso: string }> = {
   en: { native: 'English', iso: 'en' },
   ar: { native: 'العربية', iso: 'ar' },
   fr: { native: 'Français', iso: 'fr' },
+  de: { native: 'Deutsch', iso: 'de' },
 };
 
 /**
@@ -53,7 +53,7 @@ export function isLocaleAvailable(locale: string): locale is Locale {
  *   pick({ en: 'Hello' }, 'fr')                →  'Hello'
  */
 export function pick<T extends string | undefined>(
-  field: { en: T; ar?: T; fr?: T } | undefined,
+  field: { en: T; ar?: T; fr?: T; de?: T } | undefined,
   locale: Locale,
 ): T | undefined {
   if (!field) return undefined;
