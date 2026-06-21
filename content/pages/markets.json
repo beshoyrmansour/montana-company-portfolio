@@ -4,47 +4,62 @@
     "eyebrow": {
       "en": "Global reach · Local roots",
       "ar": "وصول عالمي · جذور محلية",
-      "fr": "Portée mondiale · racines locales"
+      "fr": "Portée mondiale · racines locales",
+      "de": "Globale Reichweite · Lokale Wurzeln"
     },
     "headline": {
       "lead": {
-        "en": "From Qalyub to",
-        "ar": "من القليوب إلى",
-        "fr": "De Qalyub à"
+        "en": "From Egypt to",
+        "ar": "من مصر إلى",
+        "fr": "De l'Égypte à",
+        "de": "Von Ägypten an"
       },
       "em": {
         "en": "thirty tables",
         "ar": "ثلاثين مائدة",
-        "fr": "trente tables"
+        "fr": "trente tables",
+        "de": "dreißig Tische"
       },
       "tail": {
         "en": ", one harvest.",
         "ar": "، حصاد واحد.",
-        "fr": ", une seule récolte."
+        "fr": ", une seule récolte.",
+        "de": ", eine Ernte."
       }
     },
     "body": {
-      "en": "Forty years of frozen food exports from a single delta facility in Egypt to ${count}+ countries across five continents — documents pre-cleared, cold chain unbroken, lead times we honour.",
-      "ar": "أربعون عامًا من تصدير الأغذية المجمدة من مصنع واحد في دلتا مصر إلى ${count}+ دولة عبر خمس قارات — مستندات معدّة سلفًا، سلسلة تبريد دون انقطاع، ومواعيد نلتزم بها.",
-      "fr": "Quarante ans d'exportations de produits surgelés depuis une seule usine du delta égyptien vers plus de ${count} pays sur cinq continents — documents pré-dédouanés, chaîne du froid ininterrompue."
+      "en": "41 years of frozen food exports from a single delta facility in Egypt to ${count}+ countries across five continents — documents pre-cleared, cold chain unbroken, lead times we honour.",
+      "ar": "41 عامًا من تصدير الأغذية المجمدة من مصنع واحد في دلتا مصر إلى ${count}+ دولة عبر خمس قارات — مستندات معدّة سلفًا، سلسلة تبريد دون انقطاع، ومواعيد نلتزم بها.",
+      "fr": "41 ans d'exportations de produits surgelés depuis une seule usine du delta égyptien vers plus de ${count} pays sur cinq continents — documents pré-dédouanés, chaîne du froid ininterrompue.",
+      "de": "41 Jahre Tiefkühlkost-Export von einer einzigen Delta-Anlage in Ägypten in über ${count} Länder auf fünf Kontinenten — Dokumente vorab freigegeben, Kühlkette ununterbrochen, Lieferzeiten, die wir einhalten."
     },
     "stats": [
       {
         "num": "${countriesCount}",
         "sup": "+",
-        "label": { "en": "Active markets", "ar": "سوق نشط", "fr": "Marchés actifs" }
+        "label": {
+          "en": "Active markets",
+          "ar": "سوق نشط",
+          "fr": "Marchés actifs",
+          "de": "Aktive Märkte"
+        }
       },
       {
         "num": "5",
-        "label": { "en": "Continents", "ar": "قارات", "fr": "Continents" }
+        "label": {
+          "en": "Continents",
+          "ar": "قارات",
+          "fr": "Continents",
+          "de": "Kontinente"
+        }
       },
       {
-        "num": "70k",
-        "sup": "+",
+        "num": "35K",
         "label": {
           "en": "Tonnes processed / yr",
           "ar": "طن يُعالَج سنويًا",
-          "fr": "Tonnes traitées / an"
+          "fr": "Tonnes traitées / an",
+          "de": "Tonnen verarbeitet / Jahr"
         }
       },
       {
@@ -53,7 +68,8 @@
         "label": {
           "en": "On-time despatch",
           "ar": "الالتزام بالمواعيد",
-          "fr": "Ponctualité"
+          "fr": "Ponctualité",
+          "de": "Pünktlicher Versand"
         }
       }
     ]
@@ -63,35 +79,41 @@
     "eyebrow": {
       "en": "The trade atlas",
       "ar": "أطلس التجارة",
-      "fr": "L'atlas du commerce"
+      "fr": "L'atlas du commerce",
+      "de": "Der Handelsatlas"
     },
     "title": {
       "lead": {
         "en": "One harvest,",
         "ar": "حصاد واحد،",
-        "fr": "Une récolte,"
+        "fr": "Une récolte,",
+        "de": "Eine Ernte,"
       },
       "em": {
         "en": "thirty destinations.",
         "ar": "ثلاثون وجهة.",
-        "fr": "trente destinations."
+        "fr": "trente destinations.",
+        "de": "dreißig Ziele."
       }
     },
     "hint": {
       "en": "Hover any port to see its route",
       "ar": "حرّك المؤشر فوق أي ميناء لرؤية المسار",
-      "fr": "Survolez un port pour voir le trajet"
+      "fr": "Survolez un port pour voir le trajet",
+      "de": "Fahren Sie über einen Hafen, um die Route zu sehen"
     },
     "labels": {
       "allMarkets": {
         "en": "All markets",
         "ar": "كل الأسواق",
-        "fr": "Tous les marchés"
+        "fr": "Tous les marchés",
+        "de": "Alle Märkte"
       },
       "hoverHint": {
         "en": "Hover any port to see its route",
         "ar": "حرّك المؤشر فوق أي ميناء لرؤية المسار",
-        "fr": "Survolez un port pour voir le trajet"
+        "fr": "Survolez un port pour voir le trajet",
+        "de": "Fahren Sie über einen Hafen, um die Route zu sehen"
       },
       "egyptLabel": {
         "en": "Qalyub, Egypt",
@@ -101,7 +123,8 @@
       "portLabel": {
         "en": "Port",
         "ar": "ميناء",
-        "fr": "Port"
+        "fr": "Port",
+        "de": "Hafen"
       }
     }
   },
@@ -110,29 +133,34 @@
     "eyebrow": {
       "en": "Markets, region by region",
       "ar": "الأسواق منطقة بمنطقة",
-      "fr": "Marchés région par région"
+      "fr": "Marchés région par région",
+      "de": "Märkte, Region für Region"
     },
     "title": {
       "lead": {
         "en": "Five regions,",
         "ar": "خمس مناطق،",
-        "fr": "Cinq régions,"
+        "fr": "Cinq régions,",
+        "de": "Fünf Regionen,"
       },
       "em": {
         "en": "one cold chain.",
         "ar": "سلسلة تبريد واحدة.",
-        "fr": "une seule chaîne du froid."
+        "fr": "une seule chaîne du froid.",
+        "de": "eine Kühlkette."
       }
     },
     "countriesLabel": {
       "en": "countries",
       "ar": "دولة",
-      "fr": "pays"
+      "fr": "pays",
+      "de": "Länder"
     },
     "focusLabelTemplate": {
       "en": "Focus on ${region}",
       "ar": "استعرض ${region}",
-      "fr": "Voir ${region}"
+      "fr": "Voir ${region}",
+      "de": "Fokus auf ${region}"
     }
   },
   "directory": {
@@ -140,29 +168,34 @@
     "eyebrow": {
       "en": "Country directory",
       "ar": "دليل الدول",
-      "fr": "Répertoire des pays"
+      "fr": "Répertoire des pays",
+      "de": "Länderverzeichnis"
     },
     "title": {
       "lead": {
         "en": "Every",
         "ar": "كل",
-        "fr": "Chaque"
+        "fr": "Chaque",
+        "de": "Jedes"
       },
       "em": {
         "en": "destination",
         "ar": "وجهة",
-        "fr": "destination"
+        "fr": "destination",
+        "de": "Ziel"
       },
       "tail": {
         "en": ", every port.",
         "ar": "، كل ميناء.",
-        "fr": ", chaque port."
+        "fr": ", chaque port.",
+        "de": ", jeder Hafen."
       }
     },
     "note": {
       "en": "All ${count} active markets",
       "ar": "جميع ${count} سوقًا نشطًا",
-      "fr": "Tous les ${count} marchés actifs"
+      "fr": "Tous les ${count} marchés actifs",
+      "de": "Alle ${count} aktiven Märkte"
     }
   },
   "logistics": {
@@ -170,13 +203,15 @@
     "eyebrow": {
       "en": "The journey, end to end",
       "ar": "الرحلة، من البداية إلى النهاية",
-      "fr": "Le trajet, bout à bout"
+      "fr": "Le trajet, bout à bout",
+      "de": "Die Reise, von Anfang bis Ende"
     },
     "title": {
       "lead": {
         "en": "From",
         "ar": "من",
-        "fr": "De"
+        "fr": "De",
+        "de": "Von"
       },
       "em": {
         "en": "Qalyub",
@@ -187,58 +222,111 @@
     "body": {
       "en": "Cold chain unbroken from farm to delivery. Documents, certifications and lead times handled by our export desk.",
       "ar": "سلسلة تبريد دون انقطاع من المزرعة إلى التسليم. المستندات والاعتمادات والمواعيد يديرها مكتب التصدير لدينا.",
-      "fr": "Chaîne du froid ininterrompue de la ferme à la livraison. Documents, certifications et délais gérés par notre service export."
+      "fr": "Chaîne du froid ininterrompue de la ferme à la livraison. Documents, certifications et délais gérés par notre service export.",
+      "de": "Kühlkette ununterbrochen vom Feld bis zur Lieferung. Dokumente, Zertifizierungen und Lieferzeiten übernimmt unser Export-Team."
     },
     "steps": [
       {
         "num": "01",
-        "label": { "en": "Qalyub", "ar": "القليوب", "fr": "Qalyub" },
+        "label": {
+          "en": "Qalyub",
+          "ar": "القليوب",
+          "fr": "Qalyub"
+        },
         "description": {
           "en": "IQF tunnel · −40 °C",
           "ar": "نفق التجميد الفوري · −40 °م",
-          "fr": "Tunnel IQF · −40 °C"
+          "fr": "Tunnel IQF · −40 °C",
+          "de": "IQF-Tunnel · −40 °C"
         },
-        "sub": { "en": "Day 0", "ar": "اليوم ٠", "fr": "Jour 0" }
+        "sub": {
+          "en": "Day 0",
+          "ar": "اليوم ٠",
+          "fr": "Jour 0",
+          "de": "Tag 0"
+        }
       },
       {
         "num": "02",
-        "label": { "en": "Alexandria", "ar": "الإسكندرية", "fr": "Alexandrie" },
+        "label": {
+          "en": "Alexandria",
+          "ar": "الإسكندرية",
+          "fr": "Alexandrie"
+        },
         "description": {
           "en": "Reefer container loaded",
           "ar": "تحميل الحاوية المبردة",
-          "fr": "Conteneur réfrigéré chargé"
+          "fr": "Conteneur réfrigéré chargé",
+          "de": "Kühlcontainer beladen"
         },
-        "sub": { "en": "Day 1", "ar": "اليوم ١", "fr": "Jour 1" }
+        "sub": {
+          "en": "Day 1",
+          "ar": "اليوم ١",
+          "fr": "Jour 1",
+          "de": "Tag 1"
+        }
       },
       {
         "num": "03",
-        "label": { "en": "Suez / Med", "ar": "السويس / المتوسط", "fr": "Suez / Méditerranée" },
+        "label": {
+          "en": "Suez / Med",
+          "ar": "السويس / المتوسط",
+          "fr": "Suez / Méditerranée",
+          "de": "Suez / Mittelmeer"
+        },
         "description": {
           "en": "Mediterranean transit",
           "ar": "عبور البحر المتوسط",
-          "fr": "Transit méditerranéen"
+          "fr": "Transit méditerranéen",
+          "de": "Mittelmeer-Transit"
         },
-        "sub": { "en": "Day 2–4", "ar": "اليوم ٢–٤", "fr": "Jours 2–4" }
+        "sub": {
+          "en": "Day 2–4",
+          "ar": "اليوم ٢–٤",
+          "fr": "Jours 2–4",
+          "de": "Tag 2–4"
+        }
       },
       {
         "num": "04",
-        "label": { "en": "Hub port", "ar": "ميناء محوري", "fr": "Port pivot" },
+        "label": {
+          "en": "Hub port",
+          "ar": "ميناء محوري",
+          "fr": "Port pivot",
+          "de": "Drehkreuz-Hafen"
+        },
         "description": {
           "en": "Rotterdam · Algeciras · Jeddah",
           "ar": "روتردام · الجزيرة الخضراء · جدة",
           "fr": "Rotterdam · Algésiras · Djeddah"
         },
-        "sub": { "en": "Day 5–10", "ar": "اليوم ٥–١٠", "fr": "Jours 5–10" }
+        "sub": {
+          "en": "Day 5–10",
+          "ar": "اليوم ٥–١٠",
+          "fr": "Jours 5–10",
+          "de": "Tag 5–10"
+        }
       },
       {
         "num": "05",
-        "label": { "en": "Your dock", "ar": "رصيفكم", "fr": "Votre quai" },
+        "label": {
+          "en": "Your dock",
+          "ar": "رصيفكم",
+          "fr": "Votre quai",
+          "de": "Ihr Hafen"
+        },
         "description": {
           "en": "Documents pre-cleared",
           "ar": "المستندات معدّة سلفاً",
-          "fr": "Documents pré-dédouanés"
+          "fr": "Documents pré-dédouanés",
+          "de": "Dokumente vorab freigegeben"
         },
-        "sub": { "en": "Day 8–28", "ar": "اليوم ٨–٢٨", "fr": "Jours 8–28" }
+        "sub": {
+          "en": "Day 8–28",
+          "ar": "اليوم ٨–٢٨",
+          "fr": "Jours 8–28",
+          "de": "Tag 8–28"
+        }
       }
     ]
   },
@@ -247,31 +335,36 @@
     "eyebrow": {
       "en": "Become a market",
       "ar": "كن سوقًا جديدًا",
-      "fr": "Devenez un marché"
+      "fr": "Devenez un marché",
+      "de": "Werden Sie ein Markt"
     },
     "title": {
       "lead": {
         "en": "Not on the",
         "ar": "لست على",
-        "fr": "Pas encore sur la"
+        "fr": "Pas encore sur la",
+        "de": "Noch nicht auf der"
       },
       "em": {
         "en": "map yet?",
         "ar": "الخريطة بعد؟",
-        "fr": "carte ?"
+        "fr": "carte ?",
+        "de": "Karte?"
       }
     },
     "body": {
       "en": "Looking to import from Egypt to a new destination? Our export desk has cleared customs in 26 jurisdictions and counting. Tell us where you need it, by when.",
       "ar": "تبحث عن الاستيراد من مصر إلى وجهة جديدة؟ قام مكتب التصدير لدينا بتخليص جمارك في ست وعشرين ولاية ولا يزال العدد يتزايد. أخبرنا أين تحتاجها ومتى.",
-      "fr": "Vous voulez importer d'Égypte vers une nouvelle destination ? Notre service export a dédouané dans 26 juridictions et ce n'est qu'un début. Dites-nous où, et pour quand."
+      "fr": "Vous voulez importer d'Égypte vers une nouvelle destination ? Notre service export a dédouané dans 26 juridictions et ce n'est qu'un début. Dites-nous où, et pour quand.",
+      "de": "Möchten Sie aus Ägypten an einen neuen Zielort importieren? Unser Export-Team hat in 26 Rechtsräumen Zoll abgewickelt — Tendenz steigend. Sagen Sie uns, wohin und bis wann."
     },
     "ctas": [
       {
         "label": {
           "en": "Talk to our export desk",
           "ar": "تحدث مع مكتب التصدير",
-          "fr": "Contactez notre service export"
+          "fr": "Contactez notre service export",
+          "de": "Sprechen Sie mit unserem Export-Team"
         },
         "href": "/contact?subject=new-market",
         "variant": "primary"
@@ -280,7 +373,8 @@
         "label": {
           "en": "Download trade brochure (PDF)",
           "ar": "كتيب التصدير (PDF)",
-          "fr": "Brochure commerciale (PDF)"
+          "fr": "Brochure commerciale (PDF)",
+          "de": "Handelsbroschüre herunterladen (PDF)"
         },
         "href": "/docs/Montana-Catalogue.pdf",
         "variant": "on-dark-ghost",

@@ -87,10 +87,10 @@ export function ProductCard({ product, locale, priority, className }: ProductCar
 /** Map product category to a short editorial label. Trilingual. */
 function labelForCategory(cat: string, locale: Locale): string {
   const map: Record<string, Record<Locale, string>> = {
-    vegetable: { en: 'Vegetable', ar: 'خضروات', fr: 'Légume' },
-    fruit: { en: 'Fruit', ar: 'فاكهة', fr: 'Fruit' },
-    leaf: { en: 'Leaf', ar: 'أوراق', fr: 'Feuille' },
-    specialty: { en: 'Specialty', ar: 'تخصص', fr: 'Spécialité' },
+    vegetable: { en: 'Vegetable', ar: 'خضروات', fr: 'Légume', de: 'Gemüse' },
+    fruit: { en: 'Fruit', ar: 'فاكهة', fr: 'Fruit', de: 'Obst' },
+    leaf: { en: 'Leaf', ar: 'أوراق', fr: 'Feuille', de: 'Blatt' },
+    specialty: { en: 'Specialty', ar: 'تخصص', fr: 'Spécialité', de: 'Spezialität' },
   };
   return map[cat]?.[locale] ?? cat;
 }

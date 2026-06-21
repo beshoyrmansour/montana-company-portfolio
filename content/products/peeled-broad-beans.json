@@ -1,0 +1,68 @@
+{
+  "slug": "peeled-broad-beans",
+  "name": {
+    "en": "Peeled Broad Beans",
+    "ar": "فول مقشّر",
+    "fr": "Fèves épluchées",
+    "de": "Geschälte Dicke Bohnen"
+  },
+  "shortDescription": {
+    "en": "Skinless green broad beans, tender and IQF frozen.",
+    "ar": "فول أخضر منزوع القشرة، طري ومجمّد بطريقة IQF.",
+    "fr": "Fèves vertes sans peau, tendres et surgelées IQF.",
+    "de": "Häutlose grüne Dicke Bohnen, zart und IQF-gefroren."
+  },
+  "description": {
+    "en": "Montana's peeled broad beans are shelled and skinned to leave only the tender green kernel, then IQF-frozen at peak season. With no outer skin to remove, they go straight from frozen into ta'meya, stews and rice dishes — soft, sweet and ready to cook.",
+    "ar": "يُقشَّر فول مونتانا الأخضر وتُنزع قشرته الخارجية ليبقى اللبّ الأخضر الطري فقط، ثم يُجمَّد بطريقة الـ IQF في ذروة الموسم. بلا قشرة خارجية، يُستخدم مباشرة من الفريزر في الطعمية واليخنات وأطباق الأرز — طريّ وحلو وجاهز للطهي.",
+    "fr": "Les fèves de Montana sont écossées et débarrassées de leur peau pour ne garder que le grain vert tendre, puis surgelées IQF en pleine saison. Sans peau à retirer, elles passent directement du congélateur aux ragoûts et plats de riz.",
+    "de": "Montanas Dicke Bohnen werden ausgelöst und gehäutet, sodass nur der zarte grüne Kern bleibt, und dann auf dem Saisonhöhepunkt IQF-gefroren. Ohne äußere Haut kommen sie direkt aus dem Gefrierfach in Eintöpfe und Reisgerichte — weich, süß und kochfertig."
+  },
+  "category": "vegetable",
+  "featured": false,
+  "badges": ["new", "seasonal"],
+  "varieties": [],
+  "packaging": [
+    {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
+    }
+  ],
+  "seasonality": ["mar", "apr", "may"],
+  "images": {
+    "primary": "/images/products/peeled-broad-beans/montana-frozen-peeled-broad-beans.jpg",
+    "gallery": [
+      "/images/products/peeled-broad-beans/montana-frozen-peeled-broad-beans-1.jpg",
+      "/images/products/peeled-broad-beans/montana-frozen-peeled-broad-beans-2.jpg",
+      "/images/products/peeled-broad-beans/montana-frozen-peeled-broad-beans-3.jpg"
+    ],
+    "packaging": []
+  },
+  "relatedSlugs": ["broad-beans", "peas"],
+  "seo": {
+    "title": {
+      "en": "Frozen Peeled Broad Beans — IQF | Montana",
+      "ar": "فول مقشّر مجمد - IQF | مونتانا",
+      "fr": "Fèves épluchées surgelées — IQF | Montana",
+      "de": "Tiefgekühlte geschälte Dicke Bohnen — IQF | Montana"
+    },
+    "description": {
+      "en": "Premium Egyptian frozen peeled broad beans (fava), skinless and IQF frozen. Cook from frozen, export packaging available.",
+      "ar": "فول مصري مقشّر مجمد فاخر، منزوع القشرة ومجمّد بطريقة IQF. يُطهى من الفريزر.",
+      "fr": "Fèves égyptiennes épluchées surgelées premium, sans peau et surgelées IQF.",
+      "de": "Premium-ägyptische tiefgekühlte geschälte Dicke Bohnen, häutlos und IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+    },
+    "keywords": [
+      "frozen peeled broad beans",
+      "skinless fava beans",
+      "IQF broad beans",
+      "فول مقشر مجمد"
+    ]
+  }
+}

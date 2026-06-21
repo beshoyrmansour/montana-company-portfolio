@@ -3,17 +3,20 @@
   "name": {
     "en": "Cauliflower",
     "ar": "قرنبيط",
-    "fr": "Chou-fleur"
+    "fr": "Chou-fleur",
+    "de": "Blumenkohl"
   },
   "shortDescription": {
     "en": "Fresh cauliflower all year round — pure white color from carefully pre-selected seeds.",
     "ar": "قرنبيط طازج على مدار العام — بلونه الأبيض النقي نتيجة الاختيار الدقيق للبذور.",
-    "fr": "Chou-fleur frais toute l'année — couleur blanc pur grâce à une pré-sélection des semences."
+    "fr": "Chou-fleur frais toute l'année — couleur blanc pur grâce à une pré-sélection des semences.",
+    "de": "Frischer Blumenkohl das ganze Jahr — reinweiße Farbe aus sorgfältig ausgewähltem Saatgut."
   },
   "description": {
     "en": "Montana provides fresh cauliflower all year long. Its pure white color assures its quality and nutritional benefits.",
     "ar": "تقدم مونتانا قرنبيط طازج على مدار السنة. يضمن لونه الأبيض النقي جودته وقيمته الغذائية.",
-    "fr": "Montana offre du chou-fleur frais toute l'année, identifié par sa couleur d'un blanc pur."
+    "fr": "Montana offre du chou-fleur frais toute l'année, identifié par sa couleur d'un blanc pur.",
+    "de": "Montana liefert das ganze Jahr über frischen Blumenkohl. Seine reinweiße Farbe bürgt für Qualität und Nährwert."
   },
   "category": "vegetable",
   "featured": true,
@@ -23,14 +26,16 @@
       "name": {
         "en": "Stem lengths",
         "ar": "أطوال السيقان",
-        "fr": "Longueurs de tige"
+        "fr": "Longueurs de tige",
+        "de": "Stiellängen"
       },
       "sizes": [
         {
           "label": {
             "en": "Short",
             "ar": "قصير",
-            "fr": "Court"
+            "fr": "Court",
+            "de": "Kurz"
           },
           "spec": {
             "en": "2 – 4 cm",
@@ -42,7 +47,8 @@
           "label": {
             "en": "Long",
             "ar": "طويل",
-            "fr": "Long"
+            "fr": "Long",
+            "de": "Lang"
           },
           "spec": {
             "en": "4 – 6 cm",
@@ -67,16 +73,13 @@
   ],
   "seasonality": ["mar"],
   "images": {
-    "primary": "/images/products/official/cauliflower.png",
+    "primary": "/images/products/cauliflower/montana-frozen-cauliflower.jpg",
     "gallery": [
-      "/images/products/cauliflower-pack.png",
-      "/images/products/lifestyle/cauliflower.jpg",
-      "/images/products/stock/cauliflower-1.jpg",
-      "/images/products/stock/cauliflower-2.jpg",
-      "/images/products/real/cauliflower-1.jpg",
-      "/images/products/real/cauliflower-2.jpg"
+      "/images/products/cauliflower/montana-frozen-cauliflower-1.jpg",
+      "/images/products/cauliflower/montana-frozen-cauliflower-2.jpg",
+      "/images/products/cauliflower/montana-frozen-cauliflower-pack.png"
     ],
-    "packaging": ["/images/products/cauliflower-pack.png"]
+    "packaging": ["/images/products/cauliflower/montana-frozen-cauliflower-pack.png"]
   },
   "relatedSlugs": ["broccoli", "mixed-vegetables"]
 }

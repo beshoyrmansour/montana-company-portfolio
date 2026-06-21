@@ -1262,6 +1262,41 @@ body {
   line-height: 1.5;
 }
 
+/* Optional process photography. When a step has an `image`, it renders a
+ * cover photo with the step number as an overlaid badge, and the dashed
+ * connector line is suppressed for the whole row. */
+.process-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-surface);
+  margin-bottom: var(--space-2);
+}
+
+.process-media img {
+  border-radius: inherit;
+}
+
+.process-media .process-num {
+  position: absolute;
+  inset-block-start: var(--space-3);
+  inset-inline-start: var(--space-3);
+  width: 44px;
+  height: 44px;
+  font-size: var(--text-heading-2);
+  background: color-mix(in srgb, var(--color-surface) 88%, transparent);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.process-grid--media::after {
+  display: none;
+}
+
 /* ─────────────────────────────────────────────────────────────────
  * Markets — global reach section
  * ───────────────────────────────────────────────────────────────── */
@@ -3728,4 +3763,661 @@ body {
   border-inline-start: 4px solid var(--color-brand-primary);
   color: var(--color-text-muted);
   font-style: italic;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+ * MONTANA — BRAND EMPHASIS LAYER  (Option A: more red + green, bigger imagery)
+ * Appended pass. Class-selectors only (no bare elements → no layer-order risk).
+ * Safe to relocate into the relevant blocks above during review.
+ * Uses existing theme vars so Ramadan/Christmas themes still resolve.
+ * ═══════════════════════════════════════════════════════════════════ */
+
+/* 1 — HERO: give the image more space and more height (big, immersive) */
+@media (min-width: 1024px) {
+  .hero-editorial {
+    grid-template-columns: 1fr 1.18fr; /* image column wider than text */
+    min-height: 88vh;
+  }
+  .hero-editorial-visual {
+    min-height: 88vh;
+  }
+}
+/* warm brand vignette over hero imagery instead of neutral grey */
+.hero-editorial-visual::after {
+  background: radial-gradient(ellipse at 50% 60%, transparent 45%, rgba(14, 81, 40, 0.32) 100%),
+    linear-gradient(180deg, transparent 52%, rgba(14, 81, 40, 0.42));
+}
+
+/* 2 — RED as the punctuation accent (green stays the structural colour) */
+.eyebrow::before {
+  background: var(--color-brand-secondary);
+  opacity: 1;
+  height: 2px;
+  width: 28px;
+}
+.hero-eyebrow .dot {
+  background: var(--color-brand-secondary); /* red pop on the green hero chip */
+}
+
+/* 3 — HERITAGE STRIP → deep-green trust band (bone text), with a coral "+" */
+.heritage {
+  background: var(--color-brand-primary-deep);
+  color: var(--color-text-inverse);
+}
+.heritage-lede {
+  color: var(--color-text-inverse);
+}
+.heritage-lede strong {
+  color: #bfe6c9; /* light green emphasis on dark */
+}
+.heritage-stat .num {
+  color: #ffffff;
+}
+.heritage-stat .num sup {
+  color: #ff9b86; /* coral — legible red accent on dark green (AA) */
+}
+.heritage-stat .label {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+/* 4 — CERTIFICATIONS: green check + red index numerals (trust + accent) */
+.home-cert-check {
+  color: var(--color-brand-primary);
+}
+.home-cert-index {
+  color: var(--color-brand-secondary);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+ * HERO CAROUSEL — full-bleed, big imagery (Option A: premium, calm)
+ * Green is structural, red is the punctuation accent. Light text over a
+ * brand-tinted dark veil. Autoplay/transitions respect reduced-motion.
+ * ═══════════════════════════════════════════════════════════════════ */
+.hero-carousel {
+  position: relative;
+  min-height: 88vh;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--color-surface-deep);
+}
+.hero-carousel-track {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 900ms var(--ease-smooth);
+}
+.hero-slide.is-active {
+  opacity: 1;
+}
+.hero-slide-img {
+  object-fit: cover;
+  transform: scale(1.04);
+}
+.hero-slide-veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+      180deg,
+      rgba(15, 20, 16, 0.12) 0%,
+      rgba(15, 20, 16, 0.34) 45%,
+      rgba(15, 20, 16, 0.82) 100%
+    ),
+    linear-gradient(90deg, rgba(15, 20, 16, 0.6) 0%, rgba(15, 20, 16, 0) 62%);
+}
+:root[dir='rtl'] .hero-slide-veil {
+  background: linear-gradient(
+      180deg,
+      rgba(15, 20, 16, 0.12) 0%,
+      rgba(15, 20, 16, 0.34) 45%,
+      rgba(15, 20, 16, 0.82) 100%
+    ),
+    linear-gradient(270deg, rgba(15, 20, 16, 0.6) 0%, rgba(15, 20, 16, 0) 62%);
+}
+.hero-carousel-overlay {
+  position: relative;
+  z-index: 2;
+  min-height: 88vh;
+  display: flex;
+  align-items: flex-end;
+}
+.hero-carousel-inner {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding: var(--space-16) var(--gutter-mobile) var(--space-20);
+  color: var(--color-text-inverse);
+}
+@media (min-width: 768px) {
+  .hero-carousel-inner {
+    padding-inline: var(--gutter-desktop);
+    padding-bottom: var(--space-24);
+  }
+}
+.hero-carousel .hero-copy {
+  display: none;
+  max-width: 62ch;
+}
+.hero-carousel .hero-copy.is-active {
+  display: block;
+  animation: heroCopyIn 700ms var(--ease-smooth) both;
+}
+@keyframes heroCopyIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.hero-carousel .hero-eyebrow {
+  background: rgba(252, 250, 245, 0.12);
+  border-color: rgba(252, 250, 245, 0.28);
+  color: var(--color-surface);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+.hero-carousel .hero-eyebrow .dot {
+  background: var(--color-brand-secondary); /* red dot — Option A accent */
+}
+.hero-carousel .hero-title {
+  color: #fff;
+  margin-bottom: var(--space-6);
+}
+.hero-carousel .hero-title em {
+  color: #bfe6c9; /* light green emphasis */
+}
+.hero-carousel .hero-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 54ch;
+}
+.hero-carousel .hero-ctas {
+  margin-top: var(--space-8);
+}
+.hero-carousel .hero-meta {
+  margin-top: var(--space-10);
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  padding-top: var(--space-5);
+}
+.hero-carousel .hero-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+.hero-carousel .hero-meta-item {
+  display: flex;
+  flex-direction: column;
+}
+.hero-carousel .hero-meta-item .num {
+  font-family: var(--font-display);
+  font-size: var(--text-heading-1);
+  color: #fff;
+}
+.hero-carousel .hero-meta-item span:last-child {
+  font-size: var(--text-caption);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+}
+.hero-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  inline-size: 44px;
+  block-size: 44px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(15, 20, 16, 0.32);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  transition: background var(--duration-fast) var(--ease-out);
+}
+.hero-nav:hover {
+  background: var(--color-brand-secondary);
+  border-color: var(--color-brand-secondary);
+}
+.hero-nav.prev {
+  inset-inline-start: var(--space-4);
+}
+.hero-nav.next {
+  inset-inline-end: var(--space-4);
+}
+.hero-dots {
+  position: absolute;
+  inset-block-end: var(--space-6);
+  inset-inline-start: 0;
+  inline-size: 100%;
+  z-index: 3;
+  display: flex;
+  gap: var(--space-2);
+  justify-content: center;
+}
+.hero-dot {
+  inline-size: 28px;
+  block-size: 4px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-out);
+}
+.hero-dot.is-active {
+  background: var(--color-brand-secondary); /* red active dot */
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+ * OPTION B — bolder red + green on the non-hero sections
+ * ═══════════════════════════════════════════════════════════════════ */
+/* Certifications wall → deep-green band (loud "certified" statement) */
+.home-certs {
+  background: var(--color-brand-primary-deep);
+  color: var(--color-text-inverse);
+}
+.home-certs .eyebrow {
+  color: rgba(255, 255, 255, 0.78);
+}
+.home-certs .eyebrow::before {
+  background: var(--color-brand-secondary);
+}
+.home-certs h2 {
+  color: #fff;
+}
+.home-certs h2 em {
+  color: #bfe6c9;
+}
+.home-certs .home-cert-row {
+  border-color: rgba(255, 255, 255, 0.16);
+}
+.home-certs .home-cert-index {
+  color: #ff9b86; /* coral index on green */
+}
+.home-certs .home-cert-name {
+  color: #fff;
+}
+.home-certs .home-cert-desc {
+  color: rgba(255, 255, 255, 0.82);
+}
+.home-certs .home-cert-check {
+  color: #bfe6c9;
+}
+/* Real certification logos sit on a white tile so they read on the green band */
+.home-cert-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 6px 10px;
+  box-shadow: var(--shadow-xs);
+}
+.home-cert-logo img {
+  display: block;
+  height: 30px;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+ * CERTIFICATIONS LOGO WALL — white badge tiles on the green band
+ * ═══════════════════════════════════════════════════════════════════ */
+.home-certs {
+  position: relative;
+  overflow: hidden;
+}
+.home-certs-head {
+  position: relative;
+  z-index: 1;
+  max-width: 62ch;
+  margin-bottom: var(--space-16);
+}
+.home-certs-lead {
+  margin-top: var(--space-4);
+  max-width: 56ch;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: var(--text-body-lg);
+  line-height: var(--leading-relaxed);
+}
+.cert-wall {
+  position: relative;
+  z-index: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr));
+}
+.cert-tile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-height: 160px;
+  padding: var(--space-5);
+  background: #fff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition:
+    transform var(--duration-base) var(--ease-smooth),
+    box-shadow var(--duration-base) var(--ease-smooth);
+}
+.cert-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+.cert-tile-logo {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+.cert-tile-logo img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+.cert-tile-icon {
+  color: var(--color-brand-primary);
+}
+.cert-tile-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--text-heading-3);
+  line-height: 1.1;
+  color: var(--color-text);
+}
+.cert-tile-desc {
+  margin-top: auto;
+  font-size: var(--text-caption);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text-muted);
+}
+/* About cert grid — real logo on a white tile (cards are dark) */
+.cert-card-logo {
+  max-width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 8px 12px;
+  object-fit: contain;
+}
+
+/* Markets big number → brand-red pop on the dark band */
+.markets-copy h2 .big-num {
+  color: #e2493f;
+}
+/* Process roman numerals → red accent */
+.process-num {
+  color: var(--color-brand-secondary);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+ * NEW SECTIONS — scale · who-we-serve · commitments (Option B accents)
+ * ═══════════════════════════════════════════════════════════════════ */
+/* SCALE & vertical integration — big media + pillars */
+.scale-grid {
+  display: grid;
+  gap: var(--space-10);
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .scale-grid {
+    grid-template-columns: 1.05fr 1fr;
+    gap: var(--space-16);
+  }
+}
+.scale-media {
+  position: relative;
+  min-height: 360px;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  background: var(--color-surface-deep);
+}
+@media (min-width: 1024px) {
+  .scale-media {
+    min-height: 520px;
+  }
+}
+.scale-media img {
+  object-fit: cover;
+}
+.scale-body {
+  margin-top: var(--space-4);
+  max-width: 52ch;
+  color: var(--color-text-muted);
+  font-size: var(--text-body-lg);
+  line-height: var(--leading-relaxed);
+}
+.scale-pillars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-10);
+}
+@media (max-width: 560px) {
+  .scale-pillars {
+    grid-template-columns: 1fr;
+  }
+}
+.scale-pillar {
+  padding-inline-start: var(--space-4);
+  border-inline-start: 3px solid var(--color-brand-secondary); /* red rule */
+}
+.scale-pillar h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-heading-3);
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+.scale-pillar p {
+  color: var(--color-text-muted);
+  font-size: var(--text-body-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* WHO WE SERVE — channel cards, alternating green/red tops */
+.audiences-section {
+  background: var(--section-tint);
+}
+.audiences-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+}
+@media (min-width: 1024px) {
+  .audiences-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .audiences-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.audience-card {
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--color-brand-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+}
+.audience-card:nth-child(even) {
+  border-top-color: var(--color-brand-secondary);
+}
+.audience-num {
+  display: block;
+  margin-bottom: var(--space-3);
+  font-family: var(--font-display);
+  font-size: var(--text-heading-2);
+  color: var(--color-brand-secondary);
+}
+.audience-card h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-heading-3);
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+.audience-card p {
+  color: var(--color-text-muted);
+  font-size: var(--text-body-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* COMMITMENTS — deep-green band with red bullets */
+.commitment-section {
+  background: var(--color-brand-primary-deep);
+  color: var(--color-text-inverse);
+}
+.commitment-inner {
+  display: grid;
+  gap: var(--space-10);
+}
+@media (min-width: 1024px) {
+  .commitment-inner {
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: var(--space-16);
+    align-items: start;
+  }
+}
+.commitment-head .eyebrow {
+  color: rgba(255, 255, 255, 0.78);
+}
+.commitment-head .eyebrow::before {
+  background: var(--color-brand-secondary);
+}
+.commitment-head h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-display-lg);
+  line-height: var(--leading-display-relaxed);
+  color: #fff;
+}
+.commitment-head h2 em {
+  font-style: italic;
+  color: #bfe6c9;
+}
+.commitment-head p {
+  margin-top: var(--space-4);
+  max-width: 46ch;
+  color: rgba(255, 255, 255, 0.8);
+}
+.commitment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-8) var(--space-6);
+}
+@media (max-width: 560px) {
+  .commitment-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.commitment-item {
+  position: relative;
+  padding-inline-start: var(--space-5);
+}
+.commitment-bullet {
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-start: 7px;
+  inline-size: 10px;
+  block-size: 10px;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-secondary);
+}
+.commitment-item h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-heading-3);
+  color: #fff;
+  margin-bottom: var(--space-1);
+}
+.commitment-item p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: var(--text-body-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* FOR BUYERS — commercial-terms cards (green top accent) */
+.buyers-section {
+  background: var(--section-tint);
+}
+.buyers-grid {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+}
+.buyer-card {
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--color-brand-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+.buyer-card:nth-child(even) {
+  border-top-color: var(--color-brand-secondary);
+}
+.buyer-card h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-heading-3);
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+.buyer-card p {
+  color: var(--color-text-muted);
+  font-size: var(--text-body-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+ * PAGE-LEVEL BRAND EMPHASIS — about / catalog / markets / contact / news
+ * Extends the shared classes so every secondary page matches the new
+ * home system (Option B: red punctuation, green structure). One place,
+ * all pages — no per-page rewrites.
+ * ═══════════════════════════════════════════════════════════════════ */
+
+/* Shared page hero → subtle brand-tinted band */
+.markets-hero {
+  background: linear-gradient(180deg, var(--color-brand-primary-subtle) 0%, transparent 72%);
+}
+.markets-hero-inner .eyebrow::before {
+  background: var(--color-brand-secondary); /* red rule */
+}
+/* hero stat "+" and region/route counts → red accent */
+.hs-num sup {
+  color: var(--color-brand-secondary);
+}
+.region-count,
+.cr-count {
+  color: var(--color-brand-secondary);
+}
+
+/* Card families across pages get a brand top accent, alternating green/red */
+.cert-card,
+.office-card,
+.country-region,
+.ls-step {
+  border-top: 3px solid var(--color-brand-primary);
+}
+.cert-card:nth-child(even),
+.office-card:nth-child(even),
+.country-region:nth-child(even),
+.ls-step:nth-child(even) {
+  border-top-color: var(--color-brand-secondary);
+}
+
+/* Product-card eyebrow rule → red (matches the global eyebrow accent) */
+.product-eyebrow-editorial::before {
+  background: var(--color-brand-secondary);
 }

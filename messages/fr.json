@@ -47,7 +47,7 @@
   },
   "catalog": {
     "title": "Nos produits",
-    "subtitle": "16 familles de produits, exportés vers 30 pays depuis notre installation de 50 000 m² à Qalyub, en Égypte. Ceci est un catalogue B2B — prix et quantités minimales de commande sur demande.",
+    "subtitle": "16 familles de produits, exportés vers 30 pays depuis notre installation de 50 000 m² en Égypte. Ceci est un catalogue B2B — prix et quantités minimales de commande sur demande.",
     "filter": {
       "all": "Tous",
       "vegetable": "Légumes",
@@ -71,6 +71,9 @@
     "packagingType": "Type",
     "packagingWeight": "Poids",
     "packagingPerCarton": "Par carton",
+    "packingOptions": "Conditionnements & calibres",
+    "sizesAndCuts": "Calibres & découpes",
+    "packFormats": "Formats d'emballage",
     "seasonality": "Disponibilité saisonnière",
     "related": "Vous aimerez aussi",
     "inquire": "Demander des informations produit",

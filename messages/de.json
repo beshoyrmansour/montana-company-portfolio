@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "catalog": "Katalog",
+    "news": "Neuigkeiten",
+    "markets": "Märkte",
+    "contact": "Kontakt",
+    "skipToContent": "Zum Inhalt springen",
+    "homeAriaLabel": "Montana — Startseite",
+    "openMenu": "Menü öffnen",
+    "language": "Sprache",
+    "callUs": "Rufen Sie uns an",
+    "emailUs": "E-Mail an uns"
+  },
+  "common": {
+    "readMore": "Mehr lesen",
+    "viewAll": "Alle ansehen",
+    "viewAllArrow": "Alle ansehen →",
+    "viewProduct": "Produkt ansehen",
+    "loading": "Lädt…",
+    "language": "Sprache",
+    "downloadCatalogue": "Katalog herunterladen (PDF)",
+    "downloadCatalogueFull": "Vollständigen Katalog herunterladen (PDF · 11 MB)",
+    "replyAssurance": "Wir antworten innerhalb eines Werktags · English · العربية · Français · Deutsch"
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "products": "Produkte",
+    "legal": "Rechtliches",
+    "connect": "Kontakt",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "rights": "Alle Rechte vorbehalten.",
+    "designedBy": "Gestaltet & entwickelt von",
+    "partOf": "Teil von",
+    "cookieSettings": "Cookie-Einstellungen"
+  },
+  "home": {
+    "allNewsLink": "Alle Neuigkeiten →",
+    "viewMarketsLink": "Alle Märkte ansehen →"
+  },
+  "about": {
+    "ourHistory": "Unsere Geschichte",
+    "ourFacilities": "Unsere Anlagen"
+  },
+  "catalog": {
+    "title": "Unsere Produkte",
+    "subtitle": "16 Produktfamilien, exportiert in 30 Länder aus unserer 50.000 m² großen Anlage in Ägypten. Dies ist ein B2B-Katalog — Preise und Mindestbestellmengen auf Anfrage.",
+    "filter": {
+      "all": "Alle",
+      "vegetable": "Gemüse",
+      "fruit": "Obst",
+      "leaf": "Blattgemüse",
+      "specialty": "Spezialitäten"
+    }
+  },
+  "news": {
+    "title": "Newsroom",
+    "subtitle": "Neuigkeiten von Montana — Märkte, Zertifizierungen, Anlage und unser Handwerk.",
+    "empty": "Noch keine Artikel. Schauen Sie bald wieder vorbei."
+  },
+  "markets": {
+    "title": "Unsere Märkte",
+    "subtitle": "{count} Länder auf 5 Kontinenten."
+  },
+  "product": {
+    "varieties": "Verfügbare Sorten",
+    "packaging": "Verpackung",
+    "packagingType": "Typ",
+    "packagingWeight": "Gewicht",
+    "packagingPerCarton": "Pro Karton",
+    "packingOptions": "Verpackungen & Größen",
+    "sizesAndCuts": "Größen & Schnitte",
+    "packFormats": "Packungsformate",
+    "seasonality": "Saisonale Verfügbarkeit",
+    "related": "Das könnte Ihnen auch gefallen",
+    "inquire": "Produktinformationen anfordern",
+    "emailDirectly": "Schreiben Sie uns direkt",
+    "realSample": "Echtes Produktmuster",
+    "breadcrumb": {
+      "home": "Startseite",
+      "catalog": "Katalog"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "company": "Unternehmen",
+      "optional": "(optional)",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "consent": "Ich stimme zu, dass meine Daten von Resend (USA) und Cloudflare (USA) verarbeitet werden, um diese Anfrage zu übermitteln.",
+      "privacyLink": "Unsere Datenschutzerklärung ansehen"
+    },
+    "prefill": {
+      "intro": "Ich möchte mehr erfahren über: {productName}",
+      "askFor": "Bitte teilen Sie mit:",
+      "varieties": "Verfügbare Sorten / Größen",
+      "packaging": "Verpackungsoptionen",
+      "moq": "Mindestbestellmenge",
+      "leadTime": "Lieferzeit in meinen Markt",
+      "marketLabel": "Mein Markt / Land:",
+      "signoff": "— Mit freundlichen Grüßen,"
+    }
+  },
+  "cookie": {
+    "title": "Cookies & Datenschutz",
+    "body": "Wir verwenden datenschutzfreundliche, cookielose Analyse, um den Website-Verkehr zu verstehen — es werden keine Cookies und keine personenbezogenen Daten gespeichert. Essenzielle Cookies, die Ihre Auswahl speichern, sind immer aktiv.",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen",
+    "learnMore": "Datenschutzerklärung",
+    "cookiePolicy": "Cookie-Richtlinie"
+  },
+  "themeGreeting": {
+    "ramadan": {
+      "title": "Ramadan Mubarak",
+      "message": "Wir wünschen unseren Kunden und Partnern einen gesegneten heiligen Monat."
+    },
+    "christmas": {
+      "title": "Frohe Festtage",
+      "message": "Herzliche Grüße von der Familie Montana an Ihre."
+    }
+  }
+}

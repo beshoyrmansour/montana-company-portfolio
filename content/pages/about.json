@@ -4,38 +4,44 @@
     "eyebrow": {
       "en": "Since 1985",
       "ar": "منذ 1985",
-      "fr": "Depuis 1985"
+      "fr": "Depuis 1985",
+      "de": "Seit 1985"
     },
     "headline": {
       "lead": {
         "en": "A family,",
         "ar": "عائلة،",
-        "fr": "Une famille,"
+        "fr": "Une famille,",
+        "de": "Eine Familie,"
       },
       "em": {
         "en": "a delta,",
         "ar": "دلتا،",
-        "fr": "un delta,"
+        "fr": "un delta,",
+        "de": "ein Delta,"
       },
       "tail": {
-        "en": " four decades.",
-        "ar": " أربعة عقود.",
-        "fr": " quatre décennies."
+        "en": " 41 years.",
+        "ar": " 41 عاماً.",
+        "fr": " 41 ans.",
+        "de": " 41 Jahre."
       }
     },
     "subtitle": {
-      "en": "Montana is a family-owned Egyptian frozen-food exporter, founded by Al-Omda Mamdouh Maamoun in 1985 and run today by the next generation from the same Qalyub site that started it all.",
-      "ar": "مونتانا شركة عائلية مصرية لتصدير الأغذية المجمدة، أسسها العمدة ممدوح مأمون عام 1985 ويديرها اليوم الجيل التالي من نفس موقع القليوب الذي بدأ منه كل شيء.",
-      "fr": "Montana est un exportateur égyptien familial de produits surgelés, fondé par Al-Omda Mamdouh Maamoun en 1985 et dirigé aujourd'hui par la génération suivante depuis le même site de Qalyub où tout a commencé."
+      "en": "Montana — The United Company for Food Industry — is a family-owned, vertically integrated Egyptian frozen-food company, founded in 1985 and part of the Maamoun Group. From our own farms to a 50,000 m² facility in Egypt, we grow, freeze and ship 35,000 tonnes a year — 70% of it exported to buyers across five continents.",
+      "ar": "مونتانا — الشركة المتحدة للصناعات الغذائية — شركة عائلية مصرية متكاملة رأسياً للأغذية المجمدة، تأسست عام 1985 وهي إحدى شركات مجموعة مأمون. من مزارعنا الخاصة إلى منشأة بمساحة ٥٠٬٠٠٠ م² في مصر، نزرع ونجمّد ونشحن ٣٥٬٠٠٠ طن سنوياً — يُصدَّر ٧٠٪ منها إلى مشترين في خمس قارات.",
+      "fr": "Montana — The United Company for Food Industry — est une entreprise familiale égyptienne de surgelés, intégrée verticalement, fondée en 1985 et membre du Groupe Maamoun. De nos propres fermes à un site de 50 000 m² en Égypte, nous cultivons, surgelons et expédions 35 000 tonnes par an — dont 70 % exportées vers des acheteurs sur cinq continents.",
+      "de": "Montana — The United Company for Food Industry — ist ein familiengeführtes, vertikal integriertes ägyptisches Tiefkühlkost-Unternehmen, gegründet 1985 und Teil der Maamoun Group. Von unseren eigenen Feldern bis zu einer 50.000 m² großen Anlage in Ägypten bauen wir an, gefrieren und verschicken 35.000 Tonnen pro Jahr — 70% davon exportiert an Abnehmer auf fünf Kontinenten."
     },
     "stats": [
       {
-        "num": "40",
+        "num": "41",
         "sup": "+",
         "label": {
           "en": "Years of family ownership",
           "ar": "سنة من الملكية العائلية",
-          "fr": "Années de propriété familiale"
+          "fr": "Années de propriété familiale",
+          "de": "Jahre in Familienbesitz"
         }
       },
       {
@@ -43,15 +49,17 @@
         "label": {
           "en": "People on the team",
           "ar": "عضو في الفريق",
-          "fr": "Membres de l'équipe"
+          "fr": "Membres de l'équipe",
+          "de": "Mitarbeitende im Team"
         }
       },
       {
         "num": "50k",
         "label": {
-          "en": "m² Qalyub facility",
-          "ar": "م² منشأة القليوب",
-          "fr": "m² site de Qalyub"
+          "en": "m² facility",
+          "ar": "م² منشأة",
+          "fr": "m² site de production",
+          "de": "m² Anlage"
         }
       },
       {
@@ -59,28 +67,32 @@
         "label": {
           "en": "Consecutive ISO audits",
           "ar": "تدقيقات ISO متتالية",
-          "fr": "Audits ISO consécutifs"
+          "fr": "Audits ISO consécutifs",
+          "de": "Aufeinanderfolgende ISO-Audits"
         }
       }
     ]
   },
   "timeline": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": {
       "en": "From a cooperative to the world",
       "ar": "من تعاونية إلى العالم",
-      "fr": "D'une coopérative au monde"
+      "fr": "D'une coopérative au monde",
+      "de": "Von einer Kooperative in die Welt"
     },
     "title": {
       "lead": {
         "en": "The story,",
         "ar": "القصة،",
-        "fr": "L'histoire,"
+        "fr": "L'histoire,",
+        "de": "Die Geschichte,"
       },
       "em": {
         "en": "in chapters.",
         "ar": "في فصول.",
-        "fr": "en chapitres."
+        "fr": "en chapitres.",
+        "de": "in Kapiteln."
       }
     },
     "items": [
@@ -89,12 +101,14 @@
         "title": {
           "en": "A cooperative begins",
           "ar": "بداية تعاونية صغيرة",
-          "fr": "Une coopérative naît"
+          "fr": "Une coopérative naît",
+          "de": "Eine Kooperative beginnt"
         },
         "description": {
-          "en": "Al-Omda Mamdouh Maamoun founds United Co. for Food Industries in a small Qalyub workshop, freezing the Nile delta's molokhia for nearby restaurants.",
-          "ar": "يؤسس العمدة ممدوح مأمون الشركة المتحدة للصناعات الغذائية في ورشة صغيرة بالقليوب، يجمد ملوخية دلتا النيل للمطاعم المجاورة.",
-          "fr": "Al-Omda Mamdouh Maamoun fonde United Co. for Food Industries dans un petit atelier de Qalyub, surgelant la molokhia du delta du Nil pour les restaurants voisins."
+          "en": "United Co. for Food Industries is founded in a small Egyptian workshop, freezing the Nile delta's molokhia for nearby restaurants.",
+          "ar": "تتأسس الشركة المتحدة للصناعات الغذائية في ورشة مصرية صغيرة، تجمد ملوخية دلتا النيل للمطاعم المجاورة.",
+          "fr": "United Co. for Food Industries est fondée dans un petit atelier égyptien, surgelant la molokhia du delta du Nil pour les restaurants voisins.",
+          "de": "United Co. for Food Industries wird in einer kleinen ägyptischen Werkstatt gegründet und gefriert die Molokhia des Nildeltas für nahegelegene Restaurants."
         },
         "image": "/images/products/real/molokhia-1.jpg"
       },
@@ -103,12 +117,14 @@
         "title": {
           "en": "First export container",
           "ar": "أول حاوية تصدير",
-          "fr": "Premier conteneur à l'export"
+          "fr": "Premier conteneur à l'export",
+          "de": "Erster Exportcontainer"
         },
         "description": {
           "en": "A single 20-foot container of frozen molokhia bound for Riyadh — the start of a thirty-country reach.",
           "ar": "حاوية واحدة من الملوخية المجمدة سعة عشرين قدماً إلى الرياض — بداية الوصول إلى ثلاثين دولة.",
-          "fr": "Un seul conteneur de 20 pieds de molokhia surgelée à destination de Riyad — le début d'une présence dans trente pays."
+          "fr": "Un seul conteneur de 20 pieds de molokhia surgelée à destination de Riyad — le début d'une présence dans trente pays.",
+          "de": "Ein einziger 20-Fuß-Container mit gefrorener Molokhia nach Riad — der Beginn einer Reichweite von dreißig Ländern."
         }
       },
       {
@@ -116,12 +132,14 @@
         "title": {
           "en": "IQF tunnel · year one",
           "ar": "نفق التجميد الفوري · السنة الأولى",
-          "fr": "Tunnel IQF · première année"
+          "fr": "Tunnel IQF · première année",
+          "de": "IQF-Tunnel · Jahr eins"
         },
         "description": {
           "en": "First Individual Quick Freeze tunnel commissioned; capacity jumps to 8 t/h. ISO 9002 audit passed first time.",
           "ar": "تشغيل أول نفق تجميد فوري؛ ترتفع الطاقة الإنتاجية إلى 8 طن/ساعة. اجتاز تدقيق ISO 9002 من أول مرة.",
-          "fr": "Mise en service du premier tunnel IQF ; la capacité passe à 8 t/h. Audit ISO 9002 réussi du premier coup."
+          "fr": "Mise en service du premier tunnel IQF ; la capacité passe à 8 t/h. Audit ISO 9002 réussi du premier coup.",
+          "de": "Erster Individual-Quick-Freeze-Tunnel in Betrieb; Kapazität steigt auf 8 t/h. ISO-9002-Audit auf Anhieb bestanden."
         }
       },
       {
@@ -129,12 +147,14 @@
         "title": {
           "en": "New facility · 50,000 m²",
           "ar": "منشأة جديدة · ٥٠٬٠٠٠ م²",
-          "fr": "Nouvelle usine · 50 000 m²"
+          "fr": "Nouvelle usine · 50 000 m²",
+          "de": "Neue Anlage · 50.000 m²"
         },
         "description": {
-          "en": "The current Qalyub site opens. Twenty production lines, four cold stores, a quality lab on the ground floor.",
-          "ar": "يُفتتح الموقع الحالي في القليوب. عشرون خط إنتاج، أربعة مخازن تبريد، ومختبر جودة في الطابق الأرضي.",
-          "fr": "Le site actuel de Qalyub ouvre ses portes. Vingt lignes de production, quatre chambres froides, un laboratoire qualité au rez-de-chaussée."
+          "en": "The current site opens. 3 IQF and 3 batch freezers, four cold stores, a quality lab on the ground floor.",
+          "ar": "يُفتتح الموقع الحالي. 3 وحدات تجميد فوري و3 وحدات تجميد بالدفعات، أربعة مخازن تبريد، ومختبر جودة في الطابق الأرضي.",
+          "fr": "Le site actuel ouvre ses portes. 3 surgélateurs IQF et 3 surgélateurs par lots, quatre chambres froides, un laboratoire qualité au rez-de-chaussée.",
+          "de": "Der aktuelle Standort wird eröffnet. 3 IQF- und 3 Chargengefrierer, vier Kühlhäuser, ein Qualitätslabor im Erdgeschoss."
         }
       },
       {
@@ -142,12 +162,14 @@
         "title": {
           "en": "Second generation",
           "ar": "الجيل الثاني",
-          "fr": "Deuxième génération"
+          "fr": "Deuxième génération",
+          "de": "Zweite Generation"
         },
         "description": {
           "en": "The next generation joins after a decade in cold-chain logistics. The family business stays a family business.",
           "ar": "ينضم الجيل التالي بعد عقد من العمل في لوجستيات سلسلة التبريد. الشركة العائلية تبقى عائلية.",
-          "fr": "La génération suivante rejoint l'entreprise après une décennie dans la logistique du froid. L'entreprise familiale reste familiale."
+          "fr": "La génération suivante rejoint l'entreprise après une décennie dans la logistique du froid. L'entreprise familiale reste familiale.",
+          "de": "Die nächste Generation steigt nach einem Jahrzehnt in der Kühlkettenlogistik ein. Das Familienunternehmen bleibt ein Familienunternehmen."
         }
       },
       {
@@ -155,12 +177,14 @@
         "title": {
           "en": "Thirty countries",
           "ar": "ثلاثون دولة",
-          "fr": "Trente pays"
+          "fr": "Trente pays",
+          "de": "Dreißig Länder"
         },
         "description": {
           "en": "Mauritius becomes the thirtieth active export market. The molokhia we shipped in 1992 now travels on five continents.",
           "ar": "تصبح موريشيوس السوق رقم ٣٠ للتصدير النشط. الملوخية التي شحناها عام ١٩٩٢ تسافر اليوم على خمس قارات.",
-          "fr": "Maurice devient le 30e marché d'exportation actif. La molokhia que nous expédiions en 1992 voyage désormais sur cinq continents."
+          "fr": "Maurice devient le 30e marché d'exportation actif. La molokhia que nous expédiions en 1992 voyage désormais sur cinq continents.",
+          "de": "Mauritius wird der dreißigste aktive Exportmarkt. Die Molokhia, die wir 1992 verschickten, reist heute auf fünf Kontinenten."
         }
       },
       {
@@ -168,58 +192,59 @@
         "title": {
           "en": "Tunnel two · 40 t/h",
           "ar": "النفق الثاني · ٤٠ طن/ساعة",
-          "fr": "Tunnel deux · 40 t/h"
+          "fr": "Tunnel deux · 40 t/h",
+          "de": "Tunnel zwei · 40 t/h"
         },
         "description": {
           "en": "Second IQF tunnel commissioned. Doubled strawberry-season capacity. Solar-roof project breaks ground.",
           "ar": "تشغيل النفق الثاني للتجميد الفوري. مضاعفة طاقة موسم الفراولة. بدء مشروع السقف الشمسي.",
-          "fr": "Mise en service du deuxième tunnel IQF. Capacité doublée pour la saison des fraises. Lancement du projet de toit solaire."
+          "fr": "Mise en service du deuxième tunnel IQF. Capacité doublée pour la saison des fraises. Lancement du projet de toit solaire.",
+          "de": "Zweiter IQF-Tunnel in Betrieb. Verdoppelte Kapazität in der Erdbeersaison. Spatenstich für das Solardach-Projekt."
         },
-        "image": "/images/facility/cold-store-exterior.jpg"
+        "image": "/images/facility/floor/floor-06.jpg"
       }
     ]
   },
   "chairmanQuote": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": {
-      "en": "From our founder",
-      "ar": "من مؤسسنا",
-      "fr": "De notre fondateur"
+      "en": "Our promise",
+      "ar": "وعدنا",
+      "fr": "Notre promesse",
+      "de": "Unser Versprechen"
     },
     "quote": {
       "before": {
-        "en": "Forty years in, we still",
-        "ar": "بعد أربعين عاماً، لا نزال",
-        "fr": "Quarante ans plus tard, nous"
+        "en": "41 years in, we still",
+        "ar": "بعد 41 عاماً، لا نزال",
+        "fr": "41 ans plus tard, nous",
+        "de": "Nach 41 Jahren"
       },
       "strong": {
         "en": "cook what we ship",
         "ar": "نطهو ما نشحنه",
-        "fr": "cuisinons toujours ce que nous expédions"
+        "fr": "cuisinons toujours ce que nous expédions",
+        "de": "kochen wir noch immer, was wir verschicken"
       },
       "after": {
         "en": ". That is the test. If we wouldn't serve it at our own iftar or Christmas table, we don't put it in a container.",
         "ar": ". هذا هو الاختبار. إن لم نقدمه على مائدتنا في الإفطار أو في عيد الميلاد، فلن نضعه في حاوية.",
-        "fr": ". C'est le test. Si nous ne le servons pas à notre propre table d'iftar ou de Noël, il ne part pas dans un conteneur."
+        "fr": ". C'est le test. Si nous ne le servons pas à notre propre table d'iftar ou de Noël, il ne part pas dans un conteneur.",
+        "de": ". Das ist der Test. Wenn wir es nicht an unserem eigenen Iftar- oder Weihnachtstisch servieren würden, kommt es nicht in einen Container."
       }
     },
     "attribution": {
       "name": {
-        "en": "Al-Omda Mamdouh Maamoun",
-        "ar": "العمدة ممدوح مأمون",
-        "fr": "Al-Omda Mamdouh Maamoun"
+        "en": "Montana",
+        "ar": "مونتانا",
+        "fr": "Montana"
       },
       "role": {
-        "en": "Founder · United Co. for Food Industries",
-        "ar": "المؤسس · الشركة المتحدة للصناعات الغذائية",
-        "fr": "Fondateur · United Co. for Food Industries"
+        "en": "Family-owned · Since 1985",
+        "ar": "شركة عائلية · منذ 1985",
+        "fr": "Entreprise familiale · depuis 1985",
+        "de": "Familienbesitz · Seit 1985"
       }
-    },
-    "image": "/images/about/founder.jpg",
-    "cornerMark": {
-      "en": "In loving memory",
-      "ar": "في ذكراه",
-      "fr": "En sa mémoire"
     }
   },
   "values": {
@@ -227,18 +252,21 @@
     "eyebrow": {
       "en": "What we won't compromise on",
       "ar": "ما لا نساوم عليه",
-      "fr": "Ce sur quoi nous ne transigeons pas"
+      "fr": "Ce sur quoi nous ne transigeons pas",
+      "de": "Wobei wir keine Kompromisse machen"
     },
     "title": {
       "lead": {
         "en": "Four",
         "ar": "أربعة",
-        "fr": "Quatre"
+        "fr": "Quatre",
+        "de": "Vier"
       },
       "em": {
         "en": "principles.",
         "ar": "مبادئ.",
-        "fr": "principes."
+        "fr": "principes.",
+        "de": "Prinzipien."
       }
     },
     "items": [
@@ -247,12 +275,14 @@
         "title": {
           "en": "Heritage over hype",
           "ar": "العراقة قبل الضجيج",
-          "fr": "Héritage plutôt que tapage"
+          "fr": "Héritage plutôt que tapage",
+          "de": "Tradition statt Hype"
         },
         "description": {
-          "en": "Forty years of unbroken operation. We carry the weight of every shipment that came before.",
-          "ar": "أربعون عاماً من العمل المستمر. نحمل ثقل كل شحنة سبقت.",
-          "fr": "Quarante ans d'activité ininterrompue. Nous portons le poids de chaque expédition qui a précédé."
+          "en": "41 years of unbroken operation. We carry the weight of every shipment that came before.",
+          "ar": "41 عاماً من العمل المستمر. نحمل ثقل كل شحنة سبقت.",
+          "fr": "41 ans d'activité ininterrompue. Nous portons le poids de chaque expédition qui a précédé.",
+          "de": "41 Jahre ununterbrochener Betrieb. Wir tragen das Gewicht jeder Lieferung, die zuvor kam."
         }
       },
       {
@@ -260,12 +290,14 @@
         "title": {
           "en": "Family, not factory",
           "ar": "عائلة، لا مصنع",
-          "fr": "Famille, pas usine"
+          "fr": "Famille, pas usine",
+          "de": "Familie, keine Fabrik"
         },
         "description": {
-          "en": "Owned by the Mansour family across two generations. Every package leaves with a name attached.",
-          "ar": "تملكها عائلة منصور عبر جيلين. كل عبوة تخرج باسم مرفق.",
-          "fr": "Propriété de la famille Mansour sur deux générations. Chaque emballage part avec un nom."
+          "en": "Owned by the Maamoun family across two generations. Every package leaves with a name attached.",
+          "ar": "تملكها عائلة مأمون عبر جيلين. كل عبوة تخرج باسم مرفق.",
+          "fr": "Propriété de la famille Maamoun sur deux générations. Chaque emballage part avec un nom.",
+          "de": "Im Besitz der Familie Maamoun über zwei Generationen. Jede Packung verlässt uns mit einem Namen."
         }
       },
       {
@@ -273,12 +305,14 @@
         "title": {
           "en": "Quality is the floor",
           "ar": "الجودة هي الحد الأدنى",
-          "fr": "La qualité est le plancher"
+          "fr": "La qualité est le plancher",
+          "de": "Qualität ist die Untergrenze"
         },
         "description": {
           "en": "Nineteen consecutive ISO audits, zero majors. Quality isn't a department — it's the building.",
           "ar": "تسعة عشر تدقيقاً متتالياً لـ ISO بصفر ملاحظات كبرى. الجودة ليست قسماً — بل هي المبنى كله.",
-          "fr": "Dix-neuf audits ISO consécutifs, zéro non-conformité majeure. La qualité n'est pas un département — c'est tout l'immeuble."
+          "fr": "Dix-neuf audits ISO consécutifs, zéro non-conformité majeure. La qualité n'est pas un département — c'est tout l'immeuble.",
+          "de": "Neunzehn aufeinanderfolgende ISO-Audits, keine schwerwiegenden Abweichungen. Qualität ist keine Abteilung — sie ist das ganze Haus."
         }
       },
       {
@@ -286,12 +320,14 @@
         "title": {
           "en": "Egypt, generously",
           "ar": "مصر، بسخاء",
-          "fr": "L'Égypte, généreusement"
+          "fr": "L'Égypte, généreusement",
+          "de": "Ägypten, großzügig"
         },
         "description": {
-          "en": "We grow what Egypt grows best. We export the version of Egypt we serve at our own table.",
-          "ar": "نزرع ما تبدع مصر في زراعته. نصدّر مصر التي نقدمها على مائدتنا.",
-          "fr": "Nous cultivons ce que l'Égypte cultive le mieux. Nous exportons la version de l'Égypte que nous servons à notre propre table."
+          "en": "We grow what Egypt grows best, and we cook what we ship. We export the version of Egypt we serve at our own table.",
+          "ar": "نزرع ما تبدع مصر في زراعته، ونطهو ما نشحنه. نصدّر مصر التي نقدمها على مائدتنا.",
+          "fr": "Nous cultivons ce que l'Égypte cultive le mieux, et nous cuisinons ce que nous expédions. Nous exportons la version de l'Égypte que nous servons à notre propre table.",
+          "de": "Wir bauen an, was Ägypten am besten gedeiht, und wir kochen, was wir verschicken. Wir exportieren das Ägypten, das wir an unserem eigenen Tisch servieren."
         }
       }
     ]
@@ -301,13 +337,15 @@
     "eyebrow": {
       "en": "Part of a larger family",
       "ar": "جزء من عائلة أكبر",
-      "fr": "Au sein d'un groupe familial"
+      "fr": "Au sein d'un groupe familial",
+      "de": "Teil einer größeren Familie"
     },
     "title": {
       "lead": {
         "en": "Backed by",
         "ar": "مدعومة من",
-        "fr": "Soutenue par"
+        "fr": "Soutenue par",
+        "de": "Gestützt von"
       },
       "em": {
         "en": "Maamoun Brothers Group.",
@@ -316,9 +354,10 @@
       }
     },
     "body": {
-      "en": "Montana is the frozen-food house of Maamoun Brothers Group, a family enterprise whose roots in Egyptian food trade reach back to 1909. More than a century of sourcing relationships, scale and standards sits behind every pallet we ship.",
-      "ar": "مونتانا هي ذراع الأغذية المجمدة لمجموعة إخوان مأمون، وهي مؤسسة عائلية تمتد جذورها في تجارة الأغذية المصرية إلى عام 1909. أكثر من قرن من علاقات التوريد والحجم والمعايير يقف خلف كل شحنة نصدّرها.",
-      "fr": "Montana est la maison des produits surgelés du Groupe Maamoun Brothers, une entreprise familiale dont les racines dans le commerce alimentaire égyptien remontent à 1909. Plus d'un siècle de relations d'approvisionnement, d'échelle et d'exigence se tient derrière chaque palette que nous expédions."
+      "en": "Montana is the frozen-food house of Maamoun Brothers Group, a family enterprise whose roots in Egyptian food trade reach back to 1909. Affiliated in 1985, Montana grew into a market leader in frozen vegetables and fruits — with more than a century of the group's sourcing relationships, scale and standards behind every pallet we ship.",
+      "ar": "مونتانا هي ذراع الأغذية المجمدة لمجموعة إخوان مأمون، وهي مؤسسة عائلية تمتد جذورها في تجارة الأغذية المصرية إلى عام 1909. تأسّست عام 1985 وأصبحت رائدة في إنتاج الخضراوات والفواكه المجمدة — ويقف خلف كل شحنة نصدّرها أكثر من قرن من علاقات التوريد والحجم والمعايير.",
+      "fr": "Montana est la maison des surgelés du Groupe Maamoun Brothers, une entreprise familiale dont les racines dans le commerce alimentaire égyptien remontent à 1909. Affiliée en 1985, elle est devenue un leader des légumes et fruits surgelés — avec plus d'un siècle de relations d'approvisionnement, d'échelle et d'exigence derrière chaque palette expédiée.",
+      "de": "Montana ist das Tiefkühlhaus der Maamoun Brothers Group, eines Familienunternehmens, dessen Wurzeln im ägyptischen Lebensmittelhandel bis 1909 zurückreichen. 1985 angegliedert, wurde Montana zum Marktführer für tiefgekühltes Gemüse und Obst — mit mehr als einem Jahrhundert an Lieferbeziehungen, Größe und Standards hinter jeder Palette, die wir verschicken."
     },
     "logo": "/images/logo/MaamounGroupLogo.png",
     "since": "1909",
@@ -326,7 +365,8 @@
       "label": {
         "en": "Visit Maamoun Brothers Group",
         "ar": "زيارة مجموعة إخوان مأمون",
-        "fr": "Visiter le Groupe Maamoun Brothers"
+        "fr": "Visiter le Groupe Maamoun Brothers",
+        "de": "Maamoun Brothers Group besuchen"
       },
       "href": "https://www.maamoungrp.com",
       "variant": "ghost",
@@ -339,67 +379,139 @@
     "eyebrow": {
       "en": "Audited, every year",
       "ar": "تدقيق سنوي",
-      "fr": "Audité chaque année"
+      "fr": "Audité chaque année",
+      "de": "Jährlich auditiert"
     },
     "title": {
       "lead": {
         "en": "Certifications &",
         "ar": "الشهادات و",
-        "fr": "Certifications &"
+        "fr": "Certifications &",
+        "de": "Zertifizierungen &"
       },
       "em": {
         "en": "standards.",
         "ar": "المعايير.",
-        "fr": "standards."
+        "fr": "standards.",
+        "de": "Standards."
       }
     },
     "items": [
       {
+        "name": "BRCGS",
+        "description": {
+          "en": "British Retail Consortium Global Standard for food safety (GFSI-recognised)",
+          "ar": "المعيار العالمي لاتحاد تجار التجزئة البريطاني لسلامة الغذاء (معترف به من GFSI)",
+          "fr": "Norme mondiale du British Retail Consortium pour la sécurité alimentaire (reconnue GFSI)",
+          "de": "British Retail Consortium Global Standard für Lebensmittelsicherheit (GFSI-anerkannt)"
+        }
+      },
+      {
+        "name": "IFS Food",
+        "description": {
+          "en": "International Featured Standards for food safety (GFSI-recognised)",
+          "ar": "المعايير الدولية المعتمدة لسلامة الغذاء (معترف بها من GFSI)",
+          "fr": "International Featured Standards pour la sécurité alimentaire (reconnu GFSI)",
+          "de": "International Featured Standards für Lebensmittelsicherheit (GFSI-anerkannt)"
+        }
+      },
+      {
         "name": "ISO 22000",
         "description": {
-          "en": "Food safety management · audited yearly since 2007",
-          "ar": "إدارة سلامة الغذاء · تدقيق سنوي منذ 2007",
-          "fr": "Gestion de la sécurité alimentaire · audité chaque année depuis 2007"
+          "en": "Food safety management system",
+          "ar": "نظام إدارة سلامة الغذاء",
+          "fr": "Système de management de la sécurité alimentaire",
+          "de": "Managementsystem für Lebensmittelsicherheit"
         }
       },
       {
         "name": "HACCP",
         "description": {
-          "en": "Hazard analysis & critical control points · validated each batch",
-          "ar": "تحليل المخاطر ونقاط التحكم الحرجة · يتم التحقق من كل دفعة",
-          "fr": "Analyse des dangers et points critiques · validé à chaque lot"
+          "en": "Hazard analysis & critical control points — applied to every batch",
+          "ar": "تحليل المخاطر ونقاط التحكم الحرجة — مطبق على كل دفعة",
+          "fr": "Analyse des dangers et points critiques — appliquée à chaque lot",
+          "de": "Gefahrenanalyse und kritische Lenkungspunkte — auf jede Charge angewandt"
         }
       },
       {
-        "name": "BRCGS",
+        "name": "GLOBALG.A.P",
         "description": {
-          "en": "British Retail Consortium · grade A facility",
-          "ar": "اتحاد البيع بالتجزئة البريطاني · منشأة من الدرجة A",
-          "fr": "British Retail Consortium · installation classée A"
+          "en": "Good Agricultural Practices at farm level",
+          "ar": "الممارسات الزراعية الجيدة على مستوى المزرعة",
+          "fr": "Bonnes pratiques agricoles au niveau de la ferme",
+          "de": "Gute landwirtschaftliche Praxis auf Betriebsebene"
+        }
+      },
+      {
+        "name": "GMP",
+        "description": {
+          "en": "Good Manufacturing Practices across every stage",
+          "ar": "ممارسات التصنيع الجيدة في كل مرحلة",
+          "fr": "Bonnes pratiques de fabrication à chaque étape",
+          "de": "Gute Herstellungspraxis in jedem Schritt"
+        }
+      },
+      {
+        "name": "SMETA",
+        "description": {
+          "en": "Sedex Members Ethical Trade Audit — social compliance",
+          "ar": "تدقيق التجارة الأخلاقية لأعضاء سيدكس — الامتثال الاجتماعي",
+          "fr": "Audit de commerce éthique des membres Sedex — conformité sociale",
+          "de": "Sedex Members Ethical Trade Audit — soziale Compliance"
         }
       },
       {
         "name": "Halal",
         "description": {
-          "en": "ESMA certified · accepted across all MENA destinations",
-          "ar": "معتمد من هيئة الإمارات للمواصفات · مقبول في جميع وجهات الشرق الأوسط وشمال أفريقيا",
-          "fr": "Certifié ESMA · accepté dans toutes les destinations MENA"
+          "en": "Halal certified",
+          "ar": "معتمد حلال",
+          "fr": "Certifié Halal",
+          "de": "Halal-zertifiziert"
         }
       },
       {
         "name": "Kosher",
         "description": {
-          "en": "OU certified · since 2018",
-          "ar": "معتمد من OU · منذ 2018",
-          "fr": "Certifié OU · depuis 2018"
+          "en": "Kosher certified",
+          "ar": "معتمد كوشر",
+          "fr": "Certifié Kasher",
+          "de": "Koscher-zertifiziert"
         }
       },
       {
-        "name": "Egypt ECS",
+        "name": "NFSA",
         "description": {
-          "en": "Egyptian Customs · trusted exporter status",
-          "ar": "الجمارك المصرية · حالة المصدّر الموثوق",
-          "fr": "Douanes égyptiennes · statut d'exportateur de confiance"
+          "en": "Regulated by Egypt's National Food Safety Authority",
+          "ar": "خاضعة لرقابة الهيئة القومية لسلامة الغذاء في مصر",
+          "fr": "Réglementée par l'Autorité nationale égyptienne de sécurité alimentaire",
+          "de": "Reguliert durch die ägyptische Nationale Behörde für Lebensmittelsicherheit (NFSA)"
+        }
+      },
+      {
+        "name": "QCAP",
+        "description": {
+          "en": "Lab analysis via the Central Laboratory of Residue Analysis (QCAP) — ISO 17025 / FINAS-accredited",
+          "ar": "تحاليل مخبرية عبر المعمل المركزي لتحليل المتبقيات (QCAP) — معتمد ISO 17025 / FINAS",
+          "fr": "Analyses en laboratoire via le Laboratoire central d'analyse des résidus (QCAP) — accrédité ISO 17025 / FINAS",
+          "de": "Laboranalysen über das Zentrallabor für Rückstandsanalytik (QCAP) — ISO 17025 / FINAS-akkreditiert"
+        }
+      },
+      {
+        "name": "FDA",
+        "description": {
+          "en": "Compliant with U.S. FDA requirements",
+          "ar": "متوافقة مع متطلبات إدارة الغذاء والدواء الأمريكية",
+          "fr": "Conforme aux exigences de la FDA américaine",
+          "de": "Konform mit den Anforderungen der US-FDA"
+        }
+      },
+      {
+        "name": "CODEX",
+        "description": {
+          "en": "Aligned with the international Codex Alimentarius",
+          "ar": "متوافقة مع دستور الأغذية الدولي (كودكس)",
+          "fr": "Alignée sur le Codex Alimentarius international",
+          "de": "Im Einklang mit dem internationalen Codex Alimentarius"
         }
       }
     ]

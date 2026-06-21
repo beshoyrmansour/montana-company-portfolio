@@ -3,17 +3,20 @@
   "name": {
     "en": "Strawberry",
     "ar": "فراولة",
-    "fr": "Fraise"
+    "fr": "Fraise",
+    "de": "Erdbeere"
   },
   "shortDescription": {
     "en": "Wide spectrum of strawberry cultivars — processed and stored in less than 5 hours.",
     "ar": "مجموعة واسعة من أصناف الفراولة - تعالج وتخزن في أقل من ٥ ساعات.",
-    "fr": "Large spectre de cultivars de fraises — traitées en moins de 5 heures."
+    "fr": "Large spectre de cultivars de fraises — traitées en moins de 5 heures.",
+    "de": "Breites Spektrum an Erdbeersorten — in weniger als 5 Stunden verarbeitet und eingelagert."
   },
   "description": {
     "en": "A very special product of Montana. A wide spectrum of Strawberry is grown in Egypt such as Schindler, Silvia, Douglas, Parker, Stefal, Camarosa, Soskieb, Doret and Sigasingana. At the factory, Strawberry is processed and stored in freezing caves in less than 5 hours to maintain its nutritional benefits.",
     "ar": "منتج مميز جداً من مونتانا. تُزرع مجموعة واسعة من الفراولة في مصر مثل شيندلر، سيلفيا، دوغلاس، باركر، ستيفال، كاماروسا، سوسكيب، دوريت وسيجاسينجانا. في المصنع، تتم معالجة الفراولة وتخزينها في كهوف التجميد في أقل من ٥ ساعات.",
-    "fr": "Un produit très spécial de Montana. Un large spectre de fraises est cultivé en Égypte. À l'usine, les fraises sont traitées et stockées dans des grottes de gel en moins de 5 heures."
+    "fr": "Un produit très spécial de Montana. Un large spectre de fraises est cultivé en Égypte. À l'usine, les fraises sont traitées et stockées dans des grottes de gel en moins de 5 heures.",
+    "de": "Ein ganz besonderes Produkt von Montana. In Ägypten wird ein breites Spektrum an Erdbeersorten angebaut, darunter Schindler, Silvia, Douglas, Parker, Stefal, Camarosa, Soskieb, Doret und Sigasingana. Im Werk werden die Erdbeeren in weniger als 5 Stunden verarbeitet und in Gefrierkammern eingelagert, um ihren Nährwert zu bewahren."
   },
   "category": "fruit",
   "featured": true,
@@ -32,16 +35,14 @@
   ],
   "seasonality": ["mar", "apr", "may"],
   "images": {
-    "primary": "/images/products/official/strawberry.png",
+    "primary": "/images/products/strawberry/montana-frozen-strawberry.jpg",
     "gallery": [
-      "/images/products/lifestyle/strawberry.jpg",
-      "/images/products/stock/strawberry-1.jpg",
-      "/images/products/stock/strawberry-2.jpg",
-      "/images/products/real/strawberry-1.jpg",
-      "/images/products/real/strawberry-2.jpg",
-      "/images/products/real/strawberry-3.jpg"
+      "/images/products/strawberry/montana-frozen-strawberry-1.jpg",
+      "/images/products/strawberry/montana-frozen-strawberry-2.jpg",
+      "/images/products/strawberry/montana-frozen-strawberry-3.jpg",
+      "/images/products/strawberry/montana-frozen-strawberry-pack.png"
     ],
-    "packaging": []
+    "packaging": ["/images/products/strawberry/montana-frozen-strawberry-pack.png"]
   },
   "relatedSlugs": [],
   "varieties": []

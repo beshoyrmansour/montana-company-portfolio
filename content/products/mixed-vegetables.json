@@ -3,48 +3,55 @@
   "name": {
     "en": "Mixed Vegetables",
     "ar": "خضار مشكل",
-    "fr": "Légumes Mélangés"
+    "fr": "Légumes Mélangés",
+    "de": "Gemüsemischung"
   },
   "shortDescription": {
     "en": "Custom blends to your specification — peas, carrots, beans, corn, broccoli, cauliflower.",
     "ar": "خلطات مخصصة حسب طلبك - بازلاء وجزر وفاصوليا وذرة وبروكلي وقرنبيط.",
-    "fr": "Mélanges personnalisés — pois, carottes, haricots, maïs, brocoli, chou-fleur."
+    "fr": "Mélanges personnalisés — pois, carottes, haricots, maïs, brocoli, chou-fleur.",
+    "de": "Individuelle Mischungen nach Ihren Vorgaben — Erbsen, Karotten, Bohnen, Mais, Brokkoli, Blumenkohl."
   },
   "description": {
     "en": "Items and rations can be set upon client's selection. Customized vegetable mixture types: Regular (Peas, Green Beans & Carrot), Special (Sweet Corn, Broccoli, Cauliflower), or any combination from Montana's range of products.",
     "ar": "يمكن تحديد العناصر والمكونات بناءً على اختيار العميل. أنواع الخليط المخصص: عادي (بازلاء، فاصوليا خضراء، جزر)، خاص (ذرة حلوة، بروكلي، قرنبيط)، أو أي مزيج من منتجات مونتانا.",
-    "fr": "Les articles et rations peuvent être définis selon la sélection du client."
+    "fr": "Les articles et rations peuvent être définis selon la sélection du client.",
+    "de": "Bestandteile und Anteile lassen sich nach Kundenwunsch festlegen. Individuelle Mischungen: Standard (Erbsen, grüne Bohnen & Karotte), Spezial (Zuckermais, Brokkoli, Blumenkohl) oder jede Kombination aus Montanas Sortiment."
   },
   "category": "vegetable",
-  "featured": true,
+  "featured": false,
   "badges": ["popular"],
   "varieties": [
     {
       "name": {
         "en": "Regular (peas + green beans + carrot)",
         "ar": "عادي (بسلة + فاصوليا + جزر)",
-        "fr": "Régulier"
+        "fr": "Régulier",
+        "de": "Standard (Erbsen + grüne Bohnen + Karotte)"
       }
     },
     {
       "name": {
         "en": "3-mix + broccoli",
         "ar": "ثلاثي + بروكلي",
-        "fr": "3-mix + brocoli"
+        "fr": "3-mix + brocoli",
+        "de": "3er-Mix + Brokkoli"
       }
     },
     {
       "name": {
         "en": "3-mix + sweet corn",
         "ar": "ثلاثي + ذرة",
-        "fr": "3-mix + maïs"
+        "fr": "3-mix + maïs",
+        "de": "3er-Mix + Zuckermais"
       }
     },
     {
       "name": {
         "en": "4-mix + cauliflower",
         "ar": "رباعي + قرنبيط",
-        "fr": "4-mix + chou-fleur"
+        "fr": "4-mix + chou-fleur",
+        "de": "4er-Mix + Blumenkohl"
       }
     }
   ],
@@ -62,17 +69,15 @@
   ],
   "seasonality": [],
   "images": {
-    "primary": "/images/products/official/mixed-vegetables.png",
+    "primary": "/images/products/mixed-vegetables/montana-frozen-mixed-vegetables.jpg",
     "gallery": [
-      "/images/products/mixed-vegetables-pack.png",
-      "/images/products/lifestyle/mixed-vegetables.jpg",
-      "/images/products/stock/mixed-vegetables-1.jpg",
-      "/images/products/stock/mixed-vegetables-2.jpg",
-      "/images/products/real/mixed-vegetables-1.jpg",
-      "/images/products/real/mixed-vegetables-2.jpg",
-      "/images/products/real/mixed-vegetables-3.jpg"
+      "/images/products/mixed-vegetables/montana-frozen-mixed-vegetables-1.jpg",
+      "/images/products/mixed-vegetables/montana-frozen-mixed-vegetables-2.jpg",
+      "/images/products/mixed-vegetables/montana-frozen-mixed-vegetables-3.jpg",
+      "/images/products/mixed-vegetables/montana-frozen-mixed-vegetables-4.jpg",
+      "/images/products/mixed-vegetables/montana-frozen-mixed-vegetables-pack.png"
     ],
-    "packaging": ["/images/products/mixed-vegetables-pack.png"]
+    "packaging": ["/images/products/mixed-vegetables/montana-frozen-mixed-vegetables-pack.png"]
   },
   "relatedSlugs": ["peas-and-carrots", "broccoli", "cauliflower"]
 }

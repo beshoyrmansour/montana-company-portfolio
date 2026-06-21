@@ -63,6 +63,16 @@ export const homePageSchema = z.object({
     ctaPrimary: ctaLink,
     ctaSecondary: ctaLink.optional(),
     image: z.string(),
+    slides: z
+      .array(
+        z.object({
+          image: z.string(),
+          eyebrow: i18nString.optional(),
+          headline: i18nString.optional(),
+          subheadline: i18nString.optional(),
+        }),
+      )
+      .optional(),
     meta: z
       .object({
         enabled: z.boolean(),
@@ -83,6 +93,42 @@ export const homePageSchema = z.object({
         strong: i18nString,
         after: i18nString,
       }),
+    })
+    .optional(),
+  scale: z
+    .object({
+      enabled: z.boolean(),
+      eyebrow: i18nString.optional(),
+      title: splitTitle,
+      body: i18nString.optional(),
+      image: z.string(),
+      pillars: z.array(z.object({ title: i18nString, description: i18nString })),
+    })
+    .optional(),
+  audiences: z
+    .object({
+      enabled: z.boolean(),
+      eyebrow: i18nString.optional(),
+      title: splitTitle,
+      items: z.array(z.object({ title: i18nString, description: i18nString })),
+    })
+    .optional(),
+  commitment: z
+    .object({
+      enabled: z.boolean(),
+      eyebrow: i18nString.optional(),
+      title: splitTitle,
+      body: i18nString.optional(),
+      items: z.array(z.object({ title: i18nString, description: i18nString })),
+    })
+    .optional(),
+  buyers: z
+    .object({
+      enabled: z.boolean(),
+      eyebrow: i18nString.optional(),
+      title: splitTitle,
+      body: i18nString.optional(),
+      items: z.array(z.object({ title: i18nString, description: i18nString })),
     })
     .optional(),
   featuredProducts: z.object({
@@ -119,6 +165,8 @@ export const homePageSchema = z.object({
           label: i18nString,
           description: i18nString,
           icon: z.string(),
+          /** Optional process photo. When set, replaces the numbered circle. */
+          image: z.string().optional(),
         }),
       )
       .length(5),

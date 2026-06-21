@@ -6,6 +6,7 @@ import { getActiveTheme } from '@/lib/theme';
 import { getAboutPage } from '@/lib/content';
 import { pick, type Locale } from '@/lib/i18n';
 import { buildPageMetadata } from '@/lib/seo';
+import { certIcon, certLogo } from '@/lib/certs';
 import type { AboutPage } from '@/schemas/page';
 
 export const dynamic = 'error';
@@ -302,15 +303,28 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               </h2>
             </div>
             <div className="cert-grid">
-              {page.certifications.items.map((c) => (
-                <div key={c.name} className="cert-card">
-                  <div className="cert-shield">
-                    <CertShield />
+              {page.certifications.items.map((c) => {
+                const logo = certLogo(c.name);
+                const Icon = certIcon(c.name);
+                return (
+                  <div key={c.name} className="cert-card">
+                    <div className="cert-shield">
+                      {logo ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          className="cert-card-logo"
+                          src={logo}
+                          alt={`${c.name} certification logo`}
+                        />
+                      ) : (
+                        <Icon size={32} aria-hidden />
+                      )}
+                    </div>
+                    <h3 className="cert-name">{c.name}</h3>
+                    <p className="cert-desc">{pick(c.description, locale)}</p>
                   </div>
-                  <h3 className="cert-name">{c.name}</h3>
-                  <p className="cert-desc">{pick(c.description, locale)}</p>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </Container>
         </section>
@@ -324,26 +338,5 @@ function SplitTitle({ title, locale }: { title: AboutPage['timeline']['title']; 
     <>
       {pick(title.lead, locale)} <em>{pick(title.em, locale)}</em>
     </>
-  );
-}
-
-function CertShield() {
-  return (
-    <svg width="40" height="48" viewBox="0 0 40 48" fill="none" aria-hidden>
-      <path
-        d="M 20 2 L 38 8 L 38 26 Q 38 38 20 46 Q 2 38 2 26 L 2 8 Z"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        fill="none"
-      />
-      <path
-        d="M 14 24 L 18 28 L 26 18"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        fill="none"
-      />
-    </svg>
   );
 }

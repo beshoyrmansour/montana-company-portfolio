@@ -6,17 +6,20 @@
   "title": {
     "en": "Frozen mushrooms: kitchen-ready, no trimming, no waste",
     "ar": "المشروم المجمد: جاهز للطهي، بدون تقطيع وبدون هدر",
-    "fr": "Champignons surgelés : prêts à cuisiner, sans parage, sans gaspillage"
+    "fr": "Champignons surgelés : prêts à cuisiner, sans parage, sans gaspillage",
+    "de": "Tiefgekühlte Champignons: küchenfertig, kein Putzen, kein Abfall"
   },
   "excerpt": {
     "en": "Cleaned and sliced white mushrooms, frozen at harvest — every piece usable, with none of the browning and waste of fresh.",
     "ar": "مشروم أبيض منظف ومقطع، يُجمد عند الحصاد — كل قطعة صالحة للاستخدام، دون اسمرار أو هدر.",
-    "fr": "Champignons de Paris nettoyés et tranchés, surgelés à la récolte — chaque morceau utilisable, sans le brunissement et le gaspillage du frais."
+    "fr": "Champignons de Paris nettoyés et tranchés, surgelés à la récolte — chaque morceau utilisable, sans le brunissement et le gaspillage du frais.",
+    "de": "Geputzte und geschnittene weiße Champignons, bei der Ernte gefroren — jedes Stück verwendbar, ohne das Braunwerden und den Abfall von frischen."
   },
   "body": {
     "en": "Fresh mushrooms are one of the most perishable items in any kitchen — they brown, sweat and spoil within days. Montana's frozen mushrooms solve that: cultivated white mushrooms, cleaned and sliced, then quick-frozen so they keep their shape and pale colour.\n\nThere is no preparation on your side — no wiping, no trimming, no slicing — and crucially, no waste. You use exactly the quantity a recipe needs and return the rest to the freezer. For pizzerias, pasta houses and institutional kitchens, that predictability is the whole point: every bag delivers the same yield, every time.\n\nThey go straight from frozen into a hot pan or a sauce, releasing their water quickly and taking on flavour fast.",
     "ar": "المشروم الطازج من أسرع المكونات تلفاً في أي مطبخ. يحل مشروم مونتانا المجمد هذه المشكلة: مشروم أبيض منظف ومقطع ثم مجمد بسرعة ليحافظ على شكله ولونه. بدون أي تحضير من جانبك وبدون هدر — تستخدم الكمية التي تحتاجها فقط.",
-    "fr": "Les champignons frais comptent parmi les produits les plus périssables d'une cuisine. Les champignons surgelés Montana résolvent ce problème : champignons de Paris nettoyés et tranchés, puis surgelés rapidement. Aucune préparation de votre côté et aucun gaspillage — vous utilisez exactement la quantité nécessaire."
+    "fr": "Les champignons frais comptent parmi les produits les plus périssables d'une cuisine. Les champignons surgelés Montana résolvent ce problème : champignons de Paris nettoyés et tranchés, puis surgelés rapidement. Aucune préparation de votre côté et aucun gaspillage — vous utilisez exactement la quantité nécessaire.",
+    "de": "Frische Champignons gehören zu den verderblichsten Zutaten jeder Küche — sie werden braun, schwitzen und verderben innerhalb von Tagen. Montanas tiefgekühlte Champignons lösen das: kultivierte weiße Champignons, geputzt und geschnitten, dann schnellgefroren, sodass sie Form und helle Farbe behalten.\n\nAuf Ihrer Seite gibt es keine Vorbereitung — kein Abwischen, kein Putzen, kein Schneiden — und vor allem keinen Abfall. Sie verwenden genau die Menge, die ein Rezept braucht, und geben den Rest zurück ins Gefrierfach. Für Pizzerien, Pastahäuser und Großküchen ist genau diese Planbarkeit der Punkt: Jede Tüte liefert jedes Mal denselben Ertrag.\n\nSie kommen direkt aus dem Gefrierfach in die heiße Pfanne oder Soße, geben ihr Wasser schnell ab und nehmen rasch Geschmack an."
   },
   "author": "Montana",
   "coverImage": "/images/products/real/mushroom-1.jpg",

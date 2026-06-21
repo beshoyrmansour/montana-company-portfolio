@@ -1,10 +1,15 @@
 {
   "brand": {
-    "name": { "en": "Montana", "ar": "مونتانا", "fr": "Montana" },
+    "name": {
+      "en": "Montana",
+      "ar": "مونتانا",
+      "fr": "Montana"
+    },
     "tagline": {
       "en": "Nutritious and fresh for a quality lifestyle",
       "ar": "غذاء وطازج لحياة عالية الجودة",
-      "fr": "Nutritif et frais pour un style de vie de qualité"
+      "fr": "Nutritif et frais pour un style de vie de qualité",
+      "de": "Nahrhaft und frisch für einen hochwertigen Lebensstil"
     },
     "logoUrl": "/images/logo/montana-logo.png",
     "logoMarkUrl": "/images/logo/montana-mark.svg"
@@ -19,29 +24,54 @@
   "parentSince": 1909,
   "stats": [
     {
-      "label": { "en": "Years operating", "ar": "سنوات من العمل", "fr": "Années d'activité" },
-      "value": "40+",
+      "label": {
+        "en": "Years exporting",
+        "ar": "سنوات من التصدير",
+        "fr": "Années d'exportation",
+        "de": "Jahre Export"
+      },
+      "value": "41+",
       "icon": "CalendarDays"
     },
     {
-      "label": { "en": "Production lines", "ar": "خطوط الإنتاج", "fr": "Lignes de production" },
-      "value": "20",
+      "label": {
+        "en": "Facility",
+        "ar": "المنشأة",
+        "fr": "Site de production",
+        "de": "Anlage"
+      },
+      "value": "50,000 m²",
       "icon": "Factory"
     },
     {
-      "label": { "en": "Loyal customers", "ar": "عميل وفي", "fr": "Clients fidèles" },
-      "value": "10M+",
+      "label": {
+        "en": "Annual capacity",
+        "ar": "الطاقة الإنتاجية السنوية",
+        "fr": "Capacité annuelle",
+        "de": "Jahreskapazität"
+      },
+      "value": "35,000 t",
       "icon": "Users"
     },
     {
-      "label": { "en": "Countries", "ar": "دولة", "fr": "Pays" },
-      "value": "30",
+      "label": {
+        "en": "Markets",
+        "ar": "سوقاً",
+        "fr": "Marchés",
+        "de": "Märkte"
+      },
+      "value": "30+",
       "icon": "Globe"
     }
   ],
   "contact": {
     "office": {
-      "label": { "en": "Cairo Office", "ar": "مكتب القاهرة", "fr": "Bureau du Caire" },
+      "label": {
+        "en": "Cairo Office",
+        "ar": "مكتب القاهرة",
+        "fr": "Bureau du Caire",
+        "de": "Büro Kairo"
+      },
       "address": {
         "en": "52 Gameat El-Dowal El-Arabia St., Mohandeseen, Giza, Egypt",
         "ar": "٥٢ شارع جامعة الدول العربية، المهندسين، الجيزة، مصر",
@@ -52,7 +82,12 @@
       "email": "info@montanaeg.com"
     },
     "factory": {
-      "label": { "en": "Qalyub Factory", "ar": "مصنع القليوب", "fr": "Usine de Qalyub" },
+      "label": {
+        "en": "Qalyub Factory",
+        "ar": "مصنع القليوب",
+        "fr": "Usine de Qalyub",
+        "de": "Werk Qalyub"
+      },
       "address": {
         "en": "20 km Cairo/Alex Agriculture Road, Qalyub, Egypt",
         "ar": "كم ٢٠ طريق مصر/الإسكندرية الزراعي، القليوب، مصر",
@@ -61,7 +96,10 @@
       "phones": ["+202 421 65 139", "+202 421 65 245", "+202 421 66 912/3"],
       "fax": "+202 421 65 154",
       "email": "montana@maamoungrp.com",
-      "coordinates": { "lat": 30.2156, "lng": 31.2089 }
+      "coordinates": {
+        "lat": 30.2156,
+        "lng": 31.2089
+      }
     }
   },
   "social": {
@@ -71,11 +109,57 @@
     "whatsapp": "https://wa.me/20233375408"
   },
   "certifications": [
-    { "id": "iso22000", "name": "ISO 22000" },
-    { "id": "haccp", "name": "HACCP" },
-    { "id": "brcgs", "name": "BRCGS" },
-    { "id": "halal", "name": "Halal" },
-    { "id": "kosher", "name": "Kosher" },
-    { "id": "egypt-ecs", "name": "Egypt ECS" }
+    {
+      "id": "brcgs",
+      "name": "BRCGS"
+    },
+    {
+      "id": "ifs",
+      "name": "IFS Food"
+    },
+    {
+      "id": "iso22000",
+      "name": "ISO 22000"
+    },
+    {
+      "id": "haccp",
+      "name": "HACCP"
+    },
+    {
+      "id": "globalgap",
+      "name": "GLOBALG.A.P"
+    },
+    {
+      "id": "gmp",
+      "name": "GMP"
+    },
+    {
+      "id": "smeta",
+      "name": "SMETA"
+    },
+    {
+      "id": "halal",
+      "name": "Halal"
+    },
+    {
+      "id": "kosher",
+      "name": "Kosher"
+    },
+    {
+      "id": "nfsa",
+      "name": "NFSA"
+    },
+    {
+      "id": "qcap",
+      "name": "QCAP"
+    },
+    {
+      "id": "fda",
+      "name": "FDA"
+    },
+    {
+      "id": "codex",
+      "name": "CODEX"
+    }
   ]
 }

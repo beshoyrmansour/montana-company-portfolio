@@ -54,3 +54,4 @@ content/inbox/*.json
 # raw image sources (kept in separate cloud backup)
 _raw/
 /resources
+/public/images/website

@@ -70,6 +70,20 @@ const MONTH_LABELS: Record<Locale, Record<(typeof ALL_MONTHS)[number], string>> 
     nov: 'Nov',
     dec: 'Déc',
   },
+  de: {
+    jan: 'Jan',
+    feb: 'Feb',
+    mar: 'Mär',
+    apr: 'Apr',
+    may: 'Mai',
+    jun: 'Jun',
+    jul: 'Jul',
+    aug: 'Aug',
+    sep: 'Sep',
+    oct: 'Okt',
+    nov: 'Nov',
+    dec: 'Dez',
+  },
 };
 
 /**

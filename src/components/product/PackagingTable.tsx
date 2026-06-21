@@ -4,7 +4,7 @@ import type { Product } from '@/schemas/product';
 
 interface PackagingTableProps {
   packaging: Product['packaging'];
-  title: string;
+  title?: string;
   labels: {
     type: string;
     weight: string;
@@ -24,7 +24,7 @@ export function PackagingTable({ packaging, title, labels }: PackagingTableProps
 
   return (
     <div>
-      <h2 className="text-display mb-6 font-bold">{title}</h2>
+      {title && <h2 className="text-display mb-6 font-bold">{title}</h2>}
 
       {/* Mobile: stacked cards */}
       <ul className="grid grid-cols-1 gap-3 md:hidden">

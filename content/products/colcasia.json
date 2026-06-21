@@ -3,17 +3,20 @@
   "name": {
     "en": "Colcasia (Taro)",
     "ar": "قلقاس",
-    "fr": "Colocasia"
+    "fr": "Colocasia",
+    "de": "Kolokasie (Taro)"
   },
   "shortDescription": {
     "en": "Upper-Egyptian taro — known for its large size and excellent taste. Green leaves included for cooking.",
     "ar": "قلقاس صعيدي - معروف بحجمه الكبير ومذاقه المميز. تتوفر الأوراق الخضراء اللازمة للطهي.",
-    "fr": "Taro de Haute-Égypte — connu pour sa grande taille et son excellent goût."
+    "fr": "Taro de Haute-Égypte — connu pour sa grande taille et son excellent goût.",
+    "de": "Oberägyptische Kolokasie — bekannt für ihre Größe und ihren ausgezeichneten Geschmack. Grüne Blätter zum Kochen inklusive."
   },
   "description": {
     "en": "Montana produces the highest quality of Colcasia, well known for its large size and good taste. Each pack is provided with the green leaves needed for cooking.",
     "ar": "تنتج مونتانا أعلى جودة من القلقاس، المعروف بحجمه الكبير ومذاقه الجيد. كل عبوة مزودة بالأوراق الخضراء اللازمة للطهي.",
-    "fr": "Montana utilise la meilleure qualité de Colcasia bien connue pour sa grande taille et son bon goût."
+    "fr": "Montana utilise la meilleure qualité de Colcasia bien connue pour sa grande taille et son bon goût.",
+    "de": "Montana produziert Kolokasie höchster Qualität, bekannt für ihre Größe und ihren guten Geschmack. Jeder Packung liegen die zum Kochen benötigten grünen Blätter bei."
   },
   "category": "specialty",
   "featured": false,
@@ -32,12 +35,11 @@
   ],
   "seasonality": ["dec"],
   "images": {
-    "primary": "/images/products/lifestyle/colcasia.jpg",
+    "primary": "/images/products/colcasia/montana-frozen-colcasia.jpg",
     "gallery": [
-      "/images/products/stock/colcasia-1.jpg",
-      "/images/products/stock/colcasia-2.jpg",
-      "/images/products/real/colcasia-1.jpg",
-      "/images/products/real/colcasia-2.jpg"
+      "/images/products/colcasia/montana-frozen-colcasia-1.jpg",
+      "/images/products/colcasia/montana-frozen-colcasia-2.jpg",
+      "/images/products/colcasia/montana-frozen-colcasia-3.jpg"
     ],
     "packaging": []
   },

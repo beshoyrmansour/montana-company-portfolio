@@ -30,6 +30,7 @@ const OG_LOCALE_MAP: Record<Locale, string> = {
   en: 'en_US',
   ar: 'ar_EG',
   fr: 'fr_FR',
+  de: 'de_DE',
 };
 
 export function ogLocale(locale: Locale): string {

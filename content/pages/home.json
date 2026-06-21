@@ -3,28 +3,33 @@
     "eyebrow": {
       "en": "Nutritious and fresh for",
       "ar": "غذاء وطازج لـ",
-      "fr": "Nutritif et frais pour"
+      "fr": "Nutritif et frais pour",
+      "de": "Nahrhaft und frisch für"
     },
     "headline": {
       "en": "A Quality Lifestyle, one harvest.",
       "ar": "حياة عالية الجودة، حصاد واحد.",
-      "fr": "Un style de vie de qualité, une seule récolte."
+      "fr": "Un style de vie de qualité, une seule récolte.",
+      "de": "Ein hochwertiger Lebensstil, eine Ernte."
     },
     "subheadline": {
-      "en": "Family-owned. Egyptian. 30 countries served. Forty years of getting frozen food right.",
-      "ar": "شركة عائلية مصرية. نخدم ٣٠ دولة. أربعون عاماً من الخبرة في الأغذية المجمدة.",
-      "fr": "Entreprise familiale égyptienne. 30 pays servis. Quarante ans à perfectionner les aliments surgelés."
+      "en": "Family-owned. Egyptian. 30 markets served. 41 years of getting frozen food right.",
+      "ar": "شركة عائلية مصرية. نخدم ٣٠ سوقاً. 41 عاماً من الخبرة في الأغذية المجمدة.",
+      "fr": "Entreprise familiale égyptienne. 30 marchés servis. 41 ans à perfectionner les aliments surgelés.",
+      "de": "Familienbesitz. Ägyptisch. 30 Märkte beliefert. 41 Jahre Erfahrung mit Tiefkühlkost."
     },
     "pre": {
       "en": "Family-owned · Since 1985",
       "ar": "شركة عائلية · منذ ١٩٨٥",
-      "fr": "Entreprise familiale · depuis 1985"
+      "fr": "Entreprise familiale · depuis 1985",
+      "de": "Familienbesitz · Seit 1985"
     },
     "ctaPrimary": {
       "label": {
         "en": "View catalog",
         "ar": "تصفح المنتجات",
-        "fr": "Voir le catalogue"
+        "fr": "Voir le catalogue",
+        "de": "Katalog ansehen"
       },
       "href": "/catalog",
       "variant": "primary"
@@ -33,13 +38,142 @@
       "label": {
         "en": "Download catalogue",
         "ar": "تحميل الكتالوج",
-        "fr": "Télécharger le catalogue"
+        "fr": "Télécharger le catalogue",
+        "de": "Katalog herunterladen"
       },
       "href": "/docs/Montana-Catalogue.pdf",
       "variant": "ghost",
       "external": true
     },
-    "image": "/images/heroes/hero-grid.png",
+    "image": "/images/heroes/frozen-strawberry.jpg",
+    "slides": [
+      {
+        "image": "/images/heroes/frozen-strawberry.jpg",
+        "eyebrow": {
+          "en": "Frozen vegetables & fruit · since 1985",
+          "ar": "خضراوات وفواكه مجمدة · منذ 1985",
+          "fr": "Légumes & fruits surgelés · depuis 1985",
+          "de": "Tiefgekühltes Gemüse & Obst · seit 1985"
+        },
+        "headline": {
+          "en": "Egypt's harvest, frozen at its peak.",
+          "ar": "حصاد مصر، مجمّد في ذروته.",
+          "fr": "La récolte d'Égypte, surgelée à son apogée.",
+          "de": "Ägyptens Ernte, gefroren auf dem Höhepunkt."
+        },
+        "subheadline": {
+          "en": "Field-fresh IQF vegetables and fruit, shock-frozen within hours of the harvest.",
+          "ar": "خضراوات وفواكه طازجة بتجميد فوري (IQF)، تُجمَّد خلال ساعات من الحصاد.",
+          "fr": "Légumes et fruits IQF, surgelés en quelques heures après la récolte.",
+          "de": "Feldfrisches IQF-Gemüse und -Obst, schockgefroren innerhalb von Stunden nach der Ernte."
+        }
+      },
+      {
+        "image": "/images/heroes/frozen-mango.jpg",
+        "eyebrow": {
+          "en": "Fruit, at peak ripeness",
+          "ar": "فاكهة في ذروة نضجها",
+          "fr": "Fruits à pleine maturité",
+          "de": "Obst auf dem Reifehöhepunkt"
+        },
+        "headline": {
+          "en": "Picked ripe, frozen in hours.",
+          "ar": "يُقطف ناضجاً، ويُجمّد خلال ساعات.",
+          "fr": "Cueilli mûr, surgelé en quelques heures.",
+          "de": "Reif gepflückt, in Stunden gefroren."
+        },
+        "subheadline": {
+          "en": "Mango, strawberries and pomegranate — IQF-frozen to lock in the flavour of the season.",
+          "ar": "مانجو وفراولة ورمان — تجميد فوري يحفظ نكهة الموسم.",
+          "fr": "Mangue, fraises et grenade — surgélation IQF pour capturer la saveur de la saison.",
+          "de": "Mango, Erdbeeren und Granatapfel — IQF-gefroren, um den Geschmack der Saison zu bewahren."
+        }
+      },
+      {
+        "image": "/images/heroes/frozen-broccoli.jpg",
+        "eyebrow": {
+          "en": "Vegetables, individually quick-frozen",
+          "ar": "خضراوات بتجميد فوري فردي",
+          "fr": "Légumes surgelés individuellement",
+          "de": "Gemüse, einzeln schockgefroren"
+        },
+        "headline": {
+          "en": "Free-flowing, never clumped.",
+          "ar": "حبّات منفصلة، بلا تكتّل.",
+          "fr": "Grain à grain, jamais en blocs.",
+          "de": "Rieselfähig, nie verklumpt."
+        },
+        "subheadline": {
+          "en": "Broccoli, cauliflower, peas and mixes — IQF, so you pour exactly what you need.",
+          "ar": "بروكلي وقرنبيط وبسلة وخلطات — تجميد فوري لتسكب ما تحتاجه تماماً.",
+          "fr": "Brocoli, chou-fleur, petits pois et mélanges — IQF, pour doser exactement.",
+          "de": "Brokkoli, Blumenkohl, Erbsen und Mischungen — IQF, für genau die richtige Portion."
+        }
+      },
+      {
+        "image": "/images/heroes/frozen-cauliflower.jpg",
+        "eyebrow": {
+          "en": "Graded and sorted",
+          "ar": "مصنّفة ومفروزة",
+          "fr": "Calibré et trié",
+          "de": "Sortiert und kalibriert"
+        },
+        "headline": {
+          "en": "Sized, sorted, certified.",
+          "ar": "محجّمة، مفروزة، معتمدة.",
+          "fr": "Calibré, trié, certifié.",
+          "de": "Kalibriert, sortiert, zertifiziert."
+        },
+        "subheadline": {
+          "en": "Every batch graded by size and checked against ISO 22000 and HACCP.",
+          "ar": "كل دفعة تُصنّف حسب الحجم وتُفحص وفق ISO 22000 وHACCP.",
+          "fr": "Chaque lot calibré et contrôlé selon ISO 22000 et HACCP.",
+          "de": "Jede Charge nach Größe sortiert und nach ISO 22000 und HACCP geprüft."
+        }
+      },
+      {
+        "image": "/images/heroes/hero-grid.png",
+        "eyebrow": {
+          "en": "Our own farms",
+          "ar": "مزارعنا الخاصة",
+          "fr": "Nos propres fermes",
+          "de": "Unsere eigenen Felder"
+        },
+        "headline": {
+          "en": "Grown by us, not just packed by us.",
+          "ar": "نزرعه بأنفسنا، لا نعبّئه فقط.",
+          "fr": "Cultivé par nous, pas seulement emballé.",
+          "de": "Von uns angebaut, nicht nur verpackt."
+        },
+        "subheadline": {
+          "en": "Own farms and a vetted supplier list — traceable from field to container.",
+          "ar": "مزارع خاصة وقائمة موردين موثوقة — تتبّع كامل من الحقل إلى الحاوية.",
+          "fr": "Fermes en propre et fournisseurs agréés — traçable du champ au conteneur.",
+          "de": "Eigene Felder und eine geprüfte Lieferantenliste — rückverfolgbar vom Feld bis zum Container."
+        }
+      },
+      {
+        "image": "/images/facility/floor/floor-06.jpg",
+        "eyebrow": {
+          "en": "Built for scale",
+          "ar": "مبنية للحجم الكبير",
+          "fr": "Conçu pour l'échelle",
+          "de": "Für große Mengen gebaut"
+        },
+        "headline": {
+          "en": "Built for scale, container after container.",
+          "ar": "مبنية للحجم، حاوية تلو الأخرى.",
+          "fr": "Conçu pour l'échelle, conteneur après conteneur.",
+          "de": "Für große Mengen gebaut, Container für Container."
+        },
+        "subheadline": {
+          "en": "50,000 m², 35,000 tonnes a year — IQF tunnels, batch freezers and cold stores sized for full-container exports.",
+          "ar": "٥٠٬٠٠٠ م² و٣٥٬٠٠٠ طن سنوياً — أنفاق تجميد فوري ومجمدات ومخازن تبريد بحجم يناسب التصدير بالحاويات.",
+          "fr": "50 000 m², 35 000 tonnes par an — tunnels IQF, congélateurs et chambres froides dimensionnés pour l'export en conteneurs.",
+          "de": "50.000 m², 35.000 Tonnen pro Jahr — IQF-Tunnel, Chargengefrierer und Kühlhäuser, dimensioniert für den Export ganzer Container."
+        }
+      }
+    ],
     "meta": {
       "enabled": true,
       "items": [
@@ -48,7 +182,8 @@
           "label": {
             "en": "Family-founded",
             "ar": "عائلي · مؤسس",
-            "fr": "Fondé en famille"
+            "fr": "Fondé en famille",
+            "de": "Familiengegründet"
           }
         },
         {
@@ -56,7 +191,8 @@
           "label": {
             "en": "Countries served",
             "ar": "دولة نخدمها",
-            "fr": "Pays servis"
+            "fr": "Pays servis",
+            "de": "Belieferte Länder"
           }
         },
         {
@@ -64,7 +200,8 @@
           "label": {
             "en": "22000 certified",
             "ar": "معتمد ٢٢٠٠٠",
-            "fr": "22000 certifié"
+            "fr": "22000 certifié",
+            "de": "22000 zertifiziert"
           }
         },
         {
@@ -72,7 +209,8 @@
           "label": {
             "en": "Naturally frozen",
             "ar": "تجميد طبيعي",
-            "fr": "Surgelé naturellement"
+            "fr": "Surgelé naturellement",
+            "de": "Natürlich gefroren"
           }
         }
       ]
@@ -82,89 +220,451 @@
     "enabled": true,
     "lede": {
       "before": {
-        "en": "We have spent forty years",
-        "ar": "أمضينا أربعين عاماً في",
-        "fr": "Nous avons passé quarante ans à"
+        "en": "We have spent 41 years",
+        "ar": "أمضينا 41 عاماً في",
+        "fr": "Nous avons passé 41 ans à",
+        "de": "Wir haben 41 Jahre damit verbracht,"
       },
       "strong": {
         "en": "growing, freezing and shipping the freshest of Egypt",
         "ar": "زراعة وتجميد وشحن أطيب ما في مصر",
-        "fr": "cultiver, surgeler et expédier le meilleur de l'Égypte"
+        "fr": "cultiver, surgeler et expédier le meilleur de l'Égypte",
+        "de": "das Frischeste Ägyptens anzubauen, zu gefrieren und zu verschicken"
       },
       "after": {
         "en": "— to families, restaurants and traders across five continents.",
         "ar": "— إلى العائلات والمطاعم والتجار في خمس قارات.",
-        "fr": "— vers les familles, les restaurants et les négociants sur cinq continents."
+        "fr": "— vers les familles, les restaurants et les négociants sur cinq continents.",
+        "de": "— an Familien, Restaurants und Händler auf fünf Kontinenten."
       }
     }
+  },
+  "scale": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Built for volume",
+      "ar": "مبنية للحجم",
+      "fr": "Conçu pour le volume",
+      "de": "Für Volumen gebaut"
+    },
+    "title": {
+      "lead": {
+        "en": "A facility sized",
+        "ar": "منشأة بحجم",
+        "fr": "Une usine à la taille",
+        "de": "Eine Anlage in der Größe"
+      },
+      "em": {
+        "en": "for the world.",
+        "ar": "يناسب العالم.",
+        "fr": "du monde.",
+        "de": "für die Welt."
+      }
+    },
+    "body": {
+      "en": "50,000 m², 35,000 tonnes a year, three IQF and three batch freezers, plus our own cold stores and fleet — vertically integrated from seed to shipment.",
+      "ar": "٥٠٬٠٠٠ م²، و٣٥٬٠٠٠ طن سنوياً، وثلاثة أنفاق تجميد فوري وثلاثة مجمدات دفعات، إضافة إلى مخازن تبريد وأسطول خاص بنا — تكامل رأسي من البذرة إلى الشحن.",
+      "fr": "50 000 m², 35 000 tonnes par an, trois tunnels IQF et trois congélateurs, plus nos propres chambres froides et notre flotte — intégration verticale de la graine à l'expédition.",
+      "de": "50.000 m², 35.000 Tonnen pro Jahr, drei IQF- und drei Chargengefrierer sowie eigene Kühlhäuser und Fuhrpark — vertikal integriert vom Saatgut bis zum Versand."
+    },
+    "image": "/images/facility/floor/floor-18.jpg",
+    "pillars": [
+      {
+        "title": {
+          "en": "Own farms & vetted growers",
+          "ar": "مزارع خاصة وموردون موثوقون",
+          "fr": "Fermes propres & producteurs agréés",
+          "de": "Eigene Felder & geprüfte Erzeuger"
+        },
+        "description": {
+          "en": "We grow what we freeze, backed by a listed, audited supplier base.",
+          "ar": "نزرع ما نجمّده، مع قاعدة موردين مُدرجة ومُدققة.",
+          "fr": "Nous cultivons ce que nous surgelons, avec des fournisseurs agréés et audités.",
+          "de": "Wir bauen an, was wir gefrieren, gestützt auf eine gelistete, auditierte Lieferantenbasis."
+        }
+      },
+      {
+        "title": {
+          "en": "DACO — agricultural supply",
+          "ar": "داكو — الإمداد الزراعي",
+          "fr": "DACO — approvisionnement agricole",
+          "de": "DACO — landwirtschaftliche Versorgung"
+        },
+        "description": {
+          "en": "Our sister company secures seeds and inputs for a consistent harvest.",
+          "ar": "تؤمّن شركتنا الشقيقة البذور والمستلزمات لحصاد ثابت الجودة.",
+          "fr": "Notre société sœur sécurise semences et intrants pour une récolte régulière.",
+          "de": "Unser Schwesterunternehmen sichert Saatgut und Betriebsmittel für eine gleichbleibende Ernte."
+        }
+      },
+      {
+        "title": {
+          "en": "PILCO — custom packaging",
+          "ar": "بيلكو — تغليف مخصص",
+          "fr": "PILCO — emballage sur mesure",
+          "de": "PILCO — maßgeschneiderte Verpackung"
+        },
+        "description": {
+          "en": "In-house packaging, made to your retail, food-service or bulk spec.",
+          "ar": "تغليف داخلي حسب مواصفات التجزئة أو المطاعم أو الجملة.",
+          "fr": "Emballage interne, selon vos besoins détail, restauration ou vrac.",
+          "de": "Eigene Verpackung, nach Ihren Vorgaben für Einzelhandel, Gastronomie oder Großgebinde."
+        }
+      },
+      {
+        "title": {
+          "en": "Maamoun Cold Stores",
+          "ar": "مخازن مأمون للتبريد",
+          "fr": "Maamoun Cold Stores"
+        },
+        "description": {
+          "en": "Group cold storage keeps the chain unbroken from freezer to port.",
+          "ar": "تحافظ مخازن المجموعة على سلسلة تبريد متصلة من المجمد إلى الميناء.",
+          "fr": "Le stockage froid du groupe garde la chaîne intacte du congélateur au port.",
+          "de": "Die Kühlhäuser der Gruppe halten die Kette vom Gefrierer bis zum Hafen ununterbrochen."
+        }
+      }
+    ]
+  },
+  "audiences": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Who we serve",
+      "ar": "من نخدم",
+      "fr": "Qui nous servons",
+      "de": "Wen wir beliefern"
+    },
+    "title": {
+      "lead": {
+        "en": "One harvest,",
+        "ar": "حصاد واحد،",
+        "fr": "Une récolte,",
+        "de": "Eine Ernte,"
+      },
+      "em": {
+        "en": "many shelves.",
+        "ar": "أرفف كثيرة.",
+        "fr": "de nombreux rayons.",
+        "de": "viele Regale."
+      }
+    },
+    "items": [
+      {
+        "title": {
+          "en": "Retailers & private label",
+          "ar": "تجار التجزئة والعلامات الخاصة",
+          "fr": "Distributeurs & marque propre",
+          "de": "Einzelhändler & Eigenmarken"
+        },
+        "description": {
+          "en": "Retail packs and own-brand programmes, labelled to your market.",
+          "ar": "عبوات تجزئة وبرامج علامة خاصة، موسومة حسب سوقك.",
+          "fr": "Conditionnements détail et marques propres, étiquetés pour votre marché.",
+          "de": "Einzelhandelspackungen und Eigenmarkenprogramme, etikettiert für Ihren Markt."
+        }
+      },
+      {
+        "title": {
+          "en": "Food-service & HoReCa",
+          "ar": "خدمات الطعام والضيافة",
+          "fr": "Restauration & HoReCa",
+          "de": "Gastronomie & HoReCa"
+        },
+        "description": {
+          "en": "Bulk formats for hotels, restaurants, caterers and central kitchens.",
+          "ar": "عبوات جملة للفنادق والمطاعم والتموين والمطابخ المركزية.",
+          "fr": "Formats vrac pour hôtels, restaurants, traiteurs et cuisines centrales.",
+          "de": "Großgebinde für Hotels, Restaurants, Caterer und Zentralküchen."
+        }
+      },
+      {
+        "title": {
+          "en": "Importers & distributors",
+          "ar": "المستوردون والموزعون",
+          "fr": "Importateurs & distributeurs",
+          "de": "Importeure & Distributoren"
+        },
+        "description": {
+          "en": "Full-container programmes with consistent grades and documentation.",
+          "ar": "برامج بالحاويات الكاملة بدرجات ثابتة ووثائق كاملة.",
+          "fr": "Programmes par conteneur complet, calibres constants et documentation.",
+          "de": "Programme mit ganzen Containern, gleichbleibenden Qualitäten und vollständiger Dokumentation."
+        }
+      },
+      {
+        "title": {
+          "en": "Co-packing & industry",
+          "ar": "التعبئة لدى الغير والصناعة",
+          "fr": "Co-packing & industrie",
+          "de": "Co-Packing & Industrie"
+        },
+        "description": {
+          "en": "Ingredients and custom blends for food manufacturers.",
+          "ar": "مكوّنات وخلطات مخصصة لمصنّعي الأغذية.",
+          "fr": "Ingrédients et mélanges sur mesure pour les industriels.",
+          "de": "Zutaten und individuelle Mischungen für Lebensmittelhersteller."
+        }
+      }
+    ]
+  },
+  "commitment": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "Quality is everything",
+      "ar": "الجودة هي كل شيء",
+      "fr": "La qualité avant tout",
+      "de": "Qualität ist alles"
+    },
+    "title": {
+      "lead": {
+        "en": "Commitments we",
+        "ar": "التزامات",
+        "fr": "Des engagements",
+        "de": "Verpflichtungen, die wir"
+      },
+      "em": {
+        "en": "won't compromise.",
+        "ar": "لا نساوم عليها.",
+        "fr": "sans compromis.",
+        "de": "nicht aufs Spiel setzen."
+      }
+    },
+    "body": {
+      "en": "From the field to the freezer, the same promises hold.",
+      "ar": "من الحقل إلى المجمد، تبقى الوعود نفسها.",
+      "fr": "Du champ au congélateur, les mêmes promesses tiennent.",
+      "de": "Vom Feld bis zum Gefrierer gelten dieselben Versprechen."
+    },
+    "items": [
+      {
+        "title": {
+          "en": "100% natural",
+          "ar": "طبيعي ١٠٠٪",
+          "fr": "100% naturel",
+          "de": "100% natürlich"
+        },
+        "description": {
+          "en": "No additives, no preservatives — just vegetables and fruit, frozen fresh.",
+          "ar": "بدون إضافات أو مواد حافظة — خضار وفواكه فقط، مجمّدة طازجة.",
+          "fr": "Sans additifs ni conservateurs — légumes et fruits, surgelés frais.",
+          "de": "Keine Zusatzstoffe, keine Konservierungsmittel — nur Gemüse und Obst, frisch gefroren."
+        }
+      },
+      {
+        "title": {
+          "en": "Regulated & audited",
+          "ar": "مُنظَّم ومُدقَّق",
+          "fr": "Réglementé & audité",
+          "de": "Reguliert & auditiert"
+        },
+        "description": {
+          "en": "Under Egypt's NFSA, with lab analysis via QCAP (ISO 17025 / FINAS).",
+          "ar": "تحت الهيئة القومية لسلامة الغذاء، مع تحاليل عبر QCAP (ISO 17025 / FINAS).",
+          "fr": "Sous la NFSA d'Égypte, analyses via QCAP (ISO 17025 / FINAS).",
+          "de": "Unter der ägyptischen NFSA, mit Laboranalysen über QCAP (ISO 17025 / FINAS)."
+        }
+      },
+      {
+        "title": {
+          "en": "Lower-impact operations",
+          "ar": "عمليات أقل أثراً",
+          "fr": "Opérations à moindre impact",
+          "de": "Umweltschonender Betrieb"
+        },
+        "description": {
+          "en": "A solar-roof programme and water- and energy-careful processing.",
+          "ar": "برنامج للطاقة الشمسية ومعالجة موفّرة للمياه والطاقة.",
+          "fr": "Un programme de toit solaire et une transformation économe en eau et énergie.",
+          "de": "Ein Solardach-Programm sowie wasser- und energiesparende Verarbeitung."
+        }
+      },
+      {
+        "title": {
+          "en": "We honour our word",
+          "ar": "نحترم التزاماتنا",
+          "fr": "Nous tenons parole",
+          "de": "Wir halten unser Wort"
+        },
+        "description": {
+          "en": "On spec, on time — the reputation we've kept for 41 years.",
+          "ar": "حسب المواصفات وفي الموعد — السمعة التي حافظنا عليها ٤١ عاماً.",
+          "fr": "Conforme et à temps — la réputation tenue depuis 41 ans.",
+          "de": "Spezifikationsgerecht und pünktlich — der Ruf, den wir seit 41 Jahren wahren."
+        }
+      }
+    ]
+  },
+  "buyers": {
+    "enabled": true,
+    "eyebrow": {
+      "en": "For buyers",
+      "ar": "للمشترين",
+      "fr": "Pour les acheteurs",
+      "de": "Für Einkäufer"
+    },
+    "title": {
+      "lead": {
+        "en": "Simple to",
+        "ar": "سهلة",
+        "fr": "Facile",
+        "de": "Einfach"
+      },
+      "em": {
+        "en": "work with.",
+        "ar": "في التعامل.",
+        "fr": "à travailler.",
+        "de": "zusammenzuarbeiten."
+      }
+    },
+    "body": {
+      "en": "From enquiry to container, on terms that suit your market.",
+      "ar": "من الاستفسار إلى الحاوية، بشروط تناسب سوقك.",
+      "fr": "De la demande au conteneur, selon des conditions adaptées à votre marché.",
+      "de": "Von der Anfrage bis zum Container, zu Bedingungen, die zu Ihrem Markt passen."
+    },
+    "items": [
+      {
+        "title": {
+          "en": "Flexible Incoterms",
+          "ar": "شروط تسليم مرنة",
+          "fr": "Incoterms flexibles",
+          "de": "Flexible Incoterms"
+        },
+        "description": {
+          "en": "Ship EXW, FOB, CIF or DDP — you choose who carries freight and risk.",
+          "ar": "الشحن EXW أو FOB أو CIF أو DDP — أنت تختار من يتحمل الشحن والمخاطر.",
+          "fr": "Expédition EXW, FOB, CIF ou DDP — vous choisissez qui assume fret et risque.",
+          "de": "Versand EXW, FOB, CIF oder DDP — Sie wählen, wer Fracht und Risiko trägt."
+        }
+      },
+      {
+        "title": {
+          "en": "Container programmes",
+          "ar": "برامج بالحاويات",
+          "fr": "Programmes par conteneur",
+          "de": "Container-Programme"
+        },
+        "description": {
+          "en": "Full-container (FCL) loads and mixed-container orders.",
+          "ar": "حمولات الحاوية الكاملة (FCL) وطلبات الحاويات المختلطة.",
+          "fr": "Chargements en conteneur complet (FCL) et conteneurs mixtes.",
+          "de": "Ganze Container (FCL) und gemischte Containerladungen."
+        }
+      },
+      {
+        "title": {
+          "en": "Secure payment",
+          "ar": "دفع آمن",
+          "fr": "Paiement sécurisé",
+          "de": "Sichere Zahlung"
+        },
+        "description": {
+          "en": "Letter of credit (L/C) and bank transfer (T/T).",
+          "ar": "اعتماد مستندي (L/C) وتحويل بنكي (T/T).",
+          "fr": "Lettre de crédit (L/C) et virement bancaire (T/T).",
+          "de": "Akkreditiv (L/C) und Banküberweisung (T/T)."
+        }
+      },
+      {
+        "title": {
+          "en": "Samples first",
+          "ar": "عيّنات أولاً",
+          "fr": "Échantillons d'abord",
+          "de": "Zuerst Muster"
+        },
+        "description": {
+          "en": "Request samples before you commit to an order.",
+          "ar": "اطلب عيّنات قبل تأكيد الطلب.",
+          "fr": "Demandez des échantillons avant de vous engager.",
+          "de": "Fordern Sie Muster an, bevor Sie eine Bestellung aufgeben."
+        }
+      },
+      {
+        "title": {
+          "en": "Private label & documents",
+          "ar": "علامة خاصة ومستندات",
+          "fr": "Marque propre & documents",
+          "de": "Eigenmarke & Dokumente"
+        },
+        "description": {
+          "en": "Your brand or a retailer's, with full export documentation.",
+          "ar": "علامتك أو علامة المتجر، مع مستندات تصدير كاملة.",
+          "fr": "Votre marque ou celle d'un distributeur, avec documentation d'export complète.",
+          "de": "Ihre Marke oder die eines Händlers, mit vollständiger Exportdokumentation."
+        }
+      }
+    ]
   },
   "featuredProducts": {
     "enabled": true,
     "eyebrow": {
       "en": "Featured catalogue",
       "ar": "كتالوج مختار",
-      "fr": "Catalogue en vedette"
+      "fr": "Catalogue en vedette",
+      "de": "Ausgewählter Katalog"
     },
     "title": {
       "lead": {
         "en": "Our favorite products,",
         "ar": "منتجاتنا المفضلة،",
-        "fr": "Nos produits favoris,"
+        "fr": "Nos produits favoris,",
+        "de": "Unsere Lieblingsprodukte,"
       },
       "em": {
         "en": "a quiet harvest.",
         "ar": "حصاد هادئ.",
-        "fr": "une récolte tranquille."
+        "fr": "une récolte tranquille.",
+        "de": "eine stille Ernte."
       }
     },
     "viewAllLabel": {
       "en": "View all",
       "ar": "عرض الكل",
-      "fr": "Voir tout"
+      "fr": "Voir tout",
+      "de": "Alle ansehen"
     },
-    "count": 8
+    "count": 5
   },
   "chairmanQuote": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": {
-      "en": "From our founder",
-      "ar": "من مؤسسنا",
-      "fr": "De notre fondateur"
+      "en": "Our promise",
+      "ar": "وعدنا",
+      "fr": "Notre promesse",
+      "de": "Unser Versprechen"
     },
     "quote": {
       "before": {
         "en": "We do not sell vegetables. We sell the",
         "ar": "نحن لا نبيع خضروات. نبيع",
-        "fr": "Nous ne vendons pas de légumes. Nous vendons la"
+        "fr": "Nous ne vendons pas de légumes. Nous vendons la",
+        "de": "Wir verkaufen kein Gemüse. Wir verkaufen das"
       },
       "strong": {
         "en": "trust of four generations",
         "ar": "ثقة أربعة أجيال",
-        "fr": "confiance de quatre générations"
+        "fr": "confiance de quatre générations",
+        "de": "Vertrauen von vier Generationen"
       },
       "after": {
         "en": "of an Egyptian family that has never shipped a single tonne we would not serve at our own table.",
         "ar": "من عائلة مصرية لم تشحن قط طناً واحداً لا نقدمه على مائدتنا.",
-        "fr": "d'une famille égyptienne qui n'a jamais expédié une seule tonne qu'elle ne servirait pas à sa propre table."
+        "fr": "d'une famille égyptienne qui n'a jamais expédié une seule tonne qu'elle ne servirait pas à sa propre table.",
+        "de": "einer ägyptischen Familie, die nie eine einzige Tonne verschickt hat, die wir nicht auch an unserem eigenen Tisch servieren würden."
       }
     },
     "attribution": {
       "name": {
-        "en": "Al-Omda Mamdouh Maamoun",
-        "ar": "العمدة ممدوح مأمون",
-        "fr": "Al-Omda Mamdouh Maamoun"
+        "en": "Montana",
+        "ar": "مونتانا",
+        "fr": "Montana"
       },
       "role": {
-        "en": "Founder · United Co. for Food Industries",
-        "ar": "المؤسس · الشركة المتحدة للصناعات الغذائية",
-        "fr": "Fondateur · United Co. for Food Industries"
+        "en": "Family-owned · Since 1985",
+        "ar": "شركة عائلية · منذ 1985",
+        "fr": "Entreprise familiale · depuis 1985",
+        "de": "Familienbesitz · Seit 1985"
       }
-    },
-    "image": "/images/about/founder.jpg",
-    "cornerMark": {
-      "en": "In loving memory",
-      "ar": "في ذكراه",
-      "fr": "En sa mémoire"
     }
   },
   "process": {
@@ -172,18 +672,21 @@
     "eyebrow": {
       "en": "Field to freezer",
       "ar": "من الحقل إلى المجمد",
-      "fr": "Du champ au congélateur"
+      "fr": "Du champ au congélateur",
+      "de": "Vom Feld zum Gefrierer"
     },
     "title": {
       "lead": {
         "en": "How we work,",
         "ar": "كيف نعمل،",
-        "fr": "Notre processus,"
+        "fr": "Notre processus,",
+        "de": "Wie wir arbeiten,"
       },
       "em": {
-        "en": "every batch, for forty years.",
-        "ar": "كل دفعة، طوال أربعين عاماً.",
-        "fr": "chaque lot, depuis quarante ans."
+        "en": "every batch, for 41 years.",
+        "ar": "كل دفعة، طوال 41 عاماً.",
+        "fr": "chaque lot, depuis 41 ans.",
+        "de": "jede Charge, seit 41 Jahren."
       }
     },
     "steps": [
@@ -191,66 +694,81 @@
         "label": {
           "en": "Prepare",
           "ar": "الإعداد",
-          "fr": "Préparation"
+          "fr": "Préparation",
+          "de": "Vorbereiten"
         },
         "description": {
           "en": "All received vegetables are washed and prepared for processing.",
           "ar": "تُغسل جميع الخضروات المستلمة وتُجهز للمعالجة.",
-          "fr": "Tous les légumes reçus sont lavés et préparés."
+          "fr": "Tous les légumes reçus sont lavés et préparés.",
+          "de": "Alles angelieferte Gemüse wird gewaschen und für die Verarbeitung vorbereitet."
         },
-        "icon": "Sparkles"
+        "icon": "Sparkles",
+        "image": "/images/facility/floor/floor-08.jpg"
       },
       {
         "label": {
           "en": "Process",
           "ar": "الإنتاج",
-          "fr": "Production"
+          "fr": "Production",
+          "de": "Verarbeiten"
         },
         "description": {
           "en": "Latest technology applied throughout processing and packing.",
           "ar": "أحدث التقنيات في جميع مراحل الإنتاج والتعبئة.",
-          "fr": "Technologie de pointe à toutes les étapes."
+          "fr": "Technologie de pointe à toutes les étapes.",
+          "de": "Neueste Technologie in allen Schritten der Verarbeitung und Verpackung."
         },
-        "icon": "Factory"
+        "icon": "Factory",
+        "image": "/images/facility/floor/floor-16.jpg"
       },
       {
         "label": {
           "en": "Inspect",
           "ar": "الفحص",
-          "fr": "Inspection"
+          "fr": "Inspection",
+          "de": "Prüfen"
         },
         "description": {
           "en": "QA lab rechecks every batch regularly.",
           "ar": "يفحص مختبر الجودة كل دفعة بانتظام.",
-          "fr": "Le laboratoire QA contrôle chaque lot."
+          "fr": "Le laboratoire QA contrôle chaque lot.",
+          "de": "Das QS-Labor kontrolliert jede Charge regelmäßig."
         },
-        "icon": "Microscope"
+        "icon": "Microscope",
+        "image": "/images/facility/floor/floor-13.jpg"
       },
       {
         "label": {
           "en": "Package",
           "ar": "التغليف",
-          "fr": "Emballage"
+          "fr": "Emballage",
+          "de": "Verpacken"
         },
         "description": {
           "en": "Custom retail, foodservice, and bulk options.",
           "ar": "خيارات تغليف بالتجزئة والمطاعم والجملة.",
-          "fr": "Options de détail, restauration et vrac."
+          "fr": "Options de détail, restauration et vrac.",
+          "de": "Individuelle Optionen für Einzelhandel, Gastronomie und Großgebinde."
         },
-        "icon": "Package"
+        "icon": "Package",
+        "image": "/images/facility/floor/floor-17.jpg"
       },
       {
         "label": {
           "en": "Surveillance",
           "ar": "المراقبة",
-          "fr": "Surveillance"
+          "fr": "Surveillance",
+          "de": "Überwachung"
         },
         "description": {
           "en": "Continuous monitoring through HACCP-certified systems.",
           "ar": "مراقبة مستمرة من خلال أنظمة معتمدة من HACCP.",
-          "fr": "Surveillance continue via les systèmes HACCP."
+          "fr": "Surveillance continue via les systèmes HACCP.",
+          "de": "Kontinuierliche Überwachung durch HACCP-zertifizierte Systeme."
         },
-        "icon": "ShieldCheck"
+        "icon": "ShieldCheck",
+        "image": "/images/facility/floor/floor-09.jpg"
       }
     ]
   },
@@ -259,67 +777,139 @@
     "eyebrow": {
       "en": "Audited, every year",
       "ar": "تدقيق سنوي",
-      "fr": "Audité chaque année"
+      "fr": "Audité chaque année",
+      "de": "Jährlich auditiert"
     },
     "title": {
       "lead": {
         "en": "Certifications &",
         "ar": "الشهادات و",
-        "fr": "Certifications &"
+        "fr": "Certifications &",
+        "de": "Zertifizierungen &"
       },
       "em": {
         "en": "standards.",
         "ar": "المعايير.",
-        "fr": "standards."
+        "fr": "standards.",
+        "de": "Standards."
       }
     },
     "items": [
       {
+        "name": "BRCGS",
+        "description": {
+          "en": "British Retail Consortium Global Standard for food safety (GFSI-recognised)",
+          "ar": "المعيار العالمي لاتحاد تجار التجزئة البريطاني لسلامة الغذاء (معترف به من GFSI)",
+          "fr": "Norme mondiale du British Retail Consortium pour la sécurité alimentaire (reconnue GFSI)",
+          "de": "British Retail Consortium Global Standard für Lebensmittelsicherheit (GFSI-anerkannt)"
+        }
+      },
+      {
+        "name": "IFS Food",
+        "description": {
+          "en": "International Featured Standards for food safety (GFSI-recognised)",
+          "ar": "المعايير الدولية المعتمدة لسلامة الغذاء (معترف بها من GFSI)",
+          "fr": "International Featured Standards pour la sécurité alimentaire (reconnu GFSI)",
+          "de": "International Featured Standards für Lebensmittelsicherheit (GFSI-anerkannt)"
+        }
+      },
+      {
         "name": "ISO 22000",
         "description": {
-          "en": "Food safety management · audited yearly since 2007",
-          "ar": "إدارة سلامة الغذاء · تدقيق سنوي منذ 2007",
-          "fr": "Gestion de la sécurité alimentaire · audité chaque année depuis 2007"
+          "en": "Food safety management system",
+          "ar": "نظام إدارة سلامة الغذاء",
+          "fr": "Système de management de la sécurité alimentaire",
+          "de": "Managementsystem für Lebensmittelsicherheit"
         }
       },
       {
         "name": "HACCP",
         "description": {
-          "en": "Hazard analysis & critical control points · validated each batch",
-          "ar": "تحليل المخاطر ونقاط التحكم الحرجة · يتم التحقق من كل دفعة",
-          "fr": "Analyse des dangers et points critiques · validé à chaque lot"
+          "en": "Hazard analysis & critical control points — applied to every batch",
+          "ar": "تحليل المخاطر ونقاط التحكم الحرجة — مطبق على كل دفعة",
+          "fr": "Analyse des dangers et points critiques — appliquée à chaque lot",
+          "de": "Gefahrenanalyse und kritische Lenkungspunkte — auf jede Charge angewandt"
         }
       },
       {
-        "name": "BRCGS",
+        "name": "GLOBALG.A.P",
         "description": {
-          "en": "British Retail Consortium · grade A facility",
-          "ar": "اتحاد البيع بالتجزئة البريطاني · منشأة من الدرجة A",
-          "fr": "British Retail Consortium · installation classée A"
+          "en": "Good Agricultural Practices at farm level",
+          "ar": "الممارسات الزراعية الجيدة على مستوى المزرعة",
+          "fr": "Bonnes pratiques agricoles au niveau de la ferme",
+          "de": "Gute landwirtschaftliche Praxis auf Betriebsebene"
+        }
+      },
+      {
+        "name": "GMP",
+        "description": {
+          "en": "Good Manufacturing Practices across every stage",
+          "ar": "ممارسات التصنيع الجيدة في كل مرحلة",
+          "fr": "Bonnes pratiques de fabrication à chaque étape",
+          "de": "Gute Herstellungspraxis in jedem Schritt"
+        }
+      },
+      {
+        "name": "SMETA",
+        "description": {
+          "en": "Sedex Members Ethical Trade Audit — social compliance",
+          "ar": "تدقيق التجارة الأخلاقية لأعضاء سيدكس — الامتثال الاجتماعي",
+          "fr": "Audit de commerce éthique des membres Sedex — conformité sociale",
+          "de": "Sedex Members Ethical Trade Audit — soziale Compliance"
         }
       },
       {
         "name": "Halal",
         "description": {
-          "en": "ESMA certified · accepted across all MENA destinations",
-          "ar": "معتمد من هيئة الإمارات للمواصفات · مقبول في جميع وجهات الشرق الأوسط وشمال أفريقيا",
-          "fr": "Certifié ESMA · accepté dans toutes les destinations MENA"
+          "en": "Halal certified",
+          "ar": "معتمد حلال",
+          "fr": "Certifié Halal",
+          "de": "Halal-zertifiziert"
         }
       },
       {
         "name": "Kosher",
         "description": {
-          "en": "OU certified · since 2018",
-          "ar": "معتمد من OU · منذ 2018",
-          "fr": "Certifié OU · depuis 2018"
+          "en": "Kosher certified",
+          "ar": "معتمد كوشر",
+          "fr": "Certifié Kasher",
+          "de": "Koscher-zertifiziert"
         }
       },
       {
-        "name": "Egypt ECS",
+        "name": "NFSA",
         "description": {
-          "en": "Egyptian Customs · trusted exporter status",
-          "ar": "الجمارك المصرية · حالة المصدّر الموثوق",
-          "fr": "Douanes égyptiennes · statut d'exportateur de confiance"
+          "en": "Regulated by Egypt's National Food Safety Authority",
+          "ar": "خاضعة لرقابة الهيئة القومية لسلامة الغذاء في مصر",
+          "fr": "Réglementée par l'Autorité nationale égyptienne de sécurité alimentaire",
+          "de": "Reguliert durch die ägyptische Nationale Behörde für Lebensmittelsicherheit (NFSA)"
+        }
+      },
+      {
+        "name": "QCAP",
+        "description": {
+          "en": "Lab analysis via the Central Laboratory of Residue Analysis (QCAP) — ISO 17025 / FINAS-accredited",
+          "ar": "تحاليل مخبرية عبر المعمل المركزي لتحليل المتبقيات (QCAP) — معتمد ISO 17025 / FINAS",
+          "fr": "Analyses en laboratoire via le Laboratoire central d'analyse des résidus (QCAP) — accrédité ISO 17025 / FINAS",
+          "de": "Laboranalysen über das Zentrallabor für Rückstandsanalytik (QCAP) — ISO 17025 / FINAS-akkreditiert"
+        }
+      },
+      {
+        "name": "FDA",
+        "description": {
+          "en": "Compliant with U.S. FDA requirements",
+          "ar": "متوافقة مع متطلبات إدارة الغذاء والدواء الأمريكية",
+          "fr": "Conforme aux exigences de la FDA américaine",
+          "de": "Konform mit den Anforderungen der US-FDA"
+        }
+      },
+      {
+        "name": "CODEX",
+        "description": {
+          "en": "Aligned with the international Codex Alimentarius",
+          "ar": "متوافقة مع دستور الأغذية الدولي (كودكس)",
+          "fr": "Alignée sur le Codex Alimentarius international",
+          "de": "Im Einklang mit dem internationalen Codex Alimentarius"
         }
       }
     ]
@@ -329,18 +919,21 @@
     "eyebrow": {
       "en": "Global reach · Local roots",
       "ar": "وصول عالمي · جذور محلية",
-      "fr": "Portée mondiale · racines locales"
+      "fr": "Portée mondiale · racines locales",
+      "de": "Globale Reichweite · Lokale Wurzeln"
     },
     "bigNum": "30",
     "title": {
       "en": "countries, one harvest.",
       "ar": "دولة، حصاد واحد.",
-      "fr": "pays, une seule récolte."
+      "fr": "pays, une seule récolte.",
+      "de": "Länder, eine Ernte."
     },
     "body": {
-      "en": "Montana products are sold from Cairo to Sydney, Riyadh to Toronto.",
-      "ar": "تُباع منتجات مونتانا من القاهرة إلى سيدني، ومن الرياض إلى تورنتو.",
-      "fr": "Les produits Montana sont vendus du Caire à Sydney, de Riyad à Toronto."
+      "en": "One of Egypt's leading frozen-food exporters — quality that holds its own against the world's best, shipped from Cairo to Sydney, Riyadh to Toronto.",
+      "ar": "من كبار مصدّري الأغذية المجمدة في مصر — بجودة تضاهي الأفضل عالمياً، تُشحن من القاهرة إلى سيدني ومن الرياض إلى تورنتو.",
+      "fr": "L'un des principaux exportateurs égyptiens de surgelés — une qualité qui rivalise avec les meilleurs au monde, expédiée du Caire à Sydney, de Riyad à Toronto.",
+      "de": "Einer der führenden Tiefkühlkost-Exporteure Ägyptens — Qualität, die es mit den Besten der Welt aufnimmt, versandt von Kairo bis Sydney, von Riad bis Toronto."
     },
     "chips": [
       "Egypt",
@@ -363,12 +956,14 @@
     "chipsMoreLabel": {
       "en": "+ 14 more",
       "ar": "+ ١٤ أخرى",
-      "fr": "+ 14 autres"
+      "fr": "+ 14 autres",
+      "de": "+ 14 weitere"
     },
     "ctaLabel": {
       "en": "Explore all markets",
       "ar": "استكشف كل الأسواق",
-      "fr": "Explorer tous les marchés"
+      "fr": "Explorer tous les marchés",
+      "de": "Alle Märkte erkunden"
     }
   },
   "latestNews": {
@@ -376,24 +971,28 @@
     "eyebrow": {
       "en": "From the newsroom",
       "ar": "من غرفة الأخبار",
-      "fr": "De la rédaction"
+      "fr": "De la rédaction",
+      "de": "Aus dem Newsroom"
     },
     "title": {
       "lead": {
         "en": "From the newsroom,",
         "ar": "من غرفة الأخبار،",
-        "fr": "De la rédaction,"
+        "fr": "De la rédaction,",
+        "de": "Aus dem Newsroom,"
       },
       "em": {
         "en": "recent chapters.",
         "ar": "فصول حديثة.",
-        "fr": "chapitres récents."
+        "fr": "chapitres récents.",
+        "de": "aktuelle Kapitel."
       }
     },
     "viewAllLabel": {
       "en": "All stories",
       "ar": "كل القصص",
-      "fr": "Toutes les histoires"
+      "fr": "Toutes les histoires",
+      "de": "Alle Beiträge"
     },
     "count": 6
   },
@@ -402,31 +1001,36 @@
     "eyebrow": {
       "en": "Let's ship together",
       "ar": "لنشحن معاً",
-      "fr": "Expédions ensemble"
+      "fr": "Expédions ensemble",
+      "de": "Lassen Sie uns gemeinsam verschiffen"
     },
     "title": {
       "lead": {
         "en": "A conversation,",
         "ar": "حوار،",
-        "fr": "Une conversation,"
+        "fr": "Une conversation,",
+        "de": "Ein Gespräch,"
       },
       "em": {
         "en": "over a cup of tea.",
         "ar": "على كوب من الشاي.",
-        "fr": "autour d'une tasse de thé."
+        "fr": "autour d'une tasse de thé.",
+        "de": "bei einer Tasse Tee."
       }
     },
     "body": {
       "en": "Looking to source from Egypt? Talk to our export team — we will reply within one business day, in your language.",
       "ar": "هل تبحث عن التوريد من مصر؟ تحدث مع فريق التصدير لدينا — سنرد خلال يوم عمل واحد، بلغتك.",
-      "fr": "Vous souhaitez vous approvisionner en Égypte ? Parlez à notre équipe export — nous répondons sous un jour ouvré, dans votre langue."
+      "fr": "Vous souhaitez vous approvisionner en Égypte ? Parlez à notre équipe export — nous répondons sous un jour ouvré, dans votre langue.",
+      "de": "Möchten Sie aus Ägypten beziehen? Sprechen Sie mit unserem Exportteam — wir antworten innerhalb eines Werktags, in Ihrer Sprache."
     },
     "ctas": [
       {
         "label": {
           "en": "Talk to our export desk",
           "ar": "تحدث مع مكتب التصدير",
-          "fr": "Contactez notre service export"
+          "fr": "Contactez notre service export",
+          "de": "Sprechen Sie mit unserem Export-Team"
         },
         "href": "/contact?subject=export",
         "variant": "primary"
@@ -435,7 +1039,8 @@
         "label": {
           "en": "Download catalogue",
           "ar": "تحميل الكتالوج",
-          "fr": "Télécharger le catalogue"
+          "fr": "Télécharger le catalogue",
+          "de": "Katalog herunterladen"
         },
         "href": "/docs/Montana-Catalogue.pdf",
         "variant": "on-dark-ghost",

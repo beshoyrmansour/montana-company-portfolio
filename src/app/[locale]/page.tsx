@@ -1,7 +1,8 @@
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, BadgeCheck } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { certIcon, certLogo } from '@/lib/certs';
 import { Container } from '@/components/layout/Container';
 import { ProductCard } from '@/components/product/ProductCard';
 import { getHomePage, getSite, getFeaturedProducts, getAllNewsArticles } from '@/lib/content';
@@ -9,12 +10,8 @@ import { pick, type Locale } from '@/lib/i18n';
 import { getActiveTheme } from '@/lib/theme';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { webSiteJsonLd, buildPageMetadata } from '@/lib/seo';
-import {
-  SectionDivider,
-  TitleAccent,
-  HeroOrnaments,
-  WorldMap,
-} from '@/components/decoration/Ornaments';
+import { SectionDivider, TitleAccent, WorldMap } from '@/components/decoration/Ornaments';
+import { HeroCarousel } from '@/components/sections/HeroCarousel';
 import type { HomePage } from '@/schemas/page';
 import type { Site } from '@/schemas/site';
 
@@ -89,6 +86,38 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     home.latestNews.count,
   );
 
+  // Hero carousel slides — fall back to the single hero if no slides authored.
+  const heroSource =
+    home.hero.slides && home.hero.slides.length > 0 ? home.hero.slides : [home.hero];
+  const heroSlides = heroSource.map((s) => ({
+    image: s.image,
+    eyebrow: pick(s.eyebrow ?? home.hero.eyebrow, locale) ?? undefined,
+    headline: pick(s.headline ?? home.hero.headline, locale) ?? '',
+    subheadline: pick(s.subheadline ?? home.hero.subheadline, locale) ?? undefined,
+  }));
+  const resolveHref = (href: string, external?: boolean) => (external ? href : `/${locale}${href}`);
+  const heroCtas = [
+    {
+      label: pick(home.hero.ctaPrimary.label, locale) ?? '',
+      href: resolveHref(home.hero.ctaPrimary.href, home.hero.ctaPrimary.external),
+      external: home.hero.ctaPrimary.external,
+      className: 'btn-editorial primary',
+    },
+    ...(home.hero.ctaSecondary
+      ? [
+          {
+            label: pick(home.hero.ctaSecondary.label, locale) ?? '',
+            href: resolveHref(home.hero.ctaSecondary.href, home.hero.ctaSecondary.external),
+            external: home.hero.ctaSecondary.external,
+            className: 'btn-editorial on-dark ghost',
+          },
+        ]
+      : []),
+  ];
+  const heroMeta = home.hero.meta?.enabled
+    ? home.hero.meta.items.map((it) => ({ num: it.num, label: pick(it.label, locale) ?? '' }))
+    : [];
+
   return (
     <>
       <JsonLd data={webSiteJsonLd(site, locale)} />
@@ -96,54 +125,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* ════════════════════════════════════════════════════════
        * HERO — editorial split (text left, image right on desktop)
        * ════════════════════════════════════════════════════════ */}
-      <section className="hero-editorial">
-        <div className="hero-editorial-content">
-          {home.hero.eyebrow && (
-            <span className="hero-eyebrow reveal">
-              <span className="dot" />
-              {pick(home.hero.eyebrow, locale)}
-            </span>
-          )}
-          {home.hero.pre && (
-            <span className="hero-pre reveal reveal-1">{pick(home.hero.pre, locale)}</span>
-          )}
-          <h1 className="hero-title reveal reveal-2">
-            <HeroHeadline headline={pick(home.hero.headline, locale) ?? ''} />
-          </h1>
-          {home.hero.subheadline && (
-            <p className="hero-subtitle reveal reveal-3">{pick(home.hero.subheadline, locale)}</p>
-          )}
-          <div className="hero-ctas reveal reveal-4">
-            <Cta cta={home.hero.ctaPrimary} locale={locale} className="btn-editorial primary" />
-            {home.hero.ctaSecondary && (
-              <Cta cta={home.hero.ctaSecondary} locale={locale} className="btn-editorial ghost" />
-            )}
-          </div>
-          {home.hero.meta?.enabled && (
-            <div className="hero-meta">
-              <div className="hero-meta-row">
-                {home.hero.meta.items.map((item) => (
-                  <div key={item.num} className="hero-meta-item">
-                    <span className="num">{item.num}</span>
-                    <span>{pick(item.label, locale)}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-        <div className="hero-editorial-visual">
-          <Image
-            src={home.hero.image}
-            alt=""
-            fill
-            priority
-            sizes="(max-width: 980px) 100vw, 50vw"
-            aria-hidden
-          />
-          <HeroOrnaments theme={theme} />
-        </div>
-      </section>
+      {/* HERO — full-bleed carousel (Option A: premium, big imagery, red/green accents) */}
+      <HeroCarousel slides={heroSlides} ctas={heroCtas} meta={heroMeta} />
 
       {/* ════════════════════════════════════════════════════════
        * HERITAGE STRIP — italic lede + 4 stats from site.json
@@ -268,12 +251,30 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 <SplitTitle title={home.process.title} locale={locale} />
               </h2>
             </div>
-            <div className="process-grid">
+            <div
+              className={`process-grid${
+                home.process.steps.some((s) => s.image) ? 'process-grid--media' : ''
+              }`}
+            >
               {home.process.steps.map((step, idx) => {
                 const roman = ['i', 'ii', 'iii', 'iv', 'v'][idx] ?? String(idx + 1);
                 return (
                   <div key={idx} className="process-step">
-                    <span className="process-num">{roman}</span>
+                    {step.image ? (
+                      <span className="process-media">
+                        <Image
+                          src={step.image}
+                          alt=""
+                          aria-hidden
+                          fill
+                          sizes="(max-width: 1024px) 50vw, 20vw"
+                          style={{ objectFit: 'cover' }}
+                        />
+                        <span className="process-num">{roman}</span>
+                      </span>
+                    ) : (
+                      <span className="process-num">{roman}</span>
+                    )}
                     <h3>{pick(step.label, locale)}</h3>
                     <p>{pick(step.description, locale)}</p>
                   </div>
@@ -292,28 +293,38 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {home.certifications?.enabled && home.certifications.items.length > 0 && (
         <section className="section-editorial home-certs">
           <Container>
-            <div className="home-certs-inner">
-              <div className="home-certs-head">
-                {home.certifications.eyebrow && (
-                  <span className="eyebrow">{pick(home.certifications.eyebrow, locale)}</span>
-                )}
-                <h2>
-                  <SplitTitle title={home.certifications.title} locale={locale} />
-                </h2>
-              </div>
-              <ol className="home-certs-list">
-                {home.certifications.items.map((c, idx) => (
-                  <li key={c.name} className="home-cert-row">
-                    <span className="home-cert-index">{String(idx + 1).padStart(2, '0')}</span>
-                    <span className="home-cert-text">
-                      <span className="home-cert-name">{c.name}</span>
-                      <span className="home-cert-desc">{pick(c.description, locale)}</span>
-                    </span>
-                    <BadgeCheck className="home-cert-check" size={18} aria-hidden />
-                  </li>
-                ))}
-              </ol>
+            <div className="home-certs-head">
+              {home.certifications.eyebrow && (
+                <span className="eyebrow">{pick(home.certifications.eyebrow, locale)}</span>
+              )}
+              <h2>
+                <SplitTitle title={home.certifications.title} locale={locale} />
+              </h2>
+              <p className="home-certs-lead">
+                Independently audited to the standards European retailers require — verified on
+                every shipment.
+              </p>
             </div>
+            <ul className="cert-wall">
+              {home.certifications.items.map((c) => {
+                const Icon = certIcon(c.name);
+                const logo = certLogo(c.name);
+                return (
+                  <li key={c.name} className="cert-tile">
+                    {logo ? (
+                      <span className="cert-tile-logo">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={logo} alt={`${c.name} certification logo`} />
+                      </span>
+                    ) : (
+                      <Icon className="cert-tile-icon" size={30} aria-hidden />
+                    )}
+                    <span className="cert-tile-name">{c.name}</span>
+                    <span className="cert-tile-desc">{pick(c.description, locale)}</span>
+                  </li>
+                );
+              })}
+            </ul>
           </Container>
         </section>
       )}
@@ -323,6 +334,100 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* ════════════════════════════════════════════════════════
        * MARKETS — global reach, dark with animated map
        * ════════════════════════════════════════════════════════ */}
+      {/* SCALE & VERTICAL INTEGRATION — "huge" + reliability */}
+      {home.scale?.enabled && (
+        <section className="section-editorial scale-section">
+          <Container>
+            <div className="scale-grid">
+              <div className="scale-media">
+                <Image
+                  src={home.scale.image}
+                  alt=""
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  aria-hidden
+                />
+              </div>
+              <div className="scale-copy">
+                {home.scale.eyebrow && (
+                  <span className="eyebrow">{pick(home.scale.eyebrow, locale)}</span>
+                )}
+                <h2>
+                  <SplitTitle title={home.scale.title} locale={locale} />
+                </h2>
+                {home.scale.body && <p className="scale-body">{pick(home.scale.body, locale)}</p>}
+                <div className="scale-pillars">
+                  {home.scale.pillars.map((p, i) => (
+                    <div key={i} className="scale-pillar">
+                      <h3>{pick(p.title, locale)}</h3>
+                      <p>{pick(p.description, locale)}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {/* WHO WE SERVE — channels */}
+      {home.audiences?.enabled && (
+        <section className="section-editorial audiences-section">
+          <Container>
+            <div
+              className="section-head"
+              style={{ marginInline: 'auto', textAlign: 'center', maxWidth: '56ch' }}
+            >
+              {home.audiences.eyebrow && (
+                <span className="eyebrow" style={{ justifyContent: 'center' }}>
+                  {pick(home.audiences.eyebrow, locale)}
+                </span>
+              )}
+              <h2 style={{ textAlign: 'center' }}>
+                <SplitTitle title={home.audiences.title} locale={locale} />
+              </h2>
+            </div>
+            <div className="audiences-grid">
+              {home.audiences.items.map((it, i) => (
+                <div key={i} className="audience-card">
+                  <span className="audience-num">{String(i + 1).padStart(2, '0')}</span>
+                  <h3>{pick(it.title, locale)}</h3>
+                  <p>{pick(it.description, locale)}</p>
+                </div>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {/* COMMITMENTS — "committed" + sustainability */}
+      {home.commitment?.enabled && (
+        <section className="section-editorial commitment-section on-dark">
+          <Container>
+            <div className="commitment-inner">
+              <div className="commitment-head">
+                {home.commitment.eyebrow && (
+                  <span className="eyebrow">{pick(home.commitment.eyebrow, locale)}</span>
+                )}
+                <h2>
+                  <SplitTitle title={home.commitment.title} locale={locale} />
+                </h2>
+                {home.commitment.body && <p>{pick(home.commitment.body, locale)}</p>}
+              </div>
+              <div className="commitment-grid">
+                {home.commitment.items.map((it, i) => (
+                  <div key={i} className="commitment-item">
+                    <span className="commitment-bullet" aria-hidden />
+                    <h3>{pick(it.title, locale)}</h3>
+                    <p>{pick(it.description, locale)}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </Container>
+        </section>
+      )}
+
       {home.marketsTeaser.enabled && (
         <section className="section-editorial markets on-dark">
           <div className="markets-bg" />
@@ -428,6 +533,38 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* ════════════════════════════════════════════════════════
        * CTA STRIP — brand green band
        * ════════════════════════════════════════════════════════ */}
+      {/* FOR BUYERS — commercial terms (client-confirmed available) */}
+      {home.buyers?.enabled && (
+        <section className="section-editorial buyers-section">
+          <Container>
+            <div
+              className="section-head"
+              style={{ marginInline: 'auto', textAlign: 'center', maxWidth: '56ch' }}
+            >
+              {home.buyers.eyebrow && (
+                <span className="eyebrow" style={{ justifyContent: 'center' }}>
+                  {pick(home.buyers.eyebrow, locale)}
+                </span>
+              )}
+              <h2 style={{ textAlign: 'center' }}>
+                <SplitTitle title={home.buyers.title} locale={locale} />
+              </h2>
+              {home.buyers.body && (
+                <p style={{ marginInline: 'auto' }}>{pick(home.buyers.body, locale)}</p>
+              )}
+            </div>
+            <div className="buyers-grid">
+              {home.buyers.items.map((it, i) => (
+                <div key={i} className="buyer-card">
+                  <h3>{pick(it.title, locale)}</h3>
+                  <p>{pick(it.description, locale)}</p>
+                </div>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
       {home.ctaBand?.enabled && (
         <section className="section-editorial cta-strip-editorial on-dark">
           <Container>
@@ -462,16 +599,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 /* ─────────────────────────────────────────────────────────────────
  * Reusable JSX bits — kept local; the JSON shape dictates rendering.
  * ───────────────────────────────────────────────────────────────── */
-
-function HeroHeadline({ headline }: { headline: string }) {
-  const i = headline.lastIndexOf(',');
-  if (i === -1 || i === headline.length - 1) return <>{headline}</>;
-  return (
-    <>
-      {headline.slice(0, i + 1)} <em>{headline.slice(i + 1).trim()}</em>
-    </>
-  );
-}
 
 function SplitTitle({
   title,
