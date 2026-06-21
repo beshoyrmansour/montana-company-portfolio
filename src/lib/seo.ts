@@ -23,15 +23,19 @@ import { pick, getAvailableLocales, defaultLocale } from '@/lib/i18n';
  * social link cards had no fetchable image.
  */
 function resolveBaseUrl(): string {
-  const explicit = process.env.NEXT_PUBLIC_SITE_URL;
-  if (explicit) return explicit.replace(/\/$/, '');
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '');
+  const isLocal = (u?: string) => !u || /localhost|127\.0\.0\.1/.test(u);
+  // Honour an explicit URL only if it's a real public host. A Vercel env var of
+  // http://localhost:3000 (copied from .env.example) was making og:image/og:url
+  // point at localhost, so WhatsApp/social cards had no fetchable image.
+  if (explicit && !isLocal(explicit)) return explicit;
   if (process.env.VERCEL_PROJECT_PRODUCTION_URL)
     return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
   if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
   // Last-resort production fallback so OG/social cards never point at localhost
   // even if Vercel system env vars aren't exposed to the build.
   if (process.env.NODE_ENV === 'production') return 'https://montana-company-portfolio.vercel.app';
-  return 'http://localhost:3000';
+  return explicit ?? 'http://localhost:3000';
 }
 
 export const BASE_URL = resolveBaseUrl();
