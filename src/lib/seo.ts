@@ -28,6 +28,9 @@ function resolveBaseUrl(): string {
   if (process.env.VERCEL_PROJECT_PRODUCTION_URL)
     return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
   if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  // Last-resort production fallback so OG/social cards never point at localhost
+  // even if Vercel system env vars aren't exposed to the build.
+  if (process.env.NODE_ENV === 'production') return 'https://montana-company-portfolio.vercel.app';
   return 'http://localhost:3000';
 }
 
@@ -111,7 +114,7 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
         email: site.contact.office.email,
         contactType: 'sales',
         areaServed: 'Worldwide',
-        availableLanguage: ['en', 'ar', 'fr'],
+        availableLanguage: [...getAvailableLocales()],
       },
       {
         '@type': 'ContactPoint',
@@ -119,7 +122,7 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
         email: site.contact.factory.email,
         contactType: 'customer service',
         areaServed: 'Worldwide',
-        availableLanguage: ['en', 'ar', 'fr'],
+        availableLanguage: [...getAvailableLocales()],
       },
     ],
     areaServed: { '@type': 'Place', name: 'Worldwide' },

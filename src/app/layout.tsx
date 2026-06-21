@@ -4,7 +4,8 @@ import { Analytics } from '@vercel/analytics/next';
 import { displayLatin, sansLatin, displayArabic, sansArabic, fontVariables } from '@/lib/fonts';
 import { getActiveTheme } from '@/lib/theme';
 import { cn } from '@/lib/cn';
-import { BASE_URL } from '@/lib/seo';
+import { BASE_URL, ogLocale } from '@/lib/seo';
+import { getAvailableLocales } from '@/lib/i18n';
 import './globals.css';
 
 export const dynamic = 'error';
@@ -70,7 +71,9 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'Montana',
     locale: 'en_US',
-    alternateLocale: ['ar_EG', 'fr_FR'],
+    alternateLocale: getAvailableLocales()
+      .filter((l) => l !== 'en')
+      .map(ogLocale),
     url: BASE_URL,
     title: 'Montana — Frozen Foods Since 1985',
     description:

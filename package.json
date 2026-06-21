@@ -4,7 +4,7 @@
   "private": true,
   "description": "Montana Frozen Foods — corporate trilingual marketing site. Built with Next.js 16, deployed on Vercel.",
   "engines": {
-    "node": ">=20.9.0"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "next dev",

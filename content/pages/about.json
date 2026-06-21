@@ -470,15 +470,6 @@
         }
       },
       {
-        "name": "Kosher",
-        "description": {
-          "en": "Kosher certified",
-          "ar": "معتمد كوشر",
-          "fr": "Certifié Kasher",
-          "de": "Koscher-zertifiziert"
-        }
-      },
-      {
         "name": "NFSA",
         "description": {
           "en": "Regulated by Egypt's National Food Safety Authority",
