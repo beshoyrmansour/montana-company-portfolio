@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { displayLatin, sansLatin, displayArabic, sansArabic, fontVariables } from '@/lib/fonts';
 import { getActiveTheme } from '@/lib/theme';
 import { cn } from '@/lib/cn';
+import { BASE_URL } from '@/lib/seo';
 import './globals.css';
 
 export const dynamic = 'error';
@@ -23,10 +24,8 @@ export const dynamic = 'error';
  * locale by `src/proxy.ts` based on Accept-Language, so the html lang here
  * only ever applies to the brief fallback page or non-redirecting clients.
  */
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
-
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
+  metadataBase: new URL(BASE_URL),
   title: {
     default: 'Montana — Frozen Foods Since 1985 | Egyptian Vegetables & Fruits Exporter',
     template: '%s | Montana',
@@ -34,7 +33,7 @@ export const metadata: Metadata = {
   description:
     'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 30 countries. HACCP, ISO, and GMP certified.',
   applicationName: 'Montana Frozen Foods',
-  authors: [{ name: 'Montana Frozen Foods', url: SITE_URL }],
+  authors: [{ name: 'Montana Frozen Foods', url: BASE_URL }],
   generator: 'Next.js',
   creator: 'Montana Frozen Foods',
   publisher: 'Montana Frozen Foods',
@@ -72,7 +71,7 @@ export const metadata: Metadata = {
     siteName: 'Montana',
     locale: 'en_US',
     alternateLocale: ['ar_EG', 'fr_FR'],
-    url: SITE_URL,
+    url: BASE_URL,
     title: 'Montana — Frozen Foods Since 1985',
     description:
       'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 30 countries.',

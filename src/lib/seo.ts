@@ -13,10 +13,25 @@ import type { NewsArticle } from '@/schemas/news';
 import type { Locale } from '@/lib/i18n';
 import { pick, getAvailableLocales, defaultLocale } from '@/lib/i18n';
 
-export const BASE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://montanaeg.com').replace(
-  /\/$/,
-  '',
-);
+/**
+ * Canonical/OG base URL. Resolution order:
+ *   1. NEXT_PUBLIC_SITE_URL  — explicit override (set to the custom domain in prod)
+ *   2. VERCEL_PROJECT_PRODUCTION_URL — stable production domain Vercel injects at build
+ *   3. VERCEL_URL — per-deployment URL (preview builds)
+ *   4. localhost — local dev
+ * Without this, og:image/og:url fell back to localhost on Vercel, so WhatsApp /
+ * social link cards had no fetchable image.
+ */
+function resolveBaseUrl(): string {
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL;
+  if (explicit) return explicit.replace(/\/$/, '');
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL)
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return 'http://localhost:3000';
+}
+
+export const BASE_URL = resolveBaseUrl();
 
 /** Cast for safe injection into <script type="application/ld+json">. */
 type JsonLd = Record<string, unknown>;
