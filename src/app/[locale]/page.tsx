@@ -184,19 +184,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 </Link>
               )}
             </div>
-            <div
-              className="product-carousel flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth py-6 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden"
-              style={{
-                // First card starts flush under the section title (the carousel sits
-                // inside the container, so its inline-start = the title's edge); the
-                // END bleeds to the viewport edge so the row runs CONTINUOUSLY off the
-                // right with no trailing padding. Holds across mobile/tablet/desktop
-                // because both title and carousel share the same container.
-                marginInlineEnd: 'calc(50% - 50vw)',
-                paddingInlineEnd: '1.5rem',
-                scrollPaddingInlineStart: 0,
-              }}
-            >
+            {/* Full-bleed edge-to-edge scroll track with a leading inset that rests
+             * the first card under the title. Layout lives in `.product-carousel`
+             * (globals.css) — it needs a media query for the responsive gutter. */}
+            <div className="product-carousel flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth py-6 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden">
               {featured.slice(0, home.featuredProducts.count ?? 8).map((product, idx) => (
                 <div
                   key={product.slug}

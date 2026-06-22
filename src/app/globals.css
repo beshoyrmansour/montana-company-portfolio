@@ -376,6 +376,35 @@ body {
 }
 
 /* ─────────────────────────────────────────────────────────────────
+ * Featured-products carousel — full-bleed scroll track.
+ *
+ * The row lives inside <Container> but breaks out to BOTH viewport edges
+ * (margin-inline: calc(50% - 50vw)) so cards scroll edge-to-edge. A leading
+ * inset equal to the container gutter rests the FIRST card under the section
+ * title, and the matching scroll-padding makes every snapped card land on
+ * that same line (so the first visible card never drifts after scrolling).
+ *
+ * --carousel-gutter reproduces <Container>'s distance from the viewport edge
+ * to its content edge (px-4 / lg:px-8 over max-w-7xl = 80rem). It's built from
+ * vw + rem only — NOT a percentage — because scroll-padding resolves % against
+ * the scrollport (here the full viewport), which would collapse to 0. The row
+ * still runs continuously off the right (small fixed trailing pad). RTL-safe
+ * via logical properties.
+ * ───────────────────────────────────────────────────────────────── */
+.product-carousel {
+  --carousel-gutter: max(1rem, calc((100vw - 80rem) / 2 + 1rem));
+  margin-inline: calc(50% - 50vw);
+  padding-inline-start: var(--carousel-gutter);
+  padding-inline-end: 1.5rem;
+  scroll-padding-inline-start: var(--carousel-gutter);
+}
+@media (min-width: 1024px) {
+  .product-carousel {
+    --carousel-gutter: max(2rem, calc((100vw - 80rem) / 2 + 2rem));
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────
  * "View all" card — terminal tile in the featured-products carousel.
  * A solid brand-green tile so it reads as a distinct call-to-action
  * instead of an empty dashed card.
