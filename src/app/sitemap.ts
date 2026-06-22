@@ -1,15 +1,11 @@
 import type { MetadataRoute } from 'next';
 import { getAvailableLocales } from '@/lib/i18n';
 import { getAllProductSlugs, getAllNewsArticles } from '@/lib/content';
-import { getHiddenPages, type RouteId } from '@/lib/feature-flags';
+import { getHiddenPages } from '@/lib/feature-flags';
+import { STATIC_ROUTES } from '@/lib/routes';
 import { BASE_URL } from '@/lib/seo';
 
 export const dynamic = 'error';
-
-interface StaticPath {
-  path: string;
-  route?: RouteId;
-}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Single source of truth for the origin — shared with canonical/OG/JSON-LD via
@@ -18,17 +14,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const locales = getAvailableLocales();
   const hidden = getHiddenPages();
 
-  const staticPaths: StaticPath[] = [
-    { path: '' },
-    { path: '/about', route: 'about' },
-    { path: '/catalog', route: 'catalog' },
-    { path: '/news', route: 'news' },
-    { path: '/markets', route: 'markets' },
-    { path: '/contact', route: 'contact' },
-    { path: '/privacy' },
-    { path: '/terms' },
-    { path: '/cookies' },
-  ];
+  // Static route list lives in @/lib/routes and is cross-checked against the
+  // app/[locale] page files by scripts/check-routes.ts before every build.
+  const staticPaths = STATIC_ROUTES;
 
   const products = await getAllProductSlugs();
   // Full articles (not just slugs) so we can emit lastModified from their dates.
