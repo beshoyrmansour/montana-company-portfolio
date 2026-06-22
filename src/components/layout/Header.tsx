@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { Globe, Phone, Mail } from 'lucide-react';
+import { Globe, Phone, Mail, ChevronRight } from 'lucide-react';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { CloseMenusOnNavigate } from './CloseMenusOnNavigate';
 import { Container } from './Container';
@@ -161,33 +161,45 @@ export async function Header({ locale, pathname = '' }: HeaderProps) {
                   <line x1="4" y1="18" x2="20" y2="18" strokeLinecap="round" />
                 </svg>
               </summary>
-              <div className="border-border bg-surface-elevated absolute end-0 top-full z-30 mt-2 w-72 rounded-lg border p-3 shadow-lg">
-                <nav aria-label="Mobile" className="flex flex-col gap-1">
+              <div className="border-border bg-surface-elevated absolute end-0 top-full z-30 mt-3 w-[calc(100vw-1.5rem)] max-w-sm origin-top-right overflow-hidden rounded-2xl border p-2.5 shadow-2xl ring-1 ring-black/5">
+                <nav aria-label="Mobile" className="flex flex-col">
                   {visibleNav.map((item) => (
                     <Link
                       key={item.route}
                       href={`/${locale}${item.href}`}
-                      className="text-body text-text hover:bg-surface-muted rounded-md px-3 py-2.5 font-medium"
+                      className="group/nav text-text hover:bg-surface-muted flex items-center justify-between rounded-xl px-4 py-3 transition-colors"
                     >
-                      {t(item.labelKey)}
+                      <span className="text-heading-3 font-semibold tracking-tight">
+                        {t(item.labelKey)}
+                      </span>
+                      <ChevronRight
+                        className="text-text-subtle group-hover/nav:text-brand-primary h-5 w-5 transition-transform group-hover/nav:translate-x-1 rtl:rotate-180"
+                        aria-hidden
+                      />
                     </Link>
                   ))}
-                  <div className="border-border mt-2 flex flex-col gap-1 border-t pt-2">
+                  <div className="border-border/70 mt-2.5 flex flex-col gap-1 border-t pt-2.5">
                     {phoneHref && (
                       <a
                         href={`tel:${phoneHref}`}
-                        className="text-body-sm text-text-muted hover:bg-surface-muted flex items-center gap-3 rounded-md px-3 py-2"
+                        className="text-text-muted hover:bg-surface-muted hover:text-text flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors"
                       >
-                        <Phone className="h-4 w-4 shrink-0 opacity-70" aria-hidden />
-                        <span dir="ltr">{phone}</span>
+                        <span className="bg-brand-primary/10 text-brand-primary flex h-9 w-9 shrink-0 items-center justify-center rounded-full">
+                          <Phone className="h-4 w-4" aria-hidden />
+                        </span>
+                        <span className="text-body-sm font-medium" dir="ltr">
+                          {phone}
+                        </span>
                       </a>
                     )}
                     <a
                       href={`mailto:${email}`}
-                      className="text-body-sm text-text-muted hover:bg-surface-muted flex items-center gap-3 rounded-md px-3 py-2"
+                      className="text-text-muted hover:bg-surface-muted hover:text-text flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors"
                     >
-                      <Mail className="h-4 w-4 shrink-0 opacity-70" aria-hidden />
-                      <span dir="ltr" className="break-all">
+                      <span className="bg-brand-primary/10 text-brand-primary flex h-9 w-9 shrink-0 items-center justify-center rounded-full">
+                        <Mail className="h-4 w-4" aria-hidden />
+                      </span>
+                      <span className="text-body-sm font-medium break-all" dir="ltr">
                         {email}
                       </span>
                     </a>
