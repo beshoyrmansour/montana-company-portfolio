@@ -18,7 +18,6 @@ Expected filenames (match the `CERT_LOGOS` map):
 | GMP           | `gmp.png`       |
 | SMETA / Sedex | `smeta.png`     |
 | Halal         | `halal.png`     |
-| Kosher        | `kosher.png`    |
 | NFSA          | `nfsa.png`      |
 | QCAP          | `qcap.png`      |
 | FDA           | `fda.png`       |
