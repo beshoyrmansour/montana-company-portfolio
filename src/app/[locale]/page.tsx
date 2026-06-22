@@ -184,7 +184,16 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 </Link>
               )}
             </div>
-            <div className="product-carousel -mx-4 flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth px-4 pb-4 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden">
+            <div
+              className="product-carousel flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth pb-4 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden"
+              style={{
+                width: '100vw',
+                marginInline: 'calc(50% - 50vw)',
+                // first card aligns under the contained title; row bleeds to the end edge
+                paddingInlineStart: 'max(1rem, calc((100vw - 80rem) / 2 + 2rem))',
+                paddingInlineEnd: '1.5rem',
+              }}
+            >
               {featured.slice(0, home.featuredProducts.count ?? 8).map((product, idx) => (
                 <div
                   key={product.slug}
