@@ -171,15 +171,27 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 </Link>
               )}
             </div>
-            <div className="grid grid-cols-2 gap-5 md:gap-6 lg:grid-cols-4">
+            <div className="product-carousel -mx-4 flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth px-4 pb-4 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden">
               {featured.slice(0, home.featuredProducts.count ?? 8).map((product, idx) => (
-                <ProductCard
+                <div
                   key={product.slug}
-                  product={product}
-                  locale={locale}
-                  priority={idx < 4}
-                />
+                  className="w-[78%] shrink-0 snap-start sm:w-[46%] md:w-[31%] lg:w-[23.5%]"
+                >
+                  <ProductCard product={product} locale={locale} priority={idx < 4} />
+                </div>
               ))}
+              {/* "See all" card — last item of the carousel */}
+              <Link
+                href={`/${locale}/catalog`}
+                className="border-border hover:border-brand-primary hover:bg-surface-muted group flex w-[78%] shrink-0 snap-start flex-col items-center justify-center gap-4 rounded-2xl border border-dashed text-center transition-colors sm:w-[46%] md:w-[31%] lg:w-[23.5%]"
+              >
+                <span className="bg-brand-primary/10 text-brand-primary flex h-14 w-14 items-center justify-center rounded-full transition-transform group-hover:scale-110">
+                  <ArrowRight className="rtl:rotate-180" size={22} aria-hidden />
+                </span>
+                <span className="text-body-lg text-text font-semibold">
+                  {pick(home.featuredProducts.viewAllLabel, locale) ?? 'See all products'}
+                </span>
+              </Link>
             </div>
           </Container>
         </section>
