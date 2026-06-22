@@ -72,11 +72,7 @@ export async function Header({ locale, pathname = '' }: HeaderProps) {
 
       <Container>
         <div className="flex h-16 items-center justify-between gap-4 lg:h-20 lg:gap-8">
-          <Link
-            href={`/${locale}`}
-            aria-label={t('homeAriaLabel')}
-            className="relative z-[1] shrink-0 self-start"
-          >
+          <Link href={`/${locale}`} aria-label={t('homeAriaLabel')} className="shrink-0">
             <Logo className="site-logo" decorative />
           </Link>
 

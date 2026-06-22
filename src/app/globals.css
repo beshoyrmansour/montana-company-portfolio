@@ -508,28 +508,24 @@ body {
  * toggles `.is-scrolled` on <html> past a small scroll threshold.
  * ───────────────────────────────────────────────────────────────── */
 .site-logo {
-  /* At the top of the page the logo is oversized and TOP-anchored (its link
-   * uses `self-start`) so the red frame's bottom line lands on the header's
-   * bottom border while the mascots' legs hang OUT below it.
-   * The frame bottom sits at 78.4% of the artwork height, so height is
-   * ≈ headerHeight / 0.784:  mobile h-16 (64px) → 5.1rem, desktop h-20
-   * (80px) → 6.4rem. The legs are the bottom ~21% that overhangs. */
-  height: 5.1rem;
+  /* Clean, contained logo — vertically centered in the header (the link sits in
+   * the row's items-center), slightly larger at the top of the page and shrinking
+   * subtly on scroll. Always fully inside the header — no overhang. */
+  height: 3rem; /* mobile / tablet — at top */
   width: auto;
   transition: height var(--duration-base) var(--ease-smooth);
 }
 @media (min-width: 1024px) {
   .site-logo {
-    height: 6.4rem;
+    height: 4rem; /* desktop — at top */
   }
 }
-/* On scroll the logo shrinks back to ~header height so the legs tuck inside. */
 html.is-scrolled .site-logo {
-  height: 4rem;
+  height: 2.5rem; /* mobile / tablet — scrolled (resting) */
 }
 @media (min-width: 1024px) {
   html.is-scrolled .site-logo {
-    height: 5rem;
+    height: 3.25rem; /* desktop — scrolled (resting) */
   }
 }
 @media (prefers-reduced-motion: reduce) {
