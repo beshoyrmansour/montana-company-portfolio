@@ -18,9 +18,12 @@ import { pick, getAvailableLocales, defaultLocale } from '@/lib/i18n';
  *   1. NEXT_PUBLIC_SITE_URL  — explicit override (set to the custom domain in prod)
  *   2. VERCEL_PROJECT_PRODUCTION_URL — stable production domain Vercel injects at build
  *   3. VERCEL_URL — per-deployment URL (preview builds)
- *   4. localhost — local dev
- * Without this, og:image/og:url fell back to localhost on Vercel, so WhatsApp /
- * social link cards had no fetchable image.
+ *   4. https://montanaeg.com — last-resort production fallback (the canonical domain)
+ *   5. localhost — local dev
+ * This is the SINGLE source of truth for the site origin: canonical/OG/JSON-LD
+ * (via BASE_URL) AND sitemap.ts/robots.ts all import it, so they can never drift
+ * onto different domains. Without this, og:image/og:url fell back to localhost on
+ * Vercel, so WhatsApp / social link cards had no fetchable image.
  */
 function resolveBaseUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '');
@@ -32,9 +35,10 @@ function resolveBaseUrl(): string {
   if (process.env.VERCEL_PROJECT_PRODUCTION_URL)
     return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
   if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
-  // Last-resort production fallback so OG/social cards never point at localhost
-  // even if Vercel system env vars aren't exposed to the build.
-  if (process.env.NODE_ENV === 'production') return 'https://montana-company-portfolio.vercel.app';
+  // Last-resort production fallback so canonical/OG/sitemap never point at
+  // localhost or a stale *.vercel.app domain even if Vercel system env vars
+  // aren't exposed to the build. This is the canonical production domain.
+  if (process.env.NODE_ENV === 'production') return 'https://montanaeg.com';
   return explicit ?? 'http://localhost:3000';
 }
 
@@ -91,6 +95,11 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
       name: 'Egypt',
       address: { '@type': 'PostalAddress', addressCountry: 'EG' },
     },
+    // Org-level contact mirrors the office record so consumers that don't read
+    // contactPoint[] still surface a phone/email. Truthful values from site.json.
+    telephone: site.contact.office.phones[0],
+    email: site.contact.office.email,
+    knowsLanguage: [...getAvailableLocales()],
     parentOrganization: {
       '@type': 'Organization',
       name: pick(site.parentCompany, locale),
