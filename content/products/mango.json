@@ -44,6 +44,18 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "Naturally sweet tropical fruit rich in vitamin A, vitamin C and antioxidants, with no added sugar. IQF-frozen at full ripeness to preserve its deep colour, aroma and nutrients — pure fruit, nothing else.",
+    "ar": "فاكهة استوائية حلوة بطبيعتها وغنية بفيتامين أ وفيتامين ج ومضادات الأكسدة، بلا سكر مضاف. تُجمَّد بتقنية الـ IQF عند اكتمال النضج للحفاظ على لونها الغني ونكهتها وقيمتها الغذائية — فاكهة خالصة لا غير.",
+    "fr": "Fruit tropical naturellement sucré, riche en vitamine A, vitamine C et antioxydants, sans sucre ajouté. Surgelé IQF à pleine maturité pour préserver couleur intense, arôme et nutriments — fruit pur, rien d'autre.",
+    "de": "Von Natur aus süße Tropenfrucht, reich an Vitamin A, Vitamin C und Antioxidantien, ohne Zuckerzusatz. IQF-gefroren bei voller Reife, um intensive Farbe, Aroma und Nährstoffe zu bewahren — reine Frucht, sonst nichts."
+  },
+  "preparation": {
+    "en": "Use straight from frozen in smoothies, juices and sorbets, or thaw briefly for desserts, cakes, yoghurt bowls and sauces. Free-flowing IQF chunks and slices let you portion exactly what you need, all year round.",
+    "ar": "استخدمها مباشرة من الفريزر في العصائر والسموذي والسوربيه، أو ذوّبها قليلاً للحلويات والكيك وأطباق الزبادي والصلصات. قطع وشرائح الـ IQF سهلة الفرز تتيح لك تقطيع ما تحتاجه بالضبط، طوال العام.",
+    "fr": "À utiliser directement surgelée dans smoothies, jus et sorbets, ou à décongeler brièvement pour desserts, gâteaux, bols de yaourt et sauces. Les morceaux et tranches IQF non agglomérés permettent de doser exactement ce qu'il faut, toute l'année.",
+    "de": "Direkt aus dem Gefrierfach in Smoothies, Säften und Sorbets verwenden oder kurz auftauen für Desserts, Kuchen, Joghurtbowls und Saucen. Rieselfähige IQF-Stücke und -Scheiben lassen sich ganzjährig genau portionieren."
+  },
   "relatedSlugs": ["strawberry"],
   "seo": {
     "title": {

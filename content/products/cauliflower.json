@@ -81,5 +81,40 @@
     ],
     "packaging": ["/images/products/cauliflower/montana-frozen-cauliflower-pack.png"]
   },
+  "nutrition": {
+    "en": "Low in calories yet rich in vitamin C, vitamin K, fibre and folate, with naturally no fat. IQF-frozen at peak freshness to keep the pure white florets firm and their full nutrition intact — no additives.",
+    "ar": "منخفض السعرات وغني بفيتامين ج وفيتامين ك والألياف والفولات، وخالٍ بطبيعته من الدهون. يُجمَّد تجميداً فورياً في ذروة طزاجته للحفاظ على زهيراته البيضاء النقية متماسكة وقيمته الغذائية الكاملة — بلا إضافات.",
+    "fr": "Pauvre en calories mais riche en vitamine C, vitamine K, fibres et folate, naturellement sans matières grasses. Surgelé IQF à pleine fraîcheur pour garder les fleurettes blanc pur fermes et tous leurs nutriments intacts — sans additifs.",
+    "de": "Kalorienarm und doch reich an Vitamin C, Vitamin K, Ballaststoffen und Folat, von Natur aus fettfrei. IQF-gefroren bei voller Frische, damit die reinweißen Röschen fest und alle Nährstoffe erhalten bleiben — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing florets ready to cook from frozen — no thawing. Steam, roast, boil or stir-fry, blend into creamy soups and gratins, or serve as a tender side. Choose short or long stems to suit your recipe.",
+    "ar": "زهيرات سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِها بالبخار أو حمّصها أو اسلقها أو اقليها سريعاً، أو امزجها في الشوربات الكريمية والجراتان، أو قدّمها كطبق جانبي طري. اختر السيقان القصيرة أو الطويلة بما يناسب وصفتك.",
+    "fr": "Fleurettes non agglomérées prêtes à cuire surgelées — sans décongélation. Cuisez à la vapeur, rôtissez, faites bouillir ou sautez, mixez en soupes onctueuses et gratins, ou servez en accompagnement tendre. Choisissez les tiges courtes ou longues selon votre recette.",
+    "de": "Rieselfähige Röschen, direkt aus dem Gefrierfach kochfertig — kein Auftauen. Dämpfen, rösten, kochen oder anbraten, zu cremigen Suppen und Gratins pürieren oder als zarte Beilage servieren. Kurze oder lange Stiele passend zum Rezept wählen."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Cauliflower — IQF Florets, Exporter",
+      "ar": "قرنبيط مجمد — زهيرات IQF تصدير",
+      "fr": "Chou-fleur surgelé — fleurettes IQF",
+      "de": "Tiefkühl-Blumenkohl — IQF-Röschen"
+    },
+    "description": {
+      "en": "Premium IQF frozen cauliflower florets in short and long stems, pure white and additive-free, ready to cook from frozen. Family exporter since 1985, HACCP-ISO-BRC. Wholesale frozen cauliflower from Egypt to 30+ countries.",
+      "ar": "زهيرات قرنبيط مجمدة فاخرة بتقنية IQF بسيقان قصيرة وطويلة، بيضاء نقية وخالية من الإضافات، جاهزة للطهي من الفريزر. مُصدِّر عائلي منذ 1985 بشهادات HACCP وISO وBRC. قرنبيط مجمد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Fleurettes de chou-fleur surgelées IQF premium, tiges courtes et longues, blanc pur et sans additifs, prêtes à cuire surgelées. Exportateur familial depuis 1985, HACCP-ISO-BRC. Chou-fleur surgelé en gros d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Blumenkohl-Röschen mit kurzen und langen Stielen, reinweiß und zusatzfrei, gefroren kochfertig. Familienexporteur seit 1985, HACCP-ISO-BRC. Blumenkohl im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen cauliflower",
+      "IQF cauliflower exporter",
+      "frozen cauliflower wholesale",
+      "Egyptian frozen cauliflower supplier",
+      "frozen cauliflower florets",
+      "IQF cauliflower florets",
+      "bulk frozen cauliflower"
+    ]
+  },
   "relatedSlugs": ["broccoli", "mixed-vegetables"]
 }

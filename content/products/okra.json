@@ -87,5 +87,40 @@
     ],
     "packaging": ["/images/products/okra/montana-frozen-okra-pack.png"]
   },
+  "nutrition": {
+    "en": "Low in calories and high in dietary fibre, vitamin C, folate and antioxidants. IQF-frozen at peak ripeness to preserve colour, tenderness and full nutrition — no additives.",
+    "ar": "منخفضة السعرات وغنية بالألياف الغذائية وفيتامين ج والفولات ومضادات الأكسدة. تُجمّد تجميداً فورياً في ذروة النضج للحفاظ على اللون والطراوة والقيمة الغذائية الكاملة — بلا إضافات.",
+    "fr": "Pauvre en calories et riche en fibres, vitamine C, folate et antioxydants. Surgelé IQF à pleine maturité pour préserver couleur, tendreté et nutriments — sans additifs.",
+    "de": "Kalorienarm und reich an Ballaststoffen, Vitamin C, Folat und Antioxidantien. IQF-gefroren bei voller Reife, um Farbe, Zartheit und Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to cook straight from frozen — no thawing. Add to stews, tagines, gumbo or the Egyptian classic bamia in tomato sauce. Choose the size grade your dish needs, from petite Extra to larger Number 1.",
+    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. أضِفها إلى اليخنات والطواجن والجامبو أو البامية المصرية الكلاسيكية بصلصة الطماطم. اختر المقاس المناسب لطبقك، من إكسترا الصغير إلى رقم 1 الأكبر.",
+    "fr": "Non aggloméré et prêt à cuire directement surgelé — sans décongélation. Ajoutez-le aux ragoûts, tajines, gumbo ou à la bamia égyptienne en sauce tomate. Choisissez le calibre adapté à votre plat, d'Extra à Numéro 1.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Für Eintöpfe, Tajines, Gumbo oder die ägyptische Bamia in Tomatensauce. Wählen Sie die passende Größenklasse, von Extra bis Nummer 1."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Okra — IQF, 4 Size Grades, Exporter",
+      "ar": "بامية مجمدة — IQF بأربع مراتب حجمية",
+      "fr": "Okra surgelé — IQF, 4 calibres, exportateur",
+      "de": "Tiefkühl-Okra — IQF, 4 Größenklassen"
+    },
+    "description": {
+      "en": "Premium IQF frozen okra graded into four sizes, from Extra to Number 1. Vivid colour, additive-free, ready to cook from frozen. Wholesale frozen okra exported from Egypt to 30+ countries.",
+      "ar": "بامية مجمدة فاخرة بتقنية IQF مصنّفة إلى أربع مراتب، من إكسترا إلى رقم 1. لون زاهٍ، خالية من الإضافات، جاهزة للطهي من الفريزر. نصدّر البامية المجمدة بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Okra surgelé IQF premium classé en quatre calibres, d'Extra à Numéro 1. Couleur vive, sans additifs, prêt à cuire surgelé. Okra surgelé en gros exporté d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Okra (IQF) in vier Größenklassen, von Extra bis Nummer 1. Leuchtende Farbe, zusatzfrei, gefroren kochfertig. Okra im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen okra",
+      "IQF okra exporter",
+      "frozen okra wholesale",
+      "Egyptian frozen okra supplier",
+      "frozen bamia",
+      "frozen okra size grades",
+      "frozen lady fingers vegetable"
+    ]
+  },
   "relatedSlugs": ["molokhia", "artichoke", "vine-leaves"]
 }

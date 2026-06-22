@@ -44,25 +44,39 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "Low in calories and a good source of dietary fibre, vitamin C, vitamin K, folate and antioxidants. Picked young and IQF-frozen at peak freshness to keep them crisp, slender and a vivid green, with full nutrition — no additives.",
+    "ar": "منخفضة السعرات ومصدر جيد للألياف الغذائية وفيتامين ج وفيتامين ك والفولات ومضادات الأكسدة. تُقطف صغيرة وتُجمّد تجميداً فورياً في ذروة طزاجتها لتبقى مقرمشة ورفيعة وزاهية الخضرة بقيمتها الغذائية الكاملة — بلا إضافات.",
+    "fr": "Pauvres en calories et bonne source de fibres, vitamine C, vitamine K, folate et antioxydants. Cueillis jeunes et surgelés IQF à pleine fraîcheur pour rester croquants, fins et d'un vert vif, avec tous leurs nutriments — sans additifs.",
+    "de": "Kalorienarm und eine gute Quelle für Ballaststoffe, Vitamin C, Vitamin K, Folat und Antioxidantien. Jung geerntet und auf dem Frischehöhepunkt IQF-gefroren, damit sie knackig, schlank und leuchtend grün bleiben — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to cook straight from frozen — no thawing. Steam, sauté, blanch or roast the whole beans for a few minutes as an elegant side, or add them to salads, casseroles and stir-fries.",
+    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِ الفاصوليا الكاملة بالبخار أو القلي أو السلق الخفيف أو الشوي لبضع دقائق كطبق جانبي أنيق، أو أضِفها إلى السلطات والأطباق المطهوة بالفرن والمقالي.",
+    "fr": "Non agglomérés et prêts à cuire directement surgelés — sans décongélation. Faites cuire les haricots entiers à la vapeur, sautés, blanchis ou rôtis quelques minutes en accompagnement élégant, ou ajoutez-les aux salades, gratins et sautés.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Die ganzen Bohnen wenige Minuten dämpfen, anbraten, blanchieren oder rösten als elegante Beilage, oder zu Salaten, Aufläufen und Pfannengerichten geben."
+  },
   "relatedSlugs": ["green-beans", "peas"],
   "seo": {
     "title": {
-      "en": "Frozen Whole Green Beans — IQF | Montana",
-      "ar": "فاصوليا خضراء كاملة مجمدة - IQF | مونتانا",
-      "fr": "Haricots verts entiers surgelés — IQF | Montana",
-      "de": "Tiefgekühlte ganze grüne Bohnen — IQF | Montana"
+      "en": "Frozen Whole Green Beans — IQF, Exporter Egypt",
+      "ar": "فاصوليا خضراء كاملة مجمدة — IQF للتصدير",
+      "fr": "Haricots verts entiers surgelés — IQF exportateur",
+      "de": "Tiefkühl-Bohnen ganz — IQF Exporteur, Ägypten"
     },
     "description": {
-      "en": "Premium Egyptian frozen whole green beans, topped, tailed and IQF frozen. Cook from frozen, export packaging available.",
-      "ar": "فاصوليا خضراء كاملة مصرية مجمدة فاخرة، مُنظّفة ومجمّدة بطريقة IQF. تُطهى من الفريزر.",
-      "fr": "Haricots verts entiers égyptiens surgelés premium, équeutés et surgelés IQF.",
-      "de": "Premium-ägyptische tiefgekühlte ganze grüne Bohnen, geputzt und IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+      "en": "Premium IQF frozen whole green beans — slender, uncut, topped and tailed, additive-free and ready to cook from frozen. Wholesale frozen green beans exported from Egypt to 30+ countries.",
+      "ar": "فاصوليا خضراء كاملة مجمدة فاخرة بتقنية IQF — رفيعة وغير مقطّعة ومُنظّفة الأطراف وخالية من الإضافات، جاهزة للطهي من الفريزر. نصدّر الفاصوليا الخضراء المجمدة بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Haricots verts entiers surgelés IQF premium — fins, non coupés, équeutés, sans additifs et prêts à cuire surgelés. Haricots verts surgelés en gros exportés d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Bohnen ganz (IQF) — schlank, ungeschnitten, geputzt, zusatzfrei und gefroren kochfertig. Grüne Bohnen im Großhandel aus Ägypten in über 30 Länder."
     },
     "keywords": [
       "frozen whole green beans",
-      "IQF green beans",
-      "haricots verts",
-      "فاصوليا خضراء مجمدة"
+      "frozen green beans",
+      "IQF green beans exporter",
+      "frozen whole green beans wholesale",
+      "haricots verts surgelés",
+      "Egyptian frozen green beans supplier"
     ]
   }
 }

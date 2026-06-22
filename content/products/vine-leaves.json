@@ -43,6 +43,41 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "Low in calories yet rich in dietary fibre, vitamin A, vitamin K, iron and antioxidants. Tender seedless leaves picked young and IQF-frozen to preserve their natural green colour and full nutrition — no additives.",
+    "ar": "منخفضة السعرات وغنية بالألياف الغذائية وفيتامين أ وفيتامين ك والحديد ومضادات الأكسدة. أوراق طرية بدون بذور تُقطف مبكراً وتُجمّد تجميداً فورياً للحفاظ على لونها الأخضر الطبيعي وقيمتها الغذائية الكاملة — بلا إضافات.",
+    "fr": "Pauvres en calories mais riches en fibres, vitamine A, vitamine K, fer et antioxydants. Feuilles tendres sans pépins cueillies jeunes et surgelées IQF pour préserver leur vert naturel et leurs nutriments — sans additifs.",
+    "de": "Kalorienarm und doch reich an Ballaststoffen, Vitamin A, Vitamin K, Eisen und Antioxidantien. Zarte kernlose Blätter, jung gepflückt und IQF-gefroren, um ihr natürliches Grün und ihre Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Thaw briefly to separate the leaves, then roll each around a rice-and-herb filling and simmer gently into dolma (wara' enab). Equally ready for stuffing with meat or vegetarian fillings — tender, pliable and never bitter.",
+    "ar": "تُذوّب قليلاً لفصل الأوراق، ثم تُلَفّ كل ورقة حول حشوة الأرز والأعشاب وتُطهى على نار هادئة لتصبح محشي ورق العنب (الدولما). جاهزة كذلك للحشو باللحم أو الحشوات النباتية — طرية وقابلة للف وغير مرّة.",
+    "fr": "Décongelez brièvement pour séparer les feuilles, puis roulez chacune autour d'une farce de riz et d'herbes et faites mijoter doucement en dolma (wara' enab). Idéales aussi farcies à la viande ou aux légumes — tendres, souples et jamais amères.",
+    "de": "Kurz auftauen, um die Blätter zu trennen, dann jedes um eine Reis-Kräuter-Füllung rollen und sanft zu Dolma (Wara' Enab) köcheln lassen. Ebenso bereit zum Füllen mit Fleisch oder vegetarisch — zart, biegsam und nie bitter."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Vine Leaves — IQF Grape Leaves, Exporter",
+      "ar": "ورق عنب مجمد — IQF بدون بذور للتصدير",
+      "fr": "Feuilles de vigne surgelées — IQF, exportateur",
+      "de": "Tiefkühl-Weinblätter — IQF kernlos, Exporteur"
+    },
+    "description": {
+      "en": "Premium IQF frozen vine leaves — tender, seedless grape leaves picked young for dolma and wara' enab. Wholesale frozen grape leaves exported from Egypt to 30+ countries.",
+      "ar": "ورق عنب مجمد فاخر بتقنية IQF — أوراق طرية بدون بذور تُقطف مبكراً لمحشي ورق العنب والدولما. نصدّر ورق العنب المجمد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Feuilles de vigne surgelées IQF premium — tendres et sans pépins, cueillies jeunes pour dolma et wara' enab. Feuilles de vigne surgelées en gros exportées d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Weinblätter (IQF) — zart und kernlos, jung gepflückt für Dolma und Wara' Enab. Weinblätter im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen vine leaves",
+      "frozen grape leaves",
+      "IQF vine leaves exporter",
+      "frozen vine leaves wholesale",
+      "wara enab",
+      "dolma leaves",
+      "Egyptian grape leaves supplier"
+    ]
+  },
   "relatedSlugs": ["molokhia", "spinach", "okra"],
   "varieties": []
 }

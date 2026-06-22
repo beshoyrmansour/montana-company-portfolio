@@ -3,7 +3,8 @@
     "name": {
       "en": "Montana",
       "ar": "مونتانا",
-      "fr": "Montana"
+      "fr": "Montana",
+      "de": "Montana"
     },
     "tagline": {
       "en": "Nutritious and fresh for a quality lifestyle",
@@ -18,7 +19,8 @@
   "parentCompany": {
     "en": "Maamoun Brothers Group",
     "ar": "مجموعة إخوان مأمون",
-    "fr": "Groupe Maamoun Brothers"
+    "fr": "Groupe Maamoun Brothers",
+    "de": "Maamoun Brothers Group"
   },
   "parentUrl": "https://www.maamoungrp.com",
   "parentSince": 1909,

@@ -1,4 +1,26 @@
 {
+  "seo": {
+    "title": {
+      "en": "About Us — Family Frozen-Food Maker Since 1985",
+      "ar": "من نحن — صانع أغذية مجمدة عائلي منذ 1985",
+      "fr": "À propos — Surgelés en famille depuis 1985",
+      "de": "Über uns — Familien-Tiefkühlhersteller seit 1985"
+    },
+    "description": {
+      "en": "Meet Montana: a family-owned, vertically integrated Egyptian frozen-food company since 1985. From our own farms to a 50,000 m² facility, we freeze 35,000 tonnes a year for 30+ markets.",
+      "ar": "تعرّف على مونتانا: شركة مصرية عائلية متكاملة رأسياً للأغذية المجمدة منذ عام 1985. من مزارعنا الخاصة إلى منشأة بمساحة 50,000 م²، نجمّد 35,000 طن سنوياً لأكثر من 30 سوقاً.",
+      "fr": "Découvrez Montana : entreprise familiale égyptienne de surgelés intégrée verticalement depuis 1985. De nos fermes à un site de 50 000 m², nous surgelons 35 000 tonnes par an pour 30+ marchés.",
+      "de": "Lernen Sie Montana kennen: familiengeführtes, vertikal integriertes ägyptisches Tiefkühl-Unternehmen seit 1985. Von eigenen Feldern bis zur 50.000 m² Anlage gefrieren wir 35.000 Tonnen jährlich für 30+ Märkte."
+    },
+    "keywords": [
+      "Montana frozen foods company",
+      "Egyptian frozen food manufacturer",
+      "family owned frozen food exporter",
+      "vertically integrated frozen vegetables",
+      "Maamoun Group",
+      "frozen food factory Egypt"
+    ]
+  },
   "hero": {
     "enabled": true,
     "eyebrow": {

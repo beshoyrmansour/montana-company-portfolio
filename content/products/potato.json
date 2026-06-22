@@ -44,20 +44,40 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "A satisfying source of carbohydrate energy and dietary fibre, with vitamin C and potassium. Peeled and lightly blanched, then IQF-frozen so each cube stays firm and separate — no additives, no waste.",
+    "ar": "مصدر مُشبع للطاقة الكربوهيدراتية والألياف الغذائية، مع فيتامين ج والبوتاسيوم. مقشّرة ومسلوقة سلقًا خفيفًا، ثم تُجمّد فورياً لتبقى كل مكعبة متماسكة ومنفصلة — بلا إضافات ولا هدر.",
+    "fr": "Source rassasiante de glucides énergétiques et de fibres, avec vitamine C et potassium. Pelées et légèrement blanchies, puis surgelées IQF pour que chaque cube reste ferme et séparé — sans additifs, sans gaspillage.",
+    "de": "Sättigende Quelle für Kohlenhydratenergie und Ballaststoffe, mit Vitamin C und Kalium. Geschält und kurz blanchiert, dann IQF-gefroren, damit jeder Würfel fest und einzeln bleibt — ohne Zusätze, ohne Abfall."
+  },
+  "preparation": {
+    "en": "Cook straight from frozen — no peeling, no thawing. Drop the cubes into stews, soups, curries and mixed-vegetable dishes, roast or sauté for a quick side, or air-fry until golden. Pre-blanched cubes hold their shape and cook evenly.",
+    "ar": "تُطهى مباشرة من الفريزر دون تقشير أو تذويب. أضِف المكعبات إلى اليخنات والشوربات والكاري وأطباق الخضار المشكّلة، أو حمّرها وقلّبها كطبق جانبي سريع، أو اقليها بالهواء حتى تذهّب. المكعبات المسلوقة مسبقًا تحافظ على شكلها وتنضج بالتساوي.",
+    "fr": "Cuisson directe surgelée — sans épluchage ni décongélation. Ajoutez les dés aux ragoûts, soupes, currys et plats de légumes, faites-les rôtir ou sauter en accompagnement rapide, ou passez-les à l'air fryer jusqu'à dorure. Les cubes pré-blanchis gardent leur forme et cuisent uniformément.",
+    "de": "Direkt aus dem Gefrierfach garen — kein Schälen, kein Auftauen. Die Würfel in Eintöpfe, Suppen, Currys und Gemüsegerichte geben, als schnelle Beilage rösten oder anbraten oder im Air Fryer goldbraun garen. Vorblanchierte Würfel behalten die Form und garen gleichmäßig."
+  },
   "relatedSlugs": ["mixed-vegetables", "peas-and-carrots"],
   "seo": {
     "title": {
-      "en": "Frozen Diced Potato — IQF | Montana",
-      "ar": "بطاطس مجمدة مكعبات - IQF | مونتانا",
-      "fr": "Pommes de terre surgelées en dés — IQF | Montana",
-      "de": "Tiefgekühlte gewürfelte Kartoffeln — IQF | Montana"
+      "en": "Frozen Diced Potato — IQF Cubes, Exporter",
+      "ar": "بطاطس مجمدة مكعبات — IQF، مصدّر",
+      "fr": "Pommes de terre surgelées en dés — IQF",
+      "de": "Tiefkühl-Kartoffelwürfel — IQF, Exporteur"
     },
     "description": {
-      "en": "Premium Egyptian frozen diced potatoes, peeled, blanched and IQF frozen. Cook from frozen, export packaging available.",
-      "ar": "بطاطس مصرية مجمدة مكعبات فاخرة، مقشّرة ومسلوقة ومجمّدة بطريقة IQF. تُطهى من الفريزر.",
-      "fr": "Pommes de terre égyptiennes surgelées en dés premium, pelées, blanchies et surgelées IQF.",
-      "de": "Premium-ägyptische tiefgekühlte gewürfelte Kartoffeln, geschält, blanchiert und IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+      "en": "Premium IQF frozen diced potatoes, peeled and blanched so each cube stays firm and separate. Additive-free, cooks from frozen. Wholesale frozen potato cubes exported from Egypt to 30+ countries.",
+      "ar": "بطاطس مجمدة مكعبات فاخرة بتقنية IQF، مقشّرة ومسلوقة لتبقى كل مكعبة متماسكة ومنفصلة. خالية من الإضافات، تُطهى من الفريزر. نصدّر مكعبات البطاطس المجمدة بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Pommes de terre surgelées IQF premium en dés, pelées et blanchies pour que chaque cube reste ferme et séparé. Sans additifs, cuisent surgelées. Dés de pomme de terre surgelés en gros exportés d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Kartoffelwürfel (IQF), geschält und blanchiert, damit jeder Würfel fest und einzeln bleibt. Zusatzfrei, gefroren kochfertig. Kartoffelwürfel im Großhandel aus Ägypten in über 30 Länder."
     },
-    "keywords": ["frozen potato", "IQF diced potato", "frozen potato cubes", "بطاطس مجمدة"]
+    "keywords": [
+      "frozen potato",
+      "frozen diced potato",
+      "IQF potato cubes exporter",
+      "frozen potato wholesale",
+      "Egyptian frozen potato supplier",
+      "frozen diced potatoes foodservice",
+      "بطاطس مجمدة"
+    ]
   }
 }

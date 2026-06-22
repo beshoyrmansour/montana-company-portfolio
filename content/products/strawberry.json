@@ -44,6 +44,40 @@
     ],
     "packaging": ["/images/products/strawberry/montana-frozen-strawberry-pack.png"]
   },
+  "nutrition": {
+    "en": "Rich in vitamin C, manganese and antioxidants, low in calories. Processed and deep-frozen within 5 hours of harvest to lock in colour, sweetness and full nutrition — no added sugar.",
+    "ar": "غنية بفيتامين ج والمنغنيز ومضادات الأكسدة، ومنخفضة السعرات. تُعالَج وتُجمّد خلال 5 ساعات من الحصاد للحفاظ على اللون والحلاوة والقيمة الغذائية الكاملة — بلا سكر مضاف.",
+    "fr": "Riche en vitamine C, manganèse et antioxydants, peu calorique. Traitée et surgelée dans les 5 heures suivant la récolte pour préserver couleur, saveur et nutriments — sans sucre ajouté.",
+    "de": "Reich an Vitamin C, Mangan und Antioxidantien, kalorienarm. Innerhalb von 5 Stunden nach der Ernte verarbeitet und tiefgefroren, um Farbe, Süße und Nährstoffe zu bewahren — ohne Zuckerzusatz."
+  },
+  "preparation": {
+    "en": "Use straight from frozen in smoothies, juices, jams, bakery, yoghurt and desserts, or thaw briefly for coulis and sauces. IQF whole and sliced formats keep berries free-flowing for easy portioning.",
+    "ar": "تُستخدم مباشرة من الفريزر في العصائر والمشروبات والمربى والمخبوزات والزبادي والحلويات، أو تُذوّب قليلاً للصلصات والكوليه. صيغ الفراولة الكاملة والمقطّعة بتقنية IQF تبقى سهلة الفرز لسهولة التقسيم.",
+    "fr": "À utiliser directement surgelée dans smoothies, jus, confitures, pâtisserie, yaourts et desserts, ou décongelée brièvement pour coulis et sauces. Les formats IQF entiers et tranchés restent non agglomérés.",
+    "de": "Direkt gefroren für Smoothies, Säfte, Marmeladen, Backwaren, Joghurt und Desserts verwenden oder kurz auftauen für Coulis und Saucen. IQF ganz und geschnitten bleiben rieselfähig für einfaches Portionieren."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Strawberries — IQF, Whole & Sliced",
+      "ar": "فراولة مجمدة — IQF كاملة ومقطّعة",
+      "fr": "Fraises surgelées — IQF, entières & tranchées",
+      "de": "Tiefkühl-Erdbeeren — IQF, ganz & geschnitten"
+    },
+    "description": {
+      "en": "IQF frozen strawberries from Egypt, frozen within 5 hours of harvest with no added sugar. Multiple cultivars, whole or sliced. Wholesale frozen strawberries exported to 30+ countries since 1985.",
+      "ar": "فراولة مجمدة بتقنية IQF من مصر، تُجمّد خلال 5 ساعات من الحصاد بلا سكر مضاف. أصناف متعددة، كاملة أو مقطّعة. نصدّر الفراولة المجمدة بالجملة لأكثر من 30 دولة منذ 1985.",
+      "fr": "Fraises surgelées IQF d'Égypte, surgelées dans les 5 heures sans sucre ajouté. Plusieurs cultivars, entières ou tranchées. Fraises surgelées en gros exportées vers 30+ pays depuis 1985.",
+      "de": "IQF-Erdbeeren aus Ägypten, innerhalb von 5 Stunden gefroren, ohne Zuckerzusatz. Mehrere Sorten, ganz oder geschnitten. Erdbeeren im Großhandel seit 1985 in über 30 Länder."
+    },
+    "keywords": [
+      "frozen strawberries",
+      "IQF strawberry exporter",
+      "frozen strawberries wholesale",
+      "Egyptian frozen strawberry supplier",
+      "frozen sliced strawberries",
+      "bulk frozen strawberries no sugar"
+    ]
+  },
   "relatedSlugs": [],
   "varieties": []
 }

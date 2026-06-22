@@ -1,4 +1,25 @@
 {
+  "seo": {
+    "title": {
+      "en": "Newsroom — Frozen Food Export Insights",
+      "ar": "غرفة الأخبار — رؤى تصدير الأغذية المجمدة",
+      "fr": "Actualités — Aperçus de l'export de surgelés",
+      "de": "Newsroom — Einblicke in den Tiefkühl-Export"
+    },
+    "description": {
+      "en": "News and insights from Montana — new export markets, capacity updates, season previews, quality reports and heritage stories from Egypt's frozen-food delta since 1985.",
+      "ar": "أخبار ورؤى من مونتانا — أسواق تصدير جديدة، وتحديثات الطاقة الإنتاجية، ومعاينات الموسم، وتقارير الجودة، وقصص التراث من دلتا مصر للأغذية المجمدة منذ عام 1985.",
+      "fr": "Actualités et analyses de Montana — nouveaux marchés à l'export, mises à jour de capacité, aperçus de saison, rapports qualité et récits de l'héritage du delta égyptien depuis 1985.",
+      "de": "Nachrichten und Einblicke von Montana — neue Exportmärkte, Kapazitäts-Updates, Saisonvorschauen, Qualitätsberichte und Geschichten aus dem ägyptischen Tiefkühl-Delta seit 1985."
+    },
+    "keywords": [
+      "frozen food industry news",
+      "frozen food export updates",
+      "Egyptian frozen produce news",
+      "frozen vegetables market trends",
+      "Montana frozen foods newsroom"
+    ]
+  },
   "hero": {
     "enabled": true,
     "eyebrow": {
