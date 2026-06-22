@@ -7,16 +7,16 @@
     "de": "Okra"
   },
   "shortDescription": {
-    "en": "Distinguished okra grown from the best quality seeds — 5 size grades available.",
-    "ar": "بامية متميزة من أفضل البذور — متوفرة في ٥ مراتب حجمية.",
-    "fr": "Okra distingué cultivé à partir des meilleures graines — 5 calibres disponibles.",
-    "de": "Hochwertige Okra aus bestem Saatgut — in 5 Größenklassen erhältlich."
+    "en": "Distinguished okra grown from the best quality seeds — graded into 4 sizes, from Extra to Number 1.",
+    "ar": "بامية متميزة من أفضل البذور — مصنّفة إلى ٤ مراتب حجمية، من إكسترا إلى رقم ١.",
+    "fr": "Okra distingué cultivé à partir des meilleures graines — classé en 4 calibres, d'Extra à Numéro 1.",
+    "de": "Hochwertige Okra aus bestem Saatgut — in 4 Größenklassen, von Extra bis Nummer 1."
   },
   "description": {
-    "en": "Montana produces a distinguished Okra vegetable grown out of the best quality seeds, maintaining all nutritional benefits. Categorized into 5 grades by size for export and retail.",
-    "ar": "تنتج مونتانا بامية متميزة من أجود البذور، محافظة على جميع القيم الغذائية. تصنف إلى ٥ مراتب وفقاً للحجم للتصدير والبيع بالتجزئة.",
-    "fr": "Montana produit un okra distingué cultivé à partir des graines de meilleure qualité, garantissant le maintien de toutes les propriétés nutritionnelles. Classé en 5 calibres par taille pour l'exportation et la vente au détail.",
-    "de": "Montana produziert hochwertige Okra aus bestem Saatgut und bewahrt dabei alle Nährstoffe. In 5 Größenklassen für Export und Einzelhandel sortiert."
+    "en": "Montana produces distinguished okra grown from the best quality seeds and IQF-frozen at its peak to keep its vivid colour, tenderness and full nutrition. It is graded into four sizes — Extra (0–2.5 cm), Zero (2.5–3.5 cm), Fine (3.5–4.5 cm) and Number 1 (4.5–5.5 cm) — so you can order exactly the calibre your market prefers, for export or retail. Free-flowing and ready to cook straight from frozen into stews, tagines and the Egyptian classic bamia.",
+    "ar": "تنتج مونتانا بامية متميزة من أجود البذور، وتُجمّد تجميدًا فوريًا في ذروتها للحفاظ على لونها الزاهي وطراوتها وقيمتها الغذائية الكاملة. تُصنّف إلى أربع مراتب حجمية — إكسترا (٠–٢٫٥ سم)، وزيرو (٢٫٥–٣٫٥ سم)، وفاين (٣٫٥–٤٫٥ سم)، ورقم ١ (٤٫٥–٥٫٥ سم) — لتطلب المقاس الذي يفضّله سوقك تمامًا، للتصدير أو البيع بالتجزئة. سهلة الفرز وجاهزة للطهي مباشرة من الفريزر في اليخنات والطواجن والبامية المصرية.",
+    "fr": "Montana produit un okra distingué cultivé à partir des meilleures graines et surgelé IQF à son apogée pour préserver sa couleur vive, sa tendreté et ses nutriments. Il est classé en quatre calibres — Extra (0–2,5 cm), Zéro (2,5–3,5 cm), Fine (3,5–4,5 cm) et Numéro 1 (4,5–5,5 cm) — pour commander exactement le calibre préféré de votre marché, à l'export ou au détail. Non aggloméré, prêt à cuire directement surgelé.",
+    "de": "Montana produziert hochwertige Okra aus bestem Saatgut, IQF-gefroren auf dem Höhepunkt, um leuchtende Farbe, Zartheit und volle Nährstoffe zu bewahren. Sie wird in vier Größen sortiert — Extra (0–2,5 cm), Zero (2,5–3,5 cm), Fein (3,5–4,5 cm) und Nummer 1 (4,5–5,5 cm) — damit Sie genau das vom Markt bevorzugte Kaliber bestellen, für Export oder Einzelhandel. Rieselfähig und direkt aus dem Gefrierfach kochfertig."
   },
   "category": "vegetable",
   "featured": true,
@@ -24,75 +24,41 @@
   "varieties": [
     {
       "name": {
-        "en": "Standard grades",
-        "ar": "المراتب القياسية",
-        "fr": "Calibres standard",
-        "de": "Standardgrößen"
+        "en": "Size grades",
+        "ar": "المراتب الحجمية",
+        "fr": "Calibres",
+        "de": "Größenklassen"
       },
       "sizes": [
         {
-          "label": {
-            "en": "Extra",
-            "ar": "اكسترا",
-            "fr": "Extra",
-            "de": "Extra"
-          },
+          "label": { "en": "Extra", "ar": "إكسترا", "fr": "Extra", "de": "Extra" },
+          "spec": { "en": "0 – 2.5 cm", "ar": "٠ – ٢٫٥ سم", "fr": "0 – 2,5 cm", "de": "0 – 2,5 cm" }
+        },
+        {
+          "label": { "en": "Zero", "ar": "زيرو", "fr": "Zéro", "de": "Zero" },
           "spec": {
-            "en": "0.5 – 1.5 cm",
-            "ar": "٠٫٥ – ١٫٥ سم",
-            "fr": "0,5 – 1,5 cm"
+            "en": "2.5 – 3.5 cm",
+            "ar": "٢٫٥ – ٣٫٥ سم",
+            "fr": "2,5 – 3,5 cm",
+            "de": "2,5 – 3,5 cm"
           }
         },
         {
-          "label": {
-            "en": "Zero",
-            "ar": "صفر",
-            "fr": "Zéro",
-            "de": "Zero"
-          },
+          "label": { "en": "Fine", "ar": "فاين", "fr": "Fine", "de": "Fein" },
           "spec": {
-            "en": "1.6 – 2.5 cm",
-            "ar": "١٫٦ – ٢٫٥ سم",
-            "fr": "1,6 – 2,5 cm"
+            "en": "3.5 – 4.5 cm",
+            "ar": "٣٫٥ – ٤٫٥ سم",
+            "fr": "3,5 – 4,5 cm",
+            "de": "3,5 – 4,5 cm"
           }
         },
         {
-          "label": {
-            "en": "Fine",
-            "ar": "ممتازة",
-            "fr": "Fine",
-            "de": "Fein"
-          },
+          "label": { "en": "Number 1", "ar": "رقم ١", "fr": "Numéro 1", "de": "Nummer 1" },
           "spec": {
-            "en": "2.6 – 3.5 cm",
-            "ar": "٢٫٦ – ٣٫٥ سم",
-            "fr": "2,6 – 3,5 cm"
-          }
-        },
-        {
-          "label": {
-            "en": "No. 1",
-            "ar": "رقم ١",
-            "fr": "No. 1",
-            "de": "Nr. 1"
-          },
-          "spec": {
-            "en": "3.6 – 4.5 cm",
-            "ar": "٣٫٦ – ٤٫٥ سم",
-            "fr": "3,6 – 4,5 cm"
-          }
-        },
-        {
-          "label": {
-            "en": "No. 2",
-            "ar": "رقم ٢",
-            "fr": "No. 2",
-            "de": "Nr. 2"
-          },
-          "spec": {
-            "en": "4.6 – 5.5 cm",
-            "ar": "٤٫٦ – ٥٫٥ سم",
-            "fr": "4,6 – 5,5 cm"
+            "en": "4.5 – 5.5 cm",
+            "ar": "٤٫٥ – ٥٫٥ سم",
+            "fr": "4,5 – 5,5 cm",
+            "de": "4,5 – 5,5 cm"
           }
         }
       ]

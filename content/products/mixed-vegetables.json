@@ -7,16 +7,16 @@
     "de": "Gemüsemischung"
   },
   "shortDescription": {
-    "en": "Custom blends to your specification — peas, carrots, beans, corn, broccoli, cauliflower.",
-    "ar": "خلطات مخصصة حسب طلبك - بازلاء وجزر وفاصوليا وذرة وبروكلي وقرنبيط.",
-    "fr": "Mélanges personnalisés — pois, carottes, haricots, maïs, brocoli, chou-fleur.",
-    "de": "Individuelle Mischungen nach Ihren Vorgaben — Erbsen, Karotten, Bohnen, Mais, Brokkoli, Blumenkohl."
+    "en": "Available as 3-way and 4-way mixes — or fully customized to your specification: peas, carrots, green beans, sweet corn, broccoli, cauliflower.",
+    "ar": "متوفرة كخلطات ثلاثية ورباعية — أو مخصصة بالكامل حسب طلبك: بازلاء، جزر، فاصوليا خضراء، ذرة حلوة، بروكلي، قرنبيط.",
+    "fr": "Disponible en mélanges 3 et 4 composants — ou entièrement personnalisé : pois, carottes, haricots verts, maïs, brocoli, chou-fleur.",
+    "de": "Als 3er- und 4er-Mischung erhältlich — oder vollständig nach Ihren Vorgaben: Erbsen, Karotten, grüne Bohnen, Zuckermais, Brokkoli, Blumenkohl."
   },
   "description": {
-    "en": "Items and rations can be set upon client's selection. Customized vegetable mixture types: Regular (Peas, Green Beans & Carrot), Special (Sweet Corn, Broccoli, Cauliflower), or any combination from Montana's range of products.",
-    "ar": "يمكن تحديد العناصر والمكونات بناءً على اختيار العميل. أنواع الخليط المخصص: عادي (بازلاء، فاصوليا خضراء، جزر)، خاص (ذرة حلوة، بروكلي، قرنبيط)، أو أي مزيج من منتجات مونتانا.",
-    "fr": "Les articles et rations peuvent être définis selon la sélection du client.",
-    "de": "Bestandteile und Anteile lassen sich nach Kundenwunsch festlegen. Individuelle Mischungen: Standard (Erbsen, grüne Bohnen & Karotte), Spezial (Zuckermais, Brokkoli, Blumenkohl) oder jede Kombination aus Montanas Sortiment."
+    "en": "Montana's mixed vegetables come as ready 3-way and 4-way blends and can be fully customized — the items and their ratios are set to each client's selection. Start from Regular (peas, green beans and carrot), add broccoli, sweet corn or cauliflower, or build any combination from Montana's full range of products. Tell us your recipe and we'll match it, batch after batch.",
+    "ar": "تأتي خضار مونتانا المشكّلة كخلطات جاهزة ثلاثية ورباعية، ويمكن تخصيصها بالكامل — إذ تُحدَّد العناصر ونسبها وفق اختيار كل عميل. ابدأ من العادي (بازلاء وفاصوليا خضراء وجزر)، وأضِف البروكلي أو الذرة الحلوة أو القرنبيط، أو كوّن أي مزيج من منتجات مونتانا. أخبرنا بوصفتك ونوفّرها لك، دفعة بعد دفعة.",
+    "fr": "Les légumes mélangés de Montana existent en mélanges 3 et 4 composants et sont entièrement personnalisables — les articles et leurs proportions sont définis selon la sélection de chaque client. Partez du Régulier (pois, haricots verts et carotte), ajoutez brocoli, maïs ou chou-fleur, ou composez toute combinaison à partir de la gamme Montana. Indiquez-nous votre recette et nous la reproduisons, lot après lot.",
+    "de": "Montanas Gemüsemischungen gibt es als fertige 3er- und 4er-Mischungen und sind vollständig anpassbar — Bestandteile und Anteile werden nach Kundenwunsch festgelegt. Beginnen Sie mit Standard (Erbsen, grüne Bohnen und Karotte), ergänzen Sie Brokkoli, Zuckermais oder Blumenkohl, oder stellen Sie jede Kombination aus dem Montana-Sortiment zusammen. Nennen Sie uns Ihr Rezept — wir liefern es, Charge für Charge."
   },
   "category": "vegetable",
   "featured": false,
@@ -52,6 +52,14 @@
         "ar": "رباعي + قرنبيط",
         "fr": "4-mix + chou-fleur",
         "de": "4er-Mix + Blumenkohl"
+      }
+    },
+    {
+      "name": {
+        "en": "Custom blend (your specification)",
+        "ar": "خلطة مخصصة (حسب الطلب)",
+        "fr": "Mélange personnalisé (sur demande)",
+        "de": "Individuelle Mischung (nach Wunsch)"
       }
     }
   ],
