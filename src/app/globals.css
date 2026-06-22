@@ -4530,3 +4530,145 @@ body {
     gap: var(--space-6) var(--space-4);
   }
 }
+
+/* ────────────────────────────────────────────────────────────────
+ * Process showcase — overlapping, parallax "field to freezer" steps.
+ * Base = clean stacked column (works everywhere). Desktop adds a zig-zag
+ * overlap; scroll-driven parallax + reveal enhance it where the browser
+ * supports animation-timeline (progressive, no JS). Respects reduced motion.
+ * ──────────────────────────────────────────────────────────────── */
+.process-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  margin-top: var(--space-10);
+}
+.process-showcase .process-step {
+  display: grid;
+  gap: var(--space-4);
+  position: relative;
+  z-index: 1;
+}
+.process-showcase .process-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-surface);
+  box-shadow: 0 22px 48px -20px rgba(20, 30, 20, 0.35);
+}
+.process-showcase .process-media > img {
+  object-fit: cover;
+}
+.process-showcase .process-media .process-num {
+  position: absolute;
+  inset-block-start: var(--space-3);
+  inset-inline-start: var(--space-3);
+  width: 44px;
+  height: 44px;
+  font-size: var(--text-heading-2);
+  background: color-mix(in srgb, var(--color-surface) 88%, transparent);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  margin: 0;
+}
+.process-showcase .process-caption h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-heading-2);
+  letter-spacing: var(--tracking-tight);
+}
+.process-showcase .process-caption p {
+  margin-top: var(--space-2);
+  font-size: var(--text-body-sm);
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  max-width: 44ch;
+}
+
+/* Desktop: zig-zag overlap */
+@media (min-width: 1024px) {
+  .process-showcase.has-media {
+    max-width: 1060px;
+    margin-inline: auto;
+    gap: 0;
+  }
+  .process-showcase.has-media .process-step {
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    gap: var(--space-8);
+    width: 86%;
+    margin-top: -4.5rem;
+  }
+  .process-showcase.has-media .process-step:first-child {
+    margin-top: 0;
+  }
+  .process-showcase.has-media .process-step:nth-child(even) {
+    margin-inline-start: auto;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .process-showcase.has-media .process-step:nth-child(even) .process-media {
+    order: 2;
+  }
+  .process-showcase.has-media .process-step:nth-child(even) .process-caption {
+    order: 1;
+    text-align: end;
+  }
+  .process-showcase.has-media .process-caption p {
+    margin-inline-start: auto;
+  }
+  .process-showcase.has-media .process-step:nth-child(odd) .process-caption p {
+    margin-inline-start: 0;
+  }
+  .process-showcase.has-media .process-media {
+    aspect-ratio: 16 / 11;
+  }
+}
+
+/* Scroll-driven parallax + reveal — progressive enhancement */
+@supports (animation-timeline: view()) {
+  @media (min-width: 1024px) {
+    .process-showcase.has-media .process-media > img {
+      transform: scale(1.18);
+      animation: process-parallax linear both;
+      animation-timeline: view();
+      animation-range: cover;
+      will-change: transform;
+    }
+  }
+  .process-showcase .process-step {
+    animation: process-rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 72%;
+    will-change: transform, opacity;
+  }
+}
+
+@keyframes process-parallax {
+  from {
+    transform: scale(1.18) translateY(-7%);
+  }
+  to {
+    transform: scale(1.18) translateY(7%);
+  }
+}
+@keyframes process-rise {
+  from {
+    opacity: 0;
+    transform: translateY(46px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .process-showcase .process-step,
+  .process-showcase.has-media .process-media > img {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}

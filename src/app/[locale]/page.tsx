@@ -185,12 +185,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               )}
             </div>
             <div
-              className="product-carousel flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth pb-4 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden"
+              className="product-carousel flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth py-6 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden"
               style={{
-                width: '100vw',
-                marginInline: 'calc(50% - 50vw)',
-                // first card aligns under the contained title; row bleeds to the end edge
-                paddingInlineStart: 'max(1rem, calc((100vw - 80rem) / 2 + 2rem))',
+                // Start stays aligned with the section title (the carousel sits inside
+                // the container). Only the END bleeds to the viewport edge, so the row
+                // begins under the label and runs off the right with no wasted gap.
+                marginInlineEnd: 'calc(50% - 50vw)',
                 paddingInlineEnd: '1.5rem',
               }}
             >
@@ -286,8 +286,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               </h2>
             </div>
             <div
-              className={`process-grid${
-                home.process.steps.some((s) => s.image) ? 'process-grid--media' : ''
+              className={`process-showcase${
+                home.process.steps.some((s) => s.image) ? 'has-media' : ''
               }`}
             >
               {home.process.steps.map((step, idx) => {
@@ -301,7 +301,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                           alt=""
                           aria-hidden
                           fill
-                          sizes="(max-width: 1024px) 50vw, 20vw"
+                          sizes="(max-width: 1024px) 100vw, 55vw"
                           style={{ objectFit: 'cover' }}
                         />
                         <span className="process-num">{roman}</span>
@@ -309,8 +309,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                     ) : (
                       <span className="process-num">{roman}</span>
                     )}
-                    <h3>{pick(step.label, locale)}</h3>
-                    <p>{pick(step.description, locale)}</p>
+                    <div className="process-caption">
+                      <h3>{pick(step.label, locale)}</h3>
+                      <p>{pick(step.description, locale)}</p>
+                    </div>
                   </div>
                 );
               })}
