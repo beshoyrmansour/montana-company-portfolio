@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 import { Analytics } from '@vercel/analytics/next';
+import ServiceWorkerRegister from '@/components/pwa/ServiceWorkerRegister';
 import { displayLatin, sansLatin, displayArabic, sansArabic, fontVariables } from '@/lib/fonts';
 import { getActiveTheme } from '@/lib/theme';
 import { cn } from '@/lib/cn';
@@ -28,7 +29,7 @@ export const dynamic = 'error';
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'Montana — Frozen Foods Since 1985 | Egyptian Vegetables & Fruits Exporter',
+    default: 'Montana — Egyptian Frozen Vegetables & Fruits Exporter Since 1985',
     template: '%s | Montana',
   },
   description:
@@ -140,6 +141,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       >
         {children}
         <Analytics />
+        <ServiceWorkerRegister />
       </body>
     </html>
   );

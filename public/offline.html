@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#147239" />
+    <meta name="robots" content="noindex" />
+    <title>Offline — Montana Frozen Foods</title>
+    <link rel="icon" href="/icons/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <style>
+      :root {
+        --bg: #fbfaf6;
+        --green: #147239;
+        --green-dark: #0f5a2d;
+        --text: #1c2421;
+        --muted: #5b655f;
+        --border: rgba(20, 114, 57, 0.18);
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+      }
+      .card {
+        width: 100%;
+        max-width: 460px;
+        text-align: center;
+      }
+      .logo {
+        width: 72px;
+        height: 72px;
+        margin: 0 auto 24px;
+        display: block;
+        border-radius: 18px;
+        box-shadow: 0 6px 22px rgba(20, 114, 57, 0.18);
+      }
+      h1 {
+        font-size: 1.6rem;
+        margin: 0 0 10px;
+        color: var(--green);
+        letter-spacing: -0.01em;
+      }
+      .brand {
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0 0 22px;
+      }
+      p {
+        margin: 0 0 26px;
+        color: var(--muted);
+        font-size: 1.02rem;
+      }
+      button {
+        appearance: none;
+        border: 0;
+        cursor: pointer;
+        background: var(--green);
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 13px 30px;
+        border-radius: 999px;
+        transition: background 0.15s ease, transform 0.1s ease;
+      }
+      button:hover {
+        background: var(--green-dark);
+      }
+      button:active {
+        transform: translateY(1px);
+      }
+      button:focus-visible {
+        outline: 3px solid var(--border);
+        outline-offset: 2px;
+      }
+      .hint {
+        margin-top: 22px;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <img
+        class="logo"
+        src="/icons/android-chrome-192x192.png"
+        alt="Montana Frozen Foods"
+        width="72"
+        height="72"
+      />
+      <p class="brand">Montana Frozen Foods</p>
+      <h1>You're offline</h1>
+      <p>
+        We can't reach the network right now. Check your connection and try again —
+        your saved pages are still available.
+      </p>
+      <button type="button" onclick="location.reload()">Try again</button>
+      <p class="hint">This page works without an internet connection.</p>
+    </main>
+  </body>
+</html>
