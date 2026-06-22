@@ -1,9 +1,10 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState, type CSSProperties } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { cn } from '@/lib/cn';
 
 export type HeroSlideView = {
   image: string;
@@ -67,7 +68,8 @@ export function HeroCarousel({
 
   return (
     <section
-      className="hero-carousel"
+      className={cn('hero-carousel', paused && 'is-paused')}
+      style={{ '--hero-autoplay': `${AUTOPLAY_MS}ms` } as CSSProperties}
       aria-roledescription="carousel"
       aria-label="Montana highlights"
       onMouseEnter={() => setPaused(true)}
@@ -77,7 +79,7 @@ export function HeroCarousel({
     >
       <div className="hero-carousel-track" aria-hidden>
         {slides.map((s, i) => (
-          <div key={`${s.image}-${i}`} className={`hero-slide${i === index ? 'is-active' : ''}`}>
+          <div key={`${s.image}-${i}`} className={cn('hero-slide', i === index && 'is-active')}>
             <Image
               src={s.image}
               alt=""
@@ -96,7 +98,7 @@ export function HeroCarousel({
           {slides.map((s, i) => (
             <div
               key={`${s.image}-${i}`}
-              className={`hero-copy${i === index ? 'is-active' : ''}`}
+              className={cn('hero-copy', i === index && 'is-active')}
               aria-hidden={i === index ? undefined : true}
             >
               {s.eyebrow && (
@@ -177,7 +179,7 @@ export function HeroCarousel({
                 role="tab"
                 aria-selected={i === index}
                 aria-label={`Slide ${i + 1}`}
-                className={`hero-dot${i === index ? 'is-active' : ''}`}
+                className={cn('hero-dot', i === index && 'is-active')}
                 onClick={() => setIndex(i)}
               />
             ))}

@@ -376,6 +376,35 @@ body {
 }
 
 /* ─────────────────────────────────────────────────────────────────
+ * "View all" card — terminal tile in the featured-products carousel.
+ * A solid brand-green tile so it reads as a distinct call-to-action
+ * instead of an empty dashed card.
+ * ───────────────────────────────────────────────────────────────── */
+.view-all-card {
+  background: linear-gradient(
+    150deg,
+    var(--color-brand-primary) 0%,
+    var(--color-brand-primary-deep) 100%
+  );
+  color: #fff;
+  box-shadow: 0 14px 36px -16px rgba(20, 114, 57, 0.6);
+  min-height: 16rem;
+  transition:
+    transform var(--duration-base) var(--ease-smooth),
+    box-shadow var(--duration-base) var(--ease-smooth);
+}
+.view-all-card:hover {
+  box-shadow: 0 20px 48px -16px rgba(20, 114, 57, 0.7);
+}
+.view-all-card .view-all-icon {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+.view-all-card:hover .view-all-icon {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* ─────────────────────────────────────────────────────────────────
  * Editorial buttons
  * ───────────────────────────────────────────────────────────────── */
 
@@ -442,6 +471,42 @@ body {
   background: var(--color-surface);
   color: var(--color-text);
   box-shadow: var(--shadow-md);
+}
+
+/* ─────────────────────────────────────────────────────────────────
+ * Site header logo — bigger at the top of the page, smoothly shrinks
+ * to its resting size on scroll. The HeaderScroll client component
+ * toggles `.is-scrolled` on <html> past a small scroll threshold.
+ * ───────────────────────────────────────────────────────────────── */
+.site-logo {
+  /* At the top of the page the logo is oversized and TOP-anchored (its link
+   * uses `self-start`) so the red frame's bottom line lands on the header's
+   * bottom border while the mascots' legs hang OUT below it.
+   * The frame bottom sits at 78.4% of the artwork height, so height is
+   * ≈ headerHeight / 0.784:  mobile h-16 (64px) → 5.1rem, desktop h-20
+   * (80px) → 6.4rem. The legs are the bottom ~21% that overhangs. */
+  height: 5.1rem;
+  width: auto;
+  transition: height var(--duration-base) var(--ease-smooth);
+}
+@media (min-width: 1024px) {
+  .site-logo {
+    height: 6.4rem;
+  }
+}
+/* On scroll the logo shrinks back to ~header height so the legs tuck inside. */
+html.is-scrolled .site-logo {
+  height: 4rem;
+}
+@media (min-width: 1024px) {
+  html.is-scrolled .site-logo {
+    height: 5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-logo {
+    transition: none;
+  }
 }
 
 /* ─────────────────────────────────────────────────────────────────
@@ -4004,6 +4069,7 @@ body {
   justify-content: center;
 }
 .hero-dot {
+  position: relative;
   inline-size: 28px;
   block-size: 4px;
   padding: 0;
@@ -4011,10 +4077,50 @@ body {
   border-radius: var(--radius-full);
   background: rgba(255, 255, 255, 0.4);
   cursor: pointer;
-  transition: background var(--duration-fast) var(--ease-out);
+  overflow: hidden;
+  transition:
+    background var(--duration-fast) var(--ease-out),
+    inline-size var(--duration-base) var(--ease-smooth);
 }
+.hero-dot:hover {
+  background: rgba(255, 255, 255, 0.65);
+}
+/* Active dot widens and a red fill sweeps left→right over the autoplay
+ * interval, so visitors can see how long until the slide advances.
+ * --hero-autoplay is set inline from the component's AUTOPLAY_MS. */
 .hero-dot.is-active {
-  background: var(--color-brand-secondary); /* red active dot */
+  inline-size: 44px;
+  background: rgba(255, 255, 255, 0.35);
+}
+.hero-dot.is-active::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--color-brand-secondary); /* red progress fill */
+  transform-origin: left center;
+  animation: heroDotProgress var(--hero-autoplay, 6000ms) linear forwards;
+}
+:root[dir='rtl'] .hero-dot.is-active::after {
+  transform-origin: right center;
+}
+/* Autoplay pauses on hover/focus — freeze the progress fill to match. */
+.hero-carousel.is-paused .hero-dot.is-active::after {
+  animation-play-state: paused;
+}
+@keyframes heroDotProgress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-dot.is-active::after {
+    animation: none;
+    transform: scaleX(1);
+  }
 }
 
 /* ─────────────────────────────────────────────────────────────────
@@ -4513,9 +4619,12 @@ body {
    * consistent, thumb-friendly mobile button language. */
   .cta-strip-editorial .cta-buttons-editorial {
     flex-direction: column;
+    align-items: center;
   }
   .cta-strip-editorial .cta-buttons-editorial > .btn-editorial {
     width: 100%;
+    max-width: 22rem; /* keep CTAs a tidy, tappable size — not edge-to-edge bars */
+    flex: 0 0 auto;
   }
 
   /* News featured "Read more" sits flush-start on desktop; let it span the

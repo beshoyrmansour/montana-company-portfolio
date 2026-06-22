@@ -187,11 +187,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <div
               className="product-carousel flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth py-6 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden"
               style={{
-                // Start stays aligned with the section title (the carousel sits inside
-                // the container). Only the END bleeds to the viewport edge, so the row
-                // begins under the label and runs off the right with no wasted gap.
+                // First card starts flush under the section title (the carousel sits
+                // inside the container, so its inline-start = the title's edge); the
+                // END bleeds to the viewport edge so the row runs CONTINUOUSLY off the
+                // right with no trailing padding. Holds across mobile/tablet/desktop
+                // because both title and carousel share the same container.
                 marginInlineEnd: 'calc(50% - 50vw)',
                 paddingInlineEnd: '1.5rem',
+                scrollPaddingInlineStart: 0,
               }}
             >
               {featured.slice(0, home.featuredProducts.count ?? 8).map((product, idx) => (
@@ -205,12 +208,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               {/* "See all" card — last item of the carousel */}
               <Link
                 href={`/${locale}/catalog`}
-                className="border-border hover:border-brand-primary hover:bg-surface-muted group flex w-[78%] shrink-0 snap-start flex-col items-center justify-center gap-4 rounded-2xl border border-dashed text-center transition-colors sm:w-[46%] md:w-[31%] lg:w-[23.5%]"
+                className="view-all-card group flex w-[78%] shrink-0 snap-start flex-col items-center justify-center gap-4 rounded-2xl p-6 text-center hover:-translate-y-1 sm:w-[46%] md:w-[31%] lg:w-[23.5%]"
               >
-                <span className="bg-brand-primary/10 text-brand-primary flex h-14 w-14 items-center justify-center rounded-full transition-transform group-hover:scale-110">
+                <span className="view-all-icon flex h-14 w-14 items-center justify-center rounded-full transition-transform group-hover:scale-110">
                   <ArrowRight className="rtl:rotate-180" size={22} aria-hidden />
                 </span>
-                <span className="text-body-lg text-text font-semibold">
+                <span className="text-body-lg font-semibold text-white">
                   {pick(home.featuredProducts.viewAllLabel, locale) ?? 'See all products'}
                 </span>
               </Link>
