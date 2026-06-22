@@ -11,8 +11,16 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { getAllProducts, getCatalogPage } from '@/lib/content';
 import { pick, type Locale } from '@/lib/i18n';
 import { getActiveTheme } from '@/lib/theme';
-import { buildPageMetadata, itemListJsonLd, BASE_URL } from '@/lib/seo';
+import { buildPageMetadata, itemListJsonLd, breadcrumbJsonLd, BASE_URL } from '@/lib/seo';
 import type { CatalogPage } from '@/schemas/page';
+
+/** Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). */
+const BREADCRUMB_LABELS: Record<Locale, { home: string; catalog: string }> = {
+  en: { home: 'Home', catalog: 'Catalog' },
+  ar: { home: 'الرئيسية', catalog: 'المنتجات' },
+  fr: { home: 'Accueil', catalog: 'Catalogue' },
+  de: { home: 'Startseite', catalog: 'Katalog' },
+};
 
 export const dynamic = 'error';
 
@@ -26,8 +34,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildPageMetadata({
     locale,
     path: '/catalog',
-    title: pick(page.seo?.title, locale) ?? (heroTitle || 'Catalog'),
-    description: pick(page.seo?.description, locale) ?? pick(page.hero.subtitle, locale) ?? '',
+    title: pick(page.seo?.title, locale) ?? (heroTitle || 'Frozen Vegetable & Fruit Catalog — IQF'),
+    description:
+      pick(page.seo?.description, locale) ??
+      pick(page.hero.subtitle, locale) ??
+      'Browse Montana’s full IQF frozen vegetable and fruit range — molokhia, okra, artichoke, strawberry and more. Egyptian export quality since 1985, HACCP-ISO-BRC certified. Request a quote.',
     keywords: page.seo?.keywords ?? [
       'frozen vegetable catalog',
       'frozen fruit catalog',
@@ -87,9 +98,15 @@ export default async function CatalogIndexPage({
     },
   );
 
+  const crumbs = BREADCRUMB_LABELS[locale] ?? BREADCRUMB_LABELS.en;
+  const breadcrumb = breadcrumbJsonLd([
+    { name: crumbs.home, href: `/${locale}` },
+    { name: crumbs.catalog, href: `/${locale}/catalog` },
+  ]);
+
   return (
     <>
-      <JsonLd data={itemList} />
+      <JsonLd data={[itemList, breadcrumb]} />
       {/* ════════════════════════════════════════════════════════ HERO */}
       {page.hero.enabled && (
         <section className="section-editorial">
