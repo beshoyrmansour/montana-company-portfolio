@@ -4017,6 +4017,57 @@ body {
   background: var(--color-brand-secondary); /* red active dot */
 }
 
+/* ─────────────────────────────────────────────────────────────────
+ * Hero carousel — mobile tuning (< md)
+ *   • CTAs go full-width and stack with a comfortable gap so the two
+ *     buttons read as clear, tappable targets edge-to-edge.
+ *   • Prev/next arrows are pinned just above the dots in the bottom
+ *     corners (and shrunk) so they no longer overlap the headline,
+ *     subhead, or the full-width CTAs.
+ *   • Slightly looser block padding so the copy breathes off the foot.
+ * ───────────────────────────────────────────────────────────────── */
+@media (max-width: 767px) {
+  .hero-carousel-inner {
+    padding-block: var(--space-12) var(--space-24);
+  }
+
+  .hero-carousel .hero-subtitle {
+    margin-bottom: 0;
+  }
+
+  /* Full-width, vertically stacked CTAs */
+  .hero-carousel .hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-4);
+    width: 100%;
+  }
+  .hero-carousel .hero-ctas > .btn-editorial {
+    width: 100%;
+    padding-inline: var(--space-5);
+  }
+
+  /* Move the nav arrows down into the bottom corners, above the dots,
+   * and shrink them so they clear the copy + buttons entirely. */
+  .hero-carousel .hero-nav {
+    top: auto;
+    transform: none;
+    inset-block-end: var(--space-12);
+    inline-size: 38px;
+    block-size: 38px;
+  }
+  .hero-carousel .hero-nav.prev {
+    inset-inline-start: var(--gutter-mobile);
+  }
+  .hero-carousel .hero-nav.next {
+    inset-inline-end: var(--gutter-mobile);
+  }
+
+  .hero-carousel .hero-dots {
+    inset-block-end: var(--space-5);
+  }
+}
+
 /* ═══════════════════════════════════════════════════════════════════
  * OPTION B — bolder red + green on the non-hero sections
  * ═══════════════════════════════════════════════════════════════════ */
@@ -4420,4 +4471,62 @@ body {
 /* Product-card eyebrow rule → red (matches the global eyebrow accent) */
 .product-eyebrow-editorial::before {
   background: var(--color-brand-secondary);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+ * MOBILE SPACING PASS (< md)
+ * Normalises horizontal gutters and vertical rhythm on small screens so
+ * content breathes off the edges and sections don't feel cramped. Scoped
+ * to mobile only — desktop spacing is untouched. RTL-safe (logical props).
+ * ═══════════════════════════════════════════════════════════════════ */
+@media (max-width: 767px) {
+  /* A touch more side gutter so cards/copy aren't pinned to the edge. */
+  .container-editorial {
+    padding-inline: var(--space-6);
+  }
+
+  /* Section heads carry a lot of bottom space on desktop; pull it in so the
+   * heading and the content below stay visually connected on mobile. */
+  .section-head,
+  .section-head-row {
+    margin-bottom: var(--space-10);
+  }
+
+  /* Shared page hero (markets/about/etc.) — the desktop top pad is 8rem,
+   * which dwarfs the viewport on a phone. Give it a balanced mobile rhythm. */
+  .markets-hero {
+    padding-block: var(--space-16) var(--space-12);
+  }
+  .markets-hero-title,
+  .markets-hero-inner .eyebrow {
+    margin-bottom: var(--space-6);
+  }
+  .markets-hero-sub {
+    margin-bottom: var(--space-10);
+  }
+  .markets-hero-stats {
+    gap: var(--space-8) var(--space-4);
+    padding-top: var(--space-8);
+  }
+
+  /* Home CTA strip — match the hero: stacked, full-width buttons for a
+   * consistent, thumb-friendly mobile button language. */
+  .cta-strip-editorial .cta-buttons-editorial {
+    flex-direction: column;
+  }
+  .cta-strip-editorial .cta-buttons-editorial > .btn-editorial {
+    width: 100%;
+  }
+
+  /* News featured "Read more" sits flush-start on desktop; let it span the
+   * card width on mobile so it reads as a primary action. */
+  .news-featured-body .btn-editorial {
+    align-self: stretch !important;
+    width: 100%;
+  }
+
+  /* Slightly looser gaps inside dense card grids so tiles don't touch. */
+  .heritage-stats {
+    gap: var(--space-6) var(--space-4);
+  }
 }

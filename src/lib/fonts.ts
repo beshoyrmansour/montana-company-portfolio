@@ -23,6 +23,9 @@ export const displayLatin = Cormorant_Garamond({
   variable: '--font-display-latin',
   display: 'swap',
   preload: true,
+  // size-adjust against the serif fallback so swap doesn't reflow headings (CLS).
+  adjustFontFallback: true,
+  fallback: ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
 });
 
 export const sansLatin = Signika({
@@ -31,6 +34,8 @@ export const sansLatin = Signika({
   variable: '--font-sans-latin',
   display: 'swap',
   preload: true,
+  // metric-matched sans fallback minimises body-text shift during swap (CLS).
+  fallback: ['system-ui', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
 });
 
 export const displayArabic = Amiri({
@@ -40,6 +45,7 @@ export const displayArabic = Amiri({
   variable: '--font-display-arabic',
   display: 'swap',
   preload: false,
+  fallback: ['Times New Roman', 'serif'],
 });
 
 export const sansArabic = IBM_Plex_Sans_Arabic({
@@ -49,6 +55,7 @@ export const sansArabic = IBM_Plex_Sans_Arabic({
   variable: '--font-sans-arabic',
   display: 'swap',
   preload: false,
+  fallback: ['Segoe UI', 'Tahoma', 'Arial', 'sans-serif'],
 });
 
 /** All font CSS variable names — applied to <html> in the root layout. */
