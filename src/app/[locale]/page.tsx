@@ -341,16 +341,19 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 const logo = certLogo(c.name);
                 return (
                   <li key={c.name} className="cert-tile">
-                    {logo ? (
-                      <span className="cert-tile-logo">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={logo} alt={`${c.name} certification logo`} />
-                      </span>
-                    ) : (
-                      <Icon className="cert-tile-icon" size={30} aria-hidden />
-                    )}
-                    <span className="cert-tile-name">{c.name}</span>
-                    <span className="cert-tile-desc">{pick(c.description, locale)}</span>
+                    {/* Faint brand-icon watermark in the corner. */}
+                    <Icon className="cert-tile-watermark" size={84} aria-hidden />
+                    <span className="cert-tile-body">
+                      {logo ? (
+                        <span className="cert-tile-logo">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img src={logo} alt={`${c.name} certification logo`} />
+                        </span>
+                      ) : (
+                        <span className="cert-tile-name">{c.name}</span>
+                      )}
+                      <span className="cert-tile-desc">{pick(c.description, locale)}</span>
+                    </span>
                   </li>
                 );
               })}

@@ -2826,7 +2826,19 @@ html.is-scrolled .site-logo {
   backdrop-filter: blur(6px);
 }
 .cert-shield {
-  color: var(--ornament-color);
+  /* Uniform white chip that holds either a real logo or the fallback lucide icon,
+     so every dark card shows the mark at a consistent height regardless of the
+     logo's aspect ratio. Hugs its content rather than stretching the card width. */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  height: 64px;
+  max-width: 100%;
+  padding: 0 16px;
+  background: #fff;
+  border-radius: var(--radius-md);
+  color: var(--color-brand-primary);
   margin-bottom: var(--space-3);
 }
 .cert-name {
@@ -4281,13 +4293,29 @@ html.is-scrolled .site-logo {
   padding: 0;
   display: grid;
   gap: var(--space-4);
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr));
+  /* Responsive ladder: 1 col on phones → 2 on small/tablet → 3 on desktop.
+     (Was auto-fill, which expanded to 5 across on wide screens.) */
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) {
+  .cert-wall {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .cert-wall {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .cert-tile {
+  /* Card with a large, low-opacity brand icon watermarked in the top-right corner;
+     the name/logo + description sit on top of it and stay fully readable. */
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: var(--space-3);
-  min-height: 160px;
   padding: var(--space-5);
   background: #fff;
   border-radius: var(--radius-lg);
@@ -4300,19 +4328,44 @@ html.is-scrolled .site-logo {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
 }
-.cert-tile-logo {
+.cert-tile-body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+/* Real logos sit in the same top slot as the lucide icons. The slot is fixed at
+   44px (the icon size) so the name line aligns across every tile in a row, and a
+   wide wordmark (e.g. GLOBALG.A.P at ~7.7:1) is capped by height and tile width
+   so it can never blow the card open. */
+.cert-wall .cert-tile-logo {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   height: 48px;
-}
-.cert-tile-logo img {
-  height: 100%;
-  width: auto;
   max-width: 100%;
+}
+.cert-wall .cert-tile-logo img {
+  max-height: 48px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
   object-fit: contain;
 }
-.cert-tile-icon {
+/* Low-opacity brand icon watermark, offset into the bottom-right corner (it
+   bleeds past the edge and is clipped by the card's overflow:hidden) — an accent
+   that catches the eye without competing with the text. */
+.cert-tile-watermark {
+  position: absolute;
+  bottom: calc(var(--space-4) * -1);
+  right: calc(var(--space-4) * -1);
+  width: 84px;
+  height: 84px;
   color: var(--color-brand-primary);
+  opacity: 0.1;
+  pointer-events: none;
 }
 .cert-tile-name {
   font-family: var(--font-display);
@@ -4322,18 +4375,18 @@ html.is-scrolled .site-logo {
   color: var(--color-text);
 }
 .cert-tile-desc {
-  margin-top: auto;
   font-size: var(--text-caption);
   line-height: var(--leading-relaxed);
   color: var(--color-text-muted);
 }
 /* About cert grid — real logo on a white tile (cards are dark) */
 .cert-card-logo {
+  /* The white chip + padding now live on .cert-shield; the logo just fits inside
+     it at a uniform max height. */
+  max-height: 40px;
   max-width: 100%;
+  width: auto;
   height: auto;
-  background: #fff;
-  border-radius: var(--radius-md);
-  padding: 8px 12px;
   object-fit: contain;
 }
 

@@ -38,15 +38,22 @@ const CERT_ICONS: Record<string, LucideIcon> = {
  * public/images/certifications/ and map them by cert name — one line each.
  */
 export const CERT_LOGOS: Record<string, string> = {
-  // 'BRCGS': '/images/certifications/brcgs.png',
-  // 'IFS Food': '/images/certifications/ifs.png',
-  // 'ISO 22000': '/images/certifications/iso-22000.png',
-  // 'GLOBALG.A.P': '/images/certifications/globalgap.png',
-  // 'SMETA': '/images/certifications/smeta.png',
-  // 'Halal': '/images/certifications/halal.png',
-  // 'NFSA': '/images/certifications/nfsa.png',
+  FDA: '/images/certifications/fda.png',
+  'GLOBALG.A.P': '/images/certifications/globalgap.png',
+  'IFS Food': '/images/certifications/ifs.png',
+  'ISO 22000': '/images/certifications/iso-22000.png',
+  HACCP: '/images/certifications/haccp.png',
+  GMP: '/images/certifications/gmp.png',
+  Halal: '/images/certifications/halal.png',
+  NFSA: '/images/certifications/nfsa.png',
+  SMETA: '/images/certifications/smeta.png',
+  // BRCGS art is the "Packaging Materials" scheme; the wall copy was relabelled to
+  // match (see content/pages/{home,about}.json).
+  BRCGS: '/images/certifications/brcgs.png',
+  // Left OFF — fall back to the lucide icon + text until resolved:
+  //   QCAP  — supplied art is a busy certificate scan, illegible at logo size.
+  //   CODEX — only art is the wide white-on-orange FAO/WHO banner; unreadable at logo size.
   // 'QCAP': '/images/certifications/qcap.png',
-  // 'FDA': '/images/certifications/fda.png',
   // 'CODEX': '/images/certifications/codex.png',
 };
 
