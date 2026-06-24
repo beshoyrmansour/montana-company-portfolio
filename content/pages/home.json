@@ -1,4 +1,28 @@
 {
+  "seo": {
+    "title": {
+      "en": "IQF Frozen Vegetables & Fruit Exporter",
+      "ar": "مصدّر خضراوات وفواكه مجمدة بتقنية IQF",
+      "fr": "Exportateur de légumes & fruits surgelés IQF",
+      "de": "IQF-Exporteur für Tiefkühlgemüse & -obst"
+    },
+    "description": {
+      "en": "Family-owned Egyptian IQF frozen vegetable & fruit exporter since 1985. Molokhia, okra, artichoke, strawberry — HACCP, ISO, BRC certified, shipped to 30+ countries. Get a quote.",
+      "ar": "مصدّر مصري عائلي للخضراوات والفواكه المجمدة بتقنية IQF منذ عام 1985. ملوخية وبامية وخرشوف وفراولة — معتمد HACCP وISO وBRC، ونشحن إلى أكثر من 30 دولة. اطلب عرض سعر.",
+      "fr": "Exportateur familial égyptien de légumes & fruits surgelés IQF depuis 1985. Molokheya, okra, artichaut, fraise — certifié HACCP, ISO, BRC, livré dans plus de 30 pays. Demandez un devis.",
+      "de": "Familiengeführter ägyptischer IQF-Exporteur für Tiefkühlgemüse & -obst seit 1985. Molokhia, Okra, Artischocke, Erdbeere — HACCP-, ISO-, BRC-zertifiziert, Lieferung in über 30 Länder. Jetzt anfragen."
+    },
+    "keywords": [
+      "frozen vegetables exporter",
+      "IQF frozen vegetables",
+      "frozen fruit supplier Egypt",
+      "frozen molokhia",
+      "frozen okra",
+      "Egyptian frozen food manufacturer",
+      "HACCP BRC certified frozen food",
+      "wholesale frozen vegetables"
+    ]
+  },
   "hero": {
     "eyebrow": {
       "en": "Nutritious and fresh for",

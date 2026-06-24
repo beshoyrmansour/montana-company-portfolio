@@ -82,5 +82,40 @@
     ],
     "packaging": ["/images/products/broccoli/montana-frozen-broccoli-pack.png"]
   },
+  "nutrition": {
+    "en": "Exceptionally rich in vitamin C, vitamin K, folate, fibre and antioxidants like sulforaphane, with very few calories. IQF-frozen straight from the field to preserve the deep green florets and full nutrition — no additives.",
+    "ar": "غني للغاية بفيتامين ج وفيتامين ك والفولات والألياف ومضادات الأكسدة مثل السلفورافان، مع سعرات قليلة جداً. يُجمَّد تجميداً فورياً مباشرة من الحقل للحفاظ على الزهيرات الخضراء الداكنة والقيمة الغذائية الكاملة — بلا إضافات.",
+    "fr": "Exceptionnellement riche en vitamine C, vitamine K, folate, fibres et antioxydants comme le sulforaphane, avec très peu de calories. Surgelé IQF dès le champ pour préserver les fleurettes vert foncé et tous les nutriments — sans additifs.",
+    "de": "Außergewöhnlich reich an Vitamin C, Vitamin K, Folat, Ballaststoffen und Antioxidantien wie Sulforaphan, bei sehr wenig Kalorien. IQF-gefroren direkt vom Feld, um die tiefgrünen Röschen und alle Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing florets ready to cook from frozen — no thawing. Steam, roast, stir-fry or boil for a few minutes, add to gratins, soups and pasta, or serve as a crisp-tender side. Choose short or long stems to suit your dish.",
+    "ar": "زهيرات سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِها بالبخار أو حمّصها أو اقليها سريعاً أو اسلقها لبضع دقائق، أو أضِفها إلى الجراتان والشوربات والمكرونة، أو قدّمها كطبق جانبي طري. اختر السيقان القصيرة أو الطويلة بما يناسب طبقك.",
+    "fr": "Fleurettes non agglomérées prêtes à cuire surgelées — sans décongélation. Cuisez à la vapeur, rôtissez, sautez ou faites bouillir quelques minutes, ajoutez aux gratins, soupes et pâtes, ou servez en accompagnement croquant. Choisissez les tiges courtes ou longues selon votre plat.",
+    "de": "Rieselfähige Röschen, direkt aus dem Gefrierfach kochfertig — kein Auftauen. Dämpfen, rösten, kurz anbraten oder wenige Minuten kochen, in Gratins, Suppen und Pasta geben oder als bissfeste Beilage servieren. Kurze oder lange Stiele passend zum Gericht wählen."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Broccoli — IQF Florets, Exporter",
+      "ar": "بروكلي مجمد — زهيرات IQF تصدير",
+      "fr": "Brocoli surgelé — fleurettes IQF",
+      "de": "Tiefkühl-Brokkoli — IQF-Röschen"
+    },
+    "description": {
+      "en": "Premium IQF frozen broccoli florets in short and long stems, deep green and additive-free, ready to cook from frozen. Family exporter since 1985, HACCP-ISO-BRC. Wholesale frozen broccoli from Egypt to 30+ countries.",
+      "ar": "زهيرات بروكلي مجمدة فاخرة بتقنية IQF بسيقان قصيرة وطويلة، خضراء داكنة وخالية من الإضافات، جاهزة للطهي من الفريزر. مُصدِّر عائلي منذ 1985 بشهادات HACCP وISO وBRC. بروكلي مجمد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Fleurettes de brocoli surgelées IQF premium, tiges courtes et longues, vert foncé et sans additifs, prêtes à cuire surgelées. Exportateur familial depuis 1985, HACCP-ISO-BRC. Brocoli surgelé en gros d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Brokkoli-Röschen mit kurzen und langen Stielen, tiefgrün und zusatzfrei, gefroren kochfertig. Familienexporteur seit 1985, HACCP-ISO-BRC. Brokkoli im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen broccoli",
+      "IQF broccoli exporter",
+      "frozen broccoli wholesale",
+      "Egyptian frozen broccoli supplier",
+      "frozen broccoli florets",
+      "IQF broccoli florets",
+      "bulk frozen broccoli"
+    ]
+  },
   "relatedSlugs": ["cauliflower", "mixed-vegetables"]
 }

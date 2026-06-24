@@ -44,24 +44,39 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "An excellent source of plant protein and dietary fibre, with folate, iron, magnesium and potassium — naturally low in fat. IQF-frozen at peak season, skinless and ready to use, with no additives.",
+    "ar": "مصدر ممتاز للبروتين النباتي والألياف الغذائية، مع الفولات والحديد والمغنيسيوم والبوتاسيوم — قليل الدهون بطبيعته. يُجمّد فورياً في ذروة الموسم، منزوع القشرة وجاهز للاستخدام، بلا إضافات.",
+    "fr": "Excellente source de protéines végétales et de fibres, avec folate, fer, magnésium et potassium — naturellement pauvre en matières grasses. Surgelées IQF en pleine saison, sans peau et prêtes à l'emploi, sans additifs.",
+    "de": "Hervorragende Quelle für pflanzliches Eiweiß und Ballaststoffe, mit Folat, Eisen, Magnesium und Kalium — von Natur aus fettarm. IQF-gefroren auf dem Saisonhöhepunkt, häutlos und gebrauchsfertig, ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Skinless and free-flowing, they cook straight from frozen — no soaking, no peeling. Simmer into ful medames and stews, blend as a falafel (ta'meya) base, or fold through rice and grain dishes. Soft, sweet and ready to cook.",
+    "ar": "منزوع القشرة وسهل الفرز، يُطهى مباشرة من الفريزر دون نقع أو تقشير. اطهِه في الفول المدمس واليخنات، أو اخلطه كقاعدة للطعمية، أو أضِفه إلى أطباق الأرز والحبوب. طريّ وحلو وجاهز للطهي.",
+    "fr": "Sans peau et non agglomérées, elles cuisent directement surgelées — sans trempage ni épluchage. Mijotez-les en ful medames et ragoûts, mixez-les comme base de falafel (ta'meya), ou ajoutez-les aux plats de riz et de céréales. Tendres, douces et prêtes à cuire.",
+    "de": "Häutlos und rieselfähig garen sie direkt aus dem Gefrierfach — kein Einweichen, kein Schälen. Für Ful Medames und Eintöpfe köcheln, als Falafel-Basis (Ta'meya) pürieren oder unter Reis- und Getreidegerichte heben. Weich, süß und kochfertig."
+  },
   "relatedSlugs": ["broad-beans", "peas"],
   "seo": {
     "title": {
-      "en": "Frozen Peeled Broad Beans — IQF | Montana",
-      "ar": "فول مقشّر مجمد - IQF | مونتانا",
-      "fr": "Fèves épluchées surgelées — IQF | Montana",
-      "de": "Tiefgekühlte geschälte Dicke Bohnen — IQF | Montana"
+      "en": "Frozen Peeled Broad Beans — Skinless Fava, IQF",
+      "ar": "فول مقشّر مجمد — منزوع القشرة، IQF",
+      "fr": "Fèves épluchées surgelées — sans peau, IQF",
+      "de": "Tiefkühl-Dicke-Bohnen — geschält, häutlos, IQF"
     },
     "description": {
-      "en": "Premium Egyptian frozen peeled broad beans (fava), skinless and IQF frozen. Cook from frozen, export packaging available.",
-      "ar": "فول مصري مقشّر مجمد فاخر، منزوع القشرة ومجمّد بطريقة IQF. يُطهى من الفريزر.",
-      "fr": "Fèves égyptiennes épluchées surgelées premium, sans peau et surgelées IQF.",
-      "de": "Premium-ägyptische tiefgekühlte geschälte Dicke Bohnen, häutlos und IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+      "en": "Premium skinless IQF frozen peeled broad beans (fava/ful), shelled and skinned at peak season. Cook from frozen, no soaking. Wholesale frozen fava beans exported from Egypt to 30+ countries.",
+      "ar": "فول مصري مقشّر مجمد فاخر منزوع القشرة بتقنية IQF، مقشّر في ذروة الموسم. يُطهى من الفريزر دون نقع. نصدّر الفول المجمّد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Fèves épluchées surgelées IQF premium sans peau (fava/ful), écossées en pleine saison. Cuisson surgelée, sans trempage. Fèves surgelées en gros exportées d'Égypte vers 30+ pays.",
+      "de": "Premium-häutlose Tiefkühl-Dicke-Bohnen (Fava/Ful), IQF-gefroren und auf dem Saisonhöhepunkt geschält. Gefroren kochfertig, kein Einweichen. Dicke Bohnen im Großhandel aus Ägypten in über 30 Länder."
     },
     "keywords": [
       "frozen peeled broad beans",
       "skinless fava beans",
-      "IQF broad beans",
+      "IQF broad beans exporter",
+      "frozen fava beans wholesale",
+      "Egyptian frozen ful beans",
+      "frozen foul beans supplier",
       "فول مقشر مجمد"
     ]
   }

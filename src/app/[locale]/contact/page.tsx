@@ -9,10 +9,18 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { getContactPage, getSite } from '@/lib/content';
 import { pick, type Locale } from '@/lib/i18n';
 import { isRouteHidden } from '@/lib/feature-flags';
-import { buildPageMetadata, faqPageJsonLd, localBusinessJsonLd } from '@/lib/seo';
+import { buildPageMetadata, faqPageJsonLd, localBusinessJsonLd, breadcrumbJsonLd } from '@/lib/seo';
 import type { ContactPage } from '@/schemas/page';
 
 export const dynamic = 'error';
+
+/** Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). */
+const BREADCRUMB_LABELS: Record<Locale, { home: string; contact: string }> = {
+  en: { home: 'Home', contact: 'Contact' },
+  ar: { home: 'الرئيسية', contact: 'اتصل بنا' },
+  fr: { home: 'Accueil', contact: 'Contact' },
+  de: { home: 'Startseite', contact: 'Kontakt' },
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: raw } = await params;
@@ -24,8 +32,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildPageMetadata({
     locale,
     path: '/contact',
-    title: pick(page.seo?.title, locale) ?? (heroTitle || 'Contact Montana'),
-    description: pick(page.seo?.description, locale) ?? pick(page.hero.subtitle, locale) ?? '',
+    title: pick(page.seo?.title, locale) ?? (heroTitle || 'Contact — Export Sales & Inquiries'),
+    description:
+      pick(page.seo?.description, locale) ??
+      pick(page.hero.subtitle, locale) ??
+      'Talk to Montana’s export desk about IQF frozen vegetables and fruits — request a quote, samples, or our catalog. Egyptian supplier since 1985, serving 30 countries.',
     keywords: page.seo?.keywords ?? [
       'contact Montana frozen foods',
       'export sales Egypt',
@@ -100,11 +111,18 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
     sendAnother: pick(page.form.sendAnother, locale) ?? '',
   };
 
+  const crumbs = BREADCRUMB_LABELS[locale] ?? BREADCRUMB_LABELS.en;
+  const breadcrumb = breadcrumbJsonLd([
+    { name: crumbs.home, href: `/${locale}` },
+    { name: crumbs.contact, href: `/${locale}/contact` },
+  ]);
+
   return (
     <>
       <JsonLd
         data={[
           localBusinessJsonLd(site, locale),
+          breadcrumb,
           ...(faqItems.length > 0 ? [faqPageJsonLd(faqItems)] : []),
         ]}
       />

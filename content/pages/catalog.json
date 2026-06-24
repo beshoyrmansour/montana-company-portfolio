@@ -1,4 +1,26 @@
 {
+  "seo": {
+    "title": {
+      "en": "Frozen Vegetable & Fruit Catalogue — IQF",
+      "ar": "كتالوج الخضراوات والفواكه المجمدة — IQF",
+      "fr": "Catalogue de légumes & fruits surgelés IQF",
+      "de": "Katalog für Tiefkühlgemüse & -obst — IQF"
+    },
+    "description": {
+      "en": "Browse Montana's full IQF frozen catalogue — vegetables, fruits, leafy greens and specialties. Multiple grades, weights and pack formats for wholesale and retail. Download the PDF or request specs.",
+      "ar": "تصفّح كتالوج مونتانا الكامل للمنتجات المجمدة بتقنية IQF — خضراوات وفواكه وأوراق خضراء ومنتجات متخصصة. فئات وأوزان وتعبئات متعددة للجملة والتجزئة. حمّل ملف PDF أو اطلب المواصفات.",
+      "fr": "Parcourez le catalogue surgelé IQF complet de Montana — légumes, fruits, légumes-feuilles et spécialités. Plusieurs grades, poids et conditionnements pour le gros et le détail. PDF ou specs sur demande.",
+      "de": "Entdecken Sie Montanas vollständigen IQF-Tiefkühlkatalog — Gemüse, Obst, Blattgemüse und Spezialitäten. Mehrere Güteklassen, Gewichte und Packformate für Groß- und Einzelhandel. PDF oder Specs anfragen."
+    },
+    "keywords": [
+      "frozen vegetables catalogue",
+      "IQF frozen fruit list",
+      "wholesale frozen food products",
+      "frozen leafy greens supplier",
+      "bulk frozen vegetables Egypt",
+      "frozen food product specifications"
+    ]
+  },
   "hero": {
     "enabled": true,
     "eyebrow": {

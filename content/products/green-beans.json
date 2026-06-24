@@ -62,5 +62,40 @@
     ],
     "packaging": ["/images/products/green-beans/montana-frozen-green-beans-pack.png"]
   },
+  "nutrition": {
+    "en": "Low in calories and high in dietary fibre, vitamin C, vitamin K and folate. IQF-frozen at peak freshness to preserve their vivid green colour, tender crunch and full nutrition — no additives.",
+    "ar": "منخفضة السعرات وغنية بالألياف الغذائية وفيتامين ج وفيتامين ك والفولات. تُجمَّد بتقنية الـ IQF في ذروة الطزاجة للحفاظ على لونها الأخضر الزاهي وقرمشتها الطرية وقيمتها الغذائية الكاملة — بلا إضافات.",
+    "fr": "Pauvres en calories et riches en fibres, vitamine C, vitamine K et folate. Surgelés IQF à pleine fraîcheur pour préserver leur couleur verte vive, leur croquant tendre et leurs nutriments — sans additifs.",
+    "de": "Kalorienarm und reich an Ballaststoffen, Vitamin C, Vitamin K und Folat. IQF-gefroren bei voller Frische, um ihr leuchtendes Grün, ihren zarten Biss und die vollen Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to cook straight from frozen — no thawing. Steam, boil, sauté or roast as a side, or add to stews, casseroles and stir-fries. Available whole or cut to suit your dish.",
+    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِها بالبخار أو السلق أو التشويح أو التحميص كطبق جانبي، أو أضِفها إلى اليخنات والأطباق المشوية والمقالي السريعة. متوفرة كاملة أو مقطعة لتناسب طبقك.",
+    "fr": "Non agglomérés et prêts à cuire directement surgelés — sans décongélation. À la vapeur, bouillis, sautés ou rôtis en accompagnement, ou ajoutés aux ragoûts, gratins et sautés. Disponibles entiers ou coupés selon votre plat.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Als Beilage dämpfen, kochen, braten oder rösten oder zu Eintöpfen, Aufläufen und Pfannengerichten geben. Ganz oder geschnitten passend zu Ihrem Gericht erhältlich."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Green Beans — IQF, Whole or Cut, Exporter",
+      "ar": "فاصوليا خضراء مجمدة — IQF كاملة أو مقطعة",
+      "fr": "Haricots verts surgelés — IQF, entiers ou coupés",
+      "de": "Tiefkühl-Bohnen — IQF, ganz oder geschnitten"
+    },
+    "description": {
+      "en": "Premium IQF frozen green beans, tender and vein-free 'Bronko' variety, whole or cut. Additive-free, ready to cook from frozen. Wholesale frozen green beans exported from Egypt to 30+ countries.",
+      "ar": "فاصوليا خضراء مجمدة فاخرة بتقنية IQF، صنف 'برونكو' الطري الخالي من العروق، كاملة أو مقطعة. خالية من الإضافات، جاهزة للطهي من الفريزر. نصدّر الفاصوليا الخضراء المجمدة بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Haricots verts surgelés IQF premium, variété 'Bronko' tendre et sans veines, entiers ou coupés. Sans additifs, prêts à cuire surgelés. Haricots verts surgelés en gros exportés d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Bohnen (IQF), zarte und fadenlose Sorte 'Bronko', ganz oder geschnitten. Zusatzfrei, gefroren kochfertig. Grüne Bohnen im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen green beans",
+      "IQF green beans exporter",
+      "frozen green beans wholesale",
+      "Egyptian frozen green beans supplier",
+      "frozen French beans",
+      "whole and cut frozen green beans",
+      "frozen haricot verts"
+    ]
+  },
   "relatedSlugs": ["broad-beans", "peas", "mixed-vegetables"]
 }

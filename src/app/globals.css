@@ -376,6 +376,64 @@ body {
 }
 
 /* ─────────────────────────────────────────────────────────────────
+ * Featured-products carousel — full-bleed scroll track.
+ *
+ * The row lives inside <Container> but breaks out to BOTH viewport edges
+ * (margin-inline: calc(50% - 50vw)) so cards scroll edge-to-edge. A leading
+ * inset equal to the container gutter rests the FIRST card under the section
+ * title, and the matching scroll-padding makes every snapped card land on
+ * that same line (so the first visible card never drifts after scrolling).
+ *
+ * --carousel-gutter reproduces <Container>'s distance from the viewport edge
+ * to its content edge (px-4 / lg:px-8 over max-w-7xl = 80rem). It's built from
+ * vw + rem only — NOT a percentage — because scroll-padding resolves % against
+ * the scrollport (here the full viewport), which would collapse to 0. The row
+ * still runs continuously off the right (small fixed trailing pad). RTL-safe
+ * via logical properties.
+ * ───────────────────────────────────────────────────────────────── */
+.product-carousel {
+  --carousel-gutter: max(1rem, calc((100vw - 80rem) / 2 + 1rem));
+  margin-inline: calc(50% - 50vw);
+  padding-inline-start: var(--carousel-gutter);
+  padding-inline-end: 1.5rem;
+  scroll-padding-inline-start: var(--carousel-gutter);
+}
+@media (min-width: 1024px) {
+  .product-carousel {
+    --carousel-gutter: max(2rem, calc((100vw - 80rem) / 2 + 2rem));
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────
+ * "View all" card — terminal tile in the featured-products carousel.
+ * A solid brand-green tile so it reads as a distinct call-to-action
+ * instead of an empty dashed card.
+ * ───────────────────────────────────────────────────────────────── */
+.view-all-card {
+  background: linear-gradient(
+    150deg,
+    var(--color-brand-primary) 0%,
+    var(--color-brand-primary-deep) 100%
+  );
+  color: #fff;
+  box-shadow: 0 14px 36px -16px rgba(20, 114, 57, 0.6);
+  min-height: 16rem;
+  transition:
+    transform var(--duration-base) var(--ease-smooth),
+    box-shadow var(--duration-base) var(--ease-smooth);
+}
+.view-all-card:hover {
+  box-shadow: 0 20px 48px -16px rgba(20, 114, 57, 0.7);
+}
+.view-all-card .view-all-icon {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+.view-all-card:hover .view-all-icon {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* ─────────────────────────────────────────────────────────────────
  * Editorial buttons
  * ───────────────────────────────────────────────────────────────── */
 
@@ -442,6 +500,38 @@ body {
   background: var(--color-surface);
   color: var(--color-text);
   box-shadow: var(--shadow-md);
+}
+
+/* ─────────────────────────────────────────────────────────────────
+ * Site header logo — bigger at the top of the page, smoothly shrinks
+ * to its resting size on scroll. The HeaderScroll client component
+ * toggles `.is-scrolled` on <html> past a small scroll threshold.
+ * ───────────────────────────────────────────────────────────────── */
+.site-logo {
+  /* Clean, contained logo — vertically centered in the header (the link sits in
+   * the row's items-center), slightly larger at the top of the page and shrinking
+   * subtly on scroll. Always fully inside the header — no overhang. */
+  height: 3rem; /* mobile / tablet — at top */
+  width: auto;
+  transition: height var(--duration-base) var(--ease-smooth);
+}
+@media (min-width: 1024px) {
+  .site-logo {
+    height: 4rem; /* desktop — at top */
+  }
+}
+html.is-scrolled .site-logo {
+  height: 2.5rem; /* mobile / tablet — scrolled (resting) */
+}
+@media (min-width: 1024px) {
+  html.is-scrolled .site-logo {
+    height: 3.25rem; /* desktop — scrolled (resting) */
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-logo {
+    transition: none;
+  }
 }
 
 /* ─────────────────────────────────────────────────────────────────
@@ -4004,6 +4094,7 @@ body {
   justify-content: center;
 }
 .hero-dot {
+  position: relative;
   inline-size: 28px;
   block-size: 4px;
   padding: 0;
@@ -4011,10 +4102,101 @@ body {
   border-radius: var(--radius-full);
   background: rgba(255, 255, 255, 0.4);
   cursor: pointer;
-  transition: background var(--duration-fast) var(--ease-out);
+  overflow: hidden;
+  transition:
+    background var(--duration-fast) var(--ease-out),
+    inline-size var(--duration-base) var(--ease-smooth);
 }
+.hero-dot:hover {
+  background: rgba(255, 255, 255, 0.65);
+}
+/* Active dot widens and a red fill sweeps left→right over the autoplay
+ * interval, so visitors can see how long until the slide advances.
+ * --hero-autoplay is set inline from the component's AUTOPLAY_MS. */
 .hero-dot.is-active {
-  background: var(--color-brand-secondary); /* red active dot */
+  inline-size: 44px;
+  background: rgba(255, 255, 255, 0.35);
+}
+.hero-dot.is-active::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--color-brand-secondary); /* red progress fill */
+  transform-origin: left center;
+  animation: heroDotProgress var(--hero-autoplay, 6000ms) linear forwards;
+}
+:root[dir='rtl'] .hero-dot.is-active::after {
+  transform-origin: right center;
+}
+/* Autoplay pauses on hover/focus — freeze the progress fill to match. */
+.hero-carousel.is-paused .hero-dot.is-active::after {
+  animation-play-state: paused;
+}
+@keyframes heroDotProgress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-dot.is-active::after {
+    animation: none;
+    transform: scaleX(1);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────
+ * Hero carousel — mobile tuning (< md)
+ *   • CTAs go full-width and stack with a comfortable gap so the two
+ *     buttons read as clear, tappable targets edge-to-edge.
+ *   • Prev/next arrows are pinned just above the dots in the bottom
+ *     corners (and shrunk) so they no longer overlap the headline,
+ *     subhead, or the full-width CTAs.
+ *   • Slightly looser block padding so the copy breathes off the foot.
+ * ───────────────────────────────────────────────────────────────── */
+@media (max-width: 767px) {
+  .hero-carousel-inner {
+    padding-block: var(--space-12) var(--space-24);
+  }
+
+  .hero-carousel .hero-subtitle {
+    margin-bottom: 0;
+  }
+
+  /* Full-width, vertically stacked CTAs */
+  .hero-carousel .hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-4);
+    width: 100%;
+  }
+  .hero-carousel .hero-ctas > .btn-editorial {
+    width: 100%;
+    padding-inline: var(--space-5);
+  }
+
+  /* Move the nav arrows down into the bottom corners, above the dots,
+   * and shrink them so they clear the copy + buttons entirely. */
+  .hero-carousel .hero-nav {
+    top: auto;
+    transform: none;
+    inset-block-end: var(--space-12);
+    inline-size: 38px;
+    block-size: 38px;
+  }
+  .hero-carousel .hero-nav.prev {
+    inset-inline-start: var(--gutter-mobile);
+  }
+  .hero-carousel .hero-nav.next {
+    inset-inline-end: var(--gutter-mobile);
+  }
+
+  .hero-carousel .hero-dots {
+    inset-block-end: var(--space-5);
+  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -4420,4 +4602,207 @@ body {
 /* Product-card eyebrow rule → red (matches the global eyebrow accent) */
 .product-eyebrow-editorial::before {
   background: var(--color-brand-secondary);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+ * MOBILE SPACING PASS (< md)
+ * Normalises horizontal gutters and vertical rhythm on small screens so
+ * content breathes off the edges and sections don't feel cramped. Scoped
+ * to mobile only — desktop spacing is untouched. RTL-safe (logical props).
+ * ═══════════════════════════════════════════════════════════════════ */
+@media (max-width: 767px) {
+  /* A touch more side gutter so cards/copy aren't pinned to the edge. */
+  .container-editorial {
+    padding-inline: var(--space-6);
+  }
+
+  /* Section heads carry a lot of bottom space on desktop; pull it in so the
+   * heading and the content below stay visually connected on mobile. */
+  .section-head,
+  .section-head-row {
+    margin-bottom: var(--space-10);
+  }
+
+  /* Shared page hero (markets/about/etc.) — the desktop top pad is 8rem,
+   * which dwarfs the viewport on a phone. Give it a balanced mobile rhythm. */
+  .markets-hero {
+    padding-block: var(--space-16) var(--space-12);
+  }
+  .markets-hero-title,
+  .markets-hero-inner .eyebrow {
+    margin-bottom: var(--space-6);
+  }
+  .markets-hero-sub {
+    margin-bottom: var(--space-10);
+  }
+  .markets-hero-stats {
+    gap: var(--space-8) var(--space-4);
+    padding-top: var(--space-8);
+  }
+
+  /* Home CTA strip — match the hero: stacked, full-width buttons for a
+   * consistent, thumb-friendly mobile button language. */
+  .cta-strip-editorial .cta-buttons-editorial {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cta-strip-editorial .cta-buttons-editorial > .btn-editorial {
+    width: 100%;
+    max-width: 22rem; /* keep CTAs a tidy, tappable size — not edge-to-edge bars */
+    flex: 0 0 auto;
+  }
+
+  /* News featured "Read more" sits flush-start on desktop; let it span the
+   * card width on mobile so it reads as a primary action. */
+  .news-featured-body .btn-editorial {
+    align-self: stretch !important;
+    width: 100%;
+  }
+
+  /* Slightly looser gaps inside dense card grids so tiles don't touch. */
+  .heritage-stats {
+    gap: var(--space-6) var(--space-4);
+  }
+}
+
+/* ────────────────────────────────────────────────────────────────
+ * Process showcase — overlapping, parallax "field to freezer" steps.
+ * Base = clean stacked column (works everywhere). Desktop adds a zig-zag
+ * overlap; scroll-driven parallax + reveal enhance it where the browser
+ * supports animation-timeline (progressive, no JS). Respects reduced motion.
+ * ──────────────────────────────────────────────────────────────── */
+.process-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  margin-top: var(--space-10);
+}
+.process-showcase .process-step {
+  display: grid;
+  gap: var(--space-4);
+  position: relative;
+  z-index: 1;
+}
+.process-showcase .process-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-surface);
+  box-shadow: 0 22px 48px -20px rgba(20, 30, 20, 0.35);
+}
+.process-showcase .process-media > img {
+  object-fit: cover;
+}
+.process-showcase .process-media .process-num {
+  position: absolute;
+  inset-block-start: var(--space-3);
+  inset-inline-start: var(--space-3);
+  width: 44px;
+  height: 44px;
+  font-size: var(--text-heading-2);
+  background: color-mix(in srgb, var(--color-surface) 88%, transparent);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  margin: 0;
+}
+.process-showcase .process-caption h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-heading-2);
+  letter-spacing: var(--tracking-tight);
+}
+.process-showcase .process-caption p {
+  margin-top: var(--space-2);
+  font-size: var(--text-body-sm);
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  max-width: 44ch;
+}
+
+/* Desktop: zig-zag overlap */
+@media (min-width: 1024px) {
+  .process-showcase.has-media {
+    max-width: 1060px;
+    margin-inline: auto;
+    gap: 0;
+  }
+  .process-showcase.has-media .process-step {
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    gap: var(--space-8);
+    width: 86%;
+    margin-top: -4.5rem;
+  }
+  .process-showcase.has-media .process-step:first-child {
+    margin-top: 0;
+  }
+  .process-showcase.has-media .process-step:nth-child(even) {
+    margin-inline-start: auto;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .process-showcase.has-media .process-step:nth-child(even) .process-media {
+    order: 2;
+  }
+  .process-showcase.has-media .process-step:nth-child(even) .process-caption {
+    order: 1;
+    text-align: end;
+  }
+  .process-showcase.has-media .process-caption p {
+    margin-inline-start: auto;
+  }
+  .process-showcase.has-media .process-step:nth-child(odd) .process-caption p {
+    margin-inline-start: 0;
+  }
+  .process-showcase.has-media .process-media {
+    aspect-ratio: 16 / 11;
+  }
+}
+
+/* Scroll-driven parallax + reveal — progressive enhancement */
+@supports (animation-timeline: view()) {
+  @media (min-width: 1024px) {
+    .process-showcase.has-media .process-media > img {
+      transform: scale(1.18);
+      animation: process-parallax linear both;
+      animation-timeline: view();
+      animation-range: cover;
+      will-change: transform;
+    }
+  }
+  .process-showcase .process-step {
+    animation: process-rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 72%;
+    will-change: transform, opacity;
+  }
+}
+
+@keyframes process-parallax {
+  from {
+    transform: scale(1.18) translateY(-7%);
+  }
+  to {
+    transform: scale(1.18) translateY(7%);
+  }
+}
+@keyframes process-rise {
+  from {
+    opacity: 0;
+    transform: translateY(46px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .process-showcase .process-step,
+  .process-showcase.has-media .process-media > img {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
 }

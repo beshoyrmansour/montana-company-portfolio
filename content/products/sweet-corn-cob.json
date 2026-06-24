@@ -44,20 +44,39 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "Naturally sweet and a good source of dietary fibre, vitamin C, folate and B-vitamins, with no added sugar. Husked and lightly blanched at peak sweetness, then IQF-frozen to lock in golden colour, juicy bite and full nutrition — no additives.",
+    "ar": "حلوة المذاق طبيعياً ومصدر جيد للألياف الغذائية وفيتامين ج والفولات وفيتامينات ب، دون سكر مضاف. تُقشَّر وتُسلق سلقاً خفيفاً في ذروة حلاوتها، ثم تُجمّد تجميداً فورياً للحفاظ على اللون الذهبي والطراوة والقيمة الغذائية الكاملة — بلا إضافات.",
+    "fr": "Naturellement sucré et bonne source de fibres, vitamine C, folate et vitamines B, sans sucre ajouté. Épluché et légèrement blanchi à pleine maturité, puis surgelé IQF pour préserver couleur dorée, tendreté et nutriments — sans additifs.",
+    "de": "Von Natur aus süß und eine gute Quelle für Ballaststoffe, Vitamin C, Folat und B-Vitamine, ohne Zuckerzusatz. Entblättert und auf dem Süßehöhepunkt kurz blanchiert, dann IQF-gefroren, um goldene Farbe, saftigen Biss und Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Cook straight from frozen — no shucking, no thawing. Boil for a few minutes, or grill, roast or microwave the cobs until golden and tender, then finish with butter, salt or chilli-lime for corn on the cob in minutes.",
+    "ar": "تُطهى مباشرة من الفريزر دون تقشير أو تذويب. اسلقها لبضع دقائق، أو اشوها أو حمّصها أو سخّنها في الميكروويف حتى تذهب وتطرى، ثم قدّمها بالزبدة أو الملح أو الليمون والفلفل لكيزان ذرة جاهزة في دقائق.",
+    "fr": "Cuisez directement surgelé — sans éplucher ni décongeler. Faites bouillir quelques minutes, ou grillez, rôtissez ou passez au micro-ondes jusqu'à ce que les épis soient dorés et tendres, puis assaisonnez de beurre, sel ou citron-piment.",
+    "de": "Direkt aus dem Gefrierfach garen — kein Entblättern, kein Auftauen. Wenige Minuten kochen, oder grillen, rösten oder in der Mikrowelle erhitzen, bis die Kolben goldig und zart sind, dann mit Butter, Salz oder Chili-Limette verfeinern."
+  },
   "relatedSlugs": ["sweet-corn", "peas-and-carrots"],
   "seo": {
     "title": {
-      "en": "Frozen Sweet Corn on the Cob — IQF | Montana",
-      "ar": "ذرة حلوة على القولح مجمدة - IQF | مونتانا",
-      "fr": "Maïs doux en épi surgelé — IQF | Montana",
-      "de": "Tiefgekühlter Zuckermais am Kolben — IQF | Montana"
+      "en": "Frozen Corn on the Cob — IQF Sweet Corn, Exporter",
+      "ar": "ذرة حلوة على القولح مجمدة — IQF للتصدير",
+      "fr": "Maïs doux en épi surgelé — IQF, exportateur",
+      "de": "Tiefkühl-Maiskolben — IQF Zuckermais, Exporteur"
     },
     "description": {
-      "en": "Premium Egyptian frozen sweet-corn cobs, husked, blanched and IQF frozen. Cook from frozen, export packaging available.",
-      "ar": "كيزان ذرة حلوة مصرية مجمدة فاخرة، مقشّرة ومسلوقة ومجمّدة بطريقة IQF. تُطهى من الفريزر.",
-      "fr": "Épis de maïs doux égyptiens surgelés premium, épluchés, blanchis et surgelés IQF.",
-      "de": "Premium-ägyptische tiefgekühlte Zuckermaiskolben, entblättert, blanchiert und IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+      "en": "Premium IQF frozen corn on the cob — husked, blanched and additive-free, ready to boil or grill from frozen. Wholesale frozen sweet-corn cobs exported from Egypt to 30+ countries.",
+      "ar": "كيزان ذرة حلوة مجمدة فاخرة بتقنية IQF — مقشّرة ومسلوقة وخالية من الإضافات، جاهزة للسلق أو الشوي من الفريزر. نصدّر كيزان الذرة المجمدة بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Épis de maïs doux surgelés IQF premium — épluchés, blanchis et sans additifs, prêts à bouillir ou griller surgelés. Maïs en épi surgelé en gros exporté d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Maiskolben (IQF) — entblättert, blanchiert und zusatzfrei, gefroren koch- oder grillfertig. Zuckermaiskolben im Großhandel aus Ägypten in über 30 Länder."
     },
-    "keywords": ["frozen corn on the cob", "IQF sweet corn cob", "corn cob", "ذرة على القولح مجمدة"]
+    "keywords": [
+      "frozen corn on the cob",
+      "frozen sweet corn cob",
+      "IQF corn cob exporter",
+      "frozen corn cobs wholesale",
+      "Egyptian frozen corn cob supplier",
+      "frozen mini corn cob"
+    ]
   }
 }

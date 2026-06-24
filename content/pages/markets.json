@@ -1,4 +1,26 @@
 {
+  "seo": {
+    "title": {
+      "en": "Global Markets — Frozen Food Export to 30+ Countries",
+      "ar": "أسواقنا العالمية — تصدير الأغذية المجمدة لأكثر من 30 دولة",
+      "fr": "Marchés mondiaux — Export de surgelés vers 30+ pays",
+      "de": "Globale Märkte — Tiefkühl-Export in über 30 Länder"
+    },
+    "description": {
+      "en": "Montana exports IQF frozen vegetables & fruit from Egypt to 30+ countries across five continents — pre-cleared documents, unbroken cold chain and lead times we honour. Find your region.",
+      "ar": "تصدّر مونتانا الخضراوات والفواكه المجمدة بتقنية IQF من مصر إلى أكثر من 30 دولة عبر خمس قارات — مستندات معدّة سلفاً، وسلسلة تبريد دون انقطاع، ومواعيد نلتزم بها. اعثر على منطقتك.",
+      "fr": "Montana exporte des légumes & fruits surgelés IQF d'Égypte vers plus de 30 pays sur cinq continents — documents pré-dédouanés, chaîne du froid ininterrompue et délais respectés. Trouvez votre région.",
+      "de": "Montana exportiert IQF-Tiefkühlgemüse & -obst aus Ägypten in über 30 Länder auf fünf Kontinenten — vorab freigegebene Dokumente, ununterbrochene Kühlkette und eingehaltene Lieferzeiten. Region finden."
+    },
+    "keywords": [
+      "frozen food export Egypt",
+      "frozen vegetables exporter worldwide",
+      "IQF frozen food distributor",
+      "cold chain logistics frozen food",
+      "frozen food import supplier",
+      "Egyptian frozen produce export"
+    ]
+  },
   "hero": {
     "enabled": true,
     "eyebrow": {

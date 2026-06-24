@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { Globe, Phone, Mail, ChevronRight } from 'lucide-react';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { CloseMenusOnNavigate } from './CloseMenusOnNavigate';
+import { HeaderScroll } from './HeaderScroll';
 import { Container } from './Container';
 import { Logo } from './Logo';
 import { cn } from '@/lib/cn';
@@ -58,6 +59,8 @@ export async function Header({ locale, pathname = '' }: HeaderProps) {
     >
       {/* Closes the <details> menus after a client-side route change */}
       <CloseMenusOnNavigate />
+      {/* Shrinks the logo once the page is scrolled */}
+      <HeaderScroll />
 
       {/* Skip link */}
       <a
@@ -70,7 +73,7 @@ export async function Header({ locale, pathname = '' }: HeaderProps) {
       <Container>
         <div className="flex h-16 items-center justify-between gap-4 lg:h-20 lg:gap-8">
           <Link href={`/${locale}`} aria-label={t('homeAriaLabel')} className="shrink-0">
-            <Logo className="h-10 w-auto lg:h-14" decorative />
+            <Logo className="site-logo" decorative />
           </Link>
 
           {/* Primary nav (desktop) — animated underline matches the design */}

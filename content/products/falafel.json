@@ -61,6 +61,18 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "A wholesome source of plant protein and dietary fibre from broad beans (ful), with fresh herbs and spices. Half-fried and flash-frozen to lock in flavour — no artificial preservatives. A satisfying vegan and vegetarian option.",
+    "ar": "مصدر صحي للبروتين النباتي والألياف الغذائية من الفول، مع أعشاب طازجة وتوابل. تُقلى نصف قلية وتُجمَّد سريعاً للحفاظ على النكهة — بلا مواد حافظة صناعية. خيار نباتي مُشبِع.",
+    "fr": "Une source saine de protéines végétales et de fibres issues des fèves (ful), avec herbes fraîches et épices. À demi-frite puis surgelée pour préserver la saveur — sans conservateurs artificiels. Une option végane et végétarienne rassasiante.",
+    "de": "Eine vollwertige Quelle für pflanzliches Eiweiß und Ballaststoffe aus dicken Bohnen (Ful), mit frischen Kräutern und Gewürzen. Halb frittiert und schockgefroren, um den Geschmack zu bewahren — ohne künstliche Konservierungsstoffe. Eine sättigende vegane und vegetarische Option."
+  },
+  "preparation": {
+    "en": "Cook straight from frozen — no thawing. Deep-fry or shallow-fry for 2–3 minutes, or bake in the oven, until the shell is golden and crisp and the centre is hot. Serve in pita, with tahini and salads, or as taameya the Egyptian way.",
+    "ar": "تُطهى مباشرة من الفريزر دون تذويب. اقلِها في زيت غزير أو قليل لمدة ٢–٣ دقائق، أو اخبزها في الفرن، حتى تصبح القشرة ذهبية مقرمشة والقلب ساخناً. قدّمها في الخبز مع الطحينة والسلطات، أو كطعمية على الطريقة المصرية.",
+    "fr": "Cuisson directe surgelée — sans décongélation. Faites frire 2–3 minutes en friture ou à la poêle, ou enfournez, jusqu'à ce que la coque soit dorée et croustillante et le cœur bien chaud. Servez en pita, avec tahini et salades, ou en taameya à l'égyptienne.",
+    "de": "Direkt aus dem Gefrierfach zubereiten — kein Auftauen. 2–3 Minuten frittieren oder in der Pfanne backen oder im Ofen backen, bis die Hülle goldbraun und knusprig und der Kern heiß ist. In Pita mit Tahini und Salaten servieren oder als Taameya nach ägyptischer Art."
+  },
   "relatedSlugs": ["broad-beans", "molokhia"],
   "seo": {
     "title": {

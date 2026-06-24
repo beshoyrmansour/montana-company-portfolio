@@ -43,6 +43,18 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "An aromatic herb naturally low in calories and rich in vitamin K, vitamin C and antioxidants. Flash-frozen within hours of harvest to lock in fresh aroma, vivid green colour and nutrients — no additives.",
+    "ar": "عشب عطري منخفض السعرات بطبيعته وغني بفيتامين ك وفيتامين ج ومضادات الأكسدة. يُجمَّد سريعاً خلال ساعات من الحصاد للحفاظ على النكهة الطازجة واللون الأخضر الزاهي والقيمة الغذائية — بلا إضافات.",
+    "fr": "Une herbe aromatique naturellement pauvre en calories et riche en vitamine K, vitamine C et antioxydants. Surgelée en quelques heures après la récolte pour préserver arôme, couleur verte vive et nutriments — sans additifs.",
+    "de": "Ein aromatisches Kraut, von Natur aus kalorienarm und reich an Vitamin K, Vitamin C und Antioxidantien. Innerhalb von Stunden nach der Ernte schockgefroren, um frisches Aroma, leuchtendes Grün und Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to use straight from frozen — no thawing. Stir into curries, soups, stews, salsas and marinades, or scatter over finished dishes for fresh aroma. Add near the end of cooking to keep its bright flavour.",
+    "ar": "سهلة الفرز وجاهزة للاستخدام مباشرة من الفريزر دون تذويب. أضِفها إلى الكاري والشوربات والطواجن والصلصات والتتبيلات، أو رشّها على الأطباق الجاهزة لنكهة طازجة. أضِفها قرب نهاية الطهي للحفاظ على نكهتها الزاهية.",
+    "fr": "Non agglomérée et prête à l'emploi directement surgelée — sans décongélation. Incorporez-la aux currys, soupes, ragoûts, salsas et marinades, ou parsemez-en vos plats pour un arôme frais. Ajoutez-la en fin de cuisson pour préserver sa saveur.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach verwendbar — kein Auftauen. Rühren Sie ihn in Currys, Suppen, Eintöpfe, Salsas und Marinaden oder streuen Sie ihn über fertige Gerichte für frisches Aroma. Erst gegen Ende des Garens zugeben, um den Geschmack zu erhalten."
+  },
   "relatedSlugs": ["molokhia", "spinach"],
   "seo": {
     "title": {

@@ -6,7 +6,15 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { getAllNewsArticles, getNewsPage } from '@/lib/content';
 import { pick, type Locale } from '@/lib/i18n';
 import { isRouteHidden } from '@/lib/feature-flags';
-import { buildPageMetadata, itemListJsonLd, BASE_URL } from '@/lib/seo';
+import { buildPageMetadata, itemListJsonLd, breadcrumbJsonLd, BASE_URL } from '@/lib/seo';
+
+/** Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). */
+const BREADCRUMB_LABELS: Record<Locale, { home: string; news: string }> = {
+  en: { home: 'Home', news: 'News' },
+  ar: { home: 'الرئيسية', news: 'الأخبار' },
+  fr: { home: 'Accueil', news: 'Actualités' },
+  de: { home: 'Startseite', news: 'Aktuelles' },
+};
 
 export const dynamic = 'error';
 
@@ -20,8 +28,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildPageMetadata({
     locale,
     path: '/news',
-    title: pick(page.seo?.title, locale) ?? (heroTitle || 'News'),
-    description: pick(page.seo?.description, locale) ?? pick(page.hero.subtitle, locale) ?? '',
+    title: pick(page.seo?.title, locale) ?? (heroTitle || 'News & Insights — Frozen Food Export'),
+    description:
+      pick(page.seo?.description, locale) ??
+      pick(page.hero.subtitle, locale) ??
+      'News and insights from Montana Frozen Foods — IQF innovation, harvest seasons, certifications, and Egyptian frozen-vegetable export updates since 1985.',
     keywords: page.seo?.keywords ?? [
       'Montana news',
       'frozen food industry news',
@@ -77,9 +88,15 @@ export default async function NewsPage({ params }: { params: Promise<{ locale: s
         )
       : null;
 
+  const crumbs = BREADCRUMB_LABELS[locale] ?? BREADCRUMB_LABELS.en;
+  const breadcrumb = breadcrumbJsonLd([
+    { name: crumbs.home, href: `/${locale}` },
+    { name: crumbs.news, href: `/${locale}/news` },
+  ]);
+
   return (
     <>
-      {itemList && <JsonLd data={itemList} />}
+      <JsonLd data={itemList ? [breadcrumb, itemList] : breadcrumb} />
       {/* ════════════════════════════════════════════════════════ HERO */}
       {page.hero.enabled && (
         <section className="markets-hero">

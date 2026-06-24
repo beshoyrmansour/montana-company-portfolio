@@ -34,12 +34,12 @@ export async function generateMetadata({
   const product = await getProduct(slug);
   if (!product) return {};
   const name = pick(product.name, locale) ?? product.slug;
-  const seoTitle = pick(product.seo?.title, locale) ?? `${name} — Frozen, IQF`;
+  const seoTitle = pick(product.seo?.title, locale) ?? `Frozen ${name} — IQF, Export Grade`;
   const seoDescription =
-    pick(product.seo?.description, locale) ??
-    pick(product.shortDescription, locale) ??
-    pick(product.description, locale) ??
-    '';
+    pick(product.seo?.description, locale) ||
+    pick(product.shortDescription, locale) ||
+    pick(product.description, locale) ||
+    `Premium IQF frozen ${name.toLowerCase()} from Montana — Egyptian export quality since 1985, HACCP-ISO-BRC certified. Request packing options, MOQ and a quote.`;
   return buildPageMetadata({
     locale,
     path: `/catalog/${product.slug}`,
@@ -222,6 +222,33 @@ export default async function ProductDetailPage({
                 perCarton: tProduct('packagingPerCarton'),
               }}
             />
+          </Container>
+        </Section>
+      )}
+
+      {/* ─── NUTRITION & PREPARATION ─── */}
+      {(pick(product.nutrition, locale as Locale) ||
+        pick(product.preparation, locale as Locale)) && (
+        <Section spacing="md">
+          <Container>
+            <div className="grid gap-10 md:grid-cols-2">
+              {pick(product.nutrition, locale as Locale) && (
+                <div>
+                  <h2 className="text-heading-3 mb-3 font-bold">{tProduct('nutrition')}</h2>
+                  <p className="text-body text-text-muted leading-relaxed">
+                    {pick(product.nutrition, locale as Locale)}
+                  </p>
+                </div>
+              )}
+              {pick(product.preparation, locale as Locale) && (
+                <div>
+                  <h2 className="text-heading-3 mb-3 font-bold">{tProduct('preparation')}</h2>
+                  <p className="text-body text-text-muted leading-relaxed">
+                    {pick(product.preparation, locale as Locale)}
+                  </p>
+                </div>
+              )}
+            </div>
           </Container>
         </Section>
       )}

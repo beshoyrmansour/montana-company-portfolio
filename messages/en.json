@@ -79,6 +79,8 @@
     "inquire": "Request product information",
     "emailDirectly": "Email us directly",
     "realSample": "Real product sample",
+    "nutrition": "Nutrition",
+    "preparation": "Preparation",
     "breadcrumb": {
       "home": "Home",
       "catalog": "Catalog"

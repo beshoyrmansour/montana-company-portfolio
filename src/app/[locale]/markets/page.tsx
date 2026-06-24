@@ -11,10 +11,19 @@ import { pick, getDir, type Locale } from '@/lib/i18n';
 import { getActiveTheme } from '@/lib/theme';
 import { isRouteHidden } from '@/lib/feature-flags';
 import { REGION_META, COUNTRY_META, regionColor } from '@/lib/markets-meta';
-import { buildPageMetadata } from '@/lib/seo';
+import { buildPageMetadata, breadcrumbJsonLd } from '@/lib/seo';
+import { JsonLd } from '@/components/seo/JsonLd';
 import type { MarketsPage } from '@/schemas/page';
 
 export const dynamic = 'error';
+
+/** Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). */
+const BREADCRUMB_LABELS: Record<Locale, { home: string; markets: string }> = {
+  en: { home: 'Home', markets: 'Markets' },
+  ar: { home: 'الرئيسية', markets: 'الأسواق' },
+  fr: { home: 'Accueil', markets: 'Marchés' },
+  de: { home: 'Startseite', markets: 'Märkte' },
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: raw } = await params;
@@ -29,8 +38,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildPageMetadata({
     locale,
     path: '/markets',
-    title: pick(page.seo?.title, locale) ?? (heroTitle || 'Global Markets'),
-    description: pick(page.seo?.description, locale) ?? body,
+    title: pick(page.seo?.title, locale) ?? (heroTitle || 'Global Markets — 30 Countries Served'),
+    description:
+      pick(page.seo?.description, locale) ||
+      body ||
+      `Montana ships IQF frozen vegetables and fruits to ${total} countries across 5 continents — reliable cold-chain export from Egypt since 1985. See where we deliver.`,
     keywords: page.seo?.keywords ?? [
       'frozen food markets',
       'frozen vegetables export',
@@ -84,8 +96,15 @@ export default async function MarketsPage({ params }: { params: Promise<{ locale
   const interpolate = (template: string | undefined, vars: Record<string, string>) =>
     (template ?? '').replace(/\$\{(\w+)\}/g, (_m, k) => vars[k] ?? '');
 
+  const crumbs = BREADCRUMB_LABELS[locale] ?? BREADCRUMB_LABELS.en;
+  const breadcrumb = breadcrumbJsonLd([
+    { name: crumbs.home, href: `/${locale}` },
+    { name: crumbs.markets, href: `/${locale}/markets` },
+  ]);
+
   return (
     <>
+      <JsonLd data={breadcrumb} />
       {/* ════════════════════════════════════════════════════════ HERO */}
       {page.hero.enabled && (
         <section className="markets-hero">
@@ -145,7 +164,12 @@ export default async function MarketsPage({ params }: { params: Promise<{ locale
                 {pick(page.atlas.hint, locale)}
               </p>
             </div>
-            <TradeAtlasLazy regions={markets.regions} locale={locale} labels={atlasLabels} dir={dir} />
+            <TradeAtlasLazy
+              regions={markets.regions}
+              locale={locale}
+              labels={atlasLabels}
+              dir={dir}
+            />
           </Container>
         </section>
       )}

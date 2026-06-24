@@ -43,6 +43,41 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "A wholesome starchy root rich in complex carbohydrates, dietary fibre, potassium, vitamin C and vitamin E. Upper-Egyptian taro IQF-frozen at peak quality to preserve its smooth texture and nutrition — no additives.",
+    "ar": "جذر نشوي مغذٍّ غني بالكربوهيدرات المركبة والألياف الغذائية والبوتاسيوم وفيتامين ج وفيتامين هـ. قلقاس صعيدي يُجمَّد تجميداً فورياً في ذروة جودته للحفاظ على ملمسه الناعم وقيمته الغذائية — بلا إضافات.",
+    "fr": "Une racine féculente nourrissante, riche en glucides complexes, fibres, potassium, vitamine C et vitamine E. Taro de Haute-Égypte surgelé IQF à pleine qualité pour préserver sa texture lisse et ses nutriments — sans additifs.",
+    "de": "Eine nahrhafte stärkehaltige Wurzel, reich an komplexen Kohlenhydraten, Ballaststoffen, Kalium, Vitamin C und Vitamin E. Oberägyptische Kolokasie, IQF-gefroren bei höchster Qualität, um die feine Textur und die Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Ready to cook from frozen — no thawing. Simmer in the Egyptian classic qolqas with chard or coriander broth, add to stews, or boil and fry. Each pack includes the green leaves traditionally cooked alongside it.",
+    "ar": "جاهز للطهي مباشرة من الفريزر دون تذويب. اطهِه في القلقاس المصري الكلاسيكي مع السلق أو شوربة الكزبرة، أو أضِفه إلى اليخنات، أو اسلقه واقلِه. كل عبوة مزودة بالأوراق الخضراء التي تُطهى معه تقليدياً.",
+    "fr": "Prêt à cuire surgelé — sans décongélation. Mijotez-le dans le qolqas égyptien classique avec de la blette ou un bouillon de coriandre, ajoutez-le aux ragoûts, ou faites-le bouillir puis frire. Chaque sachet contient les feuilles vertes cuisinées traditionnellement avec lui.",
+    "de": "Direkt aus dem Gefrierfach kochfertig — kein Auftauen. Im klassischen ägyptischen Qolqas mit Mangold oder Koriandersud köcheln, in Eintöpfe geben oder kochen und braten. Jeder Packung liegen die traditionell mitgekochten grünen Blätter bei."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Colcasia (Taro) — IQF Exporter",
+      "ar": "قلقاس مجمد — IQF تصدير من مصر",
+      "fr": "Colocasia surgelé (Taro) — IQF",
+      "de": "Tiefkühl-Kolokasie (Taro) — IQF"
+    },
+    "description": {
+      "en": "Premium IQF frozen colcasia (taro), large Upper-Egyptian roots with green leaves included, additive-free and ready to cook from frozen. Family exporter since 1985, HACCP-ISO-BRC. Wholesale frozen taro from Egypt to 30+ countries.",
+      "ar": "قلقاس مجمد فاخر بتقنية IQF، جذور صعيدية كبيرة مع الأوراق الخضراء، خالٍ من الإضافات وجاهز للطهي من الفريزر. مُصدِّر عائلي منذ 1985 بشهادات HACCP وISO وBRC. قلقاس مجمد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Colocasia surgelé IQF premium (taro), grandes racines de Haute-Égypte avec feuilles vertes incluses, sans additifs et prêt à cuire surgelé. Exportateur familial depuis 1985, HACCP-ISO-BRC. Taro surgelé en gros d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Kolokasie (Taro), große oberägyptische Wurzeln samt grünen Blättern, zusatzfrei und gefroren kochfertig. Familienexporteur seit 1985, HACCP-ISO-BRC. Taro im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen colcasia",
+      "IQF colcasia exporter",
+      "frozen colcasia wholesale",
+      "Egyptian frozen colcasia supplier",
+      "frozen taro",
+      "frozen colocasia",
+      "frozen qolqas"
+    ]
+  },
   "relatedSlugs": ["molokhia", "okra"],
   "varieties": []
 }

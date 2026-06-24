@@ -87,5 +87,39 @@
     ],
     "packaging": ["/images/products/mixed-vegetables/montana-frozen-mixed-vegetables-pack.png"]
   },
+  "nutrition": {
+    "en": "A colourful blend that delivers fibre, vitamins A and C, folate and minerals from several vegetables in one pack. Each component is IQF-frozen at peak nutrition — no additives, no preservatives.",
+    "ar": "خليط ملوّن يوفّر الألياف وفيتاميني أ وج والفولات والمعادن من عدة خضراوات في عبوة واحدة. يُجمّد كل مكوّن تجميداً فورياً في ذروة قيمته الغذائية — بلا إضافات أو مواد حافظة.",
+    "fr": "Un mélange coloré qui apporte fibres, vitamines A et C, folate et minéraux de plusieurs légumes en un seul sachet. Chaque composant est surgelé IQF au pic nutritionnel — sans additifs ni conservateurs.",
+    "de": "Eine bunte Mischung, die Ballaststoffe, Vitamin A und C, Folat und Mineralstoffe aus mehreren Gemüsen in einer Packung liefert. Jede Komponente wird IQF auf dem Nährstoffhöhepunkt gefroren — ohne Zusätze, ohne Konservierungsstoffe."
+  },
+  "preparation": {
+    "en": "Cook straight from frozen — no thawing. Steam, sauté, boil, stir-fry or roast for a fast side, soup or one-pan meal in minutes. Free-flowing IQF format lets you portion exactly what you need.",
+    "ar": "تُطهى مباشرة من الفريزر دون تذويب. يمكن تبخيرها أو تشويحها أو سلقها أو قليها سريعاً أو شيّها لطبق جانبي أو شوربة أو وجبة بمقلاة واحدة خلال دقائق. تتيح صيغة IQF سهلة الفرز تقسيم ما تحتاجه بالضبط.",
+    "fr": "Cuisson directe sans décongélation. Vapeur, sauté, ébullition, wok ou four pour un accompagnement, une soupe ou un plat en quelques minutes. Le format IQF non aggloméré permet de doser précisément.",
+    "de": "Direkt gefroren zubereiten — kein Auftauen. Dämpfen, anbraten, kochen, pfannenrühren oder rösten für eine schnelle Beilage, Suppe oder Pfannengericht in Minuten. Das rieselfähige IQF-Format ermöglicht genaues Portionieren."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Mixed Vegetables — IQF, Custom Blends",
+      "ar": "خضار مشكّل مجمد — IQF بخلطات مخصصة",
+      "fr": "Légumes mélangés surgelés — IQF, sur mesure",
+      "de": "Tiefkühl-Gemüsemischung — IQF, individuell"
+    },
+    "description": {
+      "en": "IQF frozen mixed vegetables in ready 3-way and 4-way blends or fully customised to your recipe — peas, carrots, green beans, sweet corn, broccoli, cauliflower. Wholesale export from Egypt to 30+ countries.",
+      "ar": "خضار مشكّل مجمد بتقنية IQF في خلطات جاهزة ثلاثية ورباعية أو مخصص بالكامل وفق وصفتك — بازلاء وجزر وفاصوليا خضراء وذرة حلوة وبروكلي وقرنبيط. تصدير بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Légumes mélangés surgelés IQF en mélanges 3 et 4 composants ou entièrement personnalisés selon votre recette — pois, carottes, haricots verts, maïs, brocoli, chou-fleur. Export en gros vers 30+ pays.",
+      "de": "IQF-Gemüsemischung in fertigen 3er- und 4er-Mischungen oder ganz nach Ihrem Rezept — Erbsen, Karotten, grüne Bohnen, Zuckermais, Brokkoli, Blumenkohl. Großhandelsexport aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen mixed vegetables",
+      "IQF mixed vegetables exporter",
+      "frozen vegetable blend wholesale",
+      "custom frozen vegetable mix",
+      "Egyptian frozen mixed vegetables supplier",
+      "frozen vegetable medley bulk"
+    ]
+  },
   "relatedSlugs": ["peas-and-carrots", "broccoli", "cauliflower"]
 }

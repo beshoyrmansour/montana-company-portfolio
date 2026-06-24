@@ -44,25 +44,39 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "A balanced mix of carrots, green beans, peas, broccoli and cauliflower, naturally rich in dietary fibre, vitamins A and C, folate and antioxidants. Each vegetable is IQF-frozen at its peak to preserve colour and full nutrition — no additives.",
+    "ar": "خليط متوازن من الجزر والفاصوليا الخضراء والبسلة والبروكلي والقرنبيط، غني طبيعياً بالألياف الغذائية وفيتاميني أ وج والفولات ومضادات الأكسدة. تُجمّد كل خضار تجميداً فورياً في ذروتها للحفاظ على اللون والقيمة الغذائية الكاملة — بلا إضافات.",
+    "fr": "Un mélange équilibré de carottes, haricots verts, petits pois, brocoli et chou-fleur, naturellement riche en fibres, vitamines A et C, folate et antioxydants. Chaque légume est surgelé IQF à maturité pour préserver couleur et nutriments — sans additifs.",
+    "de": "Eine ausgewogene Mischung aus Karotten, grünen Bohnen, Erbsen, Brokkoli und Blumenkohl, von Natur aus reich an Ballaststoffen, Vitamin A und C, Folat und Antioxidantien. Jedes Gemüse wird auf dem Höhepunkt IQF-gefroren, um Farbe und Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Tip straight from frozen into simmering stock or broth and cook for a few minutes for a hearty homemade soup — no washing, peeling or chopping. Equally ready to drop into stews, stir-fries or a quick pot of mixed vegetables.",
+    "ar": "أضِفه مباشرة من الفريزر إلى المرق المغلي واطهِه لبضع دقائق للحصول على شوربة منزلية دسمة — دون غسل أو تقشير أو تقطيع. جاهز كذلك للإضافة إلى اليخنات والمقالي أو طبق خضار مشكّلة سريع.",
+    "fr": "Versez directement surgelé dans un bouillon frémissant et faites cuire quelques minutes pour une soupe maison réconfortante — sans laver, éplucher ni couper. Idéal aussi dans les ragoûts, les sautés ou un plat de légumes rapide.",
+    "de": "Direkt aus dem Gefrierfach in köchelnde Brühe geben und wenige Minuten garen für eine herzhafte hausgemachte Suppe — ohne Waschen, Schälen oder Schneiden. Ebenso bereit für Eintöpfe, Pfannengerichte oder ein schnelles Gemüsegericht."
+  },
   "relatedSlugs": ["mixed-vegetables", "peas-and-carrots"],
   "seo": {
     "title": {
-      "en": "Frozen Vegetable Soup Mix — IQF | Montana",
-      "ar": "خضار الشوربة المجمد - IQF | مونتانا",
-      "fr": "Mélange à soupe de légumes surgelé — IQF | Montana",
-      "de": "Tiefgekühltes Suppengemüse — IQF | Montana"
+      "en": "Frozen Vegetable Soup Mix — IQF Exporter, Egypt",
+      "ar": "خضار شوربة مجمد — IQF للتصدير من مصر",
+      "fr": "Mélange à soupe de légumes surgelé — IQF",
+      "de": "Tiefkühl-Suppengemüse — IQF Exporteur, Ägypten"
     },
     "description": {
-      "en": "Premium Egyptian frozen vegetable soup mix — carrots, beans, peas, broccoli and cauliflower, IQF frozen. Cook from frozen, export packaging available.",
-      "ar": "خليط شوربة خضار مصري مجمد فاخر — جزر وفاصوليا وبسلة وبروكلي وقرنبيط، مجمّد بطريقة IQF. يُطهى من الفريزر.",
-      "fr": "Mélange à soupe de légumes égyptien surgelé premium — carottes, haricots, petits pois, brocoli et chou-fleur, surgelés IQF.",
-      "de": "Premium-ägyptisches tiefgekühltes Suppengemüse — Karotten, Bohnen, Erbsen, Brokkoli und Blumenkohl, IQF-gefroren. Aus dem Gefrierfach kochfertig, Exportverpackung verfügbar."
+      "en": "Premium IQF frozen vegetable soup mix — carrots, green beans, peas, broccoli and cauliflower, ready to simmer from frozen. Wholesale frozen soup mix exported from Egypt to 30+ countries.",
+      "ar": "خليط شوربة خضار مجمد فاخر بتقنية IQF — جزر وفاصوليا خضراء وبسلة وبروكلي وقرنبيط، جاهز للطهي من الفريزر. نصدّر خليط شوربة الخضار المجمد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Mélange à soupe de légumes surgelé IQF premium — carottes, haricots verts, petits pois, brocoli et chou-fleur, prêt à mijoter surgelé. Mélange à soupe surgelé en gros exporté d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Suppengemüse (IQF) — Karotten, grüne Bohnen, Erbsen, Brokkoli und Blumenkohl, gefroren kochfertig. Suppengemüse im Großhandel aus Ägypten in über 30 Länder."
     },
     "keywords": [
       "frozen vegetable soup mix",
+      "frozen soup mix",
       "IQF soup vegetables",
-      "frozen mixed vegetables",
-      "خضار شوربة مجمد"
+      "frozen soup vegetables wholesale",
+      "Egyptian frozen vegetable mix supplier",
+      "frozen mixed vegetables for soup"
     ]
   }
 }

@@ -28,9 +28,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildPageMetadata({
     locale,
     path: '',
-    title: pick(home.seo?.title, locale) ?? `${brand} — ${headline}`,
-    description: pick(home.seo?.description, locale) ?? subheadline,
-    keywords: home.seo?.keywords,
+    title:
+      pick(home.seo?.title, locale) ??
+      (headline ? `${brand} — ${headline}` : 'Frozen Foods Since 1985 — Egyptian IQF Exporter'),
+    description:
+      pick(home.seo?.description, locale) ||
+      subheadline ||
+      'Montana — family-owned Egyptian IQF frozen-food exporter since 1985. Vegetables, fruits and signature molokhia shipped to 30 countries. HACCP, ISO and BRC certified.',
+    keywords: home.seo?.keywords ?? [
+      'frozen vegetables exporter',
+      'Egyptian frozen foods',
+      'IQF vegetables',
+      'frozen molokhia',
+      'frozen okra',
+      'B2B frozen food supplier',
+      'HACCP ISO BRC certified',
+    ],
     ogImage: home.seo?.ogImage,
   });
 }
@@ -171,16 +184,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 </Link>
               )}
             </div>
-            <div
-              className="product-carousel flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth pb-4 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden"
-              style={{
-                width: '100vw',
-                marginInline: 'calc(50% - 50vw)',
-                // first card aligns under the contained title; row bleeds to the end edge
-                paddingInlineStart: 'max(1rem, calc((100vw - 80rem) / 2 + 2rem))',
-                paddingInlineEnd: '1.5rem',
-              }}
-            >
+            {/* Full-bleed edge-to-edge scroll track with a leading inset that rests
+             * the first card under the title. Layout lives in `.product-carousel`
+             * (globals.css) — it needs a media query for the responsive gutter. */}
+            <div className="product-carousel flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth py-6 [scrollbar-width:none] md:gap-6 [&::-webkit-scrollbar]:hidden">
               {featured.slice(0, home.featuredProducts.count ?? 8).map((product, idx) => (
                 <div
                   key={product.slug}
@@ -192,12 +199,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               {/* "See all" card — last item of the carousel */}
               <Link
                 href={`/${locale}/catalog`}
-                className="border-border hover:border-brand-primary hover:bg-surface-muted group flex w-[78%] shrink-0 snap-start flex-col items-center justify-center gap-4 rounded-2xl border border-dashed text-center transition-colors sm:w-[46%] md:w-[31%] lg:w-[23.5%]"
+                className="view-all-card group flex w-[78%] shrink-0 snap-start flex-col items-center justify-center gap-4 rounded-2xl p-6 text-center hover:-translate-y-1 sm:w-[46%] md:w-[31%] lg:w-[23.5%]"
               >
-                <span className="bg-brand-primary/10 text-brand-primary flex h-14 w-14 items-center justify-center rounded-full transition-transform group-hover:scale-110">
+                <span className="view-all-icon flex h-14 w-14 items-center justify-center rounded-full transition-transform group-hover:scale-110">
                   <ArrowRight className="rtl:rotate-180" size={22} aria-hidden />
                 </span>
-                <span className="text-body-lg text-text font-semibold">
+                <span className="text-body-lg font-semibold text-white">
                   {pick(home.featuredProducts.viewAllLabel, locale) ?? 'See all products'}
                 </span>
               </Link>
@@ -273,8 +280,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               </h2>
             </div>
             <div
-              className={`process-grid${
-                home.process.steps.some((s) => s.image) ? 'process-grid--media' : ''
+              className={`process-showcase${
+                home.process.steps.some((s) => s.image) ? 'has-media' : ''
               }`}
             >
               {home.process.steps.map((step, idx) => {
@@ -288,7 +295,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                           alt=""
                           aria-hidden
                           fill
-                          sizes="(max-width: 1024px) 50vw, 20vw"
+                          sizes="(max-width: 1024px) 100vw, 55vw"
                           style={{ objectFit: 'cover' }}
                         />
                         <span className="process-num">{roman}</span>
@@ -296,8 +303,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                     ) : (
                       <span className="process-num">{roman}</span>
                     )}
-                    <h3>{pick(step.label, locale)}</h3>
-                    <p>{pick(step.description, locale)}</p>
+                    <div className="process-caption">
+                      <h3>{pick(step.label, locale)}</h3>
+                      <p>{pick(step.description, locale)}</p>
+                    </div>
                   </div>
                 );
               })}

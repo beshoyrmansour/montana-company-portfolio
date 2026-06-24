@@ -5,11 +5,20 @@ import { SectionDivider } from '@/components/decoration/Ornaments';
 import { getActiveTheme } from '@/lib/theme';
 import { getAboutPage } from '@/lib/content';
 import { pick, type Locale } from '@/lib/i18n';
-import { buildPageMetadata } from '@/lib/seo';
+import { buildPageMetadata, breadcrumbJsonLd, BASE_URL } from '@/lib/seo';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { certIcon, certLogo } from '@/lib/certs';
 import type { AboutPage } from '@/schemas/page';
 
 export const dynamic = 'error';
+
+/** Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). */
+const BREADCRUMB_LABELS: Record<Locale, { home: string; about: string }> = {
+  en: { home: 'Home', about: 'About' },
+  ar: { home: 'الرئيسية', about: 'من نحن' },
+  fr: { home: 'Accueil', about: 'À propos' },
+  de: { home: 'Startseite', about: 'Über uns' },
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: raw } = await params;
@@ -22,8 +31,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildPageMetadata({
     locale,
     path: '/about',
-    title: pick(page.seo?.title, locale) ?? (heroTitle || 'About Montana'),
-    description: pick(page.seo?.description, locale) ?? pick(page.hero.subtitle, locale) ?? '',
+    title:
+      pick(page.seo?.title, locale) ?? (heroTitle || 'About — Egyptian Frozen Foods Since 1985'),
+    description:
+      pick(page.seo?.description, locale) ??
+      pick(page.hero.subtitle, locale) ??
+      'Montana is a family-owned Egyptian IQF frozen-food exporter since 1985 — from our Qalyub factory to 30 countries, HACCP-ISO-BRC certified. Meet the people behind the brand.',
     keywords: page.seo?.keywords ?? [
       'Montana history',
       'Egyptian frozen-food family business',
@@ -46,8 +59,29 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   const theme = getActiveTheme();
   const page = await getAboutPage();
 
+  const crumbs = BREADCRUMB_LABELS[locale] ?? BREADCRUMB_LABELS.en;
+  const aboutUrl = `${BASE_URL}/${locale}/about`;
+  const breadcrumb = breadcrumbJsonLd([
+    { name: crumbs.home, href: `/${locale}` },
+    { name: crumbs.about, href: `/${locale}/about` },
+  ]);
+  const aboutPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    '@id': `${aboutUrl}#webpage`,
+    url: aboutUrl,
+    name: `${crumbs.about} — Montana`,
+    description:
+      pick(page.seo?.description, locale) ?? pick(page.hero.subtitle, locale) ?? undefined,
+    inLanguage: locale,
+    isPartOf: { '@id': `${BASE_URL}/#website` },
+    about: { '@id': `${BASE_URL}/#organization` },
+    mainEntity: { '@id': `${BASE_URL}/#organization` },
+  };
+
   return (
     <>
+      <JsonLd data={[breadcrumb, aboutPageJsonLd]} />
       {/* ════════════════════════════════════════════════════════ HERO */}
       {page.hero.enabled && (
         <section className="markets-hero">

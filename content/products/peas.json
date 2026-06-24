@@ -60,5 +60,40 @@
     ],
     "packaging": ["/images/products/peas/montana-frozen-peas-pack.png"]
   },
+  "nutrition": {
+    "en": "A natural source of plant protein and dietary fibre, with vitamin C, vitamin K, folate and iron. IQF-frozen at peak sweetness to lock in their sugars, colour and full nutrition — no additives.",
+    "ar": "مصدر طبيعي للبروتين النباتي والألياف الغذائية، مع فيتامين ج وفيتامين ك والفولات والحديد. تُجمّد فورياً في ذروة الحلاوة للحفاظ على سكرياتها ولونها وقيمتها الغذائية الكاملة — بلا إضافات.",
+    "fr": "Source naturelle de protéines végétales et de fibres, avec vitamine C, vitamine K, folate et fer. Surgelés IQF à pleine douceur pour préserver sucres, couleur et nutriments — sans additifs.",
+    "de": "Natürliche Quelle für pflanzliches Eiweiß und Ballaststoffe, mit Vitamin C, Vitamin K, Folat und Eisen. IQF-gefroren bei voller Süße, um Zucker, Farbe und Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to cook straight from frozen — no thawing. Simmer into soups, stews and rice, toss through pasta and salads, or steam as a quick side. Choose the size grade your dish needs, from small to large.",
+    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. أضِفها إلى الشوربات واليخنات والأرز، أو امزجها مع المكرونة والسلطات، أو اسلقها بالبخار كطبق جانبي سريع. اختر المقاس المناسب لطبقك، من الصغير إلى الكبير.",
+    "fr": "Non agglomérés et prêts à cuire directement surgelés — sans décongélation. Mijotez-les dans soupes, ragoûts et riz, ajoutez-les aux pâtes et salades, ou faites-les cuire à la vapeur en accompagnement rapide. Choisissez le calibre adapté à votre plat, du petit au grand.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Für Suppen, Eintöpfe und Reis, zu Pasta und Salaten oder als schnelle Beilage gedämpft. Wählen Sie die passende Größenklasse, von klein bis groß."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Green Peas — IQF, 3 Size Grades, Exporter",
+      "ar": "بازلاء خضراء مجمدة — IQF بثلاث مراتب حجمية",
+      "fr": "Petits pois surgelés — IQF, 3 calibres, exportateur",
+      "de": "Tiefkühl-Erbsen — IQF, 3 Größenklassen"
+    },
+    "description": {
+      "en": "Premium IQF frozen green peas harvested at peak sweetness, graded into three sizes. Tender, additive-free, ready to cook from frozen. Wholesale frozen peas exported from Egypt to 30+ countries.",
+      "ar": "بازلاء خضراء مجمدة فاخرة بتقنية IQF تُحصد في ذروة الحلاوة ومصنّفة إلى ثلاث مراتب. طرية، خالية من الإضافات، جاهزة للطهي من الفريزر. نصدّر البازلاء المجمدة بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Petits pois surgelés IQF premium récoltés à pleine douceur, classés en trois calibres. Tendres, sans additifs, prêts à cuire surgelés. Petits pois surgelés en gros exportés d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Erbsen (IQF), bei voller Süße geerntet und in drei Größenklassen sortiert. Zart, zusatzfrei, gefroren kochfertig. Erbsen im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen peas",
+      "IQF green peas exporter",
+      "frozen peas wholesale",
+      "Egyptian frozen peas supplier",
+      "frozen garden peas",
+      "frozen sweet peas",
+      "frozen petit pois"
+    ]
+  },
   "relatedSlugs": ["peas-and-carrots", "green-beans", "mixed-vegetables"]
 }

@@ -62,5 +62,40 @@
     ],
     "packaging": ["/images/products/molokhia/montana-frozen-molokhia-pack.png"]
   },
+  "nutrition": {
+    "en": "Naturally rich in vitamins A, C and K, iron, calcium and dietary fibre — frozen within half an hour of harvest to lock in nutrients. No additives, no preservatives.",
+    "ar": "غنية طبيعياً بفيتامينات أ وج وك والحديد والكالسيوم والألياف الغذائية — تُجمّد خلال نصف ساعة من الحصاد للحفاظ على عناصرها الغذائية. بلا إضافات أو مواد حافظة.",
+    "fr": "Naturellement riche en vitamines A, C et K, fer, calcium et fibres — surgelée dans la demi-heure suivant la récolte pour préserver les nutriments. Sans additifs ni conservateurs.",
+    "de": "Von Natur aus reich an Vitamin A, C und K, Eisen, Kalzium und Ballaststoffen — innerhalb einer halben Stunde nach der Ernte gefroren, um Nährstoffe zu bewahren. Ohne Zusätze, ohne Konservierungsstoffe."
+  },
+  "preparation": {
+    "en": "Cook straight from frozen — no thawing needed. Simmer the leaves in chicken, rabbit or vegetable broth, finish with a garlic-and-coriander tasha, and serve over rice or with bread for the classic Egyptian molokhia.",
+    "ar": "تُطهى مباشرة من الفريزر دون تذويب. اسلق الأوراق في مرق الدجاج أو الأرانب أو الخضار، وأضف التقلية بالثوم والكزبرة، وقدّمها مع الأرز أو الخبز لتحضّر الملوخية المصرية الكلاسيكية.",
+    "fr": "Cuisson directe sans décongélation. Faites mijoter les feuilles dans un bouillon de poulet, lapin ou légumes, ajoutez une tasha à l'ail et à la coriandre, et servez sur du riz ou avec du pain pour la molokheya égyptienne classique.",
+    "de": "Direkt gefroren zubereiten — kein Auftauen nötig. Die Blätter in Hühner-, Kaninchen- oder Gemüsebrühe köcheln lassen, mit einer Knoblauch-Koriander-Tasha abrunden und über Reis oder mit Brot als klassische ägyptische Molokhia servieren."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Molokhia (Jute Leaf) — IQF Exporter",
+      "ar": "ملوخية مجمدة — مصدّر بتقنية IQF",
+      "fr": "Molokheya surgelée (corète) — exportateur IQF",
+      "de": "Tiefgekühlte Molokhia (Jutemalve) — IQF"
+    },
+    "description": {
+      "en": "Egypt's signature green leaf, frozen within 30 minutes of harvest. Whole-leaf or chopped frozen molokhia (jute mallow), additive-free and IQF, exported wholesale to 30+ countries since 1985.",
+      "ar": "ورقة مصر المميزة، مجمّدة خلال 30 دقيقة من الحصاد. ملوخية مجمدة أوراقاً كاملة أو مفرومة، خالية من الإضافات وبتقنية IQF، نصدّرها بالجملة لأكثر من 30 دولة منذ 1985.",
+      "fr": "Le légume-feuille emblématique d'Égypte, surgelé en 30 minutes après la récolte. Molokheya surgelée entière ou hachée, sans additifs et IQF, exportée en gros vers 30+ pays depuis 1985.",
+      "de": "Ägyptens charakteristisches Blattgemüse, innerhalb von 30 Minuten nach der Ernte gefroren. Molokhia ganz oder gehackt, zusatzfrei und IQF, seit 1985 in über 30 Länder exportiert."
+    },
+    "keywords": [
+      "frozen molokhia",
+      "frozen jute mallow",
+      "molokhia exporter Egypt",
+      "IQF molokhia wholesale",
+      "Egyptian molokhia supplier",
+      "frozen mloukhia",
+      "chopped molokhia leaves"
+    ]
+  },
   "relatedSlugs": ["spinach", "okra", "vine-leaves"]
 }

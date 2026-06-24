@@ -62,5 +62,39 @@
     ],
     "packaging": ["/images/products/sweet-corn/montana-frozen-sweet-corn-pack.png"]
   },
+  "nutrition": {
+    "en": "Naturally sweet and a good source of dietary fibre, vitamin C, folate and B-vitamins, with no added sugar. IQF-frozen at peak ripeness to lock in golden colour, crisp bite and full nutrition — no additives.",
+    "ar": "حلوة المذاق طبيعياً ومصدر جيد للألياف الغذائية وفيتامين ج والفولات وفيتامينات ب، دون سكر مضاف. تُجمّد تجميداً فورياً في ذروة النضج للحفاظ على اللون الذهبي والقرمشة والقيمة الغذائية الكاملة — بلا إضافات.",
+    "fr": "Naturellement sucré et bonne source de fibres, vitamine C, folate et vitamines B, sans sucre ajouté. Surgelé IQF à pleine maturité pour préserver couleur dorée, croquant et nutriments — sans additifs.",
+    "de": "Von Natur aus süß und eine gute Quelle für Ballaststoffe, Vitamin C, Folat und B-Vitamine, ohne Zuckerzusatz. IQF-gefroren bei voller Reife, um goldene Farbe, Biss und Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to cook straight from frozen — no thawing. Add the kernels to salads, soups, fritters, rice and stir-fries, or simmer, steam or microwave as a quick side in minutes.",
+    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. أضِف الحبوب إلى السلطات والشوربات والفطائر والأرز والمقالي، أو اسلقها أو اطهها بالبخار أو في الميكروويف كطبق جانبي سريع في دقائق.",
+    "fr": "Non aggloméré et prêt à cuire directement surgelé — sans décongélation. Ajoutez les grains aux salades, soupes, beignets, riz et sautés, ou cuisez-les à l'eau, à la vapeur ou au micro-ondes en quelques minutes.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Die Körner zu Salaten, Suppen, Puffern, Reis und Pfannengerichten geben oder in Minuten kochen, dämpfen oder in der Mikrowelle erhitzen."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Sweet Corn — IQF Corn Kernels, Exporter",
+      "ar": "ذرة حلوة مجمدة — حبوب IQF للتصدير",
+      "fr": "Maïs doux surgelé — grains IQF, exportateur",
+      "de": "Tiefkühl-Zuckermais — IQF-Körner, Exporteur"
+    },
+    "description": {
+      "en": "Premium IQF frozen sweet corn kernels — naturally sweet, additive-free and ready to cook from frozen. Wholesale frozen sweetcorn exported from Egypt to 30+ countries.",
+      "ar": "حبوب ذرة حلوة مجمدة فاخرة بتقنية IQF — حلوة طبيعياً، خالية من الإضافات، جاهزة للطهي من الفريزر. نصدّر الذرة الحلوة المجمدة بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Grains de maïs doux surgelés IQF premium — naturellement sucrés, sans additifs et prêts à cuire surgelés. Maïs doux surgelé en gros exporté d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Zuckermaiskörner (IQF) — von Natur aus süß, zusatzfrei und gefroren kochfertig. Zuckermais im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen sweet corn",
+      "frozen corn kernels",
+      "IQF sweetcorn",
+      "frozen sweet corn wholesale",
+      "Egyptian frozen corn supplier",
+      "frozen corn exporter"
+    ]
+  },
   "relatedSlugs": ["peas-and-carrots", "mixed-vegetables", "carrots"]
 }

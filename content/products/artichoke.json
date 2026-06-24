@@ -95,5 +95,39 @@
     ],
     "packaging": ["/images/products/artichoke/montana-frozen-artichoke-pack.png"]
   },
+  "nutrition": {
+    "en": "A good source of dietary fibre, folate, vitamin C and antioxidants, naturally low in fat. Home-grown and rushed to the line to preserve its full nutritional value — no additives.",
+    "ar": "مصدر جيد للألياف الغذائية والفولات وفيتامين ج ومضادات الأكسدة، ومنخفض الدهون طبيعياً. نزرعه بأنفسنا وننقله فوراً إلى خط الإنتاج للحفاظ على قيمته الغذائية الكاملة — بلا إضافات.",
+    "fr": "Bonne source de fibres, folate, vitamine C et antioxydants, naturellement pauvre en matières grasses. Cultivé par nos soins et acheminé rapidement vers la ligne pour préserver sa valeur nutritive — sans additifs.",
+    "de": "Eine gute Quelle für Ballaststoffe, Folat, Vitamin C und Antioxidantien, von Natur aus fettarm. Selbst angebaut und sofort zur Linie gebracht, um den vollen Nährwert zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Cook hearts straight from frozen — no thawing. Sauté, roast, grill, braise in lemon and olive oil, or fold into pasta, risotto and salads. Pick the French (dark) or Egyptian (white) method to suit your dish.",
+    "ar": "تُطهى القلوب مباشرة من الفريزر دون تذويب. يمكن تشويحها أو شيّها أو طهيها في الليمون وزيت الزيتون، أو إضافتها للمكرونة والريزوتو والسلطات. اختر الطريقة الفرنسية (الداكنة) أو المصرية (البيضاء) حسب طبقك.",
+    "fr": "Cuisson des cœurs directement surgelés — sans décongélation. Sautez, rôtissez, grillez, braisez au citron et à l'huile d'olive, ou intégrez aux pâtes, risottos et salades. Méthode française (foncée) ou égyptienne (blanche) selon le plat.",
+    "de": "Herzen direkt gefroren zubereiten — kein Auftauen. Anbraten, rösten, grillen, in Zitrone und Olivenöl schmoren oder in Pasta, Risotto und Salate geben. Französische (dunkle) oder ägyptische (weiße) Methode nach Wunsch."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Artichoke Hearts — IQF, 3 Sizes",
+      "ar": "قلوب خرشوف مجمدة — IQF بثلاثة أحجام",
+      "fr": "Cœurs d'artichaut surgelés — IQF, 3 tailles",
+      "de": "Tiefkühl-Artischockenherzen — IQF, 3 Größen"
+    },
+    "description": {
+      "en": "Home-grown IQF frozen artichoke hearts in three sizes, French or Egyptian method. Tender, additive-free and ready to cook from frozen. Wholesale artichoke exported from Egypt to 30+ countries.",
+      "ar": "قلوب خرشوف مجمدة بتقنية IQF من زراعتنا، بثلاثة أحجام، بالطريقة الفرنسية أو المصرية. طرية وخالية من الإضافات وجاهزة للطهي من الفريزر. نصدّر الخرشوف بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Cœurs d'artichaut surgelés IQF cultivés par nos soins, en trois tailles, méthode française ou égyptienne. Tendres, sans additifs et prêts à cuire surgelés. Export en gros d'Égypte vers 30+ pays.",
+      "de": "Selbst angebaute IQF-Artischockenherzen in drei Größen, französische oder ägyptische Methode. Zart, zusatzfrei und gefroren kochfertig. Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen artichoke hearts",
+      "IQF artichoke exporter",
+      "frozen artichoke wholesale",
+      "Egyptian artichoke supplier",
+      "frozen globe artichoke",
+      "artichoke hearts bulk"
+    ]
+  },
   "relatedSlugs": ["okra", "molokhia", "colcasia"]
 }

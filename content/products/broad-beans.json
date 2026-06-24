@@ -44,6 +44,41 @@
     ],
     "packaging": ["/images/products/broad-beans/montana-frozen-broad-beans-pack.png"]
   },
+  "nutrition": {
+    "en": "A rich plant protein source, high in dietary fibre, folate, iron and potassium with very little fat. IQF-frozen straight from our farms at peak ripeness to lock in the bright green colour and nutrients — no additives.",
+    "ar": "مصدر غني بالبروتين النباتي، وفير بالألياف الغذائية والفولات والحديد والبوتاسيوم وقليل الدهون. يُجمَّد تجميداً فورياً مباشرة من مزارعنا في ذروة النضج للحفاظ على لونه الأخضر الزاهي وقيمته الغذائية — بلا إضافات.",
+    "fr": "Une riche source de protéines végétales, riche en fibres, folate, fer et potassium, avec très peu de matières grasses. Surgelées IQF dès la récolte à pleine maturité pour préserver la couleur vert vif et les nutriments — sans additifs.",
+    "de": "Eine reiche pflanzliche Proteinquelle, reich an Ballaststoffen, Folat, Eisen und Kalium und sehr fettarm. IQF-gefroren direkt vom Feld bei voller Reife, um die leuchtend grüne Farbe und Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to cook from frozen — no thawing. Simmer in the Egyptian classic ful medames, fold into stews, rice and vegetable dishes, or blanch briefly as a tender green side.",
+    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِها في الفول المدمس المصري الكلاسيكي، أو أضِفها إلى اليخنات والأرز وأطباق الخضار، أو اسلقها قليلاً كطبق جانبي أخضر طري.",
+    "fr": "Non agglomérées et prêtes à cuire surgelées — sans décongélation. Mijotez-les dans le foul medames égyptien classique, incorporez-les aux ragoûts, au riz et aux plats de légumes, ou blanchissez-les brièvement en accompagnement tendre.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Im klassischen ägyptischen Ful Medames köcheln, in Eintöpfe, Reis und Gemüsegerichte geben oder kurz blanchieren als zarte grüne Beilage."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Broad Beans (Foul) — IQF Exporter",
+      "ar": "فول أخضر مجمد — IQF تصدير من مصر",
+      "fr": "Fèves surgelées (Foul) — IQF exportateur",
+      "de": "Tiefkühl-Dicke-Bohnen (Foul) — IQF"
+    },
+    "description": {
+      "en": "Premium IQF frozen broad beans (foul), bright green and additive-free, ready to cook from frozen. Family exporter since 1985, HACCP-ISO-BRC. Wholesale frozen fava beans from Egypt to 30+ countries.",
+      "ar": "فول أخضر مجمد فاخر بتقنية IQF، أخضر زاهٍ وخالٍ من الإضافات، جاهز للطهي من الفريزر. مُصدِّر عائلي منذ 1985 بشهادات HACCP وISO وBRC. فول مجمد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Fèves surgelées IQF premium (foul), vert vif et sans additifs, prêtes à cuire surgelées. Exportateur familial depuis 1985, HACCP-ISO-BRC. Fèves surgelées en gros d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Dicke-Bohnen (Foul), leuchtend grün und zusatzfrei, gefroren kochfertig. Familienexporteur seit 1985, HACCP-ISO-BRC. Dicke Bohnen im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen broad beans",
+      "IQF broad beans exporter",
+      "frozen broad beans wholesale",
+      "Egyptian frozen broad beans supplier",
+      "frozen foul",
+      "frozen fava beans",
+      "frozen ful medames"
+    ]
+  },
   "relatedSlugs": ["green-beans", "peas", "molokhia"],
   "varieties": []
 }

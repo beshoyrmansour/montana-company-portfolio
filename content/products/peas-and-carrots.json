@@ -43,6 +43,40 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "A colourful, naturally sweet mix high in dietary fibre, vitamin A, vitamin C and folate. IQF-frozen at peak freshness to preserve colour, texture and full nutrition — no additives.",
+    "ar": "خليط ملوّن حلو المذاق بطبيعته وغني بالألياف الغذائية وفيتامين أ وفيتامين ج والفولات. يُجمَّد بتقنية الـ IQF في ذروة الطزاجة للحفاظ على اللون والقوام والقيمة الغذائية الكاملة — بلا إضافات.",
+    "fr": "Un mélange coloré et naturellement sucré, riche en fibres, vitamine A, vitamine C et folate. Surgelé IQF à pleine fraîcheur pour préserver couleur, texture et nutriments — sans additifs.",
+    "de": "Eine farbenfrohe, von Natur aus süße Mischung, reich an Ballaststoffen, Vitamin A, Vitamin C und Folat. IQF-gefroren bei voller Frische, um Farbe, Textur und volle Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to cook straight from frozen — no thawing. Steam, boil or sauté as a quick side, or stir into rice, soups, stews and pies. Supplied in a balanced 1:1 ratio, with custom ratios on request.",
+    "ar": "سهل الفرز وجاهز للطهي مباشرة من الفريزر دون تذويب. اطهِه بالبخار أو السلق أو التشويح كطبق جانبي سريع، أو أضِفه إلى الأرز والشوربات واليخنات والفطائر. يُورَّد بنسبة متوازنة ١:١، مع توفير نسب مخصصة حسب الطلب.",
+    "fr": "Non aggloméré et prêt à cuire directement surgelé — sans décongélation. À la vapeur, bouilli ou sauté en accompagnement rapide, ou ajouté au riz, soupes, ragoûts et tourtes. Fourni dans un ratio équilibré 1:1, ratios personnalisés sur demande.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Als schnelle Beilage dämpfen, kochen oder braten oder unter Reis, Suppen, Eintöpfe und Pasteten rühren. Im ausgewogenen Verhältnis 1:1 geliefert, individuelle Verhältnisse auf Anfrage."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Peas & Carrots — IQF Mix, Exporter",
+      "ar": "بسلة بالجزر مجمدة — خليط IQF للتصدير",
+      "fr": "Pois & carottes surgelés — mélange IQF",
+      "de": "Tiefkühl-Erbsen & -Karotten — IQF-Mix"
+    },
+    "description": {
+      "en": "Premium IQF frozen peas and diced carrots in a balanced 1:1 mix, custom ratios on request. Additive-free, ready to cook from frozen. Wholesale frozen vegetable mix exported from Egypt to 30+ countries.",
+      "ar": "بسلة وجزر مكعب مجمدة فاخرة بتقنية IQF بنسبة متوازنة ١:١، مع نسب مخصصة حسب الطلب. خالية من الإضافات، جاهزة للطهي من الفريزر. نصدّر خليط الخضار المجمد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Pois et carottes en dés surgelés IQF premium dans un mélange équilibré 1:1, ratios personnalisés sur demande. Sans additifs, prêts à cuire surgelés. Mélange de légumes surgelés en gros exporté d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Erbsen und -Karottenwürfel im ausgewogenen 1:1-Mix, individuelle Verhältnisse auf Anfrage. Zusatzfrei, gefroren kochfertig. Tiefkühl-Gemüsemix im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen peas and carrots",
+      "IQF peas and carrots exporter",
+      "frozen peas and carrots wholesale",
+      "Egyptian frozen vegetable mix supplier",
+      "frozen diced carrots and peas",
+      "frozen vegetable blend"
+    ]
+  },
   "relatedSlugs": ["peas", "carrots", "mixed-vegetables"],
   "varieties": []
 }

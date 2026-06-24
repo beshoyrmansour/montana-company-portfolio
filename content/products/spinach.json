@@ -57,5 +57,40 @@
     ],
     "packaging": ["/images/products/spinach/montana-frozen-spinach-pack.png"]
   },
+  "nutrition": {
+    "en": "Rich in iron, vitamin K, vitamin A, folate and antioxidants while staying low in calories. IQF-frozen within half an hour of harvest to lock in deep green colour and full nutrition — no additives.",
+    "ar": "غني بالحديد وفيتامين ك وفيتامين أ والفولات ومضادات الأكسدة، مع بقائه منخفض السعرات. يُجمّد فورياً خلال نصف ساعة من الحصاد للحفاظ على لونه الأخضر الغامق وقيمته الغذائية الكاملة — بلا إضافات.",
+    "fr": "Riche en fer, vitamine K, vitamine A, folate et antioxydants, tout en restant pauvre en calories. Surgelé IQF dans la demi-heure suivant la récolte pour préserver couleur verte et nutriments — sans additifs.",
+    "de": "Reich an Eisen, Vitamin K, Vitamin A, Folat und Antioxidantien und dabei kalorienarm. IQF-gefroren binnen einer halben Stunde nach der Ernte, um sattes Grün und Nährstoffe zu bewahren — ohne Zusätze."
+  },
+  "preparation": {
+    "en": "Cooks straight from frozen — no thawing. Wilt into sautés, omelettes, soups and curries, fold through pasta and rice, or use whole leaves and chopped spinach as a filling for pies, spanakopita and stuffed dough. Pick whole leaf for body, chopped for even mixing.",
+    "ar": "يُطهى مباشرة من الفريزر دون تذويب. اطهِه في القلي السريع والعجة والشوربات والكاري، أو امزجه مع المكرونة والأرز، أو استخدم الأوراق الكاملة والسبانخ المفروم كحشوة للفطائر والسبانخ بالعجين. اختر الأوراق الكاملة للقوام والمفروم للمزج المتجانس.",
+    "fr": "Se cuit directement surgelé — sans décongélation. Faites-le tomber dans poêlées, omelettes, soupes et currys, mélangez-le aux pâtes et au riz, ou utilisez les feuilles entières et hachées en farce pour tourtes et feuilletés. Feuilles entières pour la tenue, haché pour un mélange homogène.",
+    "de": "Gart direkt aus dem Gefrierfach — kein Auftauen. In Pfannengerichten, Omeletts, Suppen und Currys zusammenfallen lassen, unter Pasta und Reis heben oder ganze Blätter und gehackten Spinat als Füllung für Pasteten und Teigtaschen verwenden. Ganzes Blatt für Biss, gehackt zum gleichmäßigen Mischen."
+  },
+  "seo": {
+    "title": {
+      "en": "Frozen Spinach — IQF Leaf & Chopped, Exporter",
+      "ar": "سبانخ مجمدة — IQF أوراق ومفروم، مصدّر",
+      "fr": "Épinards surgelés — IQF feuille & haché",
+      "de": "Tiefkühl-Spinat — IQF Blatt & gehackt"
+    },
+    "description": {
+      "en": "Premium IQF frozen spinach in whole-leaf and chopped cuts, frozen within 30 minutes of harvest. Rich in iron, additive-free, cooks from frozen. Wholesale frozen spinach exported from Egypt to 30+ countries.",
+      "ar": "سبانخ مجمدة فاخرة بتقنية IQF بأوراق كاملة ومفرومة، مجمّدة خلال 30 دقيقة من الحصاد. غنية بالحديد، خالية من الإضافات، تُطهى من الفريزر. نصدّر السبانخ المجمدة بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Épinards surgelés IQF premium en feuilles entières et hachés, surgelés dans les 30 minutes après la récolte. Riches en fer, sans additifs, cuisent surgelés. Épinards surgelés en gros exportés d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Spinat (IQF) als ganzes Blatt und gehackt, binnen 30 Minuten nach der Ernte gefroren. Eisenreich, zusatzfrei, gefroren kochfertig. Spinat im Großhandel aus Ägypten in über 30 Länder."
+    },
+    "keywords": [
+      "frozen spinach",
+      "frozen leaf spinach",
+      "frozen chopped spinach",
+      "IQF spinach exporter",
+      "frozen spinach wholesale",
+      "Egyptian frozen spinach supplier",
+      "frozen whole leaf spinach"
+    ]
+  },
   "relatedSlugs": ["molokhia", "vine-leaves", "mixed-vegetables"]
 }

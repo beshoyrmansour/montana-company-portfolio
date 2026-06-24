@@ -43,20 +43,40 @@
     ],
     "packaging": []
   },
+  "nutrition": {
+    "en": "Naturally rich in vitamin C, vitamin K, potassium and powerful antioxidants such as punicalagins, with dietary fibre. IQF-frozen at peak ripeness so each aril keeps its colour, juice and full nutrition — no added sugar.",
+    "ar": "غنية طبيعياً بفيتامين ج وفيتامين ك والبوتاسيوم ومضادات الأكسدة القوية، مع الألياف الغذائية. تُجمّد فورياً في ذروة النضج لتحتفظ كل حبة بلونها وعصيرها وقيمتها الغذائية الكاملة — بلا سكر مضاف.",
+    "fr": "Naturellement riches en vitamine C, vitamine K, potassium et puissants antioxydants, avec des fibres. Surgelés IQF à pleine maturité pour que chaque grain garde couleur, jus et nutriments — sans sucre ajouté.",
+    "de": "Von Natur aus reich an Vitamin C, Vitamin K, Kalium und starken Antioxidantien, mit Ballaststoffen. IQF-gefroren bei voller Reife, damit jeder Kern Farbe, Saft und Nährstoffe behält — ohne Zuckerzusatz."
+  },
+  "preparation": {
+    "en": "Free-flowing and ready to use straight from frozen — no peeling or de-seeding. Scatter over salads, grain bowls, yoghurt and desserts, stir into drinks, smoothies and cocktails, or thaw briefly as a vibrant garnish. Whole, jewel-bright arils every time.",
+    "ar": "سهلة الفرز وجاهزة للاستخدام مباشرة من الفريزر دون تقشير أو تحبيب. أضِفها إلى السلطات وأطباق الحبوب والزبادي والحلويات، أو حرّكها في المشروبات والعصائر والكوكتيلات، أو ذوّبها قليلاً كزينة زاهية. حبوب كاملة زاهية في كل مرة.",
+    "fr": "Non agglomérés et prêts à l'emploi directement surgelés — sans épluchage ni égrenage. Parsemez-en salades, bols de céréales, yaourts et desserts, mélangez-les aux boissons, smoothies et cocktails, ou décongelez brièvement en garniture éclatante. Grains entiers et brillants à chaque fois.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach verwendbar — kein Schälen oder Entkernen. Über Salate, Bowls, Joghurt und Desserts streuen, in Getränke, Smoothies und Cocktails rühren oder kurz antauen als leuchtende Garnitur. Jedes Mal ganze, strahlende Kerne."
+  },
   "relatedSlugs": ["strawberry", "mango"],
   "seo": {
     "title": {
-      "en": "Frozen Pomegranate Arils — IQF | Montana",
-      "ar": "حبوب رمان مجمدة - IQF | مونتانا",
-      "fr": "Grains de grenade surgelés — IQF | Montana",
-      "de": "Tiefgekühlte Granatapfelkerne — IQF | Montana"
+      "en": "Frozen Pomegranate Arils — IQF Seeds, Exporter",
+      "ar": "حبوب رمان مجمدة — IQF، مصدّر",
+      "fr": "Grains de grenade surgelés — IQF, exportateur",
+      "de": "Tiefkühl-Granatapfelkerne — IQF, Exporteur"
     },
     "description": {
-      "en": "Premium Egyptian frozen pomegranate arils, hand-cleaned and IQF frozen. Free-flowing, ready to use, export packaging available.",
-      "ar": "حبوب رمان مصرية مجمدة فاخرة، منظّفة يدويًا ومجمّدة بطريقة IQF. سهلة الفرز وجاهزة للاستخدام.",
-      "fr": "Grains de grenade égyptiens surgelés premium, nettoyés à la main et surgelés IQF.",
-      "de": "Premium-ägyptische tiefgekühlte Granatapfelkerne, von Hand gereinigt und IQF-gefroren. Rieselfähig, gebrauchsfertig, Exportverpackung verfügbar."
+      "en": "Premium IQF frozen pomegranate arils, hand-cleaned at peak ripeness. Whole, free-flowing seeds with no added sugar, ready to use from frozen. Wholesale frozen pomegranate exported from Egypt to 30+ countries.",
+      "ar": "حبوب رمان مجمدة فاخرة بتقنية IQF، منظّفة يدوياً في ذروة النضج. حبوب كاملة سهلة الفرز بلا سكر مضاف، جاهزة للاستخدام من الفريزر. نصدّر الرمان المجمّد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Grains de grenade surgelés IQF premium, nettoyés à la main à pleine maturité. Grains entiers et non agglomérés, sans sucre ajouté, prêts à l'emploi surgelés. Grenade surgelée en gros exportée d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Granatapfelkerne (IQF), von Hand bei voller Reife gereinigt. Ganze, rieselfähige Kerne ohne Zuckerzusatz, gefroren gebrauchsfertig. Granatapfel im Großhandel aus Ägypten in über 30 Länder."
     },
-    "keywords": ["frozen pomegranate", "IQF pomegranate arils", "pomegranate seeds", "رمان مجمد"]
+    "keywords": [
+      "frozen pomegranate arils",
+      "frozen pomegranate seeds",
+      "IQF pomegranate exporter",
+      "frozen pomegranate wholesale",
+      "Egyptian frozen pomegranate supplier",
+      "frozen fruit arils",
+      "رمان مجمد"
+    ]
   }
 }

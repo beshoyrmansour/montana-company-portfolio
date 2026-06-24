@@ -1,4 +1,25 @@
 {
+  "seo": {
+    "title": {
+      "en": "Contact — Frozen Food Export Enquiries",
+      "ar": "تواصل معنا — استفسارات تصدير الأغذية المجمدة",
+      "fr": "Contact — Demandes d'export de surgelés",
+      "de": "Kontakt — Anfragen zum Tiefkühl-Export"
+    },
+    "description": {
+      "en": "Contact Montana's export desk for frozen vegetable & fruit quotes, specs, MOQ and lead times. We reply within one business day, in your language. Offices in Cairo, factory in Qalyub, Egypt.",
+      "ar": "تواصل مع مكتب التصدير في مونتانا للحصول على عروض أسعار الخضراوات والفواكه المجمدة والمواصفات والحد الأدنى للطلب ومدد التسليم. نرد خلال يوم عمل واحد بلغتك. مكتب بالقاهرة ومصنع بالقليوب، مصر.",
+      "fr": "Contactez le service export de Montana pour devis, spécifications, quantité minimale et délais sur les surgelés. Réponse sous un jour ouvré, dans votre langue. Bureau au Caire, usine à Qalyub, Égypte.",
+      "de": "Kontaktieren Sie Montanas Export-Team für Angebote, Spezifikationen, MOQ und Lieferzeiten zu Tiefkühlgemüse & -obst. Antwort innerhalb eines Werktags, in Ihrer Sprache. Büro in Kairo, Werk in Qalyub, Ägypten."
+    },
+    "keywords": [
+      "frozen food supplier contact",
+      "frozen vegetables quote request",
+      "Montana frozen foods Egypt contact",
+      "frozen food export enquiry",
+      "wholesale frozen food MOQ"
+    ]
+  },
   "hero": {
     "enabled": true,
     "eyebrow": {
