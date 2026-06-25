@@ -353,18 +353,44 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   >
                     {pick(page.map.svgLabels.hqSub, locale)}
                   </text>
-                  {/* Cairo — lon 31.23571, lat 30.04442 → x≈294, y≈81 */}
-                  <circle cx="294" cy="86" r="3" fill="currentColor" opacity="0.55" />
+                  {/* Cairo office — Dokki/Giza ≈ lat 30.04, lon 31.21, just south of Qalyub.
+                      Office-style marker (smaller than the HQ); labels anchored to the LEFT
+                      so they clear the "Montana HQ" label sitting on the right. */}
+                  <g>
+                    <circle
+                      cx="294"
+                      cy="90"
+                      r="5"
+                      fill="var(--color-brand-primary)"
+                      stroke="white"
+                      strokeWidth="2"
+                    />
+                  </g>
                   <text
                     className="egypt-map-label egypt-map-label--city"
-                    x="302"
-                    y="100"
-                    fontSize="11"
+                    x="284"
+                    y="88"
+                    textAnchor="end"
+                    fontSize="13"
+                    fontWeight="600"
                     fill="currentColor"
-                    opacity="0.55"
+                    opacity="0.82"
                   >
                     {pick(page.map.svgLabels.cairo, locale)}
                   </text>
+                  {page.map.svgLabels.cairoSub && (
+                    <text
+                      className="egypt-map-label egypt-map-label--city"
+                      x="284"
+                      y="101"
+                      textAnchor="end"
+                      fontSize="10.5"
+                      fill="currentColor"
+                      opacity="0.55"
+                    >
+                      {pick(page.map.svgLabels.cairoSub, locale)}
+                    </text>
+                  )}
                   {/* Alexandria — lon 29.91874, lat 31.20009 → x≈235, y≈23 */}
                   <circle cx="235" cy="23" r="3" fill="currentColor" opacity="0.55" />
                   <text

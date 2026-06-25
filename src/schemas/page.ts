@@ -430,6 +430,7 @@ export const contactPageSchema = z.object({
       hq: i18nString,
       hqSub: i18nString,
       cairo: i18nString,
+      cairoSub: i18nString.optional(),
       alexandria: i18nString,
     }),
   }),

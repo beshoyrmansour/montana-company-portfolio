@@ -396,6 +396,12 @@
         "fr": "Le Caire",
         "de": "Kairo"
       },
+      "cairoSub": {
+        "en": "Office",
+        "ar": "مكتب",
+        "fr": "Bureau",
+        "de": "Büro"
+      },
       "alexandria": {
         "en": "Alexandria",
         "ar": "الإسكندرية",
