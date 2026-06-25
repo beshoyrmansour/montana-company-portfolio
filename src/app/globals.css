@@ -4859,3 +4859,31 @@ html.is-scrolled .site-logo {
     opacity: 1 !important;
   }
 }
+
+/* ─────────────────────────────────────────────────────────────────
+ * Catalog hero — the product-range photo sits BEHIND the centered copy
+ * as a faded backdrop (anchored to the right), instead of a block below.
+ * ───────────────────────────────────────────────────────────────── */
+.catalog-hero {
+  position: relative;
+  overflow: hidden;
+}
+.catalog-hero-bg {
+  position: absolute;
+  top: 50%;
+  right: clamp(-140px, -3vw, 0px);
+  transform: translateY(-50%);
+  width: min(760px, 58%);
+  height: auto;
+  opacity: 0.18;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+@media (max-width: 768px) {
+  .catalog-hero-bg {
+    width: 116%;
+    right: -22%;
+    opacity: 0.1;
+  }
+}

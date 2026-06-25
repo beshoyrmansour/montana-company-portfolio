@@ -109,9 +109,19 @@ export default async function CatalogIndexPage({
       <JsonLd data={[itemList, breadcrumb]} />
       {/* ════════════════════════════════════════════════════════ HERO */}
       {page.hero.enabled && (
-        <section className="section-editorial">
+        <section className="section-editorial catalog-hero">
+          <Image
+            src="/images/products/7-Packs-link.png"
+            alt=""
+            aria-hidden
+            width={2105}
+            height={1897}
+            priority
+            sizes="(max-width: 768px) 110vw, 760px"
+            className="catalog-hero-bg"
+          />
           <Container>
-            <div className="mx-auto max-w-3xl text-center">
+            <div className="relative z-10 mx-auto max-w-3xl text-center">
               <span
                 className="eyebrow no-rule mb-6 inline-flex"
                 style={{ justifyContent: 'center' }}
@@ -151,18 +161,6 @@ export default async function CatalogIndexPage({
                   <ArrowRight size={16} className="rtl:rotate-180" />
                 </Link>
               </div>
-            </div>
-            {/* Product-family showcase — Montana's actual retail range */}
-            <div className="mt-12 lg:mt-16">
-              <Image
-                src="/images/products/7-Packs-link.png"
-                alt="The Montana frozen range — Green Beans, Vegetable Soup, Molokheya, Artichoke Bottoms, Peas &amp; Carrots, Okra and Vine Leaves in a basket"
-                width={2105}
-                height={1897}
-                priority
-                sizes="(max-width: 768px) 100vw, 860px"
-                className="mx-auto h-auto w-full max-w-4xl"
-              />
             </div>
           </Container>
         </section>
