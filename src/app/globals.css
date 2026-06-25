@@ -3414,8 +3414,25 @@ html.is-scrolled .site-logo {
 }
 @media (min-width: 768px) {
   .offices-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+/* Embedded Google Map + directions button inside each office card. */
+.office-map-wrap {
+  margin-top: var(--space-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.office-map {
+  width: 100%;
+  height: 220px;
+  border: 0;
+  border-radius: var(--radius-md);
+  display: block;
+}
+.office-directions {
+  align-self: flex-start;
 }
 .office-card {
   padding: var(--space-6);

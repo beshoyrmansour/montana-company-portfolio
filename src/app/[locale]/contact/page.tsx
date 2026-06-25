@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { Navigation } from 'lucide-react';
 import { Container } from '@/components/layout/Container';
 import { InquiryForm } from '@/components/contact/InquiryForm';
 import { FaqAccordion } from '@/components/contact/FaqAccordion';
@@ -205,6 +206,33 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                           <dd>{pick(o.hours, locale)}</dd>
                         </div>
                       </dl>
+                      {o.map && (
+                        <div className="office-map-wrap">
+                          <iframe
+                            className="office-map"
+                            src={`https://maps.google.com/maps?q=${encodeURIComponent(
+                              o.map.query,
+                            )}&z=15&hl=${locale}&output=embed`}
+                            title={`${pick(o.city, locale)} — Google Map`}
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            allowFullScreen
+                          />
+                          <a
+                            className="btn-editorial ghost office-directions"
+                            href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
+                              o.map.query,
+                            )}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <Navigation size={15} />
+                            {page.offices.directionsLabel
+                              ? pick(page.offices.directionsLabel, locale)
+                              : 'Get directions'}
+                          </a>
+                        </div>
+                      )}
                     </article>
                   );
                 })}

@@ -395,6 +395,7 @@ export const contactPageSchema = z.object({
     enabled: z.boolean(),
     eyebrow: i18nString,
     title: splitTitle,
+    directionsLabel: i18nString.optional(),
     items: z.array(
       z.object({
         city: i18nString,
@@ -405,6 +406,15 @@ export const contactPageSchema = z.object({
         role: i18nString,
         hours: i18nString,
         visible: z.boolean().optional(),
+        /** Optional embedded Google Map. `query` is a "lat,lng" pair or an
+         *  address string used for both the iframe and the directions link;
+         *  `url` is the canonical Maps place link (unused by the embed). */
+        map: z
+          .object({
+            query: z.string(),
+            url: z.string().optional(),
+          })
+          .optional(),
       }),
     ),
   }),
