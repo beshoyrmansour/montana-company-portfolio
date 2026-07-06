@@ -1,10 +1,10 @@
 {
   "slug": "broccoli",
   "name": {
-    "en": "Broccoli",
-    "ar": "بروكلي",
-    "fr": "Brocoli",
-    "de": "Brokkoli"
+    "en": "Broccoli Florets",
+    "ar": "زهيرات البروكلي",
+    "fr": "Fleurettes de brocoli",
+    "de": "Brokkoli-Röschen"
   },
   "shortDescription": {
     "en": "Pre-selected broccoli seeds from the best quality worldwide, frozen immediately to preserve nutrition.",
@@ -24,36 +24,38 @@
   "varieties": [
     {
       "name": {
-        "en": "Stem lengths",
-        "ar": "أطوال السيقان",
-        "fr": "Longueurs de tige",
-        "de": "Stiellängen"
+        "en": "Florets size",
+        "ar": "حجم الزهيرات",
+        "fr": "Taille des fleurettes",
+        "de": "Röschengröße"
       },
       "sizes": [
         {
           "label": {
-            "en": "Short",
-            "ar": "قصير",
-            "fr": "Court",
-            "de": "Kurz"
+            "en": "Small",
+            "ar": "صغير",
+            "fr": "Petit",
+            "de": "Klein"
           },
           "spec": {
-            "en": "2 – 4 cm",
-            "ar": "٢ – ٤ سم",
-            "fr": "2 – 4 cm"
+            "en": "20 – 40 mm",
+            "ar": "٢٠ – ٤٠ مم",
+            "fr": "20 – 40 mm",
+            "de": "20 – 40 mm"
           }
         },
         {
           "label": {
-            "en": "Long",
-            "ar": "طويل",
-            "fr": "Long",
-            "de": "Lang"
+            "en": "Large",
+            "ar": "كبير",
+            "fr": "Grand",
+            "de": "Groß"
           },
           "spec": {
-            "en": "4 – 6 cm",
-            "ar": "٤ – ٦ سم",
-            "fr": "4 – 6 cm"
+            "en": "30 – 60 mm",
+            "ar": "٣٠ – ٦٠ مم",
+            "fr": "30 – 60 mm",
+            "de": "30 – 60 mm"
           }
         }
       ]
@@ -62,16 +64,36 @@
   "packaging": [
     {
       "type": "retail",
+      "weight": "250 g",
+      "perCarton": "32 bags"
+    },
+    {
+      "type": "retail",
       "weight": "400 g",
       "perCarton": "20 bags"
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg / 20 lb",
+      "perCarton": "—"
     }
   ],
-  "seasonality": ["feb"],
+  "seasonality": ["dec", "jan", "feb"],
   "images": {
     "primary": "/images/products/broccoli/montana-frozen-broccoli.jpg",
     "gallery": [
@@ -89,10 +111,10 @@
     "de": "Außergewöhnlich reich an Vitamin C, Vitamin K, Folat, Ballaststoffen und Antioxidantien wie Sulforaphan, bei sehr wenig Kalorien. IQF-gefroren direkt vom Feld, um die tiefgrünen Röschen und alle Nährstoffe zu bewahren — ohne Zusätze."
   },
   "preparation": {
-    "en": "Free-flowing florets ready to cook from frozen — no thawing. Steam, roast, stir-fry or boil for a few minutes, add to gratins, soups and pasta, or serve as a crisp-tender side. Choose short or long stems to suit your dish.",
-    "ar": "زهيرات سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِها بالبخار أو حمّصها أو اقليها سريعاً أو اسلقها لبضع دقائق، أو أضِفها إلى الجراتان والشوربات والمكرونة، أو قدّمها كطبق جانبي طري. اختر السيقان القصيرة أو الطويلة بما يناسب طبقك.",
-    "fr": "Fleurettes non agglomérées prêtes à cuire surgelées — sans décongélation. Cuisez à la vapeur, rôtissez, sautez ou faites bouillir quelques minutes, ajoutez aux gratins, soupes et pâtes, ou servez en accompagnement croquant. Choisissez les tiges courtes ou longues selon votre plat.",
-    "de": "Rieselfähige Röschen, direkt aus dem Gefrierfach kochfertig — kein Auftauen. Dämpfen, rösten, kurz anbraten oder wenige Minuten kochen, in Gratins, Suppen und Pasta geben oder als bissfeste Beilage servieren. Kurze oder lange Stiele passend zum Gericht wählen."
+    "en": "Free-flowing florets ready to cook from frozen — no thawing. Steam, roast, stir-fry or boil for a few minutes, add to gratins, soups and pasta, or serve as a crisp-tender side.",
+    "ar": "زهيرات سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِها بالبخار أو حمّصها أو اقليها سريعاً أو اسلقها لبضع دقائق، أو أضِفها إلى الجراتان والشوربات والمكرونة، أو قدّمها كطبق جانبي طري.",
+    "fr": "Fleurettes non agglomérées prêtes à cuire surgelées — sans décongélation. Cuisez à la vapeur, rôtissez, sautez ou faites bouillir quelques minutes, ajoutez aux gratins, soupes et pâtes, ou servez en accompagnement croquant.",
+    "de": "Rieselfähige Röschen, direkt aus dem Gefrierfach kochfertig — kein Auftauen. Dämpfen, rösten, kurz anbraten oder wenige Minuten kochen, in Gratins, Suppen und Pasta geben oder als bissfeste Beilage servieren."
   },
   "seo": {
     "title": {

@@ -306,7 +306,7 @@ export const catalogPageSchema = z.object({
   seo: seoOverride,
   hero: z.object({
     enabled: z.boolean(),
-    eyebrow: i18nString,
+    eyebrow: i18nString.optional(),
     title: i18nString,
     titleEm: i18nString,
     subtitle: i18nString,
@@ -319,6 +319,8 @@ export const catalogPageSchema = z.object({
     enabled: z.boolean(),
     eyebrow: i18nString,
     title: splitTitle,
+    /** Optional lead paragraph under the section title. */
+    body: i18nString.optional(),
     slugs: z.array(slug),
   }),
   catalog: z.object({
@@ -393,7 +395,7 @@ export const contactPageSchema = z.object({
   }),
   offices: z.object({
     enabled: z.boolean(),
-    eyebrow: i18nString,
+    eyebrow: i18nString.optional(),
     title: splitTitle,
     directionsLabel: i18nString.optional(),
     items: z.array(

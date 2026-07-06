@@ -31,29 +31,29 @@
     },
     "headline": {
       "lead": {
-        "en": "A family,",
-        "ar": "عائلة،",
-        "fr": "Une famille,",
-        "de": "Eine Familie,"
+        "en": "A legacy of",
+        "ar": "إرث من",
+        "fr": "Un héritage de",
+        "de": "Ein Erbe der"
       },
       "em": {
-        "en": "a delta,",
-        "ar": "دلتا،",
-        "fr": "un delta,",
-        "de": "ein Delta,"
+        "en": "quality",
+        "ar": "الجودة",
+        "fr": "qualité",
+        "de": "Qualität"
       },
       "tail": {
-        "en": " 41 years.",
-        "ar": " 41 عاماً.",
-        "fr": " 41 ans.",
-        "de": " 41 Jahre."
+        "en": " since 1985.",
+        "ar": " منذ 1985.",
+        "fr": " depuis 1985.",
+        "de": " seit 1985."
       }
     },
     "subtitle": {
-      "en": "Montana — The United Company for Food Industry — is a family-owned, vertically integrated Egyptian frozen-food company, founded in 1985 and part of the Maamoun Group. From our own farms to a 50,000 m² facility in Egypt, we grow, freeze and ship 35,000 tonnes a year — 70% of it exported to buyers across five continents.",
-      "ar": "مونتانا — الشركة المتحدة للصناعات الغذائية — شركة عائلية مصرية متكاملة رأسياً للأغذية المجمدة، تأسست عام 1985 وهي إحدى شركات مجموعة مأمون. من مزارعنا الخاصة إلى منشأة بمساحة ٥٠٬٠٠٠ م² في مصر، نزرع ونجمّد ونشحن ٣٥٬٠٠٠ طن سنوياً — يُصدَّر ٧٠٪ منها إلى مشترين في خمس قارات.",
-      "fr": "Montana — The United Company for Food Industry — est une entreprise familiale égyptienne de surgelés, intégrée verticalement, fondée en 1985 et membre du Groupe Maamoun. De nos propres fermes à un site de 50 000 m² en Égypte, nous cultivons, surgelons et expédions 35 000 tonnes par an — dont 70 % exportées vers des acheteurs sur cinq continents.",
-      "de": "Montana — The United Company for Food Industry — ist ein familiengeführtes, vertikal integriertes ägyptisches Tiefkühlkost-Unternehmen, gegründet 1985 und Teil der Maamoun Group. Von unseren eigenen Feldern bis zu einer 50.000 m² großen Anlage in Ägypten bauen wir an, gefrieren und verschicken 35.000 Tonnen pro Jahr — 70% davon exportiert an Abnehmer auf fünf Kontinenten."
+      "en": "Montana — The United Company for Food Industry — is a family-owned Egyptian frozen food manufacturer with over four decades of expertise. Founded in 1985 and part of the Maamoun Group, we operate a fully integrated supply chain — from our own farms to our 50,000 m² state-of-the-art production facility. Every year, we produce and export more than 35,000 tonnes of premium frozen fruits and vegetables, with 70% of our output serving international markets worldwide.",
+      "ar": "مونتانا — الشركة المتحدة للصناعات الغذائية — شركة عائلية مصرية لتصنيع الأغذية المجمدة بخبرة تمتد لأكثر من أربعة عقود. تأسست عام 1985 وهي إحدى شركات مجموعة مأمون، وتدير سلسلة إمداد متكاملة بالكامل — من مزارعنا الخاصة إلى منشأة إنتاج حديثة بمساحة ٥٠٬٠٠٠ م². ننتج ونصدّر سنوياً أكثر من ٣٥٬٠٠٠ طن من الفواكه والخضراوات المجمدة الفاخرة، ويخدم ٧٠٪ من إنتاجنا الأسواق العالمية حول العالم.",
+      "fr": "Montana — The United Company for Food Industry — est un fabricant égyptien familial de surgelés fort de plus de quatre décennies d'expertise. Fondée en 1985 et membre du Groupe Maamoun, l'entreprise opère une chaîne d'approvisionnement entièrement intégrée — de nos propres fermes à notre site de production ultramoderne de 50 000 m². Chaque année, nous produisons et exportons plus de 35 000 tonnes de fruits et légumes surgelés premium, dont 70 % à destination des marchés internationaux.",
+      "de": "Montana — The United Company for Food Industry — ist ein familiengeführter ägyptischer Tiefkühlkost-Hersteller mit über vier Jahrzehnten Erfahrung. Gegründet 1985 und Teil der Maamoun Group, betreiben wir eine vollständig integrierte Lieferkette — von unseren eigenen Feldern bis zu unserer hochmodernen 50.000 m² Produktionsanlage. Jedes Jahr produzieren und exportieren wir mehr als 35.000 Tonnen Premium-Tiefkühlobst und -gemüse, wobei 70% unserer Produktion internationale Märkte weltweit bedienen."
     },
     "stats": [
       {
@@ -67,7 +67,7 @@
         }
       },
       {
-        "num": "320",
+        "num": "700",
         "label": {
           "en": "People on the team",
           "ar": "عضو في الفريق",
@@ -301,55 +301,55 @@
           "de": "Tradition statt Hype"
         },
         "description": {
-          "en": "41 years of unbroken operation. We carry the weight of every shipment that came before.",
-          "ar": "41 عاماً من العمل المستمر. نحمل ثقل كل شحنة سبقت.",
-          "fr": "41 ans d'activité ininterrompue. Nous portons le poids de chaque expédition qui a précédé.",
-          "de": "41 Jahre ununterbrochener Betrieb. Wir tragen das Gewicht jeder Lieferung, die zuvor kam."
+          "en": "41 years of uninterrupted operation. Every shipment carries the legacy of our commitment to quality, reliability, and trust.",
+          "ar": "41 عاماً من العمل دون انقطاع. كل شحنة تحمل إرث التزامنا بالجودة والموثوقية والثقة.",
+          "fr": "41 ans d'activité ininterrompue. Chaque expédition porte l'héritage de notre engagement envers la qualité, la fiabilité et la confiance.",
+          "de": "41 Jahre ununterbrochener Betrieb. Jede Lieferung trägt das Erbe unseres Engagements für Qualität, Zuverlässigkeit und Vertrauen."
         }
       },
       {
         "num": "ii",
         "title": {
-          "en": "Family, not factory",
-          "ar": "عائلة، لا مصنع",
-          "fr": "Famille, pas usine",
-          "de": "Familie, keine Fabrik"
+          "en": "More than a factory. A family legacy",
+          "ar": "أكثر من مصنع. إرث عائلة",
+          "fr": "Plus qu'une usine. Un héritage familial",
+          "de": "Mehr als eine Fabrik. Ein Familienerbe"
         },
         "description": {
-          "en": "Owned by the Maamoun family across two generations. Every package leaves with a name attached.",
-          "ar": "تملكها عائلة مأمون عبر جيلين. كل عبوة تخرج باسم مرفق.",
-          "fr": "Propriété de la famille Maamoun sur deux générations. Chaque emballage part avec un nom.",
-          "de": "Im Besitz der Familie Maamoun über zwei Generationen. Jede Packung verlässt uns mit einem Namen."
+          "en": "For two generations, the Maamoun family has led Montana with a commitment to quality, integrity, and long-term partnerships. Every package that leaves our facility carries not only our products, but also our family name, our reputation, and our promise of excellence.",
+          "ar": "على مدى جيلين، قادت عائلة مأمون مونتانا بالتزام راسخ بالجودة والنزاهة والشراكات طويلة الأمد. كل عبوة تغادر منشأتنا لا تحمل منتجاتنا فحسب، بل تحمل أيضاً اسم عائلتنا وسمعتنا ووعدنا بالتميز.",
+          "fr": "Depuis deux générations, la famille Maamoun dirige Montana avec un engagement envers la qualité, l'intégrité et les partenariats durables. Chaque emballage qui quitte notre site porte non seulement nos produits, mais aussi notre nom de famille, notre réputation et notre promesse d'excellence.",
+          "de": "Seit zwei Generationen führt die Familie Maamoun Montana mit einem Bekenntnis zu Qualität, Integrität und langfristigen Partnerschaften. Jede Packung, die unser Werk verlässt, trägt nicht nur unsere Produkte, sondern auch unseren Familiennamen, unseren Ruf und unser Versprechen von Exzellenz."
         }
       },
       {
         "num": "iii",
         "title": {
-          "en": "Quality is the floor",
-          "ar": "الجودة هي الحد الأدنى",
-          "fr": "La qualité est le plancher",
-          "de": "Qualität ist die Untergrenze"
+          "en": "Quality is built in",
+          "ar": "الجودة في صميم كل شيء",
+          "fr": "La qualité est intégrée",
+          "de": "Qualität ist eingebaut"
         },
         "description": {
-          "en": "Nineteen consecutive ISO audits, zero majors. Quality isn't a department — it's the building.",
-          "ar": "تسعة عشر تدقيقاً متتالياً لـ ISO بصفر ملاحظات كبرى. الجودة ليست قسماً — بل هي المبنى كله.",
-          "fr": "Dix-neuf audits ISO consécutifs, zéro non-conformité majeure. La qualité n'est pas un département — c'est tout l'immeuble.",
-          "de": "Neunzehn aufeinanderfolgende ISO-Audits, keine schwerwiegenden Abweichungen. Qualität ist keine Abteilung — sie ist das ganze Haus."
+          "en": "With nineteen consecutive ISO audits and zero major non-conformities, our commitment to quality extends far beyond compliance. It is embedded in our culture, our processes, and every product we deliver.",
+          "ar": "مع تسعة عشر تدقيقاً متتالياً لـ ISO دون أي ملاحظات كبرى، يتجاوز التزامنا بالجودة حدود الامتثال. فهي متجذرة في ثقافتنا وعملياتنا وفي كل منتج نقدمه.",
+          "fr": "Avec dix-neuf audits ISO consécutifs et zéro non-conformité majeure, notre engagement envers la qualité va bien au-delà de la conformité. Elle est ancrée dans notre culture, nos processus et chaque produit que nous livrons.",
+          "de": "Mit neunzehn aufeinanderfolgenden ISO-Audits und null schwerwiegenden Abweichungen geht unser Qualitätsanspruch weit über die Compliance hinaus. Er ist in unserer Kultur, unseren Prozessen und jedem Produkt verankert, das wir liefern."
         }
       },
       {
         "num": "iv",
         "title": {
-          "en": "Egypt, generously",
-          "ar": "مصر، بسخاء",
-          "fr": "L'Égypte, généreusement",
-          "de": "Ägypten, großzügig"
+          "en": "The best of Egypt. Shared with the world",
+          "ar": "أفضل ما في مصر. نشاركه مع العالم",
+          "fr": "Le meilleur de l'Égypte. Partagé avec le monde",
+          "de": "Das Beste Ägyptens. Geteilt mit der Welt"
         },
         "description": {
-          "en": "We grow what Egypt grows best, and we cook what we ship. We export the version of Egypt we serve at our own table.",
-          "ar": "نزرع ما تبدع مصر في زراعته، ونطهو ما نشحنه. نصدّر مصر التي نقدمها على مائدتنا.",
-          "fr": "Nous cultivons ce que l'Égypte cultive le mieux, et nous cuisinons ce que nous expédions. Nous exportons la version de l'Égypte que nous servons à notre propre table.",
-          "de": "Wir bauen an, was Ägypten am besten gedeiht, und wir kochen, was wir verschicken. Wir exportieren das Ägypten, das wir an unserem eigenen Tisch servieren."
+          "en": "We grow what Egypt grows best and preserve its freshness at the source. Every product we export is one we're proud to serve at our own table.",
+          "ar": "نزرع أفضل ما تجود به مصر ونحافظ على نضارته من المصدر. كل منتج نصدّره نفخر بتقديمه على مائدتنا.",
+          "fr": "Nous cultivons ce que l'Égypte cultive le mieux et préservons sa fraîcheur à la source. Chaque produit que nous exportons est un produit que nous sommes fiers de servir à notre propre table.",
+          "de": "Wir bauen an, was Ägypten am besten gedeiht, und bewahren seine Frische direkt an der Quelle. Jedes Produkt, das wir exportieren, servieren wir mit Stolz an unserem eigenen Tisch."
         }
       }
     ]
@@ -381,7 +381,7 @@
       "fr": "Montana est la maison des surgelés du Groupe Maamoun Brothers, une entreprise familiale dont les racines dans le commerce alimentaire égyptien remontent à 1909. Affiliée en 1985, elle est devenue un leader des légumes et fruits surgelés — avec plus d'un siècle de relations d'approvisionnement, d'échelle et d'exigence derrière chaque palette expédiée.",
       "de": "Montana ist das Tiefkühlhaus der Maamoun Brothers Group, eines Familienunternehmens, dessen Wurzeln im ägyptischen Lebensmittelhandel bis 1909 zurückreichen. 1985 angegliedert, wurde Montana zum Marktführer für tiefgekühltes Gemüse und Obst — mit mehr als einem Jahrhundert an Lieferbeziehungen, Größe und Standards hinter jeder Palette, die wir verschicken."
     },
-    "logo": "/images/logo/MaamounGroupLogo.png",
+    "logo": "/images/logo/maamoun-grp-green.jpg",
     "since": "1909",
     "cta": {
       "label": {
@@ -422,10 +422,10 @@
       {
         "name": "BRCGS",
         "description": {
-          "en": "British Retail Consortium Global Standard for packaging materials (GFSI-recognised)",
-          "ar": "المعيار العالمي لاتحاد تجار التجزئة البريطاني لمواد التعبئة والتغليف (معترف به من GFSI)",
-          "fr": "Norme mondiale du British Retail Consortium pour les matériaux d'emballage (reconnue GFSI)",
-          "de": "British Retail Consortium Global Standard für Verpackungsmaterialien (GFSI-anerkannt)"
+          "en": "British Retail Consortium Global Standard for food safety (GFSI-recognised)",
+          "ar": "المعيار العالمي لاتحاد تجار التجزئة البريطاني لسلامة الغذاء (معترف به من GFSI)",
+          "fr": "Norme mondiale du British Retail Consortium pour la sécurité alimentaire (reconnue GFSI)",
+          "de": "British Retail Consortium Global Standard für Lebensmittelsicherheit (GFSI-anerkannt)"
         }
       },
       {

@@ -127,11 +127,11 @@ export async function Footer({ locale }: FooterProps) {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/images/logo/MaamounGroupLogo.png"
+                    src="/images/logo/maamoun-grp-green.jpg"
                     alt={pick(site.parentCompany, locale)}
-                    width={650}
-                    height={460}
-                    className="h-20 w-auto"
+                    width={302}
+                    height={248}
+                    className="h-20 w-auto rounded-md"
                     decoding="async"
                     loading="lazy"
                   />

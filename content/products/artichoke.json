@@ -7,16 +7,16 @@
     "de": "Artischocke"
   },
   "shortDescription": {
-    "en": "Home-grown artichoke from best quality seeds — categorized into 3 sizes, French + Egyptian methods.",
-    "ar": "خرشوف مزروع محلياً من أجود البذور - مصنف في ٣ أحجام، بالطريقتين الفرنسية والمصرية.",
-    "fr": "Artichaut cultivé localement — classé en 3 tailles, méthodes française et égyptienne.",
-    "de": "Eigenangebaute Artischocken aus bestem Saatgut — in 3 Größen, nach französischer und ägyptischer Methode."
+    "en": "Home-grown artichoke from best quality seeds.",
+    "ar": "خرشوف مزروع في مزارعنا من أجود البذور.",
+    "fr": "Artichaut cultivé dans nos fermes à partir des meilleures semences.",
+    "de": "Artischocken aus eigenem Anbau von Saatgut bester Qualität."
   },
   "description": {
-    "en": "Montana grows its own artichoke from the best quality seeds and instantly transports it to the production lines, which maintains its full nutritional benefits. Categorized into 3 sizes: Small (40-50mm), Medium (50-60mm), Large (>60mm). Available in French method (dark color, natural smell, fresh flavor) and Egyptian method (white color, natural smell, fresh flavor).",
-    "ar": "تزرع مونتانا الخرشوف من أجود البذور وتنقله فوراً إلى خطوط الإنتاج، مما يحافظ على القيمة الغذائية الكاملة. مصنف في ٣ أحجام: صغير (٤٠-٥٠ ملم)، متوسط (٥٠-٦٠ ملم)، كبير (أكثر من ٦٠ ملم).",
-    "fr": "Montana cultive ses propres artichauts à partir de graines de meilleure qualité. Classé en 3 tailles.",
-    "de": "Montana baut seine Artischocken aus bestem Saatgut selbst an und transportiert sie sofort zu den Produktionslinien, um den vollen Nährwert zu erhalten. In 3 Größen: Klein (40–50 mm), Mittel (50–60 mm), Groß (>60 mm). Erhältlich nach französischer Methode (dunkle Farbe, natürlicher Geruch, frischer Geschmack) und ägyptischer Methode (weiße Farbe, natürlicher Geruch, frischer Geschmack)."
+    "en": "At Montana, quality begins in the field. We carefully harvest our premium artichokes early in the season to ensure a naturally tender texture and prevent fiber development. Every stage of processing is carried out with meticulous attention to detail, preserving the artichokes' vibrant color, appealing appearance, and superior quality — delivering a product that consistently meets the highest international standards.",
+    "ar": "في مونتانا، تبدأ الجودة من الحقل. نحصد خرشوفنا الفاخر بعناية في بداية الموسم لضمان قوام طري طبيعياً ومنع تكوّن الألياف. تُنفَّذ كل مرحلة من مراحل التصنيع بعناية فائقة بالتفاصيل، بما يحافظ على لون الخرشوف الزاهي ومظهره الجذاب وجودته الفائقة — لنقدم منتجاً يلبي باستمرار أعلى المعايير الدولية.",
+    "fr": "Chez Montana, la qualité commence au champ. Nous récoltons soigneusement nos artichauts premium en début de saison pour garantir une texture naturellement tendre et éviter le développement des fibres. Chaque étape de transformation est menée avec une attention méticuleuse aux détails, préservant la couleur éclatante, la belle apparence et la qualité supérieure des artichauts — pour un produit qui répond constamment aux normes internationales les plus élevées.",
+    "de": "Bei Montana beginnt Qualität auf dem Feld. Wir ernten unsere Premium-Artischocken sorgfältig früh in der Saison, um eine natürlich zarte Textur zu gewährleisten und Faserbildung zu vermeiden. Jede Verarbeitungsstufe erfolgt mit akribischer Sorgfalt und bewahrt die leuchtende Farbe, das ansprechende Aussehen und die überragende Qualität der Artischocken — für ein Produkt, das durchgängig höchsten internationalen Standards entspricht."
   },
   "category": "specialty",
   "featured": false,
@@ -32,41 +32,44 @@
       "sizes": [
         {
           "label": {
-            "en": "Small (A)",
-            "ar": "صغير (أ)",
-            "fr": "Petit (A)",
-            "de": "Klein (A)"
+            "en": "Small",
+            "ar": "صغير",
+            "fr": "Petit",
+            "de": "Klein"
           },
           "spec": {
-            "en": "40 – 50 mm",
-            "ar": "٤٠ – ٥٠ ملم",
-            "fr": "40 – 50 mm"
+            "en": "30 – 50 mm",
+            "ar": "٣٠ – ٥٠ مم",
+            "fr": "30 – 50 mm",
+            "de": "30 – 50 mm"
           }
         },
         {
           "label": {
-            "en": "Medium (B)",
-            "ar": "متوسط (ب)",
-            "fr": "Moyen (B)",
-            "de": "Mittel (B)"
+            "en": "Medium",
+            "ar": "متوسط",
+            "fr": "Moyen",
+            "de": "Mittel"
           },
           "spec": {
-            "en": "50 – 60 mm",
-            "ar": "٥٠ – ٦٠ ملم",
-            "fr": "50 – 60 mm"
+            "en": "50 – 70 mm",
+            "ar": "٥٠ – ٧٠ مم",
+            "fr": "50 – 70 mm",
+            "de": "50 – 70 mm"
           }
         },
         {
           "label": {
-            "en": "Large (C)",
-            "ar": "كبير (ج)",
-            "fr": "Grand (C)",
-            "de": "Groß (C)"
+            "en": "Large",
+            "ar": "كبير",
+            "fr": "Grand",
+            "de": "Groß"
           },
           "spec": {
-            "en": "> 60 mm",
-            "ar": "أكثر من ٦٠ ملم",
-            "fr": "> 60 mm"
+            "en": "> 70 mm",
+            "ar": "> ٧٠ مم",
+            "fr": "> 70 mm",
+            "de": "> 70 mm"
           }
         }
       ]
@@ -80,11 +83,26 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg",
+      "perCarton": "—"
     }
   ],
-  "seasonality": ["mar", "apr", "may"],
+  "seasonality": ["jan", "feb", "mar", "apr"],
   "images": {
     "primary": "/images/products/artichoke/montana-frozen-artichoke.jpg",
     "gallery": [
@@ -102,10 +120,10 @@
     "de": "Eine gute Quelle für Ballaststoffe, Folat, Vitamin C und Antioxidantien, von Natur aus fettarm. Selbst angebaut und sofort zur Linie gebracht, um den vollen Nährwert zu bewahren — ohne Zusätze."
   },
   "preparation": {
-    "en": "Cook hearts straight from frozen — no thawing. Sauté, roast, grill, braise in lemon and olive oil, or fold into pasta, risotto and salads. Pick the French (dark) or Egyptian (white) method to suit your dish.",
-    "ar": "تُطهى القلوب مباشرة من الفريزر دون تذويب. يمكن تشويحها أو شيّها أو طهيها في الليمون وزيت الزيتون، أو إضافتها للمكرونة والريزوتو والسلطات. اختر الطريقة الفرنسية (الداكنة) أو المصرية (البيضاء) حسب طبقك.",
-    "fr": "Cuisson des cœurs directement surgelés — sans décongélation. Sautez, rôtissez, grillez, braisez au citron et à l'huile d'olive, ou intégrez aux pâtes, risottos et salades. Méthode française (foncée) ou égyptienne (blanche) selon le plat.",
-    "de": "Herzen direkt gefroren zubereiten — kein Auftauen. Anbraten, rösten, grillen, in Zitrone und Olivenöl schmoren oder in Pasta, Risotto und Salate geben. Französische (dunkle) oder ägyptische (weiße) Methode nach Wunsch."
+    "en": "Cook hearts straight from frozen — no thawing. Sauté, roast, grill, braise in lemon and olive oil, or fold into pasta, risotto and salads.",
+    "ar": "تُطهى القلوب مباشرة من الفريزر دون تذويب. اقلِها أو حمّصها أو اشوِها أو اطهِها ببطء في الليمون وزيت الزيتون، أو أضِفها إلى المكرونة والريزوتو والسلطات.",
+    "fr": "Cuisez les cœurs directement surgelés — sans décongélation. Sautez, rôtissez, grillez, braisez au citron et à l'huile d'olive, ou incorporez aux pâtes, risottos et salades.",
+    "de": "Die Herzen direkt gefroren zubereiten — kein Auftauen. Anbraten, rösten, grillen, in Zitrone und Olivenöl schmoren oder in Pasta, Risotto und Salate geben."
   },
   "seo": {
     "title": {

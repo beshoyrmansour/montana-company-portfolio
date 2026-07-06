@@ -47,8 +47,8 @@ export const CERT_LOGOS: Record<string, string> = {
   Halal: '/images/certifications/halal.png',
   NFSA: '/images/certifications/nfsa.png',
   SMETA: '/images/certifications/smeta.png',
-  // BRCGS art is the "Packaging Materials" scheme; the wall copy was relabelled to
-  // match (see content/pages/{home,about}.json).
+  // BRCGS art is the client-supplied "Food Safety" scheme (white-on-green, solid
+  // background kept); the wall copy matches (see content/pages/{home,about}.json).
   BRCGS: '/images/certifications/brcgs.png',
   // Left OFF — fall back to the lucide icon + text until resolved:
   //   QCAP  — supplied art is a busy certificate scan, illegible at logo size.

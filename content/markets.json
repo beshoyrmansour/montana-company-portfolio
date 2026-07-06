@@ -1,12 +1,12 @@
 {
   "regions": [
     {
-      "id": "mena",
+      "id": "gcc",
       "name": {
-        "en": "Middle East & North Africa",
-        "ar": "الشرق الأوسط وشمال أفريقيا",
-        "fr": "Moyen-Orient & Afrique du Nord",
-        "de": "Naher Osten & Nordafrika"
+        "en": "GCC Countries",
+        "ar": "دول الخليج العربي (مجلس التعاون الخليجي)",
+        "fr": "Pays du CCG",
+        "de": "GCC-Staaten"
       },
       "color": "#147239",
       "leadTime": "4–10 days",
@@ -19,21 +19,12 @@
       "photo": "/images/markets/mena.jpg",
       "countries": [
         {
-          "iso": "EG",
-          "name": {
-            "en": "Egypt",
-            "ar": "مصر",
-            "fr": "Égypte",
-            "de": "Ägypten"
-          }
-        },
-        {
           "iso": "SA",
           "name": {
-            "en": "Kingdom of Saudi Arabia",
+            "en": "Saudi Arabia",
             "ar": "المملكة العربية السعودية",
-            "fr": "Royaume d'Arabie Saoudite",
-            "de": "Königreich Saudi-Arabien"
+            "fr": "Arabie Saoudite",
+            "de": "Saudi-Arabien"
           }
         },
         {
@@ -41,7 +32,17 @@
           "name": {
             "en": "United Arab Emirates",
             "ar": "الإمارات العربية المتحدة",
-            "fr": "Émirats Arabes Unis"
+            "fr": "Émirats Arabes Unis",
+            "de": "Vereinigte Arabische Emirate"
+          }
+        },
+        {
+          "iso": "QA",
+          "name": {
+            "en": "Qatar",
+            "ar": "قطر",
+            "fr": "Qatar",
+            "de": "Katar"
           }
         },
         {
@@ -63,15 +64,6 @@
           }
         },
         {
-          "iso": "QA",
-          "name": {
-            "en": "Qatar",
-            "ar": "قطر",
-            "fr": "Qatar",
-            "de": "Katar"
-          }
-        },
-        {
           "iso": "OM",
           "name": {
             "en": "Oman",
@@ -79,7 +71,27 @@
             "fr": "Oman",
             "de": "Oman"
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "middle-east",
+      "name": {
+        "en": "Middle East",
+        "ar": "دول الشرق الأوسط",
+        "fr": "Moyen-Orient",
+        "de": "Naher Osten"
+      },
+      "color": "#6FA84D",
+      "leadTime": "4–10 days",
+      "lede": {
+        "en": "Short sea and overland routes across the Levant and Türkiye put Egyptian favourites on regional tables within days.",
+        "ar": "طرق بحرية قصيرة وبرية عبر بلاد الشام وتركيا تضع المنتجات المصرية المفضلة على موائد المنطقة خلال أيام.",
+        "fr": "Des routes maritimes courtes et terrestres à travers le Levant et la Türkiye mettent les produits égyptiens sur les tables de la région en quelques jours.",
+        "de": "Kurze See- und Landrouten über die Levante und die Türkei bringen ägyptische Favoriten innerhalb weniger Tage auf die Tische der Region."
+      },
+      "photo": "/images/markets/mena.jpg",
+      "countries": [
         {
           "iso": "JO",
           "name": {
@@ -117,6 +129,15 @@
           }
         },
         {
+          "iso": "TR",
+          "name": {
+            "en": "Türkiye",
+            "ar": "تركيا",
+            "fr": "Türkiye",
+            "de": "Türkei"
+          }
+        },
+        {
           "iso": "PS",
           "name": {
             "en": "Palestine",
@@ -124,7 +145,27 @@
             "fr": "Palestine",
             "de": "Palästina"
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "north-africa",
+      "name": {
+        "en": "North Africa",
+        "ar": "دول شمال أفريقيا",
+        "fr": "Afrique du Nord",
+        "de": "Nordafrika"
+      },
+      "color": "#D4A84A",
+      "leadTime": "5–12 days",
+      "lede": {
+        "en": "Westbound Mediterranean sailings out of Alexandria reach Libya, Tunisia and Algeria in a few days at sea.",
+        "ar": "رحلات متوسطية غرباً من الإسكندرية تصل إلى ليبيا وتونس والجزائر في أيام قليلة عبر البحر.",
+        "fr": "Les liaisons méditerranéennes vers l'ouest au départ d'Alexandrie atteignent la Libye, la Tunisie et l'Algérie en quelques jours de mer.",
+        "de": "Westgehende Mittelmeer-Verschiffungen ab Alexandria erreichen Libyen, Tunesien und Algerien in wenigen Tagen auf See."
+      },
+      "photo": "/images/markets/africa.jpg",
+      "countries": [
         {
           "iso": "LY",
           "name": {
@@ -144,12 +185,12 @@
           }
         },
         {
-          "iso": "SD",
+          "iso": "DZ",
           "name": {
-            "en": "Sudan",
-            "ar": "السودان",
-            "fr": "Soudan",
-            "de": "Sudan"
+            "en": "Algeria",
+            "ar": "الجزائر",
+            "fr": "Algérie",
+            "de": "Algerien"
           }
         }
       ]
@@ -173,12 +214,21 @@
       "photo": "/images/markets/europe.jpg",
       "countries": [
         {
-          "iso": "GB",
+          "iso": "BE",
           "name": {
-            "en": "United Kingdom",
-            "ar": "المملكة المتحدة",
-            "fr": "Royaume-Uni",
-            "de": "Vereinigtes Königreich"
+            "en": "Belgium",
+            "ar": "بلجيكا",
+            "fr": "Belgique",
+            "de": "Belgien"
+          }
+        },
+        {
+          "iso": "CY",
+          "name": {
+            "en": "Cyprus",
+            "ar": "قبرص",
+            "fr": "Chypre",
+            "de": "Zypern"
           }
         },
         {
@@ -200,30 +250,21 @@
           }
         },
         {
-          "iso": "BE",
+          "iso": "GR",
           "name": {
-            "en": "Belgium",
-            "ar": "بلجيكا",
-            "fr": "Belgique",
-            "de": "Belgien"
+            "en": "Greece",
+            "ar": "اليونان",
+            "fr": "Grèce",
+            "de": "Griechenland"
           }
         },
         {
-          "iso": "CH",
+          "iso": "NL",
           "name": {
-            "en": "Switzerland",
-            "ar": "سويسرا",
-            "fr": "Suisse",
-            "de": "Schweiz"
-          }
-        },
-        {
-          "iso": "SE",
-          "name": {
-            "en": "Sweden",
-            "ar": "السويد",
-            "fr": "Suède",
-            "de": "Schweden"
+            "en": "Netherlands",
+            "ar": "هولندا",
+            "fr": "Pays-Bas",
+            "de": "Niederlande"
           }
         },
         {
@@ -236,52 +277,99 @@
           }
         },
         {
-          "iso": "CY",
+          "iso": "PT",
           "name": {
-            "en": "Cyprus",
-            "ar": "قبرص",
-            "fr": "Chypre",
-            "de": "Zypern"
+            "en": "Portugal",
+            "ar": "البرتغال",
+            "fr": "Portugal",
+            "de": "Portugal"
           }
         },
         {
-          "iso": "TR",
+          "iso": "SE",
           "name": {
-            "en": "Turkey",
-            "ar": "تركيا",
-            "fr": "Turquie",
-            "de": "Türkei"
+            "en": "Sweden",
+            "ar": "السويد",
+            "fr": "Suède",
+            "de": "Schweden"
+          }
+        },
+        {
+          "iso": "GB",
+          "name": {
+            "en": "United Kingdom",
+            "ar": "المملكة المتحدة",
+            "fr": "Royaume-Uni",
+            "de": "Vereinigtes Königreich"
           }
         }
       ]
     },
     {
-      "id": "americas",
+      "id": "asia",
       "name": {
-        "en": "Americas",
-        "ar": "الأمريكتين",
-        "fr": "Amériques",
-        "de": "Amerika"
+        "en": "Asia",
+        "ar": "آسيا",
+        "fr": "Asie",
+        "de": "Asien"
       },
       "color": "#C8202E",
+      "leadTime": "18–28 days",
+      "lede": {
+        "en": "Suez transit east-bound to ports across China, Korea and India. Strawberries land before season opens in your local market.",
+        "ar": "عبور قناة السويس شرقًا إلى موانئ الصين وكوريا والهند. الفراولة تصل قبل افتتاح الموسم في سوقكم المحلي.",
+        "fr": "Transit du Suez vers les ports de Chine, de Corée et d'Inde. Les fraises arrivent avant l'ouverture de la saison sur votre marché local.",
+        "de": "Suez-Transit ostwärts zu Häfen in China, Korea und Indien. Erdbeeren treffen ein, bevor die Saison in Ihrem Markt beginnt."
+      },
+      "photo": "/images/markets/asia-pacific.jpg",
+      "countries": [
+        {
+          "iso": "CN",
+          "name": {
+            "en": "China",
+            "ar": "الصين",
+            "fr": "Chine",
+            "de": "China"
+          }
+        },
+        {
+          "iso": "KP",
+          "name": {
+            "en": "North Korea",
+            "ar": "كوريا الشمالية",
+            "fr": "Corée du Nord",
+            "de": "Nordkorea"
+          }
+        },
+        {
+          "iso": "IN",
+          "name": {
+            "en": "India",
+            "ar": "الهند",
+            "fr": "Inde",
+            "de": "Indien"
+          }
+        }
+      ]
+    },
+    {
+      "id": "north-america",
+      "name": {
+        "en": "North America",
+        "ar": "أمريكا الشمالية",
+        "fr": "Amérique du Nord",
+        "de": "Nordamerika"
+      },
+      "color": "#4F8EC0",
       "leadTime": "20–28 days",
       "lede": {
-        "en": "Trans-Atlantic via Algeciras to East Coast US, Caribbean, and South America. Cold chain unbroken from Egypt to your dock.",
-        "ar": "عبور المحيط الأطلسي عبر الجزيرة الخضراء إلى الساحل الشرقي الأمريكي والكاريبي وأمريكا الجنوبية. سلسلة تبريد دون انقطاع.",
-        "fr": "Transatlantique via Algésiras vers la côte Est des États-Unis, les Caraïbes et l'Amérique du Sud. Chaîne du froid ininterrompue.",
-        "de": "Transatlantisch über Algeciras an die US-Ostküste, in die Karibik und nach Südamerika. Kühlkette ununterbrochen von Ägypten bis zu Ihrem Hafen."
+        "en": "Trans-Atlantic via Algeciras to the US East Coast and Canada. Cold chain unbroken from Egypt to your dock.",
+        "ar": "عبور المحيط الأطلسي عبر الجزيرة الخضراء إلى الساحل الشرقي الأمريكي وكندا. سلسلة تبريد دون انقطاع من مصر إلى رصيفكم.",
+        "fr": "Transatlantique via Algésiras vers la côte Est des États-Unis et le Canada. Chaîne du froid ininterrompue de l'Égypte à votre quai.",
+        "de": "Transatlantisch über Algeciras an die US-Ostküste und nach Kanada. Kühlkette ununterbrochen von Ägypten bis zu Ihrem Hafen."
       },
       "photo": "/images/markets/americas.jpg",
       "countries": [
-        {
-          "iso": "US",
-          "name": {
-            "en": "United States",
-            "ar": "الولايات المتحدة",
-            "fr": "États-Unis",
-            "de": "Vereinigte Staaten"
-          }
-        },
         {
           "iso": "CA",
           "name": {
@@ -290,24 +378,33 @@
             "fr": "Canada",
             "de": "Kanada"
           }
+        },
+        {
+          "iso": "US",
+          "name": {
+            "en": "United States",
+            "ar": "الولايات المتحدة",
+            "fr": "États-Unis",
+            "de": "Vereinigte Staaten"
+          }
         }
       ]
     },
     {
-      "id": "asia-pacific",
+      "id": "oceania",
       "name": {
-        "en": "Asia & Pacific",
-        "ar": "آسيا والمحيط الهادئ",
-        "fr": "Asie & Pacifique",
-        "de": "Asien & Pazifik"
+        "en": "Australia & Oceania",
+        "ar": "أستراليا وأوقيانوسيا",
+        "fr": "Australie & Océanie",
+        "de": "Australien & Ozeanien"
       },
-      "color": "#D4A84A",
+      "color": "#2F8F83",
       "leadTime": "18–28 days",
       "lede": {
-        "en": "Suez transit east-bound to Singapore, Tokyo, Sydney. Strawberries land before season opens in your local market.",
-        "ar": "عبور قناة السويس شرقًا إلى سنغافورة وطوكيو وسيدني. الفراولة تصل قبل افتتاح الموسم في سوقكم المحلي.",
-        "fr": "Transit du Suez vers Singapour, Tokyo, Sydney. Les fraises arrivent avant l'ouverture de la saison sur votre marché local.",
-        "de": "Suez-Transit ostwärts nach Singapur, Tokio, Sydney. Erdbeeren treffen ein, bevor die Saison in Ihrem Markt beginnt."
+        "en": "Suez transit east-bound to Melbourne, Sydney and Auckland — the cold chain unbroken across the equator.",
+        "ar": "عبور قناة السويس شرقًا إلى ملبورن وسيدني وأوكلاند — سلسلة التبريد دون انقطاع عبر خط الاستواء.",
+        "fr": "Transit du Suez vers Melbourne, Sydney et Auckland — la chaîne du froid ininterrompue à travers l'équateur.",
+        "de": "Suez-Transit ostwärts nach Melbourne, Sydney und Auckland — die Kühlkette ununterbrochen über den Äquator."
       },
       "photo": "/images/markets/asia-pacific.jpg",
       "countries": [
@@ -327,24 +424,6 @@
             "ar": "نيوزيلندا",
             "fr": "Nouvelle-Zélande",
             "de": "Neuseeland"
-          }
-        },
-        {
-          "iso": "AF",
-          "name": {
-            "en": "Afghanistan",
-            "ar": "أفغانستان",
-            "fr": "Afghanistan",
-            "de": "Afghanistan"
-          }
-        },
-        {
-          "iso": "MU",
-          "name": {
-            "en": "Mauritius",
-            "ar": "موريشيوس",
-            "fr": "Maurice",
-            "de": "Mauritius"
           }
         }
       ]

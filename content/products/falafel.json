@@ -7,16 +7,16 @@
     "de": "Falafel"
   },
   "shortDescription": {
-    "en": "Half-fried Egyptian falafel discs, ready to finish from frozen.",
-    "ar": "أقراص الفلافل المصرية نصف المقلية، جاهزة للتحضير من الفريزر.",
-    "fr": "Disques de falafel égyptien à demi-frits, prêts à finir de cuire surgelés.",
-    "de": "Halb frittierte ägyptische Falafel-Taler, direkt aus dem Gefrierfach fertigzubacken."
+    "en": "Montana's half-fried falafel is ready to finish straight from frozen. Available in authentic Egyptian and Levantine (Shami) styles, with a crispy golden crust and a soft, flavourful centre.",
+    "ar": "فلافل مونتانا نصف المقلية جاهزة لإتمام تحضيرها مباشرة من الفريزر. متوفرة بالطريقتين المصرية الأصيلة والشامية، بقشرة ذهبية مقرمشة وقلب طري غني بالنكهة.",
+    "fr": "Le falafel mi-frit de Montana se finit directement surgelé. Disponible en styles égyptien authentique et levantin (chami), avec une croûte dorée croustillante et un cœur moelleux et savoureux.",
+    "de": "Montanas halbfrittierte Falafel werden direkt aus dem Gefrierfach fertig zubereitet. Erhältlich in authentisch ägyptischer und levantinischer (Shami) Art, mit knuspriger goldener Kruste und weichem, aromatischem Kern."
   },
   "description": {
-    "en": "Montana's falafel is prepared from a traditional Egyptian recipe of crushed broad beans, fresh herbs and spices, shaped into discs and half-fried before being flash-frozen. Customers simply finish them in oil or oven straight from frozen for a crisp shell and a tender, green centre. Available half-fried or as a raw frozen paste.",
-    "ar": "تُحضَّر فلافل مونتانا وفق وصفة مصرية تقليدية من الفول المجروش والأعشاب الطازجة والتوابل، تُشكَّل أقراصًا وتُقلى نصف قلية قبل تجميدها سريعًا. يكفي تحضيرها في الزيت أو الفرن مباشرة من الفريزر للحصول على قشرة مقرمشة وقلب أخضر طري. متوفرة نصف مقلية أو كعجينة مجمدة.",
-    "fr": "La falafel de Montana est préparée selon une recette égyptienne traditionnelle de fèves concassées, d'herbes fraîches et d'épices, façonnée en disques et à demi-frite avant d'être surgelée. Elle se termine au four ou à la friture directement surgelée.",
-    "de": "Montanas Falafel wird nach einem traditionellen ägyptischen Rezept aus zerkleinerten dicken Bohnen, frischen Kräutern und Gewürzen zubereitet, zu Talern geformt und vor dem Schockgefrieren halb frittiert. Kunden backen sie einfach direkt aus dem Gefrierfach in Öl oder im Ofen fertig — für eine knusprige Hülle und einen zarten, grünen Kern. Erhältlich halb frittiert oder als rohe gefrorene Paste."
+    "en": "Montana offers authentic falafel in two traditional varieties: Egyptian falafel, made with premium fava beans, and Levantine (Shami) falafel, made with chickpeas. Expertly seasoned with fresh herbs and aromatic spices, each variety is available half-fried and ready to cook straight from frozen for a crispy golden crust and a soft, flavourful centre. Also available as a raw frozen falafel paste.",
+    "ar": "تقدم مونتانا فلافل أصيلة بنوعين تقليديين: الفلافل المصرية المصنوعة من الفول الفاخر، والفلافل الشامية المصنوعة من الحمص. متبّلة بمهارة بالأعشاب الطازجة والتوابل العطرية، وكل نوع متوفر نصف مقلي وجاهز للطهي مباشرة من الفريزر لقشرة ذهبية مقرمشة وقلب طري غني بالنكهة. متوفرة أيضاً كعجينة فلافل مجمدة نيئة.",
+    "fr": "Montana propose des falafels authentiques en deux variétés traditionnelles : le falafel égyptien, à base de fèves premium, et le falafel levantin (chami), à base de pois chiches. Savamment assaisonnée d'herbes fraîches et d'épices aromatiques, chaque variété est disponible mi-frite et prête à cuire directement surgelée pour une croûte dorée croustillante et un cœur moelleux et savoureux. Également disponible en pâte à falafel crue surgelée.",
+    "de": "Montana bietet authentische Falafel in zwei traditionellen Varianten: ägyptische Falafel aus Premium-Favabohnen und levantinische (Shami) Falafel aus Kichererbsen. Fachkundig mit frischen Kräutern und aromatischen Gewürzen gewürzt, ist jede Variante halbfrittiert erhältlich und direkt gefroren kochfertig — für eine knusprige goldene Kruste und einen weichen, aromatischen Kern. Auch als rohe gefrorene Falafelpaste erhältlich."
   },
   "category": "specialty",
   "featured": false,
@@ -24,18 +24,26 @@
   "varieties": [
     {
       "name": {
-        "en": "Half-Fried Falafel",
-        "ar": "فلافل نصف مقلية",
-        "fr": "Falafel à demi-frite",
-        "de": "Halb frittierte Falafel"
+        "en": "Egyptian falafel (fava beans)",
+        "ar": "فلافل مصرية (فول)",
+        "fr": "Falafel égyptien (fèves)",
+        "de": "Ägyptische Falafel (Favabohnen)"
       }
     },
     {
       "name": {
-        "en": "Frozen Falafel Paste",
+        "en": "Levantine · Shami falafel (chickpeas)",
+        "ar": "فلافل شامية (حمص)",
+        "fr": "Falafel levantin · chami (pois chiches)",
+        "de": "Levantinische · Shami-Falafel (Kichererbsen)"
+      }
+    },
+    {
+      "name": {
+        "en": "Frozen falafel paste",
         "ar": "عجينة فلافل مجمدة",
-        "fr": "Pâte de falafel surgelée",
-        "de": "Tiefgekühlte Falafel-Paste"
+        "fr": "Pâte à falafel surgelée",
+        "de": "Gefrorene Falafelpaste"
       }
     }
   ],
@@ -62,10 +70,10 @@
     "packaging": []
   },
   "nutrition": {
-    "en": "A wholesome source of plant protein and dietary fibre from broad beans (ful), with fresh herbs and spices. Half-fried and flash-frozen to lock in flavour — no artificial preservatives. A satisfying vegan and vegetarian option.",
-    "ar": "مصدر صحي للبروتين النباتي والألياف الغذائية من الفول، مع أعشاب طازجة وتوابل. تُقلى نصف قلية وتُجمَّد سريعاً للحفاظ على النكهة — بلا مواد حافظة صناعية. خيار نباتي مُشبِع.",
-    "fr": "Une source saine de protéines végétales et de fibres issues des fèves (ful), avec herbes fraîches et épices. À demi-frite puis surgelée pour préserver la saveur — sans conservateurs artificiels. Une option végane et végétarienne rassasiante.",
-    "de": "Eine vollwertige Quelle für pflanzliches Eiweiß und Ballaststoffe aus dicken Bohnen (Ful), mit frischen Kräutern und Gewürzen. Halb frittiert und schockgefroren, um den Geschmack zu bewahren — ohne künstliche Konservierungsstoffe. Eine sättigende vegane und vegetarische Option."
+    "en": "A wholesome source of plant protein and dietary fibre, with fresh herbs and spices. Half-fried and flash-frozen to lock in flavour — no artificial preservatives. A satisfying vegan and vegetarian option.",
+    "ar": "مصدر صحي للبروتين النباتي والألياف الغذائية، مع أعشاب طازجة وتوابل. نصف مقلية ومجمدة سريعاً للحفاظ على النكهة — بلا مواد حافظة صناعية. خيار نباتي مُشبع.",
+    "fr": "Une source saine de protéines végétales et de fibres alimentaires, avec herbes fraîches et épices. Mi-frit et surgelé rapidement pour préserver la saveur — sans conservateurs artificiels. Une option végane et végétarienne rassasiante.",
+    "de": "Eine gesunde Quelle für pflanzliches Eiweiß und Ballaststoffe, mit frischen Kräutern und Gewürzen. Halbfrittiert und schockgefroren, um den Geschmack zu bewahren — ohne künstliche Konservierungsstoffe. Eine sättigende vegane und vegetarische Option."
   },
   "preparation": {
     "en": "Cook straight from frozen — no thawing. Deep-fry or shallow-fry for 2–3 minutes, or bake in the oven, until the shell is golden and crisp and the centre is hot. Serve in pita, with tahini and salads, or as taameya the Egyptian way.",

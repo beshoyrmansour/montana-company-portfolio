@@ -7,16 +7,16 @@
     "de": "Granatapfel"
   },
   "shortDescription": {
-    "en": "Ruby-red pomegranate arils, hand-cleaned and IQF frozen.",
-    "ar": "حبوب رمان حمراء، منظّفة يدويًا ومجمّدة بطريقة IQF.",
-    "fr": "Grains de grenade rouge rubis, nettoyés à la main et surgelés IQF.",
-    "de": "Rubinrote Granatapfelkerne, von Hand gereinigt und IQF-gefroren."
+    "en": "Premium ruby-red pomegranate arils, carefully selected and IQF frozen to preserve their natural freshness, vibrant color, and rich flavor.",
+    "ar": "حبوب رمان ياقوتية فاخرة، منتقاة بعناية ومجمدة بتقنية IQF للحفاظ على نضارتها الطبيعية ولونها الزاهي ونكهتها الغنية.",
+    "fr": "Arilles de grenade rouge rubis premium, soigneusement sélectionnées et surgelées IQF pour préserver leur fraîcheur naturelle, leur couleur éclatante et leur saveur riche.",
+    "de": "Rubinrote Premium-Granatapfelkerne, sorgfältig ausgewählt und IQF-gefroren, um natürliche Frische, leuchtende Farbe und reichen Geschmack zu bewahren."
   },
   "description": {
-    "en": "Montana's pomegranate arils are separated from the freshest Egyptian fruit, cleaned by hand and IQF-frozen so every seed stays whole, jewel-bright and free-flowing. Ready to scatter over salads, desserts, drinks and grain bowls straight from frozen.",
-    "ar": "تُفصل حبوب رمان مونتانا من أجود الثمار المصرية، وتُنظَّف يدويًا وتُجمَّد بطريقة الـ IQF لتبقى كل حبة كاملة وزاهية اللون وسهلة الفرز. جاهزة للإضافة إلى السلطات والحلويات والمشروبات مباشرة من الفريزر.",
-    "fr": "Les grains de grenade de Montana sont extraits des fruits égyptiens les plus frais, nettoyés à la main et surgelés IQF pour que chaque graine reste entière, éclatante et non agglomérée. Prêts à parsemer salades, desserts et boissons directement surgelés.",
-    "de": "Montanas Granatapfelkerne werden aus den frischesten ägyptischen Früchten gelöst, von Hand gereinigt und IQF-gefroren, damit jeder Kern ganz, leuchtend und rieselfähig bleibt. Direkt aus dem Gefrierfach über Salate, Desserts und Getränke streubar."
+    "en": "Montana's premium pomegranate arils are carefully selected and IQF frozen at peak freshness to preserve their natural flavor, vibrant color, and premium quality. Ready to use straight from frozen in salads, desserts, beverages, and a variety of recipes.",
+    "ar": "حبوب رمان مونتانا الفاخرة منتقاة بعناية ومجمدة بتقنية IQF في ذروة نضارتها للحفاظ على نكهتها الطبيعية ولونها الزاهي وجودتها الفاخرة. جاهزة للاستخدام مباشرة من الفريزر في السلطات والحلويات والمشروبات ومجموعة متنوعة من الوصفات.",
+    "fr": "Les arilles de grenade premium de Montana sont soigneusement sélectionnées et surgelées IQF au pic de fraîcheur pour préserver leur saveur naturelle, leur couleur éclatante et leur qualité premium. Prêtes à l'emploi directement surgelées dans les salades, desserts, boissons et une variété de recettes.",
+    "de": "Montanas Premium-Granatapfelkerne werden sorgfältig ausgewählt und auf dem Höhepunkt der Frische IQF-gefroren, um natürlichen Geschmack, leuchtende Farbe und Premium-Qualität zu bewahren. Direkt gefroren einsatzbereit in Salaten, Desserts, Getränken und vielfältigen Rezepten."
   },
   "category": "fruit",
   "featured": false,
@@ -32,6 +32,11 @@
       "type": "foodservice",
       "weight": "1 kg",
       "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "2.5 kg",
+      "perCarton": "4 bags"
     }
   ],
   "seasonality": ["sep", "oct", "nov"],

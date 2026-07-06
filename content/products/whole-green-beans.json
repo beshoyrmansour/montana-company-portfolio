@@ -30,8 +30,23 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg / 20 lb / 24 lb / 30 lb",
+      "perCarton": "—"
     }
   ],
   "seasonality": ["jun", "jul", "aug", "sep"],

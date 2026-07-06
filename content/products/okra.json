@@ -31,11 +31,26 @@
       },
       "sizes": [
         {
-          "label": { "en": "Extra", "ar": "إكسترا", "fr": "Extra", "de": "Extra" },
-          "spec": { "en": "0 – 2.5 cm", "ar": "٠ – ٢٫٥ سم", "fr": "0 – 2,5 cm", "de": "0 – 2,5 cm" }
+          "label": {
+            "en": "Extra",
+            "ar": "إكسترا",
+            "fr": "Extra",
+            "de": "Extra"
+          },
+          "spec": {
+            "en": "0 – 2.5 cm",
+            "ar": "٠ – ٢٫٥ سم",
+            "fr": "0 – 2,5 cm",
+            "de": "0 – 2,5 cm"
+          }
         },
         {
-          "label": { "en": "Zero", "ar": "زيرو", "fr": "Zéro", "de": "Zero" },
+          "label": {
+            "en": "Zero",
+            "ar": "زيرو",
+            "fr": "Zéro",
+            "de": "Zero"
+          },
           "spec": {
             "en": "2.5 – 3.5 cm",
             "ar": "٢٫٥ – ٣٫٥ سم",
@@ -44,7 +59,12 @@
           }
         },
         {
-          "label": { "en": "Fine", "ar": "فاين", "fr": "Fine", "de": "Fein" },
+          "label": {
+            "en": "Fine",
+            "ar": "فاين",
+            "fr": "Fine",
+            "de": "Fein"
+          },
           "spec": {
             "en": "3.5 – 4.5 cm",
             "ar": "٣٫٥ – ٤٫٥ سم",
@@ -53,7 +73,12 @@
           }
         },
         {
-          "label": { "en": "Number 1", "ar": "رقم ١", "fr": "Numéro 1", "de": "Nummer 1" },
+          "label": {
+            "en": "Number 1",
+            "ar": "رقم ١",
+            "fr": "Numéro 1",
+            "de": "Nummer 1"
+          },
           "spec": {
             "en": "4.5 – 5.5 cm",
             "ar": "٤٫٥ – ٥٫٥ سم",
@@ -72,8 +97,23 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg",
+      "perCarton": "—"
     }
   ],
   "seasonality": ["jun", "jul", "aug", "sep"],

@@ -1,22 +1,22 @@
 {
   "slug": "green-beans",
   "name": {
-    "en": "Green Beans",
-    "ar": "فاصوليا خضراء",
-    "fr": "Haricots Verts",
-    "de": "Grüne Bohnen"
+    "en": "Cut Green Beans",
+    "ar": "فاصوليا خضراء مقطعة",
+    "fr": "Haricots verts coupés",
+    "de": "Geschnittene grüne Bohnen"
   },
   "shortDescription": {
-    "en": "Tender, vein-free Egyptian 'Bronko' green beans — broadly exported to Western Europe.",
-    "ar": "فاصوليا خضراء مصرية 'برونكو' طرية بدون عروق - تُصدّر على نطاق واسع.",
-    "fr": "Haricots verts 'Bronko' tendres, sans veines — exportés vers l'Europe occidentale.",
-    "de": "Zarte, fadenlose ägyptische 'Bronko'-Bohnen — vielfach nach Westeuropa exportiert."
+    "en": "Tender, stringless Egyptian 'Bronco' green beans, renowned for their premium quality and exported to markets around the world.",
+    "ar": "فاصوليا 'برونكو' المصرية الطرية الخالية من الألياف، مشهورة بجودتها الفاخرة وتُصدَّر إلى الأسواق حول العالم.",
+    "fr": "Haricots verts égyptiens « Bronco », tendres et sans fils, réputés pour leur qualité premium et exportés vers les marchés du monde entier.",
+    "de": "Zarte, fadenlose ägyptische 'Bronco'-Bohnen, bekannt für ihre Premium-Qualität und in Märkte weltweit exportiert."
   },
   "description": {
-    "en": "Several kinds of Green Beans grown in Egypt: 'Bronko' is broadly exported to Western Europe and is not produced for local consumption. Montana's Green Beans are known for being fresh, tender, free of veins and tasty. Available whole or cut.",
-    "ar": "هناك عدة أنواع من الفاصوليا الخضراء في مصر: 'برونكو' تُصدّر على نطاق واسع إلى أوروبا الغربية ولا تُنتج للاستهلاك المحلي. تتميز فاصوليا مونتانا الخضراء بأنها طازجة وطرية وخالية من العروق ولذيذة الطعم.",
-    "fr": "Plusieurs sortes de haricots verts en Égypte: 'Bronko' est largement exporté vers l'Europe occidentale. Les haricots verts de Montana sont connus pour être frais, tendres, sans veines et savoureux.",
-    "de": "In Ägypten werden mehrere Sorten grüner Bohnen angebaut: 'Bronko' wird vielfach nach Westeuropa exportiert und nicht für den lokalen Verzehr produziert. Montanas grüne Bohnen sind bekannt für ihre Frische, Zartheit, Fadenfreiheit und ihren Geschmack. Ganz oder geschnitten erhältlich."
+    "en": "Montana's premium Green Beans are carefully selected for their tender texture, stringless pods, and exceptional flavour. Available whole or cut, they are individually quick frozen (IQF) to lock in their natural taste, colour, and quality.",
+    "ar": "فاصوليا مونتانا الخضراء الفاخرة منتقاة بعناية لقوامها الطري وقرونها الخالية من الألياف ونكهتها الاستثنائية. متوفرة كاملة أو مقطعة، وتُجمّد فردياً بتقنية IQF للحفاظ على طعمها ولونها وجودتها الطبيعية.",
+    "fr": "Les haricots verts premium de Montana sont soigneusement sélectionnés pour leur texture tendre, leurs gousses sans fils et leur saveur exceptionnelle. Disponibles entiers ou coupés, ils sont surgelés individuellement (IQF) pour préserver leur goût, leur couleur et leur qualité naturels.",
+    "de": "Montanas Premium-Bohnen werden sorgfältig nach zarter Textur, fadenlosen Hülsen und außergewöhnlichem Geschmack ausgewählt. Ganz oder geschnitten erhältlich, werden sie einzeln schockgefroren (IQF), um natürlichen Geschmack, Farbe und Qualität zu bewahren."
   },
   "category": "vegetable",
   "featured": false,
@@ -47,8 +47,23 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg / 20 lb / 24 lb / 30 lb",
+      "perCarton": "—"
     }
   ],
   "seasonality": ["oct", "nov", "dec"],

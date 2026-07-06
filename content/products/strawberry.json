@@ -7,16 +7,16 @@
     "de": "Erdbeere"
   },
   "shortDescription": {
-    "en": "Wide spectrum of strawberry cultivars — processed and stored in less than 5 hours.",
-    "ar": "مجموعة واسعة من أصناف الفراولة - تعالج وتخزن في أقل من ٥ ساعات.",
-    "fr": "Large spectre de cultivars de fraises — traitées en moins de 5 heures.",
-    "de": "Breites Spektrum an Erdbeersorten — in weniger als 5 Stunden verarbeitet und eingelagert."
+    "en": "Only the finest strawberry varieties, harvested at peak ripeness and IQF-frozen to lock in their natural taste, freshness, and nutritional value.",
+    "ar": "أجود أصناف الفراولة فقط، تُحصد في ذروة نضجها وتُجمّد بتقنية IQF للحفاظ على طعمها الطبيعي ونضارتها وقيمتها الغذائية.",
+    "fr": "Seules les meilleures variétés de fraises, récoltées à pleine maturité et surgelées IQF pour préserver leur goût naturel, leur fraîcheur et leur valeur nutritionnelle.",
+    "de": "Nur die feinsten Erdbeersorten, auf dem Höhepunkt der Reife geerntet und IQF-gefroren, um natürlichen Geschmack, Frische und Nährwert zu bewahren."
   },
   "description": {
-    "en": "A very special product of Montana. A wide spectrum of Strawberry is grown in Egypt such as Schindler, Silvia, Douglas, Parker, Stefal, Camarosa, Soskieb, Doret and Sigasingana. At the factory, Strawberry is processed and stored in freezing caves in less than 5 hours to maintain its nutritional benefits.",
-    "ar": "منتج مميز جداً من مونتانا. تُزرع مجموعة واسعة من الفراولة في مصر مثل شيندلر، سيلفيا، دوغلاس، باركر، ستيفال، كاماروسا، سوسكيب، دوريت وسيجاسينجانا. في المصنع، تتم معالجة الفراولة وتخزينها في كهوف التجميد في أقل من ٥ ساعات.",
-    "fr": "Un produit très spécial de Montana. Un large spectre de fraises est cultivé en Égypte. À l'usine, les fraises sont traitées et stockées dans des grottes de gel en moins de 5 heures.",
-    "de": "Ein ganz besonderes Produkt von Montana. In Ägypten wird ein breites Spektrum an Erdbeersorten angebaut, darunter Schindler, Silvia, Douglas, Parker, Stefal, Camarosa, Soskieb, Doret und Sigasingana. Im Werk werden die Erdbeeren in weniger als 5 Stunden verarbeitet und in Gefrierkammern eingelagert, um ihren Nährwert zu bewahren."
+    "en": "Only the finest strawberry varieties are selected for their outstanding flavor, vibrant color, and excellent appearance. Harvested at peak ripeness and IQF-frozen to lock in their natural taste, freshness, and nutritional value.",
+    "ar": "نختار أجود أصناف الفراولة فقط لنكهتها المميزة ولونها الزاهي ومظهرها الرائع. تُحصد في ذروة نضجها وتُجمّد بتقنية IQF للحفاظ على طعمها الطبيعي ونضارتها وقيمتها الغذائية.",
+    "fr": "Seules les meilleures variétés de fraises sont sélectionnées pour leur saveur exceptionnelle, leur couleur éclatante et leur belle apparence. Récoltées à pleine maturité et surgelées IQF pour préserver leur goût naturel, leur fraîcheur et leur valeur nutritionnelle.",
+    "de": "Nur die feinsten Erdbeersorten werden für ihren herausragenden Geschmack, ihre leuchtende Farbe und ihr ausgezeichnetes Aussehen ausgewählt. Auf dem Höhepunkt der Reife geerntet und IQF-gefroren, um natürlichen Geschmack, Frische und Nährwert zu bewahren."
   },
   "category": "fruit",
   "featured": true,
@@ -29,11 +29,26 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg / 20 lb / 24 lb / 30 lb",
+      "perCarton": "—"
     }
   ],
-  "seasonality": ["mar", "apr", "may"],
+  "seasonality": ["dec", "jan", "feb", "mar"],
   "images": {
     "primary": "/images/products/strawberry/montana-frozen-strawberry.jpg",
     "gallery": [
@@ -45,16 +60,16 @@
     "packaging": ["/images/products/strawberry/montana-frozen-strawberry-pack.png"]
   },
   "nutrition": {
-    "en": "Rich in vitamin C, manganese and antioxidants, low in calories. Processed and deep-frozen within 5 hours of harvest to lock in colour, sweetness and full nutrition — no added sugar.",
-    "ar": "غنية بفيتامين ج والمنغنيز ومضادات الأكسدة، ومنخفضة السعرات. تُعالَج وتُجمّد خلال 5 ساعات من الحصاد للحفاظ على اللون والحلاوة والقيمة الغذائية الكاملة — بلا سكر مضاف.",
-    "fr": "Riche en vitamine C, manganèse et antioxydants, peu calorique. Traitée et surgelée dans les 5 heures suivant la récolte pour préserver couleur, saveur et nutriments — sans sucre ajouté.",
-    "de": "Reich an Vitamin C, Mangan und Antioxidantien, kalorienarm. Innerhalb von 5 Stunden nach der Ernte verarbeitet und tiefgefroren, um Farbe, Süße und Nährstoffe zu bewahren — ohne Zuckerzusatz."
+    "en": "Rich in vitamin C, manganese, and antioxidants, and naturally low in calories. Processed and deep-frozen within 5 hours of harvest to preserve its vibrant color, natural sweetness, and full nutritional value — with no added sugar, artificial colors, or preservatives.",
+    "ar": "غنية بفيتامين ج والمنغنيز ومضادات الأكسدة، ومنخفضة السعرات طبيعياً. تُعالَج وتُجمّد خلال 5 ساعات من الحصاد للحفاظ على لونها الزاهي وحلاوتها الطبيعية وقيمتها الغذائية الكاملة — بدون سكر مضاف أو ألوان صناعية أو مواد حافظة.",
+    "fr": "Riche en vitamine C, manganèse et antioxydants, naturellement peu calorique. Transformée et surgelée dans les 5 heures suivant la récolte pour préserver sa couleur éclatante, sa douceur naturelle et toute sa valeur nutritionnelle — sans sucre ajouté, ni colorants artificiels, ni conservateurs.",
+    "de": "Reich an Vitamin C, Mangan und Antioxidantien, von Natur aus kalorienarm. Innerhalb von 5 Stunden nach der Ernte verarbeitet und tiefgefroren, um leuchtende Farbe, natürliche Süße und vollen Nährwert zu bewahren — ohne Zuckerzusatz, künstliche Farb- oder Konservierungsstoffe."
   },
   "preparation": {
-    "en": "Use straight from frozen in smoothies, juices, jams, bakery, yoghurt and desserts, or thaw briefly for coulis and sauces. IQF whole and sliced formats keep berries free-flowing for easy portioning.",
-    "ar": "تُستخدم مباشرة من الفريزر في العصائر والمشروبات والمربى والمخبوزات والزبادي والحلويات، أو تُذوّب قليلاً للصلصات والكوليه. صيغ الفراولة الكاملة والمقطّعة بتقنية IQF تبقى سهلة الفرز لسهولة التقسيم.",
-    "fr": "À utiliser directement surgelée dans smoothies, jus, confitures, pâtisserie, yaourts et desserts, ou décongelée brièvement pour coulis et sauces. Les formats IQF entiers et tranchés restent non agglomérés.",
-    "de": "Direkt gefroren für Smoothies, Säfte, Marmeladen, Backwaren, Joghurt und Desserts verwenden oder kurz auftauen für Coulis und Saucen. IQF ganz und geschnitten bleiben rieselfähig für einfaches Portionieren."
+    "en": "Ready to use straight from frozen — ideal for smoothies, juices, jams, bakery applications, yoghurt, and desserts. Simply thaw as needed for coulis and sauces. Available in IQF whole format, ensuring free-flowing berries for easy portioning, maximum convenience, and minimal waste.",
+    "ar": "جاهزة للاستخدام مباشرة من الفريزر — مثالية للعصائر والمشروبات والمربى والمخبوزات والزبادي والحلويات. تُذوّب حسب الحاجة للصلصات والكوليه. متوفرة كاملة بتقنية IQF لضمان حبات سهلة الفرز لتقسيم سهل وراحة قصوى وأقل هدر.",
+    "fr": "Prêtes à l'emploi directement surgelées — idéales pour smoothies, jus, confitures, pâtisserie, yaourts et desserts. Décongelez simplement selon les besoins pour coulis et sauces. Disponibles en format IQF entier, garantissant des baies non agglomérées pour un portionnement facile, une commodité maximale et un minimum de gaspillage.",
+    "de": "Direkt aus dem Gefrierfach einsatzbereit — ideal für Smoothies, Säfte, Marmeladen, Backwaren, Joghurt und Desserts. Für Coulis und Saucen einfach nach Bedarf auftauen. Erhältlich im IQF-Ganzfruchtformat mit rieselfähigen Beeren für einfaches Portionieren, maximale Bequemlichkeit und minimalen Abfall."
   },
   "seo": {
     "title": {

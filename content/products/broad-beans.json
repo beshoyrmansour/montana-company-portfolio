@@ -1,10 +1,10 @@
 {
   "slug": "broad-beans",
   "name": {
-    "en": "Broad Beans (Foul)",
+    "en": "Broad Beans (Fava Beans)",
     "ar": "فول أخضر",
-    "fr": "Fèves (Foul)",
-    "de": "Dicke Bohnen (Foul)"
+    "fr": "Fèves",
+    "de": "Dicke Bohnen (Favabohnen)"
   },
   "shortDescription": {
     "en": "Harvested from our farms direct to the production lines — vibrant green color and smooth texture.",
@@ -28,9 +28,29 @@
       "perCarton": "32 bags"
     },
     {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
       "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg",
+      "perCarton": "—"
     }
   ],
   "seasonality": ["mar", "apr", "may", "jun"],
@@ -45,16 +65,16 @@
     "packaging": ["/images/products/broad-beans/montana-frozen-broad-beans-pack.png"]
   },
   "nutrition": {
-    "en": "A rich plant protein source, high in dietary fibre, folate, iron and potassium with very little fat. IQF-frozen straight from our farms at peak ripeness to lock in the bright green colour and nutrients — no additives.",
-    "ar": "مصدر غني بالبروتين النباتي، وفير بالألياف الغذائية والفولات والحديد والبوتاسيوم وقليل الدهون. يُجمَّد تجميداً فورياً مباشرة من مزارعنا في ذروة النضج للحفاظ على لونه الأخضر الزاهي وقيمته الغذائية — بلا إضافات.",
-    "fr": "Une riche source de protéines végétales, riche en fibres, folate, fer et potassium, avec très peu de matières grasses. Surgelées IQF dès la récolte à pleine maturité pour préserver la couleur vert vif et les nutriments — sans additifs.",
-    "de": "Eine reiche pflanzliche Proteinquelle, reich an Ballaststoffen, Folat, Eisen und Kalium und sehr fettarm. IQF-gefroren direkt vom Feld bei voller Reife, um die leuchtend grüne Farbe und Nährstoffe zu bewahren — ohne Zusätze."
+    "en": "A naturally rich source of plant-based protein, dietary fibre, folate, iron, and potassium, with very little fat. Harvested at peak ripeness and IQF-frozen straight from our farms to preserve its vibrant green colour, fresh taste, and nutritional value — without any additives.",
+    "ar": "مصدر غني طبيعياً بالبروتين النباتي والألياف الغذائية والفولات والحديد والبوتاسيوم، مع نسبة ضئيلة جداً من الدهون. يُحصد في ذروة نضجه ويُجمّد بتقنية IQF مباشرة من مزارعنا للحفاظ على لونه الأخضر الزاهي وطعمه الطازج وقيمته الغذائية — دون أي إضافات.",
+    "fr": "Une source naturellement riche en protéines végétales, fibres alimentaires, folate, fer et potassium, avec très peu de matières grasses. Récoltées à pleine maturité et surgelées IQF directement depuis nos fermes pour préserver leur couleur verte éclatante, leur goût frais et leur valeur nutritionnelle — sans aucun additif.",
+    "de": "Eine von Natur aus reiche Quelle für pflanzliches Eiweiß, Ballaststoffe, Folat, Eisen und Kalium, mit sehr wenig Fett. Auf dem Höhepunkt der Reife geerntet und direkt von unseren Feldern IQF-gefroren, um leuchtend grüne Farbe, frischen Geschmack und Nährwert zu bewahren — ganz ohne Zusätze."
   },
   "preparation": {
-    "en": "Free-flowing and ready to cook from frozen — no thawing. Simmer in the Egyptian classic ful medames, fold into stews, rice and vegetable dishes, or blanch briefly as a tender green side.",
-    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِها في الفول المدمس المصري الكلاسيكي، أو أضِفها إلى اليخنات والأرز وأطباق الخضار، أو اسلقها قليلاً كطبق جانبي أخضر طري.",
-    "fr": "Non agglomérées et prêtes à cuire surgelées — sans décongélation. Mijotez-les dans le foul medames égyptien classique, incorporez-les aux ragoûts, au riz et aux plats de légumes, ou blanchissez-les brièvement en accompagnement tendre.",
-    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Im klassischen ägyptischen Ful Medames köcheln, in Eintöpfe, Reis und Gemüsegerichte geben oder kurz blanchieren als zarte grüne Beilage."
+    "en": "Ready to cook straight from frozen — no thawing needed. Its free-flowing format makes it easy to add to stews, rice, and vegetable dishes, or simply blanch for a fresh, tender side.",
+    "ar": "جاهز للطهي مباشرة من الفريزر — دون حاجة للتذويب. قوامه سهل الفرز يجعله سهل الإضافة إلى اليخنات والأرز وأطباق الخضار، أو اسلقه سريعاً كطبق جانبي طازج وطري.",
+    "fr": "Prêtes à cuire directement surgelées — sans décongélation. Leur format non aggloméré permet de les ajouter facilement aux ragoûts, au riz et aux plats de légumes, ou de les blanchir simplement pour un accompagnement frais et tendre.",
+    "de": "Direkt aus dem Gefrierfach kochfertig — kein Auftauen nötig. Dank des rieselfähigen Formats leicht in Eintöpfe, Reis- und Gemüsegerichte zu geben oder einfach blanchieren für eine frische, zarte Beilage."
   },
   "seo": {
     "title": {

@@ -16,10 +16,10 @@ import type { CatalogPage } from '@/schemas/page';
 
 /** Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). */
 const BREADCRUMB_LABELS: Record<Locale, { home: string; catalog: string }> = {
-  en: { home: 'Home', catalog: 'Catalog' },
+  en: { home: 'Home', catalog: 'Products' },
   ar: { home: 'الرئيسية', catalog: 'المنتجات' },
-  fr: { home: 'Accueil', catalog: 'Catalogue' },
-  de: { home: 'Startseite', catalog: 'Katalog' },
+  fr: { home: 'Accueil', catalog: 'Produits' },
+  de: { home: 'Startseite', catalog: 'Produkte' },
 };
 
 export const dynamic = 'error';
@@ -122,12 +122,14 @@ export default async function CatalogIndexPage({
           />
           <Container>
             <div className="relative z-10 mx-auto max-w-3xl text-center">
-              <span
-                className="eyebrow no-rule mb-6 inline-flex"
-                style={{ justifyContent: 'center' }}
-              >
-                {pick(page.hero.eyebrow, locale)}
-              </span>
+              {pick(page.hero.eyebrow, locale) && (
+                <span
+                  className="eyebrow no-rule mb-6 inline-flex"
+                  style={{ justifyContent: 'center' }}
+                >
+                  {pick(page.hero.eyebrow, locale)}
+                </span>
+              )}
               <h1
                 className="display mb-6"
                 style={{
@@ -137,7 +139,7 @@ export default async function CatalogIndexPage({
                   color: 'var(--color-text)',
                 }}
               >
-                {pick(page.hero.title, locale)}, <em>{pick(page.hero.titleEm, locale)}</em>
+                {pick(page.hero.title, locale)} <em>{pick(page.hero.titleEm, locale)}</em>
               </h1>
               <p className="text-body-lg text-text-muted mx-auto mb-10 max-w-2xl leading-relaxed">
                 {pick(page.hero.subtitle, locale)}
@@ -181,8 +183,19 @@ export default async function CatalogIndexPage({
               <h2 style={{ textAlign: 'center' }}>
                 <SplitTitle title={page.signatures.title} locale={locale} />
               </h2>
+              {page.signatures.body && (
+                <p
+                  style={{
+                    marginTop: 'var(--space-4)',
+                    color: 'var(--color-text-muted)',
+                    lineHeight: 'var(--leading-relaxed)',
+                  }}
+                >
+                  {pick(page.signatures.body, locale)}
+                </p>
+              )}
             </div>
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
               {signatures.map((product, idx) => (
                 <ProductCard
                   key={product.slug}

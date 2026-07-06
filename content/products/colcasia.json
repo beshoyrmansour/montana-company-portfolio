@@ -1,22 +1,22 @@
 {
   "slug": "colcasia",
   "name": {
-    "en": "Colcasia (Taro)",
+    "en": "Colocasia (Taro)",
     "ar": "قلقاس",
-    "fr": "Colocasia",
-    "de": "Kolokasie (Taro)"
+    "fr": "Colocase (Taro)",
+    "de": "Colocasia (Taro)"
   },
   "shortDescription": {
-    "en": "Upper-Egyptian taro — known for its large size and excellent taste. Green leaves included for cooking.",
-    "ar": "قلقاس صعيدي - معروف بحجمه الكبير ومذاقه المميز. تتوفر الأوراق الخضراء اللازمة للطهي.",
-    "fr": "Taro de Haute-Égypte — connu pour sa grande taille et son excellent goût.",
-    "de": "Oberägyptische Kolokasie — bekannt für ihre Größe und ihren ausgezeichneten Geschmack. Grüne Blätter zum Kochen inklusive."
+    "en": "Premium Upper Egyptian taro, renowned for its large size and exceptional taste. Includes green leaves for convenient cooking.",
+    "ar": "قلقاس صعيدي فاخر، مشهور بحجمه الكبير وطعمه الاستثنائي. يشمل الأوراق الخضراء لطهي مريح.",
+    "fr": "Taro premium de Haute-Égypte, réputé pour sa grande taille et son goût exceptionnel. Feuilles vertes incluses pour une cuisson pratique.",
+    "de": "Premium-Taro aus Oberägypten, bekannt für seine Größe und seinen außergewöhnlichen Geschmack. Inklusive grüner Blätter zum bequemen Kochen."
   },
   "description": {
-    "en": "Montana produces the highest quality of Colcasia, well known for its large size and good taste. Each pack is provided with the green leaves needed for cooking.",
-    "ar": "تنتج مونتانا أعلى جودة من القلقاس، المعروف بحجمه الكبير ومذاقه الجيد. كل عبوة مزودة بالأوراق الخضراء اللازمة للطهي.",
-    "fr": "Montana utilise la meilleure qualité de Colcasia bien connue pour sa grande taille et son bon goût.",
-    "de": "Montana produziert Kolokasie höchster Qualität, bekannt für ihre Größe und ihren guten Geschmack. Jeder Packung liegen die zum Kochen benötigten grünen Blätter bei."
+    "en": "Montana brings you premium-quality Colocasia, carefully selected for its large size and delicious taste. Each pack comes complete with green leaves for convenient and authentic cooking.",
+    "ar": "تقدم لك مونتانا قلقاساً بجودة فاخرة، منتقى بعناية لحجمه الكبير وطعمه اللذيذ. كل عبوة تأتي كاملة مع الأوراق الخضراء لطهي مريح وأصيل.",
+    "fr": "Montana vous propose une colocase de qualité premium, soigneusement sélectionnée pour sa grande taille et son goût délicieux. Chaque paquet est fourni avec les feuilles vertes pour une cuisson pratique et authentique.",
+    "de": "Montana bietet Ihnen Colocasia in Premium-Qualität, sorgfältig ausgewählt nach Größe und köstlichem Geschmack. Jede Packung enthält die grünen Blätter für bequemes und authentisches Kochen."
   },
   "category": "specialty",
   "featured": false,
@@ -29,14 +29,30 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg",
+      "perCarton": "—"
     }
   ],
-  "seasonality": ["dec"],
+  "seasonality": ["oct", "nov", "dec", "jan"],
   "images": {
-    "primary": "/images/products/colcasia/montana-frozen-colcasia.jpg",
+    "primary": "/images/products/colcasia/montana-frozen-colocasia-cubes.jpg",
     "gallery": [
+      "/images/products/colcasia/montana-frozen-colcasia.jpg",
       "/images/products/colcasia/montana-frozen-colcasia-1.jpg",
       "/images/products/colcasia/montana-frozen-colcasia-2.jpg",
       "/images/products/colcasia/montana-frozen-colcasia-3.jpg"
@@ -50,10 +66,10 @@
     "de": "Eine nahrhafte stärkehaltige Wurzel, reich an komplexen Kohlenhydraten, Ballaststoffen, Kalium, Vitamin C und Vitamin E. Oberägyptische Kolokasie, IQF-gefroren bei höchster Qualität, um die feine Textur und die Nährstoffe zu bewahren — ohne Zusätze."
   },
   "preparation": {
-    "en": "Ready to cook from frozen — no thawing. Simmer in the Egyptian classic qolqas with chard or coriander broth, add to stews, or boil and fry. Each pack includes the green leaves traditionally cooked alongside it.",
-    "ar": "جاهز للطهي مباشرة من الفريزر دون تذويب. اطهِه في القلقاس المصري الكلاسيكي مع السلق أو شوربة الكزبرة، أو أضِفه إلى اليخنات، أو اسلقه واقلِه. كل عبوة مزودة بالأوراق الخضراء التي تُطهى معه تقليدياً.",
-    "fr": "Prêt à cuire surgelé — sans décongélation. Mijotez-le dans le qolqas égyptien classique avec de la blette ou un bouillon de coriandre, ajoutez-le aux ragoûts, ou faites-le bouillir puis frire. Chaque sachet contient les feuilles vertes cuisinées traditionnellement avec lui.",
-    "de": "Direkt aus dem Gefrierfach kochfertig — kein Auftauen. Im klassischen ägyptischen Qolqas mit Mangold oder Koriandersud köcheln, in Eintöpfe geben oder kochen und braten. Jeder Packung liegen die traditionell mitgekochten grünen Blätter bei."
+    "en": "Cook directly from frozen — no thawing required. Simmer in traditional Egyptian qolqas with Swiss chard or coriander, add to soups and stews, or simply boil and fry. Each pack includes the green leaves traditionally cooked alongside the taro for an authentic homemade flavor.",
+    "ar": "يُطهى مباشرة من الفريزر — دون حاجة للتذويب. اطهُه على نار هادئة في القلقاس المصري التقليدي بالسلق أو الكزبرة، أو أضِفه إلى الشوربات واليخنات، أو اسلقه واقلِه ببساطة. كل عبوة تشمل الأوراق الخضراء التي تُطهى تقليدياً مع القلقاس لنكهة بيتية أصيلة.",
+    "fr": "Cuisson directe sans décongélation. Faites mijoter dans le qolqas égyptien traditionnel avec blettes ou coriandre, ajoutez aux soupes et ragoûts, ou faites simplement bouillir puis frire. Chaque paquet inclut les feuilles vertes traditionnellement cuisinées avec le taro pour une saveur authentique et familiale.",
+    "de": "Direkt gefroren zubereiten — kein Auftauen nötig. Im traditionellen ägyptischen Qolqas mit Mangold oder Koriander köcheln, in Suppen und Eintöpfe geben oder einfach kochen und braten. Jede Packung enthält die grünen Blätter, die traditionell zusammen mit dem Taro gekocht werden — für authentischen, hausgemachten Geschmack."
   },
   "seo": {
     "title": {

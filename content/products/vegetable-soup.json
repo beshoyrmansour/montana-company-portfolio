@@ -7,16 +7,16 @@
     "de": "Suppengemüse"
   },
   "shortDescription": {
-    "en": "A diced mix of garden vegetables, ready for the pot and IQF frozen.",
-    "ar": "خليط من الخضروات المقطّعة، جاهز للطهي ومجمّد بطريقة IQF.",
-    "fr": "Un mélange de légumes coupés, prêt pour la marmite et surgelé IQF.",
-    "de": "Eine gewürfelte Mischung aus Gartengemüse, topffertig und IQF-gefroren."
+    "en": "A premium blend of diced vegetables, carefully prepared and IQF frozen to preserve their natural freshness and quality.",
+    "ar": "خلطة فاخرة من الخضار المقطعة، محضّرة بعناية ومجمدة بتقنية IQF للحفاظ على نضارتها وجودتها الطبيعية.",
+    "fr": "Un mélange premium de légumes en dés, soigneusement préparés et surgelés IQF pour préserver leur fraîcheur et leur qualité naturelles.",
+    "de": "Eine Premium-Mischung gewürfelter Gemüse, sorgfältig zubereitet und IQF-gefroren, um natürliche Frische und Qualität zu bewahren."
   },
   "description": {
-    "en": "Montana's vegetable soup mix blends diced carrots, green beans, peas, broccoli and cauliflower, all prepared and IQF-frozen at their peak. Tip it straight from frozen into stock for a hearty soup, or into stews and stir-fries — no washing, peeling or chopping.",
-    "ar": "يجمع خليط شوربة الخضار من مونتانا بين الجزر والفاصوليا الخضراء والبسلة والبروكلي والقرنبيط المقطّعة، وكلها مُجهّزة ومجمّدة بطريقة الـ IQF في ذروتها. أضِفه مباشرة من الفريزر إلى المرق لشوربة دسمة، أو إلى اليخنات والمقالي — دون غسل أو تقشير أو تقطيع.",
-    "fr": "Le mélange à soupe de Montana réunit carottes, haricots verts, petits pois, brocoli et chou-fleur coupés, tous préparés et surgelés IQF à maturité. Versez-le directement surgelé dans un bouillon, un ragoût ou un sauté — sans laver, éplucher ni couper.",
-    "de": "Montanas Suppengemüse vereint gewürfelte Karotten, grüne Bohnen, Erbsen, Brokkoli und Blumenkohl, allesamt auf dem Höhepunkt zubereitet und IQF-gefroren. Direkt aus dem Gefrierfach in Brühe für eine herzhafte Suppe oder in Eintöpfe geben — ohne Waschen, Schälen oder Schneiden."
+    "en": "Montana's Vegetable Soup Mix is a carefully selected blend of premium vegetables, expertly prepared and IQF frozen to preserve their natural freshness, flavor, and texture. The mix is ready to use straight from frozen, with the vegetable composition customizable to meet customer requirements.",
+    "ar": "خلطة شوربة الخضار من مونتانا هي توليفة منتقاة بعناية من الخضار الفاخرة، محضّرة بمهارة ومجمدة بتقنية IQF للحفاظ على نضارتها ونكهتها وقوامها الطبيعي. الخلطة جاهزة للاستخدام مباشرة من الفريزر، مع إمكانية تخصيص مكونات الخضار حسب متطلبات العملاء.",
+    "fr": "Le mélange pour soupe de légumes de Montana est un assortiment soigneusement sélectionné de légumes premium, préparés avec expertise et surgelés IQF pour préserver leur fraîcheur, leur saveur et leur texture naturelles. Le mélange est prêt à l'emploi directement surgelé, avec une composition de légumes personnalisable selon les besoins des clients.",
+    "de": "Montanas Gemüsesuppen-Mix ist eine sorgfältig ausgewählte Mischung aus Premium-Gemüse, fachkundig zubereitet und IQF-gefroren, um natürliche Frische, Geschmack und Textur zu bewahren. Der Mix ist direkt gefroren einsatzbereit, wobei die Gemüsezusammensetzung nach Kundenwunsch angepasst werden kann."
   },
   "category": "vegetable",
   "featured": false,
@@ -30,8 +30,18 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
     }
   ],
   "seasonality": [],

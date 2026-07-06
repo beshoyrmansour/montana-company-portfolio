@@ -822,10 +822,10 @@
       {
         "name": "BRCGS",
         "description": {
-          "en": "British Retail Consortium Global Standard for packaging materials (GFSI-recognised)",
-          "ar": "المعيار العالمي لاتحاد تجار التجزئة البريطاني لمواد التعبئة والتغليف (معترف به من GFSI)",
-          "fr": "Norme mondiale du British Retail Consortium pour les matériaux d'emballage (reconnue GFSI)",
-          "de": "British Retail Consortium Global Standard für Verpackungsmaterialien (GFSI-anerkannt)"
+          "en": "British Retail Consortium Global Standard for food safety (GFSI-recognised)",
+          "ar": "المعيار العالمي لاتحاد تجار التجزئة البريطاني لسلامة الغذاء (معترف به من GFSI)",
+          "fr": "Norme mondiale du British Retail Consortium pour la sécurité alimentaire (reconnue GFSI)",
+          "de": "British Retail Consortium Global Standard für Lebensmittelsicherheit (GFSI-anerkannt)"
         }
       },
       {

@@ -7,16 +7,16 @@
     "de": "Blumenkohl"
   },
   "shortDescription": {
-    "en": "Fresh cauliflower all year round — pure white color from carefully pre-selected seeds.",
-    "ar": "قرنبيط طازج على مدار العام — بلونه الأبيض النقي نتيجة الاختيار الدقيق للبذور.",
-    "fr": "Chou-fleur frais toute l'année — couleur blanc pur grâce à une pré-sélection des semences.",
-    "de": "Frischer Blumenkohl das ganze Jahr — reinweiße Farbe aus sorgfältig ausgewähltem Saatgut."
+    "en": "Fresh cauliflower — pure white color from carefully pre-selected seeds.",
+    "ar": "قرنبيط طازج — لون أبيض ناصع من بذور منتقاة بعناية.",
+    "fr": "Chou-fleur frais — d'un blanc pur, issu de semences soigneusement pré-sélectionnées.",
+    "de": "Frischer Blumenkohl — reinweiße Farbe aus sorgfältig vorausgewähltem Saatgut."
   },
   "description": {
-    "en": "Montana provides fresh cauliflower all year long. Its pure white color assures its quality and nutritional benefits.",
-    "ar": "تقدم مونتانا قرنبيط طازج على مدار السنة. يضمن لونه الأبيض النقي جودته وقيمته الغذائية.",
-    "fr": "Montana offre du chou-fleur frais toute l'année, identifié par sa couleur d'un blanc pur.",
-    "de": "Montana liefert das ganze Jahr über frischen Blumenkohl. Seine reinweiße Farbe bürgt für Qualität und Nährwert."
+    "en": "Montana provides premium frozen cauliflower all year long. Its pure white color reflects its quality and nutritional value.",
+    "ar": "توفر مونتانا قرنبيطاً مجمداً فاخراً على مدار العام. لونه الأبيض الناصع يعكس جودته وقيمته الغذائية.",
+    "fr": "Montana propose un chou-fleur surgelé premium toute l'année. Sa couleur d'un blanc pur reflète sa qualité et sa valeur nutritionnelle.",
+    "de": "Montana bietet das ganze Jahr über Premium-Tiefkühl-Blumenkohl. Seine reinweiße Farbe spiegelt Qualität und Nährwert wider."
   },
   "category": "vegetable",
   "featured": true,
@@ -67,11 +67,26 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg",
+      "perCarton": "—"
     }
   ],
-  "seasonality": ["mar"],
+  "seasonality": ["dec", "jan", "feb"],
   "images": {
     "primary": "/images/products/cauliflower/montana-frozen-cauliflower.jpg",
     "gallery": [

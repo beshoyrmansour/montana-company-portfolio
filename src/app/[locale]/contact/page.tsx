@@ -166,9 +166,11 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 marginBottom: 'var(--space-12)',
               }}
             >
-              <span className="eyebrow no-rule" style={{ justifyContent: 'center' }}>
-                {pick(page.offices.eyebrow, locale)}
-              </span>
+              {pick(page.offices.eyebrow, locale) && (
+                <span className="eyebrow no-rule" style={{ justifyContent: 'center' }}>
+                  {pick(page.offices.eyebrow, locale)}
+                </span>
+              )}
               <h2 style={{ textAlign: 'center' }}>
                 <SplitTitle title={page.offices.title} locale={locale} />
               </h2>

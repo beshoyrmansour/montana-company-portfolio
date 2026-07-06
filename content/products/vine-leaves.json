@@ -26,11 +26,6 @@
       "type": "retail",
       "weight": "250 g",
       "perCarton": "32 bags"
-    },
-    {
-      "type": "foodservice",
-      "weight": "2.5 kg",
-      "perCarton": "4 bags"
     }
   ],
   "seasonality": ["may"],

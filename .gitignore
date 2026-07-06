@@ -55,3 +55,4 @@ content/inbox/*.json
 _raw/
 /resources
 /public/images/website
+/changes

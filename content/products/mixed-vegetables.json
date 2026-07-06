@@ -7,16 +7,16 @@
     "de": "Gemüsemischung"
   },
   "shortDescription": {
-    "en": "Available as 3-way and 4-way mixes — or fully customized to your specification: peas, carrots, green beans, sweet corn, broccoli, cauliflower.",
-    "ar": "متوفرة كخلطات ثلاثية ورباعية — أو مخصصة بالكامل حسب طلبك: بازلاء، جزر، فاصوليا خضراء، ذرة حلوة، بروكلي، قرنبيط.",
-    "fr": "Disponible en mélanges 3 et 4 composants — ou entièrement personnalisé : pois, carottes, haricots verts, maïs, brocoli, chou-fleur.",
-    "de": "Als 3er- und 4er-Mischung erhältlich — oder vollständig nach Ihren Vorgaben: Erbsen, Karotten, grüne Bohnen, Zuckermais, Brokkoli, Blumenkohl."
+    "en": "Choose from our 3-way and 4-way vegetable mixes, or create a custom blend to suit your requirements: peas, carrots, green beans, sweet corn, broccoli, and cauliflower.",
+    "ar": "اختر من خلطاتنا الثلاثية والرباعية من الخضار، أو أنشئ خلطة مخصصة تناسب متطلباتك: بازلاء وجزر وفاصوليا خضراء وذرة حلوة وبروكلي وقرنبيط.",
+    "fr": "Choisissez parmi nos mélanges de légumes à 3 et 4 composants, ou créez un mélange sur mesure selon vos besoins : petits pois, carottes, haricots verts, maïs doux, brocoli et chou-fleur.",
+    "de": "Wählen Sie aus unseren 3er- und 4er-Gemüsemischungen oder stellen Sie eine individuelle Mischung nach Ihren Anforderungen zusammen: Erbsen, Karotten, grüne Bohnen, Zuckermais, Brokkoli und Blumenkohl."
   },
   "description": {
-    "en": "Montana's mixed vegetables come as ready 3-way and 4-way blends and can be fully customized — the items and their ratios are set to each client's selection. Start from Regular (peas, green beans and carrot), add broccoli, sweet corn or cauliflower, or build any combination from Montana's full range of products. Tell us your recipe and we'll match it, batch after batch.",
-    "ar": "تأتي خضار مونتانا المشكّلة كخلطات جاهزة ثلاثية ورباعية، ويمكن تخصيصها بالكامل — إذ تُحدَّد العناصر ونسبها وفق اختيار كل عميل. ابدأ من العادي (بازلاء وفاصوليا خضراء وجزر)، وأضِف البروكلي أو الذرة الحلوة أو القرنبيط، أو كوّن أي مزيج من منتجات مونتانا. أخبرنا بوصفتك ونوفّرها لك، دفعة بعد دفعة.",
-    "fr": "Les légumes mélangés de Montana existent en mélanges 3 et 4 composants et sont entièrement personnalisables — les articles et leurs proportions sont définis selon la sélection de chaque client. Partez du Régulier (pois, haricots verts et carotte), ajoutez brocoli, maïs ou chou-fleur, ou composez toute combinaison à partir de la gamme Montana. Indiquez-nous votre recette et nous la reproduisons, lot après lot.",
-    "de": "Montanas Gemüsemischungen gibt es als fertige 3er- und 4er-Mischungen und sind vollständig anpassbar — Bestandteile und Anteile werden nach Kundenwunsch festgelegt. Beginnen Sie mit Standard (Erbsen, grüne Bohnen und Karotte), ergänzen Sie Brokkoli, Zuckermais oder Blumenkohl, oder stellen Sie jede Kombination aus dem Montana-Sortiment zusammen. Nennen Sie uns Ihr Rezept — wir liefern es, Charge für Charge."
+    "en": "Choose from our 3-way and 4-way vegetable mixes, or create a custom blend to suit your requirements. Available combinations include peas, carrots, green beans, sweet corn, broccoli, and cauliflower.",
+    "ar": "اختر من خلطاتنا الثلاثية والرباعية من الخضار، أو أنشئ خلطة مخصصة تناسب متطلباتك. تشمل التوليفات المتاحة البازلاء والجزر والفاصوليا الخضراء والذرة الحلوة والبروكلي والقرنبيط.",
+    "fr": "Choisissez parmi nos mélanges de légumes à 3 et 4 composants, ou créez un mélange sur mesure selon vos besoins. Les combinaisons disponibles comprennent petits pois, carottes, haricots verts, maïs doux, brocoli et chou-fleur.",
+    "de": "Wählen Sie aus unseren 3er- und 4er-Gemüsemischungen oder stellen Sie eine individuelle Mischung nach Ihren Anforderungen zusammen. Verfügbare Kombinationen umfassen Erbsen, Karotten, grüne Bohnen, Zuckermais, Brokkoli und Blumenkohl."
   },
   "category": "vegetable",
   "featured": false,
@@ -71,8 +71,23 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg / 20 lb / 24 lb / 30 lb",
+      "perCarton": "—"
     }
   ],
   "seasonality": [],

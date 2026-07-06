@@ -7,7 +7,7 @@
       "de": "Kontakt — Anfragen zum Tiefkühl-Export"
     },
     "description": {
-      "en": "Contact Montana's export desk for frozen vegetable & fruit quotes, specs, MOQ and lead times. We reply within one business day, in your language. Offices in Cairo, factory in Qalyub, Egypt.",
+      "en": "Contact Montana's export team for frozen vegetable & fruit quotes, specs, MOQ and lead times. We reply within one business day, in your language. Offices in Cairo, factory in Qalyub, Egypt.",
       "ar": "تواصل مع مكتب التصدير في مونتانا للحصول على عروض أسعار الخضراوات والفواكه المجمدة والمواصفات والحد الأدنى للطلب ومدد التسليم. نرد خلال يوم عمل واحد بلغتك. مكتب بالقاهرة ومصنع بالقليوب، مصر.",
       "fr": "Contactez le service export de Montana pour devis, spécifications, quantité minimale et délais sur les surgelés. Réponse sous un jour ouvré, dans votre langue. Bureau au Caire, usine à Qalyub, Égypte.",
       "de": "Kontaktieren Sie Montanas Export-Team für Angebote, Spezifikationen, MOQ und Lieferzeiten zu Tiefkühlgemüse & -obst. Antwort innerhalb eines Werktags, in Ihrer Sprache. Büro in Kairo, Werk in Qalyub, Ägypten."
@@ -36,17 +36,17 @@
         "de": "Sprechen wir"
       },
       "em": {
-        "en": "talk shipments.",
-        "ar": "نتحدث عن الشحنات.",
-        "fr": "expéditions.",
-        "de": "über Lieferungen."
+        "en": "discuss your shipments.",
+        "ar": "نناقش شحناتك.",
+        "fr": "de vos expéditions.",
+        "de": "über Ihre Lieferungen."
       }
     },
     "subtitle": {
-      "en": "Our export desk replies within one business day, in your language. Send a product and a quantity — we'll come back with specs, MOQ, lead time and price.",
-      "ar": "مكتب التصدير لدينا يرد خلال يوم عمل واحد، بلغتك. أرسل المنتج والكمية — سنعود إليك بالمواصفات والحد الأدنى للطلب ومدة التسليم والسعر.",
-      "fr": "Notre service export répond sous un jour ouvré, dans votre langue. Indiquez un produit et une quantité — nous reviendrons avec les spécifications, la quantité minimale, le délai et le prix.",
-      "de": "Unser Export-Team antwortet innerhalb eines Werktags, in Ihrer Sprache. Senden Sie Produkt und Menge — wir liefern Spezifikationen, MOQ, Lieferzeit und Preis."
+      "en": "Our export team responds within one business day. Tell us the product you need and the quantity and we'll get back to you with specifications, MOQ, lead time and pricing.",
+      "ar": "يرد فريق التصدير لدينا خلال يوم عمل واحد. أخبرنا بالمنتج الذي تحتاجه والكمية وسنعود إليك بالمواصفات والحد الأدنى للطلب ومدة التسليم والأسعار.",
+      "fr": "Notre équipe export répond sous un jour ouvré. Indiquez-nous le produit dont vous avez besoin et la quantité — nous reviendrons vers vous avec les spécifications, la quantité minimale, le délai et le prix.",
+      "de": "Unser Export-Team antwortet innerhalb eines Werktags. Nennen Sie uns Produkt und Menge — wir melden uns mit Spezifikationen, MOQ, Lieferzeit und Preisen."
     }
   },
   "form": {
@@ -228,12 +228,6 @@
   },
   "offices": {
     "enabled": true,
-    "eyebrow": {
-      "en": "Two desks, one company",
-      "ar": "مكتبان، شركة واحدة",
-      "fr": "Deux bureaux, une seule entreprise",
-      "de": "Zwei Standorte, ein Unternehmen"
-    },
     "title": {
       "lead": {
         "en": "Where to",
@@ -274,18 +268,18 @@
           "fr": "Zone industrielle bloc 4, gouvernorat de Qalyub"
         },
         "tel": "+202 421 65 139",
-        "email": "export@montanaeg.com",
+        "email": "montana@maamoungrp.com",
         "role": {
-          "en": "Production · export desk · quality lab",
-          "ar": "إنتاج · مكتب التصدير · مختبر الجودة",
-          "fr": "Production · service export · laboratoire qualité",
-          "de": "Produktion · Export-Team · Qualitätslabor"
+          "en": "Production · quality lab",
+          "ar": "إنتاج · مختبر الجودة",
+          "fr": "Production · laboratoire qualité",
+          "de": "Produktion · Qualitätslabor"
         },
         "hours": {
-          "en": "Sun–Thu · 08:00–17:00 EET",
-          "ar": "الأحد–الخميس · 08:00–17:00 توقيت القاهرة",
-          "fr": "Dim–Jeu · 08h00–17h00 EET",
-          "de": "So–Do · 08:00–17:00 EET"
+          "en": "Sun–Thu · 08:30–15:30 EET",
+          "ar": "الأحد–الخميس · 08:30–15:30 توقيت القاهرة",
+          "fr": "Dim–Jeu · 08h30–15h30 EET",
+          "de": "So–Do · 08:30–15:30 EET"
         },
         "map": {
           "query": "30.2292829,31.2164838",
@@ -310,19 +304,19 @@
           "ar": "52 شارع جامعة الدول العربية، الدقي، الجيزة",
           "fr": "52 rue Gamaet El Dewal, Dokki, Gizeh"
         },
-        "tel": "+20 111 222 3333",
+        "tel": "+202 333 75 408",
         "email": "info@montanaeg.com",
         "role": {
-          "en": "Commercial office · MENA accounts",
-          "ar": "مكتب تجاري · حسابات الشرق الأوسط وشمال أفريقيا",
-          "fr": "Bureau commercial · comptes MENA",
-          "de": "Vertriebsbüro · MENA-Kunden"
+          "en": "Export office · MENA accounts",
+          "ar": "مكتب التصدير · حسابات الشرق الأوسط وشمال أفريقيا",
+          "fr": "Bureau export · comptes MENA",
+          "de": "Exportbüro · MENA-Kunden"
         },
         "hours": {
-          "en": "Sun–Thu · 09:00–18:00 EET",
-          "ar": "الأحد–الخميس · 09:00–18:00 توقيت القاهرة",
-          "fr": "Dim–Jeu · 09h00–18h00 EET",
-          "de": "So–Do · 09:00–18:00 EET"
+          "en": "Sun–Thu · 10:00–15:00 EET",
+          "ar": "الأحد–الخميس · 10:00–15:00 توقيت القاهرة",
+          "fr": "Dim–Jeu · 10h00–15h00 EET",
+          "de": "So–Do · 10:00–15:00 EET"
         },
         "map": {
           "query": "52 Gamaet El Dewal St, Dokki, Giza, Egypt"
@@ -351,10 +345,10 @@
       }
     },
     "body": {
-      "en": "The 50,000 m² facility is twenty minutes north of Cairo on the Delta highway. Our production, quality lab and export desk all live here.",
-      "ar": "منشأة 50,000 متر مربع تبعد عشرين دقيقة شمال القاهرة على طريق الدلتا السريع. الإنتاج ومختبر الجودة ومكتب التصدير لدينا جميعاً موجودون هنا.",
-      "fr": "L'installation de 50 000 m² se trouve à vingt minutes au nord du Caire sur l'autoroute du delta. Notre production, notre laboratoire qualité et notre service export y sont tous installés.",
-      "de": "Die 50.000 m² große Anlage liegt zwanzig Minuten nördlich von Kairo an der Delta-Autobahn. Produktion, Qualitätslabor und Export-Team sind hier vereint."
+      "en": "The 50,000 m² facility is twenty minutes north of Cairo on the Cairo/Alex Agriculture Road. Our production and quality lab live here.",
+      "ar": "منشأة 50,000 متر مربع تبعد عشرين دقيقة شمال القاهرة على طريق مصر/الإسكندرية الزراعي. الإنتاج ومختبر الجودة لدينا موجودان هنا.",
+      "fr": "L'installation de 50 000 m² se trouve à vingt minutes au nord du Caire, sur la route agricole Le Caire/Alexandrie. Notre production et notre laboratoire qualité y sont installés.",
+      "de": "Die 50.000 m² große Anlage liegt zwanzig Minuten nördlich von Kairo an der Agrarstraße Kairo/Alexandria. Produktion und Qualitätslabor sind hier vereint."
     },
     "actions": [
       {
@@ -440,10 +434,10 @@
           "de": "Wie hoch ist Ihre Mindestbestellmenge?"
         },
         "a": {
-          "en": "Typically 1 full container (20' reefer, ~10 t) per product. For mixed orders, we accept blended containers starting from 12 t total.",
-          "ar": "عادة حاوية كاملة واحدة (20 قدم مبردة، حوالي 10 طن) لكل منتج. للطلبات المختلطة، نقبل حاويات مدمجة ابتداءً من 12 طناً إجمالياً.",
-          "fr": "Généralement 1 conteneur complet (20' réfrigéré, ~10 t) par produit. Pour les commandes mixtes, nous acceptons les conteneurs combinés à partir de 12 t au total.",
-          "de": "In der Regel 1 voller Container (20-Fuß-Kühlcontainer, ~10 t) pro Produkt. Für Mischbestellungen akzeptieren wir kombinierte Container ab insgesamt 12 t."
+          "en": "Typically 1 full container (20' reefer, ~10 t) per product. For mixed orders, we accept blended containers starting from 10 t total.",
+          "ar": "عادة حاوية كاملة واحدة (20 قدم مبردة، حوالي 10 طن) لكل منتج. للطلبات المختلطة، نقبل حاويات مدمجة ابتداءً من 10 أطنان إجمالياً.",
+          "fr": "Généralement 1 conteneur complet (20' réfrigéré, ~10 t) par produit. Pour les commandes mixtes, nous acceptons les conteneurs combinés à partir de 10 t au total.",
+          "de": "In der Regel 1 voller Container (20-Fuß-Kühlcontainer, ~10 t) pro Produkt. Für Mischbestellungen akzeptieren wir kombinierte Container ab insgesamt 10 t."
         }
       },
       {
@@ -454,10 +448,10 @@
           "de": "Wie schnell können Sie liefern?"
         },
         "a": {
-          "en": "Same-week for MENA destinations; 10–18 days for Europe; 18–28 days for APAC & Americas. We confirm vessel before issuing PI.",
-          "ar": "نفس الأسبوع لوجهات الشرق الأوسط وشمال أفريقيا؛ 10–18 يوماً لأوروبا؛ 18–28 يوماً لآسيا والمحيط الهادئ والأمريكتين. نؤكد السفينة قبل إصدار الفاتورة المبدئية.",
-          "fr": "Même semaine pour les destinations MENA ; 10–18 jours pour l'Europe ; 18–28 jours pour APAC et Amériques. Nous confirmons le navire avant d'émettre la facture pro forma.",
-          "de": "Noch in derselben Woche für MENA-Ziele; 10–18 Tage für Europa; 18–28 Tage für APAC & Amerika. Wir bestätigen das Schiff vor Ausstellung der Proformarechnung."
+          "en": "Orders are bagged and ready for shipping within 2 weeks of a signed and confirmed order.",
+          "ar": "يتم تجهيز الطلبات وتعبئتها لتكون جاهزة للشحن خلال أسبوعين من توقيع الطلب وتأكيده.",
+          "fr": "Les commandes sont ensachées et prêtes à expédier sous 2 semaines après signature et confirmation de la commande.",
+          "de": "Bestellungen sind innerhalb von 2 Wochen nach unterzeichneter und bestätigter Bestellung abgepackt und versandbereit."
         }
       },
       {
@@ -468,24 +462,38 @@
           "de": "Übernehmen Sie die Zolldokumentation?"
         },
         "a": {
-          "en": "Yes. COO, phytosanitary, health certificate, halal — included. Pre-clearance available for EU, GCC and US destinations.",
-          "ar": "نعم. شهادة المنشأ، الصحة النباتية، الشهادة الصحية، الحلال — كلها مشمولة. التخليص المسبق متاح لوجهات الاتحاد الأوروبي ودول الخليج والولايات المتحدة.",
-          "fr": "Oui. COO, phytosanitaire, certificat sanitaire, halal — inclus. Pré-dédouanement disponible pour les destinations UE, GCC et USA.",
-          "de": "Ja. Ursprungszeugnis, Pflanzengesundheits- und Gesundheitszeugnis, Halal — inklusive. Vorabverzollung für EU-, GCC- und US-Ziele verfügbar."
+          "en": "Yes. COC, phytosanitary, health certificate and certificate of origin.",
+          "ar": "نعم. شهادة المطابقة (COC)، وشهادة الصحة النباتية، والشهادة الصحية، وشهادة المنشأ.",
+          "fr": "Oui. COC, certificat phytosanitaire, certificat sanitaire et certificat d'origine.",
+          "de": "Ja. COC, Pflanzengesundheitszeugnis, Gesundheitszeugnis und Ursprungszeugnis."
         }
       },
       {
         "q": {
-          "en": "Private label / custom blends?",
-          "ar": "العلامات الخاصة / الخلطات المخصصة؟",
-          "fr": "Marques privées / mélanges sur mesure ?",
-          "de": "Eigenmarke / individuelle Mischungen?"
+          "en": "Private label?",
+          "ar": "العلامات الخاصة؟",
+          "fr": "Marque privée ?",
+          "de": "Eigenmarke?"
         },
         "a": {
-          "en": "Yes, from 8 t per SKU. Lead time +2 weeks for label proofing and first production.",
-          "ar": "نعم، من 8 طن لكل وحدة SKU. مدة التنفيذ +أسبوعين لمراجعة الملصقات والإنتاج الأول.",
-          "fr": "Oui, à partir de 8 t par SKU. Délai +2 semaines pour la validation des étiquettes et la première production.",
-          "de": "Ja, ab 8 t pro Artikel. Lieferzeit +2 Wochen für Etikettenfreigabe und Erstproduktion."
+          "en": "Private label available as per special agreements.",
+          "ar": "العلامة الخاصة متاحة وفق اتفاقيات خاصة.",
+          "fr": "La marque privée est disponible selon des accords spécifiques.",
+          "de": "Eigenmarken sind nach gesonderter Vereinbarung möglich."
+        }
+      },
+      {
+        "q": {
+          "en": "What shipping terms are available?",
+          "ar": "ما شروط الشحن المتاحة؟",
+          "fr": "Quelles conditions d'expédition proposez-vous ?",
+          "de": "Welche Lieferbedingungen bieten Sie an?"
+        },
+        "a": {
+          "en": "Different shipping terms are available to meet your requirements, including Ex Works (EXW), FOB and CIF.",
+          "ar": "تتوفر شروط شحن مختلفة لتلبية متطلباتكم، بما في ذلك تسليم المصنع (EXW) وFOB وCIF.",
+          "fr": "Différentes conditions d'expédition sont disponibles selon vos besoins, notamment Ex Works (EXW), FOB et CIF.",
+          "de": "Verschiedene Lieferbedingungen stehen zur Verfügung, darunter Ex Works (EXW), FOB und CIF."
         }
       }
     ]

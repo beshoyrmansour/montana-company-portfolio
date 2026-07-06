@@ -13,10 +13,10 @@
     "de": "Eigenangebaut aus hochwertigstem Saatgut — in 3 Formen je nach Kundenwunsch."
   },
   "description": {
-    "en": "Home grown of the highest quality seeds and produced in 3 different shapes upon customers' requests: Dices (1cm × 1cm), Crinkled dices, Slices.",
-    "ar": "مزروعة منزلياً من أجود البذور وتنتج في ٣ أشكال مختلفة بناءً على طلب العملاء: مكعبات (١سم × ١سم)، مكعبات مموجة، شرائح.",
-    "fr": "Cultivées à nos exploitations agricoles à partir de graines de meilleure qualité et produites sous 3 formes différentes selon la demande des clients.",
-    "de": "Eigenangebaut aus hochwertigstem Saatgut und in 3 verschiedenen Formen je nach Kundenwunsch: Würfel (1 cm × 1 cm), gewellte Würfel, Scheiben."
+    "en": "Home grown of the highest quality seeds and produced in 3 different shapes upon customers' requests: dices (1 cm × 1 cm), crinkled and slices.",
+    "ar": "مزروع في مزارعنا من أجود البذور ويُنتج بثلاثة أشكال مختلفة حسب طلبات العملاء: مكعبات (١ سم × ١ سم)، ومموّج، وشرائح.",
+    "fr": "Cultivées dans nos fermes à partir des meilleures semences et produites en 3 formes différentes selon les demandes des clients : dés (1 cm × 1 cm), ondulées et rondelles.",
+    "de": "Aus eigenem Anbau von Saatgut bester Qualität und auf Kundenwunsch in 3 verschiedenen Formen produziert: Würfel (1 cm × 1 cm), gewellt und Scheiben."
   },
   "category": "vegetable",
   "featured": false,
@@ -32,10 +32,10 @@
     },
     {
       "name": {
-        "en": "Crinkled dices",
-        "ar": "مكعبات مموجة",
-        "fr": "Dés gaufrés",
-        "de": "Gewellte Würfel"
+        "en": "Crinkled",
+        "ar": "مموج",
+        "fr": "Gaufré",
+        "de": "Gewellt"
       }
     },
     {
@@ -54,15 +54,37 @@
       "perCarton": "32 bags"
     },
     {
+      "type": "retail",
+      "weight": "400 g",
+      "perCarton": "20 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
       "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg",
+      "perCarton": "—"
     }
   ],
-  "seasonality": ["jan", "feb", "mar", "jun", "jul"],
+  "seasonality": ["oct", "nov", "dec", "jan", "feb"],
   "images": {
-    "primary": "/images/products/carrots/montana-frozen-carrots.jpg",
+    "primary": "/images/products/carrots/montana-frozen-carrot-slices.jpg",
     "gallery": [
+      "/images/products/carrots/montana-frozen-carrot-slices-2.jpg",
+      "/images/products/carrots/montana-frozen-carrots.jpg",
       "/images/products/carrots/montana-frozen-carrots-1.jpg",
       "/images/products/carrots/montana-frozen-carrots-2.jpg",
       "/images/products/carrots/montana-frozen-carrots-3.jpg"
@@ -70,16 +92,16 @@
     "packaging": []
   },
   "nutrition": {
-    "en": "Naturally sweet and rich in beta-carotene (vitamin A), fibre, potassium and antioxidants, with very few calories. Home-grown carrots IQF-frozen at peak ripeness to keep their bright orange colour and full nutrition — no additives.",
-    "ar": "حلوة بطبيعتها وغنية بالبيتا كاروتين (فيتامين أ) والألياف والبوتاسيوم ومضادات الأكسدة، مع سعرات قليلة جداً. جزر مزروع منزلياً يُجمَّد تجميداً فورياً في ذروة النضج للحفاظ على لونه البرتقالي الزاهي وقيمته الغذائية الكاملة — بلا إضافات.",
-    "fr": "Naturellement sucrées et riches en bêta-carotène (vitamine A), fibres, potassium et antioxydants, avec très peu de calories. Carottes de nos exploitations, surgelées IQF à pleine maturité pour préserver leur couleur orange vif et tous les nutriments — sans additifs.",
-    "de": "Von Natur aus süß und reich an Beta-Carotin (Vitamin A), Ballaststoffen, Kalium und Antioxidantien, bei sehr wenig Kalorien. Eigenangebaute Karotten, IQF-gefroren bei voller Reife, um die leuchtend orange Farbe und alle Nährstoffe zu bewahren — ohne Zusätze."
+    "en": "Naturally sweet and rich in beta-carotene (vitamin A), fibre, potassium and antioxidants, with very few calories. IQF-frozen at peak ripeness to keep their bright orange colour and full nutrition — no additives.",
+    "ar": "حلوة طبيعياً وغنية بالبيتا كاروتين (فيتامين أ) والألياف والبوتاسيوم ومضادات الأكسدة، مع سعرات قليلة جداً. تُجمّد بتقنية IQF في ذروة النضج للحفاظ على لونها البرتقالي الزاهي وقيمتها الغذائية الكاملة — بلا إضافات.",
+    "fr": "Naturellement sucrées et riches en bêta-carotène (vitamine A), fibres, potassium et antioxydants, avec très peu de calories. Surgelées IQF à pleine maturité pour conserver leur couleur orange vif et toute leur valeur nutritionnelle — sans additifs.",
+    "de": "Von Natur aus süß und reich an Beta-Carotin (Vitamin A), Ballaststoffen, Kalium und Antioxidantien, bei sehr wenig Kalorien. IQF-gefroren auf dem Höhepunkt der Reife, um leuchtend orange Farbe und vollen Nährwert zu bewahren — ohne Zusätze."
   },
   "preparation": {
     "en": "Free-flowing and ready to cook from frozen — no thawing. Add diced, crinkled or sliced carrots straight to soups, stews, stir-fries, rice and vegetable mixes, or roast and steam as a side. Pick the cut your dish needs.",
-    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. أضِف المكعبات أو المكعبات المموجة أو الشرائح مباشرة إلى الشوربات واليخنات والأطباق المقلية سريعاً والأرز وخلطات الخضار، أو حمّصها واطهِها بالبخار كطبق جانبي. اختر التقطيع المناسب لطبقك.",
-    "fr": "Non agglomérées et prêtes à cuire surgelées — sans décongélation. Ajoutez les dés, dés gaufrés ou tranches directement aux soupes, ragoûts, sautés, riz et mélanges de légumes, ou rôtissez et cuisez à la vapeur en accompagnement. Choisissez la coupe adaptée à votre plat.",
-    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Würfel, gewellte Würfel oder Scheiben direkt in Suppen, Eintöpfe, Pfannengerichte, Reis und Gemüsemischungen geben oder als Beilage rösten und dämpfen. Den passenden Schnitt für Ihr Gericht wählen."
+    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. أضِف المكعبات أو القطع المموجة أو الشرائح مباشرة إلى الشوربات واليخنات والأطباق المقلية سريعاً والأرز وخلطات الخضار، أو حمّصها واطهِها بالبخار كطبق جانبي. اختر التقطيع المناسب لطبقك.",
+    "fr": "Non agglomérées et prêtes à cuire surgelées — sans décongélation. Ajoutez les dés, la coupe gaufrée ou les tranches directement aux soupes, ragoûts, sautés, riz et mélanges de légumes, ou rôtissez et cuisez à la vapeur en accompagnement. Choisissez la coupe adaptée à votre plat.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Würfel, gewellten Schnitt oder Scheiben direkt in Suppen, Eintöpfe, Pfannengerichte, Reis und Gemüsemischungen geben oder als Beilage rösten und dämpfen. Den passenden Schnitt für Ihr Gericht wählen."
   },
   "seo": {
     "title": {
@@ -90,9 +112,9 @@
     },
     "description": {
       "en": "Premium IQF frozen carrots in three cuts — diced, crinkled and sliced, bright orange and additive-free, ready to cook from frozen. Family exporter since 1985, HACCP-ISO-BRC. Wholesale frozen carrots from Egypt to 30+ countries.",
-      "ar": "جزر مجمد فاخر بتقنية IQF بثلاثة أشكال — مكعبات ومكعبات مموجة وشرائح، برتقالي زاهٍ وخالٍ من الإضافات، جاهز للطهي من الفريزر. مُصدِّر عائلي منذ 1985 بشهادات HACCP وISO وBRC. جزر مجمد بالجملة من مصر لأكثر من 30 دولة.",
-      "fr": "Carottes surgelées IQF premium en trois coupes — dés, dés gaufrés et tranches, orange vif et sans additifs, prêtes à cuire surgelées. Exportateur familial depuis 1985, HACCP-ISO-BRC. Carottes surgelées en gros d'Égypte vers 30+ pays.",
-      "de": "Premium-Tiefkühl-Karotten in drei Schnitten — Würfel, gewellte Würfel und Scheiben, leuchtend orange und zusatzfrei, gefroren kochfertig. Familienexporteur seit 1985, HACCP-ISO-BRC. Karotten im Großhandel aus Ägypten in über 30 Länder."
+      "ar": "جزر مجمد فاخر بتقنية IQF بثلاثة أشكال — مكعبات وقطع مموجة وشرائح، برتقالي زاهٍ وخالٍ من الإضافات، جاهز للطهي من الفريزر. مُصدِّر عائلي منذ 1985 بشهادات HACCP وISO وBRC. جزر مجمد بالجملة من مصر لأكثر من 30 دولة.",
+      "fr": "Carottes surgelées IQF premium en trois coupes — dés, coupe gaufrée et tranches, orange vif et sans additifs, prêtes à cuire surgelées. Exportateur familial depuis 1985, HACCP-ISO-BRC. Carottes surgelées en gros d'Égypte vers 30+ pays.",
+      "de": "Premium-Tiefkühl-Karotten in drei Schnitten — Würfel, gewellter Schnitt und Scheiben, leuchtend orange und zusatzfrei, gefroren kochfertig. Familienexporteur seit 1985, HACCP-ISO-BRC. Karotten im Großhandel aus Ägypten in über 30 Länder."
     },
     "keywords": [
       "frozen carrots",

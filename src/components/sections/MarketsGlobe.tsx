@@ -29,6 +29,7 @@ const ISO_LATLNG: Record<string, [number, number]> = {
   PS: [31.952, 35.233],
   LY: [26.335, 17.228],
   TN: [33.887, 9.537],
+  DZ: [28.033, 1.659],
   SD: [12.863, 30.218],
   // Europe
   GB: [54.5, -3.0],
@@ -40,10 +41,16 @@ const ISO_LATLNG: Record<string, [number, number]> = {
   PL: [51.919, 19.145],
   CY: [35.126, 33.43],
   TR: [38.964, 35.243],
+  GR: [39.074, 21.824],
+  NL: [52.132, 5.291],
+  PT: [39.399, -8.224],
   // Americas
   US: [39.5, -98.5],
   CA: [58.0, -100.0],
   // Asia & Pacific
+  CN: [35.861, 104.195],
+  KP: [40.339, 127.51],
+  IN: [20.593, 78.962],
   AU: [-25.274, 133.775],
   NZ: [-40.901, 174.886],
   AF: [33.939, 67.71],
@@ -54,10 +61,13 @@ const ISO_LATLNG: Record<string, [number, number]> = {
 const ISLAND_PINS = new Set(['BH', 'MU']);
 
 const REGION_COLOR: Record<string, string> = {
-  mena: 'var(--color-brand-primary)',
+  gcc: 'var(--color-brand-primary)',
+  'middle-east': 'var(--color-brand-primary)',
+  'north-africa': 'var(--color-brand-amber)',
   europe: 'var(--color-brand-orange)',
-  americas: 'var(--color-brand-secondary)',
-  'asia-pacific': 'var(--color-brand-amber)',
+  asia: 'var(--color-brand-secondary)',
+  'north-america': 'var(--color-brand-secondary)',
+  oceania: 'var(--color-brand-amber)',
 };
 
 // Drag tuning

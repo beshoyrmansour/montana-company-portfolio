@@ -1,10 +1,10 @@
 {
   "seo": {
     "title": {
-      "en": "Frozen Vegetable & Fruit Catalogue — IQF",
-      "ar": "كتالوج الخضراوات والفواكه المجمدة — IQF",
-      "fr": "Catalogue de légumes & fruits surgelés IQF",
-      "de": "Katalog für Tiefkühlgemüse & -obst — IQF"
+      "en": "Products — IQF Frozen Vegetables & Fruit",
+      "ar": "المنتجات — خضراوات وفواكه مجمدة IQF",
+      "fr": "Produits — Légumes & fruits surgelés IQF",
+      "de": "Produkte — IQF-Tiefkühlgemüse & -obst"
     },
     "description": {
       "en": "Browse Montana's full IQF frozen catalogue — vegetables, fruits, leafy greens and specialties. Multiple grades, weights and pack formats for wholesale and retail. Download the PDF or request specs.",
@@ -23,29 +23,23 @@
   },
   "hero": {
     "enabled": true,
-    "eyebrow": {
-      "en": "Catalogue · 30 countries",
-      "ar": "الكتالوج · ٣٠ دولة",
-      "fr": "Catalogue · 30 pays",
-      "de": "Katalog · 30 Länder"
-    },
     "title": {
-      "en": "Our products",
-      "ar": "منتجاتنا",
-      "fr": "Nos produits",
-      "de": "Unsere Produkte"
+      "en": "Harvested at the right time.",
+      "ar": "يُحصد في الوقت المناسب.",
+      "fr": "Récoltés au bon moment.",
+      "de": "Geerntet zur richtigen Zeit."
     },
     "titleEm": {
-      "en": "at peak season.",
-      "ar": "في الموسم.",
-      "fr": "à pleine saison.",
-      "de": "auf dem Saisonhöhepunkt."
+      "en": "Frozen at the right moment.",
+      "ar": "يُجمّد في اللحظة المناسبة.",
+      "fr": "Surgelés au moment idéal.",
+      "de": "Gefroren im richtigen Moment."
     },
     "subtitle": {
-      "en": "From leafy greens to berries, we freeze them all at peak nutrition — and ship them to 30 countries.",
-      "ar": "من الأوراق الخضراء إلى التوت، نُجمدها جميعاً في ذروة قيمتها الغذائية — ونشحنها إلى ٣٠ دولة.",
-      "fr": "Des légumes-feuilles aux baies, nous surgelons tout au pic nutritionnel — et nous expédions vers 30 pays.",
-      "de": "Von Blattgemüse bis Beeren — wir gefrieren alles auf dem Nährstoffhöhepunkt und liefern in 30 Länder."
+      "en": "From leafy greens to berries, our products are frozen at peak freshness and nutrition, ensuring exceptional quality from our farms to customers in over 30 countries.",
+      "ar": "من الأوراق الخضراء إلى التوت، تُجمّد منتجاتنا في ذروة نضارتها وقيمتها الغذائية، بما يضمن جودة استثنائية من مزارعنا إلى عملائنا في أكثر من ٣٠ دولة.",
+      "fr": "Des légumes-feuilles aux baies, nos produits sont surgelés au pic de fraîcheur et de nutrition, garantissant une qualité exceptionnelle de nos fermes à nos clients dans plus de 30 pays.",
+      "de": "Von Blattgemüse bis Beeren — unsere Produkte werden auf dem Höhepunkt von Frische und Nährwert gefroren und garantieren außergewöhnliche Qualität von unseren Feldern zu Kunden in über 30 Ländern."
     },
     "ctaDownloadLabel": {
       "en": "Download full catalogue",
@@ -65,34 +59,40 @@
   "signatures": {
     "enabled": true,
     "eyebrow": {
-      "en": "Signature picks",
-      "ar": "مختاراتنا",
-      "fr": "Nos signatures",
-      "de": "Unsere Klassiker"
+      "en": "Best sellers",
+      "ar": "الأكثر مبيعاً",
+      "fr": "Meilleures ventes",
+      "de": "Bestseller"
     },
     "title": {
       "lead": {
-        "en": "The hero of every",
-        "ar": "البطل في كل",
-        "fr": "Le héros de chaque",
-        "de": "Der Star auf jedem"
+        "en": "Our most popular products,",
+        "ar": "منتجاتنا الأكثر شعبية،",
+        "fr": "Nos produits les plus populaires,",
+        "de": "Unsere beliebtesten Produkte,"
       },
       "em": {
-        "en": "plate.",
-        "ar": "وجبة.",
-        "fr": "repas.",
-        "de": "Teller."
+        "en": "trusted around the world.",
+        "ar": "موثوقة حول العالم.",
+        "fr": "plébiscités dans le monde entier.",
+        "de": "weltweit geschätzt."
       }
     },
-    "slugs": ["molokhia", "strawberry", "mixed-vegetables"]
+    "body": {
+      "en": "Discover our full range of premium products below.",
+      "ar": "اكتشف مجموعتنا الكاملة من المنتجات الفاخرة أدناه.",
+      "fr": "Découvrez ci-dessous notre gamme complète de produits premium.",
+      "de": "Entdecken Sie unten unser gesamtes Sortiment an Premium-Produkten."
+    },
+    "slugs": ["strawberry", "broccoli", "okra", "molokhia"]
   },
   "catalog": {
     "enabled": true,
     "eyebrow": {
-      "en": "Full catalogue",
-      "ar": "الكتالوج الكامل",
-      "fr": "Catalogue complet",
-      "de": "Vollständiger Katalog"
+      "en": "Full range",
+      "ar": "المجموعة الكاملة",
+      "fr": "Gamme complète",
+      "de": "Gesamtes Sortiment"
     },
     "titleTemplate": {
       "en": "${count} products,",

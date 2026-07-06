@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "catalog": "Catalog",
+    "catalog": "Products",
     "news": "News",
     "markets": "Markets",
     "contact": "Contact",
@@ -83,7 +83,7 @@
     "preparation": "Preparation",
     "breadcrumb": {
       "home": "Home",
-      "catalog": "Catalog"
+      "catalog": "Products"
     }
   },
   "contact": {

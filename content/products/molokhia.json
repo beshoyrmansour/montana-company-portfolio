@@ -7,10 +7,10 @@
     "de": "Molokhia"
   },
   "shortDescription": {
-    "en": "Egypt's signature green leaf — harvested and frozen within half an hour to preserve nutrition.",
-    "ar": "ورقة مصر المميزة - تُحصد وتُجمد خلال نصف ساعة للحفاظ على القيمة الغذائية.",
-    "fr": "Le légume-feuille emblématique d'Égypte — récolté et surgelé en moins d'une demi-heure.",
-    "de": "Ägyptens charakteristisches Blattgemüse — innerhalb einer halben Stunde geerntet und gefroren, um Nährstoffe zu bewahren."
+    "en": "Egypt's iconic leafy green, harvested at peak freshness and IQF-frozen within 30 minutes to lock in its natural goodness, vibrant color, and essential nutrients.",
+    "ar": "الورقة الخضراء المصرية الأيقونية، تُحصد في ذروة نضارتها وتُجمّد بتقنية IQF خلال 30 دقيقة للحفاظ على فوائدها الطبيعية ولونها الزاهي وعناصرها الغذائية الأساسية.",
+    "fr": "Le légume-feuille emblématique d'Égypte, récolté au pic de fraîcheur et surgelé IQF en 30 minutes pour préserver ses bienfaits naturels, sa couleur éclatante et ses nutriments essentiels.",
+    "de": "Ägyptens ikonisches Blattgemüse, auf dem Höhepunkt der Frische geerntet und innerhalb von 30 Minuten IQF-gefroren, um natürliche Güte, leuchtende Farbe und wichtige Nährstoffe zu bewahren."
   },
   "description": {
     "en": "Since molokhia is an Egyptian specialty, Montana is highly recognized for its popular signature variety. Harvested and delivered to the factory in less than half an hour, fresh leaves are washed, refinery-pulled and cut by the most advanced machinery, guaranteeing a defect-free product devoid of any additives or chemicals.",
@@ -44,11 +44,6 @@
       "type": "retail",
       "weight": "400 g",
       "perCarton": "20 bags"
-    },
-    {
-      "type": "foodservice",
-      "weight": "2.5 kg",
-      "perCarton": "4 bags"
     }
   ],
   "seasonality": ["jun", "jul", "aug", "sep", "oct"],

@@ -7,10 +7,10 @@
     "de": "Mango"
   },
   "shortDescription": {
-    "en": "Sun-ripened Egyptian mango, frozen as chunks and slices.",
-    "ar": "مانجو مصرية ناضجة، مجمدة كقطع وشرائح.",
-    "fr": "Mangue égyptienne mûrie au soleil, surgelée en morceaux et tranches.",
-    "de": "Sonnengereifte ägyptische Mango, gefroren als Stücke und Scheiben."
+    "en": "Premium Egyptian mango, available as chunks and slices, individually quick frozen (IQF) to preserve its natural flavor, color, and texture.",
+    "ar": "مانجو مصرية فاخرة، متوفرة قطعاً وشرائح، مجمدة فردياً بتقنية IQF للحفاظ على نكهتها ولونها وقوامها الطبيعي.",
+    "fr": "Mangue égyptienne premium, disponible en morceaux et en tranches, surgelée individuellement (IQF) pour préserver sa saveur, sa couleur et sa texture naturelles.",
+    "de": "Premium-Mango aus Ägypten, erhältlich als Stücke und Scheiben, einzeln schockgefroren (IQF), um natürlichen Geschmack, Farbe und Textur zu bewahren."
   },
   "description": {
     "en": "Montana's mango is grown in Egypt and harvested at full ripeness for its deep colour and natural sweetness. The fruit is peeled, cut and IQF-frozen to preserve its aroma and texture, ready for smoothies, desserts and food-service preparations all year round.",
@@ -30,8 +30,18 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
     }
   ],
   "seasonality": ["jul", "aug", "sep"],

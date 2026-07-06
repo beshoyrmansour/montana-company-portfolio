@@ -1,22 +1,22 @@
 {
   "slug": "potato",
   "name": {
-    "en": "Potato",
-    "ar": "بطاطس",
-    "fr": "Pomme de terre",
-    "de": "Kartoffeln"
+    "en": "Potato Cubes",
+    "ar": "مكعبات البطاطس",
+    "fr": "Pommes de terre en cubes",
+    "de": "Kartoffelwürfel"
   },
   "shortDescription": {
-    "en": "Peeled, diced Egyptian potatoes, blanched and IQF frozen.",
-    "ar": "بطاطس مصرية مقشّرة ومقطّعة مكعبات، مسلوقة سلقًا خفيفًا ومجمّدة بطريقة IQF.",
-    "fr": "Pommes de terre égyptiennes pelées et coupées en dés, blanchies et surgelées IQF.",
-    "de": "Geschälte, gewürfelte ägyptische Kartoffeln, blanchiert und IQF-gefroren."
+    "en": "Premium diced potatoes, peeled, blanched, and IQF frozen for maximum freshness, quality, and convenience.",
+    "ar": "مكعبات بطاطس فاخرة، مقشرة ومسلوقة جزئياً ومجمدة بتقنية IQF لأقصى درجات النضارة والجودة والراحة.",
+    "fr": "Pommes de terre en dés premium, pelées, blanchies et surgelées IQF pour un maximum de fraîcheur, de qualité et de commodité.",
+    "de": "Premium-Kartoffelwürfel, geschält, blanchiert und IQF-gefroren für maximale Frische, Qualität und Bequemlichkeit."
   },
   "description": {
-    "en": "Montana's potatoes are peeled, diced and lightly blanched, then IQF-frozen so each cube stays firm and separate. They cook straight from frozen into stews, soups, mixed-vegetable dishes and ready meals — no peeling, no waste.",
-    "ar": "تُقشَّر بطاطس مونتانا وتُقطَّع مكعبات وتُسلق سلقًا خفيفًا، ثم تُجمَّد بطريقة الـ IQF لتبقى كل مكعبة متماسكة ومنفصلة. تُطهى مباشرة من الفريزر في اليخنات والشوربات وأطباق الخضار المشكّلة — دون تقشير أو هدر.",
-    "fr": "Les pommes de terre de Montana sont pelées, coupées en dés et légèrement blanchies, puis surgelées IQF pour que chaque cube reste ferme et séparé. Elles se cuisinent directement surgelées dans les ragoûts, soupes et plats préparés.",
-    "de": "Montanas Kartoffeln werden geschält, gewürfelt und kurz blanchiert, dann IQF-gefroren, damit jeder Würfel fest und einzeln bleibt. Sie garen direkt aus dem Gefrierfach in Eintöpfen, Suppen, Gemüsegerichten und Fertigmenüs — ohne Schälen, ohne Abfall."
+    "en": "Montana's premium diced potatoes are carefully prepared and IQF frozen at peak freshness to maintain their natural flavor, firm texture, and consistent quality. Ready to use straight from frozen, they are ideal for soups, stews, mixed vegetable dishes, and a variety of ready meals.",
+    "ar": "مكعبات بطاطس مونتانا الفاخرة تُحضّر بعناية وتُجمّد بتقنية IQF في ذروة نضارتها للحفاظ على نكهتها الطبيعية وقوامها المتماسك وجودتها الثابتة. جاهزة للاستخدام مباشرة من الفريزر، وهي مثالية للشوربات واليخنات وأطباق الخضار المشكلة ومجموعة متنوعة من الوجبات الجاهزة.",
+    "fr": "Les pommes de terre en dés premium de Montana sont soigneusement préparées et surgelées IQF au pic de fraîcheur pour conserver leur saveur naturelle, leur texture ferme et leur qualité constante. Prêtes à l'emploi directement surgelées, elles sont idéales pour les soupes, ragoûts, plats de légumes mélangés et une variété de plats préparés.",
+    "de": "Montanas Premium-Kartoffelwürfel werden sorgfältig zubereitet und auf dem Höhepunkt der Frische IQF-gefroren, um natürlichen Geschmack, feste Textur und gleichbleibende Qualität zu erhalten. Direkt gefroren einsatzbereit, ideal für Suppen, Eintöpfe, Gemüsegerichte und vielfältige Fertiggerichte."
   },
   "category": "vegetable",
   "featured": false,
@@ -30,8 +30,18 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
     }
   ],
   "seasonality": ["feb", "mar", "apr", "may"],

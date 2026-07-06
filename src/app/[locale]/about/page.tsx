@@ -267,9 +267,14 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 <Image
                   src={page.parentGroup.logo}
                   alt={pick(page.parentGroup.title.em, locale) ?? 'Maamoun Brothers Group'}
-                  width={650}
-                  height={460}
-                  style={{ width: '100%', maxWidth: '280px', height: 'auto' }}
+                  width={302}
+                  height={248}
+                  style={{
+                    width: '100%',
+                    maxWidth: '280px',
+                    height: 'auto',
+                    borderRadius: 'var(--radius-md)',
+                  }}
                 />
                 {page.parentGroup.since && (
                   <span

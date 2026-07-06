@@ -28,15 +28,35 @@ export interface CountryMeta {
 /* ─── Per-region metadata ─── */
 
 export const REGION_META: Record<string, RegionMeta> = {
-  mena: {
+  gcc: {
     color: '#147239',
     leadTime: '4–10 days',
     lede: {
-      en: 'Our home region. Same-week container despatch by road and Red Sea ferry; the molokhia from Qalyub on a Riyadh table by Friday.',
-      ar: 'منطقتنا الأم. شحن أسبوعي عبر البر وعبارات البحر الأحمر؛ ملوخية القليوب على مائدة الرياض بحلول يوم الجمعة.',
-      fr: "Notre région d'origine. Expédition hebdomadaire par route et ferry de la mer Rouge ; la molokhia de Qalyub sur une table à Riyad avant vendredi.",
+      en: 'Our home region. Same-week container despatch by road and Red Sea ferry; the molokhia from Egypt on a Riyadh table by Friday.',
+      ar: 'منطقتنا الأم. شحن أسبوعي عبر البر وعبارات البحر الأحمر؛ ملوخية مصر على مائدة الرياض بحلول يوم الجمعة.',
+      fr: "Notre région d'origine. Expédition hebdomadaire par route et ferry de la mer Rouge ; la molokhia d'Égypte sur une table à Riyad avant vendredi.",
     },
     photo: '/images/markets/mena.jpg',
+  },
+  'middle-east': {
+    color: '#6FA84D',
+    leadTime: '4–10 days',
+    lede: {
+      en: 'Short sea and overland routes across the Levant and Türkiye put Egyptian favourites on regional tables within days.',
+      ar: 'طرق بحرية قصيرة وبرية عبر بلاد الشام وتركيا تضع المنتجات المصرية المفضلة على موائد المنطقة خلال أيام.',
+      fr: 'Des routes maritimes courtes et terrestres à travers le Levant et la Türkiye mettent les produits égyptiens sur les tables de la région en quelques jours.',
+    },
+    photo: '/images/markets/mena.jpg',
+  },
+  'north-africa': {
+    color: '#D4A84A',
+    leadTime: '5–12 days',
+    lede: {
+      en: 'Westbound Mediterranean sailings out of Alexandria reach Libya, Tunisia and Algeria in a few days at sea.',
+      ar: 'رحلات متوسطية غرباً من الإسكندرية تصل إلى ليبيا وتونس والجزائر في أيام قليلة عبر البحر.',
+      fr: "Les liaisons méditerranéennes vers l'ouest au départ d'Alexandrie atteignent la Libye, la Tunisie et l'Algérie en quelques jours de mer.",
+    },
+    photo: '/images/markets/africa.jpg',
   },
   europe: {
     color: '#B86A3E',
@@ -48,35 +68,35 @@ export const REGION_META: Record<string, RegionMeta> = {
     },
     photo: '/images/markets/europe.jpg',
   },
-  'asia-pacific': {
-    color: '#D4A84A',
+  asia: {
+    color: '#C8202E',
     leadTime: '18–28 days',
     lede: {
-      en: 'Suez transit east-bound to Singapore, Tokyo, Sydney. Strawberries land before season opens in your local market.',
-      ar: 'عبور قناة السويس شرقًا إلى سنغافورة وطوكيو وسيدني. الفراولة تصل قبل افتتاح الموسم في سوقكم المحلي.',
-      fr: "Transit du Suez vers Singapour, Tokyo, Sydney. Les fraises arrivent avant l'ouverture de la saison sur votre marché local.",
+      en: 'Suez transit east-bound to ports across China, Korea and India. Strawberries land before season opens in your local market.',
+      ar: 'عبور قناة السويس شرقًا إلى موانئ الصين وكوريا والهند. الفراولة تصل قبل افتتاح الموسم في سوقكم المحلي.',
+      fr: "Transit du Suez vers les ports de Chine, de Corée et d'Inde. Les fraises arrivent avant l'ouverture de la saison sur votre marché local.",
     },
     photo: '/images/markets/asia-pacific.jpg',
   },
-  americas: {
-    color: '#C8202E',
+  'north-america': {
+    color: '#4F8EC0',
     leadTime: '20–28 days',
     lede: {
-      en: 'Trans-Atlantic via Algeciras to East Coast US, Caribbean, and South America. Cold chain unbroken from Qalyub to your dock.',
-      ar: 'عبور المحيط الأطلسي عبر الجزيرة الخضراء إلى الساحل الشرقي الأمريكي والكاريبي وأمريكا الجنوبية. سلسلة تبريد دون انقطاع.',
-      fr: "Transatlantique via Algésiras vers la côte Est des États-Unis, les Caraïbes et l'Amérique du Sud. Chaîne du froid ininterrompue.",
+      en: 'Trans-Atlantic via Algeciras to the US East Coast and Canada. Cold chain unbroken from Egypt to your dock.',
+      ar: 'عبور المحيط الأطلسي عبر الجزيرة الخضراء إلى الساحل الشرقي الأمريكي وكندا. سلسلة تبريد دون انقطاع من مصر إلى رصيفكم.',
+      fr: "Transatlantique via Algésiras vers la côte Est des États-Unis et le Canada. Chaîne du froid ininterrompue de l'Égypte à votre quai.",
     },
     photo: '/images/markets/americas.jpg',
   },
-  africa: {
-    color: '#6FA84D',
-    leadTime: '8–18 days',
+  oceania: {
+    color: '#2F8F83',
+    leadTime: '18–28 days',
     lede: {
-      en: 'Red Sea down to Mombasa and Durban; West African route via Algeciras. Growing demand — six new markets opened in 2025.',
-      ar: 'البحر الأحمر نزولًا إلى مومباسا وديربان؛ المسار الغربي الأفريقي عبر الجزيرة الخضراء. طلب متزايد — ست أسواق جديدة في 2025.',
-      fr: "Mer Rouge jusqu'à Mombasa et Durban ; route ouest-africaine via Algésiras. Demande croissante — six nouveaux marchés en 2025.",
+      en: 'Suez transit east-bound to Melbourne, Sydney and Auckland — the cold chain unbroken across the equator.',
+      ar: 'عبور قناة السويس شرقًا إلى ملبورن وسيدني وأوكلاند — سلسلة التبريد دون انقطاع عبر خط الاستواء.',
+      fr: "Transit du Suez vers Melbourne, Sydney et Auckland — la chaîne du froid ininterrompue à travers l'équateur.",
     },
-    photo: '/images/markets/africa.jpg',
+    photo: '/images/markets/asia-pacific.jpg',
   },
 };
 
@@ -102,6 +122,9 @@ export const COUNTRY_META: Record<string, CountryMeta> = {
   TN: { flag: '🇹🇳', port: 'Radès', coords: [502.7, 361.1] },
   SD: { flag: '🇸🇩', port: 'Port Sudan', coords: [559.4, 423.5] },
 
+  // North Africa
+  DZ: { flag: '🇩🇿', port: 'Algiers', coords: [479.5, 380.2] },
+
   // Europe
   GB: { flag: '🇬🇧', port: 'Felixstowe', coords: [463.3, 274.9] },
   FR: { flag: '🇫🇷', port: 'Marseille / Le Havre', coords: [484.0, 317.0] },
@@ -112,12 +135,20 @@ export const COUNTRY_META: Record<string, CountryMeta> = {
   PL: { flag: '🇵🇱', port: 'Gdańsk', coords: [528.5, 294.9] },
   CY: { flag: '🇨🇾', port: 'Limassol', coords: [568.3, 358.4] },
   TR: { flag: '🇹🇷', port: 'Mersin', coords: [571.1, 344.2] },
+  GR: { flag: '🇬🇷', port: 'Piraeus', coords: [540.3, 344.0] },
+  NL: { flag: '🇳🇱', port: 'Rotterdam', coords: [489.8, 291.8] },
+  PT: { flag: '🇵🇹', port: 'Lisbon', coords: [452.9, 342.3] },
 
   // Americas
   US: { flag: '🇺🇸', port: 'New York / Long Beach', coords: [142.4, 303.7] },
   CA: { flag: '🇨🇦', port: 'Montreal', coords: [224.2, 210.5] },
 
-  // Asia-Pacific
+  // Asia
+  CN: { flag: '🇨🇳', port: 'Shanghai', coords: [767.3, 345.2] },
+  KP: { flag: '🇰🇵', port: 'Nampo', coords: [832.8, 339.4] },
+  IN: { flag: '🇮🇳', port: 'Nhava Sheva', coords: [707.1, 398.6] },
+
+  // Oceania
   AU: { flag: '🇦🇺', port: 'Melbourne / Sydney', coords: [859.4, 537.3] },
   NZ: { flag: '🇳🇿', port: 'Auckland', coords: [960.0, 591.4] },
   AF: { flag: '🇦🇫', port: 'via Karachi', coords: [664.5, 358.7] },

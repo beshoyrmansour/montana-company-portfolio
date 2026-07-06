@@ -1,22 +1,22 @@
 {
   "slug": "peas",
   "name": {
-    "en": "Peas",
-    "ar": "بازلاء",
-    "fr": "Petits Pois",
-    "de": "Erbsen"
+    "en": "Green Peas",
+    "ar": "بازلاء خضراء",
+    "fr": "Petits pois",
+    "de": "Grüne Erbsen"
   },
   "shortDescription": {
-    "en": "Best quality fresh peas of local and Greek types — harvested at peak sweetness.",
-    "ar": "بازلاء طازجة عالية الجودة من أنواع محلية ويونانية - تُحصد في ذروة الحلاوة.",
-    "fr": "Petits pois frais de meilleure qualité, types local et grec — récoltés à pic de douceur.",
-    "de": "Beste frische Erbsen lokaler und griechischer Sorten — auf dem Höhepunkt der Süße geerntet."
+    "en": "Fresh premium-quality peas, expertly harvested at the ideal stage of maturity to deliver outstanding freshness, natural sweetness, and consistent quality.",
+    "ar": "بازلاء طازجة بجودة فاخرة، تُحصد بمهارة في مرحلة النضج المثالية لتقدم نضارة استثنائية وحلاوة طبيعية وجودة ثابتة.",
+    "fr": "Petits pois frais de qualité premium, récoltés avec expertise au stade idéal de maturité pour offrir une fraîcheur exceptionnelle, une douceur naturelle et une qualité constante.",
+    "de": "Frische Erbsen in Premium-Qualität, fachkundig im idealen Reifestadium geerntet für herausragende Frische, natürliche Süße und gleichbleibende Qualität."
   },
   "description": {
-    "en": "Selecting the best Quality fresh peas of local and Greek Types. Montana schedules its peas production process with the beginning of the season to ensure freshness, tenderness and sugar high concentration. Peas are divided into 3 sizes: small, medium, and large.",
-    "ar": "نحن نختار البازلاء الطازجة الأفضل جودة من الأنواع المحلية واليونانية، وتنفذ مونتانا عملية إنتاج البازلاء بالتزامن مع بداية الموسم لضمان طازجة، طرية، مع الاحتفاظ بتركيز عالٍ من السكر. تنقسم البازلاء إلى ثلاثة أحجام: صغيرة، ومتوسطة، وكبيرة الحجم.",
-    "fr": "Avec une sélection de la meilleure qualité de pois frais de type local et grec, Montana met à l'œuvre le processus de production de pois qui coïncide avec le début de saison.",
-    "de": "Wir wählen beste frische Erbsen lokaler und griechischer Sorten. Montana richtet die Erbsenproduktion nach dem Saisonbeginn aus, um Frische, Zartheit und einen hohen Zuckergehalt zu sichern. Erbsen werden in 3 Größen unterteilt: klein, mittel und groß."
+    "en": "Montana carefully selects premium-quality fresh peas and processes them at the peak of the harvest season to preserve their natural freshness, tenderness, and sweet flavor, ensuring a consistently high-quality product.",
+    "ar": "تنتقي مونتانا بعناية بازلاء طازجة بجودة فاخرة وتعالجها في ذروة موسم الحصاد للحفاظ على نضارتها الطبيعية وطراوتها ونكهتها الحلوة، بما يضمن منتجاً عالي الجودة باستمرار.",
+    "fr": "Montana sélectionne soigneusement des petits pois frais de qualité premium et les transforme au plus fort de la saison de récolte pour préserver leur fraîcheur naturelle, leur tendreté et leur saveur sucrée, garantissant un produit d'une qualité constante.",
+    "de": "Montana wählt sorgfältig frische Erbsen in Premium-Qualität aus und verarbeitet sie auf dem Höhepunkt der Erntesaison, um natürliche Frische, Zartheit und süßen Geschmack zu bewahren — für ein durchgängig hochwertiges Produkt."
   },
   "category": "vegetable",
   "featured": false,
@@ -47,8 +47,23 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
+    },
+    {
+      "type": "bulk",
+      "weight": "10 kg / 20 lb / 24 lb / 30 lb",
+      "perCarton": "—"
     }
   ],
   "seasonality": ["jan", "feb", "dec"],
@@ -67,10 +82,10 @@
     "de": "Natürliche Quelle für pflanzliches Eiweiß und Ballaststoffe, mit Vitamin C, Vitamin K, Folat und Eisen. IQF-gefroren bei voller Süße, um Zucker, Farbe und Nährstoffe zu bewahren — ohne Zusätze."
   },
   "preparation": {
-    "en": "Free-flowing and ready to cook straight from frozen — no thawing. Simmer into soups, stews and rice, toss through pasta and salads, or steam as a quick side. Choose the size grade your dish needs, from small to large.",
-    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. أضِفها إلى الشوربات واليخنات والأرز، أو امزجها مع المكرونة والسلطات، أو اسلقها بالبخار كطبق جانبي سريع. اختر المقاس المناسب لطبقك، من الصغير إلى الكبير.",
-    "fr": "Non agglomérés et prêts à cuire directement surgelés — sans décongélation. Mijotez-les dans soupes, ragoûts et riz, ajoutez-les aux pâtes et salades, ou faites-les cuire à la vapeur en accompagnement rapide. Choisissez le calibre adapté à votre plat, du petit au grand.",
-    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. Für Suppen, Eintöpfe und Reis, zu Pasta und Salaten oder als schnelle Beilage gedämpft. Wählen Sie die passende Größenklasse, von klein bis groß."
+    "en": "Free-flowing and ready to cook straight from frozen — no thawing. Simmer into soups, stews and rice, toss through pasta and salads, or steam as a quick side.",
+    "ar": "سهلة الفرز وجاهزة للطهي مباشرة من الفريزر دون تذويب. اطهِها في الشوربات واليخنات والأرز، أو أضِفها إلى المكرونة والسلطات، أو اطهِها بالبخار كطبق جانبي سريع.",
+    "fr": "Non agglomérés et prêts à cuire directement surgelés — sans décongélation. Faites-les mijoter dans les soupes, ragoûts et riz, mélangez-les aux pâtes et salades, ou cuisez-les à la vapeur en accompagnement rapide.",
+    "de": "Rieselfähig und direkt aus dem Gefrierfach kochfertig — kein Auftauen. In Suppen, Eintöpfen und Reis köcheln, unter Pasta und Salate mischen oder als schnelle Beilage dämpfen."
   },
   "seo": {
     "title": {

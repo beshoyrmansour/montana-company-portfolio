@@ -1,22 +1,22 @@
 {
   "slug": "sweet-corn",
   "name": {
-    "en": "Sweet Corn",
-    "ar": "ذرة حلوة",
-    "fr": "Maïs Sucré",
-    "de": "Zuckermais"
+    "en": "Sweet Corn Kernels",
+    "ar": "حبوب الذرة الحلوة",
+    "fr": "Maïs doux en grains",
+    "de": "Zuckermais-Körner"
   },
   "shortDescription": {
-    "en": "Home grown of highest quality seeds — supervised by experts due to the sensitivity of the process.",
-    "ar": "مزروعة منزلياً من أجود البذور - يشرف عليها خبراء نظراً لحساسية العملية.",
-    "fr": "Cultivé à partir des meilleures semences — supervisé par des experts.",
-    "de": "Eigenangebaut aus hochwertigstem Saatgut — von Experten betreut, da der Prozess sehr sensibel ist."
+    "en": "Produced from carefully selected raw materials and processed under the supervision of strict quality standards to ensure premium quality, freshness, and excellent taste.",
+    "ar": "تُنتج من مواد خام منتقاة بعناية وتُعالج تحت إشراف معايير جودة صارمة لضمان جودة فاخرة ونضارة وطعم ممتاز.",
+    "fr": "Produit à partir de matières premières soigneusement sélectionnées et transformé sous la supervision de normes de qualité strictes pour garantir une qualité premium, de la fraîcheur et un goût excellent.",
+    "de": "Aus sorgfältig ausgewählten Rohstoffen produziert und unter Aufsicht strenger Qualitätsstandards verarbeitet, um Premium-Qualität, Frische und ausgezeichneten Geschmack zu gewährleisten."
   },
   "description": {
-    "en": "Home grown of the highest seeds, the harvest & production process are supervised by experts as they are very sensitive. Appealing to all ages, sweet corn is considered one of the special products of the company. Produced in two forms: Kernel and on Cob.",
-    "ar": "مزروعة منزلياً من أعلى البذور، تتم عملية الحصاد والإنتاج تحت إشراف خبراء نظراً لحساسيتها. ذرة حلوة جذابة لجميع الأعمار، وتعتبر من المنتجات الخاصة للشركة.",
-    "fr": "Montana cultive son propre maïs doux avec les meilleures semences récoltées. Le processus du maïs sucré est supervisé par des experts comme ils sont très sensibles.",
-    "de": "Eigenangebaut aus bestem Saatgut; Ernte und Produktion werden von Experten betreut, da sie sehr sensibel sind. Zuckermais spricht alle Altersgruppen an und zählt zu den besonderen Produkten des Unternehmens. In zwei Formen erhältlich: Körner und am Kolben."
+    "en": "Produced from carefully selected raw materials and processed under the supervision of strict quality standards to ensure premium quality, freshness, and excellent taste. Available in two forms: kernel and on the cob.",
+    "ar": "يُنتَج من مواد خام مختارة بعناية ويُصنَّع وفق معايير جودة صارمة لضمان جودة فائقة ونضارة ومذاق ممتاز. متوفر في شكلين: حبوب وعلى الكوز.",
+    "fr": "Produit à partir de matières premières soigneusement sélectionnées et transformé selon des normes de qualité strictes pour garantir une qualité premium, une fraîcheur et un goût excellents. Disponible sous deux formes : en grains et en épi.",
+    "de": "Aus sorgfältig ausgewählten Rohwaren hergestellt und unter strengen Qualitätsstandards verarbeitet, um Premium-Qualität, Frische und ausgezeichneten Geschmack zu gewährleisten. Erhältlich in zwei Formen: Körner und am Kolben."
   },
   "category": "vegetable",
   "featured": false,
@@ -47,8 +47,18 @@
     },
     {
       "type": "foodservice",
+      "weight": "1 kg",
+      "perCarton": "10 bags"
+    },
+    {
+      "type": "foodservice",
       "weight": "2.5 kg",
       "perCarton": "4 bags"
+    },
+    {
+      "type": "foodservice",
+      "weight": "5 kg",
+      "perCarton": "2 bags"
     }
   ],
   "seasonality": ["jul"],
