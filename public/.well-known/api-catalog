@@ -1,0 +1,21 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://montanaeg.com/api/contact",
+      "service-desc": [
+        {
+          "href": "https://montanaeg.com/docs/api/openapi.json",
+          "type": "application/openapi+json",
+          "title": "OpenAPI 3.1 description of the Montana website API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://montanaeg.com/en/contact",
+          "type": "text/html",
+          "title": "Contact Montana Frozen Foods"
+        }
+      ]
+    }
+  ]
+}

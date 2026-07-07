@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "created_at": "2026-07-07T05:06:31.340Z",
+  "lifetime": {
+    "total_tokens_estimated": 12591,
+    "total_reads": 8,
+    "total_writes": 12,
+    "total_sessions": 1,
+    "anatomy_hits": 8,
+    "anatomy_misses": 0,
+    "repeated_reads_blocked": 0,
+    "estimated_savings_vs_bare_cli": 1600
+  },
+  "sessions": [
+    {
+      "id": "session-2026-07-07-0807",
+      "started": "2026-07-07T05:07:56.132Z",
+      "ended": "2026-07-07T05:24:05.184Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/next.config.ts",
+          "tokens_estimated": 1729,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/vercel.json",
+          "tokens_estimated": 173,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/page.tsx",
+          "tokens_estimated": 506,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/robots.ts",
+          "tokens_estimated": 142,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/api/contact/route.ts",
+          "tokens_estimated": 1470,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/i18n.ts",
+          "tokens_estimated": 590,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/layout.tsx",
+          "tokens_estimated": 1409,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/proxy.ts",
+          "tokens_estimated": 412,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/vercel.json",
+          "tokens_estimated": 332,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/public/.well-known/api-catalog",
+          "tokens_estimated": 146,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/public/docs/api/openapi.json",
+          "tokens_estimated": 1345,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/public/.well-known/agent-skills/product-inquiry/SKILL.md",
+          "tokens_estimated": 733,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/public/.well-known/agent-skills/index.json",
+          "tokens_estimated": 151,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/components/agent/WebMcpTools.tsx",
+          "tokens_estimated": 1328,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/layout.tsx",
+          "tokens_estimated": 67,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/layout.tsx",
+          "tokens_estimated": 94,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/layout.tsx",
+          "tokens_estimated": 40,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/robots.txt/route.ts",
+          "tokens_estimated": 412,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/robots.txt/route.ts",
+          "tokens_estimated": 16,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/reference/agent-readiness.md",
+          "tokens_estimated": 1496,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 6431,
+        "output_tokens_estimated": 6160,
+        "reads_count": 8,
+        "writes_count": 12,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 8
+      }
+    }
+  ],
+  "daemon_usage": [],
+  "waste_flags": [],
+  "optimization_report": {
+    "last_generated": null,
+    "patterns": []
+  }
+}

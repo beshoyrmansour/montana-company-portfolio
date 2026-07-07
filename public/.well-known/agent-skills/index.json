@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "montana-product-inquiry",
+      "type": "skill-md",
+      "description": "Browse the Montana Frozen Foods product catalog (Egyptian IQF vegetables and fruits) and submit a trade or sales inquiry to the Montana sales team.",
+      "url": "https://montanaeg.com/.well-known/agent-skills/product-inquiry/SKILL.md",
+      "digest": "sha256:436959870fefad3b5bd68d8f30b3bc9aed41f87bf559a63037c58b07960e846e"
+    }
+  ]
+}

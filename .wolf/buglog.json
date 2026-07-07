@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "bugs": [
+    {
+      "id": "bug-001",
+      "timestamp": "2026-07-07T05:15:22.659Z",
+      "error_message": "Missing await",
+      "file": "src/app/layout.tsx",
+      "root_cause": "Async call without await — returned Promise instead of value",
+      "fix": "Added await to async call",
+      "tags": ["auto-detected", "async-fix", "tsx"],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-07-07T05:15:22.659Z"
+    }
+  ]
+}

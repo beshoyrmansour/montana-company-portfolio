@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 import { Analytics } from '@vercel/analytics/next';
 import ServiceWorkerRegister from '@/components/pwa/ServiceWorkerRegister';
+import WebMcpTools from '@/components/agent/WebMcpTools';
+import { getAllProducts } from '@/lib/content';
 import { displayLatin, sansLatin, displayArabic, sansArabic, fontVariables } from '@/lib/fonts';
 import { getActiveTheme } from '@/lib/theme';
 import { cn } from '@/lib/cn';
@@ -120,8 +122,14 @@ export const viewport: Viewport = {
   colorScheme: 'light dark',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default async function RootLayout({ children }: { children: ReactNode }) {
   const theme = getActiveTheme();
+  // Compact build-time product digest for the WebMCP `list_products` tool.
+  const webMcpProducts = (await getAllProducts()).map((p) => ({
+    slug: p.slug,
+    name: p.name.en,
+    category: p.category,
+  }));
   return (
     <html
       lang="en"
@@ -142,6 +150,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {children}
         <Analytics />
         <ServiceWorkerRegister />
+        <WebMcpTools products={webMcpProducts} />
       </body>
     </html>
   );

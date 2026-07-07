@@ -1,0 +1,121 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Montana Frozen Foods — Website API",
+    "version": "1.0.0",
+    "description": "Public API for montanaeg.com, the corporate site of Montana Frozen Foods (Egyptian IQF vegetable and fruit exporter, est. 1985). The API currently exposes a single endpoint for submitting a business or trade inquiry to the sales team. Product and company information is published as regular HTML pages — see https://montanaeg.com/sitemap.xml for the full list of localized pages.",
+    "contact": {
+      "name": "Montana Frozen Foods",
+      "url": "https://montanaeg.com/en/contact",
+      "email": "info@montanaeg.com"
+    }
+  },
+  "servers": [{ "url": "https://montanaeg.com", "description": "Production" }],
+  "paths": {
+    "/api/contact": {
+      "post": {
+        "operationId": "submitInquiry",
+        "summary": "Submit a business inquiry",
+        "description": "Sends an inquiry to the Montana sales team by email. No authentication is required. `cfToken` carries a Cloudflare Turnstile token when the request originates from the website form; other clients may omit it. Send only the documented fields.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/InquiryRequest" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Inquiry accepted and forwarded to the sales team.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": { "ok": { "type": "boolean", "const": true } },
+                  "required": ["ok"]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation failed. The response lists per-field errors, or `{\"error\": \"captcha\"}` when Turnstile verification fails, or `{\"error\": \"invalid json\"}` for a malformed body.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": { "type": "string" },
+                    "errors": {
+                      "type": "object",
+                      "additionalProperties": { "type": "string" }
+                    }
+                  },
+                  "required": ["error"]
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "The inquiry was valid but the outbound email could not be delivered. Retry later or email info@montanaeg.com directly.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": { "error": { "type": "string", "const": "mail_failed" } },
+                  "required": ["error"]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "InquiryRequest": {
+        "type": "object",
+        "required": ["name", "email", "subject", "message", "consent"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 100,
+            "description": "Full name of the person or agent principal making the inquiry."
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "maxLength": 200,
+            "description": "Reply-to email address. Responses from the sales team go here."
+          },
+          "company": {
+            "type": "string",
+            "description": "Optional company or organization name."
+          },
+          "subject": {
+            "type": "string",
+            "enum": ["general", "sales", "export", "press"],
+            "description": "Inquiry category. Use `export` for international trade and distribution, `sales` for orders and pricing."
+          },
+          "message": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 5000,
+            "description": "The inquiry itself. Plain text."
+          },
+          "consent": {
+            "type": "boolean",
+            "const": true,
+            "description": "Confirmation that the sender consents to Montana processing this data to answer the inquiry (see https://montanaeg.com/en/privacy). Must be true."
+          },
+          "cfToken": {
+            "type": "string",
+            "description": "Cloudflare Turnstile response token. Only present for submissions from the website form."
+          }
+        }
+      }
+    }
+  }
+}
