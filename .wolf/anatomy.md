@@ -1,11 +1,11 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-07-07T05:39:38.332Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-07-07T06:52:36.956Z
 > Files: 271 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ../../../../../private/tmp/claude-501/-Users-beshoymansour-work-Montana-montana-web/93181998-0c09-4cce-9350-4a65a3233a26/scratchpad/
 
-- `retouch-labels.js` — Retouch floor-13.jpg: cover handwritten bottle labels with clean modern stickers. (~1073 tok)
+- `retouch-labels.js` — Retouch floor-13.jpg: cover handwritten bottle labels with clean modern stickers. (~1112 tok)
 
 ## ./
 
@@ -88,10 +88,10 @@
 - `privacy.de.md` — Datenschutzerklärung (~374 tok)
 - `privacy.en.md` — Privacy Policy (~319 tok)
 - `privacy.fr.md` — Politique de confidentialité (~92 tok)
-- `terms.ar.md` — الشروط والأحكام (~61 tok)
-- `terms.de.md` — Nutzungsbedingungen (~83 tok)
-- `terms.en.md` — Terms of Service (~74 tok)
-- `terms.fr.md` — Conditions d'utilisation (~90 tok)
+- `terms.ar.md` — الشروط والأحكام (~722 tok)
+- `terms.de.md` — Nutzungsbedingungen (~979 tok)
+- `terms.en.md` — Terms of Service (~859 tok)
+- `terms.fr.md` — Conditions d'utilisation (~1002 tok)
 
 ## content/news/
 
@@ -310,7 +310,7 @@
 
 ## src/app/
 
-- `globals.css` — Styles: 36 rules, 82 vars, 2 media queries (~33783 tok)
+- `globals.css` — Styles: 36 rules, 82 vars (~33806 tok)
 - `layout.tsx` — Single root layout. (~1516 tok)
 - `not-found.tsx` — dynamic (~116 tok)
 - `page.tsx` — Root landing page at / (~506 tok)

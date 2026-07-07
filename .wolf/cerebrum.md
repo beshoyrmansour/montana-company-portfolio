@@ -8,6 +8,11 @@
 
 <!-- How the user likes things done. Code style, tools, patterns, communication. -->
 
+- [2026-07-07] No raw/amateur phone photos on public-facing surfaces (news cards etc.) — always use the curated marketing shots from `public/images/products/<slug>/`. The raw set lives in `public/images/products/real/` and should be treated as internal source material.
+- [2026-07-07] User approves AI-retouching facility photos to look professional (e.g. replacing handwritten bottle labels with clean branded stickers) — brand green #147239, "MONTANA QC LAB" sticker style; retouch programmatically with sharp SVG composites so edits are reproducible.
+- [2026-07-07] Mobile forms: primary submit buttons should be full width (added `.cf-foot .btn-editorial { width: 100% }` at ≤767px).
+- User writes in Egyptian Arabic (sometimes mixed with English) — reply in Arabic, keep technical terms in English.
+
 ## Key Learnings
 
 - **Project:** montana-web

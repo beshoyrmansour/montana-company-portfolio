@@ -12,6 +12,18 @@
       "related_bugs": [],
       "occurrences": 1,
       "last_seen": "2026-07-07T05:15:22.659Z"
+    },
+    {
+      "id": "bug-002",
+      "timestamp": "2026-07-07T06:50:04.353Z",
+      "error_message": "CSS fix: max-width",
+      "file": "src/app/globals.css",
+      "root_cause": "max-width: 42ch → 767px) {",
+      "fix": "Changed max-width: 42ch → 767px) {",
+      "tags": ["auto-detected", "style-fix", "css"],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-07-07T06:50:04.353Z"
     }
   ]
 }

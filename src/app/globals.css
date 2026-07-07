@@ -3382,6 +3382,11 @@ html.is-scrolled .site-logo {
   color: var(--color-text-muted);
   max-width: 42ch;
 }
+@media (max-width: 767px) {
+  .cf-foot .btn-editorial {
+    width: 100%;
+  }
+}
 .contact-success {
   text-align: center;
   align-items: center;
