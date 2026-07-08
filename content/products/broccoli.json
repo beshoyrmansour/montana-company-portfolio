@@ -137,7 +137,13 @@
       "frozen broccoli florets",
       "IQF broccoli florets",
       "bulk frozen broccoli"
-    ]
+    ],
+    "moq": "1 container (20–27 tonnes)",
+    "priceRange": {
+      "from": 800,
+      "to": 2400,
+      "perUnit": "tonne"
+    }
   },
   "relatedSlugs": ["cauliflower", "mixed-vegetables"]
 }

@@ -145,7 +145,13 @@
       "Egyptian artichoke supplier",
       "frozen globe artichoke",
       "artichoke hearts bulk"
-    ]
+    ],
+    "moq": "1 container (20–27 tonnes)",
+    "priceRange": {
+      "from": 1500,
+      "to": 3500,
+      "perUnit": "tonne"
+    }
   },
   "relatedSlugs": ["okra", "molokhia", "colcasia"]
 }

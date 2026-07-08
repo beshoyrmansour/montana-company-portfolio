@@ -35,4 +35,8 @@ export const STATIC_ROUTES: readonly StaticRoute[] = [
  * Listed here so the route check knows they're handled — a NEW dynamic route
  * not in this set means the sitemap is missing a whole URL family.
  */
-export const DYNAMIC_ROUTES: readonly string[] = ['/catalog/[slug]', '/news/[slug]'];
+export const DYNAMIC_ROUTES: readonly string[] = [
+  '/catalog/[slug]',
+  '/news/[slug]',
+  '/export/[country-slug]',
+];

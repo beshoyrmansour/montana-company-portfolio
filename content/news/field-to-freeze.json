@@ -22,7 +22,16 @@
     "fr": "Un mythe courant veut que le frais l'emporte toujours sur le surgelé. En réalité, un légume « frais » peut passer une semaine en camions, entrepôts et rayons avant d'être cuisiné. Un légume surgelé quelques heures après la récolte peut être plus nutritif. Tout le modèle de Montana vise à gagner cette course : nos champs et notre usine partagent le même code postal à Qalyub.",
     "de": "Ein verbreiteter Mythos lautet, frisch sei immer besser als gefroren. In Wahrheit kann ein „frisches\" Gemüse eine Woche in Lkw, Lagern und Regalen verbringen, bevor es gekocht wird — und dabei die ganze Zeit Vitamine und Textur verlieren. Ein Gemüse, das innerhalb von Stunden nach der Ernte gefroren wird, kann nährstoffreicher sein als das frische in Ihrem Einkaufswagen.\n\nMontanas gesamtes Modell ist darauf ausgelegt, dieses Rennen gegen die Zeit zu gewinnen. Unsere Felder und unser Werk teilen sich eine Postleitzahl in Qalyub, sodass geerntete Ware die Linie in Stunden erreicht, nicht in Tagen. Sie wird gewaschen, sortiert, geschnitten und in unseren IQF-Tunneln auf -18 °C gebracht, bevor sie überhaupt verderben kann. Dieses Tempo schließt Farbe, Geschmack und Nährwert ein — und deshalb beschreiben wir „vom Feld zum Frost\" nicht als Slogan, sondern als Kern des Unternehmensaufbaus.\n\nEs gibt auch eine Nachhaltigkeitsdividende. Das Gefrieren an der Quelle bedeutet, dass zwischen Hof und Kunde fast nichts durch Verderb verloren geht, und Haushalte verbrauchen nur, was sie brauchen, und lassen den Rest im Gefrierfach — was die Lebensmittelverschwendung verringert, die frische Ware zu Hause verursacht."
   },
-  "author": "Montana",
+  "author": "Montana Quality & Production Team",
+  "authorBio": {
+    "name": {
+      "en": "Quality & Production Department, Montana Frozen Foods"
+    },
+    "title": {
+      "en": "Operational Leadership — 41 years of IQF production"
+    },
+    "profileUrl": "https://www.linkedin.com/company/MontanaPage"
+  },
   "coverImage": "/images/facility/floor/floor-04.jpg",
   "tags": ["quality", "iqf", "sustainability", "nutrition"]
 }

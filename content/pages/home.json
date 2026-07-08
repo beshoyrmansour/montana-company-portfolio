@@ -1062,5 +1062,94 @@
         "external": true
       }
     ]
+  },
+  "faqs": {
+    "enabled": true,
+    "title": {
+      "lead": {
+        "en": "Common questions from",
+        "ar": "أسئلة شائعة من",
+        "fr": "Questions fréquentes des",
+        "de": "Häufige Fragen von"
+      },
+      "em": {
+        "en": "importers",
+        "ar": "المستوردين",
+        "fr": "importateurs",
+        "de": "Importeuren"
+      }
+    },
+    "items": [
+      {
+        "q": {
+          "en": "What is the minimum order quantity (MOQ)?",
+          "ar": "ما هو الحد الأدنى لكمية الطلب؟",
+          "fr": "Quel est le minimum de commande (MOQ) ?",
+          "de": "Was ist die Mindestbestellmenge (MOQ)?"
+        },
+        "a": {
+          "en": "Most products are available from one retail carton (e.g., 20 bags of 400 g). For foodservice and bulk formats, typical MOQ is one full container (20–27 tonnes depending on product). Contact our export desk for exact quantities by product.",
+          "ar": "يمكن الحصول على معظم المنتجات من كرتون تجزئة واحد. بالنسبة لتنسيقات خدمات الطعام والجملة، الحد الأدنى المعتاد هو حاوية كاملة واحدة تتراوح بين 20-27 طناً حسب المنتج. اتصل بمكتب التصدير للحصول على الكميات الدقيقة لكل منتج.",
+          "fr": "La plupart des produits sont disponibles à partir d'un carton détail (ex. : 20 sachets de 400 g). Pour les formats foodservice et en vrac, le MOQ typique est un conteneur complet (20 à 27 tonnes selon le produit). Contactez notre service export pour les quantités exactes par produit.",
+          "de": "Die meisten Produkte sind ab einem Einzelhandelskarton erhältlich (z. B. 20 Beutel à 400 g). Für Foodservice- und Großformate beträgt die MOQ typischerweise ein voller Container (20–27 Tonnen je nach Produkt). Wenden Sie sich an unser Exportteam für genaue Mengen."
+        }
+      },
+      {
+        "q": {
+          "en": "What certifications does Montana hold?",
+          "ar": "ما الشهادات التي حصلت عليها مونتانا؟",
+          "fr": "Quelles certifications Montana détient-elle ?",
+          "de": "Welche Zertifizierungen hat Montana?"
+        },
+        "a": {
+          "en": "Montana holds BRCGS, IFS Food, ISO 22000, HACCP, GLOBALG.A.P., GMP, SMETA, Halal, NFSA, QCAP, FDA and CODEX certifications. These ensure compliance with European retailer standards and international food safety requirements.",
+          "ar": "حصلت مونتانا على شهادات BRCGS وIFS Food وISO 22000 وHACCP وGLOBALG.A.P. وGMP وSMETA وHalal وNFSA وQCAP وFDA وCODEX. تضمن هذه الامتثال لمعايير تجار التجزئة الأوروبيين ومتطلبات سلامة الغذاء الدولية.",
+          "fr": "Montana détient les certifications BRCGS, IFS Food, ISO 22000, HACCP, GLOBALG.A.P., GMP, SMETA, Halal, NFSA, QCAP, FDA et CODEX. Celles-ci assurent la conformité aux normes des détaillants européens et aux exigences internationales de sécurité alimentaire.",
+          "de": "Montana verfügt über die Zertifizierungen BRCGS, IFS Food, ISO 22000, HACCP, GLOBALG.A.P., GMP, SMETA, Halal, NFSA, QCAP, FDA und CODEX. Diese gewährleisten die Einhaltung europäischer Händlerstandards und internationaler Lebensmittel Sicherheitsanforderungen."
+        }
+      },
+      {
+        "q": {
+          "en": "How long is the delivery lead time?",
+          "ar": "كم تبلغ مدة التسليم؟",
+          "fr": "Quel est le délai de livraison ?",
+          "de": "Wie lange ist die Lieferzeit?"
+        },
+        "a": {
+          "en": "Lead times vary by region: 4–10 days to GCC countries via road and sea ferry, 10–18 days to Europe, and 18–28 days to Asia and North America. We despatch from our Qalyub facility near Cairo with regular container schedules.",
+          "ar": "تختلف مدد التسليم حسب المنطقة: 4-10 أيام إلى دول الخليج عبر البر وعبارات البحر، 10-18 يومًا إلى أوروبا، و18-28 يومًا إلى آسيا وأمريكا الشمالية. نشحن من منشأتنا في القليوب بالقرب من القاهرة بجداول حاويات منتظمة.",
+          "fr": "Les délais varient selon la région : 4 à 10 jours vers les pays du CCG par route et ferry maritime, 10 à 18 jours vers l'Europe, et 18 à 28 jours vers l'Asie et l'Amérique du Nord. Nous expédions depuis notre site de Qalyub près du Caire avec des programmes réguliers de conteneurs.",
+          "de": "Die Lieferzeiten variieren je nach Region: 4–10 Tage in die GCC-Länder per Straße und Seefähre, 10–18 Tage nach Europa und 18–28 Tage nach Asien und Nordamerika. Wir versenden ab unserem Werk in Qalyub nahe Kairo mit regelmäßigen Containerplänen."
+        }
+      },
+      {
+        "q": {
+          "en": "Do you offer private label or custom blending?",
+          "ar": "هل تقدمون علامات خاصة أو خلط مخصص؟",
+          "fr": "Proposez-vous du marquage privé ou des mélanges personnalisés ?",
+          "de": "Bieten Sie Private Label oder individuelle Mischungen an?"
+        },
+        "a": {
+          "en": "Yes — we offer private label packaging and can produce custom vegetable blends. Our 3-way and 4-way standard mixes (peas, carrots, green beans, sweet corn, broccoli, cauliflower) serve as starting points; we also create bespoke formulations for brand owners and distributors.",
+          "ar": "نعم، نقدم تعبئة بعلامات تجارية خاصة ويمكننا إنتاج خلطات خضروات مخصصة. خلطاتنا القياسية ذات الثلاث والأربع طرق (بازلاء وجزر وبقول خضراء و الذرة الحلوة وبروكلي وقرنبيط) تمثل نقاط بداية؛ نصيغ أيضًا تركيبات مخصصة لأصحاب العلامات التجارية والموزعين.",
+          "fr": "Oui — nous proposons du conditionnement sous marque privée et pouvons produire des mélanges de légumes personnalisés. Nos mélanges standards en 3 et 4 voies (petits pois, carottes, haricots verts, maïs doux, brocoli, chou-fleur) servent de points de départ ; nous créons également des formulations sur mesure pour les propriétaires de marques et les distributeurs.",
+          "de": "Ja — wir bieten Private-Label-Verpackungen an und können individuelle Gemüsemischungen herstellen. Unsere Standardmischungen mit 3 und 4 Komponenten (Erbsen, Karotten, grüne Bohnen, Süßmais, Brokkoli, Blumenkohl) dienen als Ausgangspunkt; wir fertigen auch kundenspezifische Rezepturen für Markeninhaber und Distributoren."
+        }
+      },
+      {
+        "q": {
+          "en": "What is IQF freezing and why does it matter?",
+          "ar": "ما هو تجميد IQF ولماذا يهم؟",
+          "fr": "Qu'est-ce que la surgélation IQF et pourquoi est-elle importante ?",
+          "de": "Was ist IQF-Gefrieren und warum ist es wichtig?"
+        },
+        "a": {
+          "en": "IQF (Individually Quick Frozen) flash-freezes each piece individually within hours of harvest, locking in natural taste, colour, texture and nutrients. Unlike block-frozen products, IQF items can be portioned one-by-one without thawing the entire batch — ideal for foodservice and retail.",
+          "ar": "التجميد السريع الفردي (IQF) يجمد كل قطعة على حدة خلال ساعات من الحصاد، مما يحبس الطعم الطبيعي واللون والملمع والعناصر الغذائية. على عكس المنتجات المجمدة بالكتل، يمكن استخدام عناصر IQF قطعة بقطعة دون إذابة الدفعة بأكملها — مثالية لخدمات الطعام والتجزئة.",
+          "fr": "L'IQF (individuellement rapidement congelé) surgèle chaque pièce individuellement en quelques heures après la récolte, en conservant le goût naturel, la couleur, la texture et les nutriments. Contrairement aux produits congelés en bloc, les articles IQF peuvent être portionnés un par un sans décongeler tout le lot — idéal pour la restauration et le détail.",
+          "de": "IQF (Individually Quick Frozen) schockgefriert jedes Stück innerhalb von Stunden nach der Ernte und bewahrt natürlichen Geschmack, Farbe, Textur und Nährstoffe. Im Gegensatz zu blockgefrorenen Produkten können IQF-Produkte portionweise entnommen werden, ohne den gesamten Vorgang aufzutauen — ideal für Foodservice und Einzelhandel."
+        }
+      }
+    ]
   }
 }

@@ -22,7 +22,16 @@ export const newsArticleSchema = z.object({
     ar: z.string().optional(),
     fr: z.string().optional(),
   }),
+  /** Display author byline (e.g. "Montana", or a person's name). */
   author: z.string(),
+  /** Optional author bio — E-E-A-T signal for March 2026 Core Update. Includes name, title and LinkedIn/profile URL. */
+  authorBio: z
+    .object({
+      name: i18nString.optional(),
+      title: i18nString.optional(),
+      profileUrl: z.string().url().optional(),
+    })
+    .optional(),
   coverImage: z.string(),
   tags: z.array(z.string()),
   seo: z

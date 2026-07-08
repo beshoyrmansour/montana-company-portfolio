@@ -1,11 +1,15 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-07-07T06:52:36.956Z
-> Files: 271 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-07-08T10:40:18.581Z
+> Files: 275 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ../../../../../private/tmp/claude-501/-Users-beshoymansour-work-Montana-montana-web/93181998-0c09-4cce-9350-4a65a3233a26/scratchpad/
 
 - `retouch-labels.js` — Retouch floor-13.jpg: cover handwritten bottle labels with clean modern stickers. (~1112 tok)
+
+## ../../../.claude/plans/
+
+- `i-want-you-to-mellow-turtle.md` — SEO & AI Readiness: Adversarial Review & Updated Plan (~4007 tok)
 
 ## ./
 
@@ -100,12 +104,12 @@
 - `egyptian-molokhia-export.json` (~1244 tok)
 - `exports-30-countries.json` (~1155 tok)
 - `falafel-launch.json` (~1062 tok)
-- `field-to-freeze.json` (~1251 tok)
+- `field-to-freeze.json` (~1334 tok)
 - `frozen-coriander.json` (~996 tok)
-- `frozen-mango.json` (~919 tok)
-- `haccp-certification.json` (~1123 tok)
+- `frozen-mango.json` (~1005 tok)
+- `haccp-certification.json` (~1213 tok)
 - `inside-kalioub-facility.json` (~1142 tok)
-- `maamoun-heritage-1909.json` (~1153 tok)
+- `maamoun-heritage-1909.json` (~1234 tok)
 - `mixed-vegetables.json` (~1035 tok)
 - `okra-bamia.json` (~987 tok)
 - `ramadan-molokhia-season.json` (~1161 tok)
@@ -118,15 +122,15 @@
 - `about.json` (~7127 tok)
 - `catalog.json` (~2340 tok)
 - `contact.json` (~4862 tok)
-- `home.json` (~11051 tok)
+- `home.json` (~13239 tok)
 - `markets.json` (~3538 tok)
 - `news.json` (~1342 tok)
 
 ## content/products/
 
-- `artichoke.json` (~2061 tok)
+- `artichoke.json` (~2098 tok)
 - `broad-beans.json` (~1658 tok)
-- `broccoli.json` (~2009 tok)
+- `broccoli.json` (~2046 tok)
 - `carrots.json` (~1828 tok)
 - `cauliflower.json` (~1806 tok)
 - `colcasia.json` (~1771 tok)
@@ -135,15 +139,15 @@
 - `green-beans.json` (~1858 tok)
 - `mango.json` (~1550 tok)
 - `mixed-vegetables.json` (~2082 tok)
-- `molokhia.json` (~1828 tok)
-- `okra.json` (~2253 tok)
+- `molokhia.json` (~1865 tok)
+- `okra.json` (~2290 tok)
 - `peas-and-carrots.json` (~1453 tok)
 - `peas.json` (~1742 tok)
 - `peeled-broad-beans.json` (~1711 tok)
 - `pomegranate.json` (~1742 tok)
 - `potato.json` (~1772 tok)
 - `spinach.json` (~1924 tok)
-- `strawberry.json` (~1884 tok)
+- `strawberry.json` (~1922 tok)
 - `sweet-corn-cob.json` (~1574 tok)
 - `sweet-corn.json` (~1769 tok)
 - `vegetable-soup.json` (~1798 tok)
@@ -198,6 +202,7 @@
 
 - `.DS_Store` (~2186 tok)
 - `cookie-banner.js` — Returns the stored decision: 'accepted' | 'denied' | null. Tolerates the (~2561 tok)
+- `llms.txt` — Montana Frozen Foods — Site Overview for AI Agents (~422 tok)
 - `offline.html` — Offline — Montana Frozen Foods (~853 tok)
 - `site.webmanifest` (~208 tok)
 - `sw.js` — + assets -> cache-first (stale-while-revalidate) (~2423 tok)
@@ -314,14 +319,14 @@
 - `layout.tsx` — Single root layout. (~1516 tok)
 - `not-found.tsx` — dynamic (~116 tok)
 - `page.tsx` — Root landing page at / (~506 tok)
-- `sitemap.ts` — Exports dynamic (~738 tok)
+- `sitemap.ts` — Flatten all countries from the regions structure in markets.json. (~1007 tok)
 
 ## src/app/[locale]/
 
 - `.DS_Store` (~1640 tok)
 - `layout.tsx` — dynamic (~708 tok)
 - `opengraph-image.tsx` — Default share thumbnail (home + any page without its own image). (~279 tok)
-- `page.tsx` — dynamic (~7924 tok)
+- `page.tsx` — dynamic (~8474 tok)
 
 ## src/app/[locale]/about/
 
@@ -346,6 +351,10 @@
 ## src/app/[locale]/cookies/
 
 - `page.tsx` — dynamic (~474 tok)
+
+## src/app/[locale]/export/[country-slug]/
+
+- `page.tsx` — Country export page — dedicated landing pages for each export market. (~3124 tok)
 
 ## src/app/[locale]/markets/
 
@@ -373,9 +382,13 @@
 
 - `route.ts` — Contact form endpoint — Next.js App Router API route. (~1470 tok)
 
+## src/app/llms-full.txt/
+
+- `route.ts` — llms-full.txt — complete site map for AI agents. (~858 tok)
+
 ## src/app/robots.txt/
 
-- `route.ts` — robots.txt — custom route handler (replaces the app/robots.ts metadata (~412 tok)
+- `route.ts` — robots.txt — custom route handler (replaces the app/robots.ts metadata (~686 tok)
 
 ## src/components/agent/
 
@@ -465,17 +478,17 @@
 - `i18n.ts` — Locale configuration. Source of truth for all i18n decisions. (~590 tok)
 - `markets-meta.ts` — Markets visual + logistics metadata. (~2282 tok)
 - `og.tsx` — Shared Open Graph / share-thumbnail renderer. (~1282 tok)
-- `routes.ts` — Single source of truth for the site's localized routes. (~424 tok)
-- `seo.ts` — SEO helpers — JSON-LD generators, metadata builders, and hreflang. (~4531 tok)
+- `routes.ts` — Single source of truth for the site's localized routes. (~434 tok)
+- `seo.ts` — SEO helpers — JSON-LD generators, metadata builders, and hreflang. (~5059 tok)
 - `theme.ts` — Theme resolver. (~179 tok)
 - `world-map-paths.ts` — Each entry is one country, keyed by ISO 3166-1 alpha-2. (~24647 tok)
 
 ## src/schemas/
 
 - `markets.ts` — Hex colour for region accents. Falls back to brand primary. (~253 tok)
-- `news.ts` — Zod schemas: newsCategory, newsArticleSchema (~300 tok)
-- `page.ts` — Optional per-page SEO override. When present, fields here take (~4137 tok)
-- `product.ts` — Zod schemas: productCategory, productBadge, seasonMonth, packagingType + 1 more (~471 tok)
+- `news.ts` — Display author byline (e.g. "Montana", or a person's name). (~404 tok)
+- `page.ts` — Optional per-page SEO override. When present, fields here take (~4236 tok)
+- `product.ts` — Optional SEO overrides and B2B commercial metadata. (~608 tok)
 - `shared.ts` — An i18n string with required English + optional Arabic + French. (~191 tok)
 - `site.ts` — lucide-react icon name — e.g. 'Calendar', 'Factory', 'Users', 'Globe' (~449 tok)
 

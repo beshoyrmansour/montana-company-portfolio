@@ -2,14 +2,14 @@
   "version": 1,
   "created_at": "2026-07-07T05:06:31.340Z",
   "lifetime": {
-    "total_tokens_estimated": 52115,
-    "total_reads": 18,
-    "total_writes": 17,
-    "total_sessions": 3,
-    "anatomy_hits": 14,
-    "anatomy_misses": 3,
-    "repeated_reads_blocked": 0,
-    "estimated_savings_vs_bare_cli": 2800
+    "total_tokens_estimated": 182680,
+    "total_reads": 73,
+    "total_writes": 56,
+    "total_sessions": 7,
+    "anatomy_hits": 66,
+    "anatomy_misses": 6,
+    "repeated_reads_blocked": 15,
+    "estimated_savings_vs_bare_cli": 55782
   },
   "sessions": [
     {
@@ -237,6 +237,596 @@
         "writes_count": 5,
         "repeated_reads_blocked": 0,
         "anatomy_lookups": 6
+      }
+    },
+    {
+      "id": "session-2026-07-08-1221",
+      "started": "2026-07-08T09:21:01.842Z",
+      "ended": "2026-07-08T10:40:47.089Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 4842,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/artichoke.json",
+          "tokens_estimated": 2061,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/broad-beans.json",
+          "tokens_estimated": 1658,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/broccoli.json",
+          "tokens_estimated": 2009,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/carrots.json",
+          "tokens_estimated": 1828,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/cauliflower.json",
+          "tokens_estimated": 1806,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/colcasia.json",
+          "tokens_estimated": 1771,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/coriander.json",
+          "tokens_estimated": 1579,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/falafel.json",
+          "tokens_estimated": 1956,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/green-beans.json",
+          "tokens_estimated": 1858,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/mango.json",
+          "tokens_estimated": 1550,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/mixed-vegetables.json",
+          "tokens_estimated": 2082,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/molokhia.json",
+          "tokens_estimated": 1828,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/okra.json",
+          "tokens_estimated": 2253,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/peas-and-carrots.json",
+          "tokens_estimated": 1453,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/peas.json",
+          "tokens_estimated": 1742,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/peeled-broad-beans.json",
+          "tokens_estimated": 1711,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/pomegranate.json",
+          "tokens_estimated": 1742,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/potato.json",
+          "tokens_estimated": 1772,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/spinach.json",
+          "tokens_estimated": 1924,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/strawberry.json",
+          "tokens_estimated": 1884,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/sweet-corn-cob.json",
+          "tokens_estimated": 1574,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/sweet-corn.json",
+          "tokens_estimated": 1769,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/vegetable-soup.json",
+          "tokens_estimated": 1798,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/vine-leaves.json",
+          "tokens_estimated": 1431,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/whole-green-beans.json",
+          "tokens_estimated": 1660,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/pages/home.json",
+          "tokens_estimated": 11051,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/pages/about.json",
+          "tokens_estimated": 7127,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/pages/contact.json",
+          "tokens_estimated": 4862,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/pages/catalog.json",
+          "tokens_estimated": 2340,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/markets.json",
+          "tokens_estimated": 3577,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/robots.txt/route.ts",
+          "tokens_estimated": 412,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/page.tsx",
+          "tokens_estimated": 7928,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/page.ts",
+          "tokens_estimated": 4137,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/product.ts",
+          "tokens_estimated": 471,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/routes.ts",
+          "tokens_estimated": 424,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/sitemap.ts",
+          "tokens_estimated": 881,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/news.ts",
+          "tokens_estimated": 360,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/field-to-freeze.json",
+          "tokens_estimated": 1251,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/haccp-certification.json",
+          "tokens_estimated": 1123,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/maamoun-heritage-1909.json",
+          "tokens_estimated": 1153,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/frozen-mango.json",
+          "tokens_estimated": 919,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 3159,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/.claude/plans/i-want-you-to-mellow-turtle.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "/Users/beshoymansour/.claude/plans/i-want-you-to-mellow-turtle.md",
+          "tokens_estimated": 3573,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/.claude/plans/i-want-you-to-mellow-turtle.md",
+          "tokens_estimated": 175,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/.claude/plans/i-want-you-to-mellow-turtle.md",
+          "tokens_estimated": 159,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/.claude/plans/i-want-you-to-mellow-turtle.md",
+          "tokens_estimated": 190,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 86,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/public/llms.txt",
+          "tokens_estimated": 482,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 863,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/robots.txt/route.ts",
+          "tokens_estimated": 686,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/page.ts",
+          "tokens_estimated": 168,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/pages/home.json",
+          "tokens_estimated": 2194,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/page.tsx",
+          "tokens_estimated": 36,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/page.tsx",
+          "tokens_estimated": 614,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/product.ts",
+          "tokens_estimated": 186,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 555,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/molokhia.json",
+          "tokens_estimated": 106,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/okra.json",
+          "tokens_estimated": 106,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/artichoke.json",
+          "tokens_estimated": 103,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/strawberry.json",
+          "tokens_estimated": 110,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/broccoli.json",
+          "tokens_estimated": 110,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 3161,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/routes.ts",
+          "tokens_estimated": 35,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/sitemap.ts",
+          "tokens_estimated": 458,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/sitemap.ts",
+          "tokens_estimated": 141,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/news.ts",
+          "tokens_estimated": 117,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 477,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/field-to-freeze.json",
+          "tokens_estimated": 90,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/haccp-certification.json",
+          "tokens_estimated": 97,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/maamoun-heritage-1909.json",
+          "tokens_estimated": 87,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/frozen-mango.json",
+          "tokens_estimated": 88,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 94,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 18,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 108,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 9,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 24,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 34,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/news.ts",
+          "tokens_estimated": 154,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 14,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 19,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/.claude/plans/i-want-you-to-mellow-turtle.md",
+          "tokens_estimated": 910,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 100716,
+        "output_tokens_estimated": 16637,
+        "reads_count": 44,
+        "writes_count": 39,
+        "repeated_reads_blocked": 15,
+        "anatomy_lookups": 43
+      }
+    },
+    {
+      "id": "session-2026-07-08-1344",
+      "started": "2026-07-08T10:44:54.936Z",
+      "ended": "2026-07-08T10:54:07.920Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/public/llms.txt",
+          "tokens_estimated": 422,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 3124,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 858,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 4404,
+        "output_tokens_estimated": 0,
+        "reads_count": 3,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 3
+      }
+    },
+    {
+      "id": "session-2026-07-08-1344",
+      "started": "2026-07-08T10:44:54.936Z",
+      "ended": "2026-07-08T10:55:08.667Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/public/llms.txt",
+          "tokens_estimated": 422,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 3124,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 858,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 4404,
+        "output_tokens_estimated": 0,
+        "reads_count": 3,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 3
+      }
+    },
+    {
+      "id": "session-2026-07-08-1344",
+      "started": "2026-07-08T10:44:54.936Z",
+      "ended": "2026-07-08T10:56:33.311Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/public/llms.txt",
+          "tokens_estimated": 422,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 3124,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 858,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/.claude/skills/plannotator-review",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/.claude/skills/plannotator-review/SKILL.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 4404,
+        "output_tokens_estimated": 0,
+        "reads_count": 5,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 3
       }
     }
   ],

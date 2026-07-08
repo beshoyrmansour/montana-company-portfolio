@@ -1,0 +1,24 @@
+# Montana Frozen Foods — Site Overview for AI Agents
+
+Montana Frozen Foods is a family-owned Egyptian frozen vegetable and fruit exporter since 1985, part of the Maamoun Brothers Group (founded 1909). The company operates a 50,000 m² IQF facility in Qalyub, Egypt, with annual production capacity of 35,000 tonnes exported to 30+ countries across five continents.
+
+## Product Catalog
+/en/catalog — Browse 26 IQF frozen vegetables, fruits, leafy greens, and specialty products (artichoke, molokhia, okra, strawberry, broccoli, and more). Each product page includes varieties, packing options, seasonality, nutrition info, and related products.
+
+## Company Information
+/en/about — Montana's history, facility details (50,000 m² Qalyub plant), team, certifications (BRCGS, IFS Food, ISO 22000, HACCP, GLOBALG.A.P., Halal, FDA, and more), and export statistics.
+
+## Export Markets
+/en/markets — Our presence across GCC Countries, Middle East, North Africa, Europe, Asia, North America, and Australia & Oceania. Lead times range from 4 days (GCC) to 28 days (Asia/North America).
+
+## News & Insights
+/en/news — Articles on product spotlights, export milestones, facility updates, food safety certifications, seasonal content, and industry insights.
+
+## Contact
+/en/contact — Submit business inquiries (sourcing, orders, samples, press). Export team responds within one business day in English, العربية, Français, or Deutsch.
+
+## Certifications
+BRCGS · IFS Food · ISO 22000 · HACCP · GLOBALG.A.P. · GMP · SMETA · Halal · NFSA · QCAP · FDA · CODEX
+
+## Languages
+Content is available in English (en), العربية (ar), Français (fr), and Deutsch (de). Each page has localized hreflang alternates.

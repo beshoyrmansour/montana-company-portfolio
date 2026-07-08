@@ -91,7 +91,13 @@
       "Egyptian frozen strawberry supplier",
       "frozen sliced strawberries",
       "bulk frozen strawberries no sugar"
-    ]
+    ],
+    "moq": "1 container (20–27 tonnes)",
+    "priceRange": {
+      "from": 1200,
+      "to": 3200,
+      "perUnit": "tonne"
+    }
   },
   "relatedSlugs": [],
   "varieties": []

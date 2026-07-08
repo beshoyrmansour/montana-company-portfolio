@@ -9,6 +9,12 @@
  *                   (deliberate: Montana wants agents to surface its products)
  *   ai-train=no   — content may not be used to train AI models
  *
+ * Also includes per-bot directives for major AI crawlers. Following the
+ * Rutgers/Wharton finding that blocking AI crawlers caused a 23% visit
+ * decline with no reduction in AI-cited content, we allow GPTBot and
+ * ClaudeBot on informative pages (/news/) to increase discoverability.
+ * Training-only bots are blocked per Montana's ai-train=no policy.
+ *
  * Same origin source of truth as before: BASE_URL from @/lib/seo, shared
  * with canonical/OG/JSON-LD and sitemap.ts, so they can never disagree.
  */
@@ -32,6 +38,37 @@ Disallow: /api/
 
 Sitemap: ${BASE_URL}/sitemap.xml
 Host: ${BASE_URL}
+
+# AI crawler policies — per-bot rules for major automated systems.
+# Montana wants to be discovered by AI search tools (ai-input=yes above).
+# Training-only crawlers are blocked; search/indexing crawlers are allowed.
+
+User-agent: GPTBot
+Allow: /news/
+Disallow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /api/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /api/
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot
+Allow: /
+Disallow: /api/
+
+# llms.txt — AI agent site discovery (https://llmstxt.org/)
+User-agent: *
+Allow: /llms.txt
+Allow: /llms-full.txt
 `;
   return new Response(body, {
     headers: { 'Content-Type': 'text/plain' },

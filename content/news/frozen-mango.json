@@ -22,7 +22,16 @@
     "fr": "La mangue égyptienne a une saison courte et magnifique — la surgélation permet de la conserver au-delà de l'été. La mangue Montana est récoltée à pleine maturité, lavée, pelée et coupée en morceaux, puis surgelée IQF. Sans aucun ajout : ni sirop, ni sucre, ni conservateurs.",
     "de": "Die ägyptische Mango hat eine kurze, herrliche Saison — und gefroren bewahrt man sie über den Sommer hinaus. Montanas Tiefkühl-Mango wird bei voller Reife geerntet, gewaschen, geschält und in Stücke geschnitten, dann IQF-gefroren, sodass die Stücke einzeln bleiben und locker aus der Tüte rieseln.\n\nWeil wir im Moment höchster Reife gefrieren, werden Zucker, Aroma und tiefe Farbe eingeschlossen. Es wird nichts zugesetzt — kein Sirup, kein Zucker, keine Konservierungsmittel. Für Saftbars, Konditoreien und Mixer zu Hause bedeutet das im Januar einen Mango-Geschmack, der so gut ist wie der von einem Kairoer Obstkarren im Juli.\n\nNeben der Erdbeere ist sie die zweite Frucht in unserem Sortiment und Teil einer bewussten Erweiterung über Gemüse hinaus in die Tiefkühlobst-Kategorie, nach der unsere Exportpartner gefragt haben."
   },
-  "author": "Montana",
+  "author": "Montana Product Development Team",
+  "authorBio": {
+    "name": {
+      "en": "Product Development & R&D, Montana Frozen Foods"
+    },
+    "title": {
+      "en": "Fruit Division — Egyptian mango IQF product specialist"
+    },
+    "profileUrl": "https://www.linkedin.com/company/MontanaPage"
+  },
   "coverImage": "/images/products/mango/montana-frozen-mango.jpg",
   "tags": ["mango", "fruit", "new-product", "iqf"]
 }

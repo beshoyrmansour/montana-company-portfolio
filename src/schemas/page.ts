@@ -212,6 +212,20 @@ export const homePageSchema = z.object({
       ctas: z.array(ctaLink),
     })
     .optional(),
+  /** Buyer-intent FAQ — visible content on the page + FAQPage JSON-LD for AI extraction. */
+  faqs: z
+    .object({
+      enabled: z.boolean(),
+      eyebrow: i18nString.optional(),
+      title: splitTitle,
+      items: z.array(
+        z.object({
+          q: i18nString,
+          a: i18nString,
+        }),
+      ),
+    })
+    .optional(),
 });
 
 export type HomePage = z.infer<typeof homePageSchema>;

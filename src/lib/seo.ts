@@ -153,13 +153,11 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
       credentialCategory: 'certification',
       name: c.name,
     })),
-    sameAs: [
-      site.social.facebook,
-      site.social.instagram,
-      site.social.linkedin,
-      site.social.twitter,
-      site.social.youtube,
-    ].filter((u): u is string => Boolean(u)),
+    // Only social profiles that have active accounts. If Montana acquires a
+    // Twitter/X or YouTube account, add them to site.json before re-enabling.
+    sameAs: [site.social.facebook, site.social.instagram, site.social.linkedin].filter(
+      (u): u is string => Boolean(u),
+    ),
   };
 }
 
@@ -220,7 +218,8 @@ export function productJsonLd(product: Product, locale: Locale): JsonLd {
     ...product.images.gallery.map((i) => `${BASE_URL}${i}`),
   ];
 
-  return {
+  const priceRange = product.seo?.priceRange;
+  const base: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     '@id': `${BASE_URL}/${locale}/catalog/${product.slug}#product`,
@@ -238,6 +237,36 @@ export function productJsonLd(product: Product, locale: Locale): JsonLd {
     keywords: product.seo?.keywords?.join(', '),
     url: `${BASE_URL}/${locale}/catalog/${product.slug}`,
   };
+
+  // AggregateOffer — price range for B2B buyers who want ballpark figures.
+  if (priceRange) {
+    base['offers'] = {
+      '@type': 'AggregateOffer',
+      lowPrice: priceRange.from,
+      highPrice: priceRange.to,
+      priceCurrency: 'USD',
+      priceSpecification: [
+        {
+          '@type': 'UnitPriceSpecification',
+          priceType: 'http://productbase.org.uk/wiki/PriceType#ContractQuotePriceType',
+          unitCode:
+            priceRange.perUnit === 'kg' ? 'KGM' : priceRange.perUnit === 'tonne' ? 'TNE' : 'TNE',
+          minPrice: priceRange.from,
+          maxPrice: priceRange.to,
+        },
+      ],
+    };
+  }
+
+  // hasVariation — each listed variety becomes a Product sub-entity.
+  if (product.varieties.length > 0) {
+    base['hasVariation'] = product.varieties.map((v) => ({
+      '@type': 'Product',
+      name: pick(v.name, locale),
+    }));
+  }
+
+  return base as JsonLd;
 }
 
 // ────────────────────────────────────────────────────────────────────
@@ -246,6 +275,26 @@ export function productJsonLd(product: Product, locale: Locale): JsonLd {
 
 export function newsArticleJsonLd(article: NewsArticle, locale: Locale, siteName: string): JsonLd {
   const url = `${BASE_URL}/${locale}/news/${article.slug}`;
+
+  // Build the author entity — prefer a named Person with profile when available (E-E-A-T signal).
+  // Google's March 2026 Core Update elevated Experience above all E-E-A-T pillars and made author
+  // attribution a ranking factor across ALL verticals (~73% of top-10 post-update have author credentials).
+  const authorBio = article.authorBio;
+  let authorEntity: Record<string, unknown> = {
+    '@type': 'Organization',
+    name: article.author,
+    '@id': `${BASE_URL}/#organization`,
+  };
+  if (authorBio) {
+    authorEntity = {
+      '@type': 'Person',
+      name: pick(authorBio.name, locale) ?? article.author,
+      jobTitle: pick(authorBio.title, locale),
+      ...(authorBio.profileUrl ? { url: authorBio.profileUrl } : {}),
+      affiliation: { '@type': 'Organization', name: siteName, '@id': `${BASE_URL}/#organization` },
+    };
+  }
+
   return {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
@@ -255,7 +304,7 @@ export function newsArticleJsonLd(article: NewsArticle, locale: Locale, siteName
     image: [`${BASE_URL}${article.coverImage}`],
     datePublished: article.publishedAt,
     dateModified: article.updatedAt ?? article.publishedAt,
-    author: { '@type': 'Organization', name: article.author, '@id': `${BASE_URL}/#organization` },
+    author: authorEntity,
     publisher: { '@type': 'Organization', '@id': `${BASE_URL}/#organization`, name: siteName },
     inLanguage: locale,
     isAccessibleForFree: true,

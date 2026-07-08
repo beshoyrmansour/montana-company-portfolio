@@ -9,7 +9,7 @@ import { getHomePage, getSite, getFeaturedProducts, getAllNewsArticles } from '@
 import { pick, type Locale } from '@/lib/i18n';
 import { getActiveTheme } from '@/lib/theme';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { webSiteJsonLd, buildPageMetadata } from '@/lib/seo';
+import { webSiteJsonLd, faqPageJsonLd, buildPageMetadata } from '@/lib/seo';
 import { SectionDivider, TitleAccent, WorldMap } from '@/components/decoration/Ornaments';
 import { HeroCarousel } from '@/components/sections/HeroCarousel';
 import type { HomePage } from '@/schemas/page';
@@ -624,6 +624,51 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </div>
           </Container>
         </section>
+      )}
+
+      {/* ════════════════════════════════════════════════════════
+       * FAQ — buyer-intent Q&A for AI extraction (FAQPage schema)
+       * ════════════════════════════════════════════════════════ */}
+      {home.faqs?.enabled && home.faqs.items.length > 0 && (
+        <section className="section-editorial">
+          <Container>
+            <div
+              className="section-head"
+              style={{ marginInline: 'auto', textAlign: 'center', maxWidth: '56ch' }}
+            >
+              {home.faqs.eyebrow && (
+                <span className="eyebrow" style={{ justifyContent: 'center' }}>
+                  {pick(home.faqs.eyebrow, locale)}
+                </span>
+              )}
+              <h2 style={{ textAlign: 'center' }}>
+                <SplitTitle title={home.faqs.title} locale={locale} />
+              </h2>
+            </div>
+            <dl className="faq-list" style={{ marginTop: 'var(--space-6)' }}>
+              {home.faqs.items.map((item, i) => (
+                <div
+                  key={i}
+                  className="faq-item border-border-default mb-6 border-b pb-4 last:border-b-0"
+                >
+                  <dt className="text-body-lg text-text-default mb-2 font-semibold">
+                    {pick(item.q, locale)}
+                  </dt>
+                  <dd className="text-body-md text-text-muted max-w-prose leading-relaxed">
+                    {pick(item.a, locale)}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </Container>
+        </section>
+      )}
+
+      {/* FAQPage JSON-LD — visible content matches schema exactly.
+       * Google deprecated FAQ rich results (May 2026) but the schema remains
+       * a critical citation signal for AI Overviews (~31% of SERPs). */}
+      {home.faqs?.enabled && home.faqs.items.length > 0 && (
+        <JsonLd data={faqPageJsonLd(home.faqs.items.map((it) => ({ q: it.q.en, a: it.a.en })))} />
       )}
     </>
   );

@@ -22,7 +22,16 @@
     "fr": "Derrière le nom Montana se trouve une famille présente dans l'alimentaire et l'agriculture égyptiens depuis plus d'un siècle. Le groupe Maamoun Brothers remonte à 1909, et Montana en est la branche surgelés. C'est pourquoi Montana maîtrise toute sa chaîne : DACO fournit les légumes et fruits, PILCO fabrique les emballages, et Maamoun Cold Stores gère le froid et la logistique. Aucun intermédiaire entre le champ et le carton.",
     "de": "Hinter dem Namen Montana steht eine Familie, die seit über einem Jahrhundert in der ägyptischen Lebensmittel- und Landwirtschaft tätig ist. Die Maamoun Brothers Group führt ihre Wurzeln auf 1909 zurück, und Montana ist ihr Tiefkühlkost-Zweig.\n\nDieses Erbe ist der Grund, warum Montana seine Lieferkette von Anfang bis Ende kontrolliert. Das Schwesterunternehmen DACO liefert den Großteil unserer Rohgemüse und -früchte; PILCO stellt unsere maßgeschneiderten Tüten und Kartons her; und Maamoun Cold Stores übernimmt Kühlung, Fuhrpark und Logistik. Vom Boden, auf dem eine Kultur wächst, über das Gefrierfach, das sie hält, bis zum Lkw, der sie bewegt — die Kette bleibt innerhalb einer Familiengruppe.\n\nGenau diese Struktur erlaubt es uns, in 30 Ländern Konstanz zu versprechen: Es gibt keine anonymen Zwischenhändler zwischen Feld und Karton, nur Unternehmen, die seit Generationen zusammenarbeiten und auf denselben Namen hören. Ein Jahrhundert später ist die Disziplin dieselbe — Qualität, Sicherheit und der lange Blick, den nur ein Familienunternehmen hat."
   },
-  "author": "Montana",
+  "author": "Maamoun Group Heritage & Corporate Affairs",
+  "authorBio": {
+    "name": {
+      "en": "Corporate Communications Division, Maamoun Brothers Group"
+    },
+    "title": {
+      "en": "Group Heritage Desk — family business since 1909"
+    },
+    "profileUrl": "https://www.maamoungrp.com"
+  },
   "coverImage": "/images/facility/cold-store-exterior.jpg",
   "tags": ["heritage", "maamoun-group", "family-business", "corporate"]
 }

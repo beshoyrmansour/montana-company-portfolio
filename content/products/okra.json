@@ -160,7 +160,13 @@
       "frozen bamia",
       "frozen okra size grades",
       "frozen lady fingers vegetable"
-    ]
+    ],
+    "moq": "1 container (20–27 tonnes)",
+    "priceRange": {
+      "from": 850,
+      "to": 2500,
+      "perUnit": "tonne"
+    }
   },
   "relatedSlugs": ["molokhia", "artichoke", "vine-leaves"]
 }

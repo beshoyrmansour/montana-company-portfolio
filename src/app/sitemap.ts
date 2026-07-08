@@ -4,8 +4,22 @@ import { getAllProductSlugs, getAllNewsArticles } from '@/lib/content';
 import { getHiddenPages } from '@/lib/feature-flags';
 import { STATIC_ROUTES } from '@/lib/routes';
 import { BASE_URL } from '@/lib/seo';
+import marketsData from '@/content/markets.json';
 
 export const dynamic = 'error';
+
+/** Flatten all countries from the regions structure in markets.json. */
+function flattenCountries() {
+  const all: Array<{ iso: string; regionId: string }> = [];
+  for (const region of (
+    marketsData as typeof marketsData & { regions: (typeof marketsData)['regions'] }
+  ).regions) {
+    for (const country of region.countries) {
+      all.push({ iso: country.iso, regionId: region.id });
+    }
+  }
+  return all;
+}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Single source of truth for the origin — shared with canonical/OG/JSON-LD via
@@ -21,6 +35,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const products = await getAllProductSlugs();
   // Full articles (not just slugs) so we can emit lastModified from their dates.
   const news = await getAllNewsArticles();
+  const countries = flattenCountries();
   const entries: MetadataRoute.Sitemap = [];
 
   // Root landing page
@@ -68,6 +83,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           },
         });
       }
+    }
+    // Country export pages — one per country × locale.
+    for (const country of countries) {
+      const slug = country.iso.toLowerCase();
+      entries.push({
+        url: `${base}/${locale}/export/${slug}`,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: {
+          languages: Object.fromEntries(locales.map((l) => [l, `${base}/${l}/export/${slug}`])),
+        },
+      });
     }
   }
 

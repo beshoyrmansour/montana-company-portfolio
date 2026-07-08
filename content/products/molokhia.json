@@ -90,7 +90,13 @@
       "Egyptian molokhia supplier",
       "frozen mloukhia",
       "chopped molokhia leaves"
-    ]
+    ],
+    "moq": "1 container (20–27 tonnes)",
+    "priceRange": {
+      "from": 900,
+      "to": 2800,
+      "perUnit": "tonne"
+    }
   },
   "relatedSlugs": ["spinach", "okra", "vine-leaves"]
 }
