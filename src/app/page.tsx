@@ -15,12 +15,10 @@ export const dynamic = 'error';
 export const metadata = {
   title: 'Montana — Frozen Foods',
   description:
-    'Montana Frozen Foods, Egypt. Available in English, العربية, and Français.',
+    'Montana Frozen Foods, Egypt — Egyptian IQF frozen vegetables, fruits and signature molokhia. Available in English, العربية, Français and Deutsch.',
   alternates: {
     languages: {
-      en: '/en',
-      ar: '/ar',
-      fr: '/fr',
+      ...Object.fromEntries(getAvailableLocales().map((l) => [l, `/${l}`])),
       'x-default': `/${defaultLocale}`,
     },
   },
@@ -32,15 +30,18 @@ export default function RootLandingPage() {
   return (
     <div className="flex min-h-[80vh] items-center justify-center p-8">
       <main className="max-w-2xl text-center">
-        <h1 className="mb-2 text-display-xl font-bold text-brand-primary">Montana</h1>
-        <p className="mb-6 text-body-lg text-text-muted">Redirecting to your language…</p>
-        <nav aria-label="Choose language" className="flex flex-wrap items-center justify-center gap-4">
+        <h1 className="text-display-xl text-brand-primary mb-2 font-bold">Montana</h1>
+        <p className="text-body-lg text-text-muted mb-6">Redirecting to your language…</p>
+        <nav
+          aria-label="Choose language"
+          className="flex flex-wrap items-center justify-center gap-4"
+        >
           {available.map((l) => (
             <Link
               key={l}
               href={`/${l}`}
               hrefLang={l}
-              className="rounded-lg border border-border-default px-4 py-2 text-body-md font-medium text-text-default transition-colors hover:bg-surface-muted"
+              className="border-border-default text-body-md text-text-default hover:bg-surface-muted rounded-lg border px-4 py-2 font-medium transition-colors"
             >
               {localeLabels[l].native}
             </Link>

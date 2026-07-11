@@ -63,6 +63,20 @@ export function ogLocale(locale: Locale): string {
   return OG_LOCALE_MAP[locale] ?? 'en_US';
 }
 
+/**
+ * Derive the locale from a BASE_URL-prefixed page URL by reading its FIRST path
+ * segment (which is always the locale, e.g. `${BASE_URL}/de/about`). Robust
+ * against slugs that merely contain "en"/"ar"/"fr"; falls back to defaultLocale.
+ */
+function localeFromUrl(url: string): Locale {
+  const seg = url.startsWith(BASE_URL)
+    ? url.slice(BASE_URL.length).split('/').filter(Boolean)[0]
+    : undefined;
+  return (getAvailableLocales() as readonly string[]).includes(seg ?? '')
+    ? (seg as Locale)
+    : defaultLocale;
+}
+
 // ────────────────────────────────────────────────────────────────────
 // Organization — emitted on EVERY page (in root layout)
 // ────────────────────────────────────────────────────────────────────
@@ -76,7 +90,6 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
     '@type': 'Organization',
     '@id': `${BASE_URL}/#organization`,
     name: pick(site.brand.name, locale) ?? 'Montana',
-    alternateName: pick(site.parentCompany, locale),
     legalName: 'Montana Frozen Foods',
     url: BASE_URL,
     logo: {
@@ -285,9 +298,7 @@ export function productJsonLd(product: Product, locale: Locale): JsonLd {
       priceSpecification: [
         {
           '@type': 'UnitPriceSpecification',
-          priceType: 'http://productbase.org.uk/wiki/PriceType#ContractQuotePriceType',
-          unitCode:
-            priceRange.perUnit === 'kg' ? 'KGM' : priceRange.perUnit === 'tonne' ? 'TNE' : 'TNE',
+          unitCode: priceRange.perUnit === 'kg' ? 'KGM' : 'TNE',
           minPrice: priceRange.from,
           maxPrice: priceRange.to,
         },
@@ -317,11 +328,12 @@ export function newsArticleJsonLd(article: NewsArticle, locale: Locale, siteName
   // Google's March 2026 Core Update elevated Experience above all E-E-A-T pillars and made author
   // attribution a ranking factor across ALL verticals (~73% of top-10 post-update have author credentials).
   const authorBio = article.authorBio;
-  let authorEntity: Record<string, unknown> = {
-    '@type': 'Organization',
-    name: article.author,
-    '@id': `${BASE_URL}/#organization`,
-  };
+  // Fallback author = Organization. Only reuse the canonical #organization @id
+  // when the byline IS the brand; a named dept/person must not override that node.
+  let authorEntity: Record<string, unknown> =
+    article.author === siteName
+      ? { '@type': 'Organization', name: article.author, '@id': `${BASE_URL}/#organization` }
+      : { '@type': 'Organization', name: article.author };
   if (authorBio) {
     authorEntity = {
       '@type': 'Person',
@@ -370,13 +382,7 @@ export function webPageJsonLd(
     name,
     description,
     isPartOf: { '@id': `${BASE_URL}/#website` },
-    inLanguage: url.includes('/en')
-      ? 'en'
-      : url.includes('/ar')
-        ? 'ar'
-        : url.includes('/fr')
-          ? 'fr'
-          : 'de',
+    inLanguage: localeFromUrl(url),
     publisher: { '@id': `${BASE_URL}/#organization` },
   };
 }
@@ -387,7 +393,7 @@ export function itemListPageJsonLd(options: {
   name: string;
   description?: string;
 }): JsonLd {
-  return webPageJsonLd(options.url, options.name, options.description ?? '', 'ItemListPage');
+  return webPageJsonLd(options.url, options.name, options.description ?? '', 'CollectionPage');
 }
 
 // ────────────────────────────────────────────────────────────────────
@@ -408,7 +414,7 @@ export function exportServiceJsonLd(
     areaServed: {
       '@type': 'Place',
       name: country.name,
-      '@id': `${BASE_URL}/export/${slug}`,
+      '@id': `${BASE_URL}/${locale}/export/${slug}#area`,
     },
     description: `Montana Frozen Foods exports premium IQF frozen vegetables, fruits, and specialties to ${country.name}. Lead time: ${region.leadTime}. BRCGS, HACCP, ISO certified Egyptian supplier since 1985.`,
     offers: {
@@ -419,10 +425,6 @@ export function exportServiceJsonLd(
         {
           '@type': 'Offer',
           url: `${BASE_URL}/${locale}/export/${slug}`,
-          priceSpecification: {
-            '@type': 'UnitPriceSpecification',
-            priceType: 'http://productbase.org.uk/wiki/PriceType#ContractQuotePriceType',
-          },
         },
       ],
     },

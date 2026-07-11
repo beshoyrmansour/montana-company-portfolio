@@ -38,16 +38,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const countries = flattenCountries();
   const entries: MetadataRoute.Sitemap = [];
 
-  // Root landing page
-  entries.push({
-    url: base + '/',
-    changeFrequency: 'monthly',
-    priority: 0.5,
-  });
-
+  // The bare `/` is intentionally omitted — it 307-redirects (proxy.ts) to a
+  // locale home, and sitemaps should list canonical destinations, not redirects.
   for (const locale of locales) {
-    for (const { path, route } of staticPaths) {
+    for (const { path, route, noindex } of staticPaths) {
       if (route && hidden.has(route)) continue;
+      // noindex pages (legal) must not appear in the sitemap — a "please index /
+      // but noindex" contradiction triggers Search Console warnings.
+      if (noindex) continue;
       entries.push({
         url: `${base}/${locale}${path}`,
         changeFrequency: path === '' ? 'weekly' : 'monthly',

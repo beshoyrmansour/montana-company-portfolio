@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: page?.title ?? 'Cookie Policy',
     description:
       'Details on the cookies and similar technologies the Montana Frozen Foods website uses, and how you can manage your preferences.',
+    ogImage: `/${locale}/opengraph-image`,
     noindex: true,
   });
 }

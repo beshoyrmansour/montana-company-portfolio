@@ -25,6 +25,8 @@ jobs:
         run: npm run typecheck
       - name: Validate content
         run: npm run content:validate
+      - name: Validate SEO / AI-readiness
+        run: npm run seo:validate
       - name: Unit tests
         run: npm test
       - name: Build (Next.js)

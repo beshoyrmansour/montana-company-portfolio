@@ -21,13 +21,13 @@ import { Section } from '@/components/layout/Section';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
   buildPageMetadata,
-  organizationJsonLd,
+  BASE_URL,
   itemListJsonLd,
   breadcrumbJsonLd,
   exportServiceJsonLd,
 } from '@/lib/seo';
 import { pick, getAvailableLocales, defaultLocale, type Locale } from '@/lib/i18n';
-import { getSite, getFeaturedProducts } from '@/lib/content';
+import { getFeaturedProducts } from '@/lib/content';
 import marketsData from '@/content/markets.json';
 export const dynamic = 'error';
 export const dynamicParams = false;
@@ -89,7 +89,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return buildPageMetadata({
     locale,
     path: `/export/${countrySlug}`,
-    title: `${countryName} — Export Frozen Foods | Montana`,
+    title: `${countryName} — Export Frozen Foods`,
     description: seoDescription,
     keywords: [
       `frozen food exporter to ${countryName.toLowerCase()}`,
@@ -108,11 +108,11 @@ function getRegionPopularProducts(regionId: string): string[] {
   const regionMap: Record<string, string[]> = {
     gcc: ['molokhia', 'okra', 'vine-leaves', 'falafel'],
     'middle-east': ['molokhia', 'okra', 'spinach', 'mixed-vegetables'],
-    'north-africa': ['molokhia', 'okra', 'frozen-coriander', 'spinach'],
+    'north-africa': ['molokhia', 'okra', 'coriander', 'spinach'],
     europe: ['broccoli', 'cauliflower', 'mango', 'strawberry', 'artichoke'],
     asia: ['mango', 'strawberry', 'mixed-vegetables', 'sweet-corn'],
     'north-america': ['mango', 'strawberry', 'artichoke', 'mixed-vegetables'],
-    oceania: ['mango', 'strawberry', 'artichoke', 'pineapple'],
+    oceania: ['mango', 'strawberry', 'artichoke', 'pomegranate'],
   };
   return regionMap[regionId] ?? [];
 }
@@ -134,7 +134,7 @@ export default async function CountryExportPage({ params }: PageProps) {
 
   // Popular products for this market.
   const popularSlugs = getRegionPopularProducts(countryEntry.regionId);
-  const [site, products] = await Promise.all([getSite(), getFeaturedProducts()]);
+  const products = await getFeaturedProducts();
 
   // Load featured products and check which match our popular slugs.
   const popularProducts = products.filter((p) => popularSlugs.includes(p.slug)).slice(0, 6);
@@ -151,7 +151,6 @@ export default async function CountryExportPage({ params }: PageProps) {
     <>
       <JsonLd
         data={[
-          organizationJsonLd(site, locale),
           exportServiceJsonLd(
             { name: countryNameEn, iso: countryEntry.iso },
             { leadTime: region.leadTime, name: region.name },
@@ -160,14 +159,14 @@ export default async function CountryExportPage({ params }: PageProps) {
           breadcrumbJsonLd(breadcrumbs),
           itemListJsonLd(
             popularProducts.map((p) => ({
-              name: p.name.en,
-              url: `/${locale}/catalog/${p.slug}`,
-              image: `${site.brand.logoUrl}`, // placeholder — product-specific images in real implementation
+              name: pick(p.name, locale) ?? p.name.en,
+              url: `${BASE_URL}/${locale}/catalog/${p.slug}`,
+              image: `${BASE_URL}${p.images.primary}`,
             })),
             {
               name: `Montana Export to ${countryNameEn}`,
               description: `Frozen food export offerings for ${countryNameEn} — IQF vegetables, fruits and specialties.`,
-              url: `/${locale}/export/${countrySlug}`,
+              url: `${BASE_URL}/${locale}/export/${countrySlug}`,
             },
           ),
         ]}

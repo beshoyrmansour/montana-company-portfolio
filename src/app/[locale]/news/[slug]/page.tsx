@@ -11,7 +11,7 @@ import { ShareButtons } from '@/components/sections/ShareButtons';
 import { getAvailableLocales, pick, type Locale } from '@/lib/i18n';
 import { getAllNewsSlugs, getNewsArticle, getSite, getAllNewsArticles } from '@/lib/content';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { newsArticleJsonLd, breadcrumbJsonLd, buildPageMetadata } from '@/lib/seo';
+import { newsArticleJsonLd, breadcrumbJsonLd, buildPageMetadata, BASE_URL } from '@/lib/seo';
 
 export const dynamic = 'error';
 export const dynamicParams = false;
@@ -49,8 +49,6 @@ export async function generateMetadata({
   });
 }
 
-const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://montanaeg.com').replace(/\/$/, '');
-
 export default async function ArticlePage({
   params,
 }: {
@@ -69,7 +67,7 @@ export default async function ArticlePage({
   const body = pick(article.body, locale as Locale) ?? '';
   const siteName = pick(site.brand.name, locale as Locale) ?? 'Montana';
   const title = pick(article.title, locale as Locale) ?? article.slug;
-  const articleUrl = `${SITE_URL}/${locale}/news/${article.slug}`;
+  const articleUrl = `${BASE_URL}/${locale}/news/${article.slug}`;
 
   // Related: same category, exclude current, max 3
   const related = allArticles

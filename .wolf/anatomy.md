@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-07-11T13:33:27.116Z
-> Files: 285 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-07-11T14:12:56.525Z
+> Files: 287 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ../../../../../private/tmp/claude-501/-Users-beshoymansour-work-Montana-montana-web/93181998-0c09-4cce-9350-4a65a3233a26/scratchpad/
 
@@ -25,7 +25,7 @@
 - `next-env.d.ts` — / <reference types="next" /> (~72 tok)
 - `next.config.ts` — Next.js configuration (~1729 tok)
 - `package-lock.json` — npm lock file (~86915 tok)
-- `package.json` — Node.js package manifest (~591 tok)
+- `package.json` — Node.js package manifest (~612 tok)
 - `playwright.config.ts` — Playwright test configuration (~252 tok)
 - `postcss.config.mjs` — Declares config (~45 tok)
 - `README.md` — Project documentation (~1190 tok)
@@ -60,9 +60,13 @@
 
 - `SKILL.md` — Preflight — local CI gate (~1297 tok)
 
+## .claude/skills/seo-audit/
+
+- `SKILL.md` — /seo-audit — pre-release SEO + AI-readiness review (~955 tok)
+
 ## .github/workflows/
 
-- `ci.yml` — /\*.md' (~1112 tok)
+- `ci.yml` — /\*.md' (~1134 tok)
 
 ## .husky/
 
@@ -96,7 +100,7 @@
 
 - `.DS_Store` (~2186 tok)
 - `markets.json` (~3577 tok)
-- `site.json` (~1089 tok)
+- `site.json` (~1130 tok)
 
 ## content/inbox/
 
@@ -124,12 +128,12 @@
 - `egyptian-molokhia-export.json` (~1244 tok)
 - `exports-30-countries.json` (~1155 tok)
 - `falafel-launch.json` (~1062 tok)
-- `field-to-freeze.json` (~1334 tok)
+- `field-to-freeze.json` (~1441 tok)
 - `frozen-coriander.json` (~996 tok)
-- `frozen-mango.json` (~1005 tok)
-- `haccp-certification.json` (~1213 tok)
+- `frozen-mango.json` (~1124 tok)
+- `haccp-certification.json` (~1350 tok)
 - `inside-kalioub-facility.json` (~1142 tok)
-- `maamoun-heritage-1909.json` (~1234 tok)
+- `maamoun-heritage-1909.json` (~1357 tok)
 - `mixed-vegetables.json` (~1035 tok)
 - `okra-bamia.json` (~987 tok)
 - `ramadan-molokhia-season.json` (~1161 tok)
@@ -141,10 +145,10 @@
 
 - `about.json` (~7127 tok)
 - `catalog.json` (~2340 tok)
-- `contact.json` (~4862 tok)
+- `contact.json` (~4916 tok)
 - `home.json` (~13239 tok)
-- `markets.json` (~3538 tok)
-- `news.json` (~1342 tok)
+- `markets.json` (~3547 tok)
+- `news.json` (~1631 tok)
 
 ## content/products/
 
@@ -152,7 +156,7 @@
 - `broad-beans.json` (~1658 tok)
 - `broccoli.json` (~2046 tok)
 - `carrots.json` (~1828 tok)
-- `cauliflower.json` (~1806 tok)
+- `cauliflower.json` (~1823 tok)
 - `colcasia.json` (~1771 tok)
 - `coriander.json` (~1579 tok)
 - `falafel.json` (~1956 tok)
@@ -327,6 +331,7 @@
 - `process-images.ts` — Image pipeline for static export. (~657 tok)
 - `process-marketing-images.mjs` — One-off: process the marketing team's June 2026 image drop into (~2374 tok)
 - `validate-content.ts` — Validates all JSON content against the zod schemas. (~1043 tok)
+- `validate-seo.ts` — validate-seo.ts — deterministic SEO / AI-readiness guardrails. (~2618 tok)
 - `wire-marketing-content.mjs` — One-off: wire the June 2026 marketing image drop into EXISTING product JSONs. (~615 tok)
 
 ## src/
@@ -338,25 +343,25 @@
 - `globals.css` — Styles: 36 rules, 82 vars (~33806 tok)
 - `layout.tsx` — Single root layout. (~1629 tok)
 - `not-found.tsx` — dynamic (~116 tok)
-- `page.tsx` — Root landing page at / (~506 tok)
-- `sitemap.ts` — Flatten all countries from the regions structure in markets.json. (~1007 tok)
+- `page.tsx` — Root landing page at / (~534 tok)
+- `sitemap.ts` — Flatten all countries from the regions structure in markets.json. (~1068 tok)
 
 ## src/app/[locale]/
 
 - `.DS_Store` (~1640 tok)
 - `layout.tsx` — dynamic (~778 tok)
 - `opengraph-image.tsx` — Default share thumbnail (home + any page without its own image). (~279 tok)
-- `page.tsx` — dynamic (~8634 tok)
+- `page.tsx` — dynamic (~8601 tok)
 
 ## src/app/[locale]/about/
 
 - `opengraph-image.tsx` — dynamic (~186 tok)
-- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~4331 tok)
+- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~4265 tok)
 
 ## src/app/[locale]/catalog/
 
 - `opengraph-image.tsx` — dynamic (~199 tok)
-- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~3665 tok)
+- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~3700 tok)
 
 ## src/app/[locale]/catalog/[slug]/
 
@@ -370,12 +375,12 @@
 
 ## src/app/[locale]/cookies/
 
-- `page.tsx` — dynamic (~474 tok)
+- `page.tsx` — dynamic (~486 tok)
 
 ## src/app/[locale]/export/[country-slug]/
 
-- `opengraph-image.tsx` — Country export pages use a region-based accent color for OG cards. (~624 tok)
-- `page.tsx` — Country export page — dedicated landing pages for each export market. (~3271 tok)
+- `opengraph-image.tsx` — Country export share thumbnail — the branded card with the country name as the (~555 tok)
+- `page.tsx` — Country export page — dedicated landing pages for each export market. (~3239 tok)
 
 ## src/app/[locale]/markets/
 
@@ -389,15 +394,15 @@
 
 ## src/app/[locale]/news/[slug]/
 
-- `page.tsx` — dynamic (~2530 tok)
+- `page.tsx` — dynamic (~2504 tok)
 
 ## src/app/[locale]/privacy/
 
-- `page.tsx` — dynamic (~474 tok)
+- `page.tsx` — dynamic (~486 tok)
 
 ## src/app/[locale]/terms/
 
-- `page.tsx` — dynamic (~473 tok)
+- `page.tsx` — dynamic (~485 tok)
 
 ## src/app/api/contact/
 
@@ -405,7 +410,7 @@
 
 ## src/app/llms-full.txt/
 
-- `route.ts` — llms-full.txt — complete site map for AI agents. (~2944 tok)
+- `route.ts` — llms-full.txt — complete site map for AI agents. (~3236 tok)
 
 ## src/app/llms.txt/
 
@@ -503,8 +508,8 @@
 - `i18n.ts` — Locale configuration. Source of truth for all i18n decisions. (~590 tok)
 - `markets-meta.ts` — Markets visual + logistics metadata. (~2282 tok)
 - `og.tsx` — Shared Open Graph / share-thumbnail renderer. (~1282 tok)
-- `routes.ts` — Single source of truth for the site's localized routes. (~434 tok)
-- `seo.ts` — SEO helpers — JSON-LD generators, metadata builders, and hreflang. (~6022 tok)
+- `routes.ts` — Single source of truth for the site's localized routes. (~498 tok)
+- `seo.ts` — SEO helpers — JSON-LD generators, metadata builders, and hreflang. (~6137 tok)
 - `theme.ts` — Theme resolver. (~179 tok)
 - `world-map-paths.ts` — Each entry is one country, keyed by ISO 3166-1 alpha-2. (~24647 tok)
 

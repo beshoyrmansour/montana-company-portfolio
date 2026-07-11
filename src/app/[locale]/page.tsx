@@ -11,7 +11,6 @@ import { getActiveTheme } from '@/lib/theme';
 import { JsonLd } from '@/components/seo/JsonLd';
 import {
   webSiteJsonLd,
-  webPageJsonLd,
   itemListPageJsonLd,
   faqPageJsonLd,
   buildPageMetadata,
@@ -143,13 +142,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <JsonLd
         data={[
           webSiteJsonLd(site, locale),
-          webPageJsonLd(
-            `${BASE_URL}/${locale}`,
-            'Montana — Egyptian Frozen Foods Exporter Since 1985',
-            pick(home.seo?.description, locale) ||
-              'Family-owned Egyptian IQF frozen-food exporter since 1985. Vegetables, fruits and signature molokhia shipped to 30 countries.',
-            'WebSite',
-          ),
           itemListPageJsonLd({
             url: `${BASE_URL}/${locale}`,
             name: 'Montana Homepage',
@@ -691,7 +683,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
        * Google deprecated FAQ rich results (May 2026) but the schema remains
        * a critical citation signal for AI Overviews (~31% of SERPs). */}
       {home.faqs?.enabled && home.faqs.items.length > 0 && (
-        <JsonLd data={faqPageJsonLd(home.faqs.items.map((it) => ({ q: it.q.en, a: it.a.en })))} />
+        <JsonLd
+          data={faqPageJsonLd(
+            home.faqs.items.map((it) => ({
+              q: pick(it.q, locale) ?? it.q.en,
+              a: pick(it.a, locale) ?? it.a.en,
+            })),
+          )}
+        />
       )}
     </>
   );

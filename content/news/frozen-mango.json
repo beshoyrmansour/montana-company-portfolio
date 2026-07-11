@@ -25,10 +25,16 @@
   "author": "Montana Product Development Team",
   "authorBio": {
     "name": {
-      "en": "Product Development & R&D, Montana Frozen Foods"
+      "en": "Product Development & R&D, Montana Frozen Foods",
+      "ar": "تطوير المنتجات والبحث والتطوير، Montana Frozen Foods",
+      "fr": "Développement produit & R&D, Montana Frozen Foods",
+      "de": "Produktentwicklung & F&E, Montana Frozen Foods"
     },
     "title": {
-      "en": "Fruit Division — Egyptian mango IQF product specialist"
+      "en": "Fruit Division — Egyptian mango IQF product specialist",
+      "ar": "قسم الفاكهة — أخصائي منتجات المانجو المصري بتقنية IQF",
+      "fr": "Division Fruits — spécialiste produit mangue égyptienne IQF",
+      "de": "Fruchtabteilung — Produktspezialist für ägyptische IQF-Mango"
     },
     "profileUrl": "https://www.linkedin.com/company/MontanaPage"
   },

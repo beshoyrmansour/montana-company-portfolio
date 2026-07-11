@@ -25,10 +25,16 @@
   "author": "Montana Quality & Production Team",
   "authorBio": {
     "name": {
-      "en": "Quality & Production Department, Montana Frozen Foods"
+      "en": "Quality & Production Department, Montana Frozen Foods",
+      "ar": "قسم الجودة والإنتاج، Montana Frozen Foods",
+      "fr": "Département Qualité & Production, Montana Frozen Foods",
+      "de": "Abteilung Qualität & Produktion, Montana Frozen Foods"
     },
     "title": {
-      "en": "Operational Leadership — 41 years of IQF production"
+      "en": "Operational Leadership — 41 years of IQF production",
+      "ar": "قيادة تشغيلية — 41 عاماً من إنتاج IQF",
+      "fr": "Direction opérationnelle — 41 ans de production IQF",
+      "de": "Operative Leitung — 41 Jahre IQF-Produktion"
     },
     "profileUrl": "https://www.linkedin.com/company/MontanaPage"
   },

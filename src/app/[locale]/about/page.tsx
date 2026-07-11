@@ -5,7 +5,7 @@ import { SectionDivider } from '@/components/decoration/Ornaments';
 import { getActiveTheme } from '@/lib/theme';
 import { getAboutPage } from '@/lib/content';
 import { pick, type Locale } from '@/lib/i18n';
-import { buildPageMetadata, webPageJsonLd, breadcrumbJsonLd, BASE_URL } from '@/lib/seo';
+import { buildPageMetadata, breadcrumbJsonLd, BASE_URL } from '@/lib/seo';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { certIcon, certLogo } from '@/lib/certs';
 import type { AboutPage } from '@/schemas/page';
@@ -81,19 +81,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
 
   return (
     <>
-      <JsonLd
-        data={[
-          webPageJsonLd(
-            `${BASE_URL}/${locale}/about`,
-            'About — Montana Frozen Foods',
-            pick(page.seo?.description, locale) ??
-              pick(page.hero.subtitle, locale) ??
-              'About Montana — family-owned Egyptian IQF frozen-food exporter since 1985.',
-          ),
-          breadcrumb,
-          aboutPageJsonLd,
-        ]}
-      />
+      <JsonLd data={[breadcrumb, aboutPageJsonLd]} />
       {/* ════════════════════════════════════════════════════════ HERO */}
       {page.hero.enabled && (
         <section className="markets-hero">

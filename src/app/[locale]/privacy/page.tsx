@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: page?.title ?? 'Privacy Policy',
     description:
       'How Montana Frozen Foods collects, uses, and protects the personal data of buyers and visitors across our B2B export platform.',
+    ogImage: `/${locale}/opengraph-image`,
     noindex: true,
   });
 }

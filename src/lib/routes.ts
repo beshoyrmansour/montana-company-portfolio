@@ -15,6 +15,9 @@ export interface StaticRoute {
   path: string;
   /** Feature-flag id, when the page can be hidden via NEXT_PUBLIC_HIDDEN_PAGES. */
   route?: RouteId;
+  /** Page sets robots `noindex` (legal/draft) — kept off the sitemap so we don't
+   *  send Search Console a "submitted URL marked noindex" contradiction. */
+  noindex?: boolean;
 }
 
 /** Every static (non-parameterized) page that should appear in the sitemap. */
@@ -25,9 +28,9 @@ export const STATIC_ROUTES: readonly StaticRoute[] = [
   { path: '/news', route: 'news' },
   { path: '/markets', route: 'markets' },
   { path: '/contact', route: 'contact' },
-  { path: '/privacy' },
-  { path: '/terms' },
-  { path: '/cookies' },
+  { path: '/privacy', noindex: true },
+  { path: '/terms', noindex: true },
+  { path: '/cookies', noindex: true },
 ];
 
 /**

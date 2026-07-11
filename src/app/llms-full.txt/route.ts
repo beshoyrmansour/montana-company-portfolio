@@ -33,7 +33,7 @@ const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/contact':
     'Contact Montana Frozen Foods — submit sourcing inquiries, B2B orders, sample requests, distributor applications, or press inquiries. Export team responds within one business day in English, العربية, Français, or Deutsch. Cairo office (Mohandeseen, Giza) and Qalyub factory. Phone +20 242165139.',
   '/privacy':
-    'Privacy Policy for montanaeg.com — data handling, cookie usage, analytics, GDPR compliance.',
+    'Privacy Policy for Montana Frozen Foods — data handling, cookie usage, analytics, GDPR compliance.',
   '/terms': 'Terms of Service — B2B frozen food export terms, quality guarantees, payment terms.',
   '/cookies': 'Cookie Policy — essential, analytics, and performance cookies.',
 };
@@ -52,10 +52,6 @@ const PRODUCT_DESCRIPTIONS: Record<string, string> = {
     'IQF frozen colcasia (taro/arotto) — Egyptian specialty frozen vegetable. Export to GCC, Middle East, Africa markets. Montana IQF process preserves texture and nutrition.',
   coriander:
     'IQF frozen coriander/cilantro — essential herb for Egyptian, African, and Middle Eastern cuisine. Export-grade quality. HACCP certified producer from Egypt since 1985.',
-  'frozen-coriander':
-    'IQF frozen coriander leaves — premium Egyptian supply for GCC, MENA, Africa markets. Montana Frozen Foods IQF technology preserves freshness and color.',
-  'frozen-sweet-corn-kernels':
-    'IQF frozen sweet corn kernels — versatile Egyptian frozen vegetable. Export to 30+ countries. BRCGS/ISO/HACCP certified facility. Popular in Middle East and African markets.',
   mango:
     'IQF frozen mango slices and chunks — premium Egyptian mango from Qalyub facility. B2B export to GCC, Europe, North America. IQF technology preserves tropical flavor.',
   'mixed-vegetables':
@@ -66,7 +62,7 @@ const PRODUCT_DESCRIPTIONS: Record<string, string> = {
   peas: 'IQF frozen green peas — premium Egyptian frozen vegetables. B2B export pricing to GCC, Europe, North America markets. Montana IQF process preserves sweetness.',
   'peeled-broad-beans':
     'IQF peeled broad beans (fawael) — essential for taameya/falafel. Egyptian specialty. HACCP/ISO certified. Exported to GCC and international markets since 1985.',
-  'pomegranate-arils':
+  pomegranate:
     'IQF frozen pomegranate arils — premium Egyptian fruit export. BRCGS/HACCP certified. Popular in Middle Eastern and international markets as garnish and superfood ingredient.',
   spinach:
     'IQF frozen spinach — premium Egyptian IQF vegetables for GCC, Europe, Africa. Montana Frozen Foods since 1985. HACCP/ISO/BRCGS certified facility in Qalyub.',
@@ -78,6 +74,20 @@ const PRODUCT_DESCRIPTIONS: Record<string, string> = {
     "IQF frozen vine leaves (wara' enab) — essential for Middle Eastern and Mediterranean cuisine. Egyptian export quality. Montana IQF technology preserves tenderness.",
   'vegetable-soup':
     "Montana's specialty — IQF frozen molokhia-based vegetable soup mix. Egyptian comfort food exported worldwide. BRCGS/HACCP certified. Halal and NFSA compliant.",
+  carrots:
+    'IQF frozen carrots — sliced, diced and whole baby carrots. Egyptian export grade. BRCGS/HACCP/ISO certified supplier for GCC, Europe, Africa markets since 1985.',
+  falafel:
+    "IQF frozen falafel (taameya) — authentic Egyptian broad-bean falafel, ready to fry. Export-grade B2B supply. HACCP/ISO/BRCGS certified from Montana's Qalyub facility.",
+  'green-beans':
+    'IQF frozen green beans — cut and whole, premium Egyptian frozen vegetables. Export to GCC, Europe, North America. BRCGS/HACCP/ISO certified producer since 1985.',
+  'peas-and-carrots':
+    'IQF frozen peas and carrots blend — classic Egyptian frozen vegetable mix for food service. B2B export pricing. HACCP/ISO/BRCGS certified from Qalyub facility.',
+  potato:
+    'IQF frozen potato — dices, cubes and specialty cuts. Egyptian export grade for GCC, MENA and African markets. BRCGS/HACCP/ISO certified supplier since 1985.',
+  'sweet-corn-cob':
+    'IQF frozen sweet corn on the cob — whole and half cobs, Egyptian export grade. BRCGS/ISO/HACCP certified facility. Popular in Middle East and African food-service markets.',
+  'whole-green-beans':
+    'IQF frozen whole green beans — premium tender pods, Egyptian export grade. Cold chain guaranteed to GCC, Europe, North America. BRCGS/HACCP/ISO certified producer.',
 };
 
 /** Build a localized description for AI agents to understand each page's content. */

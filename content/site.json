@@ -77,7 +77,8 @@
       "address": {
         "en": "52 Gameat El-Dowal El-Arabia St., Mohandeseen, Giza, Egypt",
         "ar": "٥٢ شارع جامعة الدول العربية، المهندسين، الجيزة، مصر",
-        "fr": "52 rue Gameat El-Dowal El-Arabia, Mohandeseen, Giza, Égypte"
+        "fr": "52 rue Gameat El-Dowal El-Arabia, Mohandeseen, Giza, Égypte",
+        "de": "52 Gameat El-Dowal El-Arabia Str., Mohandeseen, Giza, Ägypten"
       },
       "phones": ["+202 333 75 408", "+202 374 82 859"],
       "fax": "+202 374 80 381",
@@ -97,7 +98,8 @@
       "address": {
         "en": "20 km Cairo/Alex Agriculture Road, Qalyub, Egypt",
         "ar": "كم ٢٠ طريق مصر/الإسكندرية الزراعي، القليوب، مصر",
-        "fr": "20 km route agricole Le Caire/Alexandrie, Qalyub, Égypte"
+        "fr": "20 km route agricole Le Caire/Alexandrie, Qalyub, Égypte",
+        "de": "20 km Agrarstraße Kairo/Alexandria, Qalyub, Ägypten"
       },
       "phones": ["+202 421 65 139", "+202 421 65 245", "+202 421 66 912/3"],
       "fax": "+202 421 65 154",

@@ -15,7 +15,6 @@ import {
   buildPageMetadata,
   itemListJsonLd,
   webPageJsonLd,
-  itemListPageJsonLd,
   breadcrumbJsonLd,
   BASE_URL,
 } from '@/lib/seo';

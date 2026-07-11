@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: page?.title ?? 'Terms of Use',
     description:
       'The terms governing use of the Montana Frozen Foods website and the conditions for B2B inquiries, quotes, and export communications.',
+    ogImage: `/${locale}/opengraph-image`,
     noindex: true,
   });
 }

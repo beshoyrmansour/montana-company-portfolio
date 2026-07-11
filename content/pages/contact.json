@@ -159,7 +159,8 @@
         "placeholder": {
           "en": "United Arab Emirates",
           "ar": "الإمارات العربية المتحدة",
-          "fr": "Émirats arabes unis"
+          "fr": "Émirats arabes unis",
+          "de": "Vereinigte Arabische Emirate"
         }
       },
       "message": {
@@ -265,7 +266,8 @@
         "address": {
           "en": "Industrial Zone Block 4, Qalyub Governorate",
           "ar": "المنطقة الصناعية بلوك 4، محافظة القليوبية",
-          "fr": "Zone industrielle bloc 4, gouvernorat de Qalyub"
+          "fr": "Zone industrielle bloc 4, gouvernorat de Qalyub",
+          "de": "Industriezone Block 4, Gouvernement Qalyub"
         },
         "tel": "+202 421 65 139",
         "email": "montana@maamoungrp.com",
@@ -302,7 +304,8 @@
         "address": {
           "en": "52 Gamaet El Dewal St., Dokki, Giza",
           "ar": "52 شارع جامعة الدول العربية، الدقي، الجيزة",
-          "fr": "52 rue Gamaet El Dewal, Dokki, Gizeh"
+          "fr": "52 rue Gamaet El Dewal, Dokki, Gizeh",
+          "de": "52 Gamaet El Dewal Str., Dokki, Giza"
         },
         "tel": "+202 333 75 408",
         "email": "info@montanaeg.com",
@@ -341,7 +344,8 @@
       "em": {
         "en": "Egypt.",
         "ar": "مصر.",
-        "fr": "Égypte."
+        "fr": "Égypte.",
+        "de": "Ägypten."
       }
     },
     "body": {

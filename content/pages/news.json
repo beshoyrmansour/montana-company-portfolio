@@ -25,24 +25,28 @@
     "eyebrow": {
       "en": "The newsroom",
       "ar": "غرفة الأخبار",
-      "fr": "La rédaction"
+      "fr": "La rédaction",
+      "de": "Die Redaktion"
     },
     "headline": {
       "lead": {
         "en": "News from",
         "ar": "أخبار من",
-        "fr": "Nouvelles du"
+        "fr": "Nouvelles du",
+        "de": "Nachrichten aus"
       },
       "em": {
         "en": "the delta.",
         "ar": "الدلتا.",
-        "fr": "delta."
+        "fr": "delta.",
+        "de": "dem Delta."
       }
     },
     "subtitle": {
       "en": "Quarterly updates from Egypt — press, heritage stories, quality reports, and the people behind every shipment.",
       "ar": "تحديثات ربع سنوية من مصر — صحافة، قصص تراث، تقارير جودة، والأشخاص خلف كل شحنة.",
-      "fr": "Mises à jour trimestrielles depuis l'Égypte — presse, récits de l'héritage, rapports qualité, et les personnes derrière chaque expédition."
+      "fr": "Mises à jour trimestrielles depuis l'Égypte — presse, récits de l'héritage, rapports qualité, et les personnes derrière chaque expédition.",
+      "de": "Vierteljährliche Updates aus Ägypten — Presse, Geschichten aus unserem Erbe, Qualitätsberichte und die Menschen hinter jeder Lieferung."
     }
   },
   "list": {
@@ -50,48 +54,58 @@
     "emptyMessage": {
       "en": "No articles in this category yet.",
       "ar": "لا توجد مقالات في هذه الفئة بعد.",
-      "fr": "Aucun article dans cette catégorie pour le moment."
+      "fr": "Aucun article dans cette catégorie pour le moment.",
+      "de": "In dieser Kategorie gibt es noch keine Artikel."
     },
     "allLabel": {
       "en": "All",
       "ar": "الكل",
-      "fr": "Tout"
+      "fr": "Tout",
+      "de": "Alle"
     },
     "featuredLabel": {
       "en": "Featured",
       "ar": "مميز",
-      "fr": "À la une"
+      "fr": "À la une",
+      "de": "Empfohlen"
     },
     "readMinSuffix": {
       "en": "min read",
       "ar": "دقيقة قراءة",
-      "fr": "min de lecture"
+      "fr": "min de lecture",
+      "de": "Min. Lesezeit"
     },
     "readMoreLabel": {
       "en": "Read the full story",
       "ar": "اقرأ القصة الكاملة",
-      "fr": "Lire la suite"
+      "fr": "Lire la suite",
+      "de": "Die ganze Geschichte lesen"
     },
     "categories": [
       {
         "id": "corporate",
-        "label": { "en": "Corporate", "ar": "الشركة", "fr": "Entreprise" }
+        "label": { "en": "Corporate", "ar": "الشركة", "fr": "Entreprise", "de": "Unternehmen" }
       },
       {
         "id": "product",
-        "label": { "en": "Product", "ar": "منتج", "fr": "Produit" }
+        "label": { "en": "Product", "ar": "منتج", "fr": "Produit", "de": "Produkt" }
       },
       {
         "id": "market",
-        "label": { "en": "Markets", "ar": "الأسواق", "fr": "Marchés" }
+        "label": { "en": "Markets", "ar": "الأسواق", "fr": "Marchés", "de": "Märkte" }
       },
       {
         "id": "sustainability",
-        "label": { "en": "Sustainability", "ar": "الاستدامة", "fr": "Durabilité" }
+        "label": {
+          "en": "Sustainability",
+          "ar": "الاستدامة",
+          "fr": "Durabilité",
+          "de": "Nachhaltigkeit"
+        }
       },
       {
         "id": "press",
-        "label": { "en": "Press", "ar": "صحافة", "fr": "Presse" }
+        "label": { "en": "Press", "ar": "صحافة", "fr": "Presse", "de": "Presse" }
       }
     ]
   },
@@ -100,35 +114,41 @@
     "eyebrow": {
       "en": "Quarterly newsletter",
       "ar": "النشرة الفصلية",
-      "fr": "Lettre trimestrielle"
+      "fr": "Lettre trimestrielle",
+      "de": "Vierteljährlicher Newsletter"
     },
     "title": {
       "lead": {
         "en": "News,",
         "ar": "الأخبار،",
-        "fr": "L'actualité,"
+        "fr": "L'actualité,",
+        "de": "Nachrichten,"
       },
       "em": {
         "en": "before it's public.",
         "ar": "قبل أن تصبح علنية.",
-        "fr": "avant qu'elle ne sorte."
+        "fr": "avant qu'elle ne sorte.",
+        "de": "bevor sie öffentlich werden."
       }
     },
     "body": {
       "en": "A short letter every quarter from our export desk — new markets, capacity changes, season previews. Twelve hundred trade buyers subscribe; you can join them.",
       "ar": "رسالة قصيرة كل ربع سنة من مكتب التصدير لدينا — أسواق جديدة، تغييرات في الطاقة الإنتاجية، معاينات الموسم. ألف ومائتا مشترٍ تجاري مشترك؛ يمكنك الانضمام إليهم.",
-      "fr": "Une courte lettre chaque trimestre depuis notre service export — nouveaux marchés, évolutions de capacité, aperçus de saison. Mille deux cents acheteurs commerciaux y sont abonnés ; vous pouvez les rejoindre."
+      "fr": "Une courte lettre chaque trimestre depuis notre service export — nouveaux marchés, évolutions de capacité, aperçus de saison. Mille deux cents acheteurs commerciaux y sont abonnés ; vous pouvez les rejoindre.",
+      "de": "Ein kurzer Brief jedes Quartal von unserem Export-Team — neue Märkte, Kapazitätsänderungen, Saisonvorschauen. Eintausendzweihundert Facheinkäufer sind abonniert; Sie können sich ihnen anschließen."
     },
     "placeholder": "trade@yourcompany.com",
     "submitLabel": {
       "en": "Subscribe",
       "ar": "اشترك",
-      "fr": "S'inscrire"
+      "fr": "S'inscrire",
+      "de": "Abonnieren"
     },
     "successMessage": {
       "en": "Thanks, you're on the list. We'll send the next quarterly letter.",
       "ar": "شكراً، تم تسجيل بريدك. سنرسل لك خطاب الربع القادم.",
-      "fr": "Merci, vous êtes inscrit. Vous recevrez notre prochain trimestriel."
+      "fr": "Merci, vous êtes inscrit. Vous recevrez notre prochain trimestriel.",
+      "de": "Danke, Sie stehen auf der Liste. Wir senden Ihnen den nächsten Quartalsbrief."
     }
   }
 }

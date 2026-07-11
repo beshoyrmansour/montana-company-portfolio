@@ -24,10 +24,16 @@
   "author": "Montana Food Safety & Quality Department",
   "authorBio": {
     "name": {
-      "en": "Food Safety & Quality Assurance Division, Montana Frozen Foods"
+      "en": "Food Safety & Quality Assurance Division, Montana Frozen Foods",
+      "ar": "قسم سلامة الغذاء وضمان الجودة، Montana Frozen Foods",
+      "fr": "Division Sécurité alimentaire & Assurance qualité, Montana Frozen Foods",
+      "de": "Abteilung Lebensmittelsicherheit & Qualitätssicherung, Montana Frozen Foods"
     },
     "title": {
-      "en": "Certified HACCP Lead Auditor · ISO 22000 Implementation Team"
+      "en": "Certified HACCP Lead Auditor · ISO 22000 Implementation Team",
+      "ar": "مدقق رئيسي معتمد لنظام HACCP · فريق تطبيق ISO 22000",
+      "fr": "Auditeur principal HACCP certifié · équipe de mise en œuvre ISO 22000",
+      "de": "Zertifizierter HACCP-Leitauditor · ISO-22000-Implementierungsteam"
     },
     "profileUrl": "https://www.linkedin.com/company/MontanaPage"
   },

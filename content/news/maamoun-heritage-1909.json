@@ -25,10 +25,16 @@
   "author": "Maamoun Group Heritage & Corporate Affairs",
   "authorBio": {
     "name": {
-      "en": "Corporate Communications Division, Maamoun Brothers Group"
+      "en": "Corporate Communications Division, Maamoun Brothers Group",
+      "ar": "قسم الاتصال المؤسسي، Maamoun Brothers Group",
+      "fr": "Division Communication d'entreprise, Maamoun Brothers Group",
+      "de": "Abteilung Unternehmenskommunikation, Maamoun Brothers Group"
     },
     "title": {
-      "en": "Group Heritage Desk — family business since 1909"
+      "en": "Group Heritage Desk — family business since 1909",
+      "ar": "مكتب تراث المجموعة — شركة عائلية منذ ١٩٠٩",
+      "fr": "Bureau du patrimoine du groupe — entreprise familiale depuis 1909",
+      "de": "Ressort Unternehmenserbe der Gruppe — Familienunternehmen seit 1909"
     },
     "profileUrl": "https://www.maamoungrp.com"
   },

@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "next dev",
     "prepare": "husky",
-    "build": "npm run content:validate && npm run routes:check && next build",
+    "build": "npm run content:validate && npm run routes:check && npm run seo:validate && next build",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
@@ -21,6 +21,7 @@
     "test:e2e": "playwright test",
     "content:validate": "tsx scripts/validate-content.ts",
     "routes:check": "tsx scripts/check-routes.ts",
+    "seo:validate": "tsx scripts/validate-seo.ts",
     "content:process-images": "tsx scripts/process-images.ts",
     "analyze": "ANALYZE=true next build",
     "format": "prettier --write .",
