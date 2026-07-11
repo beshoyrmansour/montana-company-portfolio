@@ -11,7 +11,7 @@ import { pick, getDir, type Locale } from '@/lib/i18n';
 import { getActiveTheme } from '@/lib/theme';
 import { isRouteHidden } from '@/lib/feature-flags';
 import { REGION_META, COUNTRY_META, regionColor } from '@/lib/markets-meta';
-import { buildPageMetadata, breadcrumbJsonLd } from '@/lib/seo';
+import { buildPageMetadata, webPageJsonLd, BASE_URL, breadcrumbJsonLd } from '@/lib/seo';
 import { JsonLd } from '@/components/seo/JsonLd';
 import type { MarketsPage } from '@/schemas/page';
 
@@ -104,7 +104,17 @@ export default async function MarketsPage({ params }: { params: Promise<{ locale
 
   return (
     <>
-      <JsonLd data={breadcrumb} />
+      <JsonLd
+        data={[
+          webPageJsonLd(
+            `${BASE_URL}/${locale}/markets`,
+            'Global Markets — Montana Frozen Foods',
+            `Montana ships IQF frozen vegetables and fruits to ${totalCountries} countries across 5 continents. See where we deliver.`,
+            'CollectionPage',
+          ),
+          breadcrumb,
+        ]}
+      />
       {/* ════════════════════════════════════════════════════════ HERO */}
       {page.hero.enabled && (
         <section className="markets-hero">

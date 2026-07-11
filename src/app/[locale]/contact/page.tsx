@@ -10,7 +10,14 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { getContactPage, getSite } from '@/lib/content';
 import { pick, type Locale } from '@/lib/i18n';
 import { isRouteHidden } from '@/lib/feature-flags';
-import { buildPageMetadata, faqPageJsonLd, localBusinessJsonLd, breadcrumbJsonLd } from '@/lib/seo';
+import {
+  buildPageMetadata,
+  faqPageJsonLd,
+  localBusinessJsonLd,
+  webPageJsonLd,
+  breadcrumbJsonLd,
+  BASE_URL,
+} from '@/lib/seo';
 import type { ContactPage } from '@/schemas/page';
 
 export const dynamic = 'error';
@@ -122,7 +129,14 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
     <>
       <JsonLd
         data={[
-          localBusinessJsonLd(site, locale),
+          webPageJsonLd(
+            `${BASE_URL}/${locale}/contact`,
+            'Contact — Montana Frozen Foods',
+            pick(page.seo?.description, locale) ??
+              pick(page.hero.subtitle, locale) ??
+              "Talk to Montana's export desk about IQF frozen vegetables and fruits.",
+          ),
+          ...localBusinessJsonLd(site, locale),
           breadcrumb,
           ...(faqItems.length > 0 ? [faqPageJsonLd(faqItems)] : []),
         ]}

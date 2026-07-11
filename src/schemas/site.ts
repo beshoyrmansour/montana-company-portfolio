@@ -27,6 +27,7 @@ export const siteSchema = z.object({
       phones: z.array(z.string()),
       fax: z.string().optional(),
       email: z.string().email(),
+      coordinates: z.object({ lat: z.number(), lng: z.number() }).optional(),
     }),
     factory: z.object({
       label: i18nString,

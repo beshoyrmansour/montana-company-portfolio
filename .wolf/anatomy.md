@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-07-08T10:40:18.581Z
-> Files: 275 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-07-11T13:33:27.116Z
+> Files: 285 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ../../../../../private/tmp/claude-501/-Users-beshoymansour-work-Montana-montana-web/93181998-0c09-4cce-9350-4a65a3233a26/scratchpad/
 
@@ -9,12 +9,14 @@
 
 ## ../../../.claude/plans/
 
+- `i-need-you-to-elegant-valiant.md` — SEO + AI-Readiness Improvement Plan (~2084 tok)
 - `i-want-you-to-mellow-turtle.md` — SEO & AI Readiness: Adversarial Review & Updated Plan (~4007 tok)
 
 ## ./
 
 - `.DS_Store` (~3824 tok)
 - `.gitignore` — Git ignore rules (~193 tok)
+- `.mcp.json` (~85 tok)
 - `.nvmrc` (~3 tok)
 - `.prettierrc` — Prettier configuration (~48 tok)
 - `CLAUDE.md` — OpenWolf (~57 tok)
@@ -34,11 +36,29 @@
 
 ## .claude/
 
-- `settings.json` (~441 tok)
+- `settings.json` (~606 tok)
+
+## .claude/agents/
+
+- `i18n-parity-reviewer.md` — Ground truth for this repo (do not re-derive — confirm against these files) (~2055 tok)
+- `seo-structured-data-reviewer.md` — Files that matter (read the real contract, don't trust this list blindly) (~3781 tok)
+
+## .claude/hooks/
+
+- `format-file.js` — PostToolUse hook: silently auto-format the single file Claude just wrote/edited (~920 tok)
+- `validate-content.js` — /\*.json → run the project's Zod content validation (the same (~1780 tok)
 
 ## .claude/rules/
 
 - `openwolf.md` (~313 tok)
+
+## .claude/skills/new-content/
+
+- `SKILL.md` — /new-content — scaffold a schema-valid content entry (all locales) (~3003 tok)
+
+## .claude/skills/preflight/
+
+- `SKILL.md` — Preflight — local CI gate (~1297 tok)
 
 ## .github/workflows/
 
@@ -76,7 +96,7 @@
 
 - `.DS_Store` (~2186 tok)
 - `markets.json` (~3577 tok)
-- `site.json` (~1066 tok)
+- `site.json` (~1089 tok)
 
 ## content/inbox/
 
@@ -316,7 +336,7 @@
 ## src/app/
 
 - `globals.css` — Styles: 36 rules, 82 vars (~33806 tok)
-- `layout.tsx` — Single root layout. (~1516 tok)
+- `layout.tsx` — Single root layout. (~1629 tok)
 - `not-found.tsx` — dynamic (~116 tok)
 - `page.tsx` — Root landing page at / (~506 tok)
 - `sitemap.ts` — Flatten all countries from the regions structure in markets.json. (~1007 tok)
@@ -324,19 +344,19 @@
 ## src/app/[locale]/
 
 - `.DS_Store` (~1640 tok)
-- `layout.tsx` — dynamic (~708 tok)
+- `layout.tsx` — dynamic (~778 tok)
 - `opengraph-image.tsx` — Default share thumbnail (home + any page without its own image). (~279 tok)
-- `page.tsx` — dynamic (~8474 tok)
+- `page.tsx` — dynamic (~8634 tok)
 
 ## src/app/[locale]/about/
 
 - `opengraph-image.tsx` — dynamic (~186 tok)
-- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~4261 tok)
+- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~4331 tok)
 
 ## src/app/[locale]/catalog/
 
 - `opengraph-image.tsx` — dynamic (~199 tok)
-- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~3593 tok)
+- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~3665 tok)
 
 ## src/app/[locale]/catalog/[slug]/
 
@@ -346,7 +366,7 @@
 ## src/app/[locale]/contact/
 
 - `opengraph-image.tsx` — dynamic (~179 tok)
-- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~4994 tok)
+- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~5071 tok)
 
 ## src/app/[locale]/cookies/
 
@@ -354,12 +374,13 @@
 
 ## src/app/[locale]/export/[country-slug]/
 
-- `page.tsx` — Country export page — dedicated landing pages for each export market. (~3124 tok)
+- `opengraph-image.tsx` — Country export pages use a region-based accent color for OG cards. (~624 tok)
+- `page.tsx` — Country export page — dedicated landing pages for each export market. (~3271 tok)
 
 ## src/app/[locale]/markets/
 
 - `opengraph-image.tsx` — dynamic (~184 tok)
-- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~5063 tok)
+- `page.tsx` — Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). (~5137 tok)
 
 ## src/app/[locale]/news/
 
@@ -384,7 +405,11 @@
 
 ## src/app/llms-full.txt/
 
-- `route.ts` — llms-full.txt — complete site map for AI agents. (~858 tok)
+- `route.ts` — llms-full.txt — complete site map for AI agents. (~2944 tok)
+
+## src/app/llms.txt/
+
+- `route.ts` — llms.txt — compact AI agent site overview (llmstxt.org convention). (~332 tok)
 
 ## src/app/robots.txt/
 
@@ -479,7 +504,7 @@
 - `markets-meta.ts` — Markets visual + logistics metadata. (~2282 tok)
 - `og.tsx` — Shared Open Graph / share-thumbnail renderer. (~1282 tok)
 - `routes.ts` — Single source of truth for the site's localized routes. (~434 tok)
-- `seo.ts` — SEO helpers — JSON-LD generators, metadata builders, and hreflang. (~5059 tok)
+- `seo.ts` — SEO helpers — JSON-LD generators, metadata builders, and hreflang. (~6022 tok)
 - `theme.ts` — Theme resolver. (~179 tok)
 - `world-map-paths.ts` — Each entry is one country, keyed by ISO 3166-1 alpha-2. (~24647 tok)
 
@@ -490,7 +515,7 @@
 - `page.ts` — Optional per-page SEO override. When present, fields here take (~4236 tok)
 - `product.ts` — Optional SEO overrides and B2B commercial metadata. (~608 tok)
 - `shared.ts` — An i18n string with required English + optional Arabic + French. (~191 tok)
-- `site.ts` — lucide-react icon name — e.g. 'Calendar', 'Factory', 'Users', 'Globe' (~449 tok)
+- `site.ts` — lucide-react icon name — e.g. 'Calendar', 'Factory', 'Users', 'Globe' (~471 tok)
 
 ## src/styles/
 

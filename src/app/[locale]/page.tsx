@@ -9,7 +9,14 @@ import { getHomePage, getSite, getFeaturedProducts, getAllNewsArticles } from '@
 import { pick, type Locale } from '@/lib/i18n';
 import { getActiveTheme } from '@/lib/theme';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { webSiteJsonLd, faqPageJsonLd, buildPageMetadata } from '@/lib/seo';
+import {
+  webSiteJsonLd,
+  webPageJsonLd,
+  itemListPageJsonLd,
+  faqPageJsonLd,
+  buildPageMetadata,
+  BASE_URL,
+} from '@/lib/seo';
 import { SectionDivider, TitleAccent, WorldMap } from '@/components/decoration/Ornaments';
 import { HeroCarousel } from '@/components/sections/HeroCarousel';
 import type { HomePage } from '@/schemas/page';
@@ -133,7 +140,23 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
-      <JsonLd data={webSiteJsonLd(site, locale)} />
+      <JsonLd
+        data={[
+          webSiteJsonLd(site, locale),
+          webPageJsonLd(
+            `${BASE_URL}/${locale}`,
+            'Montana — Egyptian Frozen Foods Exporter Since 1985',
+            pick(home.seo?.description, locale) ||
+              'Family-owned Egyptian IQF frozen-food exporter since 1985. Vegetables, fruits and signature molokhia shipped to 30 countries.',
+            'WebSite',
+          ),
+          itemListPageJsonLd({
+            url: `${BASE_URL}/${locale}`,
+            name: 'Montana Homepage',
+            description: pick(home.seo?.description, locale),
+          }),
+        ]}
+      />
 
       {/* ════════════════════════════════════════════════════════
        * HERO — editorial split (text left, image right on desktop)

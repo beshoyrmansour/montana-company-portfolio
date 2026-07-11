@@ -19,7 +19,13 @@ import type { Metadata } from 'next';
 import { Container } from '@/components/layout/Container';
 import { Section } from '@/components/layout/Section';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { organizationJsonLd, itemListJsonLd, buildPageMetadata } from '@/lib/seo';
+import {
+  buildPageMetadata,
+  organizationJsonLd,
+  itemListJsonLd,
+  breadcrumbJsonLd,
+  exportServiceJsonLd,
+} from '@/lib/seo';
 import { pick, getAvailableLocales, defaultLocale, type Locale } from '@/lib/i18n';
 import { getSite, getFeaturedProducts } from '@/lib/content';
 import marketsData from '@/content/markets.json';
@@ -146,6 +152,12 @@ export default async function CountryExportPage({ params }: PageProps) {
       <JsonLd
         data={[
           organizationJsonLd(site, locale),
+          exportServiceJsonLd(
+            { name: countryNameEn, iso: countryEntry.iso },
+            { leadTime: region.leadTime, name: region.name },
+            locale as Locale,
+          ),
+          breadcrumbJsonLd(breadcrumbs),
           itemListJsonLd(
             popularProducts.map((p) => ({
               name: p.name.en,

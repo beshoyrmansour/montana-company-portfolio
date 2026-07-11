@@ -70,6 +70,8 @@ export const productSchema = z.object({
       title: i18nString.optional(),
       description: i18nString.optional(),
       keywords: z.array(z.string()).optional(),
+      /** AI-optimized summary for agent discovery (e.g. llms.txt). */
+      aiSummary: z.string().optional(),
       /** Typical minimum order quantity for the product (e.g. "1 container", "20 kg"). */
       moq: z.string().optional(),
       /** Typical price range for B2B reference — shown on product page as "From $X – $Y/tonne". */

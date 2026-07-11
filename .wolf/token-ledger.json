@@ -2,14 +2,14 @@
   "version": 1,
   "created_at": "2026-07-07T05:06:31.340Z",
   "lifetime": {
-    "total_tokens_estimated": 182680,
-    "total_reads": 73,
-    "total_writes": 56,
-    "total_sessions": 7,
-    "anatomy_hits": 66,
-    "anatomy_misses": 6,
-    "repeated_reads_blocked": 15,
-    "estimated_savings_vs_bare_cli": 55782
+    "total_tokens_estimated": 412523,
+    "total_reads": 186,
+    "total_writes": 111,
+    "total_sessions": 38,
+    "anatomy_hits": 168,
+    "anatomy_misses": 11,
+    "repeated_reads_blocked": 412,
+    "estimated_savings_vs_bare_cli": 733082
   },
   "sessions": [
     {
@@ -827,6 +827,1090 @@
         "writes_count": 0,
         "repeated_reads_blocked": 0,
         "anatomy_lookups": 3
+      }
+    },
+    {
+      "id": "session-2026-07-08-1505",
+      "started": "2026-07-08T12:05:34.995Z",
+      "ended": "2026-07-09T08:37:07.033Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/broad-beans.json",
+          "tokens_estimated": 1658,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 1658,
+        "output_tokens_estimated": 0,
+        "reads_count": 1,
+        "writes_count": 0,
+        "repeated_reads_blocked": 165,
+        "anatomy_lookups": 1
+      }
+    },
+    {
+      "id": "session-2026-07-08-1505",
+      "started": "2026-07-08T12:05:34.995Z",
+      "ended": "2026-07-09T11:52:30.130Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/broad-beans.json",
+          "tokens_estimated": 1658,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 1658,
+        "output_tokens_estimated": 0,
+        "reads_count": 1,
+        "writes_count": 0,
+        "repeated_reads_blocked": 166,
+        "anatomy_lookups": 1
+      }
+    },
+    {
+      "id": "session-2026-07-10-1216",
+      "started": "2026-07-10T09:16:54.588Z",
+      "ended": "2026-07-10T09:22:12.940Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/package.json",
+          "tokens_estimated": 591,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 5059,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/sitemap.ts",
+          "tokens_estimated": 1007,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/layout.tsx",
+          "tokens_estimated": 1516,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/page.tsx",
+          "tokens_estimated": 506,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/not-found.tsx",
+          "tokens_estimated": 116,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/next.config.ts",
+          "tokens_estimated": 1729,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/tsconfig.json",
+          "tokens_estimated": 273,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/vercel.json",
+          "tokens_estimated": 395,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/postcss.config.mjs",
+          "tokens_estimated": 45,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/page.tsx",
+          "tokens_estimated": 8474,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/[slug]/page.tsx",
+          "tokens_estimated": 3034,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/about/page.tsx",
+          "tokens_estimated": 4261,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/news/[slug]/page.tsx",
+          "tokens_estimated": 2530,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.env.example",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/page.tsx",
+          "tokens_estimated": 3593,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/news/page.tsx",
+          "tokens_estimated": 1797,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/markets/page.tsx",
+          "tokens_estimated": 5063,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/contact/page.tsx",
+          "tokens_estimated": 4994,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 3124,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/layout.tsx",
+          "tokens_estimated": 708,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/content.ts",
+          "tokens_estimated": 1758,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/api/contact/route.ts",
+          "tokens_estimated": 1470,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.github/workflows/ci.yml",
+          "tokens_estimated": 1112,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/cookies/page.tsx",
+          "tokens_estimated": 474,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/privacy/page.tsx",
+          "tokens_estimated": 474,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/terms/page.tsx",
+          "tokens_estimated": 473,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 54576,
+        "output_tokens_estimated": 0,
+        "reads_count": 27,
+        "writes_count": 0,
+        "repeated_reads_blocked": 1,
+        "anatomy_lookups": 26
+      }
+    },
+    {
+      "id": "session-2026-07-10-1238",
+      "started": "2026-07-10T09:38:36.574Z",
+      "ended": "2026-07-10T09:43:46.031Z",
+      "reads": [],
+      "writes": [
+        {
+          "file": "/Users/beshoymansour/.claude/plans/i-need-you-to-elegant-valiant.md",
+          "tokens_estimated": 2382,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 2382,
+        "reads_count": 0,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-07-10-1325",
+      "started": "2026-07-10T10:25:13.403Z",
+      "ended": "2026-07-10T11:02:07.560Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 5780,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/page.tsx",
+          "tokens_estimated": 8474,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/page.tsx",
+          "tokens_estimated": 3665,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/site.json",
+          "tokens_estimated": 1089,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/about/page.tsx",
+          "tokens_estimated": 4327,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/contact/page.tsx",
+          "tokens_estimated": 5068,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/markets/page.tsx",
+          "tokens_estimated": 5063,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/news/page.tsx",
+          "tokens_estimated": 1797,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/layout.tsx",
+          "tokens_estimated": 708,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/opengraph-image.tsx",
+          "tokens_estimated": 624,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/site.ts",
+          "tokens_estimated": 449,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 2938,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/[slug]/opengraph-image.tsx",
+          "tokens_estimated": 359,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/page.tsx",
+          "tokens_estimated": 49,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/page.tsx",
+          "tokens_estimated": 147,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/page.tsx",
+          "tokens_estimated": 36,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/page.tsx",
+          "tokens_estimated": 76,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/contact/page.tsx",
+          "tokens_estimated": 33,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/contact/page.tsx",
+          "tokens_estimated": 122,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/markets/page.tsx",
+          "tokens_estimated": 23,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/markets/page.tsx",
+          "tokens_estimated": 77,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/layout.tsx",
+          "tokens_estimated": 159,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 215,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/site.json",
+          "tokens_estimated": 58,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/site.ts",
+          "tokens_estimated": 75,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 492,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/contact/page.tsx",
+          "tokens_estimated": 14,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/page.tsx",
+          "tokens_estimated": 75,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 52,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 5,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 6,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 9,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 6,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 7,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 7,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 5,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 5,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 6,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/contact/page.tsx",
+          "tokens_estimated": 36,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 35,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/markets/page.tsx",
+          "tokens_estimated": 26,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/opengraph-image.tsx",
+          "tokens_estimated": 148,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/opengraph-image.tsx",
+          "tokens_estimated": 150,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/about/page.tsx",
+          "tokens_estimated": 82,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/about/page.tsx",
+          "tokens_estimated": 26,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 40341,
+        "output_tokens_estimated": 2262,
+        "reads_count": 13,
+        "writes_count": 32,
+        "repeated_reads_blocked": 11,
+        "anatomy_lookups": 13
+      }
+    },
+    {
+      "id": "session-2026-07-10-1518",
+      "started": "2026-07-10T12:18:57.584Z",
+      "ended": "2026-07-10T12:39:04.220Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/.claude/plans/i-need-you-to-elegant-valiant.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 6022,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 6022,
+        "output_tokens_estimated": 0,
+        "reads_count": 2,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 1
+      }
+    },
+    {
+      "id": "session-2026-07-11-1602",
+      "started": "2026-07-11T13:02:11.674Z",
+      "ended": "2026-07-11T13:12:26.426Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/scripts/validate-content.ts",
+          "tokens_estimated": 1043,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/scripts/check-routes.ts",
+          "tokens_estimated": 928,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/messages/en.json",
+          "tokens_estimated": 1157,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/product.ts",
+          "tokens_estimated": 608,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/news.ts",
+          "tokens_estimated": 404,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/page.ts",
+          "tokens_estimated": 4236,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.github/workflows/ci.yml",
+          "tokens_estimated": 1112,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/shared.ts",
+          "tokens_estimated": 191,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/i18n.ts",
+          "tokens_estimated": 590,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/reference/npm-scripts.md",
+          "tokens_estimated": 1038,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/mango.json",
+          "tokens_estimated": 1550,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/package.json",
+          "tokens_estimated": 591,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/frozen-mango.json",
+          "tokens_estimated": 1005,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.prettierrc",
+          "tokens_estimated": 48,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/components/layout/HtmlLangDir.tsx",
+          "tokens_estimated": 252,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 6022,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/how-to/add-product.md",
+          "tokens_estimated": 1242,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/messages/ar.json",
+          "tokens_estimated": 1151,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/how-to/publish-news-article.md",
+          "tokens_estimated": 1182,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/pages/about.json",
+          "tokens_estimated": 7127,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/reference/content-schemas.md",
+          "tokens_estimated": 2026,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/robots.txt/route.ts",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/sitemap.ts",
+          "tokens_estimated": 1007,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 2944,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/[slug]/page.tsx",
+          "tokens_estimated": 3034,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/[slug]/opengraph-image.tsx",
+          "tokens_estimated": 359,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/layout.tsx",
+          "tokens_estimated": 778,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/hooks/validate-content.js",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/hooks/format-file.js",
+          "tokens_estimated": 773,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.mcp.json",
+          "tokens_estimated": 85,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 41625,
+        "output_tokens_estimated": 858,
+        "reads_count": 28,
+        "writes_count": 2,
+        "repeated_reads_blocked": 10,
+        "anatomy_lookups": 24
+      }
+    },
+    {
+      "id": "session-2026-07-11-1602",
+      "started": "2026-07-11T13:02:11.674Z",
+      "ended": "2026-07-11T13:36:15.152Z",
+      "reads": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/scripts/validate-content.ts",
+          "tokens_estimated": 1043,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/scripts/check-routes.ts",
+          "tokens_estimated": 928,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/messages/en.json",
+          "tokens_estimated": 1157,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/product.ts",
+          "tokens_estimated": 608,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/news.ts",
+          "tokens_estimated": 404,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/page.ts",
+          "tokens_estimated": 4236,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.github/workflows/ci.yml",
+          "tokens_estimated": 1112,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/schemas/shared.ts",
+          "tokens_estimated": 191,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/i18n.ts",
+          "tokens_estimated": 590,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/reference/npm-scripts.md",
+          "tokens_estimated": 1038,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/products/mango.json",
+          "tokens_estimated": 1550,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/package.json",
+          "tokens_estimated": 591,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/news/frozen-mango.json",
+          "tokens_estimated": 1005,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.prettierrc",
+          "tokens_estimated": 48,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/components/layout/HtmlLangDir.tsx",
+          "tokens_estimated": 252,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/seo.ts",
+          "tokens_estimated": 6022,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/how-to/add-product.md",
+          "tokens_estimated": 1242,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/messages/ar.json",
+          "tokens_estimated": 1151,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/how-to/publish-news-article.md",
+          "tokens_estimated": 1182,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/content/pages/about.json",
+          "tokens_estimated": 7127,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/docs/reference/content-schemas.md",
+          "tokens_estimated": 2026,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/robots.txt/route.ts",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/sitemap.ts",
+          "tokens_estimated": 1007,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/llms-full.txt/route.ts",
+          "tokens_estimated": 2944,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/[slug]/page.tsx",
+          "tokens_estimated": 3034,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/catalog/[slug]/opengraph-image.tsx",
+          "tokens_estimated": 359,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/layout.tsx",
+          "tokens_estimated": 778,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/hooks/validate-content.js",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/layout.tsx",
+          "tokens_estimated": 1629,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/export/[country-slug]/page.tsx",
+          "tokens_estimated": 3271,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/app/[locale]/news/[slug]/page.tsx",
+          "tokens_estimated": 2530,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/content.ts",
+          "tokens_estimated": 1758,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/skills/preflight/SKILL.md",
+          "tokens_estimated": 1258,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/hooks/format-file.js",
+          "tokens_estimated": 773,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/i18n-parity-reviewer.md",
+          "tokens_estimated": 2055,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/skills/new-content/SKILL.md",
+          "tokens_estimated": 2786,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 3576,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/src/lib/routes.ts",
+          "tokens_estimated": 434,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/tests/unit/schemas.test.ts",
+          "tokens_estimated": 698,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/private/tmp/claude-501/-Users-beshoymansour-work-Montana-montana-web/35b4f12c-0bd9-45b5-8d1b-8a87f7881cf6/tasks/w07ybux04.output",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/settings.json",
+          "tokens_estimated": 441,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/hooks/format-file.js",
+          "tokens_estimated": 773,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.mcp.json",
+          "tokens_estimated": 85,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/skills/preflight/SKILL.md",
+          "tokens_estimated": 1438,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/i18n-parity-reviewer.md",
+          "tokens_estimated": 2348,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/skills/new-content/SKILL.md",
+          "tokens_estimated": 3184,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 3941,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/hooks/validate-content.js",
+          "tokens_estimated": 1780,
+          "action": "create"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/hooks/format-file.js",
+          "tokens_estimated": 237,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 205,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 34,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 96,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/skills/new-content/SKILL.md",
+          "tokens_estimated": 109,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/skills/new-content/SKILL.md",
+          "tokens_estimated": 269,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/skills/preflight/SKILL.md",
+          "tokens_estimated": 370,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/skills/preflight/SKILL.md",
+          "tokens_estimated": 55,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/settings.json",
+          "tokens_estimated": 174,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 318,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 15,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 41,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/beshoymansour/work/Montana/montana-web/.claude/agents/seo-structured-data-reviewer.md",
+          "tokens_estimated": 155,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 62834,
+        "output_tokens_estimated": 15627,
+        "reads_count": 41,
+        "writes_count": 20,
+        "repeated_reads_blocked": 44,
+        "anatomy_lookups": 36
       }
     }
   ],

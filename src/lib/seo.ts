@@ -165,30 +165,59 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
 // LocalBusiness — emitted on contact page (richer than ContactPage)
 // ────────────────────────────────────────────────────────────────────
 
-export function localBusinessJsonLd(site: Site, locale: Locale): JsonLd {
-  return {
+export function localBusinessJsonLd(site: Site, locale: Locale): Array<JsonLd> {
+  const office = site.contact.office;
+  const factory = site.contact.factory;
+
+  // Helper to conditionally add geo coordinates.
+  const withGeo = (coords: { lat: number; lng: number } | undefined) =>
+    coords
+      ? {
+          '@type': 'GeoCoordinates' as const,
+          latitude: coords.lat,
+          longitude: coords.lng,
+        }
+      : undefined;
+
+  // Factory entity — FoodEstablishment with geo.
+  const factoryEntity: JsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FoodEstablishment',
     '@id': `${BASE_URL}/#factory`,
-    name: `Montana — ${pick(site.contact.factory.label, locale)}`,
+    name: `Montana — ${pick(factory.label, locale)}`,
     parentOrganization: { '@id': `${BASE_URL}/#organization` },
     url: `${BASE_URL}/${locale}/contact`,
-    telephone: site.contact.factory.phones[0],
-    email: site.contact.factory.email,
+    telephone: factory.phones[0],
+    email: factory.email,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: pick(site.contact.factory.address, locale),
+      streetAddress: pick(factory.address, locale),
       addressLocality: 'Qalyub',
       addressCountry: 'EG',
     },
-    geo: site.contact.factory.coordinates
-      ? {
-          '@type': 'GeoCoordinates',
-          latitude: site.contact.factory.coordinates.lat,
-          longitude: site.contact.factory.coordinates.lng,
-        }
-      : undefined,
+    geo: withGeo(factory.coordinates),
   };
+
+  // Cairo office entity — LocalBusiness with geo.
+  const officeEntity: JsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    '@id': `${BASE_URL}/#office`,
+    name: `Montana — ${pick(office.label, locale)}`,
+    parentOrganization: { '@id': `${BASE_URL}/#organization` },
+    url: `${BASE_URL}/${locale}/contact`,
+    telephone: office.phones[0],
+    email: office.email,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: pick(office.address, locale),
+      addressLocality: 'Giza',
+      addressCountry: 'EG',
+    },
+    geo: withGeo(office.coordinates),
+  };
+
+  return [factoryEntity, officeEntity];
 }
 
 // ────────────────────────────────────────────────────────────────────
@@ -213,9 +242,17 @@ export function webSiteJsonLd(site: Site, locale: Locale): JsonLd {
 // ────────────────────────────────────────────────────────────────────
 
 export function productJsonLd(product: Product, locale: Locale): JsonLd {
-  const images = [
-    `${BASE_URL}${product.images.primary}`,
-    ...product.images.gallery.map((i) => `${BASE_URL}${i}`),
+  const imageObjects = [
+    {
+      '@type': 'ImageObject',
+      url: `${BASE_URL}${product.images.primary}`,
+      contentUrl: `${BASE_URL}${product.images.primary}`,
+    },
+    ...product.images.gallery.map((i) => ({
+      '@type': 'ImageObject',
+      url: `${BASE_URL}${i}`,
+      contentUrl: `${BASE_URL}${i}`,
+    })),
   ];
 
   const priceRange = product.seo?.priceRange;
@@ -225,7 +262,7 @@ export function productJsonLd(product: Product, locale: Locale): JsonLd {
     '@id': `${BASE_URL}/${locale}/catalog/${product.slug}#product`,
     name: pick(product.name, locale) ?? product.slug,
     description: pick(product.description, locale) ?? pick(product.shortDescription, locale),
-    image: images,
+    image: imageObjects,
     brand: { '@type': 'Brand', name: 'Montana', '@id': `${BASE_URL}/#organization` },
     manufacturer: { '@id': `${BASE_URL}/#organization` },
     category: product.category,
@@ -312,6 +349,83 @@ export function newsArticleJsonLd(article: NewsArticle, locale: Locale, siteName
     keywords: article.tags.join(', '),
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     url,
+  };
+}
+
+// ────────────────────────────────────────────────────────────────────
+// WebPage — standard page-type schema emitted on every page
+// ────────────────────────────────────────────────────────────────────
+
+export function webPageJsonLd(
+  url: string,
+  name: string,
+  description: string,
+  type = 'WebPage',
+): JsonLd {
+  return {
+    '@context': 'https://schema.org',
+    '@type': type,
+    '@id': `${url}#webpage`,
+    url,
+    name,
+    description,
+    isPartOf: { '@id': `${BASE_URL}/#website` },
+    inLanguage: url.includes('/en')
+      ? 'en'
+      : url.includes('/ar')
+        ? 'ar'
+        : url.includes('/fr')
+          ? 'fr'
+          : 'de',
+    publisher: { '@id': `${BASE_URL}/#organization` },
+  };
+}
+
+/** Convenience wrapper for collection/index pages. */
+export function itemListPageJsonLd(options: {
+  url: string;
+  name: string;
+  description?: string;
+}): JsonLd {
+  return webPageJsonLd(options.url, options.name, options.description ?? '', 'ItemListPage');
+}
+
+// ────────────────────────────────────────────────────────────────────
+// ExportService — describes Montana's export offering per country
+// ────────────────────────────────────────────────────────────────────
+
+export function exportServiceJsonLd(
+  country: { name: string; iso: string },
+  region: { leadTime: string; name: Record<Locale, string> },
+  locale: Locale,
+): JsonLd {
+  const slug = country.iso.toLowerCase();
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: `Frozen food export to ${country.name}`,
+    provider: { '@id': `${BASE_URL}/#organization` },
+    areaServed: {
+      '@type': 'Place',
+      name: country.name,
+      '@id': `${BASE_URL}/export/${slug}`,
+    },
+    description: `Montana Frozen Foods exports premium IQF frozen vegetables, fruits, and specialties to ${country.name}. Lead time: ${region.leadTime}. BRCGS, HACCP, ISO certified Egyptian supplier since 1985.`,
+    offers: {
+      '@type': 'OfferCatalog',
+      name: `Frozen Food Export to ${country.name}`,
+      url: `${BASE_URL}/${locale}/export/${slug}`,
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          url: `${BASE_URL}/${locale}/export/${slug}`,
+          priceSpecification: {
+            '@type': 'UnitPriceSpecification',
+            priceType: 'http://productbase.org.uk/wiki/PriceType#ContractQuotePriceType',
+          },
+        },
+      ],
+    },
   };
 }
 

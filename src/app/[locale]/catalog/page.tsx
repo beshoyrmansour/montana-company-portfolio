@@ -11,7 +11,14 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { getAllProducts, getCatalogPage } from '@/lib/content';
 import { pick, type Locale } from '@/lib/i18n';
 import { getActiveTheme } from '@/lib/theme';
-import { buildPageMetadata, itemListJsonLd, breadcrumbJsonLd, BASE_URL } from '@/lib/seo';
+import {
+  buildPageMetadata,
+  itemListJsonLd,
+  webPageJsonLd,
+  itemListPageJsonLd,
+  breadcrumbJsonLd,
+  BASE_URL,
+} from '@/lib/seo';
 import type { CatalogPage } from '@/schemas/page';
 
 /** Locale-aware breadcrumb labels (this page renders via pick(), not next-intl). */
@@ -106,7 +113,19 @@ export default async function CatalogIndexPage({
 
   return (
     <>
-      <JsonLd data={[itemList, breadcrumb]} />
+      <JsonLd
+        data={[
+          itemList,
+          webPageJsonLd(
+            `${BASE_URL}/${locale}/catalog`,
+            `${crumbs.catalog} — Montana`,
+            pick(page.seo?.description, locale) ??
+              pick(page.hero.subtitle, locale) ??
+              'Browse Montanas full IQF frozen vegetable and fruit range.',
+          ),
+          breadcrumb,
+        ]}
+      />
       {/* ════════════════════════════════════════════════════════ HERO */}
       {page.hero.enabled && (
         <section className="section-editorial catalog-hero">

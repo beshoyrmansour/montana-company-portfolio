@@ -81,7 +81,11 @@
       },
       "phones": ["+202 333 75 408", "+202 374 82 859"],
       "fax": "+202 374 80 381",
-      "email": "info@montanaeg.com"
+      "email": "info@montanaeg.com",
+      "coordinates": {
+        "lat": 30.0444,
+        "lng": 31.2
+      }
     },
     "factory": {
       "label": {

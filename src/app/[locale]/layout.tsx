@@ -46,6 +46,9 @@ export default async function LocaleLayout({
           __html: `(function(){var d=document.documentElement;d.lang='${locale}';d.dir='${dir}';})();`,
         }}
       />
+      {/* Preconnect to Google Maps — used by office map iframes on contact page */}
+      <link rel="preconnect" href="https://maps.googleapis.com" crossOrigin="anonymous" />
+      <link rel="dns-prefetch" href="https://maps.googleapis.com" />
       {/* Organization JSON-LD — emitted on every page */}
       <JsonLd data={organizationJsonLd(site, locale as Locale)} />
       <NextIntlClientProvider messages={messages} locale={locale}>
