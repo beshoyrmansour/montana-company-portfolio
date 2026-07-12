@@ -27,6 +27,8 @@
 - **Claude Code automations** live under `.claude/` and are kept separate from OpenWolf's `.wolf/` context hooks: hooks `.claude/hooks/{validate-content,format-file}.js` (wired into `.claude/settings.json` PostToolUse alongside `.wolf/hooks/post-write.js`), subagents `.claude/agents/{i18n-parity-reviewer,seo-structured-data-reviewer}.md`, skills `.claude/skills/{new-content,preflight}/`, MCP servers in `.mcp.json` (context7 + Vercel). Hook scripts are CommonJS (repo root package.json is not ESM) and fail-open (exit 0) except content/i18n violations which exit 2.
 - **SEO/AI-readiness guardrails:** `scripts/validate-seo.ts` (`npm run seo:validate`, wired into the `build` chain + CI) enforces three invariants: (1) every `[locale]` page relying on the default OG route has an `opengraph-image.*` sibling — else it ships a 404 `og:image`; (2) every `content/products/*.json` slug has a `PRODUCT_DESCRIPTIONS` entry in `src/app/llms-full.txt/route.ts`; (3) the site origin is resolved ONLY via `BASE_URL` in `src/lib/seo.ts` — a second `NEXT_PUBLIC_SITE_URL` resolver drifts canonical/OG/JSON-LD apart on Vercel previews. It WARNS (non-blocking) on hreflang locale-coverage gaps. Judgment-based review lives in the `/seo-audit` skill + the `seo-structured-data-reviewer` / `i18n-parity-reviewer` subagents.
 - **Structured-data `@id` discipline:** one `#organization` node (root layout only) and one `#website` node (home only) site-wide; each page's page-entity uses `<url>#webpage` and its list uses `<url>#collection` — never collide these. `itemListPageJsonLd` emits `CollectionPage` (NOT the invalid `ItemListPage`). Locale-variant JSON-LD (FAQ, etc.) must use `pick(field, locale)`, not `.en`, so schema matches the visible localized text.
+- Export pages must use `nav.home` for breadcrumb home labels; `common.breadcrumb.home` does not exist in `messages/*.json` and throws `MISSING_MESSAGE` during render/CI.
+- Playwright smoke tests should assert current content copy, not stale literals: homepage stat is `30+` (not `40+`), and `/en/catalog` h1 is marketing copy rather than literal `Products`.
 
 ## Do-Not-Repeat
 
@@ -35,6 +37,7 @@
 
 - [2026-07-11] Do NOT infer "static export" from the `src/lib/i18n.ts` header comment — it's stale. Reality: `next.config.ts` has no `output:'export'`; it's a Vercel server build (`.next/`, no `out/` dir) whose `[locale]` pages are SSG via `dynamic = 'error'` + `dynamicParams = false`, plus a `src/proxy.ts` middleware (Next 16's renamed `middleware`) that Accept-Language-redirects `/`. A fresh agent repeated this exact mistake — always verify rendering mode against `next.config.ts`, never the i18n.ts comment.
 - [2026-07-11] Generated shell in skills/scripts must be zsh-safe — this repo's default shell (and the Bash tool's) is **zsh 5.9**. Bash-only `${!arr[@]}` index expansion and 0-based indexed arrays fail with `bad substitution`/silent-wrong-output under zsh. Use a string accumulator + helper function (or wrap in an explicit `bash`), not indexed arrays.
+- [2026-07-12] Never call `tCommon('breadcrumb.home')` on export pages: `messages/*` has breadcrumb labels under `product.breadcrumb` and global home text under `nav.home`; using the missing key causes Playwright/CI noise and broken renders.
 
 ## Decision Log
 
