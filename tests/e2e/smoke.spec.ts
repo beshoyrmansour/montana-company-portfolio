@@ -6,13 +6,16 @@ test.describe('smoke tests (static build)', () => {
     const res = await page.goto('/');
     expect(res?.status()).toBe(200);
     await expect(page).toHaveURL(/\/en($|\/)/);
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('A Quality Lifestyle');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(
+      "Egypt's harvest, frozen at its peak.",
+    );
   });
 
   test('root path falls back to default when Accept-Language is unsupported', async ({
     browser,
   }) => {
-    const ctx = await browser.newContext({ locale: 'de-DE' });
+    // de is now a supported locale; use an unsupported one (Japanese) to test the fallback.
+    const ctx = await browser.newContext({ locale: 'ja-JP' });
     const page = await ctx.newPage();
     await page.goto('/');
     await expect(page).toHaveURL(/\/en($|\/)/);
@@ -30,7 +33,9 @@ test.describe('smoke tests (static build)', () => {
   test('English homepage loads with brand content', async ({ page }) => {
     await page.goto('/en');
     await expect(page).toHaveTitle(/Montana/);
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('A Quality Lifestyle');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(
+      "Egypt's harvest, frozen at its peak.",
+    );
     // Stats strip
     await expect(page.getByText('40+').first()).toBeVisible();
     await expect(page.getByText('70').first()).toBeVisible();
@@ -46,7 +51,7 @@ test.describe('smoke tests (static build)', () => {
 
   test('French homepage loads with French copy', async ({ page }) => {
     await page.goto('/fr');
-    await expect(page.locator('h1')).toContainText(/qualité|style de vie/i);
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/récolte|surgel/i);
   });
 
   test('Catalog index lists all products', async ({ page }) => {
