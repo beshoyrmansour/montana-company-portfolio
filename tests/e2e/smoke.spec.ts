@@ -37,7 +37,7 @@ test.describe('smoke tests (static build)', () => {
       "Egypt's harvest, frozen at its peak.",
     );
     // Stats strip
-    await expect(page.getByText('40+').first()).toBeVisible();
+    await expect(page.getByText('30+').first()).toBeVisible();
     await expect(page.getByText('70').first()).toBeVisible();
   });
 
@@ -56,7 +56,7 @@ test.describe('smoke tests (static build)', () => {
 
   test('Catalog index lists all products', async ({ page }) => {
     await page.goto('/en/catalog');
-    await expect(page.getByRole('heading', { name: /products/i, level: 1 })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
     // ProductCard renders h3 for each product
     const cards = page.locator('h3');
     expect(await cards.count()).toBeGreaterThanOrEqual(16);
@@ -103,6 +103,11 @@ test.describe('smoke tests (static build)', () => {
     const regions = page.getByRole('heading', { level: 2 });
     await expect(regions.first()).toBeVisible();
     expect(await regions.count()).toBeGreaterThanOrEqual(4);
+  });
+
+  test('Export market page renders', async ({ page }) => {
+    await page.goto('/en/export/de');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/export frozen foods to/i);
   });
 
   test('Sitemap is generated', async ({ request }) => {

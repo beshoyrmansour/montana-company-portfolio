@@ -32,8 +32,13 @@
 
 ## Session: 2026-07-07 08:50
 
-| Time | Action | File(s) | Outcome | ~Tokens |
-| ---- | ------ | ------- | ------- | ------- |
+| Time  | Action                                                                                                  | File(s)                                         | Outcome                                                                     | ~Tokens |
+| ----- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------- | ------- |
+| 17:41 | Investigated Playwright (Chromium) CI failure via GitHub Actions logs (run 29187586137/job 86636534721) | .github/workflows/ci.yml, CI logs               | Identified missing i18n key + stale smoke assertions                        | ~2k     |
+| 17:46 | Fixed missing translation key usage on export breadcrumbs                                               | src/app/[locale]/export/[country-slug]/page.tsx | Replaced missing `common.breadcrumb.home` with `nav.home`                   | ~200    |
+| 17:47 | Updated Playwright smoke coverage for current UI copy + export route                                    | tests/e2e/smoke.spec.ts                         | Added export route test, updated stale `40+` and catalog heading assertions | ~600    |
+| 17:49 | Verified changes with targeted and broad chromium smoke runs                                            | tests/e2e/smoke.spec.ts                         | 3 targeted tests passed; 15/15 non-sitemap smoke tests passed in dev        | ~2k     |
+| 17:50 | Logged CI bug + stored session learnings                                                                | .wolf/buglog.json, .wolf/cerebrum.md            | Added bug-024 and new anti-regression notes                                 | ~700    |
 
 ## Session: 2026-07-07 08:52
 
