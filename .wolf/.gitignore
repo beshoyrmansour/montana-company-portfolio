@@ -1,5 +1,15 @@
 # OpenWolf: machine-local state (committed state: cerebrum.md, STATUS.md,
 # memory.md, buglog.json, anatomy.md, anatomy-index.json, config.json, OPENWOLF.md)
+hooks/*
+!hooks/_session.json
+!hooks/package.json
+!hooks/post-read.js
+!hooks/post-write.js
+!hooks/pre-read.js
+!hooks/pre-write.js
+!hooks/session-start.js
+!hooks/shared.js
+!hooks/stop.js
 backups/
 cache/
 daemon.log
