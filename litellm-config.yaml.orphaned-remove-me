@@ -1,0 +1,32 @@
+# litellm-config.yaml - Main LiteLLM configuration file
+
+# Model definitions for local LLMs
+model_list:
+  - model_name: "local-llm-model"
+    litellm_params:
+      model: "local-llm-model"
+      api_base: "http://localhost:1234/v1"  # LM Studio default
+      api_key: "NULL"
+      timeout: 300
+
+  - model_name: "ollama-model"
+    litellm_params:
+      model: "ollama-model"
+      api_base: "http://localhost:11434/v1"  # Ollama default
+      api_key: "NULL"
+      timeout: 300
+
+# Route requests to local models
+routing:
+  - model: "local-llm-model"
+    route_to: "local-llm-model"
+  - model: "ollama-model"
+    route_to: "ollama-model"
+
+# Additional configuration for virtual keys and security
+virtual_keys:
+  enabled: true
+
+# Logging configuration
+logging:
+  level: "INFO"

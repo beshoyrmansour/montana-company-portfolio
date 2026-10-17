@@ -1,0 +1,1756 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-07-11T14:12:56.525Z",
+    "fileCount": 289,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "f6ccf4bf4d1331d486a4bb4e39afa5c59f54f85ea05168d12cc8f9d5a7ee2a87",
+    "storeUpdatedAt": "2026-09-30T08:43:47.722Z",
+    "rootHash": "56b9802302b9055c"
+  },
+  "files": {
+    "../../../../../private/tmp/claude-501/-Users-beshoymansour-work-Montana-montana-web/93181998-0c09-4cce-9350-4a65a3233a26/scratchpad/retouch-labels.js": {
+      "description": "Retouch floor-13.jpg: cover handwritten bottle labels with clean modern stickers.",
+      "tokens": 1112,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "../../../.claude/plans/i-need-you-to-elegant-valiant.md": {
+      "description": "SEO + AI-Readiness Improvement Plan",
+      "tokens": 2084,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "../../../.claude/plans/i-want-you-to-mellow-turtle.md": {
+      "description": "SEO & AI Readiness: Adversarial Review & Updated Plan",
+      "tokens": 4007,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".DS_Store": {
+      "description": "",
+      "tokens": 3824,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 193,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".mcp.json": {
+      "description": "",
+      "tokens": 85,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".nvmrc": {
+      "description": "",
+      "tokens": 3,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".prettierrc": {
+      "description": "Prettier configuration",
+      "tokens": 48,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "CLAUDE.md": {
+      "description": "OpenWolf",
+      "tokens": 57,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "eslint.config.mjs": {
+      "description": "ESLint flat configuration",
+      "tokens": 388,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "lychee.toml": {
+      "description": "lychee link-checker config",
+      "tokens": 356,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "next-env.d.ts": {
+      "description": "/ <reference types=\"next\" />",
+      "tokens": 72,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "next.config.ts": {
+      "description": "Next.js configuration",
+      "tokens": 1729,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "package-lock.json": {
+      "description": "npm lock file",
+      "tokens": 86915,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "package.json": {
+      "description": "Node.js package manifest",
+      "tokens": 612,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "playwright.config.ts": {
+      "description": "Playwright test configuration",
+      "tokens": 252,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "postcss.config.mjs": {
+      "description": "Declares config",
+      "tokens": 45,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 1190,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "tsconfig.json": {
+      "description": "TypeScript configuration",
+      "tokens": 273,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "tsconfig.tsbuildinfo": {
+      "description": "",
+      "tokens": 43083,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "vercel.json": {
+      "description": "",
+      "tokens": 395,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "vitest.config.ts": {
+      "description": "Vitest test configuration",
+      "tokens": 138,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/settings.json": {
+      "description": "",
+      "tokens": 606,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/agents/i18n-parity-reviewer.md": {
+      "description": "Ground truth for this repo (do not re-derive — confirm against these files)",
+      "tokens": 2055,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/agents/seo-structured-data-reviewer.md": {
+      "description": "Files that matter (read the real contract, don't trust this list blindly)",
+      "tokens": 3781,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/hooks/format-file.js": {
+      "description": "PostToolUse hook: silently auto-format the single file Claude just wrote/edited",
+      "tokens": 920,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/hooks/validate-content.js": {
+      "description": "/\\*.json → run the project's Zod content validation (the same",
+      "tokens": 1780,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/rules/openwolf.md": {
+      "description": "",
+      "tokens": 313,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/skills/new-content/SKILL.md": {
+      "description": "/new-content — scaffold a schema-valid content entry (all locales)",
+      "tokens": 3003,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/skills/preflight/SKILL.md": {
+      "description": "Preflight — local CI gate",
+      "tokens": 1297,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".claude/skills/seo-audit/SKILL.md": {
+      "description": "/seo-audit — pre-release SEO + AI-readiness review",
+      "tokens": 955,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".github/workflows/ci.yml": {
+      "description": "/\\*.md'",
+      "tokens": 1134,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky/pre-commit": {
+      "description": "",
+      "tokens": 5,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 1,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/applypatch-msg": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/commit-msg": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/h": {
+      "description": "",
+      "tokens": 147,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/husky.sh": {
+      "description": "",
+      "tokens": 46,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/post-applypatch": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/post-checkout": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/post-commit": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/post-merge": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/post-rewrite": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/pre-applypatch": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/pre-auto-gc": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/pre-commit": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/pre-merge-commit": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/pre-push": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/pre-rebase": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    ".husky//_/prepare-commit-msg": {
+      "description": "",
+      "tokens": 11,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "changes/.DS_Store": {
+      "description": "",
+      "tokens": 1640,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/.DS_Store": {
+      "description": "",
+      "tokens": 2186,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/markets.json": {
+      "description": "",
+      "tokens": 3577,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/site.json": {
+      "description": "",
+      "tokens": 1130,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/inbox/.gitkeep": {
+      "description": "",
+      "tokens": 0,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/cookies.ar.md": {
+      "description": "سياسة ملفات تعريف الارتباط",
+      "tokens": 551,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/cookies.de.md": {
+      "description": "Cookie-Richtlinie",
+      "tokens": 711,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/cookies.en.md": {
+      "description": "Cookie Policy",
+      "tokens": 598,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/cookies.fr.md": {
+      "description": "Politique des cookies",
+      "tokens": 729,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/privacy.ar.md": {
+      "description": "سياسة الخصوصية",
+      "tokens": 61,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/privacy.de.md": {
+      "description": "Datenschutzerklärung",
+      "tokens": 374,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/privacy.en.md": {
+      "description": "Privacy Policy",
+      "tokens": 319,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/privacy.fr.md": {
+      "description": "Politique de confidentialité",
+      "tokens": 92,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/terms.ar.md": {
+      "description": "الشروط والأحكام",
+      "tokens": 722,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/terms.de.md": {
+      "description": "Nutzungsbedingungen",
+      "tokens": 979,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/terms.en.md": {
+      "description": "Terms of Service",
+      "tokens": 859,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/legal/terms.fr.md": {
+      "description": "Conditions d'utilisation",
+      "tokens": 1002,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/artichoke-hearts.json": {
+      "description": "",
+      "tokens": 978,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/clean-label-no-preservatives.json": {
+      "description": "",
+      "tokens": 1163,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/egyptian-molokhia-export.json": {
+      "description": "",
+      "tokens": 1244,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/exports-30-countries.json": {
+      "description": "",
+      "tokens": 1155,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/falafel-launch.json": {
+      "description": "",
+      "tokens": 1062,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/field-to-freeze.json": {
+      "description": "",
+      "tokens": 1441,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/frozen-coriander.json": {
+      "description": "",
+      "tokens": 996,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/frozen-mango.json": {
+      "description": "",
+      "tokens": 1124,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/haccp-certification.json": {
+      "description": "",
+      "tokens": 1350,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/inside-kalioub-facility.json": {
+      "description": "",
+      "tokens": 1142,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/maamoun-heritage-1909.json": {
+      "description": "",
+      "tokens": 1357,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/mixed-vegetables.json": {
+      "description": "",
+      "tokens": 1035,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/okra-bamia.json": {
+      "description": "",
+      "tokens": 987,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/ramadan-molokhia-season.json": {
+      "description": "",
+      "tokens": 1161,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/strawberry-season.json": {
+      "description": "",
+      "tokens": 1011,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/sweet-corn.json": {
+      "description": "",
+      "tokens": 954,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/news/vine-leaves.json": {
+      "description": "",
+      "tokens": 959,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/pages/about.json": {
+      "description": "",
+      "tokens": 7127,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/pages/catalog.json": {
+      "description": "",
+      "tokens": 2340,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/pages/contact.json": {
+      "description": "",
+      "tokens": 4916,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/pages/home.json": {
+      "description": "",
+      "tokens": 13239,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/pages/markets.json": {
+      "description": "",
+      "tokens": 3547,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/pages/news.json": {
+      "description": "",
+      "tokens": 1631,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/artichoke.json": {
+      "description": "",
+      "tokens": 2098,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/broad-beans.json": {
+      "description": "",
+      "tokens": 1658,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/broccoli.json": {
+      "description": "",
+      "tokens": 2046,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/carrots.json": {
+      "description": "",
+      "tokens": 1828,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/cauliflower.json": {
+      "description": "",
+      "tokens": 1823,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/colcasia.json": {
+      "description": "",
+      "tokens": 1771,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/coriander.json": {
+      "description": "",
+      "tokens": 1579,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/falafel.json": {
+      "description": "",
+      "tokens": 1956,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/green-beans.json": {
+      "description": "",
+      "tokens": 1858,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/mango.json": {
+      "description": "",
+      "tokens": 1550,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/mixed-vegetables.json": {
+      "description": "",
+      "tokens": 2082,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/molokhia.json": {
+      "description": "",
+      "tokens": 1865,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/okra.json": {
+      "description": "",
+      "tokens": 2290,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/peas-and-carrots.json": {
+      "description": "",
+      "tokens": 1453,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/peas.json": {
+      "description": "",
+      "tokens": 1742,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/peeled-broad-beans.json": {
+      "description": "",
+      "tokens": 1711,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/pomegranate.json": {
+      "description": "",
+      "tokens": 1742,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/potato.json": {
+      "description": "",
+      "tokens": 1772,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/spinach.json": {
+      "description": "",
+      "tokens": 1924,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/strawberry.json": {
+      "description": "",
+      "tokens": 1922,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/sweet-corn-cob.json": {
+      "description": "",
+      "tokens": 1574,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/sweet-corn.json": {
+      "description": "",
+      "tokens": 1769,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/vegetable-soup.json": {
+      "description": "",
+      "tokens": 1798,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/vine-leaves.json": {
+      "description": "",
+      "tokens": 1431,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "content/products/whole-green-beans.json": {
+      "description": "",
+      "tokens": 1660,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/README.md": {
+      "description": "Project documentation",
+      "tokens": 768,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs//_images/README.md": {
+      "description": "Project documentation",
+      "tokens": 1169,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/add-product.md": {
+      "description": "Add or update a product",
+      "tokens": 1242,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/change-environment-variable.md": {
+      "description": "Change an environment variable",
+      "tokens": 1347,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/deploy-to-vercel.md": {
+      "description": "Deploy to Vercel",
+      "tokens": 1402,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/edit-page-content.md": {
+      "description": "Edit page content",
+      "tokens": 1083,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/hide-or-show-a-page.md": {
+      "description": "Show or hide a page in the nav and sitemap",
+      "tokens": 860,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/publish-news-article.md": {
+      "description": "Publish a news article",
+      "tokens": 1182,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/set-up-contact-form.md": {
+      "description": "Set up the contact form",
+      "tokens": 1559,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/switch-theme.md": {
+      "description": "Switch the seasonal theme",
+      "tokens": 1172,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/update-legal-pages.md": {
+      "description": "Update legal pages",
+      "tokens": 1065,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/update-logo-and-branding.md": {
+      "description": "Update the logo and brand assets",
+      "tokens": 1301,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/how-to/update-translations.md": {
+      "description": "Update translations",
+      "tokens": 1093,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/reference/agent-readiness.md": {
+      "description": "Agent readiness",
+      "tokens": 1309,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/reference/content-schemas.md": {
+      "description": "Content schemas",
+      "tokens": 2026,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/reference/env-vars.md": {
+      "description": "Environment variables",
+      "tokens": 3261,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/reference/file-tree.md": {
+      "description": "File tree",
+      "tokens": 1824,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/reference/image-credits.md": {
+      "description": "Image Credits",
+      "tokens": 631,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/reference/npm-scripts.md": {
+      "description": "npm scripts",
+      "tokens": 1038,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/runbooks/build-failed-on-vercel.md": {
+      "description": "Runbook — Vercel build failed",
+      "tokens": 1639,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/runbooks/contact-form-not-delivering.md": {
+      "description": "Runbook — contact form not delivering email",
+      "tokens": 1726,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/runbooks/site-down.md": {
+      "description": "Runbook — site is down",
+      "tokens": 1663,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/video-scripts/README.md": {
+      "description": "Video scripts index + folder-per-video layout, asset regeneration/capture commands, dashboard-shot masking rules",
+      "tokens": 1300,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "docs/video-scripts/_style-guide.md": {
+      "description": "Egyptian-Arabic narration + scene-format conventions",
+      "tokens": 1100,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "messages/ar.json": {
+      "description": "",
+      "tokens": 1151,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "messages/de.json": {
+      "description": "",
+      "tokens": 1264,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "messages/en.json": {
+      "description": "",
+      "tokens": 1157,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "messages/fr.json": {
+      "description": "",
+      "tokens": 1273,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/.DS_Store": {
+      "description": "",
+      "tokens": 2186,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/cookie-banner.js": {
+      "description": "Returns the stored decision: 'accepted' | 'denied' | null. Tolerates the",
+      "tokens": 2561,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/llms.txt": {
+      "description": "Montana Frozen Foods — Site Overview for AI Agents",
+      "tokens": 422,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/offline.html": {
+      "description": "Offline — Montana Frozen Foods",
+      "tokens": 853,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/site.webmanifest": {
+      "description": "",
+      "tokens": 208,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/sw.js": {
+      "description": "+ assets -> cache-first (stale-while-revalidate)",
+      "tokens": 2423,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/.well-known/api-catalog": {
+      "description": "RFC 9727 API catalog linkset for /api/contact; served as application/linkset+json via vercel.json Content-Type override",
+      "tokens": 136,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/.well-known/agent-skills/index.json": {
+      "description": "Agent Skills Discovery index (v0.2.0 schema); re-hash `digest` whenever a SKILL.md changes",
+      "tokens": 151,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/.well-known/agent-skills/product-inquiry/SKILL.md": {
+      "description": "Montana Frozen Foods — product discovery & trade inquiry",
+      "tokens": 642,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/docs/api/openapi.json": {
+      "description": "OpenAPI 3.1 spec for POST /api/contact; keep in sync with src/app/api/contact/route.ts",
+      "tokens": 1345,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/.DS_Store": {
+      "description": "",
+      "tokens": 3278,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/certifications/.DS_Store": {
+      "description": "",
+      "tokens": 1640,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/certifications/README.md": {
+      "description": "Project documentation",
+      "tokens": 236,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/heroes/.DS_Store": {
+      "description": "",
+      "tokens": 1640,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/process/README.md": {
+      "description": "Project documentation",
+      "tokens": 392,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/products/.DS_Store": {
+      "description": "",
+      "tokens": 1640,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/products/GROUP_GRAP/.DS_Store": {
+      "description": "",
+      "tokens": 1640,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/products/lifestyle/.write-test": {
+      "description": "",
+      "tokens": 0,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "public/images/products/official/.DS_Store": {
+      "description": "",
+      "tokens": 1640,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/.DS_Store": {
+      "description": "",
+      "tokens": 1640,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/revslider/documentation.html": {
+      "description": "",
+      "tokens": 35,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/index.html": {
+      "description": "Superfood - A Theme for Organic Food and Health Products",
+      "tokens": 51054,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/assets/css/documenter_style.css": {
+      "description": "Styles: 51 rules, 1 media queries",
+      "tokens": 2583,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/assets/css/stylesheet.css": {
+      "description": "Styles: 1 rules",
+      "tokens": 1008,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/assets/js/jquery.easing.js": {
+      "description": "",
+      "tokens": 2372,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/assets/js/jquery.js": {
+      "description": "Declares pairs",
+      "tokens": 70807,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/assets/js/jquery.scrollTo.js": {
+      "description": "jQuery.ScrollTo - Easy element scrolling using jQuery.",
+      "tokens": 647,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/assets/js/script.js": {
+      "description": "is: hashchange, goTo, activateNav",
+      "tokens": 1083,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/assets/js/google-code-prettify/prettify.css": {
+      "description": "Styles: 10 rules",
+      "tokens": 233,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/documentation/superfood/assets/js/google-code-prettify/prettify.js": {
+      "description": "L: m, e, h + 14 more",
+      "tokens": 3895,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/licensing/GPL.txt": {
+      "description": "Declares definition",
+      "tokens": 3712,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/licensing/README_License.txt": {
+      "description": "",
+      "tokens": 129,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/licensing/slider-revolution-responsive-wordpress-plugin-license.txt": {
+      "description": "",
+      "tokens": 200,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "resources/themeforest-SGWcaKIy-superfood-a-vibrant-theme-for-organic-food-and-health-products/licensing/visual-composer-page-builder-for-wordpress-license.txt": {
+      "description": "",
+      "tokens": 198,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/.marketing-manifest.json": {
+      "description": "",
+      "tokens": 1404,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/append-quality-galleries.mjs": {
+      "description": "One-off: append curated Quality-Team photos to EXISTING products' galleries.",
+      "tokens": 381,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/bags-from-website.mjs": {
+      "description": "Regenerate the branded retail-bag packshots straight from",
+      "tokens": 422,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/check-routes.ts": {
+      "description": "Cross-checks the sitemap's route tables (@/lib/routes) against the actual",
+      "tokens": 928,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/crop-product-cards.mjs": {
+      "description": "One-off: give every catalog card a real FOOD cover (never a bag/packshot).",
+      "tokens": 1113,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/curate-quality-photos.mjs": {
+      "description": "One-off: curate + optimize Montana Quality-Team product photos.",
+      "tokens": 1242,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/gen-world-paths.mjs": {
+      "description": "Regenerate src/lib/world-map-paths.ts from Natural Earth 110m country borders.",
+      "tokens": 694,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/group-product-images.mjs": {
+      "description": "One-off: regroup product images into per-product folders with SEO-semantic",
+      "tokens": 1002,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/marketing-only-images.mjs": {
+      "description": "One-off: make every product's images use ONLY assets from the June 2026",
+      "tokens": 584,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/process-cert-logos.sh": {
+      "description": "Batch-process certification logos into white-tile-ready transparent PNGs.",
+      "tokens": 869,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/process-images.ts": {
+      "description": "Image pipeline for static export.",
+      "tokens": 657,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/process-marketing-images.mjs": {
+      "description": "One-off: process the marketing team's June 2026 image drop into",
+      "tokens": 2374,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/validate-content.ts": {
+      "description": "Validates all JSON content against the zod schemas.",
+      "tokens": 1043,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/validate-seo.ts": {
+      "description": "validate-seo.ts — deterministic SEO / AI-readiness guardrails.",
+      "tokens": 2618,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "scripts/wire-marketing-content.mjs": {
+      "description": "One-off: wire the June 2026 marketing image drop into EXISTING product JSONs.",
+      "tokens": 615,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/proxy.ts": {
+      "description": "Resolve the visitor's preferred locale from the Accept-Language header,",
+      "tokens": 412,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/globals.css": {
+      "description": "Styles: 36 rules, 82 vars",
+      "tokens": 33806,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/layout.tsx": {
+      "description": "Single root layout.",
+      "tokens": 1629,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/not-found.tsx": {
+      "description": "dynamic",
+      "tokens": 116,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/page.tsx": {
+      "description": "Root landing page at /",
+      "tokens": 534,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/sitemap.ts": {
+      "description": "Flatten all countries from the regions structure in markets.json.",
+      "tokens": 1068,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/.DS_Store": {
+      "description": "",
+      "tokens": 1640,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/layout.tsx": {
+      "description": "dynamic",
+      "tokens": 778,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/opengraph-image.tsx": {
+      "description": "Default share thumbnail (home + any page without its own image).",
+      "tokens": 279,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/page.tsx": {
+      "description": "dynamic",
+      "tokens": 8601,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/about/opengraph-image.tsx": {
+      "description": "dynamic",
+      "tokens": 186,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/about/page.tsx": {
+      "description": "Locale-aware breadcrumb labels (this page renders via pick(), not next-intl).",
+      "tokens": 4265,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/catalog/opengraph-image.tsx": {
+      "description": "dynamic",
+      "tokens": 199,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/catalog/page.tsx": {
+      "description": "Locale-aware breadcrumb labels (this page renders via pick(), not next-intl).",
+      "tokens": 3700,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/catalog/[slug]/opengraph-image.tsx": {
+      "description": "Product share thumbnail — same branded card as the rest of the site, with the",
+      "tokens": 359,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/catalog/[slug]/page.tsx": {
+      "description": "dynamic",
+      "tokens": 3034,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/contact/opengraph-image.tsx": {
+      "description": "dynamic",
+      "tokens": 179,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/contact/page.tsx": {
+      "description": "Locale-aware breadcrumb labels (this page renders via pick(), not next-intl).",
+      "tokens": 5071,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/cookies/page.tsx": {
+      "description": "dynamic",
+      "tokens": 486,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/export/[country-slug]/opengraph-image.tsx": {
+      "description": "Country export share thumbnail — the branded card with the country name as the",
+      "tokens": 555,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/export/[country-slug]/page.tsx": {
+      "description": "Country export page — dedicated landing pages for each export market.",
+      "tokens": 3239,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/markets/opengraph-image.tsx": {
+      "description": "dynamic",
+      "tokens": 184,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/markets/page.tsx": {
+      "description": "Locale-aware breadcrumb labels (this page renders via pick(), not next-intl).",
+      "tokens": 5137,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/news/opengraph-image.tsx": {
+      "description": "dynamic",
+      "tokens": 174,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/news/page.tsx": {
+      "description": "Locale-aware breadcrumb labels (this page renders via pick(), not next-intl).",
+      "tokens": 1797,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/news/[slug]/page.tsx": {
+      "description": "dynamic",
+      "tokens": 2504,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/privacy/page.tsx": {
+      "description": "dynamic",
+      "tokens": 486,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/[locale]/terms/page.tsx": {
+      "description": "dynamic",
+      "tokens": 485,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/api/contact/route.ts": {
+      "description": "Contact form endpoint — Next.js App Router API route.",
+      "tokens": 1470,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/llms-full.txt/route.ts": {
+      "description": "llms-full.txt — complete site map for AI agents.",
+      "tokens": 3236,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/llms.txt/route.ts": {
+      "description": "llms.txt — compact AI agent site overview (llmstxt.org convention).",
+      "tokens": 332,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/app/robots.txt/route.ts": {
+      "description": "robots.txt — custom route handler (replaces the app/robots.ts metadata",
+      "tokens": 686,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/agent/WebMcpTools.tsx": {
+      "description": "WebMCP tool registration — exposes the site's key actions to in-browser",
+      "tokens": 1328,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/catalog/HarvestCalendar.tsx": {
+      "description": "Harvest calendar — 12-month × N-product grid showing peak seasons per crop.",
+      "tokens": 1263,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/contact/FaqAccordion.tsx": {
+      "description": "FAQ accordion. First item open by default; mutually exclusive — clicking",
+      "tokens": 329,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/contact/InquiryForm.tsx": {
+      "description": "Editorial inquiry form — radio reasons, two-column inputs, message box,",
+      "tokens": 1310,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/decoration/Ornaments.tsx": {
+      "description": "Theme decoration primitives — ported from Claude Design handoff.",
+      "tokens": 6836,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/CloseMenusOnNavigate.tsx": {
+      "description": "Closes the header's pure-CSS <details> menus (hamburger + language) after a",
+      "tokens": 191,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/Container.tsx": {
+      "description": "widthClass",
+      "tokens": 168,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/CookieBanner.tsx": {
+      "description": "Renders an EMPTY placeholder div with data-\\* attrs for translation strings.",
+      "tokens": 518,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/Footer.tsx": {
+      "description": "Editorial footer (v2 — Claude Design handoff).",
+      "tokens": 3925,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/Header.tsx": {
+      "description": "Editorial site header — sticky, surface-tinted glass, animated nav underlines.",
+      "tokens": 2898,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/HeaderScroll.tsx": {
+      "description": "Toggles `.is-scrolled` on <html> once the visitor scrolls past a small",
+      "tokens": 289,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/HtmlLangDir.tsx": {
+      "description": "Keeps <html lang> and <html dir> in sync with the active locale on the client.",
+      "tokens": 252,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/LocaleSwitcher.tsx": {
+      "description": "The current pathname WITHOUT the locale prefix (e.g. '/catalog/molokhia').",
+      "tokens": 500,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/Logo.tsx": {
+      "description": "Master logo — actual PNG from /public/images/logo/montana-logo.png",
+      "tokens": 424,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/Section.tsx": {
+      "description": "spacingClass",
+      "tokens": 272,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/SectionDivider.tsx": {
+      "description": "Decorative divider between sections.",
+      "tokens": 586,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/layout/ThemeGreeting.tsx": {
+      "description": "Editorial greeting strip — visible during Ramadan + Christmas themes only.",
+      "tokens": 372,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/markets/TradeAtlas.tsx": {
+      "description": "TradeAtlas — interactive world map of Montana's 30-country export network.",
+      "tokens": 3057,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/markets/TradeAtlasLazy.tsx": {
+      "description": "Lazy wrapper for TradeAtlas.",
+      "tokens": 237,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/news/NewsGrid.tsx": {
+      "description": "Editorial news grid — category filter chips, featured article (when",
+      "tokens": 3449,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/primitives/Badge.tsx": {
+      "description": "variantClass",
+      "tokens": 480,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/primitives/Button.tsx": {
+      "description": "variantClass",
+      "tokens": 701,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/primitives/Card.tsx": {
+      "description": "variantClass",
+      "tokens": 326,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/product/PackagingTable.tsx": {
+      "description": "TYPE_META — renders table",
+      "tokens": 1128,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/product/PackingOptions.tsx": {
+      "description": "Section title, e.g. \"Packing options & sizes\"",
+      "tokens": 1044,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/product/ProductCard.tsx": {
+      "description": "Product card (editorial v2).",
+      "tokens": 993,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/product/ProductGallery.tsx": {
+      "description": "Product image gallery — a main viewport plus a thumbnail strip.",
+      "tokens": 835,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/product/SeasonalCalendar.tsx": {
+      "description": "Array of 3-letter month abbreviations the product is in season for",
+      "tokens": 997,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/product/VarietyCards.tsx": {
+      "description": "Visual grid of variety + size cards.",
+      "tokens": 570,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/pwa/ServiceWorkerRegister.tsx": {
+      "description": "Registers the service worker (public/sw.js) for offline / PWA support.",
+      "tokens": 377,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/sections/CategoryFilter.tsx": {
+      "description": "Filter pills + grid. Client-side filtering for instant UX",
+      "tokens": 1049,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/sections/ContactForm.tsx": {
+      "description": "ContactForm — renders form — uses useEffect",
+      "tokens": 2122,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/sections/FeatureCards.tsx": {
+      "description": "Background tint for the card",
+      "tokens": 909,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/sections/HeroCarousel.tsx": {
+      "description": "\"Egypt's harvest, frozen at its peak.\" → italic-emphasises the clause",
+      "tokens": 1672,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/sections/MarketsGlobe.tsx": {
+      "description": "ISO_LATLNG",
+      "tokens": 4915,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/sections/ShareButtons.tsx": {
+      "description": "Minimal share row — opens platform share dialogs in a popup.",
+      "tokens": 734,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/sections/StaticMap.tsx": {
+      "description": "Static map — renders a single map image (no JS, no tiles loaded).",
+      "tokens": 1188,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/components/seo/JsonLd.tsx": {
+      "description": "Renders a <script type=\"application/ld+json\"> tag.",
+      "tokens": 121,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/i18n/request.ts": {
+      "description": "Per-request locale + messages resolver for next-intl (v4).",
+      "tokens": 174,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/certs.ts": {
+      "description": "Shared certification visuals — used by the home cert wall and the About",
+      "tokens": 612,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/cn.ts": {
+      "description": "Tailwind-merge has to be told about our custom font-size utilities,",
+      "tokens": 380,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/content.ts": {
+      "description": "Content loading layer.",
+      "tokens": 1758,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/feature-flags.ts": {
+      "description": "Feature flags resolved at build time from ENV.",
+      "tokens": 265,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/fonts.ts": {
+      "description": "Editorial type system (v2 — Claude Design handoff).",
+      "tokens": 648,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/i18n.ts": {
+      "description": "Locale configuration. Source of truth for all i18n decisions.",
+      "tokens": 590,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/markets-meta.ts": {
+      "description": "Markets visual + logistics metadata.",
+      "tokens": 2282,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/og.tsx": {
+      "description": "Shared Open Graph / share-thumbnail renderer.",
+      "tokens": 1282,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/routes.ts": {
+      "description": "Single source of truth for the site's localized routes.",
+      "tokens": 498,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/seo.ts": {
+      "description": "SEO helpers — JSON-LD generators, metadata builders, and hreflang.",
+      "tokens": 6137,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/theme.ts": {
+      "description": "Theme resolver.",
+      "tokens": 179,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/lib/world-map-paths.ts": {
+      "description": "Each entry is one country, keyed by ISO 3166-1 alpha-2.",
+      "tokens": 24647,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/schemas/markets.ts": {
+      "description": "Hex colour for region accents. Falls back to brand primary.",
+      "tokens": 253,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/schemas/news.ts": {
+      "description": "Display author byline (e.g. \"Montana\", or a person's name).",
+      "tokens": 404,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/schemas/page.ts": {
+      "description": "Optional per-page SEO override. When present, fields here take",
+      "tokens": 4236,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/schemas/product.ts": {
+      "description": "Optional SEO overrides and B2B commercial metadata.",
+      "tokens": 608,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/schemas/shared.ts": {
+      "description": "An i18n string with required English + optional Arabic + French.",
+      "tokens": 191,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/schemas/site.ts": {
+      "description": "lucide-react icon name — e.g. 'Calendar', 'Factory', 'Users', 'Globe'",
+      "tokens": 471,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/styles/reset.css": {
+      "description": "Styles: 3 rules, 5 layers",
+      "tokens": 1361,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/styles/tokens.css": {
+      "description": "Styles: 1 rules, 101 vars, 1 media queries",
+      "tokens": 1930,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/styles/themes/christmas.css": {
+      "description": "Styles: 65 vars",
+      "tokens": 1482,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/styles/themes/default.css": {
+      "description": "Styles: 63 vars",
+      "tokens": 1370,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "src/styles/themes/ramadan.css": {
+      "description": "Styles: 67 vars",
+      "tokens": 1532,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "test-results/.last-run.json": {
+      "description": "",
+      "tokens": 13,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "tests/e2e/smoke.spec.ts": {
+      "description": "API routes: GET (2 endpoints)",
+      "tokens": 1573,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    },
+    "tests/unit/schemas.test.ts": {
+      "description": "CONTENT_DIR: loadJson",
+      "tokens": 698,
+      "updatedAt": "2026-09-30T08:43:47.722Z",
+      "source": "md-import"
+    }
+  },
+  "rawLines": {
+    "docs/video-scripts/": [
+      "- `01-add-product/script.md` … `11-set-up-contact-form/script.md` — 11 Egyptian-Arabic video scripts, one per `docs/how-to/` guide. Scene structure + timings + narration. Each has an `**Assets:** N committed · M to capture` header line, per-scene `**Asset:**` lines under `**Visual:**`, and a closing `## Assets` section (Committed / To capture). Verification URLs point at the UAT `https://montana-company-portfolio.vercel.app` (NOT montanaeg.com, which still serves the old WordPress site). (~1700 tok each)",
+      "- `NN-*/assets/` — committed code screenshots (PNG, rendered from real repo files) + two hand-drawn Vercel UI diagrams (SVG). Site/dashboard shots are NOT committed — see each script's `## Assets` → To capture.",
+      "- `_capture/render-code-shots.py` + `_capture/code-shots.json` — renders repo source files to syntax-highlighted PNGs. Run from repo root: `python3 docs/video-scripts/_capture/render-code-shots.py docs/video-scripts/_capture/code-shots.json`",
+      "- `_capture/capture-site.mjs` — Playwright site screenshots into each `NN-*/assets/`. `npm run dev` then `node docs/video-scripts/_capture/capture-site.mjs` (needs `npx playwright install chromium` once). `SHOTS` array is the source of truth for site-shot filenames; videos 08 and 10 have none."
+    ]
+  }
+}

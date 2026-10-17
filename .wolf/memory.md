@@ -426,3 +426,235 @@
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 | ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-12 13:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-14 14:52
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-14 14:52
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-14 14:52
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-14 15:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-14 15:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-30 17:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-30 17:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-07-31 17:58
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-01 17:12
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-04
+
+| Time | Action                                   | File(s)                                                                   | Outcome                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | ~Tokens |
+| ---- | ---------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| —    | Factual corrections pass                 | `docs/video-scripts/01..06,08..11/script.md`                              | Reframed i18n requirement (only `en` required in `src/schemas/shared.ts`; ar/fr/de optional → silent-failure risk, house discipline). Removed impossible `Required at "name.ar"` validator example. Swapped `montanaeg.com` verification URLs → `https://montana-company-portfolio.vercel.app` (UAT). Caveated `/de/` (404, filtered by `NEXT_PUBLIC_AVAILABLE_LOCALES`). Updated stale Vercel UI labels: "Add Environment Variable", "All Environments" filter (no Production tab), "Sensitive" badge (no Encrypt checkbox), "Promote" + "Instant Rollback" (no "Promote to Production").                                                                                                                                | —       |
+| —    | Wire generated assets into video scripts | `docs/video-scripts/README.md`, `docs/video-scripts/{01..11}-*/script.md` | Added `**Assets:** N committed · M to capture` header line under `Source:`; added per-scene `**Asset:**` lines (relative markdown links) directly under the matching `**Visual:**`; appended a `## Assets` section (Committed table + To capture table) to all 11 scripts. To-capture site-shot filenames taken from the `SHOTS` array in `_capture/capture-site.mjs`; 08 and 10 have no site shots. Scripts 06/08/09/10/11 additionally list Vercel/Resend/Cloudflare dashboard shots with a secrets-masking warning. README rewritten for the folder-per-video layout (links now `NN-name/script.md`) + regenerate/capture instructions. Arabic narration, scene structure and timings untouched — additive edits only. | —       |
+
+## Session: 2026-08-04 14:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:23
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:34
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:34
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:34
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:36
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:36
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:39
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:51
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:53
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:54
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 08:57
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-05 09:01
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 17:33
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 17:55
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 17:59
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:07
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:10
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:11
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:32
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:32
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:33
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:34
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:49
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:57
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 18:57
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 19:03
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 19:03
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 19:13
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-06 19:32
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-07 12:55
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-08-07 15:46
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |
+
+## Session: 2026-10-17 20:09
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+| ---- | ------ | ------- | ------- | ------- |

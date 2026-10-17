@@ -1,157 +1,157 @@
+import { semanticSessionEntries } from './session-memory.js';
+import { reconcileReads } from './event-journal.js';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import {
-  getWolfDir,
-  ensureWolfDir,
-  readJSON,
-  writeJSON,
-  appendMarkdown,
-  timeShort,
-} from './shared.js';
+import { getWolfDir, ensureWolfDir, readStdin, hookMain, getSessionFilePath } from './shared.js';
+import { buildSessionEntry, flushSessionToLedger } from './ledger.js';
+import { verifyHookDelivery } from './hook-attachments.js';
+import { mutateJSON, HOOK_LOCK_BUDGET_MS } from './anatomy-lock.js';
 async function main() {
   ensureWolfDir();
   const wolfDir = getWolfDir();
-  const hooksDir = path.join(wolfDir, 'hooks');
-  const sessionFile = path.join(hooksDir, '_session.json');
-  const session = readJSON(sessionFile, {
-    session_id: '',
-    started: '',
-    files_read: {},
-    files_written: [],
-    edit_counts: {},
-    anatomy_hits: 0,
-    anatomy_misses: 0,
-    repeated_reads_warned: 0,
-    cerebrum_warnings: 0,
-    stop_count: 0,
-  });
-  session.stop_count++;
-  // Only write to ledger if there's been activity
-  const readCount = Object.keys(session.files_read).length;
-  const writeCount = session.files_written.length;
-  if (readCount === 0 && writeCount === 0) {
-    writeJSON(sessionFile, session);
-    process.exit(0);
-    return;
-  }
-  // Check for files edited many times without a buglog entry
-  checkForMissingBugLogs(wolfDir, session);
-  // Check if cerebrum was updated this session (it should be if there were edits)
-  checkCerebrumFreshness(wolfDir, session);
-  // Build session entry for ledger
-  const reads = Object.entries(session.files_read).map(([file, data]) => ({
-    file,
-    tokens_estimated: data.tokens,
-    was_repeated: data.count > 1,
-    anatomy_had_description: false, // simplified
-  }));
-  const writes = session.files_written.map((w) => ({
-    file: w.file,
-    tokens_estimated: w.tokens,
-    action: w.action,
-  }));
-  const inputTokens = reads.reduce((sum, r) => sum + r.tokens_estimated, 0);
-  const outputTokens = writes.reduce((sum, w) => sum + w.tokens_estimated, 0);
-  const sessionEntry = {
-    id: session.session_id,
-    started: session.started,
-    ended: new Date().toISOString(),
-    reads,
-    writes,
-    totals: {
-      input_tokens_estimated: inputTokens,
-      output_tokens_estimated: outputTokens,
-      reads_count: readCount,
-      writes_count: writeCount,
-      repeated_reads_blocked: session.repeated_reads_warned,
-      anatomy_lookups: session.anatomy_hits,
-    },
-  };
-  // Update token-ledger.json
-  const ledgerPath = path.join(wolfDir, 'token-ledger.json');
-  const ledger = readJSON(ledgerPath, {
-    version: 1,
-    created_at: '',
-    lifetime: {
-      total_tokens_estimated: 0,
-      total_reads: 0,
-      total_writes: 0,
-      total_sessions: 0,
+  // Stop payload → transcript path for real usage measurement (F1)
+  let hookInput = {};
+  try {
+    hookInput = JSON.parse(await readStdin());
+  } catch {}
+  const sessionFile = getSessionFilePath(hookInput);
+  reconcileReads(sessionFile);
+  // All session mutation happens in ONE serialized transaction, and the ledger
+  // flush below runs on its result AFTER the lock is released: reading a large
+  // transcript with the session lock held would stall every parallel hook.
+  // stop_count, reminders_sent, and pending_reminders are all counters or
+  // append/test-and-set state, so an unlocked read-modify-write loses them (#83).
+  const session = mutateJSON(
+    sessionFile,
+    {
+      session_id: '',
+      started: '',
+      files_read: {},
+      files_written: [],
+      edit_counts: {},
       anatomy_hits: 0,
       anatomy_misses: 0,
-      repeated_reads_blocked: 0,
-      estimated_savings_vs_bare_cli: 0,
+      repeated_reads_warned: 0,
+      stop_count: 0,
+      reminders_sent: {},
     },
-    sessions: [],
-    daemon_usage: [],
-    waste_flags: [],
-    optimization_report: { last_generated: null, patterns: [] },
-  });
-  ledger.sessions.push(sessionEntry);
-  ledger.lifetime.total_reads += readCount;
-  ledger.lifetime.total_writes += writeCount;
-  ledger.lifetime.total_tokens_estimated += inputTokens + outputTokens;
-  ledger.lifetime.anatomy_hits += session.anatomy_hits;
-  ledger.lifetime.anatomy_misses += session.anatomy_misses;
-  ledger.lifetime.repeated_reads_blocked += session.repeated_reads_warned;
-  // Estimate savings: anatomy hits save ~200 tokens each, repeated reads blocked save their token count
-  const savedFromAnatomy = session.anatomy_hits * 200;
-  const savedFromRepeats = Object.values(session.files_read)
-    .filter((r) => r.count > 1)
-    .reduce((sum, r) => sum + r.tokens * (r.count - 1), 0);
-  ledger.lifetime.estimated_savings_vs_bare_cli += savedFromAnatomy + savedFromRepeats;
-  writeJSON(ledgerPath, ledger);
-  // Write a session summary line to memory.md if there was meaningful activity
-  if (writeCount > 0) {
-    try {
-      const uniqueFiles = new Set(session.files_written.map((w) => path.basename(w.file)));
-      const fileList = [...uniqueFiles].slice(0, 5).join(', ');
-      const memoryPath = path.join(wolfDir, 'memory.md');
-      appendMarkdown(
-        memoryPath,
-        `| ${timeShort()} | Session end: ${writeCount} writes across ${uniqueFiles.size} files (${fileList}) | ${readCount} reads | ~${inputTokens + outputTokens} tok |\n`,
-      );
-    } catch {}
+    HOOK_LOCK_BUDGET_MS,
+    (s) => {
+      s.stop_count++;
+      // Nothing happened this turn: bump the counter and stop there.
+      if (Object.keys(s.files_read ?? {}).length === 0 && (s.files_written ?? []).length === 0)
+        return;
+      // Collect end-of-turn reminders. Each fires at most ONCE per session, and
+      // they are QUEUED rather than emitted: Stop additionalContext forces a full
+      // continuation turn (the model re-sends the whole conversation to respond),
+      // so the UserPromptSubmit hook drains the queue into the next user turn's
+      // context instead — same visibility, zero extra turns.
+      if (!s.reminders_sent) s.reminders_sent = {};
+      const reminderChecks = [
+        ['buglog', checkForMissingBugLogs(wolfDir, s)],
+        ['cerebrum', checkCerebrumFreshness(wolfDir, s)],
+        ['semantic', checkSemanticSummaries(wolfDir, s)],
+      ];
+      const reminders = [];
+      for (const [key, message] of reminderChecks) {
+        if (message === null) continue;
+        const sent = s.reminders_sent[key] ?? 0;
+        if (sent >= 1) continue;
+        s.reminders_sent[key] = sent + 1;
+        reminders.push(message);
+      }
+      if (reminders.length > 0) {
+        if (!s.pending_reminders) s.pending_reminders = [];
+        s.pending_reminders.push(
+          `OpenWolf end-of-turn reminders:\n${reminders.map((r) => `- ${r}`).join('\n')}`,
+        );
+      }
+    },
+  );
+  // Lock contention beyond budget: skip this turn's ledger flush. The flush is
+  // idempotent per session id, so the next Stop converges the state.
+  if (session === null) return;
+  // Only write to the ledger if there has been activity.
+  if (
+    Object.keys(session.files_read ?? {}).length === 0 &&
+    (session.files_written ?? []).length === 0
+  )
+    return;
+  // Idempotent ledger write: the entry for this session id is REPLACED, not
+  // appended — Stop fires every turn, and appending per turn is what used to
+  // duplicate sessions and quadratically inflate lifetime totals.
+  const entry = buildSessionEntry(session, hookInput.transcript_path);
+  // Verified delivery (2.2): the transcript records every hook invocation as
+  // an attachment line; that is ground truth for what fired, failed, and what
+  // context actually reached the model — self-reported counters are estimates.
+  if (hookInput.transcript_path) {
+    const verified = verifyHookDelivery(hookInput.transcript_path);
+    if (verified) entry.verified = verified;
   }
-  writeJSON(sessionFile, session);
-  process.exit(0);
+  flushSessionToLedger(wolfDir, entry);
 }
 /**
  * Check if files were edited multiple times but buglog.json wasn't updated.
- * Emit a stderr reminder so Claude sees it in the next turn.
+ * Returns a reminder string if action is needed, otherwise null.
  */
 function checkForMissingBugLogs(wolfDir, session) {
-  if (!session.edit_counts) return;
+  if (!session.edit_counts) return null;
   const multiEditFiles = Object.entries(session.edit_counts)
     .filter(([, count]) => count >= 3)
     .map(([file]) => path.basename(file));
-  if (multiEditFiles.length === 0) return;
-  // Check if buglog was written to this session
-  const buglogWritten = session.files_written.some((w) => w.file.includes('buglog.json'));
+  if (multiEditFiles.length === 0) return null;
+  let buglogWritten = false;
+  try {
+    const stat = fs.statSync(path.join(wolfDir, 'buglog.json'));
+    const sessionStartMs = session.started ? Date.parse(session.started) : 0;
+    buglogWritten = sessionStartMs > 0 && stat.mtimeMs >= sessionStartMs;
+  } catch {}
   if (!buglogWritten) {
-    process.stderr.write(
-      `⚠️ OpenWolf: Files edited 3+ times this session (${multiEditFiles.join(', ')}) but buglog.json was not updated. If you fixed bugs, please log them.\n`,
-    );
+    return `ACTION REQUIRED: Files edited 3+ times this session (${multiEditFiles.join(', ')}) but buglog.json was not updated. Log the bug fixes to .wolf/buglog.json now.`;
   }
+  return null;
 }
 /**
+ * Check if STATUS.md is older than the session start AND there was meaningful
+ * code activity (3+ writes outside .wolf/). If so, nudge Claude to update
+ * STATUS.md so the next /clear has fresh handoff context.
+ */
+// (The STATUS.md staleness nag was removed in 2.1: STATUS.md is regenerated
+// on demand by the /handoff skill instead of being nagged about every turn.)
+/**
  * Check if cerebrum.md was updated recently. If it hasn't been updated in
- * a while and there was significant activity, emit a gentle reminder.
+ * a while and there was significant activity, return a reminder.
  */
 function checkCerebrumFreshness(wolfDir, session) {
   const cerebrumPath = path.join(wolfDir, 'cerebrum.md');
   try {
     const stat = fs.statSync(cerebrumPath);
     const hoursSinceUpdate = (Date.now() - stat.mtimeMs) / (1000 * 60 * 60);
-    // If cerebrum hasn't been updated in 24h+ and there were significant writes
     if (hoursSinceUpdate > 24 && session.files_written.length >= 3) {
-      process.stderr.write(
-        `💡 OpenWolf: cerebrum.md hasn't been updated in ${Math.floor(hoursSinceUpdate)}h. Did you learn any user preferences, conventions, or gotchas this session? Consider updating .wolf/cerebrum.md.\n`,
-      );
+      return `ACTION REQUIRED: cerebrum.md hasn't been updated in ${Math.floor(hoursSinceUpdate)}h and ${session.files_written.length} files were modified. Update .wolf/cerebrum.md with any new user preferences, conventions, or gotchas discovered this session.`;
     }
   } catch {
     // cerebrum.md doesn't exist, that's ok
   }
+  return null;
 }
-main().catch(() => process.exit(0));
+/**
+ * Check if a semantic summary was written to memory.md this session.
+ * Returns a reminder string if action is needed, otherwise null.
+ */
+function checkSemanticSummaries(wolfDir, session) {
+  const writeCount = session.files_written.length;
+  if (writeCount < 2) return null;
+  const semanticCount = semanticSessionEntries(wolfDir, session.session_id);
+  if (semanticCount === 0) {
+    return `ACTION REQUIRED: ${writeCount} files were modified this session but no semantic summary was written to memory.md. Use openwolf memory log --session ${JSON.stringify(session.session_id)} --summary "what changed and why" --files "paths" --outcome "validation result"`;
+  }
+  return null;
+}
+// Run only when executed as a hook script — never on import (tests import
+// from this module, and main() exits the process).
+import { pathToFileURL } from 'node:url';
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  hookMain('stop', main);
+}
 //# sourceMappingURL=stop.js.map

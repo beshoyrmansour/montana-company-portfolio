@@ -215,6 +215,15 @@
 - `contact-form-not-delivering.md` — Runbook — contact form not delivering email (~1726 tok)
 - `site-down.md` — Runbook — site is down (~1663 tok)
 
+## docs/video-scripts/
+
+- `README.md` — Video scripts index + folder-per-video layout, asset regeneration/capture commands, dashboard-shot masking rules (~1300 tok)
+- `_style-guide.md` — Egyptian-Arabic narration + scene-format conventions (~1100 tok)
+- `01-add-product/script.md` … `11-set-up-contact-form/script.md` — 11 Egyptian-Arabic video scripts, one per `docs/how-to/` guide. Scene structure + timings + narration. Each has an `**Assets:** N committed · M to capture` header line, per-scene `**Asset:**` lines under `**Visual:**`, and a closing `## Assets` section (Committed / To capture). Verification URLs point at the UAT `https://montana-company-portfolio.vercel.app` (NOT montanaeg.com, which still serves the old WordPress site). (~1700 tok each)
+- `NN-*/assets/` — committed code screenshots (PNG, rendered from real repo files) + two hand-drawn Vercel UI diagrams (SVG). Site/dashboard shots are NOT committed — see each script's `## Assets` → To capture.
+- `_capture/render-code-shots.py` + `_capture/code-shots.json` — renders repo source files to syntax-highlighted PNGs. Run from repo root: `python3 docs/video-scripts/_capture/render-code-shots.py docs/video-scripts/_capture/code-shots.json`
+- `_capture/capture-site.mjs` — Playwright site screenshots into each `NN-*/assets/`. `npm run dev` then `node docs/video-scripts/_capture/capture-site.mjs` (needs `npx playwright install chromium` once). `SHOTS` array is the source of truth for site-shot filenames; videos 08 and 10 have none.
+
 ## messages/
 
 - `ar.json` (~1151 tok)
