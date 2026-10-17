@@ -1,14 +1,13 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import { MessageCircle, Music2 } from 'lucide-react';
 import {
   Facebook,
   Instagram,
   Linkedin,
   Twitter,
   Youtube,
-  MessageCircle,
-  Music2,
-} from 'lucide-react';
+} from '@/components/primitives/SocialIcons';
 import { Container } from './Container';
 import { Logo } from './Logo';
 import { getSite, getAllProducts } from '@/lib/content';

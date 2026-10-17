@@ -11,9 +11,9 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
-      '@/content': path.resolve(__dirname, './content'),
-      '@/messages': path.resolve(__dirname, './messages'),
+      '@': path.resolve(import.meta.dirname, './src'),
+      '@/content': path.resolve(import.meta.dirname, './content'),
+      '@/messages': path.resolve(import.meta.dirname, './messages'),
     },
   },
 });

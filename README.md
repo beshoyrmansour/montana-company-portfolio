@@ -2,27 +2,27 @@
 
 Trilingual (AR / EN / FR) corporate marketing site for **United Co. for Food Industries — Montana**, Egyptian frozen-food exporter.
 
-Built with **Next.js 15 (App Router)** · TypeScript · Tailwind CSS 4 · next-intl · deployed on **Vercel** (DNS + Turnstile stay on Cloudflare).
+Built with **Next.js 16 (App Router)** · TypeScript · Tailwind CSS 4 · next-intl · deployed on **Vercel** (DNS + Turnstile stay on Cloudflare).
 
 ---
 
 ## I want to…
 
-| Task | Where to go |
-| --- | --- |
-| Add or update a product | [docs/how-to/add-product.md](docs/how-to/add-product.md) |
-| Publish a news article | [docs/how-to/publish-news-article.md](docs/how-to/publish-news-article.md) |
-| Edit page content (Home, About, Contact, …) | [docs/how-to/edit-page-content.md](docs/how-to/edit-page-content.md) |
-| Update legal pages (privacy / terms / cookies) | [docs/how-to/update-legal-pages.md](docs/how-to/update-legal-pages.md) |
-| Update translations (EN / AR / FR strings) | [docs/how-to/update-translations.md](docs/how-to/update-translations.md) |
-| Switch the seasonal theme (Ramadan / Christmas) | [docs/how-to/switch-theme.md](docs/how-to/switch-theme.md) |
-| Change the logo or brand assets | [docs/how-to/update-logo-and-branding.md](docs/how-to/update-logo-and-branding.md) |
-| Change an environment variable | [docs/how-to/change-environment-variable.md](docs/how-to/change-environment-variable.md) |
-| Show or hide a page in nav | [docs/how-to/hide-or-show-a-page.md](docs/how-to/hide-or-show-a-page.md) |
-| Deploy the site | [docs/how-to/deploy-to-vercel.md](docs/how-to/deploy-to-vercel.md) |
-| Set up the contact form | [docs/how-to/set-up-contact-form.md](docs/how-to/set-up-contact-form.md) |
-| Something broke — site is down, build failed, contact form not delivering | [docs/runbooks/](docs/runbooks/) |
-| Look up an env var or script | [docs/reference/](docs/reference/) |
+| Task                                                                      | Where to go                                                                              |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Add or update a product                                                   | [docs/how-to/add-product.md](docs/how-to/add-product.md)                                 |
+| Publish a news article                                                    | [docs/how-to/publish-news-article.md](docs/how-to/publish-news-article.md)               |
+| Edit page content (Home, About, Contact, …)                               | [docs/how-to/edit-page-content.md](docs/how-to/edit-page-content.md)                     |
+| Update legal pages (privacy / terms / cookies)                            | [docs/how-to/update-legal-pages.md](docs/how-to/update-legal-pages.md)                   |
+| Update translations (EN / AR / FR strings)                                | [docs/how-to/update-translations.md](docs/how-to/update-translations.md)                 |
+| Switch the seasonal theme (Ramadan / Christmas)                           | [docs/how-to/switch-theme.md](docs/how-to/switch-theme.md)                               |
+| Change the logo or brand assets                                           | [docs/how-to/update-logo-and-branding.md](docs/how-to/update-logo-and-branding.md)       |
+| Change an environment variable                                            | [docs/how-to/change-environment-variable.md](docs/how-to/change-environment-variable.md) |
+| Show or hide a page in nav                                                | [docs/how-to/hide-or-show-a-page.md](docs/how-to/hide-or-show-a-page.md)                 |
+| Deploy the site                                                           | [docs/how-to/deploy-to-vercel.md](docs/how-to/deploy-to-vercel.md)                       |
+| Set up the contact form                                                   | [docs/how-to/set-up-contact-form.md](docs/how-to/set-up-contact-form.md)                 |
+| Something broke — site is down, build failed, contact form not delivering | [docs/runbooks/](docs/runbooks/)                                                         |
+| Look up an env var or script                                              | [docs/reference/](docs/reference/)                                                       |
 
 Full doc index: [`docs/README.md`](docs/README.md).
 
@@ -30,7 +30,7 @@ Full doc index: [`docs/README.md`](docs/README.md).
 
 ## Quick start (for developers)
 
-You need **Node 20+** (see `.nvmrc`) and **npm**.
+You need **Node 24 LTS** (see `.nvmrc`) and **npm**.
 
 ```bash
 git clone <repo-url> && cd web
@@ -107,3 +107,13 @@ Step-by-step: [docs/how-to/deploy-to-vercel.md](docs/how-to/deploy-to-vercel.md)
 ## License
 
 Proprietary — all rights reserved by United Co. for Food Industries.
+
+## Dependency maintenance (October 2026)
+
+Runtime: Node 24 LTS (`.nvmrc`, package engines, GitHub Actions, and Vercel). Dependencies are pinned in `package.json` and `package-lock.json`; use `npm ci`.
+
+The upgrade follows the official [Next.js 16 guide](https://nextjs.org/docs/app/guides/upgrading/version-16), [Zod 4 migration](https://zod.dev/v4/changelog), [Vitest migration](https://vitest.dev/guide/migration/), and [Lucide 1 changes](https://lucide.dev/guide/version-1). Social icons removed by Lucide 1 retain their existing ISC-licensed artwork in `SocialIcons.tsx`. Vitest uses an explicit ESM `.mts` config. `tailwind-merge` 3 supports the project's Tailwind 4 classes.
+
+TypeScript is upgraded to 6.0, the newest major supported by typescript-eslint; TypeScript 7 is outside its declared support range. ESLint stays on 9 because eslint-plugin-react does not declare ESLint 10 support. Node types match production Node 24. Recheck peer support before upgrading these majors.
+
+`npm audit --omit=dev` reports no production vulnerabilities. The full audit still reports the unpatched `braces` dependency chain through Next.js's ESLint plugin; do not accept npm's suggested downgrade to Next.js 14 lint configuration.

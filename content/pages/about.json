@@ -429,15 +429,6 @@
         }
       },
       {
-        "name": "IFS Food",
-        "description": {
-          "en": "International Featured Standards for food safety (GFSI-recognised)",
-          "ar": "المعايير الدولية المعتمدة لسلامة الغذاء (معترف بها من GFSI)",
-          "fr": "International Featured Standards pour la sécurité alimentaire (reconnu GFSI)",
-          "de": "International Featured Standards für Lebensmittelsicherheit (GFSI-anerkannt)"
-        }
-      },
-      {
         "name": "ISO 22000",
         "description": {
           "en": "Food safety management system",
@@ -474,15 +465,6 @@
         }
       },
       {
-        "name": "SMETA",
-        "description": {
-          "en": "Sedex Members Ethical Trade Audit — social compliance",
-          "ar": "تدقيق التجارة الأخلاقية لأعضاء سيدكس — الامتثال الاجتماعي",
-          "fr": "Audit de commerce éthique des membres Sedex — conformité sociale",
-          "de": "Sedex Members Ethical Trade Audit — soziale Compliance"
-        }
-      },
-      {
         "name": "Halal",
         "description": {
           "en": "Halal certified",
@@ -516,15 +498,6 @@
           "ar": "متوافقة مع متطلبات إدارة الغذاء والدواء الأمريكية",
           "fr": "Conforme aux exigences de la FDA américaine",
           "de": "Konform mit den Anforderungen der US-FDA"
-        }
-      },
-      {
-        "name": "CODEX",
-        "description": {
-          "en": "Aligned with the international Codex Alimentarius",
-          "ar": "متوافقة مع دستور الأغذية الدولي (كودكس)",
-          "fr": "Alignée sur le Codex Alimentarius international",
-          "de": "Im Einklang mit dem internationalen Codex Alimentarius"
         }
       }
     ]

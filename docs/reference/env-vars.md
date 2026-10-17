@@ -11,6 +11,12 @@ Every variable, what it does, default, and when you need to set it. Authoritativ
 
 **Do not put a secret in a `NEXT_PUBLIC_…` variable.**
 
+On Vercel, store browser-visible values as **Config** and `RESEND_API_KEY` / `TURNSTILE_SECRET` as **Secret**. A Secret label does not prevent `NEXT_PUBLIC_*` values from appearing in the browser bundle. Public settings are fixed at build time; redeploy after changes. Existing sensitive secrets cannot be read back, renamed, or converted in place; preserve credentials and supply approved public values when replacing misclassified settings. Keep local `.env*` files out of Git; only `.env.example` is tracked.
+
+`THEME` is not read by this app; use `NEXT_PUBLIC_THEME`. `RESEND_REGION`, `CONTACT_RATE_LIMIT_PER_HOUR`, `MAINTENANCE_MODE`, `MAINTENANCE_MESSAGE`, and the factory-coordinate environment variables are unused and are omitted from the template. Existing remote entries are retained to avoid discarding settings.
+
+Official references: [Next.js environment variables](https://nextjs.org/docs/app/guides/environment-variables), [Vercel sensitive variables](https://vercel.com/docs/environment-variables/sensitive-environment-variables).
+
 How to set or change a value: [change-environment-variable.md](../how-to/change-environment-variable.md).
 
 ---
@@ -33,7 +39,7 @@ How to set or change a value: [change-environment-variable.md](../how-to/change-
 | Variable                        | Default    | Purpose                                                                                                                                                                                 |
 | ------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `NEXT_PUBLIC_DEFAULT_LOCALE`    | `en`       | Fallback locale used when the visitor's `Accept-Language` header has no supported match. The root URL `/` redirects to this locale for visitors with no recognized language preference. |
-| `NEXT_PUBLIC_AVAILABLE_LOCALES` | `en,ar,fr` | Comma-separated list of locales to expose. Remove `ar` here to disable Arabic site-wide. Also restricts which locales the root-URL redirect (`src/proxy.ts`) will pick from.            |
+| `NEXT_PUBLIC_AVAILABLE_LOCALES` | `en,ar,fr,de` | Comma-separated list of locales to expose. Remove `ar` here to disable Arabic site-wide. Also restricts which locales the root-URL redirect (`src/proxy.ts`) will pick from.            |
 
 ## Feature flags
 
@@ -62,11 +68,9 @@ Server-only — used by the Next.js API route at `src/app/api/contact/route.ts`.
 | Variable                      | Default                 | Purpose                                                                                                                                                                |
 | ----------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `RESEND_API_KEY`              | _(empty)_               | Resend API key. **If empty, the form still works** — submissions are logged to Vercel function logs instead of being emailed. Mark as Sensitive when adding to Vercel. |
-| `RESEND_REGION`               | `eu-west-1`             | Resend region. Closest to Egypt is `eu-west-1`.                                                                                                                        |
 | `CONTACT_FROM_EMAIL`          | `noreply@montanaeg.com` | Sender address. **Must be at a domain verified in your Resend account.**                                                                                               |
 | `CONTACT_TO_EMAIL`            | `sales@montanaeg.com`   | Where messages arrive.                                                                                                                                                 |
 | `CONTACT_CC_EMAIL`            | _(empty)_               | Optional CC (e.g., a manager).                                                                                                                                         |
-| `CONTACT_RATE_LIMIT_PER_HOUR` | `5`                     | Max submissions per IP per hour. _(Enforcement pending — requires KV binding, not currently wired.)_                                                                   |
 
 ## Anti-spam (Cloudflare Turnstile)
 
@@ -81,15 +85,8 @@ Server-only — used by the Next.js API route at `src/app/api/contact/route.ts`.
 | -------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `NEXT_PUBLIC_MAP_PROVIDER` | `static`  | `static` uses pre-generated SVG world map (no external calls, zero latency). `maptiler` uses MapTiler tiles (richer, costs API quota). |
 | `NEXT_PUBLIC_MAPTILER_KEY` | _(empty)_ | MapTiler API key. Required only if `NEXT_PUBLIC_MAP_PROVIDER=maptiler`.                                                                |
-| `NEXT_PUBLIC_FACTORY_LAT`  | `30.2156` | Factory latitude for the markets-page map.                                                                                             |
-| `NEXT_PUBLIC_FACTORY_LNG`  | `31.2089` | Factory longitude.                                                                                                                     |
 
-## Maintenance
-
-| Variable              | Default                                     | Purpose                                                                          |
-| --------------------- | ------------------------------------------- | -------------------------------------------------------------------------------- |
-| `MAINTENANCE_MODE`    | `false`                                     | Reserved for a future maintenance-page feature. Currently not wired into the UI. |
-| `MAINTENANCE_MESSAGE` | `"We're upgrading the site. Back shortly."` | Message shown in maintenance mode.                                               |
+`NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` is the browser-visible key for the optional Google static map provider. Restrict map keys by API and allowed website origins. Factory coordinates come from content, not environment variables.
 
 ## Build
 

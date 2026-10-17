@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Facebook, Linkedin, Twitter, Link as LinkIcon, Check, MessageCircle } from 'lucide-react';
+import { Link as LinkIcon, Check, MessageCircle } from 'lucide-react';
+import { Facebook, Linkedin, Twitter } from '@/components/primitives/SocialIcons';
 
 interface ShareButtonsProps {
   url: string;
