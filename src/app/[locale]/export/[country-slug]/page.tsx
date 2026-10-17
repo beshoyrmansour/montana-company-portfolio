@@ -130,7 +130,7 @@ export default async function CountryExportPage({ params }: PageProps) {
     marketsData as typeof marketsData & { regions: (typeof marketsData)['regions'] }
   ).regions.find((r) => r.id === countryEntry.regionId)!;
 
-  const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
 
   // Popular products for this market.
   const popularSlugs = getRegionPopularProducts(countryEntry.regionId);
@@ -142,7 +142,7 @@ export default async function CountryExportPage({ params }: PageProps) {
   // Build breadcrumb items.
   const countryNameEn = pick(countryEntry.name, 'en') ?? countryEntry.iso;
   const breadcrumbs = [
-    { name: tCommon('breadcrumb.home'), href: `/${locale}` },
+    { name: tNav('home'), href: `/${locale}` },
     { name: 'Export Markets', href: `/${locale}/markets` },
     { name: countryNameEn, href: `/${locale}/export/${countrySlug}` },
   ];
