@@ -438,57 +438,12 @@
         }
       },
       {
-        "name": "HACCP",
-        "description": {
-          "en": "Hazard analysis & critical control points — applied to every batch",
-          "ar": "تحليل المخاطر ونقاط التحكم الحرجة — مطبق على كل دفعة",
-          "fr": "Analyse des dangers et points critiques — appliquée à chaque lot",
-          "de": "Gefahrenanalyse und kritische Lenkungspunkte — auf jede Charge angewandt"
-        }
-      },
-      {
-        "name": "GLOBALG.A.P",
-        "description": {
-          "en": "Good Agricultural Practices at farm level",
-          "ar": "الممارسات الزراعية الجيدة على مستوى المزرعة",
-          "fr": "Bonnes pratiques agricoles au niveau de la ferme",
-          "de": "Gute landwirtschaftliche Praxis auf Betriebsebene"
-        }
-      },
-      {
-        "name": "GMP",
-        "description": {
-          "en": "Good Manufacturing Practices across every stage",
-          "ar": "ممارسات التصنيع الجيدة في كل مرحلة",
-          "fr": "Bonnes pratiques de fabrication à chaque étape",
-          "de": "Gute Herstellungspraxis in jedem Schritt"
-        }
-      },
-      {
         "name": "Halal",
         "description": {
           "en": "Halal certified",
           "ar": "معتمد حلال",
           "fr": "Certifié Halal",
           "de": "Halal-zertifiziert"
-        }
-      },
-      {
-        "name": "NFSA",
-        "description": {
-          "en": "Regulated by Egypt's National Food Safety Authority",
-          "ar": "خاضعة لرقابة الهيئة القومية لسلامة الغذاء في مصر",
-          "fr": "Réglementée par l'Autorité nationale égyptienne de sécurité alimentaire",
-          "de": "Reguliert durch die ägyptische Nationale Behörde für Lebensmittelsicherheit (NFSA)"
-        }
-      },
-      {
-        "name": "QCAP",
-        "description": {
-          "en": "Lab analysis via the Central Laboratory of Residue Analysis (QCAP) — ISO 17025 / FINAS-accredited",
-          "ar": "تحاليل مخبرية عبر المعمل المركزي لتحليل المتبقيات (QCAP) — معتمد ISO 17025 / FINAS",
-          "fr": "Analyses en laboratoire via le Laboratoire central d'analyse des résidus (QCAP) — accrédité ISO 17025 / FINAS",
-          "de": "Laboranalysen über das Zentrallabor für Rückstandsanalytik (QCAP) — ISO 17025 / FINAS-akkreditiert"
         }
       },
       {
