@@ -103,7 +103,7 @@ Without Turnstile, the form still works but is wide open to spam.
 
 ## Verify
 
-1.  Visit `https://montanaeg.com/contact`.
+1.  Visit `https://www.montanaeg.com/en/contact`.
 2.  Fill the form and submit. You should see a "Thank you" confirmation.
 3.  Check the inbox at `CONTACT_TO_EMAIL` — the message arrives within ~30 seconds.
 4.  In Vercel → **Functions → Real-time Logs**, you should see a `POST /api/contact` log line with status 200.

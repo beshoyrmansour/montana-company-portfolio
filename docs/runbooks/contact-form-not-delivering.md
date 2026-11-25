@@ -50,7 +50,7 @@ flowchart TB
     ![Vercel → Logs → Real-time Logs](../_images/vercel-functions-log.svg)
     > _Illustration. Each row shows time, method, path, status, and duration; click a row to expand the function's console output._
 
-2.  In another tab, open <https://montanaeg.com/contact>.
+2.  In another tab, open <https://www.montanaeg.com/en/contact>.
 
 3.  **Submit a test form** with your own email and a recognizable message (e.g., "RUNBOOK TEST 2026-06-15 14:32").
 
