@@ -4367,7 +4367,7 @@ html.is-scrolled .site-logo {
 }
 /* Real logos sit in the same top slot as the lucide icons. The slot is fixed at
    44px (the icon size) so the name line aligns across every tile in a row, and a
-   wide wordmark (e.g. GLOBALG.A.P at ~7.7:1) is capped by height and tile width
+   wide wordmark is capped by height and tile width
    so it can never blow the card open. */
 .cert-wall .cert-tile-logo {
   display: flex;

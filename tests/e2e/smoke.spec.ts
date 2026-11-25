@@ -38,7 +38,7 @@ test.describe('smoke tests (static build)', () => {
     );
     // Stats strip
     await expect(page.getByText('30+').first()).toBeVisible();
-    await expect(page.getByText('70').first()).toBeVisible();
+    await expect(page.getByText('Years exporting', { exact: true }).first()).toBeVisible();
   });
 
   test('Arabic homepage loads with RTL', async ({ page }) => {

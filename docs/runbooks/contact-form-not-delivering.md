@@ -50,18 +50,18 @@ flowchart TB
     ![Vercel → Logs → Real-time Logs](../_images/vercel-functions-log.svg)
     > _Illustration. Each row shows time, method, path, status, and duration; click a row to expand the function's console output._
 
-2.  In another tab, open <https://montanaeg.com/contact>.
+2.  In another tab, open <https://www.montanaeg.com/en/contact>.
 
 3.  **Submit a test form** with your own email and a recognizable message (e.g., "RUNBOOK TEST 2026-06-15 14:32").
 
 4.  Watch the log. You should see a request to `/api/contact` and a response code. Note:
     - **Status code** (200 / 4xx / 5xx)
     - Any error message printed
-    - Whether the log shows "no RESEND_API_KEY configured — logging submission" (that means env vars are missing)
+    - Whether the log shows "Contact form mail delivery is not configured." (that means env vars are missing)
 
 ## Step 2 — Env vars missing or wrong
 
-If the log message says **"no RESEND_API_KEY configured — logging submission"** or you see the submission body printed (it was logged, not emailed):
+If the log message says **"Contact form mail delivery is not configured."** or the API responds with HTTP 503 and `mail_unavailable`:
 
 1.  **Vercel → Settings → Environment variables → Production tab.**
 2.  Verify all three are set and non-empty:

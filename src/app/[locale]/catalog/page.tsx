@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description:
       pick(page.seo?.description, locale) ??
       pick(page.hero.subtitle, locale) ??
-      'Browse Montana’s full IQF frozen vegetable and fruit range — molokhia, okra, artichoke, strawberry and more. Egyptian export quality since 1985, HACCP-ISO-BRC certified. Request a quote.',
+      'Browse Montana’s full IQF frozen vegetable and fruit range — molokhia, okra, artichoke, strawberry and more. Egyptian export quality since 1985, BRCGS and ISO 22000 certified. Request a quote.',
     keywords: page.seo?.keywords ?? [
       'frozen vegetable catalog',
       'frozen fruit catalog',

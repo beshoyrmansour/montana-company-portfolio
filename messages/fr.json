@@ -96,7 +96,8 @@
       "message": "Message",
       "submit": "Envoyer le message",
       "consent": "J'accepte que mes informations soient traitées par Resend (USA) et Cloudflare (USA) pour la livraison de cette demande.",
-      "privacyLink": "Voir notre politique de confidentialité"
+      "privacyLink": "Voir notre politique de confidentialité",
+      "sendError": "Votre message n’a pas pu être envoyé. Veuillez réessayer ou utiliser les coordonnées ci-dessous."
     },
     "prefill": {
       "intro": "Je souhaiterais en savoir plus sur : {productName}",

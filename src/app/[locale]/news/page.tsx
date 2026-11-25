@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       'Montana news',
       'frozen food industry news',
       'Egyptian food export news',
-      'HACCP certification news',
+      'food safety news',
       'molokhia export',
     ],
     ogImage: page.seo?.ogImage,

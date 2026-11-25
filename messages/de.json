@@ -96,7 +96,8 @@
       "message": "Nachricht",
       "submit": "Nachricht senden",
       "consent": "Ich stimme zu, dass meine Daten von Resend (USA) und Cloudflare (USA) verarbeitet werden, um diese Anfrage zu übermitteln.",
-      "privacyLink": "Unsere Datenschutzerklärung ansehen"
+      "privacyLink": "Unsere Datenschutzerklärung ansehen",
+      "sendError": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder nutzen Sie die Kontaktdaten unten."
     },
     "prefill": {
       "intro": "Ich möchte mehr erfahren über: {productName}",

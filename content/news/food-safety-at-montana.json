@@ -1,0 +1,40 @@
+{
+  "slug": "food-safety-at-montana",
+  "publishedAt": "2026-01-15",
+  "category": "corporate",
+  "featured": false,
+  "title": {
+    "en": "Food safety at Montana",
+    "ar": "سلامة الغذاء في مونتانا",
+    "fr": "La sécurité alimentaire chez Montana",
+    "de": "Lebensmittelsicherheit bei Montana"
+  },
+  "excerpt": {
+    "en": "Why food safety is not a marketing claim at Montana — it's a daily operating discipline.",
+    "ar": "لماذا سلامة الغذاء ليست ادعاءً تسويقياً في مونتانا، بل هي ممارسة يومية.",
+    "fr": "Pourquoi la sécurité alimentaire n'est pas un argument marketing chez Montana, mais une discipline quotidienne.",
+    "de": "Warum Lebensmittelsicherheit bei Montana keine Marketingaussage ist — sondern tägliche Betriebsdisziplin."
+  },
+  "body": {
+    "en": "Food safety at Montana starts in the field and continues through packaging. Our teams monitor production, sample batches and check frozen vegetables in our quality-assurance lab before shipment.\n\nMontana is certified to ISO 22000 for its food safety management system.",
+    "ar": "تبدأ سلامة الغذاء في مونتانا من الحقل وتستمر حتى التعبئة. تراقب فرقنا الإنتاج وتسحب عينات من الدفعات وتفحص الخضراوات المجمدة في مختبر ضمان الجودة قبل الشحن.\n\nمونتانا معتمدة وفق معيار ISO 22000 لنظام إدارة سلامة الغذاء.",
+    "fr": "La sécurité alimentaire chez Montana commence au champ et se poursuit jusqu’au conditionnement. Nos équipes surveillent la production, prélèvent des échantillons et contrôlent les légumes surgelés dans notre laboratoire d’assurance qualité avant l’expédition.\n\nMontana est certifiée ISO 22000 pour son système de management de la sécurité alimentaire.",
+    "de": "Lebensmittelsicherheit beginnt bei Montana auf dem Feld und reicht bis zur Verpackung. Unsere Teams überwachen die Produktion, entnehmen Stichproben und kontrollieren das Tiefkühlgemüse vor dem Versand im Qualitätssicherungslabor.\n\nMontana ist für sein Lebensmittelsicherheitsmanagementsystem nach ISO 22000 zertifiziert."
+  },
+  "author": "Montana Food Safety & Quality Department",
+  "authorBio": {
+    "name": {
+      "en": "Food Safety & Quality Assurance Division, Montana Frozen Foods",
+      "ar": "قسم سلامة الغذاء وضمان الجودة، Montana Frozen Foods",
+      "fr": "Division Sécurité alimentaire & Assurance qualité, Montana Frozen Foods",
+      "de": "Abteilung Lebensmittelsicherheit & Qualitätssicherung, Montana Frozen Foods"
+    },
+    "profileUrl": "https://www.linkedin.com/company/MontanaPage"
+  },
+  "coverImage": "/images/facility/floor/floor-03.jpg",
+  "tags": [
+    "quality",
+    "certification",
+    "iso"
+  ]
+}

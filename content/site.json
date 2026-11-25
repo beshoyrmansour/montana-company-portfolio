@@ -82,7 +82,7 @@
       },
       "phones": ["+202 333 75 408", "+202 374 82 859"],
       "fax": "+202 374 80 381",
-      "email": "info@montanaeg.com",
+      "email": "export@montanaeg.com",
       "coordinates": {
         "lat": 30.0444,
         "lng": 31.2
@@ -103,7 +103,7 @@
       },
       "phones": ["+202 421 65 139", "+202 421 65 245", "+202 421 66 912/3"],
       "fax": "+202 421 65 154",
-      "email": "montana@maamoungrp.com",
+      "email": "info@montanaeg.com",
       "coordinates": {
         "lat": 30.2156,
         "lng": 31.2089
@@ -122,48 +122,16 @@
       "name": "BRCGS"
     },
     {
-      "id": "ifs",
-      "name": "IFS Food"
-    },
-    {
       "id": "iso22000",
       "name": "ISO 22000"
-    },
-    {
-      "id": "haccp",
-      "name": "HACCP"
-    },
-    {
-      "id": "globalgap",
-      "name": "GLOBALG.A.P"
-    },
-    {
-      "id": "gmp",
-      "name": "GMP"
-    },
-    {
-      "id": "smeta",
-      "name": "SMETA"
     },
     {
       "id": "halal",
       "name": "Halal"
     },
     {
-      "id": "nfsa",
-      "name": "NFSA"
-    },
-    {
-      "id": "qcap",
-      "name": "QCAP"
-    },
-    {
       "id": "fda",
       "name": "FDA"
-    },
-    {
-      "id": "codex",
-      "name": "CODEX"
     }
   ]
 }

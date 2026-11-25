@@ -264,13 +264,13 @@
           "de": "Ägypten"
         },
         "address": {
-          "en": "Industrial Zone Block 4, Qalyub Governorate",
-          "ar": "المنطقة الصناعية بلوك 4، محافظة القليوبية",
-          "fr": "Zone industrielle bloc 4, gouvernorat de Qalyub",
-          "de": "Industriezone Block 4, Gouvernement Qalyub"
+          "en": "20 km Cairo/Alex Agriculture Road, Qalyub, Egypt",
+          "ar": "كم ٢٠ طريق مصر/الإسكندرية الزراعي، القليوب، مصر",
+          "fr": "20 km route agricole Le Caire/Alexandrie, Qalyub, Égypte",
+          "de": "20 km Agrarstraße Kairo/Alexandria, Qalyub, Ägypten"
         },
         "tel": "+202 421 65 139",
-        "email": "montana@maamoungrp.com",
+        "email": "info@montanaeg.com",
         "role": {
           "en": "Production · quality lab",
           "ar": "إنتاج · مختبر الجودة",
@@ -308,7 +308,7 @@
           "de": "52 Gamaet El Dewal Str., Dokki, Giza"
         },
         "tel": "+202 333 75 408",
-        "email": "info@montanaeg.com",
+        "email": "export@montanaeg.com",
         "role": {
           "en": "Export office · MENA accounts",
           "ar": "مكتب التصدير · حسابات الشرق الأوسط وشمال أفريقيا",
@@ -373,7 +373,7 @@
           "fr": "Planifier une visite",
           "de": "Werksbesuch planen"
         },
-        "href": "mailto:montana@maamoungrp.com?subject=Facility%20visit",
+        "href": "mailto:export@montanaeg.com?subject=Facility%20visit",
         "variant": "ghost"
       }
     ],

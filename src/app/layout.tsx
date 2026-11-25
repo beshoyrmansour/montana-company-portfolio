@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     template: '%s | Montana',
   },
   description:
-    'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 30 countries. HACCP, ISO, and GMP certified.',
+    'Family-owned Egyptian frozen-food exporter since 1985. IQF vegetables, fruits, and signature molokhia delivered to 30 countries. BRCGS and ISO 22000 certified.',
   applicationName: 'Montana Frozen Foods',
   authors: [{ name: 'Montana Frozen Foods', url: BASE_URL }],
   generator: 'Next.js',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     'frozen artichoke',
     'frozen strawberry',
     'frozen mixed vegetables',
-    'HACCP certified',
+    'BRCGS certified',
     'ISO certified',
     'food export Egypt',
     'B2B frozen food supplier',

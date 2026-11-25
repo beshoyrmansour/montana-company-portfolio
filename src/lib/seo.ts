@@ -159,7 +159,7 @@ export function organizationJsonLd(site: Site, locale: Locale): JsonLd {
       'IQF freezing',
       'Food export',
       'Cold chain logistics',
-      'HACCP food safety',
+      'food safety standards',
     ],
     hasCredential: site.certifications.map((c) => ({
       '@type': 'EducationalOccupationalCredential',
@@ -416,7 +416,7 @@ export function exportServiceJsonLd(
       name: country.name,
       '@id': `${BASE_URL}/${locale}/export/${slug}#area`,
     },
-    description: `Montana Frozen Foods exports premium IQF frozen vegetables, fruits, and specialties to ${country.name}. Lead time: ${region.leadTime}. BRCGS, HACCP, ISO certified Egyptian supplier since 1985.`,
+    description: `Montana Frozen Foods exports premium IQF frozen vegetables, fruits, and specialties to ${country.name}. Lead time: ${region.leadTime}. BRCGS and ISO 22000 certified Egyptian supplier since 1985.`,
     offers: {
       '@type': 'OfferCatalog',
       name: `Frozen Food Export to ${country.name}`,

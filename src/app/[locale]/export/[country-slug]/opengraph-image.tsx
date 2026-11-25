@@ -46,7 +46,7 @@ export default async function Image({
       return renderOgCard({
         eyebrow: `Export · ${region.name.en}`,
         title: `Frozen Foods to ${country.name.en}`,
-        subtitle: 'Egyptian IQF vegetables, fruits & specialties — BRCGS · HACCP · ISO certified.',
+        subtitle: 'Egyptian IQF vegetables, fruits & specialties — BRCGS and ISO 22000 certified.',
         accent: region.color || OG_GREEN,
       });
     }

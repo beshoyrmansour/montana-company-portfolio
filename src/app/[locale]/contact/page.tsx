@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Navigation } from 'lucide-react';
 import { Container } from '@/components/layout/Container';
@@ -74,7 +74,11 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   if (isRouteHidden('contact')) notFound();
   const locale = raw as Locale;
   setRequestLocale(locale);
-  const [page, site] = await Promise.all([getContactPage(), getSite()]);
+  const [page, site, tForm] = await Promise.all([
+    getContactPage(),
+    getSite(),
+    getTranslations({ locale, namespace: 'contact.form' }),
+  ]);
 
   const faqItems = page.faq.enabled
     ? page.faq.items
@@ -117,6 +121,9 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
     successTitle: pick(page.form.successTitle, locale) ?? '',
     successBody: pick(page.form.successBody, locale) ?? '',
     sendAnother: pick(page.form.sendAnother, locale) ?? '',
+    consent: tForm('consent'),
+    privacyLink: tForm('privacyLink'),
+    error: tForm('sendError'),
   };
 
   const crumbs = BREADCRUMB_LABELS[locale] ?? BREADCRUMB_LABELS.en;
