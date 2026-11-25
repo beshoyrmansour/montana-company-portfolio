@@ -2805,19 +2805,31 @@ html.is-scrolled .site-logo {
   line-height: var(--leading-relaxed);
 }
 
-/* ─── About: Cert grid (on dark logistics-band) ─── */
-.cert-grid {
+/* Shared certificate layout: phones, tablets, then a full desktop row. */
+.cert-grid,
+.cert-wall {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 640px) {
+  .cert-grid,
+  .cert-wall {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1200px) {
+  .cert-grid,
+  .cert-wall {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* About: certificate cards on the dark logistics band. */
+.cert-grid {
   gap: var(--space-5);
   margin-top: var(--space-12);
   position: relative;
   z-index: 1;
-}
-@media (min-width: 768px) {
-  .cert-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 .cert-card {
   background: #fff;
@@ -4320,21 +4332,7 @@ html.is-scrolled .site-logo {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
   gap: var(--space-4);
-  /* Responsive ladder: 1 col on phones → 2 on small/tablet → 3 on desktop.
-     (Was auto-fill, which expanded to 5 across on wide screens.) */
-  grid-template-columns: 1fr;
-}
-@media (min-width: 640px) {
-  .cert-wall {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1024px) {
-  .cert-wall {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 .cert-tile {
   /* Card with a large, low-opacity brand icon watermarked in the top-right corner;
