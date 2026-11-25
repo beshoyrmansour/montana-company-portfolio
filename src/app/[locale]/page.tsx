@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description:
       pick(home.seo?.description, locale) ||
       subheadline ||
-      'Montana — family-owned Egyptian IQF frozen-food exporter since 1985. Vegetables, fruits and signature molokhia shipped to 30 countries. HACCP, ISO and BRC certified.',
+      'Montana — family-owned Egyptian IQF frozen-food exporter since 1985. Vegetables, fruits and signature molokhia shipped to 30 countries. BRCGS and ISO 22000 certified.',
     keywords: home.seo?.keywords ?? [
       'frozen vegetables exporter',
       'Egyptian frozen foods',
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       'frozen molokhia',
       'frozen okra',
       'B2B frozen food supplier',
-      'HACCP ISO BRC certified',
+      'BRCGS ISO 22000 certified',
     ],
     ogImage: home.seo?.ogImage,
   });

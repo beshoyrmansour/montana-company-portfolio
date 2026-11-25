@@ -39,7 +39,7 @@ export async function generateMetadata({
     pick(product.seo?.description, locale) ||
     pick(product.shortDescription, locale) ||
     pick(product.description, locale) ||
-    `Premium IQF frozen ${name.toLowerCase()} from Montana — Egyptian export quality since 1985, HACCP-ISO-BRC certified. Request packing options, MOQ and a quote.`;
+    `Premium IQF frozen ${name.toLowerCase()} from Montana — Egyptian export quality since 1985, BRCGS and ISO 22000 certified. Request packing options, MOQ and a quote.`;
   return buildPageMetadata({
     locale,
     path: `/catalog/${product.slug}`,

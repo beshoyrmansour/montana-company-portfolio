@@ -15,7 +15,7 @@ export const revalidate = 3600;
 const SITE_SUMMARY = [
   '# Montana Frozen Foods — AI Agent Overview',
   '',
-  'Family-owned Egyptian frozen vegetable and fruit exporter since 1985, part of Maamoun Brothers Group (est. 1909). IQF vegetables, fruits, molokhia. HACCP/ISO/BRCGS certified. 35,000t annual capacity to 30+ countries.',
+  'Family-owned Egyptian frozen vegetable and fruit exporter since 1985, part of Maamoun Brothers Group (est. 1909). IQF vegetables, fruits, molokhia. BRCGS and ISO 22000 certified. 35,000t annual capacity to 30+ countries.',
 ].join('\n');
 
 export async function GET(): Promise<Response> {

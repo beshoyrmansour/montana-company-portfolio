@@ -57,11 +57,11 @@ flowchart TB
 4.  Watch the log. You should see a request to `/api/contact` and a response code. Note:
     - **Status code** (200 / 4xx / 5xx)
     - Any error message printed
-    - Whether the log shows "no RESEND_API_KEY configured — logging submission" (that means env vars are missing)
+    - Whether the log shows "Contact form mail delivery is not configured." (that means env vars are missing)
 
 ## Step 2 — Env vars missing or wrong
 
-If the log message says **"no RESEND_API_KEY configured — logging submission"** or you see the submission body printed (it was logged, not emailed):
+If the log message says **"Contact form mail delivery is not configured."** or the API responds with HTTP 503 and `mail_unavailable`:
 
 1.  **Vercel → Settings → Environment variables → Production tab.**
 2.  Verify all three are set and non-empty:

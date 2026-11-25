@@ -1,6 +1,6 @@
 # Set up the contact form
 
-The contact form is the one piece of dynamic functionality on the site. It uses a Next.js API route to verify a CAPTCHA and send email via Resend. Without configuration it still works for local testing — submissions are logged to the Vercel function logs.
+The contact form is the one piece of dynamic functionality on the site. It uses a Next.js API route to verify a CAPTCHA and send email via Resend. Without mail configuration, it returns HTTP 503 and shows the visitor an error without logging their inquiry.
 
 ## End-to-end flow
 
@@ -13,21 +13,23 @@ sequenceDiagram
     participant R as Resend API
     participant E as Inbox<br/>(CONTACT_TO_EMAIL)
 
-    V->>Form: fill name, email, message
-    V->>Form: solve invisible CAPTCHA
-    Form->>Fn: POST /api/contact + cfToken
-    Fn->>Fn: validate, honeypot, rate-limit check
-    Fn->>T: verify cfToken
-    T-->>Fn: ok / fail
-    alt RESEND_API_KEY set
-        Fn->>R: send email
-        R->>E: deliver
-        Fn-->>Form: 200 OK
-    else No RESEND_API_KEY
-        Fn->>Fn: log submission to Vercel function logs
-        Fn-->>Form: 200 OK
+    V->>Form: fill inquiry and give consent
+    Form->>Fn: POST /api/contact (JSON)
+    Fn->>Fn: validate fields, consent and honeypot
+    opt Turnstile secret and token provided
+        Fn->>T: verify token
+        T-->>Fn: verification result
     end
-    Form-->>V: "Thank you" message
+    alt Resend accepts email
+        Fn->>R: send email
+        R-->>Fn: accepted
+        R->>E: attempt delivery
+        Fn-->>Form: 200 OK
+        Form-->>V: confirmation
+    else Validation, configuration or send failure
+        Fn-->>Form: 4xx or 5xx
+        Form-->>V: error, with input preserved
+    end
 ```
 
 ## Required services
@@ -106,7 +108,7 @@ Without Turnstile, the form still works but is wide open to spam.
 3.  Check the inbox at `CONTACT_TO_EMAIL` — the message arrives within ~30 seconds.
 4.  In Vercel → **Functions → Real-time Logs**, you should see a `POST /api/contact` log line with status 200.
 
-If you set up only Turnstile but not Resend: the form will appear to work but no email will arrive. Submissions are logged to Vercel function logs instead — useful for testing.
+Without all three required Resend variables, the visitor sees an error and no email is sent. Use a test inbox or a mocked provider for local testing.
 
 ## Rate limiting
 

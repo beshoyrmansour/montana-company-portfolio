@@ -19,33 +19,52 @@ interface InquiryFormProps {
     successTitle: string;
     successBody: string;
     sendAnother: string;
+    consent: string;
+    privacyLink: string;
+    error: string;
   };
 }
 
-/**
- * Editorial inquiry form — radio reasons, two-column inputs, message box,
- * inline success state. POSTs to `/api/contact` (Next.js API route)
- * when present; falls back to a synthetic submit if not configured yet.
- */
+const SUBJECT_BY_REASON: Readonly<Record<string, string>> = {
+  sourcing: 'export',
+  existing: 'sales',
+  sample: 'sales',
+  press: 'press',
+  careers: 'general',
+  other: 'general',
+};
+
+/** Editorial inquiry form for the localized contact page. */
 export function InquiryForm({ locale, labels }: InquiryFormProps) {
   const [reason, setReason] = useState(labels.reasons[0]?.id ?? 'sourcing');
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [failed, setFailed] = useState(false);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (submitting) return;
+    const data = Object.fromEntries(new FormData(e.currentTarget));
     setSubmitting(true);
+    setFailed(false);
     try {
-      const fd = new FormData(e.currentTarget);
-      fd.set('reason', reason);
-      fd.set('locale', locale);
-      // Best-effort: try the Pages Function endpoint. Silent fail = still show success.
-      try {
-        await fetch('/api/contact', { method: 'POST', body: fd });
-      } catch {
-        // Network unreachable in static-export preview — accept anyway.
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...data,
+          reason,
+          subject: SUBJECT_BY_REASON[reason] ?? 'general',
+          consent: data.consent === 'on',
+        }),
+      });
+      if (!response.ok || (await response.json()).ok !== true) {
+        setFailed(true);
+        return;
       }
       setSubmitted(true);
+    } catch {
+      setFailed(true);
     } finally {
       setSubmitting(false);
     }
@@ -57,7 +76,9 @@ export function InquiryForm({ locale, labels }: InquiryFormProps) {
         <div className="cs-check">
           <Check size={56} strokeWidth={1.5} />
         </div>
-        <h2 className="cs-title">{labels.successTitle}</h2>
+        <h2 role="status" className="cs-title">
+          {labels.successTitle}
+        </h2>
         <p className="cs-sub">{labels.successBody}</p>
         <button type="button" className="btn-editorial ghost" onClick={() => setSubmitted(false)}>
           {labels.sendAnother}
@@ -67,7 +88,7 @@ export function InquiryForm({ locale, labels }: InquiryFormProps) {
   }
 
   return (
-    <form className="contact-form" onSubmit={onSubmit}>
+    <form className="contact-form" onSubmit={onSubmit} aria-busy={submitting}>
       <div className="cf-field">
         <label>{labels.reasonQ}</label>
         <div className="cf-radio-grid">
@@ -90,6 +111,8 @@ export function InquiryForm({ locale, labels }: InquiryFormProps) {
           <label htmlFor="cf-name">{labels.name.label}</label>
           <input
             id="cf-name"
+            minLength={2}
+            maxLength={100}
             name="name"
             type="text"
             placeholder={labels.name.placeholder}
@@ -100,6 +123,7 @@ export function InquiryForm({ locale, labels }: InquiryFormProps) {
           <label htmlFor="cf-company">{labels.company.label}</label>
           <input
             id="cf-company"
+            maxLength={100}
             name="company"
             type="text"
             placeholder={labels.company.placeholder}
@@ -112,6 +136,7 @@ export function InquiryForm({ locale, labels }: InquiryFormProps) {
           <label htmlFor="cf-email">{labels.email.label}</label>
           <input
             id="cf-email"
+            maxLength={200}
             name="email"
             type="email"
             placeholder={labels.email.placeholder}
@@ -122,6 +147,7 @@ export function InquiryForm({ locale, labels }: InquiryFormProps) {
           <label htmlFor="cf-country">{labels.country.label}</label>
           <input
             id="cf-country"
+            maxLength={100}
             name="country"
             type="text"
             placeholder={labels.country.placeholder}
@@ -133,12 +159,32 @@ export function InquiryForm({ locale, labels }: InquiryFormProps) {
         <label htmlFor="cf-msg">{labels.message.label}</label>
         <textarea
           id="cf-msg"
+          minLength={10}
+          maxLength={5000}
           name="message"
           rows={6}
           placeholder={labels.message.placeholder}
           required
         />
       </div>
+
+      <div aria-hidden="true" className="sr-only">
+        <input type="text" name="website" tabIndex={-1} autoComplete="off" />
+      </div>
+      <div className="text-body-sm">
+        <label className="flex items-start gap-2">
+          <input type="checkbox" name="consent" required className="mt-1 shrink-0" />
+          {labels.consent}
+        </label>
+        <a href={`/${locale}/privacy`} className="underline">
+          {labels.privacyLink}
+        </a>
+      </div>
+      {failed && (
+        <p role="alert" className="text-danger text-body-sm">
+          {labels.error}
+        </p>
+      )}
 
       <div className="cf-foot">
         <p className="cf-note">{labels.note}</p>

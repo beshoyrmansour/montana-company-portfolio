@@ -81,7 +81,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const seoTitle = `Export Frozen Foods to ${countryName} — Montana Certified Supplier`;
   const seoDescription =
     `Montana exports premium IQF frozen vegetables, fruits, and specialties to ${countryName}. ` +
-    `Lead time: ${region.leadTime}. BRCGS, HACCP, ISO certified. Contact our export desk for specs and pricing.`;
+    `Lead time: ${region.leadTime}. BRCGS and ISO 22000 certified. Contact our export desk for specs and pricing.`;
 
   // Popular products in the region (derived from region spotlight data).
   const popularProductSlugs = getRegionPopularProducts(countryEntry.regionId);
@@ -98,7 +98,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       `Egyptian frozen food supplier to ${countryName.toLowerCase()}`,
       regionName,
       'IQF',
-      'HACCP certified',
+      'BRCGS certified',
     ],
   });
 }
@@ -214,7 +214,7 @@ export default async function CountryExportPage({ params }: PageProps) {
               </div>
               <div className="export-detail-card bg-surface-muted rounded-xl p-4">
                 <dt className="text-body-sm text-text-subtle mb-1 font-medium">Certifications</dt>
-                <dd className="text-body-md font-semibold">BRCGS · IFS · ISO 22000 · HACCP</dd>
+                <dd className="text-body-md font-semibold">BRCGS · ISO 22000 · Halal · U.S. FDA compliance</dd>
               </div>
             </div>
 

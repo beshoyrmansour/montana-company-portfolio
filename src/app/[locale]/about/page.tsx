@@ -36,13 +36,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description:
       pick(page.seo?.description, locale) ??
       pick(page.hero.subtitle, locale) ??
-      'Montana is a family-owned Egyptian IQF frozen-food exporter since 1985 — from our Qalyub factory to 30 countries, HACCP-ISO-BRC certified. Meet the people behind the brand.',
+      'Montana is a family-owned Egyptian IQF frozen-food exporter since 1985 — from our Qalyub factory to 30 countries, BRCGS and ISO 22000 certified. Meet the people behind the brand.',
     keywords: page.seo?.keywords ?? [
       'Montana history',
       'Egyptian frozen-food family business',
       'Maamoun Brothers Group',
       'Qalyub factory',
-      'HACCP ISO GMP certifications',
+      'BRCGS ISO 22000 certifications',
     ],
     ogImage: page.seo?.ogImage,
   });

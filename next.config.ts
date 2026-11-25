@@ -216,7 +216,19 @@ const config: NextConfig = {
   },
 
   async redirects() {
-    return legacyRedirects();
+    return [
+      {
+        source: '/:locale(en|ar|fr|de)/news/haccp-certification',
+        destination: '/:locale/news/food-safety-at-montana',
+        permanent: true,
+      },
+      {
+        source: '/news/haccp-certification',
+        destination: '/en/news/food-safety-at-montana',
+        permanent: true,
+      },
+      ...legacyRedirects(),
+    ];
   },
 };
 

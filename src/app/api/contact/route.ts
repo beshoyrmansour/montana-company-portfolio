@@ -17,6 +17,8 @@ interface ContactPayload {
   name?: string;
   email?: string;
   company?: string;
+  country?: string;
+  reason?: string;
   subject?: string;
   message?: string;
   consent?: boolean | string;
@@ -41,19 +43,42 @@ function validate(
 ): { ok: true; data: ContactPayload } | { ok: false; errors: Record<string, string> } {
   const errors: Record<string, string> = {};
 
-  if (!body.name || body.name.trim().length < 2 || body.name.length > 100) {
+  if (typeof body.name !== 'string' || body.name.trim().length < 2 || body.name.length > 100) {
     errors.name = 'Name must be 2–100 characters';
   }
-  if (!body.email || body.email.length > 200 || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(body.email)) {
+  if (
+    typeof body.email !== 'string' ||
+    body.email.length > 200 ||
+    !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(body.email)
+  ) {
     errors.email = 'Valid email required';
   }
   if (!body.subject || !ALLOWED_SUBJECTS.has(body.subject)) {
     errors.subject = 'Invalid subject';
   }
-  if (!body.message || body.message.trim().length < 10 || body.message.length > 5000) {
+  if (
+    typeof body.message !== 'string' ||
+    body.message.trim().length < 10 ||
+    body.message.length > 5000
+  ) {
     errors.message = 'Message must be 10–5000 characters';
   }
-  if (!body.consent) {
+  if (
+    body.company !== undefined &&
+    (typeof body.company !== 'string' || body.company.length > 100)
+  ) {
+    errors.company = 'Company must be at most 100 characters';
+  }
+  if (
+    body.country !== undefined &&
+    (typeof body.country !== 'string' || body.country.length > 100)
+  ) {
+    errors.country = 'Country must be at most 100 characters';
+  }
+  if (body.reason !== undefined && (typeof body.reason !== 'string' || body.reason.length > 60)) {
+    errors.reason = 'Invalid reason';
+  }
+  if (body.consent !== true && body.consent !== 'on') {
     errors.consent = 'Consent required';
   }
   if (body.website && body.website.length > 0) {
@@ -93,6 +118,10 @@ export async function POST(request: Request): Promise<Response> {
     return Response.json({ error: 'invalid json' }, { status: 400 });
   }
 
+  if (!body || typeof body !== 'object' || Array.isArray(body)) {
+    return Response.json({ error: 'invalid' }, { status: 400 });
+  }
+
   const result = validate(body);
   if (!result.ok) {
     return Response.json({ error: 'invalid', errors: result.errors }, { status: 400 });
@@ -109,6 +138,8 @@ export async function POST(request: Request): Promise<Response> {
     email: clean(result.data.email!),
     company: result.data.company ? clean(result.data.company) : '',
     subject: result.data.subject!,
+    country: result.data.country ? clean(result.data.country) : '',
+    reason: result.data.reason ? clean(result.data.reason) : '',
     message: result.data.message!.trim(),
     ip,
     receivedAt: new Date().toISOString(),
@@ -119,18 +150,25 @@ export async function POST(request: Request): Promise<Response> {
   const toEmail = process.env.CONTACT_TO_EMAIL;
   const ccEmail = process.env.CONTACT_CC_EMAIL;
 
-  if (resendKey && fromEmail && toEmail) {
-    const subject = `[Montana website] ${safe.subject} — ${safe.name}`;
-    const html = `
-      <h2>New website inquiry</h2>
-      <p><strong>From:</strong> ${escapeHtml(safe.name)} &lt;${escapeHtml(safe.email)}&gt;</p>
-      ${safe.company ? `<p><strong>Company:</strong> ${escapeHtml(safe.company)}</p>` : ''}
-      <p><strong>Subject:</strong> ${safe.subject}</p>
-      <hr/>
-      <p style="white-space: pre-wrap">${escapeHtml(safe.message)}</p>
-      <hr/>
-      <p style="color: #888; font-size: 12px">Received at ${safe.receivedAt} from ${safe.ip}</p>
-    `;
+  if (!resendKey || !fromEmail || !toEmail) {
+    console.error('Contact form mail delivery is not configured.');
+    return Response.json({ error: 'mail_unavailable' }, { status: 503 });
+  }
+
+  const subject = `[Montana website] ${safe.subject} — ${safe.name}`;
+  const html = `
+    <h2>New website inquiry</h2>
+    <p><strong>From:</strong> ${escapeHtml(safe.name)} &lt;${escapeHtml(safe.email)}&gt;</p>
+    ${safe.company ? `<p><strong>Company:</strong> ${escapeHtml(safe.company)}</p>` : ''}
+    <p><strong>Subject:</strong> ${safe.subject}</p>
+    ${safe.reason ? `<p><strong>Inquiry reason:</strong> ${escapeHtml(safe.reason)}</p>` : ''}
+    ${safe.country ? `<p><strong>Destination country:</strong> ${escapeHtml(safe.country)}</p>` : ''}
+    <hr/>
+    <p style="white-space: pre-wrap">${escapeHtml(safe.message)}</p>
+    <hr/>
+    <p style="color: #888; font-size: 12px">Received at ${safe.receivedAt} from ${escapeHtml(safe.ip)}</p>
+  `;
+  try {
     const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
@@ -147,12 +185,12 @@ export async function POST(request: Request): Promise<Response> {
       }),
     });
     if (!res.ok) {
-      const text = await res.text();
-      console.error('Resend failure:', res.status, text);
+      console.error('Resend rejected contact form email:', res.status);
       return Response.json({ error: 'mail_failed' }, { status: 502 });
     }
-  } else {
-    console.log('Contact form submission (no Resend configured):', JSON.stringify(safe));
+  } catch {
+    console.error('Unable to reach Resend for contact form email.');
+    return Response.json({ error: 'mail_failed' }, { status: 502 });
   }
 
   return Response.json({ ok: true });
